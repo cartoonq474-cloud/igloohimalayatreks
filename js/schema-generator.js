@@ -12,10 +12,10 @@ export function injectStructuredData() {
     "@graph": [
       {
         "@type": "TravelAgency",
-        "@id": "https://namastehikingtrek.com/#agency",
-        "name": "Namaste Hiking Trek",
-        "url": "https://namastehikingtrek.com",
-        "logo": "https://namastehikingtrek.com/assets/logo.png",
+        "@id": "https://igloohimalayatreks.com/#agency",
+        "name": "Igloo Himalaya Treks",
+        "url": "https://igloohimalayatreks.com",
+        "logo": "https://igloohimalayatreks.com/assets/logo.png",
         "description": "Licensed local trekking company in Nepal specializing in Everest, Annapurna, Langtang, and Manaslu expeditions.",
         "telephone": "+977-1-4700000",
         "address": {
@@ -30,14 +30,14 @@ export function injectStructuredData() {
           "longitude": 85.3240
         },
         "sameAs": [
-          "https://www.facebook.com/namastehikingtrek",
-          "https://www.instagram.com/namastehikingtrek",
-          "https://www.tripadvisor.com/namastehikingtrek"
+          "https://www.facebook.com/igloohimalayatreks",
+          "https://www.instagram.com/igloohimalayatreks",
+          "https://www.tripadvisor.com/igloohimalayatreks"
         ]
       },
       {
         "@type": "TouristTrip",
-        "@id": "https://namastehikingtrek.com/trek/everest-base-camp-trek/#trip",
+        "@id": "https://igloohimalayatreks.com/trek/everest-base-camp-trek/#trip",
         "name": "Everest Base Camp Trek",
         "description": "14-day iconic teahouse trek through Sagarmatha National Park to Everest Base Camp (5,364m) and Kala Patthar (5,545m).",
         "touristType": ["Hikers", "Trekking Enthusiasts"],
@@ -59,7 +59,7 @@ export function injectStructuredData() {
       },
       {
         "@type": "FAQPage",
-        "@id": "https://namastehikingtrek.com/#faq",
+        "@id": "https://igloohimalayatreks.com/#faq",
         "mainEntity": [
           {
             "@type": "Question",

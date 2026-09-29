@@ -127,7 +127,7 @@ function setupGearChecklist(trekKey) {
 
   if (!checkboxes.length) return;
 
-  const storageKey = `namaste-gear-${trekKey || 'default'}`;
+  const storageKey = `igloo-gear-${trekKey || 'default'}`;
   
   // Load saved checklist states
   let savedStates = {};
@@ -310,7 +310,7 @@ function setupReadTracker(trekKey) {
   
   if (!cards.length) return;
 
-  const storageKey = `namaste-read-${trekKey || 'default'}`;
+  const storageKey = `igloo-read-${trekKey || 'default'}`;
   
   // Load read states
   let readStates = {};

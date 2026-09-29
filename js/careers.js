@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
               <h3 style="font-size: 1.5rem; color: #0F172A; margin-bottom: 8px;">Application Submitted Successfully!</h3>
               <p style="color: #64748B; font-size: 0.98rem; line-height: 1.6; max-width: 480px; margin: 0 auto 20px auto;">
-                Thank you for applying to Namaste Hiking Trek. Our HR & Expedition team will review your qualifications and reach out via email/WhatsApp shortly.
+                Thank you for applying to Igloo Himalaya Treks. Our HR & Expedition team will review your qualifications and reach out via email/WhatsApp shortly.
               </p>
               <button onclick="document.getElementById('career-application-modal').classList.remove('active')" class="btn btn-primary" style="padding: 10px 24px;">Close Window</button>
             </div>

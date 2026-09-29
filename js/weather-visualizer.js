@@ -47,7 +47,7 @@ const monthOffsets = {
 };
 
 let currentTab = "daily"; // "daily" or "monthly"
-let tempUnit = localStorage.getItem("namaste-temp-unit") || "c"; // "c" or "f"
+let tempUnit = localStorage.getItem("igloo-temp-unit") || "c"; // "c" or "f"
 let currentMonth = "January";
 
 function formatTemp(c) {
@@ -286,7 +286,7 @@ export function renderWeatherChart(containerId) {
   unitButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {
       tempUnit = e.target.getAttribute('data-unit');
-      localStorage.setItem("namaste-temp-unit", tempUnit);
+      localStorage.setItem("igloo-temp-unit", tempUnit);
       renderWeatherChart(containerId);
     });
   });

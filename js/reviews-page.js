@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
               <h3 style="font-size: 1.6rem; color: #0F172A; margin-bottom: 8px;">Review Submitted Successfully!</h3>
               <p style="color: #64748B; font-size: 0.98rem; line-height: 1.6; max-width: 480px; margin: 0 auto 20px auto;">
-                Thank you for sharing your experience with Namaste Hiking Trek! Our team will verify and publish your review shortly.
+                Thank you for sharing your experience with Igloo Himalaya Treks! Our team will verify and publish your review shortly.
               </p>
               <button onclick="document.getElementById('leave-review-modal').classList.remove('active')" class="btn btn-primary" style="padding: 10px 26px;">Close Window</button>
             </div>

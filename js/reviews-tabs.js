@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const resourceData = {
     webinars: [
       {
-        title: "Everest Base Camp High Altitude Ranking & Gear Webinar - By Namaste Sherpa Experts",
+        title: "Everest Base Camp High Altitude Ranking & Gear Webinar - By Igloo Himalaya Sherpa Experts",
         img: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
       },
       {
