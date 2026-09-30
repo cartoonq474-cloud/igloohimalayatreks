@@ -1712,7 +1712,7 @@ textarea {
   border-radius: 14px;
   overflow: hidden;
   position: relative;
-  background: url('https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=300&q=80') center/cover no-repeat;
+  background: url('images/hero-himalayas.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2782,6 +2782,7 @@ textarea {
   line-height: 1.45;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -3070,6 +3071,7 @@ textarea {
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -3931,6 +3933,7 @@ textarea {
   line-height: 1.45;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -4161,6 +4164,7 @@ textarea {
   line-height: 1.45;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -4431,6 +4435,7 @@ textarea {
   line-height: 1.45;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -8076,8 +8081,9 @@ textarea {
 .video-modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(14, 52, 88, 0.85);
+  background: rgba(14, 52, 88, 0.88);
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   z-index: 99999;
   display: none;
   align-items: center;
@@ -8096,10 +8102,16 @@ textarea {
   background: #ffffff;
   border-radius: 20px;
   width: 100%;
-  max-width: 720px;
+  max-width: 860px;
   padding: 24px;
   position: relative;
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+  transform: scale(0.95);
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.video-modal-overlay.active .video-modal-card {
+  transform: scale(1);
 }
 
 .video-modal-close-btn {
@@ -8108,24 +8120,30 @@ textarea {
   right: 16px;
   background: #f1f5f9;
   border: none;
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
   font-size: 1.5rem;
   line-height: 1;
   cursor: pointer;
   color: #0E3458;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: all 0.2s ease;
+  z-index: 2;
 }
 
 .video-modal-close-btn:hover {
   background: #e2e8f0;
   color: #ef4444;
+  transform: scale(1.08);
 }
 
 .video-modal-header {
   text-align: left;
   margin-bottom: 16px;
+  padding-right: 40px;
 }
 
 .video-modal-player-wrapper {
@@ -8134,6 +8152,15 @@ textarea {
   background: #000000;
   border-radius: 12px;
   overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.video-modal-player-wrapper video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  outline: none;
+  background: #000000;
 }
 
 @media (max-width: 992px) {
@@ -8282,6 +8309,7 @@ textarea {
   margin-bottom: 6px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   transition: max-height 0.3s ease;
@@ -8290,6 +8318,7 @@ textarea {
 .review-text-content.expanded {
   display: block;
   -webkit-line-clamp: unset;
+  line-clamp: unset;
   overflow: visible;
 }
 
@@ -9302,7 +9331,7 @@ textarea {
 
 /* =======================================================
    TREK DETAIL PAGE — MOBILE RESPONSIVE
-   Applies to trek/*/index.html pages
+   Applies to trek/[route]/index.html pages
    ======================================================= */
 
 /* Floating mobile Book CTA — hidden on desktop */
@@ -9477,7 +9506,7 @@ textarea {
 .regions-hero-section {
   position: relative;
   background: linear-gradient(135deg, rgba(14, 52, 88, 0.92) 0%, rgba(14, 52, 88, 0.96) 100%), 
-              url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+              url('images/hero-himalayas.jpg') center/cover no-repeat;
   color: #FFFFFF;
   padding: 85px 0 75px 0;
   text-align: center;
@@ -9834,7 +9863,7 @@ textarea {
 .careers-hero-section {
   position: relative;
   background: linear-gradient(135deg, rgba(14, 52, 88, 0.92) 0%, rgba(14, 52, 88, 0.96) 100%), 
-              url('https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+              url('images/hero-himalayas.jpg') center/cover no-repeat;
   color: #FFFFFF;
   padding: 90px 0 80px 0;
   text-align: center;

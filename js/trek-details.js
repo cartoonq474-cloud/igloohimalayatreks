@@ -686,7 +686,7 @@ function setupHimalayanReviews() {
     const openVideoModal = (card) => {
       const trekker = card.getAttribute('data-trekker') || 'Trekker';
       const trek = card.getAttribute('data-trek') || 'Himalayan Trek';
-      const videoUrl = card.getAttribute('data-video-url') || 'https://www.w3schools.com/html/mov_bbb.mp4';
+      const videoUrl = card.getAttribute('data-video-url') || '../../video/Clip%20Video%20Third.mp4';
       const bgImg = card.querySelector('.video-card-bg');
 
       if (modalTitle) modalTitle.textContent = `${trekker}'s Experience`;

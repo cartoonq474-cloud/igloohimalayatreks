@@ -78,6 +78,10 @@ export function setupInquiryModal() {
 
   // Robust document-level click listener for all button class variants
   document.addEventListener('click', (e) => {
+    // If the click is inside a video card or video trigger, ignore inquiry modal
+    if (e.target.closest('.play-video-trigger, .video-card, .video-story-card, .video-thumb-card, .how-works-video-wrapper, .video-review-card, [data-video-src], [data-video-url]')) {
+      return;
+    }
     const btn = e.target.closest('.open-inquiry-btn, .open-inquiry-modal-btn, .open-inquiry-modal-trigger, .btn-journey-pill, [data-inquiry-type]');
     if (btn) {
       e.preventDefault();

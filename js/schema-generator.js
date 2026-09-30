@@ -15,7 +15,7 @@ export function injectStructuredData() {
         "@id": "https://igloohimalayatreks.com/#agency",
         "name": "Igloo Himalaya Treks",
         "url": "https://igloohimalayatreks.com",
-        "logo": "https://igloohimalayatreks.com/assets/logo.png",
+        "logo": "https://igloohimalayatreks.com/images/logo.png",
         "description": "Licensed local trekking company in Nepal specializing in Everest, Annapurna, Langtang, and Manaslu expeditions.",
         "telephone": "+977-1-4700000",
         "address": {

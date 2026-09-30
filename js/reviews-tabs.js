@@ -88,58 +88,64 @@ document.addEventListener('DOMContentLoaded', () => {
   const resourceData = {
     webinars: [
       {
-        title: "Everest Base Camp High Altitude Ranking & Gear Webinar - By Igloo Himalaya Sherpa Experts",
-        img: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+        title: "Everest Base Camp High Altitude Ranking & Gear Webinar - By Igloo Himalaya",
+        img: "images/gallery-1-1.jpg",
+        videoSrc: "video/Clip%20Video%20First.mp4",
+        sub: "Igloo Himalaya Sherpa Masterclass"
       },
       {
         title: "Revealing Altitude Tactics You Already Know To Pass Thorong La In Annapurna Circuit",
-        img: "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=800&q=80"
+        img: "images/gallery-1-2.jpg",
+        videoSrc: "video/Clip%20Video%20Fourth.mp4",
+        sub: "Annapurna Circuit Technical Preparation"
       },
       {
         title: "Nepal Trekking Playbook: Exact Steps We Followed to Keep Our Trekkers Safe & Hydrated",
-        img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+        img: "images/gallery-1-3.jpg",
+        videoSrc: "video/Clip%20Video%20Second.mp4",
+        sub: "Himalayan Medical & Safety Protocol"
       }
     ],
     blogs: [
       {
         title: "Top 10 Essential Teahouse Etiquette Tips Every First-Time Everest Trekker Must Know",
-        img: "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?auto=format&fit=crop&w=800&q=80"
+        img: "images/gallery-1-4.jpg"
       },
       {
         title: "Autumn vs Spring in Nepal: How to Pick the Perfect Trekking Season for Clear Mountain Views",
-        img: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
+        img: "images/gallery-1-5.jpg"
       },
       {
         title: "Manaslu Circuit vs Annapurna Circuit: Comprehensive Route Breakdown and Permit Guide",
-        img: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80"
+        img: "images/gallery-1-6.jpg"
       }
     ],
     checklists: [
       {
         title: "Ultimate High-Altitude Gear & Packing Checklist for Everest Base Camp (Printable PDF)",
-        img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+        img: "images/gallery-1-7.jpg"
       },
       {
         title: "First-Aid Kit & Altitude Sickness Prevention Checklist for Himalayan Remote Expeditions",
-        img: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+        img: "images/gallery-2-1.jpg"
       },
       {
         title: "Kathmandu Rental Guide: What Sleeping Bags & Down Jackets to Rent in Thamel",
-        img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
+        img: "images/gallery-2-2.jpg"
       }
     ],
     ebooks: [
       {
         title: "Complete Himalayan Travel Guide E-Book: Permits, TIMS, Insurance & Helicopter Safety",
-        img: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80"
+        img: "images/gallery-2-3.jpg"
       },
       {
         title: "Sherpa Cultural Heritage & Monasteries Guide: Understanding Solukhumbu Traditions",
-        img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+        img: "images/gallery-3-1.jpg"
       },
       {
         title: "Tailor-Made Himalayan Itinerary Handbook: Designing Private & Group Trips to Nepal",
-        img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+        img: "images/gallery-3-2.jpg"
       }
     ]
   };
@@ -150,11 +156,14 @@ document.addEventListener('DOMContentLoaded', () => {
       resTabBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
+      const isWebinar = (catKey === 'webinars');
       const items = resourceData[catKey] || resourceData.webinars;
       const grid = document.querySelector('.resources-grid');
       if (grid) {
         grid.innerHTML = items.map(item => `
-          <div class="resource-card open-inquiry-btn">
+          <div class="resource-card ${isWebinar ? 'play-video-trigger' : 'open-inquiry-btn'}" 
+               data-res-type="${catKey}" 
+               ${isWebinar ? `data-video-src="${item.videoSrc}" data-video-title="${item.title}" data-video-sub="${item.sub}"` : ''}>
             <div class="resource-thumb-wrapper" style="background-image: url('${item.img}');">
               <div class="yt-play-button">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="#FFFFFF"><polygon points="9.5,7.5 16.5,12 9.5,16.5"/></svg>
