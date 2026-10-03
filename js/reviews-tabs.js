@@ -89,19 +89,19 @@ document.addEventListener('DOMContentLoaded', () => {
     webinars: [
       {
         title: "Everest Base Camp High Altitude Ranking & Gear Webinar - By Igloo Himalaya",
-        img: "images/gallery-1-1.jpg",
+        img: "images/gallery-1-1.webp",
         videoSrc: "video/Clip%20Video%20First.mp4",
         sub: "Igloo Himalaya Sherpa Masterclass"
       },
       {
         title: "Revealing Altitude Tactics You Already Know To Pass Thorong La In Annapurna Circuit",
-        img: "images/gallery-1-2.jpg",
+        img: "images/gallery-1-2.webp",
         videoSrc: "video/Clip%20Video%20Fourth.mp4",
         sub: "Annapurna Circuit Technical Preparation"
       },
       {
         title: "Nepal Trekking Playbook: Exact Steps We Followed to Keep Our Trekkers Safe & Hydrated",
-        img: "images/gallery-1-3.jpg",
+        img: "images/gallery-1-3.webp",
         videoSrc: "video/Clip%20Video%20Second.mp4",
         sub: "Himalayan Medical & Safety Protocol"
       }
@@ -109,43 +109,43 @@ document.addEventListener('DOMContentLoaded', () => {
     blogs: [
       {
         title: "Top 10 Essential Teahouse Etiquette Tips Every First-Time Everest Trekker Must Know",
-        img: "images/gallery-1-4.jpg"
+        img: "images/gallery-1-4.webp"
       },
       {
         title: "Autumn vs Spring in Nepal: How to Pick the Perfect Trekking Season for Clear Mountain Views",
-        img: "images/gallery-1-5.jpg"
+        img: "images/gallery-1-5.webp"
       },
       {
         title: "Manaslu Circuit vs Annapurna Circuit: Comprehensive Route Breakdown and Permit Guide",
-        img: "images/gallery-1-6.jpg"
+        img: "images/gallery-1-6.webp"
       }
     ],
     checklists: [
       {
         title: "Ultimate High-Altitude Gear & Packing Checklist for Everest Base Camp (Printable PDF)",
-        img: "images/gallery-1-7.jpg"
+        img: "images/gallery-1-7.webp"
       },
       {
         title: "First-Aid Kit & Altitude Sickness Prevention Checklist for Himalayan Remote Expeditions",
-        img: "images/gallery-2-1.jpg"
+        img: "images/gallery-2-1.webp"
       },
       {
         title: "Kathmandu Rental Guide: What Sleeping Bags & Down Jackets to Rent in Thamel",
-        img: "images/gallery-2-2.jpg"
+        img: "images/gallery-2-2.webp"
       }
     ],
     ebooks: [
       {
         title: "Complete Himalayan Travel Guide E-Book: Permits, TIMS, Insurance & Helicopter Safety",
-        img: "images/gallery-2-3.jpg"
+        img: "images/gallery-2-3.webp"
       },
       {
         title: "Sherpa Cultural Heritage & Monasteries Guide: Understanding Solukhumbu Traditions",
-        img: "images/gallery-3-1.jpg"
+        img: "images/gallery-3-1.webp"
       },
       {
         title: "Tailor-Made Himalayan Itinerary Handbook: Designing Private & Group Trips to Nepal",
-        img: "images/gallery-3-2.jpg"
+        img: "images/gallery-3-2.webp"
       }
     ]
   };

@@ -3,16 +3,30 @@
  * Handles: Scroll-Spy navigation, Smooth anchor scrolling, Collapsible itinerary, Gear checklist, Booking calculator
  */
 
-// Setup Anchor Scroll & Scroll Spy
+// Setup Anchor Scroll & Zero-Jank Scroll Spy (IntersectionObserver)
 function setupSubNavScrollSpy() {
   const subNavButtons = document.querySelectorAll('.trek-sub-nav-btn');
   const sections = document.querySelectorAll('.trek-detail-section');
   
-  if (!subNavButtons.length) return;
+  if (!subNavButtons.length || !sections.length) return;
 
   const headerHeight = 80;
   const subNavHeight = 58;
   const offset = headerHeight + subNavHeight + 15; // Offset compensation for sticky navigation bars
+
+  let isManualScrolling = false;
+  let manualScrollTimeout = null;
+
+  function setActiveButton(tabId) {
+    if (!tabId) return;
+    subNavButtons.forEach(btn => {
+      if (btn.getAttribute('data-tab') === tabId) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+  }
 
   // Smooth scroll to section on button click
   subNavButtons.forEach(btn => {
@@ -22,8 +36,8 @@ function setupSubNavScrollSpy() {
       const targetSection = document.getElementById(`section-${tabId}`);
       
       if (targetSection) {
-        // Temporarily detach scroll spy during manual scroll to prevent stutter
-        window.removeEventListener('scroll', handleScrollSpy);
+        isManualScrolling = true;
+        clearTimeout(manualScrollTimeout);
         
         subNavButtons.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
@@ -36,47 +50,51 @@ function setupSubNavScrollSpy() {
           behavior: 'smooth'
         });
 
-        // Re-attach scroll listener after smooth scroll completes
-        setTimeout(() => {
-          window.addEventListener('scroll', handleScrollSpy);
-        }, 800);
+        manualScrollTimeout = setTimeout(() => {
+          isManualScrolling = false;
+        }, 850);
       }
     });
   });
 
-  // Scroll spy active state switcher
-  function handleScrollSpy() {
-    let activeTabId = '';
-    const scrollPos = window.scrollY || document.documentElement.scrollTop;
+  // High-performance IntersectionObserver eliminates synchronous layout reflows
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      if (isManualScrolling) return;
 
-    sections.forEach(sec => {
-      const idAttr = sec.getAttribute('id');
-      if (!idAttr) return;
-      const secTop = sec.offsetTop - offset;
-      const secHeight = sec.offsetHeight;
-      if (scrollPos >= secTop - 10 && scrollPos < secTop + secHeight) {
-        activeTabId = idAttr.replace('section-', '');
-      }
-    });
-
-    // Fallback: if we are at the bottom of the page, activate the last tab (FAQs)
-    if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 60) {
-      activeTabId = 'faqs';
-    }
-
-    if (activeTabId) {
-      subNavButtons.forEach(btn => {
-        if (btn.getAttribute('data-tab') === activeTabId) {
-          btn.classList.add('active');
-        } else {
-          btn.classList.remove('active');
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const tabId = entry.target.id.replace('section-', '');
+          setActiveButton(tabId);
         }
       });
-    }
-  }
+    }, {
+      rootMargin: `-${offset}px 0px -55% 0px`,
+      threshold: [0, 0.1, 0.4]
+    });
 
-  window.addEventListener('scroll', handleScrollSpy);
-  handleScrollSpy();
+    sections.forEach(sec => observer.observe(sec));
+  } else {
+    // Passive throttled fallback
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+      if (isManualScrolling || ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        let activeTabId = '';
+        const scrollPos = window.scrollY || document.documentElement.scrollTop;
+        sections.forEach(sec => {
+          const secTop = sec.offsetTop - offset;
+          const secHeight = sec.offsetHeight;
+          if (scrollPos >= secTop - 10 && scrollPos < secTop + secHeight) {
+            activeTabId = sec.id.replace('section-', '');
+          }
+        });
+        if (activeTabId) setActiveButton(activeTabId);
+        ticking = false;
+      });
+    }, { passive: true });
+  }
 }
 
 // Setup Itinerary & FAQs Accordions

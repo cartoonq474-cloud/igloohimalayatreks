@@ -1,0 +1,445 @@
+
+=== HOMEPAGE (1) ===
+  - File: index.html
+    Canonical: (none)
+    Title: Igloo Himalaya Treks — Your Trusted Gateway to the Himalayas
+
+=== MAIN_LANDING_HUBS (2) ===
+  - File: nepal-tour-packages/index.html
+    Canonical: https://igloohimalayatreks.com/nepal-tour-packages/
+    Title: Nepal Tour Packages & Sightseeing — Igloo Himalaya Treks
+  - File: nepal-trekking-packages/index.html
+    Canonical: https://igloohimalayatreks.com/nepal-trekking-packages/
+    Title: All Himalayan Treks & Packages — Igloo Himalaya Treks
+
+=== REGIONAL_HUBS (13) ===
+  - File: annapurna-region-treks/index.html
+    Canonical: https://igloohimalayatreks.com/annapurna-region-treks/
+    Title: Annapurna Region Treks 2026: Routes, Maps, Packages & Complete Guide — Igloo Himalaya Treks
+  - File: dolpo-region-treks/index.html
+    Canonical: https://igloohimalayatreks.com/dolpo-region-treks/
+    Title: Dolpo Region Treks 2026: Upper & Lower Dolpo Guide — Igloo Himalaya Treks
+  - File: everest-region-treks/index.html
+    Canonical: https://igloohimalayatreks.com/everest-region-treks/
+    Title: Everest Region Treks 2026: Routes, Maps, Packages & Complete Guide — Igloo Himalaya Treks
+  - File: ganesh-himal-region-treks/index.html
+    Canonical: https://igloohimalayatreks.com/ganesh-himal-region-treks/
+    Title: Ganesh Himal & Ruby Valley Treks 2026 — Igloo Himalaya Treks
+  - File: kanchenjunga-region-treks/index.html
+    Canonical: https://igloohimalayatreks.com/kanchenjunga-region-treks/
+    Title: Kanchenjunga Region Treks 2026: North & South Base Camp — Igloo Himalaya Treks
+  - File: langtang-region-treks/index.html
+    Canonical: https://igloohimalayatreks.com/langtang-region-treks/
+    Title: Langtang Region Treks 2026: Packages, Maps & Guide — Igloo Himalaya Treks
+  - File: makalu-region-treks/index.html
+    Canonical: https://igloohimalayatreks.com/makalu-region-treks/
+    Title: Makalu Region Treks 2026: Base Camp & Barun Valley — Igloo Himalaya Treks
+  - File: manaslu-region-treks/index.html
+    Canonical: https://igloohimalayatreks.com/manaslu-region-treks/
+    Title: Manaslu Region Treks 2026: Packages, Routes & Guide — Igloo Himalaya Treks
+  - File: mustang-region-treks/index.html
+    Canonical: https://igloohimalayatreks.com/mustang-region-treks/
+    Title: Mustang Region Treks 2026: Upper Mustang, Lo Manthang & Guide — Igloo Himalaya Treks
+  - File: peak-climbing-nepal/index.html
+    Canonical: https://igloohimalayatreks.com/peak-climbing-nepal/
+    Title: Peak Climbing in Nepal 2026: Island, Mera, Lobuche — Igloo Himalaya Treks
+  - File: restricted-area-treks-nepal/index.html
+    Canonical: https://igloohimalayatreks.com/restricted-area-treks-nepal/
+    Title: Restricted Area Treks Nepal 2026: Permits & Packages — Igloo Himalaya Treks
+  - File: rolwaling-region-treks/index.html
+    Canonical: https://igloohimalayatreks.com/rolwaling-region-treks/
+    Title: Rolwaling Region Treks 2026: Tsho Rolpa & Tashi Lapcha — Igloo Himalaya Treks
+  - File: trekking-regions-nepal/index.html
+    Canonical: https://igloohimalayatreks.com/trekking-regions-nepal/
+    Title: Trekking Regions in Nepal: Complete Guide to Nepal's Himalayan Regions — Igloo Himalaya Treks
+
+=== INDIVIDUAL_TREKS (60) ===
+  - File: trek/abc-with-mardi-himal-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/abc-with-mardi-himal-trek/
+    Title: Annapurna Base Camp with Mardi Himal Trek (12 Days) — Igloo Himalaya Treks
+  - File: trek/annapurna-base-camp/index.html
+    Canonical: https://igloohimalayatreks.com/trek/annapurna-base-camp/
+    Title: Annapurna Base Camp Trek (10 Days) — Igloo Himalaya Treks
+  - File: trek/annapurna-base-camp-heli-return/index.html
+    Canonical: https://igloohimalayatreks.com/trek/annapurna-base-camp-heli-return/
+    Title: Annapurna Base Camp Trek with Helicopter Return (8 Days) — Igloo Himalaya Treks
+  - File: trek/annapurna-circuit-luxury-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/annapurna-circuit-luxury-trek/
+    Title: Annapurna Circuit Luxury Trek (12 Days) — Comfort Across Thorong La — Igloo Himalaya Treks
+  - File: trek/annapurna-circuit-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/annapurna-circuit-trek/
+    Title: Annapurna Circuit Trek (16 Days) — Igloo Himalaya Treks
+  - File: trek/annapurna-luxury-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/annapurna-luxury-trek/
+    Title: Annapurna Luxury Lodge Trek (7 Days) — Comfort & Heritage — Igloo Himalaya Treks
+  - File: trek/annapurna-sanctuary-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/annapurna-sanctuary-trek/
+    Title: Annapurna Sanctuary Trek (11 Days) — Igloo Himalaya Treks
+  - File: trek/annapurna-short-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/annapurna-short-trek/
+    Title: Annapurna Short Trek (4 Days) — Poon Hill & Ghandruk — Igloo Himalaya Treks
+  - File: trek/chisapani-nagarkot-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/chisapani-nagarkot-trek/
+    Title: Chisapani Nagarkot Trek (3 Days) — Kathmandu Valley Rim — Igloo Himalaya Treks
+  - File: trek/dhaulagiri-circuit-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/dhaulagiri-circuit-trek/
+    Title: Dhaulagiri Circuit Trek (18 Days) — Igloo Himalaya Treks
+  - File: trek/everest-base-camp-luxury-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/everest-base-camp-luxury-trek/
+    Title: Everest Base Camp Luxury Lodge Trek (14 Days) — Igloo Himalaya Treks
+  - File: trek/everest-base-camp-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/everest-base-camp-trek/
+    Title: Everest Base Camp Trek (14 Days) — Igloo Himalaya Treks
+  - File: trek/everest-base-camp-trek-without-flight/index.html
+    Canonical: https://igloohimalayatreks.com/trek/everest-base-camp-trek-without-flight/
+    Title: Everest Base Camp Trek Without Flight (Road-Based 16 Days) — Igloo Himalaya Treks
+  - File: trek/everest-base-camp-via-gokyo-lakes/index.html
+    Canonical: https://igloohimalayatreks.com/trek/everest-base-camp-via-gokyo-lakes/
+    Title: Everest Base Camp via Gokyo Lakes Trek (16 Days) — Igloo Himalaya Treks
+  - File: trek/everest-three-passes-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/everest-three-passes-trek/
+    Title: Everest Three Passes Trek (19 Days) — Igloo Himalaya Treks
+  - File: trek/everest-view-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/everest-view-trek/
+    Title: Everest View Trek (7 Days) — Igloo Himalaya Treks
+  - File: trek/ghorepani-poon-hill-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/ghorepani-poon-hill-trek/
+    Title: Ghorepani Poon Hill Trek (5 Days) — Igloo Himalaya Treks
+  - File: trek/ghorepani-poon-hill-with-mardi-himal-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/ghorepani-poon-hill-with-mardi-himal-trek/
+    Title: Ghorepani Poon Hill with Mardi Himal Trek (9 Days) — Igloo Himalaya Treks
+  - File: trek/gokyo-lake-trek-with-helicopter-return/index.html
+    Canonical: https://igloohimalayatreks.com/trek/gokyo-lake-trek-with-helicopter-return/
+    Title: Gokyo Lake Trek with Helicopter Return (9 Days) — Igloo Himalaya Treks
+  - File: trek/gokyo-lakes-and-cho-la-pass/index.html
+    Canonical: https://igloohimalayatreks.com/trek/gokyo-lakes-and-cho-la-pass/
+    Title: Gokyo Lakes & Cho La Pass Trek (15 Days) — Igloo Himalaya Treks
+  - File: trek/gokyo-lakes-luxury-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/gokyo-lakes-luxury-trek/
+    Title: Gokyo Lakes Luxury Lodge Trek (11 Days) — Igloo Himalaya Treks
+  - File: trek/gokyo-lakes-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/gokyo-lakes-trek/
+    Title: Gokyo Lakes Trek (12 Days) — Igloo Himalaya Treks
+  - File: trek/gosaikunda-lake-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/gosaikunda-lake-trek/
+    Title: Gosaikunda Lake Trek (7 Days) — Igloo Himalaya Treks
+  - File: trek/helambu-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/helambu-trek/
+    Title: Helambu Trek (6 Days) — Igloo Himalaya Treks
+  - File: trek/island-peak-climbing/index.html
+    Canonical: https://igloohimalayatreks.com/trek/island-peak-climbing/
+    Title: Island Peak Climbing with Everest Base Camp (6,189m — 19 Days) — Igloo Himalaya Treks
+  - File: trek/kanchenjunga-base-camp-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/kanchenjunga-base-camp-trek/
+    Title: Kanchenjunga Base Camp Trek (22 Days) — North & South Base Camp — Igloo Himalaya Treks
+  - File: trek/kanchenjunga-circuit-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/kanchenjunga-circuit-trek/
+    Title: Kanchenjunga Circuit Trek (22 Days) — North & South Base Camp — Igloo Himalaya Treks
+  - File: trek/kanchenjunga-trek-without-flight/index.html
+    Canonical: https://igloohimalayatreks.com/trek/kanchenjunga-trek-without-flight/
+    Title: Kanchenjunga Trek Without Flight (Road-Based 24 Days) — Igloo Himalaya Treks
+  - File: trek/khopra-ridge-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/khopra-ridge-trek/
+    Title: Khopra Ridge Trek (8 Days) — Igloo Himalaya Treks
+  - File: trek/langtang-gosaikunda-helambu-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/langtang-gosaikunda-helambu-trek/
+    Title: Langtang Gosaikunda Helambu Trek (16 Days) — Igloo Himalaya Treks
+  - File: trek/langtang-gosaikunda-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/langtang-gosaikunda-trek/
+    Title: Langtang Gosaikunda Trek (12 Days) — Igloo Himalaya Treks
+  - File: trek/langtang-valley-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/langtang-valley-trek/
+    Title: Langtang Valley Trek (8 Days) — Igloo Himalaya Treks
+  - File: trek/lobuche-peak-climbing/index.html
+    Canonical: https://igloohimalayatreks.com/trek/lobuche-peak-climbing/
+    Title: Lobuche East Peak Climbing with Everest Base Camp (6,119m — 19 Days) — Igloo Himalaya Treks
+  - File: trek/lower-dolpo-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/lower-dolpo-trek/
+    Title: Lower Dolpo Circuit Trek (18 Days) — Shey Phoksundo & Numa La — Igloo Himalaya Treks
+  - File: trek/lower-mustang-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/lower-mustang-trek/
+    Title: Lower Mustang Trek (8 Days) — Igloo Himalaya Treks
+  - File: trek/makalu-base-camp-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/makalu-base-camp-trek/
+    Title: Makalu Base Camp Trek (18 Days) — Igloo Himalaya Treks
+  - File: trek/manaslu-circuit-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/manaslu-circuit-trek/
+    Title: Manaslu Circuit Trek (14 Days) — Igloo Himalaya Treks
+  - File: trek/manaslu-circuit-trek-12-days/index.html
+    Canonical: https://igloohimalayatreks.com/trek/manaslu-circuit-trek-12-days/
+    Title: Manaslu Circuit Trek 12 Days (Fast Track) — Igloo Himalaya Treks
+  - File: trek/manaslu-tsum-valley-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/manaslu-tsum-valley-trek/
+    Title: Manaslu Tsum Valley Trek (18 Days) — Igloo Himalaya Treks
+  - File: trek/mardi-himal-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/mardi-himal-trek/
+    Title: Mardi Himal Trek (6 Days) — Igloo Himalaya Treks
+  - File: trek/mera-peak-climbing/index.html
+    Canonical: https://igloohimalayatreks.com/trek/mera-peak-climbing/
+    Title: Mera Peak Climbing Expedition (6,476m — 18 Days) — Igloo Himalaya Treks
+  - File: trek/mohare-danda-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/mohare-danda-trek/
+    Title: Mohare Danda Trek (5 Days) — Igloo Himalaya Treks
+  - File: trek/nar-phu-valley-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/nar-phu-valley-trek/
+    Title: Nar Phu Valley Trek (12 Days) — Igloo Himalaya Treks
+  - File: trek/panchase-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/panchase-trek/
+    Title: Panchase Trek (4 Days) — Igloo Himalaya Treks
+  - File: trek/pikey-peak-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/pikey-peak-trek/
+    Title: Pikey Peak Trek (7 Days) — Igloo Himalaya Treks
+  - File: trek/poon-hill-abc-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/poon-hill-abc-trek/
+    Title: Poon Hill & ABC Trek (12 Days) — Igloo Himalaya Treks
+  - File: trek/rara-lake-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/rara-lake-trek/
+    Title: Rara Lake Trek (10 Days) — Igloo Himalaya Treks
+  - File: trek/rolwaling-valley-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/rolwaling-valley-trek/
+    Title: Rolwaling Valley Trek (15 Days) — Igloo Himalaya Treks
+  - File: trek/ruby-valley-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/ruby-valley-trek/
+    Title: Ruby Valley Trek (9 Days) — Igloo Himalaya Treks
+  - File: trek/short-annapurna-base-camp-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/short-annapurna-base-camp-trek/
+    Title: Short Annapurna Base Camp Trek (6 Days) — Fast Track — Igloo Himalaya Treks
+  - File: trek/tamang-heritage-trail-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/tamang-heritage-trail-trek/
+    Title: Tamang Heritage Trail Trek (8 Days) — Igloo Himalaya Treks
+  - File: trek/tamang-heritage-trail-with-langtang-valley-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/tamang-heritage-trail-with-langtang-valley-trek/
+    Title: Tamang Heritage Trail with Langtang Valley Trek (14 Days) — Igloo Himalaya Treks
+  - File: trek/three-high-passes-with-island-peak-climb/index.html
+    Canonical: https://igloohimalayatreks.com/trek/three-high-passes-with-island-peak-climb/
+    Title: Three High Passes with Island Peak Climb (21 Days) — Igloo Himalaya Treks
+  - File: trek/tilicho-lake-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/tilicho-lake-trek/
+    Title: Tilicho Lake Trek (14 Days) — Igloo Himalaya Treks
+  - File: trek/tsum-valley-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/tsum-valley-trek/
+    Title: Tsum Valley Trek (14 Days) — Igloo Himalaya Treks
+  - File: trek/upper-dolpo-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/upper-dolpo-trek/
+    Title: Upper Dolpo Trek (24 Days) — Shey Gompa & Crystal Mountain — Igloo Himalaya Treks
+  - File: trek/upper-mustang-jeep-tour/index.html
+    Canonical: https://igloohimalayatreks.com/trek/upper-mustang-jeep-tour/
+    Title: Upper Mustang Jeep Tour (12 Days) — 4WD Overland Expedition — Igloo Himalaya Treks
+  - File: trek/upper-mustang-tiji-festival/index.html
+    Canonical: https://igloohimalayatreks.com/trek/upper-mustang-tiji-festival/
+    Title: Upper Mustang Tiji Festival Trek 2026 (15 Days) — Igloo Himalaya Treks
+  - File: trek/upper-mustang-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/upper-mustang-trek/
+    Title: Upper Mustang Trek (14 Days) — Lo Manthang & Sky Caves — Igloo Himalaya Treks
+  - File: trek/yala-peak-climbing/index.html
+    Canonical: https://igloohimalayatreks.com/trek/yala-peak-climbing/
+    Title: Yala Peak Climbing (5,500m / 11 Days) — Igloo Himalaya Treks
+
+=== INDIVIDUAL_TOURS (12) ===
+  - File: tour/chitwan-national-park-safari/index.html
+    Canonical: https://igloohimalayatreks.com/tour/chitwan-national-park-safari/
+    Title: Chitwan National Park Jungle Safari & Tharu Cultural Tour (3 Days) — Igloo Himalaya Treks
+  - File: tour/cycling-tour-around-kathmandu-valley/index.html
+    Canonical: https://igloohimalayatreks.com/tour/cycling-tour-around-kathmandu-valley/
+    Title: Cycling Tour Around Kathmandu Valley (1–2 Days) — Mountain Biking Adventure — Igloo Himalaya Treks
+  - File: tour/everest-base-camp-helicopter-tour/index.html
+    Canonical: https://igloohimalayatreks.com/tour/everest-base-camp-helicopter-tour/
+    Title: Everest Base Camp 1-Day Helicopter Tour with Kala Patthar Landing — Igloo Himalaya Treks
+  - File: tour/honeymoon-tour-in-nepal/index.html
+    Canonical: https://igloohimalayatreks.com/tour/honeymoon-tour-in-nepal/
+    Title: Honeymoon Tour in Nepal (8 Days) — Romantic Luxury Himalayan Escape — Igloo Himalaya Treks
+  - File: tour/jamacho-hike/index.html
+    Canonical: https://igloohimalayatreks.com/tour/jamacho-hike/
+    Title: Jamacho Peak Day Hike (2,128m) — Shivapuri Nagarjun National Park — Igloo Himalaya Treks
+  - File: tour/kathmandu-cultural-heritage-tour/index.html
+    Canonical: https://igloohimalayatreks.com/tour/kathmandu-cultural-heritage-tour/
+    Title: Kathmandu Valley UNESCO World Heritage Cultural Tour (4 Days) — Igloo Himalaya Treks
+  - File: tour/kathmandu-pokhara-chitwan-tour/index.html
+    Canonical: https://igloohimalayatreks.com/tour/kathmandu-pokhara-chitwan-tour/
+    Title: Best of Nepal: Kathmandu, Pokhara & Chitwan Wildlife Tour (8 Days) — Igloo Himalaya Treks
+  - File: tour/nagarkot-sunrise-bhaktapur-tour/index.html
+    Canonical: https://igloohimalayatreks.com/tour/nagarkot-sunrise-bhaktapur-tour/
+    Title: Nagarkot Himalayan Sunrise & Bhaktapur Ancient City Tour (3 Days) — Igloo Himalaya Treks
+  - File: tour/nepal-luxury-helicopter-tour/index.html
+    Canonical: https://igloohimalayatreks.com/tour/nepal-luxury-helicopter-tour/
+    Title: Nepal Everest & Annapurna Luxury Helicopter Sightseeing Tour (5 Days) — Igloo Himalaya Treks
+  - File: tour/one-day-kathmandu-city-tour/index.html
+    Canonical: https://igloohimalayatreks.com/tour/one-day-kathmandu-city-tour/
+    Title: One Day Kathmandu City Tour — 4 UNESCO World Heritage Sites | Igloo Himalaya Treks
+  - File: tour/pokhara-valley-nature-tour/index.html
+    Canonical: https://igloohimalayatreks.com/tour/pokhara-valley-nature-tour/
+    Title: Pokhara Lakes, Caves & Sarangkot Himalayan Sunrise Tour (4 Days) — Igloo Himalaya Treks
+  - File: tour/rara-lake-jeep-tour/index.html
+    Canonical: https://igloohimalayatreks.com/tour/rara-lake-jeep-tour/
+    Title: 7-Day Rara Lake Jeep Tour — Overland 4WD Karnali Expedition — Igloo Himalaya Treks
+
+=== TRAVEL_GUIDES (5) ===
+  - File: equipment-checklist/index.html
+    Canonical: https://igloohimalayatreks.com/equipment-checklist/
+    Title: Comprehensive Nepal Trekking Equipment Checklist & Packing Guide — Igloo Himalaya Treks
+  - File: nepal-travel-guide/index.html
+    Canonical: https://igloohimalayatreks.com/nepal-travel-guide/
+    Title: Nepal Travel Guide 2026: Complete Himalayan Trekking Handbook — Igloo Himalaya Treks
+  - File: nepal-visa/index.html
+    Canonical: https://igloohimalayatreks.com/nepal-visa/
+    Title: Nepal Tourist Visa on Arrival & Application Guide (2026 Updated) — Igloo Himalaya Treks
+  - File: recommended-medical-kit/index.html
+    Canonical: https://igloohimalayatreks.com/recommended-medical-kit/
+    Title: Recommended Medical Kit & High-Altitude Pharmacy for Nepal — Igloo Himalaya Treks
+  - File: travel-insurance/index.html
+    Canonical: https://igloohimalayatreks.com/travel-insurance/
+    Title: Travel & Emergency Helicopter Evacuation Insurance for Nepal — Igloo Himalaya Treks
+
+=== TEAM_PROFILES (6) ===
+  - File: team/ang-tshering-sherpa.html
+    Canonical: https://igloohimalayatreks.com/team/ang-tshering-sherpa.html
+    Title: Ang Tshering Sherpa — Founder & Managing Director · 5x Everest Summitter | Igloo Himalaya Treks
+  - File: team/dawa-tenzing-sherpa.html
+    Canonical: https://igloohimalayatreks.com/team/dawa-tenzing-sherpa.html
+    Title: Dawa Tenzing Sherpa — High Pass Specialist · Manaslu & Annapurna | Igloo Himalaya Treks
+  - File: team/lakpa-nuru-sherpa.html
+    Canonical: https://igloohimalayatreks.com/team/lakpa-nuru-sherpa.html
+    Title: Lakpa Nuru Sherpa — Peak Climbing Leader · Island & Mera Peak | Igloo Himalaya Treks
+  - File: team/mingma-sherpa.html
+    Canonical: https://igloohimalayatreks.com/team/mingma-sherpa.html
+    Title: Mingma Sherpa — Wilderness Medic & Senior Guide · Rolwaling | Igloo Himalaya Treks
+  - File: team/pasang-nuru-sherpa.html
+    Canonical: https://igloohimalayatreks.com/team/pasang-nuru-sherpa.html
+    Title: Pasang Nuru Sherpa — Head of Mountain Operations · High Pass Specialist | Igloo Himalaya Treks
+  - File: team/pemba-sherpa.html
+    Canonical: https://igloohimalayatreks.com/team/pemba-sherpa.html
+    Title: Pemba Sherpa — Senior Lead Sherpa Guide · EBC & Three Passes | Igloo Himalaya Treks
+
+=== COMPANY_PAGES (9) ===
+  - File: about.html
+    Canonical: https://igloohimalayatreks.com/about.html
+    Title: About Us — The Local Team Behind Your Himalayan Journey | Igloo Himalaya Treks
+  - File: blogs.html
+    Canonical: (none)
+    Title: Blog & Himalayan Travel Guides — Igloo Himalaya Treks
+  - File: careers.html
+    Canonical: https://igloohimalayatreks.com/careers.html
+    Title: Careers & Opportunities — Igloo Himalaya Treks
+  - File: contact.html
+    Canonical: (none)
+    Title: Contact Us — Igloo Himalaya Treks
+  - File: custom-plan.html
+    Canonical: (none)
+    Title: Tailor-Made Himalayan Trip Builder — Igloo Himalaya Treks
+  - File: privacy-policy.html
+    Canonical: (none)
+    Title: Privacy Policy — Igloo Himalaya Treks
+  - File: reviews.html
+    Canonical: https://igloohimalayatreks.com/reviews.html
+    Title: Trekker Reviews & Testimonials — Igloo Himalaya Treks
+  - File: team.html
+    Canonical: https://igloohimalayatreks.com/team.html
+    Title: Meet Our Team & Sherpa Guides — Igloo Himalaya Treks
+  - File: terms-and-conditions.html
+    Canonical: (none)
+    Title: Terms & Conditions — Igloo Himalaya Treks
+
+=== REDIRECT_STUBS (20) ===
+  - File: regions.html
+    Canonical: trekking-regions-nepal/
+    Title: Redirecting to Trekking Regions in Nepal — Igloo Himalaya Treks
+    Redirects To: trekking-regions-nepal/
+  - File: tour/everest-base-camp-heli-tour/index.html
+    Canonical: (none)
+    Title: Redirecting...
+    Redirects To: ../everest-base-camp-helicopter-tour/
+  - File: tour/gokyo-lake-helicopter-tour/index.html
+    Canonical: (none)
+    Title: Redirecting...
+    Redirects To: ../everest-base-camp-helicopter-tour/
+  - File: tour/upper-mustang-jeep-tour/index.html
+    Canonical: https://igloohimalayatreks.com/trek/upper-mustang-jeep-tour/
+    Title: Redirecting to Upper Mustang Jeep Tour — Igloo Himalaya Treks
+    Redirects To: /trek/upper-mustang-jeep-tour/
+  - File: tours-nepal/index.html
+    Canonical: https://igloohimalayatreks.com/nepal-tour-packages/
+    Title: Redirecting to Nepal Tour Packages...
+    Redirects To: ../nepal-tour-packages/
+  - File: tours.html
+    Canonical: https://igloohimalayatreks.com/nepal-tour-packages/
+    Title: Redirecting to Nepal Tour Packages...
+    Redirects To: nepal-tour-packages/
+  - File: travel-info.html
+    Canonical: https://igloohimalayatreks.com/nepal-travel-guide/
+    Title: Redirecting to Nepal Travel Guide — Igloo Himalaya Treks
+    Redirects To: nepal-travel-guide/
+  - File: trek/annapurna-base-camp-helicopter-return-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/annapurna-base-camp-heli-return/
+    Title: Redirecting to Annapurna Base Camp Trek with Helicopter Return...
+    Redirects To: ../annapurna-base-camp-heli-return/
+  - File: trek/ebc-trek-with-island-peak/index.html
+    Canonical: (none)
+    Title: Redirecting...
+    Redirects To: ../island-peak-climbing/
+  - File: trek/everest-base-camp-chola-pass-gokyo-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/everest-base-camp-via-gokyo-lakes/
+    Title: Redirecting...
+    Redirects To: /trek/everest-base-camp-via-gokyo-lakes/
+  - File: trek/everest-base-camp-trek-road-based/index.html
+    Canonical: (none)
+    Title: Redirecting...
+    Redirects To: ../everest-base-camp-trek-without-flight/
+  - File: trek/everest-base-camp-with-island-peak-climb/index.html
+    Canonical: (none)
+    Title: Redirecting...
+    Redirects To: ../island-peak-climbing/
+  - File: trek/everest-chola-and-renjo-la-pass-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/everest-three-passes-trek/
+    Title: Redirecting...
+    Redirects To: /trek/everest-three-passes-trek/
+  - File: trek/gokyo-lake-with-renjo-la-pass-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/gokyo-lakes-trek/
+    Title: Redirecting...
+    Redirects To: /trek/gokyo-lakes-trek/
+  - File: trek/kanchenjunga-circuit-trek-nepal/index.html
+    Canonical: https://igloohimalayatreks.com/trek/kanchenjunga-circuit-trek/
+    Title: Redirecting to Kanchenjunga Circuit Trek — Igloo Himalaya Treks
+    Redirects To: /trek/kanchenjunga-circuit-trek/
+  - File: trek/lobuche-peak-climbing-trek/index.html
+    Canonical: (none)
+    Title: Redirecting...
+    Redirects To: ../lobuche-peak-climbing/
+  - File: trek/manaslu-circuit-with-tsum-valley-trek/index.html
+    Canonical: https://igloohimalayatreks.com/trek/manaslu-tsum-valley-trek/
+    Title: Redirecting to Manaslu Tsum Valley Trek...
+    Redirects To: /trek/manaslu-tsum-valley-trek/
+  - File: trek/mera-peak/index.html
+    Canonical: (none)
+    Title: Redirecting...
+    Redirects To: ../mera-peak-climbing/
+  - File: trek/tamang-heritage-trail-langtang-valley/index.html
+    Canonical: https://igloohimalayatreks.com/trek/tamang-heritage-trail-with-langtang-valley-trek/
+    Title: Redirecting to Tamang Heritage Trail with Langtang Valley Trek...
+    Redirects To: /trek/tamang-heritage-trail-with-langtang-valley-trek/
+  - File: treks.html
+    Canonical: https://igloohimalayatreks.com/nepal-trekking-packages/
+    Title: Redirecting to Nepal Trekking Packages...
+    Redirects To: nepal-trekking-packages/
+
+=== FLAT_HTML_VARIANTS (7) ===
+  - File: equipment-checklist.html
+    Canonical: https://igloohimalayatreks.com/equipment-checklist/
+    Title: Comprehensive Nepal Trekking Equipment Checklist & Packing Guide — Igloo Himalaya Treks
+  - File: nepal-tour-packages.html
+    Canonical: https://igloohimalayatreks.com/nepal-tour-packages/
+    Title: Nepal Tour Packages & Sightseeing — Igloo Himalaya Treks
+  - File: nepal-travel-guide.html
+    Canonical: https://igloohimalayatreks.com/nepal-travel-guide/
+    Title: Nepal Travel Guide 2026: Complete Himalayan Trekking Handbook — Igloo Himalaya Treks
+  - File: nepal-trekking-packages.html
+    Canonical: https://igloohimalayatreks.com/nepal-trekking-packages/
+    Title: All Himalayan Treks & Packages — Igloo Himalaya Treks
+  - File: nepal-visa.html
+    Canonical: https://igloohimalayatreks.com/nepal-visa/
+    Title: Nepal Tourist Visa on Arrival & Application Guide (2026 Updated) — Igloo Himalaya Treks
+  - File: recommended-medical-kit.html
+    Canonical: https://igloohimalayatreks.com/recommended-medical-kit/
+    Title: Recommended Medical Kit & High-Altitude Pharmacy for Nepal — Igloo Himalaya Treks
+  - File: travel-insurance.html
+    Canonical: https://igloohimalayatreks.com/travel-insurance/
+    Title: Travel & Emergency Helicopter Evacuation Insurance for Nepal — Igloo Himalaya Treks

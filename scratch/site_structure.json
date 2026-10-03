@@ -1,0 +1,639 @@
+{
+  "totalFiles": 88,
+  "categories": {
+    "Core Company & Static Pages": [
+      {
+        "rel": "about.html",
+        "title": "About Us — The Local Team Behind Your Himalayan Journey | Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/about.html",
+        "redirect": "",
+        "h1": "Meet the People Behind Your Himalayan Adventure"
+      },
+      {
+        "rel": "blogs.html",
+        "title": "Blog & Himalayan Travel Guides — Igloo Himalaya Treks",
+        "canonical": "",
+        "redirect": "",
+        "h1": "Blog & Trekking Travel Guides"
+      },
+      {
+        "rel": "careers.html",
+        "title": "Careers & Opportunities — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/careers.html",
+        "redirect": "",
+        "h1": "Build Your Career in the Heart of the Himalayas"
+      },
+      {
+        "rel": "contact.html",
+        "title": "Contact Us — Igloo Himalaya Treks",
+        "canonical": "",
+        "redirect": "",
+        "h1": "Contact Igloo Himalaya Treks"
+      },
+      {
+        "rel": "custom-plan.html",
+        "title": "Tailor-Made Himalayan Trip Builder — Igloo Himalaya Treks",
+        "canonical": "",
+        "redirect": "",
+        "h1": "Design Your Dream Himalayan Expedition"
+      },
+      {
+        "rel": "index.html",
+        "title": "Igloo Himalaya Treks — Your Trusted Gateway to the Himalayas",
+        "canonical": "https://igloohimalayatreks.com/",
+        "redirect": "",
+        "h1": "Best Trekking Agency: Authentic & Safe Himalayan Expeditions"
+      },
+      {
+        "rel": "privacy-policy.html",
+        "title": "Privacy Policy — Igloo Himalaya Treks",
+        "canonical": "",
+        "redirect": "",
+        "h1": "Privacy Policy"
+      },
+      {
+        "rel": "reviews.html",
+        "title": "Trekker Reviews & Testimonials — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/reviews.html",
+        "redirect": "",
+        "h1": "Real Stories from Real Trekkers"
+      },
+      {
+        "rel": "team.html",
+        "title": "Meet Our Team & Sherpa Guides — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/team.html",
+        "redirect": "",
+        "h1": "Meet the Sherpas & Experts Behind Your Expedition"
+      },
+      {
+        "rel": "terms-and-conditions.html",
+        "title": "Terms & Conditions — Igloo Himalaya Treks",
+        "canonical": "",
+        "redirect": "",
+        "h1": "Terms & Conditions"
+      }
+    ],
+    "Regional Destination Hubs": [
+      {
+        "rel": "annapurna-region-treks/index.html",
+        "title": "Annapurna Region Treks 2026: Routes, Maps, Packages & Complete Guide — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/annapurna-region-treks/",
+        "redirect": "",
+        "h1": "Annapurna Region Treks"
+      },
+      {
+        "rel": "dolpo-region-treks/index.html",
+        "title": "Dolpo Region Treks 2026: Upper & Lower Dolpo Guide — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/dolpo-region-treks/",
+        "redirect": "",
+        "h1": "Dolpo Region Treks"
+      },
+      {
+        "rel": "everest-region-treks/index.html",
+        "title": "Everest Region Treks 2026: Routes, Maps, Packages & Complete Guide — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/everest-region-treks/",
+        "redirect": "",
+        "h1": "Everest Region Treks"
+      },
+      {
+        "rel": "ganesh-himal-region-treks/index.html",
+        "title": "Ganesh Himal & Ruby Valley Treks 2026 — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/ganesh-himal-region-treks/",
+        "redirect": "",
+        "h1": "Ganesh Himal Region Treks"
+      },
+      {
+        "rel": "kanchenjunga-region-treks/index.html",
+        "title": "Kanchenjunga Region Treks 2026: North & South Base Camp — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/kanchenjunga-region-treks/",
+        "redirect": "",
+        "h1": "Kanchenjunga Region Treks"
+      },
+      {
+        "rel": "langtang-region-treks/index.html",
+        "title": "Langtang Region Treks 2026: Packages, Maps & Guide — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/langtang-region-treks/",
+        "redirect": "",
+        "h1": "Langtang Region Treks"
+      },
+      {
+        "rel": "makalu-region-treks/index.html",
+        "title": "Makalu Region Treks 2026: Base Camp & Barun Valley — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/makalu-region-treks/",
+        "redirect": "",
+        "h1": "Makalu Region Treks"
+      },
+      {
+        "rel": "manaslu-region-treks/index.html",
+        "title": "Manaslu Region Treks 2026: Packages, Routes & Guide — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/manaslu-region-treks/",
+        "redirect": "",
+        "h1": "Manaslu Region Treks"
+      },
+      {
+        "rel": "mustang-region-treks/index.html",
+        "title": "Mustang Region Treks 2026: Upper Mustang, Lo Manthang & Guide — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/mustang-region-treks/",
+        "redirect": "",
+        "h1": "Mustang Region Treks"
+      },
+      {
+        "rel": "peak-climbing-nepal/index.html",
+        "title": "Peak Climbing in Nepal 2026: Island, Mera, Lobuche — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/peak-climbing-nepal/",
+        "redirect": "",
+        "h1": "Peak Climbing in Nepal"
+      },
+      {
+        "rel": "restricted-area-treks-nepal/index.html",
+        "title": "Restricted Area Treks Nepal 2026: Permits & Packages — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/restricted-area-treks-nepal/",
+        "redirect": "",
+        "h1": "Restricted Area Treks in Nepal"
+      },
+      {
+        "rel": "rolwaling-region-treks/index.html",
+        "title": "Rolwaling Region Treks 2026: Tsho Rolpa & Tashi Lapcha — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/rolwaling-region-treks/",
+        "redirect": "",
+        "h1": "Rolwaling Region Treks"
+      },
+      {
+        "rel": "trekking-regions-nepal/index.html",
+        "title": "Trekking Regions in Nepal: Complete Guide to Nepal's Himalayan Regions — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trekking-regions-nepal/",
+        "redirect": "",
+        "h1": "Trekking Regions in Nepal"
+      }
+    ],
+    "Traveler Information & Resources": [
+      {
+        "rel": "equipment-checklist/index.html",
+        "title": "Comprehensive Nepal Trekking Equipment Checklist & Packing Guide — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/equipment-checklist/",
+        "redirect": "",
+        "h1": "Nepal Trekking Equipment Checklist"
+      },
+      {
+        "rel": "equipment-checklist.html",
+        "title": "Comprehensive Nepal Trekking Equipment Checklist & Packing Guide — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/equipment-checklist/",
+        "redirect": "",
+        "h1": "Nepal Trekking Equipment Checklist"
+      },
+      {
+        "rel": "nepal-travel-guide/index.html",
+        "title": "Nepal Travel Guide 2026: Complete Himalayan Trekking Handbook — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/nepal-travel-guide/",
+        "redirect": "",
+        "h1": "The Complete Nepal Travel Guide"
+      },
+      {
+        "rel": "nepal-travel-guide.html",
+        "title": "Nepal Travel Guide 2026: Complete Himalayan Trekking Handbook — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/nepal-travel-guide/",
+        "redirect": "",
+        "h1": "The Complete Nepal Travel Guide"
+      },
+      {
+        "rel": "nepal-visa/index.html",
+        "title": "Nepal Tourist Visa on Arrival & Application Guide (2026 Updated) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/nepal-visa/",
+        "redirect": "",
+        "h1": "Nepal Tourist Visa Guide (2026)"
+      },
+      {
+        "rel": "nepal-visa.html",
+        "title": "Nepal Tourist Visa on Arrival & Application Guide (2026 Updated) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/nepal-visa/",
+        "redirect": "",
+        "h1": "Nepal Tourist Visa Guide (2026)"
+      },
+      {
+        "rel": "recommended-medical-kit/index.html",
+        "title": "Recommended Medical Kit & High-Altitude Pharmacy for Nepal — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/recommended-medical-kit/",
+        "redirect": "",
+        "h1": "Recommended Nepal Trekking Medical Kit"
+      },
+      {
+        "rel": "recommended-medical-kit.html",
+        "title": "Recommended Medical Kit & High-Altitude Pharmacy for Nepal — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/recommended-medical-kit/",
+        "redirect": "",
+        "h1": "Recommended Nepal Trekking Medical Kit"
+      },
+      {
+        "rel": "travel-insurance/index.html",
+        "title": "Travel & Emergency Helicopter Evacuation Insurance for Nepal — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/travel-insurance/",
+        "redirect": "",
+        "h1": "Nepal Trekking Travel & Helicopter Insurance"
+      },
+      {
+        "rel": "travel-insurance.html",
+        "title": "Travel & Emergency Helicopter Evacuation Insurance for Nepal — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/travel-insurance/",
+        "redirect": "",
+        "h1": "Nepal Trekking Travel & Helicopter Insurance"
+      }
+    ],
+    "Tours Hub / Category": [
+      {
+        "rel": "nepal-tour-packages/index.html",
+        "title": "Nepal Tour Packages & Sightseeing — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/nepal-tour-packages/",
+        "redirect": "",
+        "h1": "Nepal Tour Packages & Sightseeing"
+      },
+      {
+        "rel": "nepal-tour-packages.html",
+        "title": "Nepal Tour Packages & Sightseeing — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/nepal-tour-packages/",
+        "redirect": "",
+        "h1": "Nepal Tour Packages & Sightseeing"
+      }
+    ],
+    "Treks Hub / Catalog": [
+      {
+        "rel": "nepal-trekking-packages/index.html",
+        "title": "All Himalayan Treks & Packages — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+        "redirect": "",
+        "h1": "Explore All Nepal Trekking Packages"
+      },
+      {
+        "rel": "nepal-trekking-packages.html",
+        "title": "All Himalayan Treks & Packages — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+        "redirect": "",
+        "h1": "Explore All Nepal Trekking Packages"
+      }
+    ],
+    "Redirect / Shorthand Aliases": [
+      {
+        "rel": "regions.html",
+        "title": "Redirecting to Trekking Regions in Nepal — Igloo Himalaya Treks",
+        "canonical": "trekking-regions-nepal/",
+        "redirect": "trekking-regions-nepal/",
+        "h1": ""
+      },
+      {
+        "rel": "tours-nepal/index.html",
+        "title": "Redirecting to Nepal Tour Packages...",
+        "canonical": "https://igloohimalayatreks.com/nepal-tour-packages/",
+        "redirect": "../nepal-tour-packages/",
+        "h1": ""
+      },
+      {
+        "rel": "tours.html",
+        "title": "Redirecting to Nepal Tour Packages...",
+        "canonical": "https://igloohimalayatreks.com/nepal-tour-packages/",
+        "redirect": "nepal-tour-packages/",
+        "h1": ""
+      },
+      {
+        "rel": "travel-info.html",
+        "title": "Redirecting to Nepal Travel Guide — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/nepal-travel-guide/",
+        "redirect": "nepal-travel-guide/",
+        "h1": ""
+      },
+      {
+        "rel": "treks.html",
+        "title": "Redirecting to Nepal Trekking Packages...",
+        "canonical": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+        "redirect": "nepal-trekking-packages/",
+        "h1": ""
+      }
+    ],
+    "Sherpa Guide / Team Bios": [
+      {
+        "rel": "team/ang-tshering-sherpa.html",
+        "title": "Ang Tshering Sherpa — Founder & Managing Director · 5x Everest Summitter | Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/team/ang-tshering-sherpa.html",
+        "redirect": "",
+        "h1": "Ang Tshering Sherpa"
+      },
+      {
+        "rel": "team/dawa-tenzing-sherpa.html",
+        "title": "Dawa Tenzing Sherpa — High Pass Specialist · Manaslu & Annapurna | Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/team/dawa-tenzing-sherpa.html",
+        "redirect": "",
+        "h1": "Dawa Tenzing Sherpa"
+      },
+      {
+        "rel": "team/lakpa-nuru-sherpa.html",
+        "title": "Lakpa Nuru Sherpa — Peak Climbing Leader · Island & Mera Peak | Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/team/lakpa-nuru-sherpa.html",
+        "redirect": "",
+        "h1": "Lakpa Nuru Sherpa"
+      },
+      {
+        "rel": "team/mingma-sherpa.html",
+        "title": "Mingma Sherpa — Wilderness Medic & Senior Guide · Rolwaling | Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/team/mingma-sherpa.html",
+        "redirect": "",
+        "h1": "Mingma Sherpa"
+      },
+      {
+        "rel": "team/pasang-nuru-sherpa.html",
+        "title": "Pasang Nuru Sherpa — Head of Mountain Operations · High Pass Specialist | Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/team/pasang-nuru-sherpa.html",
+        "redirect": "",
+        "h1": "Pasang Nuru Sherpa"
+      },
+      {
+        "rel": "team/pemba-sherpa.html",
+        "title": "Pemba Sherpa — Senior Lead Sherpa Guide · EBC & Three Passes | Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/team/pemba-sherpa.html",
+        "redirect": "",
+        "h1": "Pemba Sherpa"
+      }
+    ],
+    "Tour Detail Packages": [
+      {
+        "rel": "tour/chitwan-national-park-safari/index.html",
+        "title": "Chitwan National Park Jungle Safari & Tharu Cultural Tour (3 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/tour/chitwan-national-park-safari/",
+        "redirect": "",
+        "h1": "Chitwan National Park Jungle Safari & Tharu Cultural Tour"
+      },
+      {
+        "rel": "tour/kathmandu-cultural-heritage-tour/index.html",
+        "title": "Kathmandu Valley UNESCO World Heritage Cultural Tour (4 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/tour/kathmandu-cultural-heritage-tour/",
+        "redirect": "",
+        "h1": "Kathmandu Valley UNESCO World Heritage Cultural Tour"
+      },
+      {
+        "rel": "tour/kathmandu-pokhara-chitwan-tour/index.html",
+        "title": "Best of Nepal: Kathmandu, Pokhara & Chitwan Wildlife Tour (8 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/tour/kathmandu-pokhara-chitwan-tour/",
+        "redirect": "",
+        "h1": "Best of Nepal: Kathmandu, Pokhara & Chitwan Wildlife Tour"
+      },
+      {
+        "rel": "tour/nagarkot-sunrise-bhaktapur-tour/index.html",
+        "title": "Nagarkot Himalayan Sunrise & Bhaktapur Ancient City Tour (3 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/tour/nagarkot-sunrise-bhaktapur-tour/",
+        "redirect": "",
+        "h1": "Nagarkot Himalayan Sunrise & Bhaktapur Ancient City Tour"
+      },
+      {
+        "rel": "tour/nepal-luxury-helicopter-tour/index.html",
+        "title": "Nepal Everest & Annapurna Luxury Helicopter Sightseeing Tour (5 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/tour/nepal-luxury-helicopter-tour/",
+        "redirect": "",
+        "h1": "Nepal Everest & Annapurna Luxury Helicopter Sightseeing Tour"
+      },
+      {
+        "rel": "tour/pokhara-valley-nature-tour/index.html",
+        "title": "Pokhara Lakes, Caves & Sarangkot Himalayan Sunrise Tour (4 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/tour/pokhara-valley-nature-tour/",
+        "redirect": "",
+        "h1": "Pokhara Lakes, Caves & Sarangkot Himalayan Sunrise Tour"
+      }
+    ],
+    "Trek Detail Packages": [
+      {
+        "rel": "trek/annapurna-base-camp/index.html",
+        "title": "Annapurna Base Camp Trek (10 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/annapurna-base-camp/",
+        "redirect": "",
+        "h1": "Annapurna Base Camp Trek"
+      },
+      {
+        "rel": "trek/annapurna-circuit-trek/index.html",
+        "title": "Annapurna Circuit Trek (16 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/annapurna-circuit-trek/",
+        "redirect": "",
+        "h1": "Annapurna Circuit Trek"
+      },
+      {
+        "rel": "trek/annapurna-sanctuary-trek/index.html",
+        "title": "Annapurna Sanctuary Trek (11 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/annapurna-sanctuary-trek/",
+        "redirect": "",
+        "h1": "Annapurna Sanctuary Trek"
+      },
+      {
+        "rel": "trek/dhaulagiri-circuit-trek/index.html",
+        "title": "Dhaulagiri Circuit Trek (18 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/dhaulagiri-circuit-trek/",
+        "redirect": "",
+        "h1": "Dhaulagiri Circuit Trek"
+      },
+      {
+        "rel": "trek/everest-base-camp-trek/index.html",
+        "title": "Everest Base Camp Trek (14 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/everest-base-camp-trek/",
+        "redirect": "",
+        "h1": "Everest Base Camp Trek"
+      },
+      {
+        "rel": "trek/everest-base-camp-via-gokyo-lakes/index.html",
+        "title": "Everest Base Camp via Gokyo Lakes Trek (16 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/everest-base-camp-via-gokyo-lakes/",
+        "redirect": "",
+        "h1": "Everest Base Camp via Gokyo Lakes Trek"
+      },
+      {
+        "rel": "trek/everest-three-passes-trek/index.html",
+        "title": "Everest Three Passes Trek (19 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/everest-three-passes-trek/",
+        "redirect": "",
+        "h1": "Everest Three Passes Trek"
+      },
+      {
+        "rel": "trek/everest-view-trek/index.html",
+        "title": "Everest View Trek (7 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/everest-view-trek/",
+        "redirect": "",
+        "h1": "Everest View Trek"
+      },
+      {
+        "rel": "trek/ghorepani-poon-hill-trek/index.html",
+        "title": "Ghorepani Poon Hill Trek (5 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/ghorepani-poon-hill-trek/",
+        "redirect": "",
+        "h1": "Ghorepani Poon Hill Trek"
+      },
+      {
+        "rel": "trek/gokyo-lakes-and-cho-la-pass/index.html",
+        "title": "Gokyo Lakes & Cho La Pass Trek (15 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/gokyo-lakes-and-cho-la-pass/",
+        "redirect": "",
+        "h1": "Gokyo Lakes & Cho La Pass Trek"
+      },
+      {
+        "rel": "trek/gokyo-lakes-trek/index.html",
+        "title": "Gokyo Lakes Trek (12 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/gokyo-lakes-trek/",
+        "redirect": "",
+        "h1": "Gokyo Lakes Trek"
+      },
+      {
+        "rel": "trek/gosaikunda-lake-trek/index.html",
+        "title": "Gosaikunda Lake Trek (7 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/gosaikunda-lake-trek/",
+        "redirect": "",
+        "h1": "Gosaikunda Lake Trek"
+      },
+      {
+        "rel": "trek/helambu-trek/index.html",
+        "title": "Helambu Trek (6 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/helambu-trek/",
+        "redirect": "",
+        "h1": "Helambu Trek"
+      },
+      {
+        "rel": "trek/kanchenjunga-base-camp-trek/index.html",
+        "title": "Kanchenjunga Base Camp Trek (22 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/kanchenjunga-base-camp-trek/",
+        "redirect": "",
+        "h1": "Kanchenjunga Base Camp Trek"
+      },
+      {
+        "rel": "trek/khopra-ridge-trek/index.html",
+        "title": "Khopra Ridge Trek (8 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/khopra-ridge-trek/",
+        "redirect": "",
+        "h1": "Khopra Ridge Trek"
+      },
+      {
+        "rel": "trek/langtang-gosaikunda-trek/index.html",
+        "title": "Langtang Gosaikunda Trek (12 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/langtang-gosaikunda-trek/",
+        "redirect": "",
+        "h1": "Langtang Gosaikunda Trek"
+      },
+      {
+        "rel": "trek/langtang-valley-trek/index.html",
+        "title": "Langtang Valley Trek (8 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/langtang-valley-trek/",
+        "redirect": "",
+        "h1": "Langtang Valley Trek"
+      },
+      {
+        "rel": "trek/lower-mustang-trek/index.html",
+        "title": "Lower Mustang Trek (8 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/lower-mustang-trek/",
+        "redirect": "",
+        "h1": "Lower Mustang Trek"
+      },
+      {
+        "rel": "trek/makalu-base-camp-trek/index.html",
+        "title": "Makalu Base Camp Trek (18 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/makalu-base-camp-trek/",
+        "redirect": "",
+        "h1": "Makalu Base Camp Trek"
+      },
+      {
+        "rel": "trek/manaslu-circuit-trek/index.html",
+        "title": "Manaslu Circuit Trek (14 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/manaslu-circuit-trek/",
+        "redirect": "",
+        "h1": "Manaslu Circuit Trek"
+      },
+      {
+        "rel": "trek/manaslu-tsum-valley-trek/index.html",
+        "title": "Manaslu Tsum Valley Trek (18 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/manaslu-tsum-valley-trek/",
+        "redirect": "",
+        "h1": "Manaslu Tsum Valley Trek"
+      },
+      {
+        "rel": "trek/mardi-himal-trek/index.html",
+        "title": "Mardi Himal Trek (6 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/mardi-himal-trek/",
+        "redirect": "",
+        "h1": "Mardi Himal Trek"
+      },
+      {
+        "rel": "trek/mohare-danda-trek/index.html",
+        "title": "Mohare Danda Trek (5 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/mohare-danda-trek/",
+        "redirect": "",
+        "h1": "Mohare Danda Trek"
+      },
+      {
+        "rel": "trek/nar-phu-valley-trek/index.html",
+        "title": "Nar Phu Valley Trek (12 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/nar-phu-valley-trek/",
+        "redirect": "",
+        "h1": "Nar Phu Valley Trek"
+      },
+      {
+        "rel": "trek/panchase-trek/index.html",
+        "title": "Panchase Trek (4 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/panchase-trek/",
+        "redirect": "",
+        "h1": "Panchase Trek"
+      },
+      {
+        "rel": "trek/pikey-peak-trek/index.html",
+        "title": "Pikey Peak Trek (7 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/pikey-peak-trek/",
+        "redirect": "",
+        "h1": "Pikey Peak Trek"
+      },
+      {
+        "rel": "trek/poon-hill-abc-trek/index.html",
+        "title": "Poon Hill & ABC Trek (12 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/poon-hill-abc-trek/",
+        "redirect": "",
+        "h1": "Poon Hill & ABC Trek"
+      },
+      {
+        "rel": "trek/rara-lake-trek/index.html",
+        "title": "Rara Lake Trek (10 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/rara-lake-trek/",
+        "redirect": "",
+        "h1": "Rara Lake Trek"
+      },
+      {
+        "rel": "trek/rolwaling-valley-trek/index.html",
+        "title": "Rolwaling Valley Trek (15 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/rolwaling-valley-trek/",
+        "redirect": "",
+        "h1": "Rolwaling Valley Trek"
+      },
+      {
+        "rel": "trek/ruby-valley-trek/index.html",
+        "title": "Ruby Valley Trek (9 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/ruby-valley-trek/",
+        "redirect": "",
+        "h1": "Ruby Valley Trek"
+      },
+      {
+        "rel": "trek/tamang-heritage-trail-trek/index.html",
+        "title": "Tamang Heritage Trail Trek (8 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/tamang-heritage-trail-trek/",
+        "redirect": "",
+        "h1": "Tamang Heritage Trail Trek"
+      },
+      {
+        "rel": "trek/tilicho-lake-trek/index.html",
+        "title": "Tilicho Lake Trek (14 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/tilicho-lake-trek/",
+        "redirect": "",
+        "h1": "Tilicho Lake Trek"
+      },
+      {
+        "rel": "trek/tsum-valley-trek/index.html",
+        "title": "Tsum Valley Trek (14 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/tsum-valley-trek/",
+        "redirect": "",
+        "h1": "Tsum Valley Trek"
+      },
+      {
+        "rel": "trek/upper-mustang-trek/index.html",
+        "title": "Upper Mustang Trek (12 Days) — Igloo Himalaya Treks",
+        "canonical": "https://igloohimalayatreks.com/trek/upper-mustang-trek/",
+        "redirect": "",
+        "h1": "Upper Mustang Trek"
+      }
+    ]
+  }
+}

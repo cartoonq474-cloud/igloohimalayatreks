@@ -33,21 +33,99 @@ const trekAltitudeProfiles = {
       { day: "Day 11", spot: "Pokhara", altitudeM: 822 }
     ]
   },
+  "abc_heli": {
+    name: "Annapurna Base Camp Heli Return Trek",
+    points: [
+      { day: "Day 1", spot: "Pokhara / Chhomrong", altitudeM: 2170 },
+      { day: "Day 2", spot: "Bamboo", altitudeM: 2310 },
+      { day: "Day 3", spot: "Deurali", altitudeM: 3230 },
+      { day: "Day 4", spot: "MBC (Machhapuchhre)", altitudeM: 3700 },
+      { day: "Day 5", spot: "ABC (Annapurna Base Camp)", altitudeM: 4130 },
+      { day: "Day 6", spot: "Heli Flight to Pokhara", altitudeM: 822 }
+    ]
+  },
+  "short_abc": {
+    name: "Short Annapurna Base Camp Trek",
+    points: [
+      { day: "Day 1", spot: "Matque / Lower Sinuwa", altitudeM: 2340 },
+      { day: "Day 2", spot: "Deurali", altitudeM: 3230 },
+      { day: "Day 3", spot: "Annapurna Base Camp", altitudeM: 4130 },
+      { day: "Day 4", spot: "Bamboo", altitudeM: 2310 },
+      { day: "Day 5", spot: "Jhinu Danda", altitudeM: 1780 },
+      { day: "Day 6", spot: "Pokhara", altitudeM: 822 }
+    ]
+  },
+  "poonhill_mardi": {
+    name: "Ghorepani Poon Hill & Mardi Himal Trek",
+    points: [
+      { day: "Day 1", spot: "Pokhara / Tikhedhunga", altitudeM: 1540 },
+      { day: "Day 2", spot: "Ghorepani", altitudeM: 2874 },
+      { day: "Day 3", spot: "Poon Hill (3,210m) / Tadapani", altitudeM: 2630 },
+      { day: "Day 4", spot: "Landruk", altitudeM: 1565 },
+      { day: "Day 5", spot: "Forest Camp", altitudeM: 2550 },
+      { day: "Day 6", spot: "High Camp", altitudeM: 3580 },
+      { day: "Day 7", spot: "Mardi Upper Viewpoint", altitudeM: 4250 },
+      { day: "Day 8", spot: "Siding / Pokhara", altitudeM: 822 }
+    ]
+  },
+  "abc_mardi": {
+    name: "Annapurna Base Camp & Mardi Himal Combo",
+    points: [
+      { day: "Day 1", spot: "Pokhara / Chhomrong", altitudeM: 2170 },
+      { day: "Day 2", spot: "Dovan / Deurali", altitudeM: 3230 },
+      { day: "Day 3", spot: "MBC", altitudeM: 3700 },
+      { day: "Day 4", spot: "ABC (Annapurna Base Camp)", altitudeM: 4130 },
+      { day: "Day 5", spot: "Bamboo", altitudeM: 2310 },
+      { day: "Day 6", spot: "Landruk", altitudeM: 1565 },
+      { day: "Day 7", spot: "Forest Camp", altitudeM: 2550 },
+      { day: "Day 8", spot: "High Camp", altitudeM: 3580 },
+      { day: "Day 9", spot: "Mardi Viewpoint", altitudeM: 4250 },
+      { day: "Day 10", spot: "Siding / Pokhara", altitudeM: 822 }
+    ]
+  },
+  "annapurna_luxury": {
+    name: "Annapurna Luxury Lodge Trek",
+    points: [
+      { day: "Day 1", spot: "Pokhara", altitudeM: 822 },
+      { day: "Day 2", spot: "Sanctuary Lodge (Birethanti)", altitudeM: 1100 },
+      { day: "Day 3", spot: "Gurung Lodge (Majgaun)", altitudeM: 1400 },
+      { day: "Day 4", spot: "Tanchok Nature Walk", altitudeM: 1450 },
+      { day: "Day 5", spot: "Basanta Lodge (Dhampus)", altitudeM: 1650 },
+      { day: "Day 6", spot: "Pokhara Luxury Resort", altitudeM: 822 }
+    ]
+  },
+  "circuit_luxury": {
+    name: "Annapurna Circuit Luxury Trek",
+    points: [
+      { day: "Day 1", spot: "Kathmandu / Besisahar", altitudeM: 760 },
+      { day: "Day 2", spot: "Chame Luxury Lodge", altitudeM: 2670 },
+      { day: "Day 3", spot: "Upper Pisang", altitudeM: 3300 },
+      { day: "Day 4", spot: "Manang", altitudeM: 3540 },
+      { day: "Day 5", spot: "Manang Acclimatization", altitudeM: 3540 },
+      { day: "Day 6", spot: "Yak Kharka", altitudeM: 4050 },
+      { day: "Day 7", spot: "Thorong Phedi High Camp", altitudeM: 4450 },
+      { day: "Day 8", spot: "Thorong La Pass", altitudeM: 5416 },
+      { day: "Day 9", spot: "Muktinath Heritage Suite", altitudeM: 3760 },
+      { day: "Day 10", spot: "Jomsom / Pokhara Resort", altitudeM: 822 }
+    ]
+  },
   "annapurna_circuit": {
     name: "Annapurna Circuit Trek",
     points: [
       { day: "Day 1", spot: "Kathmandu", altitudeM: 1400 },
-      { day: "Day 2", spot: "Besisahar", altitudeM: 760 },
+      { day: "Day 2", spot: "Dharapani", altitudeM: 1860 },
       { day: "Day 3", spot: "Chame", altitudeM: 2670 },
-      { day: "Day 4", spot: "Pisang", altitudeM: 3200 },
+      { day: "Day 4", spot: "Upper Pisang", altitudeM: 3300 },
       { day: "Day 5", spot: "Manang", altitudeM: 3540 },
       { day: "Day 6", spot: "Manang (Acclimatization)", altitudeM: 3540 },
       { day: "Day 7", spot: "Yak Kharka", altitudeM: 4050 },
       { day: "Day 8", spot: "Thorong Phedi", altitudeM: 4450 },
-      { day: "Day 9", spot: "Thorong La Pass", altitudeM: 5416 },
-      { day: "Day 10", spot: "Muktinath", altitudeM: 3760 },
-      { day: "Day 11", spot: "Jomsom", altitudeM: 2720 },
-      { day: "Day 12", spot: "Pokhara", altitudeM: 822 }
+      { day: "Day 9", spot: "Thorong La Pass (5,416m) / Muktinath", altitudeM: 5416 },
+      { day: "Day 10", spot: "Jomsom", altitudeM: 2720 },
+      { day: "Day 11", spot: "Tatopani Hot Springs", altitudeM: 1200 },
+      { day: "Day 12", spot: "Pokhara", altitudeM: 820 },
+      { day: "Day 13", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 14", spot: "Departure", altitudeM: 1400 }
     ]
   },
   "manaslu": {

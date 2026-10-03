@@ -4,47 +4,530 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nepal Tour Packages & Sightseeing — Igloo Himalaya Treks</title>
-  <meta name="description" content="Explore 6 official Nepal tour packages with Igloo Himalaya Treks. Kathmandu cultural heritage, Pokhara lake views, Chitwan jungle safari, Nagarkot sunrise & luxury helicopter tours.">
+  <meta name="description" content="Explore official Nepal tour packages and day tours with Igloo Himalaya Treks. Kathmandu cultural heritage, Pokhara lake views, Chitwan jungle safari, Nagarkot sunrise & luxury helicopter tours.">
   <link rel="canonical" href="https://igloohimalayatreks.com/nepal-tour-packages/" />
   <link rel="icon" type="image/png" href="../images/logo.png?v=2">
+    <!-- Google Fonts: Inter, Outfit, Plus Jakarta Sans & Caveat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap">
   <link rel="stylesheet" href="../index.css?v=29">
+
+  <style>
+    /* Category Quick Filter Pills */
+    .category-pills-wrap {
+      background: #FFFFFF;
+      border: 1px solid #E2E8F0;
+      border-radius: 18px;
+      padding: 22px 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.05);
+    }
+    .category-pills-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .category-pills-title {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #071D36;
+      letter-spacing: -0.01em;
+    }
+    .category-pills-title-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 8px;
+      background: #EEF6FF;
+      color: #1A96C8;
+      font-size: 14px;
+    }
+    .category-pills-hint {
+      font-size: 0.8rem;
+      color: #64748B;
+      font-weight: 500;
+    }
+    .category-pills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+    .category-quick-pill {
+      background: #F8FAFC;
+      color: #1E293B;
+      padding: 8px 18px;
+      border-radius: 9999px;
+      text-decoration: none;
+      font-size: 0.86rem;
+      font-weight: 600;
+      border: 1.5px solid #E2E8F0;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      user-select: none;
+      white-space: nowrap;
+    }
+    .category-quick-pill:hover {
+      background: #FFFFFF;
+      color: #071D36;
+      border-color: #1A96C8;
+      box-shadow: 0 3px 10px rgba(26, 150, 200, 0.15);
+      transform: translateY(-2px);
+    }
+    .category-quick-pill.active {
+      background: #071D36 !important;
+      color: #FFFFFF !important;
+      border-color: #071D36 !important;
+      box-shadow: 0 4px 14px rgba(7, 29, 54, 0.28) !important;
+      transform: translateY(-1px);
+    }
+    @media (max-width: 768px) {
+      .category-pills-wrap {
+        padding: 16px;
+        border-radius: 14px;
+      }
+      .category-pills-container {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 6px;
+        margin-bottom: -2px;
+        scrollbar-width: none;
+      }
+      .category-pills-container::-webkit-scrollbar {
+        display: none;
+      }
+      .category-quick-pill {
+        flex-shrink: 0;
+        scroll-snap-align: start;
+        padding: 7px 15px;
+        font-size: 0.82rem;
+      }
+    }
+
+    /* Filter Toolbar Box */
+    .catalog-filter-box {
+      background: linear-gradient(135deg, #071D36 0%, #0F325E 100%);
+      border-radius: 16px;
+      padding: 28px 32px;
+      box-shadow: 0 12px 35px rgba(7, 29, 54, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #FFFFFF;
+    }
+    .catalog-filter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .catalog-filter-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin: 0;
+    }
+    .catalog-filter-grid {
+      display: grid;
+      grid-template-columns: 2fr 1.2fr 1.2fr 1.2fr auto;
+      gap: 14px;
+      align-items: end;
+    }
+    @media (max-width: 1200px) {
+      .catalog-filter-grid {
+        grid-template-columns: repeat(2, 1fr) auto;
+      }
+    }
+    @media (max-width: 768px) {
+      .catalog-filter-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .catalog-filter-group label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+      color: #94A3B8;
+    }
+    .catalog-filter-input,
+    .catalog-filter-select {
+      width: 100%;
+      padding: 11px 14px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.08);
+      color: #FFFFFF;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .catalog-filter-input::placeholder {
+      color: rgba(255, 255, 255, 0.5);
+    }
+    .catalog-filter-input:focus,
+    .catalog-filter-select:focus {
+      border-color: #1A96C8;
+      background: rgba(255, 255, 255, 0.14);
+      box-shadow: 0 0 0 3px rgba(26, 150, 200, 0.3);
+    }
+    .catalog-filter-select option {
+      background-color: #071D36;
+      color: #FFFFFF;
+    }
+    .btn-reset-filters {
+      background: rgba(255, 255, 255, 0.12);
+      color: #FFFFFF;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      padding: 11px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+      width: 100%;
+    }
+    .btn-reset-filters:hover {
+      background: rgba(255, 255, 255, 0.22);
+      border-color: #FFFFFF;
+    }
+
+    /* Results Header */
+    .catalog-results-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .catalog-results-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #071D36;
+      margin: 0;
+    }
+
+    /* Grid layout */
+    .catalog-grid-container {
+      display: grid !important;
+      grid-template-columns: repeat(3, 1fr) !important;
+      gap: 28px !important;
+      align-items: stretch !important;
+    }
+    @media (max-width: 1024px) {
+      .catalog-grid-container {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 22px !important;
+      }
+    }
+    @media (max-width: 640px) {
+      .catalog-grid-container {
+        grid-template-columns: 1fr !important;
+        gap: 18px !important;
+      }
+    }
+
+    /* Tour Cards */
+    .card.tour-item {
+      background: #FFFFFF !important;
+      border-radius: 16px !important;
+      overflow: hidden !important;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.07) !important;
+      border: 1px solid rgba(226, 232, 240, 0.9) !important;
+      display: flex;
+      flex-direction: column !important;
+      height: 100% !important;
+      transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.28s ease !important;
+      position: relative !important;
+    }
+    .card.tour-item.is-hidden {
+      display: none !important;
+    }
+    .card.tour-item:hover {
+      transform: translateY(-6px) !important;
+      box-shadow: 0 16px 36px rgba(14, 52, 88, 0.15) !important;
+      border-color: rgba(26, 150, 200, 0.4) !important;
+    }
+    .tour-item-media {
+      position: relative !important;
+      height: 220px !important;
+      width: 100% !important;
+      overflow: hidden !important;
+      background-color: #0F172A !important;
+      flex-shrink: 0 !important;
+    }
+    .tour-item-media img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+      display: block !important;
+      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
+    .card.tour-item:hover .tour-item-media img {
+      transform: scale(1.06) !important;
+    }
+    .tour-item-media::after {
+      content: '' !important;
+      position: absolute !important;
+      inset: 0 !important;
+      background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 45%, rgba(0,0,0,0.4) 100%) !important;
+      pointer-events: none !important;
+    }
+    .tour-badge-pill {
+      position: absolute !important;
+      top: 14px !important;
+      left: 14px !important;
+      z-index: 2 !important;
+      font-size: 0.72rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.04em !important;
+      text-transform: uppercase !important;
+      color: #FFFFFF !important;
+      padding: 5px 12px !important;
+      border-radius: 9999px !important;
+      backdrop-filter: blur(8px) !important;
+      -webkit-backdrop-filter: blur(8px) !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+      border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    }
+    .tour-duration-pill {
+      position: absolute !important;
+      top: 14px !important;
+      right: 14px !important;
+      z-index: 2 !important;
+      font-size: 0.75rem !important;
+      font-weight: 700 !important;
+      color: #FFFFFF !important;
+      background: rgba(7, 29, 54, 0.8) !important;
+      padding: 5px 12px !important;
+      border-radius: 9999px !important;
+      backdrop-filter: blur(8px) !important;
+      -webkit-backdrop-filter: blur(8px) !important;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2) !important;
+      border: 1px solid rgba(255, 255, 255, 0.2) !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 4px !important;
+    }
+    .tour-item-body {
+      padding: 24px !important;
+      flex: 1 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: space-between !important;
+      background: #FFFFFF !important;
+    }
+    .tour-item-top {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .tour-item-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 1.25rem !important;
+      font-weight: 700 !important;
+      color: #071D36 !important;
+      line-height: 1.35 !important;
+      margin-bottom: 8px !important;
+      min-height: 2.7em !important;
+      display: -webkit-box !important;
+      -webkit-line-clamp: 2 !important;
+      -webkit-box-orient: vertical !important;
+      overflow: hidden !important;
+    }
+    .tour-item-desc {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.88rem !important;
+      color: #475569 !important;
+      line-height: 1.55 !important;
+      margin-bottom: 18px !important;
+      min-height: 2.8em !important;
+      display: -webkit-box !important;
+      -webkit-line-clamp: 2 !important;
+      -webkit-box-orient: vertical !important;
+      overflow: hidden !important;
+    }
+    .tour-item-meta {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 8px !important;
+      margin-bottom: 20px !important;
+    }
+    .tour-meta-chip {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 5px !important;
+      background: #F8FAFC !important;
+      color: #334155 !important;
+      font-size: 0.8rem !important;
+      font-weight: 600 !important;
+      padding: 4px 10px !important;
+      border-radius: 8px !important;
+      border: 1px solid #E2E8F0 !important;
+    }
+    .tour-item-footer {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      border-top: 1px solid #E2E8F0 !important;
+      padding-top: 16px !important;
+      margin-top: auto !important;
+      gap: 12px !important;
+    }
+    .tour-price-wrap {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .tour-price-label {
+      font-size: 0.72rem !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.05em !important;
+      color: #64748B !important;
+      font-weight: 600 !important;
+    }
+    .tour-price-value {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 1.35rem !important;
+      font-weight: 800 !important;
+      color: #071D36 !important;
+      line-height: 1.1 !important;
+    }
+    .tour-action-btn {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      background-color: #E05A47 !important;
+      color: #FFFFFF !important;
+      font-weight: 600 !important;
+      font-size: 0.88rem !important;
+      padding: 9px 18px !important;
+      border-radius: 8px !important;
+      text-decoration: none !important;
+      white-space: nowrap !important;
+      flex-shrink: 0 !important;
+      transition: all 0.2s ease !important;
+      box-shadow: 0 4px 12px rgba(224, 90, 71, 0.25) !important;
+    }
+    .tour-action-btn:hover {
+      background-color: #C84634 !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 6px 16px rgba(224, 90, 71, 0.35) !important;
+    }
+
+    /* Empty State Card */
+    .tours-empty-card {
+      grid-column: 1 / -1 !important;
+      background: #FFFFFF !important;
+      border: 2px dashed #CBD5E1 !important;
+      border-radius: 16px !important;
+      padding: 60px 24px !important;
+      text-align: center !important;
+      display: none;
+    }
+    .tours-empty-icon {
+      font-size: 3rem !important;
+      margin-bottom: 16px !important;
+      display: block !important;
+    }
+    .tours-empty-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 1.4rem !important;
+      color: #071D36 !important;
+      margin-bottom: 8px !important;
+    }
+    .tours-empty-text {
+      color: #64748B !important;
+      max-width: 500px !important;
+      margin: 0 auto 20px auto !important;
+      font-size: 0.95rem !important;
+    }
+  </style>
+
 </head>
 <body>
 
   <!-- Header Navigation -->
   <header class="main-header">
     <div class="container flex-between">
-      <a href="../index.html" class="logo-brand">
-        <img src="../images/logo.png" alt="Igloo Himalaya Treks"
-          style="height: 70px; width: auto; object-fit: contain;">
+      <a href="../index.html" class="logo-brand" aria-label="Igloo Himalaya Treks">
+        <img src="../images/logo.png" alt="Igloo Himalaya Treks" width="85" height="70" style="height: 70px; width: auto; object-fit: contain;" loading="eager" decoding="async" fetchpriority="high">
       </a>
 
+      <!-- Hamburger Menu Button -->
       <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
         <span class="hamburger-bar"></span>
         <span class="hamburger-bar"></span>
         <span class="hamburger-bar"></span>
       </button>
 
+      <!-- Navigation Links -->
       <nav>
         <ul class="nav-menu">
           <!-- Mega Menu Dropdown for All Treks -->
           <li class="nav-item-dropdown mega-nav-item">
-            <a href="../nepal-trekking-packages/" class="nav-link">All Treks ▾</a>
+            <div class="nav-link-row">
+              <a href="../nepal-trekking-packages/" class="nav-link">All Treks <span class="nav-link-arrow-desktop">▾</span></a>
+              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle All Treks submenu">▾</button>
+            </div>
+            <!-- Mobile Accordion Menu for All Treks -->
+            <div class="mobile-accordion-menu">
+              <a href="../nepal-trekking-packages/" class="mobile-accordion-overview-link">Explore All 60+ Trek Packages →</a>
+              <div class="mobile-accordion-group-title">Popular Himalayan Classics</div>
+              <a href="../trek/everest-base-camp-trek/" class="nav-dropdown-link"><span>Everest Base Camp Trek</span> <span class="days-badge">14 DAYS</span></a>
+              <a href="../trek/annapurna-circuit-trek/" class="nav-dropdown-link"><span>Annapurna Circuit Trek</span> <span class="days-badge">13 DAYS</span></a>
+              <a href="../trek/manaslu-circuit-trek/" class="nav-dropdown-link"><span>Manaslu Circuit Trek</span> <span class="days-badge">13 DAYS</span></a>
+              <a href="../trek/annapurna-base-camp/" class="nav-dropdown-link"><span>Annapurna Base Camp Trek</span> <span class="days-badge">9 DAYS</span></a>
+              <a href="../trek/langtang-valley-trek/" class="nav-dropdown-link"><span>Langtang Valley Trek</span> <span class="days-badge">8 DAYS</span></a>
+              <a href="../trek/ghorepani-poon-hill-trek/" class="nav-dropdown-link"><span>Ghorepani Poon Hill Trek</span> <span class="days-badge">4 DAYS</span></a>
+              <a href="../trek/mardi-himal-trek/" class="nav-dropdown-link"><span>Mardi Base Camp Trek</span> <span class="days-badge">6 DAYS</span></a>
+              <a href="../trek/chisapani-nagarkot-trek/" class="nav-dropdown-link"><span>Chisapani Nagarkot Trek</span> <span class="days-badge">3 DAYS</span></a>
+              <div class="mobile-accordion-group-title">Peak Climbing Expeditions</div>
+              <a href="../trek/island-peak-climbing/" class="nav-dropdown-link"><span>Island Peak Climbing</span> <span class="days-badge">19 DAYS</span></a>
+              <a href="../trek/mera-peak-climbing/" class="nav-dropdown-link"><span>Mera Peak Climbing</span> <span class="days-badge">18 DAYS</span></a>
+              <a href="../trek/lobuche-peak-climbing/" class="nav-dropdown-link"><span>Lobuche East Peak Climb</span> <span class="days-badge">18 DAYS</span></a>
+              <a href="../trek/yala-peak-climbing/" class="nav-dropdown-link"><span>Yala Peak Climbing</span> <span class="days-badge">11 DAYS</span></a>
+              <div class="mobile-accordion-group-title">Remote & Forbidden Kingdom</div>
+              <a href="../trek/upper-mustang-trek/" class="nav-dropdown-link"><span>Upper Mustang Kingdom Trek</span> <span class="days-badge">14 DAYS</span></a>
+              <a href="../trek/upper-dolpo-trek/" class="nav-dropdown-link"><span>Upper Dolpo Circuit Trek</span> <span class="days-badge">24 DAYS</span></a>
+              <a href="../trek/kanchenjunga-circuit-trek/" class="nav-dropdown-link"><span>Kanchenjunga Circuit Trek</span> <span class="days-badge">22 DAYS</span></a>
+            </div>
             <div class="mega-menu-dropdown">
               <div class="mega-menu-container">
+
                 <!-- Left Sidebar Navigation -->
                 <div class="mega-menu-sidebar">
                   <div class="mega-sidebar-item active" data-target="tab-popular">Popular Treks in Nepal</div>
-                  <div class="mega-sidebar-item" data-target="tab-annapurna">Annapurna</div>
                   <div class="mega-sidebar-item" data-target="tab-everest">Everest</div>
+                  <div class="mega-sidebar-item" data-target="tab-annapurna">Annapurna</div>
                   <div class="mega-sidebar-item" data-target="tab-manaslu">Manaslu</div>
                   <div class="mega-sidebar-item" data-target="tab-langtang">Langtang</div>
-                  <div class="mega-sidebar-item" data-target="tab-kanchenjunga">Kanchenjunga</div>
+                  <div class="mega-sidebar-item" data-target="tab-peaks">Peak Climbing</div>
+                  <div class="mega-sidebar-item" data-target="tab-mustang">Mustang</div>
                   <div class="mega-sidebar-item" data-target="tab-dolpo">Dolpo</div>
-                  <div class="mega-sidebar-item" data-target="tab-makalu">Makalu</div>
-                  <div class="mega-sidebar-item" data-target="tab-rolwaling">Rolwaling</div>
-                  <div class="mega-sidebar-item" data-target="tab-farwest">Far West</div>
-                  <div class="mega-sidebar-item" data-target="tab-ganesh">Ganesh Himal</div>
+                  <div class="mega-sidebar-item" data-target="tab-kanchenjunga">Kanchenjunga</div>
+                  <div class="mega-sidebar-item" data-target="tab-short">Short Treks</div>
+                  <div class="mega-sidebar-item" data-target="tab-wilderness">Wilderness & Off-Grid</div>
                 </div>
 
                 <!-- Right Content Area -->
@@ -53,7 +536,7 @@
                     <button class="mega-talk-pill open-inquiry-btn">Confused? Let's Talk ↗</button>
                   </div>
 
-                  <!-- Tab 1: Popular Treks in Nepal -->
+                  <!-- Tab 1: Popular Treks in Nepal (Default 4-Column Grid) -->
                   <div class="mega-tab-content active" id="tab-popular">
                     <div class="mega-content-grid">
                       <div class="mega-col">
@@ -74,39 +557,23 @@
 
                       <div class="mega-col">
                         <div class="mega-col-title">Remote and Unexplored</div>
-                        <a href="../trek/kanchenjunga-base-camp-trek/" class="mega-trek-link"><span>Kanchenjunga Circuit Trek</span> <span class="days-badge">18 DAYS</span></a>
+                        <a href="../trek/kanchenjunga-circuit-trek/" class="mega-trek-link"><span>Kanchenjunga Circuit Trek</span> <span class="days-badge">22 DAYS</span></a>
                         <a href="../trek/manaslu-tsum-valley-trek/" class="mega-trek-link"><span>Manaslu Tsum Valley Trek</span> <span class="days-badge">18 DAYS</span></a>
-                        <a href="../trek/nar-phu-valley-trek/" class="mega-trek-link"><span>Narphu Valley Trek</span> <span class="days-badge">16 DAYS</span></a>
+                        <a href="../trek/upper-mustang-trek/" class="mega-trek-link"><span>Upper Mustang Kingdom Trek</span> <span class="days-badge">14 DAYS</span></a>
+                        <a href="../trek/upper-dolpo-trek/" class="mega-trek-link"><span>Upper Dolpo Circuit Trek</span> <span class="days-badge">24 DAYS</span></a>
                       </div>
 
                       <div class="mega-col">
-                        <div class="mega-col-title">Camping Off the Grid – Extreme Wilderness</div>
-                        <a href="../trek/dhaulagiri-circuit-trek/" class="mega-trek-link"><span>Dhaulagiri Circuit Trek</span> <span class="days-badge">16 DAYS</span></a>
-                        <a href="../trek/rolwaling-valley-trek/" class="mega-trek-link"><span>Sherpani Col Pass Trek</span> <span class="days-badge">22 DAYS</span></a>
-                        <a href="../dolpo-region-treks/" class="mega-trek-link"><span>Upper Dolpo Circuit Trek</span> <span class="days-badge">24 DAYS</span></a>
+                        <div class="mega-col-title">Short Treks & Highlights</div>
+                        <a href="../trek/chisapani-nagarkot-trek/" class="mega-trek-link"><span>Chisapani Nagarkot Trek</span> <span class="days-badge">3 DAYS</span></a>
+                        <a href="../trek/annapurna-short-trek/" class="mega-trek-link"><span>Annapurna Short Trek</span> <span class="days-badge">4 DAYS</span></a>
+                        <a href="../trek/khopra-ridge-trek/" class="mega-trek-link"><span>Khopra Ridge Trek</span> <span class="days-badge">9 DAYS</span></a>
+                        <a href="../nepal-trekking-packages/" class="mega-trek-link" style="color: #1A96C8; font-weight: 700;"><span>All 60+ Trek Packages →</span> <span class="days-badge">EXPLORE</span></a>
                       </div>
                     </div>
                   </div>
 
-                  <!-- Tab 2: Annapurna -->
-                  <div class="mega-tab-content" id="tab-annapurna">
-                    <div class="mega-content-grid">
-                      <div class="mega-col">
-                        <div class="mega-col-title">Classic Treks</div>
-                        <a href="../trek/annapurna-base-camp/" class="mega-trek-link"><span>Annapurna Base Camp Trek</span> <span class="days-badge">9 DAYS</span></a>
-                        <a href="../trek/annapurna-circuit-trek/" class="mega-trek-link"><span>Annapurna Circuit Trek</span> <span class="days-badge">13 DAYS</span></a>
-                        <a href="../trek/tilicho-lake-trek/" class="mega-trek-link"><span>Tilicho Lake & Annapurna Circuit</span> <span class="days-badge">14 DAYS</span></a>
-                      </div>
-                      <div class="mega-col">
-                        <div class="mega-col-title">Short & Panoramic</div>
-                        <a href="../trek/ghorepani-poon-hill-trek/" class="mega-trek-link"><span>Ghorepani Poon Hill Trek</span> <span class="days-badge">4 DAYS</span></a>
-                        <a href="../trek/mardi-himal-trek/" class="mega-trek-link"><span>Mardi Himal Ridge Trek</span> <span class="days-badge">6 DAYS</span></a>
-                        <a href="../trek/khopra-ridge-trek/" class="mega-trek-link"><span>Khopra Ridge & Mohare Danda</span> <span class="days-badge">9 DAYS</span></a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Tab 3: Everest -->
+                  <!-- Tab 2: Everest -->
                   <div class="mega-tab-content" id="tab-everest">
                     <div class="mega-content-grid">
                       <div class="mega-col">
@@ -114,12 +581,58 @@
                         <a href="../trek/everest-base-camp-trek/" class="mega-trek-link"><span>Everest Base Camp Trek</span> <span class="days-badge">14 DAYS</span></a>
                         <a href="../trek/everest-three-passes-trek/" class="mega-trek-link"><span>Everest Three Passes Trek</span> <span class="days-badge">19 DAYS</span></a>
                         <a href="../trek/everest-base-camp-via-gokyo-lakes/" class="mega-trek-link"><span>Cho La Pass & Gokyo Lakes</span> <span class="days-badge">16 DAYS</span></a>
+                        <a href="../trek/three-high-passes-with-island-peak-climb/" class="mega-trek-link"><span>Three Passes & Island Peak</span> <span class="days-badge">21 DAYS</span></a>
                       </div>
                       <div class="mega-col">
                         <div class="mega-col-title">Scenic & Cultural</div>
                         <a href="../trek/gokyo-lakes-trek/" class="mega-trek-link"><span>Gokyo Lakes Trek</span> <span class="days-badge">12 DAYS</span></a>
+                        <a href="../trek/gokyo-lake-trek-with-helicopter-return/" class="mega-trek-link"><span>Gokyo Heli Return Trek</span> <span class="days-badge">10 DAYS</span></a>
                         <a href="../trek/everest-view-trek/" class="mega-trek-link"><span>Everest View Trek</span> <span class="days-badge">7 DAYS</span></a>
                         <a href="../trek/pikey-peak-trek/" class="mega-trek-link"><span>Pikey Peak Panorama Trek</span> <span class="days-badge">9 DAYS</span></a>
+                      </div>
+                      <div class="mega-col">
+                        <div class="mega-col-title">Luxury & Overland</div>
+                        <a href="../trek/everest-base-camp-luxury-trek/" class="mega-trek-link"><span>EBC Luxury Lodge Trek</span> <span class="days-badge">12 DAYS</span></a>
+                        <a href="../trek/gokyo-lakes-luxury-trek/" class="mega-trek-link"><span>Gokyo Luxury Trek</span> <span class="days-badge">11 DAYS</span></a>
+                        <a href="../tour/everest-base-camp-helicopter-tour/" class="mega-trek-link"><span>EBC 1-Day Heli Tour</span> <span class="days-badge">1 DAY</span></a>
+                        <a href="../trek/everest-base-camp-trek-without-flight/" class="mega-trek-link"><span>EBC Overland (No Flight)</span> <span class="days-badge">18 DAYS</span></a>
+                      </div>
+                      <div class="mega-col">
+                        <div class="mega-col-title">Peak Climbing & Hub</div>
+                        <a href="../trek/island-peak-climbing/" class="mega-trek-link"><span>Island Peak Climbing</span> <span class="days-badge">19 DAYS</span></a>
+                        <a href="../trek/mera-peak-climbing/" class="mega-trek-link"><span>Mera Peak Climbing</span> <span class="days-badge">18 DAYS</span></a>
+                        <a href="../trek/lobuche-peak-climbing/" class="mega-trek-link"><span>Lobuche East Peak Climb</span> <span class="days-badge">18 DAYS</span></a>
+                        <a href="../everest-region-treks/" class="mega-trek-link" style="color: #1A96C8; font-weight: 700;"><span>All Everest Treks →</span> <span class="days-badge">HUB</span></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Tab 3: Annapurna -->
+                  <div class="mega-tab-content" id="tab-annapurna">
+                    <div class="mega-content-grid">
+                      <div class="mega-col">
+                        <div class="mega-col-title">Classic Treks</div>
+                        <a href="../trek/annapurna-base-camp/" class="mega-trek-link"><span>Annapurna Base Camp Trek</span> <span class="days-badge">9 DAYS</span></a>
+                        <a href="../trek/annapurna-circuit-trek/" class="mega-trek-link"><span>Annapurna Circuit Trek</span> <span class="days-badge">13 DAYS</span></a>
+                        <a href="../trek/tilicho-lake-trek/" class="mega-trek-link"><span>Tilicho Lake & Annapurna</span> <span class="days-badge">14 DAYS</span></a>
+                        <a href="../trek/annapurna-base-camp-heli-return/" class="mega-trek-link"><span>ABC with Heli Return</span> <span class="days-badge">8 DAYS</span></a>
+                        <a href="../trek/short-annapurna-base-camp-trek/" class="mega-trek-link"><span>Short ABC Trek</span> <span class="days-badge">6 DAYS</span></a>
+                      </div>
+                      <div class="mega-col">
+                        <div class="mega-col-title">Short & Panoramic</div>
+                        <a href="../trek/ghorepani-poon-hill-trek/" class="mega-trek-link"><span>Ghorepani Poon Hill Trek</span> <span class="days-badge">4 DAYS</span></a>
+                        <a href="../trek/mardi-himal-trek/" class="mega-trek-link"><span>Mardi Himal Ridge Trek</span> <span class="days-badge">6 DAYS</span></a>
+                        <a href="../trek/khopra-ridge-trek/" class="mega-trek-link"><span>Khopra Ridge Trek</span> <span class="days-badge">9 DAYS</span></a>
+                        <a href="../trek/annapurna-short-trek/" class="mega-trek-link"><span>Annapurna Short Trek</span> <span class="days-badge">4 DAYS</span></a>
+                        <a href="../trek/panchase-trek/" class="mega-trek-link"><span>Panchase Scenic Trek</span> <span class="days-badge">4 DAYS</span></a>
+                      </div>
+                      <div class="mega-col">
+                        <div class="mega-col-title">Combos & Luxury</div>
+                        <a href="../trek/ghorepani-poon-hill-with-mardi-himal-trek/" class="mega-trek-link"><span>Poon Hill & Mardi Combo</span> <span class="days-badge">9 DAYS</span></a>
+                        <a href="../trek/abc-with-mardi-himal-trek/" class="mega-trek-link"><span>ABC with Mardi Himal</span> <span class="days-badge">12 DAYS</span></a>
+                        <a href="../trek/annapurna-luxury-trek/" class="mega-trek-link"><span>Annapurna Luxury Lodge</span> <span class="days-badge">7 DAYS</span></a>
+                        <a href="../trek/annapurna-circuit-luxury-trek/" class="mega-trek-link"><span>Circuit Luxury Trek</span> <span class="days-badge">12 DAYS</span></a>
+                        <a href="../annapurna-region-treks/" class="mega-trek-link" style="color: #1A96C8; font-weight: 700;"><span>All Annapurna Treks →</span> <span class="days-badge">HUB</span></a>
                       </div>
                     </div>
                   </div>
@@ -130,11 +643,13 @@
                       <div class="mega-col">
                         <div class="mega-col-title">Circuit & Passes</div>
                         <a href="../trek/manaslu-circuit-trek/" class="mega-trek-link"><span>Manaslu Circuit Trek</span> <span class="days-badge">13 DAYS</span></a>
-                        <a href="../trek/manaslu-tsum-valley-trek/" class="mega-trek-link"><span>Manaslu & Tsum Valley Combo</span> <span class="days-badge">18 DAYS</span></a>
+                        <a href="../trek/manaslu-circuit-trek-12-days/" class="mega-trek-link"><span>Manaslu Circuit 12 Days</span> <span class="days-badge">12 DAYS</span></a>
                       </div>
                       <div class="mega-col">
                         <div class="mega-col-title">Restricted Valley</div>
+                        <a href="../trek/manaslu-tsum-valley-trek/" class="mega-trek-link"><span>Manaslu & Tsum Valley</span> <span class="days-badge">18 DAYS</span></a>
                         <a href="../trek/tsum-valley-trek/" class="mega-trek-link"><span>Hidden Tsum Valley Trek</span> <span class="days-badge">14 DAYS</span></a>
+                        <a href="../manaslu-region-treks/" class="mega-trek-link" style="color: #1A96C8; font-weight: 700;"><span>All Manaslu Treks →</span> <span class="days-badge">HUB</span></a>
                       </div>
                     </div>
                   </div>
@@ -145,75 +660,112 @@
                       <div class="mega-col">
                         <div class="mega-col-title">Valley & Lakes</div>
                         <a href="../trek/langtang-valley-trek/" class="mega-trek-link"><span>Langtang Valley Trek</span> <span class="days-badge">8 DAYS</span></a>
-                        <a href="../trek/gosaikunda-lake-trek/" class="mega-trek-link"><span>Sacred Gosaikunda Lake Trek</span> <span class="days-badge">7 DAYS</span></a>
+                        <a href="../trek/gosaikunda-lake-trek/" class="mega-trek-link"><span>Sacred Gosaikunda Lake</span> <span class="days-badge">7 DAYS</span></a>
+                        <a href="../trek/langtang-gosaikunda-trek/" class="mega-trek-link"><span>Langtang & Gosaikunda</span> <span class="days-badge">12 DAYS</span></a>
                       </div>
                       <div class="mega-col">
-                        <div class="mega-col-title">Heritage & Ridge</div>
-                        <a href="../trek/tamang-heritage-trail-trek/" class="mega-trek-link"><span>Tamang Heritage Trail</span> <span class="days-badge">9 DAYS</span></a>
+                        <div class="mega-col-title">Grand Combos & Traverse</div>
+                        <a href="../trek/tamang-heritage-trail-with-langtang-valley-trek/" class="mega-trek-link"><span>Tamang & Langtang Combo</span> <span class="days-badge">14 DAYS</span></a>
+                        <a href="../trek/langtang-gosaikunda-helambu-trek/" class="mega-trek-link"><span>Langtang Gosaikunda Helambu</span> <span class="days-badge">16 DAYS</span></a>
                         <a href="../trek/helambu-trek/" class="mega-trek-link"><span>Helambu Circuit Trek</span> <span class="days-badge">6 DAYS</span></a>
                       </div>
-                    </div>
-                  </div>
-
-                  <!-- Tab 6: Kanchenjunga -->
-                  <div class="mega-tab-content" id="tab-kanchenjunga">
-                    <div class="mega-content-grid">
                       <div class="mega-col">
-                        <div class="mega-col-title">Far Eastern Wilderness</div>
-                        <a href="../trek/kanchenjunga-base-camp-trek/" class="mega-trek-link"><span>Kanchenjunga Circuit Trek</span> <span class="days-badge">18 DAYS</span></a>
-                        <a href="../kanchenjunga-region-treks/" class="mega-trek-link"><span>Kanchenjunga North & South</span> <span class="days-badge">22 DAYS</span></a>
+                        <div class="mega-col-title">Cultural Trails & Peaks</div>
+                        <a href="../trek/tamang-heritage-trail-trek/" class="mega-trek-link"><span>Tamang Heritage Trail</span> <span class="days-badge">8 DAYS</span></a>
+                        <a href="../trek/yala-peak-climbing/" class="mega-trek-link"><span>Yala Peak Climbing (5,500m)</span> <span class="days-badge">11 DAYS</span></a>
+                        <a href="../langtang-region-treks/" class="mega-trek-link" style="color: #1A96C8; font-weight: 700;"><span>All Langtang Treks →</span> <span class="days-badge">HUB</span></a>
                       </div>
                     </div>
                   </div>
 
-                  <!-- Tab 7: Dolpo -->
+                  <!-- Tab 6: Peak Climbing -->
+                  <div class="mega-tab-content" id="tab-peaks">
+                    <div class="mega-content-grid">
+                      <div class="mega-col">
+                        <div class="mega-col-title">Popular Trekking Peaks</div>
+                        <a href="../trek/island-peak-climbing/" class="mega-trek-link"><span>Island Peak Climbing (6,189m)</span> <span class="days-badge">19 DAYS</span></a>
+                        <a href="../trek/mera-peak-climbing/" class="mega-trek-link"><span>Mera Peak Climbing (6,476m)</span> <span class="days-badge">18 DAYS</span></a>
+                        <a href="../trek/lobuche-peak-climbing/" class="mega-trek-link"><span>Lobuche East Peak (6,119m)</span> <span class="days-badge">18 DAYS</span></a>
+                      </div>
+                      <div class="mega-col">
+                        <div class="mega-col-title">Technical & Pass Combos</div>
+                        <a href="../trek/yala-peak-climbing/" class="mega-trek-link"><span>Yala Peak Climbing (5,500m)</span> <span class="days-badge">11 DAYS</span></a>
+                        <a href="../trek/three-high-passes-with-island-peak-climb/" class="mega-trek-link"><span>Three Passes & Island Peak</span> <span class="days-badge">21 DAYS</span></a>
+                        <a href="../peak-climbing-nepal/" class="mega-trek-link" style="color: #1A96C8; font-weight: 700;"><span>All Peak Climbing Trips →</span> <span class="days-badge">HUB</span></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Tab 7: Mustang -->
+                  <div class="mega-tab-content" id="tab-mustang">
+                    <div class="mega-content-grid">
+                      <div class="mega-col">
+                        <div class="mega-col-title">Forbidden Kingdom & Culture</div>
+                        <a href="../trek/upper-mustang-trek/" class="mega-trek-link"><span>Upper Mustang Kingdom Trek</span> <span class="days-badge">14 DAYS</span></a>
+                        <a href="../trek/upper-mustang-jeep-tour/" class="mega-trek-link"><span>Upper Mustang 4WD Jeep Tour</span> <span class="days-badge">12 DAYS</span></a>
+                        <a href="../trek/upper-mustang-tiji-festival/" class="mega-trek-link"><span>Mustang Tiji Festival Tour</span> <span class="days-badge">15 DAYS</span></a>
+                        <a href="../mustang-region-treks/" class="mega-trek-link" style="color: #1A96C8; font-weight: 700;"><span>All Mustang Treks →</span> <span class="days-badge">HUB</span></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Tab 8: Dolpo -->
                   <div class="mega-tab-content" id="tab-dolpo">
                     <div class="mega-content-grid">
                       <div class="mega-col">
                         <div class="mega-col-title">Trans-Himalayan Plateau</div>
-                        <a href="../dolpo-region-treks/" class="mega-trek-link"><span>Upper Dolpo Circuit Trek</span> <span class="days-badge">24 DAYS</span></a>
-                        <a href="../dolpo-region-treks/" class="mega-trek-link"><span>Lower Dolpo & Phoksundo Lake</span> <span class="days-badge">15 DAYS</span></a>
+                        <a href="../trek/upper-dolpo-trek/" class="mega-trek-link"><span>Upper Dolpo Circuit Trek</span> <span class="days-badge">24 DAYS</span></a>
+                        <a href="../trek/lower-dolpo-trek/" class="mega-trek-link"><span>Lower Dolpo Wilderness Trek</span> <span class="days-badge">18 DAYS</span></a>
+                        <a href="../dolpo-region-treks/" class="mega-trek-link" style="color: #1A96C8; font-weight: 700;"><span>All Dolpo Treks →</span> <span class="days-badge">HUB</span></a>
                       </div>
                     </div>
                   </div>
 
-                  <!-- Tab 8: Makalu -->
-                  <div class="mega-tab-content" id="tab-makalu">
+                  <!-- Tab 9: Kanchenjunga -->
+                  <div class="mega-tab-content" id="tab-kanchenjunga">
                     <div class="mega-content-grid">
                       <div class="mega-col">
-                        <div class="mega-col-title">High Alpine Sanctuary</div>
+                        <div class="mega-col-title">Far Eastern Giant</div>
+                        <a href="../trek/kanchenjunga-circuit-trek/" class="mega-trek-link"><span>Kanchenjunga Circuit Trek</span> <span class="days-badge">22 DAYS</span></a>
+                        <a href="../trek/kanchenjunga-trek-without-flight/" class="mega-trek-link"><span>Kanchenjunga Without Flight</span> <span class="days-badge">24 DAYS</span></a>
+                        <a href="../trek/kanchenjunga-base-camp-trek/" class="mega-trek-link"><span>Kanchenjunga Base Camp</span> <span class="days-badge">22 DAYS</span></a>
+                        <a href="../kanchenjunga-region-treks/" class="mega-trek-link" style="color: #1A96C8; font-weight: 700;"><span>All Kanchenjunga Treks →</span> <span class="days-badge">HUB</span></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Tab 10: Short Treks -->
+                  <div class="mega-tab-content" id="tab-short">
+                    <div class="mega-content-grid">
+                      <div class="mega-col">
+                        <div class="mega-col-title">Short Himalayan Treks</div>
+                        <a href="../trek/chisapani-nagarkot-trek/" class="mega-trek-link"><span>Chisapani Nagarkot Trek</span> <span class="days-badge">3 DAYS</span></a>
+                        <a href="../trek/ghorepani-poon-hill-trek/" class="mega-trek-link"><span>Ghorepani Poon Hill Trek</span> <span class="days-badge">4 DAYS</span></a>
+                        <a href="../trek/annapurna-short-trek/" class="mega-trek-link"><span>Annapurna Short Trek</span> <span class="days-badge">4 DAYS</span></a>
+                      </div>
+                      <div class="mega-col">
+                        <div class="mega-col-title">Panoramic Ridges</div>
+                        <a href="../trek/mardi-himal-trek/" class="mega-trek-link"><span>Mardi Himal Ridge Trek</span> <span class="days-badge">6 DAYS</span></a>
+                        <a href="../trek/everest-view-trek/" class="mega-trek-link"><span>Everest View Trek</span> <span class="days-badge">7 DAYS</span></a>
+                        <a href="../trek/panchase-trek/" class="mega-trek-link"><span>Panchase Scenic Trek</span> <span class="days-badge">4 DAYS</span></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Tab 11: Remote Wilderness -->
+                  <div class="mega-tab-content" id="tab-wilderness">
+                    <div class="mega-content-grid">
+                      <div class="mega-col">
+                        <div class="mega-col-title">High Glacial Expeditions</div>
                         <a href="../trek/makalu-base-camp-trek/" class="mega-trek-link"><span>Makalu Base Camp Trek</span> <span class="days-badge">16 DAYS</span></a>
+                        <a href="../trek/rolwaling-valley-trek/" class="mega-trek-link"><span>Rolwaling & Tashi Lapcha</span> <span class="days-badge">19 DAYS</span></a>
+                        <a href="../trek/dhaulagiri-circuit-trek/" class="mega-trek-link"><span>Dhaulagiri Circuit Trek</span> <span class="days-badge">16 DAYS</span></a>
                       </div>
-                    </div>
-                  </div>
-
-                  <!-- Tab 9: Rolwaling -->
-                  <div class="mega-tab-content" id="tab-rolwaling">
-                    <div class="mega-content-grid">
                       <div class="mega-col">
-                        <div class="mega-col-title">Glacial Pass Expedition</div>
-                        <a href="../trek/rolwaling-valley-trek/" class="mega-trek-link"><span>Rolwaling & Tashi Lapcha Pass</span> <span class="days-badge">19 DAYS</span></a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Tab 10: Far West & Mustang -->
-                  <div class="mega-tab-content" id="tab-farwest">
-                    <div class="mega-content-grid">
-                      <div class="mega-col">
-                        <div class="mega-col-title">Forbidden Kingdom & Rara</div>
-                        <a href="../trek/upper-mustang-trek/" class="mega-trek-link"><span>Upper Mustang Kingdom Trek</span> <span class="days-badge">14 DAYS</span></a>
+                        <div class="mega-col-title">Off-The-Grid Wilderness</div>
+                        <a href="../trek/ruby-valley-trek/" class="mega-trek-link"><span>Ganesh Himal Ruby Valley</span> <span class="days-badge">11 DAYS</span></a>
                         <a href="../trek/rara-lake-trek/" class="mega-trek-link"><span>Rara Lake Wilderness Trek</span> <span class="days-badge">10 DAYS</span></a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Tab 11: Ganesh Himal -->
-                  <div class="mega-tab-content" id="tab-ganesh">
-                    <div class="mega-content-grid">
-                      <div class="mega-col">
-                        <div class="mega-col-title">Ruby Valley & Foothills</div>
-                        <a href="../trek/ruby-valley-trek/" class="mega-trek-link"><span>Ganesh Himal Ruby Valley Trek</span> <span class="days-badge">11 DAYS</span></a>
+                        <a href="../restricted-area-treks-nepal/" class="mega-trek-link" style="color: #1A96C8; font-weight: 700;"><span>All Restricted Treks →</span> <span class="days-badge">HUB</span></a>
                       </div>
                     </div>
                   </div>
@@ -223,194 +775,682 @@
             </div>
           </li>
 
-          <!-- Tour Packages Dropdown -->
-          
+          <!-- Standard Tour Packages Dropdown (Enhanced Multi-Column) -->
+          <li class="nav-item-dropdown">
+            <div class="nav-link-row">
+              <a href="../nepal-tour-packages/" class="nav-link active">Nepal Tours <span class="nav-link-arrow-desktop">▾</span></a>
+              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle Nepal Tours submenu">▾</button>
+            </div>
+            <div class="nav-dropdown-menu tour-dropdown-menu">
+              <div>
+                <div class="tour-dropdown-col-title">Cultural & Heritage Tours</div>
+                <a href="../tour/one-day-kathmandu-city-tour/" class="nav-dropdown-link"><span>1-Day Kathmandu City Tour</span> <span class="days-badge">1 DAY</span></a>
+                <a href="../tour/kathmandu-cultural-heritage-tour/" class="nav-dropdown-link"><span>Kathmandu Heritage Tour</span> <span class="days-badge">4 DAYS</span></a>
+                <a href="../tour/kathmandu-pokhara-chitwan-tour/" class="nav-dropdown-link"><span>Best of Nepal (Golden Triangle)</span> <span class="days-badge">8 DAYS</span></a>
+                <a href="../tour/pokhara-valley-nature-tour/" class="nav-dropdown-link"><span>Pokhara Valley Nature Tour</span> <span class="days-badge">4 DAYS</span></a>
+                <a href="../tour/nagarkot-sunrise-bhaktapur-tour/" class="nav-dropdown-link"><span>Nagarkot Sunrise & Bhaktapur</span> <span class="days-badge">3 DAYS</span></a>
+                <a href="../tour/lumbini-birthplace-of-buddha-tour/" class="nav-dropdown-link"><span>Lumbini Buddhist Heritage</span> <span class="days-badge">4 DAYS</span></a>
+                <a href="../tour/honeymoon-tour-in-nepal/" class="nav-dropdown-link"><span>Romantic Honeymoon Tour</span> <span class="days-badge">8 DAYS</span></a>
+              </div>
+              <div>
+                <div class="tour-dropdown-col-title">Day Hikes, Cycling, Safari & Helis</div>
+                <a href="../tour/cycling-tour-around-kathmandu-valley/" class="nav-dropdown-link"><span>Kathmandu Cycling Tour</span> <span class="days-badge">1-2 DAYS</span></a>
+                <a href="../tour/jamacho-hike/" class="nav-dropdown-link"><span>Jamacho Peak Forest Hike</span> <span class="days-badge">1 DAY</span></a>
+                <a href="../tour/chitwan-national-park-safari/" class="nav-dropdown-link"><span>Chitwan Jungle Safari</span> <span class="days-badge">3 DAYS</span></a>
+                <a href="../tour/rara-lake-jeep-tour/" class="nav-dropdown-link"><span>Rara Lake Overland Jeep Tour</span> <span class="days-badge">7 DAYS</span></a>
+                <a href="../tour/everest-base-camp-helicopter-tour/" class="nav-dropdown-link"><span>EBC 1-Day Heli Tour</span> <span class="days-badge">1 DAY</span></a>
+                <a href="../tour/nepal-luxury-helicopter-tour/" class="nav-dropdown-link"><span>Luxury Helicopter Tour</span> <span class="days-badge">5 DAYS</span></a>
+                <a href="../nepal-tour-packages/" class="nav-dropdown-link" style="color: #1A96C8; font-weight: 700; border-top: 1px solid #f1f5f9; margin-top: 6px; padding-top: 8px;"><span>Explore All Tour Packages →</span></a>
+              </div>
+            </div>
+          </li>
+
+          <!-- Standard Trekking Regions Dropdown -->
+          <li class="nav-item-dropdown">
+            <div class="nav-link-row">
+              <a href="../trekking-regions-nepal/" class="nav-link">Trekking Regions <span class="nav-link-arrow-desktop">▾</span></a>
+              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle Trekking Regions submenu">▾</button>
+            </div>
+            <div class="nav-dropdown-menu">
+              <a href="../everest-region-treks/" class="nav-dropdown-link">Everest Region Treks</a>
+              <a href="../annapurna-region-treks/" class="nav-dropdown-link">Annapurna Region Treks</a>
+              <a href="../langtang-region-treks/" class="nav-dropdown-link">Langtang Region Treks</a>
+              <a href="../manaslu-region-treks/" class="nav-dropdown-link">Manaslu Region Treks</a>
+              <a href="../mustang-region-treks/" class="nav-dropdown-link">Mustang Region Treks</a>
+              <a href="../dolpo-region-treks/" class="nav-dropdown-link">Dolpo Region Treks</a>
+              <a href="../kanchenjunga-region-treks/" class="nav-dropdown-link">Kanchenjunga Region Treks</a>
+              <a href="../ganesh-himal-region-treks/" class="nav-dropdown-link">Ganesh Himal Region Treks</a>
+              <a href="../makalu-region-treks/" class="nav-dropdown-link">Makalu Region Treks</a>
+              <a href="../rolwaling-region-treks/" class="nav-dropdown-link">Rolwaling Region Treks</a>
+              <a href="../restricted-area-treks-nepal/" class="nav-dropdown-link">Restricted Area Treks</a>
+              <a href="../peak-climbing-nepal/" class="nav-dropdown-link">Peak Climbing in Nepal</a>
+              <a href="../trekking-regions-nepal/" class="nav-dropdown-link" style="color: #1A96C8; font-weight: 700; border-top: 1px solid #f1f5f9; margin-top: 4px; padding-top: 8px;">Explore All Regions →</a>
+            </div>
+          </li>
+
           <!-- Travel Guide Dropdown -->
           <li class="nav-item-dropdown">
-            <a href="../nepal-travel-guide/" class="nav-link">Travel Guide ▾</a>
+            <div class="nav-link-row">
+              <a href="../nepal-travel-guide/" class="nav-link">Travel Guide <span class="nav-link-arrow-desktop">▾</span></a>
+              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle Travel Guide submenu">▾</button>
+            </div>
             <div class="nav-dropdown-menu">
+              <a href="../nepal-travel-guide/" class="nav-dropdown-link">Nepal Travel Guide</a>
               <a href="../nepal-visa/" class="nav-dropdown-link">Nepal Visa</a>
               <a href="../equipment-checklist/" class="nav-dropdown-link">Equipment Checklist</a>
               <a href="../travel-insurance/" class="nav-dropdown-link">Travel Insurance</a>
               <a href="../recommended-medical-kit/" class="nav-dropdown-link">Recommended Medical Kit</a>
             </div>
           </li>
+
+          <!-- Company Info Dropdown -->
           <li class="nav-item-dropdown">
-            <a href="../nepal-tour-packages/" class="nav-link active">Nepal Tours ▾</a>
-            <div class="nav-dropdown-menu">
-              <a href="../tour/kathmandu-pokhara-chitwan-tour/" class="nav-dropdown-link">Best of Nepal (8 Days)</a>
-              <a href="../tour/kathmandu-cultural-heritage-tour/" class="nav-dropdown-link">Kathmandu Heritage (4 Days)</a>
-              <a href="../tour/pokhara-valley-nature-tour/" class="nav-dropdown-link">Pokhara Scenic (4 Days)</a>
-              <a href="../tour/chitwan-national-park-safari/" class="nav-dropdown-link">Chitwan Jungle Safari (3 Days)</a>
-              <a href="../tour/nagarkot-sunrise-bhaktapur-tour/" class="nav-dropdown-link">Nagarkot Sunrise (3 Days)</a>
-              <a href="../tour/nepal-luxury-helicopter-tour/" class="nav-dropdown-link">Luxury Helicopter Tour (5 Days)</a>
+            <div class="nav-link-row">
+              <span class="nav-link">Company Info <span class="nav-link-arrow-desktop">▾</span></span>
+              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle Company Info submenu">▾</button>
             </div>
-          </li>
-
-          <li class="nav-item-dropdown">
-            <a href="../trekking-regions-nepal/" class="nav-link">Trekking Regions ▾</a>
-          </li>
-
-          <li class="nav-item-dropdown">
-            <span class="nav-link">Company Info ▾</span>
             <div class="nav-dropdown-menu">
               <a href="../about.html" class="nav-dropdown-link">About Us</a>
               <a href="../team.html" class="nav-dropdown-link">Meet Our Team</a>
               <a href="../careers.html" class="nav-dropdown-link">Careers & Jobs</a>
               <a href="../reviews.html" class="nav-dropdown-link">Reviews & Testimonials</a>
+              <a href="../custom-plan.html" class="nav-dropdown-link">Tailor-Made Trip Planner</a>
             </div>
           </li>
 
           <li><a href="../blogs.html" class="nav-link">Blog</a></li>
           <li><a href="../contact.html" class="nav-link">Contact</a></li>
+
+          <!-- Mobile Drawer Action Strip -->
+          <li class="mobile-nav-drawer-actions">
+            <button class="btn btn-primary open-inquiry-btn mobile-drawer-cta">Plan Custom Trip</button>
+          </li>
         </ul>
       </nav>
 
       <div>
-        <button class="btn btn-primary open-inquiry-btn">Book Custom Tour</button>
+        <button class="btn btn-primary open-inquiry-btn">Book Custom Trip</button>
       </div>
     </div>
   </header>
 
-  <main>
+      <main>
     <!-- Hero Section -->
-    <section class="reviews-hero-section">
+    <section class="reviews-hero-section" style="padding: 70px 0 45px 0;">
       <div class="container">
-        <div style="max-width: 820px; margin: 0 auto; text-align: center;">
-          <span class="pill pill-copper">Nepal Cultural & Wildlife Journeys</span>
-          <h1 class="reviews-hero-title">Nepal Tour Packages & Sightseeing</h1>
-          <p class="reviews-hero-desc">
-            Discover ancient UNESCO World Heritage temples in Kathmandu, tranquil lakes in Pokhara, subtropical wildlife safaris in Chitwan, and luxury helicopter flights across Everest.
+        <div style="max-width: 860px; margin: 0 auto; text-align: center;">
+          <span class="pill pill-copper" style="margin-bottom: 14px; display: inline-flex; align-items: center; gap: 6px;">
+            <span>✨</span> Himalayan Sightseeing, Heritage & Wildlife
+          </span>
+          <h1 class="reviews-hero-title" style="margin-bottom: 18px;">Nepal Tour Packages & Sightseeing</h1>
+          <p class="reviews-hero-desc" style="font-size: 1.1rem; line-height: 1.65; max-width: 740px; margin: 0 auto;">
+            Explore official curated Nepal tour packages with Igloo Himalaya Treks: ancient UNESCO World Heritage temples in Kathmandu, tranquil lakes & Annapurna sunrises in Pokhara, raw subtropical jungle safaris in Chitwan, VIP Everest helicopter landings, and rugged 4WD overland expeditions.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- Tour Packages Grid -->
-    <section class="section-padding" style="background: #F8FAFC;">
+    <!-- Filters & Catalog Grid Section -->
+    <section class="section-padding" style="background: #F8FAFC; padding-top: 40px; padding-bottom: 75px;">
       <div class="container">
         
-        <div class="text-center" style="margin-bottom: 36px;">
-          <span class="badge badge-alpine" style="margin-bottom: 8px; display: inline-block;">Official Tour Itineraries</span>
-          <h2 style="font-size: 2.2rem; color: #0E3458;">Browse All Nepal Tour Packages</h2>
+        <!-- Category Quick Pills -->
+        <div class="category-pills-wrap">
+          <div class="category-pills-header">
+            <strong class="category-pills-title">
+              <span class="category-pills-title-icon">📍</span>
+              Quick Filter by Category:
+            </strong>
+            <span class="category-pills-hint">Select a travel style to instant filter 14 tour packages</span>
+          </div>
+          <div class="category-pills-container">
+            <button type="button" class="category-quick-pill active" data-category="all">🌍 All Packages (14)</button>
+            <button type="button" class="category-quick-pill" data-category="cultural">🏛️ Cultural & Heritage (4)</button>
+            <button type="button" class="category-quick-pill" data-category="nature">🦏 Wildlife & Nature (4)</button>
+            <button type="button" class="category-quick-pill" data-category="heli">🚁 Helicopter Flights (2)</button>
+            <button type="button" class="category-quick-pill" data-category="overland">🚙 4WD Overland (2)</button>
+            <button type="button" class="category-quick-pill" data-category="hikes">🥾 Active Hikes & Cycling (2)</button>
+          </div>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px;">
-          
-            <div style="background: #FFFFFF; border-radius: 18px; overflow: hidden; border: 1px solid #E2E8F0; box-shadow: 0 4px 20px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between;">
-              <div>
-                <div style="position: relative; height: 200px; overflow: hidden;">
-                  <img src="../images/cheap-treks-in-nepal-under-1000-kal-bhairab-temple-and-traditional-pagoda-temples-at-kathm.jpg" alt="Kathmandu Valley UNESCO World Heritage Cultural Tour" style="width: 100%; height: 100%; object-fit: cover;">
-                  <span style="position: absolute; top: 12px; left: 12px; background: #1A96C8; color: #FFFFFF; font-size: 0.78rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">4 DAYS</span>
-                  <span style="position: absolute; top: 12px; right: 12px; background: rgba(15,23,42,0.85); color: #FFFFFF; font-size: 0.88rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">$399</span>
-                </div>
-                <div style="padding: 20px;">
-                  <span style="font-size: 0.8rem; color: #64748B; font-weight: 700; text-transform: uppercase;">Cultural & Heritage</span>
-                  <h3 style="font-size: 1.15rem; color: #0E3458; margin: 6px 0 10px 0; line-height: 1.35;">Kathmandu Valley UNESCO World Heritage Cultural Tour</h3>
-                  <p style="font-size: 0.88rem; color: #475569; line-height: 1.55; margin-bottom: 14px;">Explore the ancient heart of Nepal with a 4-day guided tour of 7 UNESCO World Heritage Sites in Kathmandu, Patan, and Bhaktapur.</p>
-                </div>
+        <!-- Interactive Filter Panel -->
+        <div class="catalog-filter-box" style="margin-bottom: 40px;">
+          <div class="catalog-filter-header">
+            <h2 class="catalog-filter-title">Filter & Search Tour Packages</h2>
+            <span style="font-size: 0.85rem; color: #94A3B8;">Instant results updated in real-time</span>
+          </div>
+          <div class="catalog-filter-grid">
+            <div class="catalog-filter-group">
+              <label for="filter-search">Search Keyword</label>
+              <input type="text" id="filter-search" class="catalog-filter-input" placeholder="e.g. Kathmandu, Chitwan, Helicopter, Rara, Sunrise...">
+            </div>
+            <div class="catalog-filter-group">
+              <label for="filter-category">Tour Style</label>
+              <select id="filter-category" class="catalog-filter-select">
+                <option value="all">All Tour Styles (14)</option>
+                <option value="cultural">Cultural & Heritage Tours</option>
+                <option value="nature">Nature, Wildlife & Romance</option>
+                <option value="heli">Helicopter Sightseeing</option>
+                <option value="overland">4WD Overland Jeep Expeditions</option>
+                <option value="hikes">Active Day Hikes & Mountain Biking</option>
+              </select>
+            </div>
+            <div class="catalog-filter-group">
+              <label for="filter-duration">Duration</label>
+              <select id="filter-duration" class="catalog-filter-select">
+                <option value="all">All Durations</option>
+                <option value="short">Short / Day Tours (1 - 7 Days)</option>
+                <option value="medium">Classic Multi-Day (8 - 12 Days)</option>
+                <option value="long">Extended Journey (13+ Days)</option>
+              </select>
+            </div>
+            <div class="catalog-filter-group">
+              <label for="filter-sort">Sort By</label>
+              <select id="filter-sort" class="catalog-filter-select">
+                <option value="default">Featured & Recommended</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="duration-short">Duration: Shortest First</option>
+                <option value="duration-long">Duration: Longest First</option>
+              </select>
+            </div>
+            <div class="catalog-filter-group">
+              <button type="button" id="reset-filters-btn" class="btn-reset-filters">↻ Reset All</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Results Counter & Grid -->
+        <div class="catalog-results-header">
+          <h2 class="catalog-results-title" id="tours-count-display">Showing All 14 Available Tour Packages</h2>
+          <span style="color: var(--color-neutral-600); font-weight: 500; font-size: 0.95rem;">Private AC Transportation • Certified Guides • Guaranteed Departures</span>
+        </div>
+
+        <!-- 3-Column Catalog Grid -->
+        <div class="catalog-grid-container grid grid-3" id="tours-container">
+          <!-- Tour Card: 1-Day Kathmandu UNESCO City Tour -->
+          <div class="card tour-item" 
+               data-category="cultural" 
+               data-duration="short" 
+               data-price="75" 
+               data-days="1" 
+               data-title="1-day kathmandu unesco city tour"
+               data-tags="cultural & heritage one-day-kathmandu-city-tour">
+            <div class="tour-item-media">
+              <img src="../images/cheap-treks-in-nepal-under-1000-kal-bhairab-temple-and-traditional-pagoda-temples-at-kathm.webp" alt="One Day Kathmandu UNESCO City Tour" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #D97706, #B45309);">Bestseller City Tour</span>
+              <span class="tour-duration-pill">⏱️ 1 Day</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">1-Day Kathmandu UNESCO City Tour</h3>
+                <p class="tour-item-desc">Private guided day tour of 4 legendary UNESCO sites: Swayambhunath (Monkey Temple), Kathmandu Durbar Square, Pashupatinath & Boudhanath Stupa.</p>
               </div>
-              <div style="padding: 16px 20px; background: #F8FAFC; border-top: 1px solid #E2E8F0; display: flex; justify-content: space-between; align-items: center;">
-                <span style="color: #F59E0B; font-size: 0.9rem; font-weight: 700;">★★★★★ 5.0</span>
-                <a href="../tour/kathmandu-cultural-heritage-tour/" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.84rem;">View Itinerary →</a>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 1 Day</span>
+                <span class="tour-meta-chip">🏛️ 4 UNESCO Sites</span>
+                <span class="tour-meta-chip">🚗 Private AC Car</span>
+                <span class="tour-meta-chip">👨‍🏫 Certified Guide</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$75</span>
+                </div>
+                <a href="../tour/one-day-kathmandu-city-tour/" class="tour-action-btn">View Itinerary →</a>
               </div>
             </div>
-          
-            <div style="background: #FFFFFF; border-radius: 18px; overflow: hidden; border: 1px solid #E2E8F0; box-shadow: 0 4px 20px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between;">
-              <div>
-                <div style="position: relative; height: 200px; overflow: hidden;">
-                  <img src="../images/boat-5259878-1920.jpg" alt="Pokhara Lakes, Caves & Sarangkot Himalayan Sunrise Tour" style="width: 100%; height: 100%; object-fit: cover;">
-                  <span style="position: absolute; top: 12px; left: 12px; background: #1A96C8; color: #FFFFFF; font-size: 0.78rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">4 DAYS</span>
-                  <span style="position: absolute; top: 12px; right: 12px; background: rgba(15,23,42,0.85); color: #FFFFFF; font-size: 0.88rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">$449</span>
-                </div>
-                <div style="padding: 20px;">
-                  <span style="font-size: 0.8rem; color: #64748B; font-weight: 700; text-transform: uppercase;">Nature & Scenic</span>
-                  <h3 style="font-size: 1.15rem; color: #0E3458; margin: 6px 0 10px 0; line-height: 1.35;">Pokhara Lakes, Caves & Sarangkot Himalayan Sunrise Tour</h3>
-                  <p style="font-size: 0.88rem; color: #475569; line-height: 1.55; margin-bottom: 14px;">Immerse yourself in Pokhara's breathtaking scenery with Phewa Lake boating, Sarangkot mountain sunrise, and underground limestone caves.</p>
-                </div>
+          </div>
+
+          <!-- Tour Card: Kathmandu Valley Cultural Heritage Tour -->
+          <div class="card tour-item" 
+               data-category="cultural" 
+               data-duration="short" 
+               data-price="399" 
+               data-days="4" 
+               data-title="kathmandu valley cultural heritage tour"
+               data-tags="cultural & heritage kathmandu-cultural-heritage-tour">
+            <div class="tour-item-media">
+              <img src="../images/city-tour.webp" alt="Kathmandu Valley Cultural Heritage Tour" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #059669, #047857);">UNESCO Heritage</span>
+              <span class="tour-duration-pill">⏱️ 4 Days</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Kathmandu Valley Cultural Heritage Tour</h3>
+                <p class="tour-item-desc">In-depth 4-day guided exploration across 7 UNESCO World Heritage monuments in Kathmandu, Patan Durbar Square, and medieval Bhaktapur.</p>
               </div>
-              <div style="padding: 16px 20px; background: #F8FAFC; border-top: 1px solid #E2E8F0; display: flex; justify-content: space-between; align-items: center;">
-                <span style="color: #F59E0B; font-size: 0.9rem; font-weight: 700;">★★★★★ 4.9</span>
-                <a href="../tour/pokhara-valley-nature-tour/" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.84rem;">View Itinerary →</a>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 4 Days</span>
+                <span class="tour-meta-chip">🏛️ 7 UNESCO Sites</span>
+                <span class="tour-meta-chip">🏨 3-Star Heritage Hotel</span>
+                <span class="tour-meta-chip">👨‍🏫 Newari Heritage</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$399</span>
+                </div>
+                <a href="../tour/kathmandu-cultural-heritage-tour/" class="tour-action-btn">View Itinerary →</a>
               </div>
             </div>
-          
-            <div style="background: #FFFFFF; border-radius: 18px; overflow: hidden; border: 1px solid #E2E8F0; box-shadow: 0 4px 20px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between;">
-              <div>
-                <div style="position: relative; height: 200px; overflow: hidden;">
-                  <img src="../images/chitwan-jungle-safari-tour-best-wildlife-safari-in-nepal.jpg" alt="Best of Nepal: Kathmandu, Pokhara & Chitwan Wildlife Tour" style="width: 100%; height: 100%; object-fit: cover;">
-                  <span style="position: absolute; top: 12px; left: 12px; background: #1A96C8; color: #FFFFFF; font-size: 0.78rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">8 DAYS</span>
-                  <span style="position: absolute; top: 12px; right: 12px; background: rgba(15,23,42,0.85); color: #FFFFFF; font-size: 0.88rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">$799</span>
-                </div>
-                <div style="padding: 20px;">
-                  <span style="font-size: 0.8rem; color: #64748B; font-weight: 700; text-transform: uppercase;">Golden Triangle</span>
-                  <h3 style="font-size: 1.15rem; color: #0E3458; margin: 6px 0 10px 0; line-height: 1.35;">Best of Nepal: Kathmandu, Pokhara & Chitwan Wildlife Tour</h3>
-                  <p style="font-size: 0.88rem; color: #475569; line-height: 1.55; margin-bottom: 14px;">The ultimate 8-day Nepal experience combining Kathmandu valley heritage, Pokhara lake views, and Chitwan subtropical jungle safari.</p>
-                </div>
+          </div>
+
+          <!-- Tour Card: Best of Nepal: Kathmandu, Pokhara & Chitwan -->
+          <div class="card tour-item" 
+               data-category="cultural" 
+               data-duration="medium" 
+               data-price="799" 
+               data-days="8" 
+               data-title="best of nepal: kathmandu, pokhara & chitwan"
+               data-tags="golden triangle kathmandu-pokhara-chitwan-tour">
+            <div class="tour-item-media">
+              <img src="../images/chitwan-jungle-safari-tour-best-wildlife-safari-in-nepal.webp" alt="Best of Nepal Golden Triangle Tour" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Golden Triangle Classic</span>
+              <span class="tour-duration-pill">⏱️ 8 Days</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Best of Nepal: Kathmandu, Pokhara & Chitwan</h3>
+                <p class="tour-item-desc">The quintessential Nepal discovery: historic Kathmandu temples, tranquil Pokhara lakes with Annapurna mountain views, and wild Chitwan safaris.</p>
               </div>
-              <div style="padding: 16px 20px; background: #F8FAFC; border-top: 1px solid #E2E8F0; display: flex; justify-content: space-between; align-items: center;">
-                <span style="color: #F59E0B; font-size: 0.9rem; font-weight: 700;">★★★★★ 5.0</span>
-                <a href="../tour/kathmandu-pokhara-chitwan-tour/" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.84rem;">View Itinerary →</a>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 8 Days</span>
+                <span class="tour-meta-chip">🐅 Wildlife Safari</span>
+                <span class="tour-meta-chip">🏔️ Annapurna Sunrise</span>
+                <span class="tour-meta-chip">✈️ Domestic Flights</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$799</span>
+                </div>
+                <a href="../tour/kathmandu-pokhara-chitwan-tour/" class="tour-action-btn">View Itinerary →</a>
               </div>
             </div>
-          
-            <div style="background: #FFFFFF; border-radius: 18px; overflow: hidden; border: 1px solid #E2E8F0; box-shadow: 0 4px 20px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between;">
-              <div>
-                <div style="position: relative; height: 200px; overflow: hidden;">
-                  <img src="../images/chitwan-jungle-safari.jpg" alt="Chitwan National Park Jungle Safari & Tharu Cultural Tour" style="width: 100%; height: 100%; object-fit: cover;">
-                  <span style="position: absolute; top: 12px; left: 12px; background: #1A96C8; color: #FFFFFF; font-size: 0.78rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">3 DAYS</span>
-                  <span style="position: absolute; top: 12px; right: 12px; background: rgba(15,23,42,0.85); color: #FFFFFF; font-size: 0.88rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">$299</span>
-                </div>
-                <div style="padding: 20px;">
-                  <span style="font-size: 0.8rem; color: #64748B; font-weight: 700; text-transform: uppercase;">Wildlife & Safari</span>
-                  <h3 style="font-size: 1.15rem; color: #0E3458; margin: 6px 0 10px 0; line-height: 1.35;">Chitwan National Park Jungle Safari & Tharu Cultural Tour</h3>
-                  <p style="font-size: 0.88rem; color: #475569; line-height: 1.55; margin-bottom: 14px;">Discover Nepal's rich wildlife in Chitwan National Park with deep jungle jeep safaris, river canoeing, and Tharu tribal traditions.</p>
-                </div>
+          </div>
+
+          <!-- Tour Card: Pokhara Lakes, Caves & Sarangkot Sunrise -->
+          <div class="card tour-item" 
+               data-category="nature" 
+               data-duration="short" 
+               data-price="449" 
+               data-days="4" 
+               data-title="pokhara lakes, caves & sarangkot sunrise"
+               data-tags="nature & scenic pokhara-valley-nature-tour">
+            <div class="tour-item-media">
+              <img src="../images/boat-5259878-1920.webp" alt="Pokhara Valley Nature Tour" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #0284C7, #0369A1);">Lakes & Mountains</span>
+              <span class="tour-duration-pill">⏱️ 4 Days</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Pokhara Lakes, Caves & Sarangkot Sunrise</h3>
+                <p class="tour-item-desc">Experience Nepal's adventure capital with Phewa Lake boating, Davis Falls, Gupteshwor cave, Peace Stupa, and golden Sarangkot sunrise over Fishtail.</p>
               </div>
-              <div style="padding: 16px 20px; background: #F8FAFC; border-top: 1px solid #E2E8F0; display: flex; justify-content: space-between; align-items: center;">
-                <span style="color: #F59E0B; font-size: 0.9rem; font-weight: 700;">★★★★★ 4.9</span>
-                <a href="../tour/chitwan-national-park-safari/" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.84rem;">View Itinerary →</a>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 4 Days</span>
+                <span class="tour-meta-chip">⛵ Fewa Boating</span>
+                <span class="tour-meta-chip">🌅 Sarangkot Sunrise</span>
+                <span class="tour-meta-chip">🏔️ Machhapuchhre</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$449</span>
+                </div>
+                <a href="../tour/pokhara-valley-nature-tour/" class="tour-action-btn">View Itinerary →</a>
               </div>
             </div>
-          
-            <div style="background: #FFFFFF; border-radius: 18px; overflow: hidden; border: 1px solid #E2E8F0; box-shadow: 0 4px 20px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between;">
-              <div>
-                <div style="position: relative; height: 200px; overflow: hidden;">
-                  <img src="../images/chisapani-nagarkot-trek.jpg" alt="Nagarkot Himalayan Sunrise & Bhaktapur Ancient City Tour" style="width: 100%; height: 100%; object-fit: cover;">
-                  <span style="position: absolute; top: 12px; left: 12px; background: #1A96C8; color: #FFFFFF; font-size: 0.78rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">3 DAYS</span>
-                  <span style="position: absolute; top: 12px; right: 12px; background: rgba(15,23,42,0.85); color: #FFFFFF; font-size: 0.88rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">$349</span>
-                </div>
-                <div style="padding: 20px;">
-                  <span style="font-size: 0.8rem; color: #64748B; font-weight: 700; text-transform: uppercase;">Scenic & Cultural</span>
-                  <h3 style="font-size: 1.15rem; color: #0E3458; margin: 6px 0 10px 0; line-height: 1.35;">Nagarkot Himalayan Sunrise & Bhaktapur Ancient City Tour</h3>
-                  <p style="font-size: 0.88rem; color: #475569; line-height: 1.55; margin-bottom: 14px;">Witness panoramic Himalayan views stretching from Annapurna to Mt. Everest from Nagarkot ridge, combined with Bhaktapur pottery heritage.</p>
-                </div>
+          </div>
+
+          <!-- Tour Card: Nagarkot Sunrise & Bhaktapur Ancient City -->
+          <div class="card tour-item" 
+               data-category="nature" 
+               data-duration="short" 
+               data-price="349" 
+               data-days="3" 
+               data-title="nagarkot sunrise & bhaktapur ancient city"
+               data-tags="scenic & heritage nagarkot-sunrise-bhaktapur-tour">
+            <div class="tour-item-media">
+              <img src="../images/chisapani-nagarkot-trek.webp" alt="Nagarkot Sunrise and Bhaktapur Tour" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #EA580C, #C2410C);">Himalayan Sunrise</span>
+              <span class="tour-duration-pill">⏱️ 3 Days</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Nagarkot Sunrise & Bhaktapur Ancient City</h3>
+                <p class="tour-item-desc">Witness panoramic Himalayan sunrises from Nagarkot ridge stretching from Annapurna to Everest, combined with Bhaktapur's medieval architecture.</p>
               </div>
-              <div style="padding: 16px 20px; background: #F8FAFC; border-top: 1px solid #E2E8F0; display: flex; justify-content: space-between; align-items: center;">
-                <span style="color: #F59E0B; font-size: 0.9rem; font-weight: 700;">★★★★★ 4.9</span>
-                <a href="../tour/nagarkot-sunrise-bhaktapur-tour/" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.84rem;">View Itinerary →</a>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 3 Days</span>
+                <span class="tour-meta-chip">🌄 Everest Sunrise</span>
+                <span class="tour-meta-chip">🏺 Bhaktapur Pottery</span>
+                <span class="tour-meta-chip">🏨 Hill Resort Stay</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$349</span>
+                </div>
+                <a href="../tour/nagarkot-sunrise-bhaktapur-tour/" class="tour-action-btn">View Itinerary →</a>
               </div>
             </div>
-          
-            <div style="background: #FFFFFF; border-radius: 18px; overflow: hidden; border: 1px solid #E2E8F0; box-shadow: 0 4px 20px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between;">
-              <div>
-                <div style="position: relative; height: 200px; overflow: hidden;">
-                  <img src="../images/everest-base-camp-helicopter-tour.jpg" alt="Nepal Everest & Annapurna Luxury Helicopter Sightseeing Tour" style="width: 100%; height: 100%; object-fit: cover;">
-                  <span style="position: absolute; top: 12px; left: 12px; background: #1A96C8; color: #FFFFFF; font-size: 0.78rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">5 DAYS</span>
-                  <span style="position: absolute; top: 12px; right: 12px; background: rgba(15,23,42,0.85); color: #FFFFFF; font-size: 0.88rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">$2499</span>
-                </div>
-                <div style="padding: 20px;">
-                  <span style="font-size: 0.8rem; color: #64748B; font-weight: 700; text-transform: uppercase;">Luxury & Aviation</span>
-                  <h3 style="font-size: 1.15rem; color: #0E3458; margin: 6px 0 10px 0; line-height: 1.35;">Nepal Everest & Annapurna Luxury Helicopter Sightseeing Tour</h3>
-                  <p style="font-size: 0.88rem; color: #475569; line-height: 1.55; margin-bottom: 14px;">Experience the ultimate VIP Himalayan journey with private helicopter landings at Everest Base Camp and 5-star luxury accommodations.</p>
-                </div>
+          </div>
+
+          <!-- Tour Card: Chitwan National Park Jungle Safari -->
+          <div class="card tour-item" 
+               data-category="nature" 
+               data-duration="short" 
+               data-price="299" 
+               data-days="3" 
+               data-title="chitwan national park jungle safari"
+               data-tags="wildlife safari chitwan-national-park-safari">
+            <div class="tour-item-media">
+              <img src="../images/chitwan-jungle-safari.webp" alt="Chitwan Jungle Safari Tour" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #059669, #047857);">Wildlife & Safari</span>
+              <span class="tour-duration-pill">⏱️ 3 Days</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Chitwan National Park Jungle Safari</h3>
+                <p class="tour-item-desc">Deep subtropical jungle jeep safari in search of one-horned rhinos, Bengal tigers, and gharial crocodiles, plus authentic Tharu cultural dances.</p>
               </div>
-              <div style="padding: 16px 20px; background: #F8FAFC; border-top: 1px solid #E2E8F0; display: flex; justify-content: space-between; align-items: center;">
-                <span style="color: #F59E0B; font-size: 0.9rem; font-weight: 700;">★★★★★ 5.0</span>
-                <a href="../tour/nepal-luxury-helicopter-tour/" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.84rem;">View Itinerary →</a>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 3 Days</span>
+                <span class="tour-meta-chip">🦏 Rhino Safari</span>
+                <span class="tour-meta-chip">🛶 River Canoe</span>
+                <span class="tour-meta-chip">💃 Tharu Stick Dance</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$299</span>
+                </div>
+                <a href="../tour/chitwan-national-park-safari/" class="tour-action-btn">View Itinerary →</a>
               </div>
             </div>
-          
+          </div>
+
+          <!-- Tour Card: Romantic Luxury Honeymoon Tour in Nepal -->
+          <div class="card tour-item" 
+               data-category="nature" 
+               data-duration="medium" 
+               data-price="1190" 
+               data-days="8" 
+               data-title="romantic luxury honeymoon tour in nepal"
+               data-tags="luxury & romance honeymoon-tour-in-nepal">
+            <div class="tour-item-media">
+              <img src="../images/honeymoon-tour-in-nepal.webp" alt="Honeymoon Tour in Nepal" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #E05A47, #C84634);">Boutique Romance</span>
+              <span class="tour-duration-pill">⏱️ 8 Days</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Romantic Luxury Honeymoon Tour in Nepal</h3>
+                <p class="tour-item-desc">Handcrafted romantic escape featuring 5-star heritage hotels, private Fewa Lake sunset cruises, Himalayan mountain spa retreats, and Nagarkot dinners.</p>
+              </div>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 8 Days</span>
+                <span class="tour-meta-chip">🥂 Candlelight Dinners</span>
+                <span class="tour-meta-chip">💆 Couple Spa</span>
+                <span class="tour-meta-chip">🏨 5-Star Boutique</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$1,190</span>
+                </div>
+                <a href="../tour/honeymoon-tour-in-nepal/" class="tour-action-btn">View Itinerary →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tour Card: Everest Base Camp 1-Day Helicopter Tour -->
+          <div class="card tour-item" 
+               data-category="heli" 
+               data-duration="short" 
+               data-price="999" 
+               data-days="1" 
+               data-title="everest base camp 1-day helicopter tour"
+               data-tags="helicopter tours everest-base-camp-helicopter-tour">
+            <div class="tour-item-media">
+              <img src="../images/everest-base-camp-helicopter-tour.webp" alt="Everest Base Camp 1-Day Helicopter Tour" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #E05A47, #991B1B);">VIP Mountain Flight</span>
+              <span class="tour-duration-pill">⏱️ 1 Day (4-5 Hrs)</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Everest Base Camp 1-Day Helicopter Tour</h3>
+                <p class="tour-item-desc">Fly directly from Kathmandu over Namche Bazaar and Tengboche, with an unforgettable landing at Kala Patthar (5,545m) and breakfast at Everest View Hotel.</p>
+              </div>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 4-5 Hours</span>
+                <span class="tour-meta-chip">🏔️ Kala Patthar Landing</span>
+                <span class="tour-meta-chip">☕ Hotel Everest View</span>
+                <span class="tour-meta-chip">🚁 Guaranteed Window Seat</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$999</span>
+                </div>
+                <a href="../tour/everest-base-camp-helicopter-tour/" class="tour-action-btn">View Itinerary →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tour Card: Nepal Luxury Helicopter Sightseeing Tour -->
+          <div class="card tour-item" 
+               data-category="heli" 
+               data-duration="short" 
+               data-price="2499" 
+               data-days="5" 
+               data-title="nepal luxury helicopter sightseeing tour"
+               data-tags="luxury & aviation nepal-luxury-helicopter-tour">
+            <div class="tour-item-media">
+              <img src="../images/everest-base-camp-helicopter-tour.webp" alt="Nepal Luxury Helicopter Sightseeing Tour" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #D97706, #92400E);">5-Star Aviation VIP</span>
+              <span class="tour-duration-pill">⏱️ 5 Days</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Nepal Luxury Helicopter Sightseeing Tour</h3>
+                <p class="tour-item-desc">The pinnacle of Himalayan luxury: private charter helicopter flights to Everest Base Camp and Annapurna Sanctuary combined with premier 5-star resorts.</p>
+              </div>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 5 Days</span>
+                <span class="tour-meta-chip">🚁 Dual Base Camp Helis</span>
+                <span class="tour-meta-chip">🏨 5-Star Resorts</span>
+                <span class="tour-meta-chip">🍾 Private Charter</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$2,499</span>
+                </div>
+                <a href="../tour/nepal-luxury-helicopter-tour/" class="tour-action-btn">View Itinerary →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tour Card: Kathmandu Valley Mountain Biking Tour -->
+          <div class="card tour-item" 
+               data-category="hikes" 
+               data-duration="short" 
+               data-price="120" 
+               data-days="2" 
+               data-title="kathmandu valley mountain biking tour"
+               data-tags="active & cycling cycling-tour-around-kathmandu-valley">
+            <div class="tour-item-media">
+              <img src="../images/cycling-tour-around-kathmandu-valley-biking-adventure.webp" alt="Kathmandu Valley Cycling Tour" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #2563EB, #1D4ED8);">Active Adventure</span>
+              <span class="tour-duration-pill">⏱️ 1 to 2 Days</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Kathmandu Valley Mountain Biking Tour</h3>
+                <p class="tour-item-desc">Pedal single-tracks through Mudkhu, Shivapuri forest trails, traditional Tokha Newari farming hamlets, and Sankhu with panoramic mountain backdrops.</p>
+              </div>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 1-2 Days</span>
+                <span class="tour-meta-chip">🚴 Hydraulic Disc MTBs</span>
+                <span class="tour-meta-chip">🌲 Single-Track Trails</span>
+                <span class="tour-meta-chip">👨‍🏫 Technical Ride Guide</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$120</span>
+                </div>
+                <a href="../tour/cycling-tour-around-kathmandu-valley/" class="tour-action-btn">View Itinerary →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tour Card: Jamacho Peak Day Hike (2,128m) -->
+          <div class="card tour-item" 
+               data-category="hikes" 
+               data-duration="short" 
+               data-price="65" 
+               data-days="1" 
+               data-title="jamacho peak day hike (2,128m)"
+               data-tags="day hikes jamacho-hike">
+            <div class="tour-item-media">
+              <img src="../images/jamacho-hike-1-day-hiking-shivapuri-national-park.webp" alt="Jamacho Peak Day Hike in Shivapuri Nagarjun" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #10B981, #059669);">Protected Forest Peak</span>
+              <span class="tour-duration-pill">⏱️ 1 Day (5-6 Hrs)</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Jamacho Peak Day Hike (2,128m)</h3>
+                <p class="tour-item-desc">Ascend through protected Nagarjun rhododendron and pine forest to the sacred Buddhist stupa at Jamacho Peak (2,128m) overlooking the entire Himalayas.</p>
+              </div>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 5-6 Hours</span>
+                <span class="tour-meta-chip">🏔️ 2,128 m Peak</span>
+                <span class="tour-meta-chip">🏯 Sacred Stupa</span>
+                <span class="tour-meta-chip">🚗 Private Transfers</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$65</span>
+                </div>
+                <a href="../tour/jamacho-hike/" class="tour-action-btn">View Itinerary →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tour Card: 7-Day Rara Lake Overland 4WD Jeep Tour -->
+          <div class="card tour-item" 
+               data-category="overland" 
+               data-duration="short" 
+               data-price="850" 
+               data-days="7" 
+               data-title="7-day rara lake overland 4wd jeep tour"
+               data-tags="overland 4wd rara-lake-jeep-tour">
+            <div class="tour-item-media">
+              <img src="../images/7-day-rara-lake-jeep-tour-rara-lake-tour-package.webp" alt="7-Day Rara Lake Jeep Tour" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #0284C7, #0369A1);">Remote Overland Expedition</span>
+              <span class="tour-duration-pill">⏱️ 7 Days</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">7-Day Rara Lake Overland 4WD Jeep Tour</h3>
+                <p class="tour-item-desc">Epic 4WD journey across the Karnali river gorge and 12th-century Sinja Valley civilization to the crystal sapphire waters of Rara Lake (2,990m).</p>
+              </div>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 7 Days</span>
+                <span class="tour-meta-chip">🚙 4WD Mahindra Scorpio</span>
+                <span class="tour-meta-chip">💎 Queen of Lakes (2,990m)</span>
+                <span class="tour-meta-chip">🌲 Untamed Karnali</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$850</span>
+                </div>
+                <a href="../tour/rara-lake-jeep-tour/" class="tour-action-btn">View Itinerary →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tour Card: Upper Mustang 4WD Jeep Overland Tour -->
+          <div class="card tour-item" 
+               data-category="overland" 
+               data-duration="medium" 
+               data-price="1990" 
+               data-days="12" 
+               data-title="upper mustang 4wd jeep overland tour"
+               data-tags="overland 4wd upper-mustang-jeep-tour">
+            <div class="tour-item-media">
+              <img src="../images/upper-mustang-jeep-tour-12-days-to-lo-manthang-nepal.webp" alt="Upper Mustang Jeep Tour to Lo Manthang" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #EA580C, #C2410C);">Forbidden Kingdom 4WD</span>
+              <span class="tour-duration-pill">⏱️ 12 Days</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Upper Mustang 4WD Jeep Overland Tour</h3>
+                <p class="tour-item-desc">Traverse the deepest gorge in the world along the Kali Gandaki river directly to the walled medieval Tibetan kingdom of Lo Manthang and sky caves.</p>
+              </div>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 12 Days</span>
+                <span class="tour-meta-chip">🚙 Rugged 4WD Support</span>
+                <span class="tour-meta-chip">🏰 Lo Manthang Walled City</span>
+                <span class="tour-meta-chip">📜 Special RAP Permit Included</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$1,990</span>
+                </div>
+                <a href="../trek/upper-mustang-jeep-tour/" class="tour-action-btn">View Itinerary →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tour Card: Upper Mustang Tiji Festival Cultural Tour -->
+          <div class="card tour-item" 
+               data-category="cultural" 
+               data-duration="long" 
+               data-price="2190" 
+               data-days="15" 
+               data-title="upper mustang tiji festival cultural tour"
+               data-tags="cultural festival upper-mustang-tiji-festival">
+            <div class="tour-item-media">
+              <img src="../images/upper-mustang-tiji-festival-spectacular-culture-rituals.webp" alt="Upper Mustang Tiji Festival Tour" loading="lazy" width="400" height="220">
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #7C3AED, #5B21B6);">Sacred Monastic Festival</span>
+              <span class="tour-duration-pill">⏱️ 15 Days</span>
+            </div>
+            <div class="tour-item-body">
+              <div class="tour-item-top">
+                <h3 class="tour-item-title">Upper Mustang Tiji Festival Cultural Tour</h3>
+                <p class="tour-item-desc">Witness the sacred 3-day masked Tibetan Buddhist dances celebrating the victory of good over evil in the royal palace square of Lo Manthang.</p>
+              </div>
+              <div class="tour-item-meta">
+                <span class="tour-meta-chip">⏱️ 15 Days</span>
+                <span class="tour-meta-chip">🎭 3-Day Tiji Ceremony</span>
+                <span class="tour-meta-chip">👑 King of Mustang Palace</span>
+                <span class="tour-meta-chip">📜 Special RAP Permit</span>
+              </div>
+              <div class="tour-item-footer">
+                <div class="tour-price-wrap">
+                  <span class="tour-price-label">Starting from</span>
+                  <span class="tour-price-value">$2,190</span>
+                </div>
+                <a href="../trek/upper-mustang-tiji-festival/" class="tour-action-btn">View Itinerary →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Empty State -->
+          <div class="tours-empty-card" id="tours-empty-state">
+            <span class="tours-empty-icon">🔍</span>
+            <h3 class="tours-empty-title">No tour packages match your search</h3>
+            <p class="tours-empty-text">We couldn't find any tour packages matching your active filters. Try clearing your search keyword or switching tour styles.</p>
+            <button type="button" class="btn btn-primary" onclick="document.getElementById('reset-filters-btn').click();" style="padding: 10px 24px;">Reset All Filters</button>
+          </div>
         </div>
 
       </div>
@@ -520,5 +1560,6 @@
   <script type="module" src="../js/inquiry-modal.js"></script>
   <script src="../js/header-scroll.js"></script>
   <script src="../js/mega-menu.js"></script>
+  <script src="../js/nepal-tour-packages.js"></script>
 </body>
 </html>

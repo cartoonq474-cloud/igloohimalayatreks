@@ -1,0 +1,160 @@
+const http = require('http');
+const path = require('path');
+const { spawn } = require('child_process');
+
+const PORT = 3006;
+const BASE = `http://localhost:${PORT}`;
+
+// Spawn isolated server instance
+const serverProc = spawn('node', ['server.js'], {
+  cwd: path.resolve(__dirname, '..'),
+  env: { ...process.env, PORT: String(PORT) },
+  stdio: 'pipe'
+});
+
+serverProc.stdout.on('data', d => {});
+serverProc.stderr.on('data', d => console.error(d.toString()));
+
+function request(urlPath) {
+  return new Promise((resolve, reject) => {
+    http.get(`${BASE}${urlPath}`, res => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => resolve({
+        statusCode: res.statusCode,
+        location: res.headers.location,
+        body: data
+      }));
+    }).on('error', reject);
+  });
+}
+
+const allUrls = [
+  // Annapurna (18)
+  { url: '/trip/ghorepani-poon-hill-with-mardi-himal-trek', expectedTarget: '/trek/ghorepani-poon-hill-with-mardi-himal-trek/' },
+  { url: '/trip/annapurna-base-camp-trek', expectedTarget: '/trek/annapurna-base-camp/' },
+  { url: '/trip/annapurna-circuit-trek', expectedTarget: '/trek/annapurna-circuit-trek/' },
+  { url: '/trip/annapurna-scenic-trek', expectedTarget: '/trek/panchase-trek/' },
+  { url: '/trip/classic-annapurna-circuit-trek', expectedTarget: '/trek/annapurna-circuit-trek/' },
+  { url: '/trip/annapurna-base-camp-helicopter-return-trek', expectedTarget: '/trek/annapurna-base-camp-heli-return/' },
+  { url: '/trip/khopra-ridge-trek', expectedTarget: '/trek/khopra-ridge-trek/' },
+  { url: '/trip/abc-with-mardi-himal-trek', expectedTarget: '/trek/abc-with-mardi-himal-trek/' },
+  { url: '/trip/annapurna-circuit-with-tilicho-lake', expectedTarget: '/trek/tilicho-lake-trek/' },
+  { url: '/trip/annapurna-short-trek', expectedTarget: '/trek/annapurna-short-trek/' },
+  { url: '/trip/mardi-himal-trek', expectedTarget: '/trek/mardi-himal-trek/' },
+  { url: '/trip/panchase-trek', expectedTarget: '/trek/panchase-trek/' },
+  { url: '/trip/ghorepani-poonhill-ghandruk-trek', expectedTarget: '/trek/ghorepani-poon-hill-trek/' },
+  { url: '/trip/annapurna-circuit-luxury-trek', expectedTarget: '/trek/annapurna-circuit-luxury-trek/' },
+  { url: '/trip/short-annapurna-base-camp-trek', expectedTarget: '/trek/short-annapurna-base-camp-trek/' },
+  { url: '/trip/ghorepani-poon-hill-trek', expectedTarget: '/trek/ghorepani-poon-hill-trek/' },
+  { url: '/trip/annapurna-base-camp-trek-heli-return', expectedTarget: '/trek/annapurna-base-camp-heli-return/' },
+  { url: '/trip/annapurna-luxury-trek', expectedTarget: '/trek/annapurna-luxury-trek/' },
+
+  // Everest & Peaks (30)
+  { url: '/trip/everest-base-camp-luxury-trek', expectedTarget: '/trek/everest-base-camp-luxury-trek/' },
+  { url: '/trip/lobuche-peak-climbing-trek', expectedTarget: '/trek/lobuche-peak-climbing/' },
+  { url: '/trip/ebc-trek-with-island-peak', expectedTarget: '/trek/island-peak-climbing/' },
+  { url: '/trip/everest-base-camp-trek-road-based', expectedTarget: '/trek/everest-base-camp-trek-without-flight/' },
+  { url: '/trip/tengbuche-trek', expectedTarget: '/trek/everest-view-trek/' },
+  { url: '/trip/everest-base-camp-trek', expectedTarget: '/trek/everest-base-camp-trek/' },
+  { url: '/trip/three-high-passes-with-island-peak-climb', expectedTarget: '/trek/three-high-passes-with-island-peak-climb/' },
+  { url: '/trip/everest-view-mini-trek', expectedTarget: '/trek/everest-view-trek/' },
+  { url: '/trip/gokyo-lake-helicopter-tour', expectedTarget: '/tour/everest-base-camp-helicopter-tour/' },
+  { url: '/trip/everest-base-camp-with-cho-la-and-renjo-la-pass-trek', expectedTarget: '/trek/everest-three-passes-trek/' },
+  { url: '/trip/gokyo-lake-with-ranjo-la-pass-trek', expectedTarget: '/trek/gokyo-lakes-trek/' },
+  { url: '/trip/everest-base-camp-heli-tour', expectedTarget: '/tour/everest-base-camp-helicopter-tour/' },
+  { url: '/trip/mera-peak', expectedTarget: '/trek/mera-peak-climbing/' },
+  { url: '/trip/everest-base-camp-with-chola-pass-gokyo-trek', expectedTarget: '/trek/everest-base-camp-via-gokyo-lakes/' },
+  { url: '/trip/pikey-peak-trek', expectedTarget: '/trek/pikey-peak-trek/' },
+  { url: '/trip/everest-base-camp-trek-without-flight', expectedTarget: '/trek/everest-base-camp-trek-without-flight/' },
+  { url: '/trip/gokyo-lakes-trek', expectedTarget: '/trek/gokyo-lakes-trek/' },
+  { url: '/trip/gokyo-lakes-luxury-trek', expectedTarget: '/trek/gokyo-lakes-luxury-trek/' },
+  { url: '/trip/everest-chola-and-renjo-la-pass-trek', expectedTarget: '/trek/everest-three-passes-trek/' },
+  { url: '/trip/gokyo-lake-with-renjo-la-pass-trek', expectedTarget: '/trek/gokyo-lakes-trek/' },
+  { url: '/trip/ebc-chola-pass-gokyo-trek', expectedTarget: '/trek/everest-base-camp-via-gokyo-lakes/' },
+  { url: '/trip/everest-view-trek', expectedTarget: '/trek/everest-view-trek/' },
+  { url: '/trip/lobuche-peak-climbing', expectedTarget: '/trek/lobuche-peak-climbing/' },
+  { url: '/trip/island-peak-climbing', expectedTarget: '/trek/island-peak-climbing/' },
+  { url: '/trip/mera-peak-climbing', expectedTarget: '/trek/mera-peak-climbing/' },
+  { url: '/trip/gokyo-lake-trek-with-helicopter-return', expectedTarget: '/trek/gokyo-lake-trek-with-helicopter-return/' },
+  { url: '/trip/everest-base-camp-with-island-peak-climb', expectedTarget: '/trek/island-peak-climbing/' },
+  { url: '/trip/everest-base-camp-16-days', expectedTarget: '/trek/everest-base-camp-trek/' },
+  { url: '/trip/everest-three-passes-trek', expectedTarget: '/trek/everest-three-passes-trek/' },
+  { url: '/trip/everest-base-camp-helicopter-tour', expectedTarget: '/tour/everest-base-camp-helicopter-tour/' },
+
+  // Langtang (8)
+  { url: '/trip/tamang-heritage-trail-with-langtang-valley-trek', expectedTarget: '/trek/tamang-heritage-trail-with-langtang-valley-trek/' },
+  { url: '/trip/langtang-valley-with-gosaikunda-pass-trek', expectedTarget: '/trek/langtang-gosaikunda-trek/' },
+  { url: '/trip/langtang-valley-trek', expectedTarget: '/trek/langtang-valley-trek/' },
+  { url: '/trip/tamang-heritage-trail', expectedTarget: '/trek/tamang-heritage-trail-trek/' },
+  { url: '/trip/yala-peak-climbing', expectedTarget: '/trek/yala-peak-climbing/' },
+  { url: '/trip/langtang-gosaikunda-helambu-trek', expectedTarget: '/trek/langtang-gosaikunda-helambu-trek/' },
+  { url: '/trip/gosaikunda-trek', expectedTarget: '/trek/gosaikunda-lake-trek/' },
+  { url: '/trip/tamang-heritage-trail-langtang-valley', expectedTarget: '/trek/tamang-heritage-trail-with-langtang-valley-trek/' },
+
+  // Manaslu (5)
+  { url: '/trip/manaslu-circuit-with-tsum-valley-trek', expectedTarget: '/trek/manaslu-tsum-valley-trek/' },
+  { url: '/trip/manaslu-circuit-trek', expectedTarget: '/trek/manaslu-circuit-trek/' },
+  { url: '/trip/manaslu-circuit-trek-12-days', expectedTarget: '/trek/manaslu-circuit-trek-12-days/' },
+  { url: '/trip/manaslu-tsum-valley-trek', expectedTarget: '/trek/manaslu-tsum-valley-trek/' },
+  { url: '/trip/tsum-valley-trek', expectedTarget: '/trek/tsum-valley-trek/' }
+];
+
+async function runAudit() {
+  // Wait for server to boot
+  await new Promise(r => setTimeout(r, 1200));
+
+  console.log(`Auditing all ${allUrls.length} routes against ${BASE}...`);
+  let passed = 0;
+  let failed = 0;
+
+  for (const item of allUrls) {
+    try {
+      const res = await request(item.url);
+      if (res.statusCode === 301 && res.location === item.expectedTarget) {
+        // Now verify target delivers 200 OK
+        const targetRes = await request(item.expectedTarget);
+        if (targetRes.statusCode === 200 && targetRes.body.includes('<h1')) {
+          console.log(`[PASS] ${item.url} -> 301 -> ${item.expectedTarget} -> 200 OK`);
+          passed++;
+        } else {
+          console.error(`[FAIL] ${item.url} target failed: status=${targetRes.statusCode}`);
+          failed++;
+        }
+      } else {
+        console.error(`[FAIL] ${item.url}: status=${res.statusCode}, loc=${res.location}, expected=${item.expectedTarget}`);
+        failed++;
+      }
+    } catch (e) {
+      console.error(`[ERROR] ${item.url}:`, e.message);
+      failed++;
+    }
+  }
+
+  // Also verify hubs
+  const hubs = [
+    '/manaslu-region-treks/',
+    '/nepal-trekking-packages/',
+    '/'
+  ];
+
+  for (const hub of hubs) {
+    const res = await request(hub);
+    if (res.statusCode === 200 && res.body.includes('Manaslu Circuit Trek 12 Days')) {
+      console.log(`[PASS HUB] ${hub} -> 200 OK and contains Manaslu Circuit Trek 12 Days`);
+      passed++;
+    } else {
+      console.error(`[FAIL HUB] ${hub} status=${res.statusCode}`);
+      failed++;
+    }
+  }
+
+  console.log(`\n========================================`);
+  console.log(`Audit Summary: Passed ${passed}, Failed ${failed} out of ${allUrls.length + hubs.length}`);
+  console.log(`========================================`);
+
+  serverProc.kill();
+  process.exit(failed > 0 ? 1 : 0);
+}
+
+runAudit();

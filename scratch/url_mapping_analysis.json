@@ -1,0 +1,2346 @@
+[
+  {
+    "oldUrl": "https://igloohimalayatreks.com/",
+    "pathname": "/",
+    "category": "Homepage",
+    "newUrl": "https://igloohimalayatreks.com/",
+    "status": "200 OK (Direct Canonical URL)",
+    "notes": "Active modern static page with optimized layout"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/about-us/",
+    "pathname": "/about-us/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/",
+    "pathname": "/activities/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Redirect -> Main Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/cycling",
+    "pathname": "/activities/cycling/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/tour/cycling-tour-around-kathmandu-valley/",
+    "status": "301 Redirect -> Cycling Tour Page",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/cycling/",
+    "pathname": "/activities/cycling/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/tour/cycling-tour-around-kathmandu-valley/",
+    "status": "301 Redirect -> Cycling Tour Page",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/heli-service/",
+    "pathname": "/activities/heli-service/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/tour/everest-base-camp-helicopter-tour/",
+    "status": "301 Redirect -> Helicopter Tour Page",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/heli-tour/",
+    "pathname": "/activities/heli-tour/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/nepal-tour-packages/",
+    "status": "301 Redirect -> Tour Packages Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/hiking",
+    "pathname": "/activities/hiking/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/tour/jamacho-hike/",
+    "status": "301 Redirect -> Hike Page",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/hiking/",
+    "pathname": "/activities/hiking/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/tour/jamacho-hike/",
+    "status": "301 Redirect -> Hike Page",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/jungle-safari",
+    "pathname": "/activities/jungle-safari/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/tour/chitwan-national-park-safari/",
+    "status": "301 Redirect -> Safari Tour Page",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/jungle-safari/",
+    "pathname": "/activities/jungle-safari/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/tour/chitwan-national-park-safari/",
+    "status": "301 Redirect -> Safari Tour Page",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/peak-climbing",
+    "pathname": "/activities/peak-climbing/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/peak-climbing-nepal/",
+    "status": "301 Redirect -> Peak Climbing Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/peak-climbing/",
+    "pathname": "/activities/peak-climbing/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/peak-climbing-nepal/",
+    "status": "301 Redirect -> Peak Climbing Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/rafting",
+    "pathname": "/activities/rafting/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Redirect -> Main Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/rafting/",
+    "pathname": "/activities/rafting/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Redirect -> Main Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/tour",
+    "pathname": "/activities/tour/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/nepal-tour-packages/",
+    "status": "301 Redirect -> Tour Packages Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/tour/",
+    "pathname": "/activities/tour/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/nepal-tour-packages/",
+    "status": "301 Redirect -> Tour Packages Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/trekking/",
+    "pathname": "/activities/trekking/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Redirect -> Trekking Packages Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/trekking/page/2/",
+    "pathname": "/activities/trekking/page/2/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Redirect -> Trekking Packages Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/trekking/page/3/",
+    "pathname": "/activities/trekking/page/3/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Redirect -> Trekking Packages Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/activities/trekking/page/4/",
+    "pathname": "/activities/trekking/page/4/",
+    "category": "Activities Hub",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Redirect -> Trekking Packages Hub",
+    "notes": "Consolidated into high-converting regional/activity hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-9-days-itinerary/",
+    "pathname": "/annapurna-base-camp-9-days-itinerary/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-trek-13-days/",
+    "pathname": "/annapurna-base-camp-trek-13-days/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-trek-after-flood/",
+    "pathname": "/annapurna-base-camp-trek-after-flood/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-trek-cost-2026/",
+    "pathname": "/annapurna-base-camp-trek-cost-2026/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-trek-difficulty/",
+    "pathname": "/annapurna-base-camp-trek-difficulty/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-trek-for-beginners/",
+    "pathname": "/annapurna-base-camp-trek-for-beginners/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-trek-in-autumn-2/",
+    "pathname": "/annapurna-base-camp-trek-in-autumn-2/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-trek-in-autumn/",
+    "pathname": "/annapurna-base-camp-trek-in-autumn/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-trek-in-february/",
+    "pathname": "/annapurna-base-camp-trek-in-february/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-trek-in-october/",
+    "pathname": "/annapurna-base-camp-trek-in-october/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-trek-in-winter/",
+    "pathname": "/annapurna-base-camp-trek-in-winter/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-base-camp-trek-itinerary-7-days/",
+    "pathname": "/annapurna-base-camp-trek-itinerary-7-days/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/annapurna-circuit-vs-manaslu-circuit/",
+    "pathname": "/annapurna-circuit-vs-manaslu-circuit/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/author/surya/",
+    "pathname": "/author/surya/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/best-hiking-places-near-kathmandu/",
+    "pathname": "/best-hiking-places-near-kathmandu/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/best-things-to-do-along-the-everest-base-camp-trail/",
+    "pathname": "/best-things-to-do-along-the-everest-base-camp-trail/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/best-time-for-gokyo-lakes-trek/",
+    "pathname": "/best-time-for-gokyo-lakes-trek/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/best-time-to-climb-island-peak/",
+    "pathname": "/best-time-to-climb-island-peak/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/best-time-to-trek-annapurna-base-camp/",
+    "pathname": "/best-time-to-trek-annapurna-base-camp/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/best-treks-in-nepal-2027/",
+    "pathname": "/best-treks-in-nepal-2027/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/best-treks-in-nepal-for-beginners/",
+    "pathname": "/best-treks-in-nepal-for-beginners/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/blog-on-trekking-travelling-in-nepal/",
+    "pathname": "/blog-on-trekking-travelling-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/blog/",
+    "pathname": "/blog/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/book-your-best-trip-today/",
+    "pathname": "/book-your-best-trip-today/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/cheap-treks-in-nepal-under-1000/",
+    "pathname": "/cheap-treks-in-nepal-under-1000/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/checkout/",
+    "pathname": "/checkout/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/classic-annapurna-circuit-trek/",
+    "pathname": "/classic-annapurna-circuit-trek/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/climbing-in-nepal/",
+    "pathname": "/climbing-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/comments/feed/",
+    "pathname": "/comments/feed/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/common-mistakes-annapurna-base-camp-trek/",
+    "pathname": "/common-mistakes-annapurna-base-camp-trek/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/contact-us/",
+    "pathname": "/contact-us/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/cycling-trails-in-kathmandu/",
+    "pathname": "/cycling-trails-in-kathmandu/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/dal-bhat-nepal-iconic-traditional-dish/",
+    "pathname": "/dal-bhat-nepal-iconic-traditional-dish/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/dal-bhat/",
+    "pathname": "/dal-bhat/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/",
+    "pathname": "/destinations/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/bhutan/",
+    "pathname": "/destinations/bhutan/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/",
+    "pathname": "/destinations/nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/annapurna-region/",
+    "pathname": "/destinations/nepal/annapurna-region/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/annapurna-region/page/2/",
+    "pathname": "/destinations/nepal/annapurna-region/page/2/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/dolpa-region/",
+    "pathname": "/destinations/nepal/dolpa-region/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/everest-region/",
+    "pathname": "/destinations/nepal/everest-region/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/everest-region/page/2/",
+    "pathname": "/destinations/nepal/everest-region/page/2/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/kangchenjunga-region/",
+    "pathname": "/destinations/nepal/kangchenjunga-region/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/langtang-region/",
+    "pathname": "/destinations/nepal/langtang-region/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/manaslu-region/",
+    "pathname": "/destinations/nepal/manaslu-region/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/page/2/",
+    "pathname": "/destinations/nepal/page/2/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/page/3/",
+    "pathname": "/destinations/nepal/page/3/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/page/4/",
+    "pathname": "/destinations/nepal/page/4/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/page/5/",
+    "pathname": "/destinations/nepal/page/5/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/nepal/upper-mustang/",
+    "pathname": "/destinations/nepal/upper-mustang/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/destinations/tibet/",
+    "pathname": "/destinations/tibet/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/do-you-need-a-guide-to-trek-in-nepal-2026/",
+    "pathname": "/do-you-need-a-guide-to-trek-in-nepal-2026/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/enquiry-thank-you-page/",
+    "pathname": "/enquiry-thank-you-page/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-2027/",
+    "pathname": "/everest-base-camp-2027/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-packing-mistakes-to-avoid/",
+    "pathname": "/everest-base-camp-packing-mistakes-to-avoid/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-cost-2027/",
+    "pathname": "/everest-base-camp-trek-cost-2027/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-cost/",
+    "pathname": "/everest-base-camp-trek-cost/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-difficulty-guide/",
+    "pathname": "/everest-base-camp-trek-difficulty-guide/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-elevation/",
+    "pathname": "/everest-base-camp-trek-elevation/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-faqs-guide/",
+    "pathname": "/everest-base-camp-trek-faqs-guide/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-food/",
+    "pathname": "/everest-base-camp-trek-food/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-guide-tips/",
+    "pathname": "/everest-base-camp-trek-guide-tips/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-guide/",
+    "pathname": "/everest-base-camp-trek-guide/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-in-winter-2026/",
+    "pathname": "/everest-base-camp-trek-in-winter-2026/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-itinerary-2027/",
+    "pathname": "/everest-base-camp-trek-itinerary-2027/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-more-than-just-reaching-everest-base-camp/",
+    "pathname": "/everest-base-camp-trek-more-than-just-reaching-everest-base-camp/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-packing-list/",
+    "pathname": "/everest-base-camp-trek-packing-list/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trek-without-flight/",
+    "pathname": "/everest-base-camp-trek-without-flight/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-trekking-tips/",
+    "pathname": "/everest-base-camp-trekking-tips/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-vs-annapurna-base-camp/",
+    "pathname": "/everest-base-camp-vs-annapurna-base-camp/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-base-camp-vs-gokyo-lakes/",
+    "pathname": "/everest-base-camp-vs-gokyo-lakes/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-is-not-something-you-conquer/",
+    "pathname": "/everest-is-not-something-you-conquer/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-view-trek-cost/",
+    "pathname": "/everest-view-trek-cost/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-view-trek-difficulty/",
+    "pathname": "/everest-view-trek-difficulty/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-view-trek-in-winter/",
+    "pathname": "/everest-view-trek-in-winter/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/everest-view-trek-packing-list/",
+    "pathname": "/everest-view-trek-packing-list/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/faq/",
+    "pathname": "/faq/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/feed/",
+    "pathname": "/feed/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/festivals-in-nepal/",
+    "pathname": "/festivals-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/flying-a-drone-in-nepal/",
+    "pathname": "/flying-a-drone-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/ghorepani-poon-hill-vs-mardi-himal-trek/",
+    "pathname": "/ghorepani-poon-hill-vs-mardi-himal-trek/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/gokyo-lake-location/",
+    "pathname": "/gokyo-lake-location/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/gokyo-lakes-trek-cost-2027/",
+    "pathname": "/gokyo-lakes-trek-cost-2027/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/gokyo-lakes-trek-difficulty/",
+    "pathname": "/gokyo-lakes-trek-difficulty/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/gokyo-lakes-trek-distance/",
+    "pathname": "/gokyo-lakes-trek-distance/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/gokyo-lakes-trek-itinerary/",
+    "pathname": "/gokyo-lakes-trek-itinerary/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/green-boots-mount-everest/",
+    "pathname": "/green-boots-mount-everest/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/how-hard-is-everest-base-camp-trek/",
+    "pathname": "/how-hard-is-everest-base-camp-trek/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/how-long-is-the-hike-to-everest-base-camp/",
+    "pathname": "/how-long-is-the-hike-to-everest-base-camp/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/how-to-choose-the-best-trekking-company-in-nepal/",
+    "pathname": "/how-to-choose-the-best-trekking-company-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/how-to-get-to-annapurna/",
+    "pathname": "/how-to-get-to-annapurna/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/how-to-get-to-everest-base-camp/",
+    "pathname": "/how-to-get-to-everest-base-camp/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/how-to-train-for-high-altitude-hiking/",
+    "pathname": "/how-to-train-for-high-altitude-hiking/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/island-peak-climbing-in-spring-season/",
+    "pathname": "/island-peak-climbing-in-spring-season/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/kanchenjunga-circuit-trek-2026-guide/",
+    "pathname": "/kanchenjunga-circuit-trek-2026-guide/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/kanchenjunga-circuit-trek-autumn-weather/",
+    "pathname": "/kanchenjunga-circuit-trek-autumn-weather/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/khopra-ridge-trek-in-nepal/",
+    "pathname": "/khopra-ridge-trek-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/kyanjin-ri-vs-tserko-ri/",
+    "pathname": "/kyanjin-ri-vs-tserko-ri/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/langtang-flood-today-rasuwa-bhote-koshi-flood/",
+    "pathname": "/langtang-flood-today-rasuwa-bhote-koshi-flood/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/langtang-valley-trek-cost-2026/",
+    "pathname": "/langtang-valley-trek-cost-2026/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/langtang-valley-trek-cost-2027/",
+    "pathname": "/langtang-valley-trek-cost-2027/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/langtang-valley-trek-difficulty/",
+    "pathname": "/langtang-valley-trek-difficulty/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/langtang-valley-trek-itinerary/",
+    "pathname": "/langtang-valley-trek-itinerary/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/langtang-valley-trek-packing-list/",
+    "pathname": "/langtang-valley-trek-packing-list/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/legal-documents/",
+    "pathname": "/legal-documents/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/lukla-flight-cancelled/",
+    "pathname": "/lukla-flight-cancelled/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/lukla-flight-guide-for-everest-trekkers/",
+    "pathname": "/lukla-flight-guide-for-everest-trekkers/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/manaslu-circuit-trek-guide/",
+    "pathname": "/manaslu-circuit-trek-guide/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/manaslu-circuit-trek-permits-guide/",
+    "pathname": "/manaslu-circuit-trek-permits-guide/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/manaslu-trek-food-and-accommodation/",
+    "pathname": "/manaslu-trek-food-and-accommodation/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/mardi-himal-trek-guide/",
+    "pathname": "/mardi-himal-trek-guide/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/mardi-himal-trek-vs-abc/",
+    "pathname": "/mardi-himal-trek-vs-abc/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/mohare-danda-trek-cost-2027/",
+    "pathname": "/mohare-danda-trek-cost-2027/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/mount-everest/",
+    "pathname": "/mount-everest/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/my-account/",
+    "pathname": "/my-account/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/nepal-flood-2026-trekking-routes-affected/",
+    "pathname": "/nepal-flood-2026-trekking-routes-affected/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/nepal-visa-everything-travelers/",
+    "pathname": "/nepal-visa-everything-travelers/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/nims-dai-death/",
+    "pathname": "/nims-dai-death/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/",
+    "pathname": "/our-teams/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/babu-ram-pokharel/",
+    "pathname": "/our-teams/babu-ram-pokharel/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/elise-yuan/",
+    "pathname": "/our-teams/elise-yuan/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/emelita-sindac-dalangin/",
+    "pathname": "/our-teams/emelita-sindac-dalangin/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/kamal-tamang/",
+    "pathname": "/our-teams/kamal-tamang/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/kusal-rimal/",
+    "pathname": "/our-teams/kusal-rimal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/milan-tamang/",
+    "pathname": "/our-teams/milan-tamang/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/muhamad-danial/",
+    "pathname": "/our-teams/muhamad-danial/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/santi-tamang/",
+    "pathname": "/our-teams/santi-tamang/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/sonam-dorji-sherpa/",
+    "pathname": "/our-teams/sonam-dorji-sherpa/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/sujan-tamang/",
+    "pathname": "/our-teams/sujan-tamang/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/surya-lama/",
+    "pathname": "/our-teams/surya-lama/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/our-teams/tom-wangdel/",
+    "pathname": "/our-teams/tom-wangdel/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/page-sitemap.xml",
+    "pathname": "/page-sitemap.xml/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/poon-hill-trek/",
+    "pathname": "/poon-hill-trek/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/post-sitemap.xml",
+    "pathname": "/post-sitemap.xml/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/privacy-policy/",
+    "pathname": "/privacy-policy/",
+    "category": "Company / Policy Page",
+    "newUrl": "https://igloohimalayatreks.com/privacy-policy/",
+    "status": "200 OK (Direct Canonical URL)",
+    "notes": "Active modern static page with optimized layout"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/shinta-mani-mustang/",
+    "pathname": "/shinta-mani-mustang/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/short-annapurna-base-camp-trek-difficulty/",
+    "pathname": "/short-annapurna-base-camp-trek-difficulty/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/solo-trekking-in-nepals-restricted-areas/",
+    "pathname": "/solo-trekking-in-nepals-restricted-areas/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/suspension-bridges-along-the-everest-base-camp-trail/",
+    "pathname": "/suspension-bridges-along-the-everest-base-camp-trail/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/terms-and-conditions/",
+    "pathname": "/terms-and-conditions/",
+    "category": "Company / Policy Page",
+    "newUrl": "https://igloohimalayatreks.com/terms-and-conditions/",
+    "status": "200 OK (Direct Canonical URL)",
+    "notes": "Active modern static page with optimized layout"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/thank-you/",
+    "pathname": "/thank-you/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/thorong-la-pass-guide/",
+    "pathname": "/thorong-la-pass-guide/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/top-10-destinations-in-nepal/",
+    "pathname": "/top-10-destinations-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/top-trekking-routes-in-nepal-for-2026/",
+    "pathname": "/top-trekking-routes-in-nepal-for-2026/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/transportation-in-nepal/",
+    "pathname": "/transportation-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/travel-guide-sitemap.xml",
+    "pathname": "/travel-guide-sitemap.xml/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/travel-guide/",
+    "pathname": "/travel-guide/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/travel-guide/best-season-to-trek-in-nepal/",
+    "pathname": "/travel-guide/best-season-to-trek-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/travel-guide/medical-kit-for-trekking-in-nepal/",
+    "pathname": "/travel-guide/medical-kit-for-trekking-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/travel-guide/nepal-travel-visa/",
+    "pathname": "/travel-guide/nepal-travel-visa/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/travel-guide/travel-insurance-in-nepal/",
+    "pathname": "/travel-guide/travel-insurance-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/travel-guide/trekking-gears-list/",
+    "pathname": "/travel-guide/trekking-gears-list/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trekking-in-nepal-what-nobody-tells-you/",
+    "pathname": "/trekking-in-nepal-what-nobody-tells-you/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trekking-in-nepal/",
+    "pathname": "/trekking-in-nepal/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trekking-the-classic-annapurna-circuit/",
+    "pathname": "/trekking-the-classic-annapurna-circuit/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip-sitemap.xml",
+    "pathname": "/trip-sitemap.xml/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip-types/budget-travel/",
+    "pathname": "/trip-types/budget-travel/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip-types/child-friendly/",
+    "pathname": "/trip-types/child-friendly/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip-types/cultural/",
+    "pathname": "/trip-types/cultural/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip-types/high-altitude/",
+    "pathname": "/trip-types/high-altitude/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip-types/high-altitude/page/2/",
+    "pathname": "/trip-types/high-altitude/page/2/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip-types/high-altitude/page/3/",
+    "pathname": "/trip-types/high-altitude/page/3/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip-types/nature-friendly/",
+    "pathname": "/trip-types/nature-friendly/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip-types/nature-walk/",
+    "pathname": "/trip-types/nature-walk/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip-types/weekend-trips/",
+    "pathname": "/trip-types/weekend-trips/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/",
+    "pathname": "/trip/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Fallback -> Trekking Hub",
+    "notes": "Old legacy trip mapped to main destination hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/9-nights-bhutan-tour/",
+    "pathname": "/trip/9-nights-bhutan-tour/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Fallback -> Trekking Hub",
+    "notes": "Old legacy trip mapped to main destination hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/abc-with-mardi-himal-trek/",
+    "pathname": "/trip/abc-with-mardi-himal-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/abc-with-mardi-himal-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/annapurna-base-camp-helicopter-return-trek/",
+    "pathname": "/trip/annapurna-base-camp-helicopter-return-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/annapurna-base-camp-heli-return/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/annapurna-base-camp-trek-heli-return/",
+    "pathname": "/trip/annapurna-base-camp-trek-heli-return/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/annapurna-base-camp-heli-return/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/annapurna-base-camp-trek/",
+    "pathname": "/trip/annapurna-base-camp-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/annapurna-base-camp/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/annapurna-circuit-luxury-trek/",
+    "pathname": "/trip/annapurna-circuit-luxury-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/annapurna-circuit-luxury-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/annapurna-circuit-trek/",
+    "pathname": "/trip/annapurna-circuit-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/annapurna-circuit-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/annapurna-circuit-with-tilicho-lake/",
+    "pathname": "/trip/annapurna-circuit-with-tilicho-lake/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/tilicho-lake-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/annapurna-luxury-trek/",
+    "pathname": "/trip/annapurna-luxury-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/annapurna-luxury-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/annapurna-scenic-trek/",
+    "pathname": "/trip/annapurna-scenic-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/panchase-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/annapurna-short-trek/",
+    "pathname": "/trip/annapurna-short-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/annapurna-short-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/chisapani-nagarkot-trek/",
+    "pathname": "/trip/chisapani-nagarkot-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/chisapani-nagarkot-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/chitwan-jungle-safari-tour/",
+    "pathname": "/trip/chitwan-jungle-safari-tour/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/tour/chitwan-national-park-safari/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/classic-annapurna-circuit-trek/",
+    "pathname": "/trip/classic-annapurna-circuit-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/annapurna-circuit-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/cycling-tour-around-kathmandu-valley/",
+    "pathname": "/trip/cycling-tour-around-kathmandu-valley/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/tour/cycling-tour-around-kathmandu-valley/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/day-cycling-tour-kathmandu/",
+    "pathname": "/trip/day-cycling-tour-kathmandu/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/tour/cycling-tour-around-kathmandu-valley/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/ebc-chola-pass-gokyo-trek/",
+    "pathname": "/trip/ebc-chola-pass-gokyo-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-base-camp-via-gokyo-lakes/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/ebc-trek-with-island-peak/",
+    "pathname": "/trip/ebc-trek-with-island-peak/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/island-peak-climbing/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-base-camp-heli-tour/",
+    "pathname": "/trip/everest-base-camp-heli-tour/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/tour/everest-base-camp-helicopter-tour/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-base-camp-helicopter-tour/",
+    "pathname": "/trip/everest-base-camp-helicopter-tour/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/tour/everest-base-camp-helicopter-tour/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-base-camp-luxury-trek/",
+    "pathname": "/trip/everest-base-camp-luxury-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-base-camp-luxury-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-base-camp-trek-16-days/",
+    "pathname": "/trip/everest-base-camp-trek-16-days/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Fallback -> Trekking Hub",
+    "notes": "Old legacy trip mapped to main destination hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-base-camp-trek-road-based/",
+    "pathname": "/trip/everest-base-camp-trek-road-based/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-base-camp-trek-without-flight/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-base-camp-trek-without-flight/",
+    "pathname": "/trip/everest-base-camp-trek-without-flight/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-base-camp-trek-without-flight/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-base-camp-trek/",
+    "pathname": "/trip/everest-base-camp-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-base-camp-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-base-camp-with-cho-la-and-renjo-la-pass-trek/",
+    "pathname": "/trip/everest-base-camp-with-cho-la-and-renjo-la-pass-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-three-passes-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-base-camp-with-chola-pass-gokyo-trek/",
+    "pathname": "/trip/everest-base-camp-with-chola-pass-gokyo-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-base-camp-via-gokyo-lakes/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-base-camp-with-island-peak-climb/",
+    "pathname": "/trip/everest-base-camp-with-island-peak-climb/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/island-peak-climbing/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-chola-and-renjo-la-pass-trek/",
+    "pathname": "/trip/everest-chola-and-renjo-la-pass-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-three-passes-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-three-passes-trek/",
+    "pathname": "/trip/everest-three-passes-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-three-passes-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-view-mini-trek/",
+    "pathname": "/trip/everest-view-mini-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-view-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/everest-view-trek/",
+    "pathname": "/trip/everest-view-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-view-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/ghorepani-poon-hill-trek/",
+    "pathname": "/trip/ghorepani-poon-hill-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/ghorepani-poon-hill-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/ghorepani-poon-hill-with-mardi-himal-trek/",
+    "pathname": "/trip/ghorepani-poon-hill-with-mardi-himal-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/ghorepani-poon-hill-with-mardi-himal-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/ghorepani-poonhill-ghandruk-trek/",
+    "pathname": "/trip/ghorepani-poonhill-ghandruk-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/ghorepani-poon-hill-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/gokyo-lake-helicopter-tour/",
+    "pathname": "/trip/gokyo-lake-helicopter-tour/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/tour/everest-base-camp-helicopter-tour/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/gokyo-lake-trek-with-helicopter-return/",
+    "pathname": "/trip/gokyo-lake-trek-with-helicopter-return/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/gokyo-lake-trek-with-helicopter-return/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/gokyo-lake-with-ranjo-la-pass-trek/",
+    "pathname": "/trip/gokyo-lake-with-ranjo-la-pass-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/gokyo-lakes-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/gokyo-lake-with-renjo-la-pass-trek/",
+    "pathname": "/trip/gokyo-lake-with-renjo-la-pass-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/gokyo-lakes-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/gokyo-lakes-luxury-trek/",
+    "pathname": "/trip/gokyo-lakes-luxury-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/gokyo-lakes-luxury-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/gokyo-lakes-trek/",
+    "pathname": "/trip/gokyo-lakes-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/gokyo-lakes-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/gosaikunda-trek/",
+    "pathname": "/trip/gosaikunda-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/gosaikunda-lake-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/honeymoon-tour-in-nepal/",
+    "pathname": "/trip/honeymoon-tour-in-nepal/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/tour/honeymoon-tour-in-nepal/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/island-peak-climbing/",
+    "pathname": "/trip/island-peak-climbing/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/island-peak-climbing/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/jamacho-hike/",
+    "pathname": "/trip/jamacho-hike/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/tour/jamacho-hike/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/kailash-mansarovar-yatra/",
+    "pathname": "/trip/kailash-mansarovar-yatra/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Fallback -> Trekking Hub",
+    "notes": "Old legacy trip mapped to main destination hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/kanchenjunga-circuit-trek-nepal/",
+    "pathname": "/trip/kanchenjunga-circuit-trek-nepal/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/kanchenjunga-circuit-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/kanchenjunga-circuit-trek/",
+    "pathname": "/trip/kanchenjunga-circuit-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/kanchenjunga-circuit-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/kanchenjunga-trek-without-flight/",
+    "pathname": "/trip/kanchenjunga-trek-without-flight/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/kanchenjunga-trek-without-flight/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/kathmandu-heritage-tour/",
+    "pathname": "/trip/kathmandu-heritage-tour/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/tour/kathmandu-cultural-heritage-tour/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/khopra-ridge-trek/",
+    "pathname": "/trip/khopra-ridge-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/khopra-ridge-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/langtang-gosaikunda-helambu-trek/",
+    "pathname": "/trip/langtang-gosaikunda-helambu-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/langtang-gosaikunda-helambu-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/langtang-valley-trek/",
+    "pathname": "/trip/langtang-valley-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/langtang-valley-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/langtang-valley-with-gosaikunda-pass-trek/",
+    "pathname": "/trip/langtang-valley-with-gosaikunda-pass-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/langtang-gosaikunda-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/lobuche-peak-climbing-trek/",
+    "pathname": "/trip/lobuche-peak-climbing-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/lobuche-peak-climbing/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/lobuche-peak-climbing/",
+    "pathname": "/trip/lobuche-peak-climbing/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/lobuche-peak-climbing/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/lower-dolpo-trek/",
+    "pathname": "/trip/lower-dolpo-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/lower-dolpo-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/manaslu-circuit-trek-12-days/",
+    "pathname": "/trip/manaslu-circuit-trek-12-days/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/manaslu-circuit-trek-12-days/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/manaslu-circuit-trek/",
+    "pathname": "/trip/manaslu-circuit-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/manaslu-circuit-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/manaslu-circuit-with-tsum-valley-trek/",
+    "pathname": "/trip/manaslu-circuit-with-tsum-valley-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/manaslu-tsum-valley-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/manaslu-tsum-valley-trek/",
+    "pathname": "/trip/manaslu-tsum-valley-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/manaslu-tsum-valley-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/mardi-himal-trek/",
+    "pathname": "/trip/mardi-himal-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/mardi-himal-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/mera-peak-climbing/",
+    "pathname": "/trip/mera-peak-climbing/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/mera-peak-climbing/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/mera-peak/",
+    "pathname": "/trip/mera-peak/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/mera-peak-climbing/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/mohare-danda-trek/",
+    "pathname": "/trip/mohare-danda-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/mohare-danda-trek/",
+    "status": "301 Direct Match -> New Trek Page",
+    "notes": "Exact slug match in /trek/"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/nar-phu-valley-trek/",
+    "pathname": "/trip/nar-phu-valley-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/nar-phu-valley-trek/",
+    "status": "301 Direct Match -> New Trek Page",
+    "notes": "Exact slug match in /trek/"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/nine-nights-bhutan-tour-from-nepal/",
+    "pathname": "/trip/nine-nights-bhutan-tour-from-nepal/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Fallback -> Trekking Hub",
+    "notes": "Old legacy trip mapped to main destination hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/one-day-kathmandu-city-tour/",
+    "pathname": "/trip/one-day-kathmandu-city-tour/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/tour/one-day-kathmandu-city-tour/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/page/2/",
+    "pathname": "/trip/page/2/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Fallback -> Trekking Hub",
+    "notes": "Old legacy trip mapped to main destination hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/page/3/",
+    "pathname": "/trip/page/3/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Fallback -> Trekking Hub",
+    "notes": "Old legacy trip mapped to main destination hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/page/4/",
+    "pathname": "/trip/page/4/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Fallback -> Trekking Hub",
+    "notes": "Old legacy trip mapped to main destination hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/page/5/",
+    "pathname": "/trip/page/5/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/nepal-trekking-packages/",
+    "status": "301 Fallback -> Trekking Hub",
+    "notes": "Old legacy trip mapped to main destination hub"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/panchase-trek/",
+    "pathname": "/trip/panchase-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/panchase-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/pikey-peak-trek/",
+    "pathname": "/trip/pikey-peak-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/pikey-peak-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/rara-lake-jeep-tour/",
+    "pathname": "/trip/rara-lake-jeep-tour/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/tour/rara-lake-jeep-tour/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/short-annapurna-base-camp-trek/",
+    "pathname": "/trip/short-annapurna-base-camp-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/short-annapurna-base-camp-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/tamang-heritage-trail-langtang-valley/",
+    "pathname": "/trip/tamang-heritage-trail-langtang-valley/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/tamang-heritage-trail-with-langtang-valley-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/tamang-heritage-trail-with-langtang-valley-trek/",
+    "pathname": "/trip/tamang-heritage-trail-with-langtang-valley-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/tamang-heritage-trail-with-langtang-valley-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/tamang-heritage-trail/",
+    "pathname": "/trip/tamang-heritage-trail/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/tamang-heritage-trail-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/tengbuche-trek/",
+    "pathname": "/trip/tengbuche-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/everest-view-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/three-high-passes-with-island-peak-climb/",
+    "pathname": "/trip/three-high-passes-with-island-peak-climb/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/three-high-passes-with-island-peak-climb/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/tsum-valley-trek/",
+    "pathname": "/trip/tsum-valley-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/tsum-valley-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/upper-dolpo-trek/",
+    "pathname": "/trip/upper-dolpo-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/upper-dolpo-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/upper-mustang-jeep-tour/",
+    "pathname": "/trip/upper-mustang-jeep-tour/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/upper-mustang-jeep-tour/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/upper-mustang-tiji-festival/",
+    "pathname": "/trip/upper-mustang-tiji-festival/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/upper-mustang-tiji-festival/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/upper-mustang-trek/",
+    "pathname": "/trip/upper-mustang-trek/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/upper-mustang-trek/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trip/yala-peak-climbing/",
+    "pathname": "/trip/yala-peak-climbing/",
+    "category": "Trek / Tour Package",
+    "newUrl": "https://igloohimalayatreks.com/trek/yala-peak-climbing/",
+    "status": "301 Redirect -> Optimized New Page",
+    "notes": "Mapped via server.js 301 redirect table to authentic high-performance page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/trips/",
+    "pathname": "/trips/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/upper-mustang-trek-cost-and-itinerary/",
+    "pathname": "/upper-mustang-trek-cost-and-itinerary/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/what-is-nepal-famous-for-explore/",
+    "pathname": "/what-is-nepal-famous-for-explore/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/what-is-nepal-known-for/",
+    "pathname": "/what-is-nepal-known-for/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/what-is-the-mardi-himal-trek/",
+    "pathname": "/what-is-the-mardi-himal-trek/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/what-nobody-tells-you-about-annapurna-base-camp-trek/",
+    "pathname": "/what-nobody-tells-you-about-annapurna-base-camp-trek/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/what-nobody-tells-you-about-trekking-to-everest-base-camp/",
+    "pathname": "/what-nobody-tells-you-about-trekking-to-everest-base-camp/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/what-you-will-experience-during-the-everest-base-camp-trek/",
+    "pathname": "/what-you-will-experience-during-the-everest-base-camp-trek/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/what-your-first-day-in-nepal-really-feels-like/",
+    "pathname": "/what-your-first-day-in-nepal-really-feels-like/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/when-is-the-best-time-for-the-annapurna-base-camp-trek/",
+    "pathname": "/when-is-the-best-time-for-the-annapurna-base-camp-trek/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/where-is-mount-everest/",
+    "pathname": "/where-is-mount-everest/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/why-everest-base-camp-is-popular/",
+    "pathname": "/why-everest-base-camp-is-popular/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/wp-json/",
+    "pathname": "/wp-json/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/wp-json/oembed/1.0/embed",
+    "pathname": "/wp-json/oembed/1.0/embed/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/wp-json/wp/v2/pages/3381",
+    "pathname": "/wp-json/wp/v2/pages/3381/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/wp-travel-checkout/",
+    "pathname": "/wp-travel-checkout/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/wp-travel-dashboard/",
+    "pathname": "/wp-travel-dashboard/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/xmlrpc.php",
+    "pathname": "/xmlrpc.php/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  },
+  {
+    "oldUrl": "https://igloohimalayatreks.com/yala-peak-climbing-cost-breakdown-2026/",
+    "pathname": "/yala-peak-climbing-cost-breakdown-2026/",
+    "category": "Blog Article / Post",
+    "newUrl": "https://igloohimalayatreks.com/nepal-travel-guide/",
+    "status": "301 Redirect -> Nepal Travel Guide Hub",
+    "notes": "WordPress blog post redirected to consolidated travel guide authority page"
+  }
+]

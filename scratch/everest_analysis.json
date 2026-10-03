@@ -1,0 +1,182 @@
+[
+  {
+    "url": "/trip/everest-base-camp-luxury-trek",
+    "slug": "everest-base-camp-luxury-trek",
+    "match": null,
+    "type": "missing_ebc_luxury"
+  },
+  {
+    "url": "/trip/lobuche-peak-climbing-trek",
+    "slug": "lobuche-peak-climbing-trek",
+    "match": null,
+    "type": "missing_peak_lobuche"
+  },
+  {
+    "url": "/trip/ebc-trek-with-island-peak",
+    "slug": "ebc-trek-with-island-peak",
+    "match": null,
+    "type": "missing_peak_island"
+  },
+  {
+    "url": "/trip/everest-base-camp-trek-road-based",
+    "slug": "everest-base-camp-trek-road-based",
+    "match": null,
+    "type": "missing_road_based"
+  },
+  {
+    "url": "/trip/tengbuche-trek",
+    "slug": "tengbuche-trek",
+    "match": "/trek/everest-view-trek/",
+    "type": "equivalent"
+  },
+  {
+    "url": "/trip/everest-base-camp-trek",
+    "slug": "everest-base-camp-trek",
+    "match": "/trek/everest-base-camp-trek/",
+    "type": "exact"
+  },
+  {
+    "url": "/trip/three-high-passes-with-island-peak-climb",
+    "slug": "three-high-passes-with-island-peak-climb",
+    "match": null,
+    "type": "missing_three_passes_island"
+  },
+  {
+    "url": "/trip/everest-view-mini-trek",
+    "slug": "everest-view-mini-trek",
+    "match": "/trek/everest-view-trek/",
+    "type": "equivalent"
+  },
+  {
+    "url": "/trip/gokyo-lake-helicopter-tour",
+    "slug": "gokyo-lake-helicopter-tour",
+    "match": null,
+    "type": "missing_gokyo_heli_tour"
+  },
+  {
+    "url": "/trip/everest-base-camp-with-cho-la-and-renjo-la-pass-trek",
+    "slug": "everest-base-camp-with-cho-la-and-renjo-la-pass-trek",
+    "match": "/trek/everest-three-passes-trek/",
+    "type": "equivalent_or_new"
+  },
+  {
+    "url": "/trip/gokyo-lake-with-ranjo-la-pass-trek",
+    "slug": "gokyo-lake-with-ranjo-la-pass-trek",
+    "match": "/trek/everest-three-passes-trek/",
+    "type": "equivalent_or_new"
+  },
+  {
+    "url": "/trip/everest-base-camp-heli-tour",
+    "slug": "everest-base-camp-heli-tour",
+    "match": "/tour/nepal-luxury-helicopter-tour/",
+    "type": "equivalent_or_new"
+  },
+  {
+    "url": "/trip/mera-peak",
+    "slug": "mera-peak",
+    "match": null,
+    "type": "missing_peak_mera"
+  },
+  {
+    "url": "/trip/everest-base-camp-with-chola-pass-gokyo-trek",
+    "slug": "everest-base-camp-with-chola-pass-gokyo-trek",
+    "match": "/trek/gokyo-lakes-and-cho-la-pass/",
+    "type": "equivalent"
+  },
+  {
+    "url": "/trip/pikey-peak-trek",
+    "slug": "pikey-peak-trek",
+    "match": "/trek/pikey-peak-trek/",
+    "type": "exact"
+  },
+  {
+    "url": "/trip/everest-base-camp-trek-without-flight",
+    "slug": "everest-base-camp-trek-without-flight",
+    "match": null,
+    "type": "missing_road_based"
+  },
+  {
+    "url": "/trip/gokyo-lakes-trek",
+    "slug": "gokyo-lakes-trek",
+    "match": "/trek/gokyo-lakes-trek/",
+    "type": "exact"
+  },
+  {
+    "url": "/trip/gokyo-lakes-luxury-trek",
+    "slug": "gokyo-lakes-luxury-trek",
+    "match": null,
+    "type": "missing_gokyo_luxury"
+  },
+  {
+    "url": "/trip/everest-chola-and-renjo-la-pass-trek",
+    "slug": "everest-chola-and-renjo-la-pass-trek",
+    "match": "/trek/everest-three-passes-trek/",
+    "type": "equivalent_or_new"
+  },
+  {
+    "url": "/trip/gokyo-lake-with-renjo-la-pass-trek",
+    "slug": "gokyo-lake-with-renjo-la-pass-trek",
+    "match": "/trek/everest-three-passes-trek/",
+    "type": "equivalent_or_new"
+  },
+  {
+    "url": "/trip/ebc-chola-pass-gokyo-trek",
+    "slug": "ebc-chola-pass-gokyo-trek",
+    "match": "/trek/gokyo-lakes-and-cho-la-pass/",
+    "type": "equivalent"
+  },
+  {
+    "url": "/trip/everest-view-trek",
+    "slug": "everest-view-trek",
+    "match": "/trek/everest-view-trek/",
+    "type": "exact"
+  },
+  {
+    "url": "/trip/lobuche-peak-climbing",
+    "slug": "lobuche-peak-climbing",
+    "match": null,
+    "type": "missing_peak_lobuche"
+  },
+  {
+    "url": "/trip/island-peak-climbing",
+    "slug": "island-peak-climbing",
+    "match": null,
+    "type": "missing_peak_island"
+  },
+  {
+    "url": "/trip/mera-peak-climbing",
+    "slug": "mera-peak-climbing",
+    "match": null,
+    "type": "missing_peak_mera"
+  },
+  {
+    "url": "/trip/gokyo-lake-trek-with-helicopter-return",
+    "slug": "gokyo-lake-trek-with-helicopter-return",
+    "match": null,
+    "type": "missing_gokyo_heli"
+  },
+  {
+    "url": "/trip/everest-base-camp-with-island-peak-climb",
+    "slug": "everest-base-camp-with-island-peak-climb",
+    "match": null,
+    "type": "missing_peak_island"
+  },
+  {
+    "url": "/trip/everest-base-camp-16-days",
+    "slug": "everest-base-camp-16-days",
+    "match": "/trek/everest-base-camp-via-gokyo-lakes/",
+    "type": "equivalent"
+  },
+  {
+    "url": "/trip/everest-three-passes-trek",
+    "slug": "everest-three-passes-trek",
+    "match": "/trek/everest-three-passes-trek/",
+    "type": "exact"
+  },
+  {
+    "url": "/trip/everest-base-camp-helicopter-tour",
+    "slug": "everest-base-camp-helicopter-tour",
+    "match": "/tour/nepal-luxury-helicopter-tour/",
+    "type": "equivalent_or_new"
+  }
+]

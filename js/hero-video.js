@@ -1,8 +1,16 @@
-// Hero Section Multi-Video Background Crossfade Controller
-// Seamlessly cycles through Clip Video First -> Fifth in an infinite loop
+// Hero Section Multi-Video Background Crossfade Controller (Optimized for Web Performance)
+// Intelligently respects mobile devices, Data-Saver, and prevents initial network congestion
 
 (function () {
   function initHeroVideo() {
+    // 1. Performance Gate: Never download heavy video backgrounds on mobile screens or when Save-Data is enabled
+    const isMobile = window.innerWidth < 768;
+    const isSaveData = navigator.connection && (navigator.connection.saveData === true || navigator.connection.effectiveType === '2g');
+    if (isMobile || isSaveData) {
+      // Keep static poster image for ultra-fast LCP & zero unnecessary cellular data usage
+      return;
+    }
+
     const video1 = document.getElementById('hero-bg-video-1');
     const video2 = document.getElementById('hero-bg-video-2');
 
@@ -21,9 +29,10 @@
     let nextVideo = video2;
     let isTransitioning = false;
     let transitionLockTimer = null;
+    let standbyPreloaded = false;
     const CROSSFADE_SEC = 1.2;
 
-    // Initialize attributes for reliable autoplay
+    // Initialize attributes for reliable autoplay without audio
     [video1, video2].forEach(v => {
       v.muted = true;
       v.playsInline = true;
@@ -31,11 +40,6 @@
       v.setAttribute('playsinline', '');
       v.autoplay = true;
     });
-
-    // Set initial sources
-    video1.src = playlist[0];
-    video1.classList.add('active');
-    video2.classList.remove('active');
 
     function safePlay(video) {
       const p = video.play();
@@ -53,12 +57,20 @@
       }
     }
 
+    // Set initial source ONLY for primary video slot
+    video1.src = playlist[0];
+    video1.classList.add('active');
+    video2.classList.remove('active');
     safePlay(video1);
 
-    // Preload next clip into standby slot
-    const firstPreloadIdx = (currentIndex + 1) % playlist.length;
-    nextVideo.src = playlist[firstPreloadIdx];
-    nextVideo.load();
+    // Function to preload standby slot only when primary is already playing
+    function preloadStandbySlot() {
+      if (standbyPreloaded) return;
+      standbyPreloaded = true;
+      const nextIdx = (currentIndex + 1) % playlist.length;
+      nextVideo.src = playlist[nextIdx];
+      nextVideo.load();
+    }
 
     function transitionToNext() {
       if (isTransitioning) return;
@@ -71,13 +83,14 @@
       // Start playing the incoming video
       safePlay(upcomingVideo);
 
-      // Perform the visual crossfade
+      // Perform visual crossfade
       upcomingVideo.classList.add('active');
       outgoingVideo.classList.remove('active');
 
       // Swap active and next references
       activeVideo = upcomingVideo;
       nextVideo = outgoingVideo;
+      standbyPreloaded = false;
 
       // Reset transition lock after crossfade completes
       clearTimeout(transitionLockTimer);
@@ -87,10 +100,6 @@
           outgoingVideo.currentTime = 0;
         } catch (e) {}
 
-        // Preload the next upcoming clip in the background
-        const nextPreloadIdx = (currentIndex + 1) % playlist.length;
-        outgoingVideo.src = playlist[nextPreloadIdx];
-        outgoingVideo.load();
         isTransitioning = false;
       }, (CROSSFADE_SEC * 1000) + 150);
     }
@@ -99,6 +108,12 @@
       const v = e.target;
       if (v !== activeVideo || isTransitioning) return;
 
+      // Preload next standby clip when current video reaches halfway mark
+      if (v.duration && v.currentTime > v.duration * 0.5 && !standbyPreloaded) {
+        preloadStandbySlot();
+      }
+
+      // Transition when approaching end of clip
       if (v.duration && v.duration > 0 && (v.duration - v.currentTime <= CROSSFADE_SEC)) {
         transitionToNext();
       }
@@ -110,7 +125,7 @@
       }
     }
 
-    // Attach listeners to both slots
+    // Attach listeners
     [video1, video2].forEach(v => {
       v.addEventListener('timeupdate', handleTimeUpdate);
       v.addEventListener('ended', handleEnded);
@@ -122,18 +137,16 @@
       });
     });
 
-    // Failsafe Watchdog: checks every 1.5 seconds so video never freezes
+    // Failsafe Watchdog: checks every 2 seconds
     let lastTime = 0;
     let stallCount = 0;
     setInterval(() => {
       if (!activeVideo || isTransitioning) return;
 
-      // Ensure active video is playing
       if (activeVideo.paused && !document.hidden) {
         safePlay(activeVideo);
       }
 
-      // Check if video is at or past end without triggering ended event
       if (activeVideo.duration && activeVideo.duration > 0) {
         if (activeVideo.currentTime >= activeVideo.duration - 0.5) {
           transitionToNext();
@@ -141,10 +154,9 @@
         }
       }
 
-      // Check for freeze / stall
       if (Math.abs(activeVideo.currentTime - lastTime) < 0.1 && !activeVideo.paused) {
         stallCount++;
-        if (stallCount >= 4) { // Stalled for ~6 seconds
+        if (stallCount >= 4) {
           stallCount = 0;
           transitionToNext();
         }
@@ -152,12 +164,19 @@
         stallCount = 0;
       }
       lastTime = activeVideo.currentTime;
-    }, 1500);
+    }, 2000);
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initHeroVideo);
-  } else {
+  // Defer initialization until page window load or idle time
+  if (document.readyState === 'complete') {
     initHeroVideo();
+  } else {
+    window.addEventListener('load', () => {
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(initHeroVideo, { timeout: 2000 });
+      } else {
+        setTimeout(initHeroVideo, 500);
+      }
+    });
   }
 })();

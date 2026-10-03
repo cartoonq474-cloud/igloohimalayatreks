@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const activityData = {
     trekking: [
       {
-        image: "images/a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
+        image: "images/a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
         duration: "14 DAYS",
         tags: ["CLASSIC", "HIGH ALTITUDE", "TEAHOUSE"],
         name: "Everest Base Camp Trek",
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: 142
       },
       {
-        image: "images/trekker-hiking-on-the-annapurna-base-camp-trek-trail-with-breathtaking-himalayan-mountain.jpg",
+        image: "images/trekker-hiking-on-the-annapurna-base-camp-trek-trail-with-breathtaking-himalayan-mountain.webp",
         duration: "12 DAYS",
         tags: ["SCENIC", "PASS CROSSING", "LODGE"],
         name: "Annapurna Circuit Expedition",
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: 118
       },
       {
-        image: "images/manaslu-circuit-trek.jpg",
+        image: "images/manaslu-circuit-trek.webp",
         duration: "16 DAYS",
         tags: ["RESTRICTED", "REMOTE", "CULTURE"],
         name: "Manaslu Circuit & Larke Pass",
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     climbing: [
       {
-        image: "images/island-peak-climbing-02.jpg",
+        image: "images/island-peak-climbing-02.webp",
         duration: "19 DAYS",
         tags: ["GLACIER", "SUMMIT", "TECHNICAL"],
         name: "Island Peak Climbing (6,189m)",
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: 112
       },
       {
-        image: "images/mera-peak-climbing-02.jpg",
+        image: "images/mera-peak-climbing-02.webp",
         duration: "18 DAYS",
         tags: ["TREKKING PEAK", "HIGH PASS", "EXPEDITION"],
         name: "Mera Peak Expedition (6,476m)",
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: 74
       },
       {
-        image: "images/lobuche-peak-climbing-02.jpg",
+        image: "images/lobuche-peak-climbing-02.webp",
         duration: "21 DAYS",
         tags: ["EVEREST REGION", "ICE CLIMB", "ALPINE"],
         name: "Lobuche East Peak (6,119m)",
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: 92
       },
       {
-        image: "images/chitwan-jungle-safari-tour-best-wildlife-safari-in-nepal.jpg",
+        image: "images/chitwan-jungle-safari-tour-best-wildlife-safari-in-nepal.webp",
         duration: "10 DAYS",
         tags: ["SAFARI", "PILGRIMAGE", "NATURE"],
         name: "Nepal Wildlife & Lumbini Tour",
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: 106
       },
       {
-        image: "images/nine-nights-bhutan-tour-from-nepal-igloo-himalaya-treks.jpg",
+        image: "images/nine-nights-bhutan-tour-from-nepal-igloo-himalaya-treks.webp",
         duration: "12 DAYS",
         tags: ["CROSS BORDER", "DRAGON KINGDOM", "CULTURE"],
         name: "Bhutan & Nepal Combined Tour",
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     hikes: [
       {
-        image: "images/chisapani-nagarkot-trek-02.jpg",
+        image: "images/chisapani-nagarkot-trek-02.webp",
         duration: "1 DAY",
         tags: ["SUNRISE", "VALLEY VIEW", "DAY TRIP"],
         name: "Nagarkot Sunrise & Changunarayan",
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: 68
       },
       {
-        image: "images/jamacho-hike-1-day-hiking-shivapuri-national-park.jpg",
+        image: "images/jamacho-hike-1-day-hiking-shivapuri-national-park.webp",
         duration: "1 DAY",
         tags: ["MONASTERY", "RIDGE WALK", "FOREST"],
         name: "Champadevi Ridge & Monastery Trail",
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: 34
       },
       {
-        image: "images/chisapani-nagarkot-trek.jpg",
+        image: "images/chisapani-nagarkot-trek.webp",
         duration: "2 DAYS",
         tags: ["NATIONAL PARK", "OVERNIGHT", "FLORA"],
         name: "Shivapuri Peak & Chisapani Hike",
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     heli: [
       {
-        image: "images/everest-base-camp-helicopter-tour-1-day-luxury-heli-tour.jpg",
+        image: "images/everest-base-camp-helicopter-tour-1-day-luxury-heli-tour.webp",
         duration: "1 DAY",
         tags: ["HELI TOUR", "EVEREST", "LUXURY"],
         name: "Everest Base Camp Heli Flyover",
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: 118
       },
       {
-        image: "images/annapurna-base-camp-trek-heli-return.jpg",
+        image: "images/annapurna-base-camp-trek-heli-return.webp",
         duration: "1 DAY",
         tags: ["ANNAPURNA", "PANORAMA", "EXPRESS"],
         name: "Annapurna Base Camp Heli Sightseeing",
@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: 42
       },
       {
-        image: "images/gokyo-lake-trek-helicopter-return.jpg",
+        image: "images/gokyo-lake-trek-helicopter-return.webp",
         duration: "1 DAY",
         tags: ["SACRED LAKE", "LANGTANG", "CHARTER"],
         name: "Langtang Gosainkunda Heli Charter",

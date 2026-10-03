@@ -15,7 +15,7 @@ export const sampleTreks = [
     basePriceUSD: 1399,
     summary: "Full teahouse trek to Everest Base Camp (5,364m) and Kala Patthar (5,545m) via Namche Bazaar & Tengboche monastery.",
     bestSeason: ["spring", "autumn"],
-    image: "images/a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
+    image: "images/a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
     tags: ["CLASSIC", "HIGH ALTITUDE", "TEAHOUSE"],
     reviews: 142
   },
@@ -31,7 +31,7 @@ export const sampleTreks = [
     basePriceUSD: 980,
     summary: "Spectacular journey through rhododendron forests into the heart of Annapurna Sanctuary and natural Jhinu hot springs.",
     bestSeason: ["spring", "autumn", "winter"],
-    image: "images/trekker-hiking-on-the-annapurna-base-camp-trek-trail-with-breathtaking-himalayan-mountain.jpg",
+    image: "images/trekker-hiking-on-the-annapurna-base-camp-trek-trail-with-breathtaking-himalayan-mountain.webp",
     tags: ["HOT SPRINGS", "SANCTUARY", "POPULAR"],
     reviews: 98
   },
@@ -47,7 +47,7 @@ export const sampleTreks = [
     basePriceUSD: 1250,
     summary: "Pristine restricted circuit around Mount Manaslu (8,163m) crossing snow-covered Larke La Pass.",
     bestSeason: ["spring", "autumn"],
-    image: "images/manaslu-circuit-trek.jpg",
+    image: "images/manaslu-circuit-trek.webp",
     tags: ["RESTRICTED AREA", "CULTURE", "REMOTE"],
     reviews: 64
   },
@@ -63,7 +63,7 @@ export const sampleTreks = [
     basePriceUSD: 650,
     summary: "Hidden gem ridge trail offering face-to-face vistas of Mount Fishtail (Machhapuchhre) and Annapurna South.",
     bestSeason: ["spring", "autumn", "winter"],
-    image: "images/mardi-himal-trek.jpg",
+    image: "images/mardi-himal-trek.webp",
     tags: ["SHORT TREK", "RIDGE VIEW", "BEGINNER"],
     reviews: 48
   },
@@ -79,7 +79,7 @@ export const sampleTreks = [
     basePriceUSD: 1490,
     summary: "Breathtaking turquoise high-altitude lakes, Ngozumpa glacier, and technical Cho La pass crossing.",
     bestSeason: ["spring", "autumn"],
-    image: "images/gokyo-lake-trek.jpg",
+    image: "images/gokyo-lake-trek.webp",
     tags: ["TURQUOISE LAKES", "HIGH PASS", "GLACIER"],
     reviews: 76
   },
@@ -95,7 +95,7 @@ export const sampleTreks = [
     basePriceUSD: 750,
     summary: "Valley of glaciers close to Kathmandu featuring rich Tamang heritage, yak cheese factories, and Kyanjin Gompa.",
     bestSeason: ["spring", "autumn"],
-    image: "images/trekkers-posing-with-panoramic-himalayan-views-during-the-langtang-valley-trek-in-nepal.jpg",
+    image: "images/trekkers-posing-with-panoramic-himalayan-views-during-the-langtang-valley-trek-in-nepal.webp",
     tags: ["TAMANG CULTURE", "VALLEY", "SCENIC"],
     reviews: 84
   }
