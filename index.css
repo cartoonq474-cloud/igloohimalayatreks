@@ -11149,18 +11149,29 @@ textarea {
   white-space: nowrap;
 }
 
-.guide-data-table td {
+.guide-data-table td,
+.guide-data-table tbody th {
   padding: 16px 20px;
   border-bottom: 1px solid #F1F5F9;
   color: #334155;
   vertical-align: middle;
 }
 
-.guide-data-table tr:last-child td {
+.guide-data-table tbody th {
+  font-weight: 600;
+  color: #0E3458;
+  background: #FFFFFF;
+  text-align: left;
+  white-space: normal;
+}
+
+.guide-data-table tr:last-child td,
+.guide-data-table tr:last-child th {
   border-bottom: none;
 }
 
-.guide-data-table tr:hover td {
+.guide-data-table tr:hover td,
+.guide-data-table tr:hover th {
   background: #FAFCFE;
 }
 
@@ -12038,7 +12049,6 @@ textarea {
 .quick-answer-card {
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
-  border-left: 5px solid var(--color-primary);
   border-radius: 14px;
   padding: 28px 32px;
   margin: 36px 0 44px 0;
@@ -12283,16 +12293,6 @@ textarea {
   letter-spacing: -0.3px;
 }
 
-.article-content-column h2::before {
-  content: "";
-  display: block;
-  width: 36px;
-  height: 3px;
-  background: var(--color-primary);
-  border-radius: 2px;
-  margin-bottom: 12px;
-}
-
 .article-content-column h3 {
   font-family: var(--font-heading);
   font-size: 1.35rem;
@@ -12344,7 +12344,6 @@ textarea {
 .editorial-callout {
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
-  border-left: 4px solid var(--color-accent);
   border-radius: 10px;
   padding: 22px 26px;
   margin: 32px 0;
@@ -12368,7 +12367,6 @@ textarea {
 .editorial-disclaimer {
   background: #FFFBEB;
   border: 1px solid #FDE68A;
-  border-left: 4px solid #D97706;
   border-radius: 8px;
   padding: 16px 20px;
   margin: 28px 0;
@@ -12598,14 +12596,6 @@ textarea {
   background: #FFFFFF;
 }
 
-.choice-card.ebc {
-  border-top: 4px solid var(--color-primary);
-}
-
-.choice-card.annapurna {
-  border-top: 4px solid var(--color-accent);
-}
-
 .choice-card-title {
   font-family: var(--font-heading);
   font-size: 1.25rem;
@@ -12800,21 +12790,24 @@ textarea {
 }
 
 /* 18. Related Articles Section */
-.related-guides-section {
+.related-guides-section,
+.related-articles-section {
   padding: 50px 0;
   background: #F8FAFC;
   border-top: 1px solid var(--color-neutral-200);
   border-bottom: 1px solid var(--color-neutral-200);
 }
 
-.related-guides-grid {
+.related-guides-grid,
+.related-articles-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
   margin-top: 30px;
 }
 
-.related-guide-card {
+.related-guide-card,
+.related-article-card {
   background: #FFFFFF;
   border: 1px solid var(--color-neutral-200);
   border-radius: 14px;
@@ -12826,26 +12819,30 @@ textarea {
   color: inherit;
 }
 
-.related-guide-card:hover {
+.related-guide-card:hover,
+.related-article-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 30px rgba(14, 52, 88, 0.08);
   border-color: var(--color-primary);
 }
 
-.related-guide-thumb {
+.related-guide-thumb,
+.related-article-thumb {
   width: 100%;
   height: 190px;
   object-fit: cover;
 }
 
-.related-guide-content {
+.related-guide-content,
+.related-article-content {
   padding: 22px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
-.related-guide-category {
+.related-guide-category,
+.related-article-category {
   font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -12854,7 +12851,8 @@ textarea {
   margin-bottom: 6px;
 }
 
-.related-guide-title {
+.related-guide-title,
+.related-article-title {
   font-family: var(--font-heading);
   font-size: 1.15rem;
   font-weight: 700;
@@ -12863,7 +12861,8 @@ textarea {
   line-height: 1.35;
 }
 
-.related-guide-excerpt {
+.related-guide-excerpt,
+.related-article-excerpt {
   font-size: 0.9rem;
   color: var(--color-neutral-600);
   line-height: 1.6;
@@ -12871,7 +12870,8 @@ textarea {
   flex-grow: 1;
 }
 
-.related-guide-meta {
+.related-guide-meta,
+.related-article-meta {
   font-size: 0.82rem;
   color: var(--color-neutral-500);
   display: flex;
@@ -12926,6 +12926,14 @@ textarea {
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
+}
+
+.article-final-cta-btn-group a.btn-primary {
+  color: #0E3458 !important;
+}
+
+.article-final-cta-btn-group a.btn-primary:hover {
+  color: #0E3458 !important;
 }
 
 /* Responsive Editorial Media Queries */
@@ -12987,7 +12995,8 @@ textarea {
   .author-profile-badges {
     justify-content: center;
   }
-  .related-guides-grid {
+  .related-guides-grid,
+  .related-articles-grid {
     grid-template-columns: 1fr;
   }
   .article-final-cta-card {

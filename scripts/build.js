@@ -52,6 +52,10 @@ if (errors > 0) {
   console.log(`✔ Verified ${htmlCount} HTML pages`);
   console.log(`✔ Verified ${jsCount} JavaScript controllers`);
   console.log(`✔ Verified ${cssCount} CSS stylesheets`);
-  console.log(`✔ Static site integrity verified successfully in ${duration}ms.\n`);
+  try {
+    require('./generate_sitemap.js');
+  } catch (err) {
+    console.error('Failed to generate sitemap:', err.message);
+  }
   console.log('🎉 Build complete! Site is production ready.');
 }
