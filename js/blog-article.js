@@ -16,6 +16,7 @@ function initBlogArticle() {
   initFaqAccordion();
   initShareControls();
   initBackToTop();
+  initChecklist();
 }
 
 if (document.readyState === 'loading') {
@@ -191,37 +192,37 @@ function initFaqAccordion() {
   const currentCategoryTitle = document.getElementById('faq-current-category-title');
   const expandAllBtn = document.getElementById('faq-expand-all-btn');
 
-  if (!categoryBtns.length) return;
+  // Category Tab Switcher (if present)
+  if (categoryBtns.length) {
+    categoryBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        categoryBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
 
-  // Category Tab Switcher
-  categoryBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      categoryBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+        const targetCat = btn.getAttribute('data-category');
+        const catText = btn.getAttribute('data-title') || btn.innerText.trim();
 
-      const targetCat = btn.getAttribute('data-category');
-      const catText = btn.innerText.trim();
+        if (currentCategoryTitle) {
+          currentCategoryTitle.textContent = catText;
+        }
 
-      if (currentCategoryTitle) {
-        currentCategoryTitle.textContent = catText;
-      }
+        categoryPanels.forEach(panel => {
+          if (panel.id === `faq-cat-${targetCat}`) {
+            panel.classList.add('active');
+          } else {
+            panel.classList.remove('active');
+          }
+        });
 
-      categoryPanels.forEach(panel => {
-        if (panel.id === `faq-cat-${targetCat}`) {
-          panel.classList.add('active');
-        } else {
-          panel.classList.remove('active');
+        // Reset Expand All button label
+        if (expandAllBtn) {
+          expandAllBtn.textContent = 'Expand All';
         }
       });
-
-      // Reset Expand All button label
-      if (expandAllBtn) {
-        expandAllBtn.textContent = 'Expand All';
-      }
     });
-  });
+  }
 
-  // Accordion Item Toggle
+  // Accordion Item Toggle (always active for any .faq-item-question)
   document.querySelectorAll('.faq-item-question').forEach(q => {
     q.addEventListener('click', () => {
       const item = q.closest('.faq-item');
@@ -229,6 +230,10 @@ function initFaqAccordion() {
         item.classList.toggle('active');
         const isNowActive = item.classList.contains('active');
         q.setAttribute('aria-expanded', isNowActive ? 'true' : 'false');
+        const answer = item.querySelector('.faq-item-answer');
+        if (answer && (answer.style.display === 'none' || answer.style.display === 'block')) {
+          answer.style.display = isNowActive ? 'block' : 'none';
+        }
       }
     });
 
@@ -244,9 +249,9 @@ function initFaqAccordion() {
   if (expandAllBtn) {
     expandAllBtn.addEventListener('click', () => {
       const activePanel = document.querySelector('.faq-category-content.active');
-      if (!activePanel) return;
+      const items = activePanel ? activePanel.querySelectorAll('.faq-item') : document.querySelectorAll('.faq-item');
+      if (!items.length) return;
 
-      const items = activePanel.querySelectorAll('.faq-item');
       const isExpanded = expandAllBtn.textContent.trim() === 'Collapse All';
 
       items.forEach(item => {
@@ -313,9 +318,12 @@ function initShareControls() {
       nativeShareBtn.style.display = 'inline-flex';
       nativeShareBtn.addEventListener('click', async () => {
         try {
+          const shareText = nativeShareBtn.getAttribute('data-share-text') ||
+            document.querySelector('meta[name="description"]')?.getAttribute('content') ||
+            "Compare Everest Base Camp and the Annapurna Circuit to find which Nepal trek fits you best.";
           await navigator.share({
             title: articleTitle,
-            text: "Compare Everest Base Camp and the Annapurna Circuit to find which Nepal trek fits you best.",
+            text: shareText,
             url: articleUrl
           });
         } catch (err) {
@@ -369,6 +377,91 @@ function initBackToTop() {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
+    });
+  });
+}
+
+/**
+ * 7. Interactive Packing Checklist (localStorage persistence + Reset + Print)
+ */
+function initChecklist() {
+  const checkboxes = document.querySelectorAll('.checklist-checkbox');
+  const resetBtns = document.querySelectorAll('.reset-checklist-btn');
+  const printBtns = document.querySelectorAll('.print-checklist-btn');
+  const progressCounters = document.querySelectorAll('.checklist-progress-text');
+  const progressBarFills = document.querySelectorAll('.checklist-progress-fill');
+  const STORAGE_KEY = 'ebc_packing_checklist_v1';
+
+  if (!checkboxes.length) return;
+
+  // Load saved state
+  let savedState = {};
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) savedState = JSON.parse(raw);
+  } catch (e) {
+    savedState = {};
+  }
+
+  function updateProgress() {
+    let checkedCount = 0;
+    checkboxes.forEach(cb => {
+      const id = cb.dataset.itemId || cb.id;
+      if (savedState[id]) {
+        cb.checked = true;
+        checkedCount++;
+        const row = cb.closest('.checklist-row') || cb.closest('.glance-checklist-item');
+        if (row) row.classList.add('is-checked');
+      } else {
+        cb.checked = false;
+        const row = cb.closest('.checklist-row') || cb.closest('.glance-checklist-item');
+        if (row) row.classList.remove('is-checked');
+      }
+    });
+
+    const percent = Math.round((checkedCount / checkboxes.length) * 100) || 0;
+
+    progressCounters.forEach(counter => {
+      counter.textContent = `${checkedCount} of ${checkboxes.length} items packed (${percent}%)`;
+    });
+
+    progressBarFills.forEach(fill => {
+      fill.style.width = `${percent}%`;
+    });
+  }
+
+  updateProgress();
+
+  checkboxes.forEach(cb => {
+    cb.addEventListener('change', () => {
+      const id = cb.dataset.itemId || cb.id;
+      if (cb.checked) {
+        savedState[id] = true;
+      } else {
+        delete savedState[id];
+      }
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(savedState));
+      } catch (e) {}
+      updateProgress();
+    });
+  });
+
+  resetBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (confirm('Reset your saved packing checklist? All checkmarks will be cleared.')) {
+        savedState = {};
+        try {
+          localStorage.removeItem(STORAGE_KEY);
+        } catch (e) {}
+        updateProgress();
+      }
+    });
+  });
+
+  printBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      window.print();
     });
   });
 }

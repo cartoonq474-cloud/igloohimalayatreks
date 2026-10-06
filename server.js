@@ -188,7 +188,7 @@ const server = http.createServer((req, res) => {
     '/trek/annapurna-base-camp-helicopter-return-trek/': '/trek/annapurna-base-camp-heli-return/',
     '/trip/annapurna-base-camp-trek': '/trek/annapurna-base-camp/',
     '/trek/annapurna-base-camp-trek': '/trek/annapurna-base-camp/',
-    '/trek/annapurna-base-camp-trek/': '/trek/annapurna-base-camp/',
+    '/trek/annapurna-base-camp/': '/trek/annapurna-base-camp/',
     '/trip/annapurna-circuit-trek': '/trek/annapurna-circuit-trek/',
     '/trip/classic-annapurna-circuit-trek': '/trek/annapurna-circuit-trek/',
     '/trip/annapurna-circuit-with-tilicho-lake': '/trek/tilicho-lake-trek/',
@@ -306,6 +306,8 @@ const server = http.createServer((req, res) => {
     '/blog/': '/blogs.html',
     '/blog-on-trekking-travelling-in-nepal': '/blogs.html',
     '/blog-on-trekking-travelling-in-nepal/': '/blogs.html',
+    '/blog/everest-packing-checklist': '/blog/ultimate-everest-packing-checklist-2026/',
+    '/blog/everest-packing-checklist/': '/blog/ultimate-everest-packing-checklist-2026/',
     // Travel Guides from old site
     '/travel-guide': '/nepal-travel-guide/',
     '/travel-guide/': '/nepal-travel-guide/',
@@ -358,10 +360,9 @@ const server = http.createServer((req, res) => {
     '/activities/hiking': '/tour/jamacho-hike/',
     '/activities/hiking/': '/tour/jamacho-hike/',
     '/activities/rafting': '/tour/one-day-kathmandu-city-tour/',
-    '/activities/rafting/': '/tour/one-day-kathmandu-city-tour/'
+    '/activities/rafting/': '/tour/one-day-kathmandu-city-tour/',
   };
-
-  const cleanReqUrl = req.url.split('?')[0].replace(/\/+$/, '');
+const cleanReqUrl = req.url.split('?')[0].replace(/\/+$/, '');
   const cleanReqUrlWithSlash = cleanReqUrl + '/';
   const targetRedirect = URL_REDIRECTS[req.url] || URL_REDIRECTS[cleanReqUrl] || URL_REDIRECTS[cleanReqUrlWithSlash];
   if (targetRedirect) {

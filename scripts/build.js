@@ -5,6 +5,12 @@ const vm = require('vm');
 console.log('⚡ Building Igloo Himalaya Treks static site...');
 const startTime = Date.now();
 
+try {
+  require('./build_blog_articles.js');
+} catch (err) {
+  console.error('❌ Error rendering blog articles:', err);
+}
+
 let htmlCount = 0;
 let jsCount = 0;
 let cssCount = 0;

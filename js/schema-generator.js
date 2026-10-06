@@ -13,14 +13,16 @@ export function injectStructuredData() {
       {
         "@type": "TravelAgency",
         "@id": "https://igloohimalayatreks.com/#agency",
-        "name": "Igloo Himalaya Treks",
+        "name": "Igloo Himalaya Treks Pvt. Ltd.",
+        "alternateName": "Local Trusted Trekking Agency in Nepal",
         "url": "https://igloohimalayatreks.com",
         "logo": "https://igloohimalayatreks.com/images/logo.png",
-        "description": "Licensed local trekking company in Nepal specializing in Everest, Annapurna, Langtang, and Manaslu expeditions.",
-        "telephone": "+977-1-4700000",
+        "description": "Local trusted trekking agency in Nepal specializing in Everest, Annapurna, Langtang, Manaslu, Kanchenjunga, Upper Mustang, Dolpo, and peak climbing expeditions.",
+        "telephone": "+977 9860843980",
+        "email": "info@igloohimalayatreks.com",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Thamel",
+          "streetAddress": "Aja Swan Marg, Geetanjali Chowk, Ward 16",
           "addressLocality": "Kathmandu",
           "addressCountry": "NP"
         },
@@ -30,6 +32,7 @@ export function injectStructuredData() {
           "longitude": 85.3240
         },
         "sameAs": [
+          "https://www.linkedin.com/in/igloo-himalaya-treks-268269433/",
           "https://www.facebook.com/igloohimalayatreks",
           "https://www.instagram.com/igloohimalayatreks",
           "https://www.tripadvisor.com/igloohimalayatreks"
