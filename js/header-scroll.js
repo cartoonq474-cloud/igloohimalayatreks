@@ -127,43 +127,64 @@
       const row = item.querySelector('.nav-link-row');
       if (!row) return;
 
+      const toggleAccordion = () => {
+        const isOpen = item.classList.contains('dropdown-open');
+
+        // Close all other open dropdowns
+        dropdownItems.forEach(other => {
+          if (other !== item) other.classList.remove('dropdown-open');
+        });
+
+        item.classList.toggle('dropdown-open', !isOpen);
+
+        if (!isOpen) {
+          setTimeout(() => {
+            item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }, 80);
+        }
+      };
+
       row.addEventListener('click', (e) => {
         if (window.innerWidth <= 1024) {
+          // If clicking directly on a category link with a valid page URL, allow immediate navigation!
+          const link = e.target.closest('a');
+          if (link && link.getAttribute('href') && link.getAttribute('href') !== '#' && !link.getAttribute('href').startsWith('javascript:')) {
+            return;
+          }
+
+          // Otherwise (e.g. clicking the arrow button or category non-link title), toggle accordion
           e.preventDefault();
           e.stopPropagation();
-          const isOpen = item.classList.contains('dropdown-open');
-
-          // Close all other open dropdowns
-          dropdownItems.forEach(other => {
-            if (other !== item) other.classList.remove('dropdown-open');
-          });
-
-          item.classList.toggle('dropdown-open', !isOpen);
-
-          if (!isOpen) {
-            setTimeout(() => {
-              item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }, 80);
-          }
+          toggleAccordion();
         }
       });
     });
 
-    // Close on leaf link click inside dropdowns or regular links
+    // Handle in-page hash anchor links (#...) and modal buttons inside mobile menu
     navMenu.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', (e) => {
-        // If clicking the category toggle row link on mobile, toggleAccordion handles it
-        if (link.closest('.nav-link-row') && window.innerWidth <= 1024) {
-          return;
-        }
-
+      link.addEventListener('click', () => {
         const href = link.getAttribute('href');
-        if (href && href !== '#' && !href.startsWith('javascript:')) {
+        // Only close mobile drawer for in-page hash anchors (e.g. #booking-calculator)
+        // Never intercept or hide the menu for real page links (which must navigate natively on 1st click)
+        if (href && href.startsWith('#')) {
           if (window.innerWidth <= 1024) {
             closeMobileMenu();
           }
         }
       });
+    });
+
+    navMenu.querySelectorAll('.open-inquiry-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (window.innerWidth <= 1024) {
+          closeMobileMenu();
+        }
+      });
+    });
+
+    // Reset mobile menu if page is restored from bfcache (Back/Forward navigation)
+    window.addEventListener('pageshow', () => {
+      closeMobileMenu();
     });
 
     navMenu.querySelectorAll('.open-inquiry-btn').forEach(btn => {

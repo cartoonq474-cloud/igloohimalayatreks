@@ -97,44 +97,101 @@ function setupSubNavScrollSpy() {
   }
 }
 
-// Setup Itinerary & FAQs Accordions
+// Setup Itinerary & Accordions
 function setupAccordions() {
   const accordionHeaders = document.querySelectorAll('.itinerary-header');
+  const toggleAllBtns = document.querySelectorAll('#toggle-all-itinerary, .itinerary-toggle-all-btn');
+  const itineraryCards = document.querySelectorAll('.itinerary-card');
+
+  function expandCard(card) {
+    card.classList.add('active');
+    const content = card.querySelector('.itinerary-content');
+    if (content) {
+      content.style.maxHeight = content.scrollHeight + 'px';
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+      }
+    }
+  }
+
+  function collapseCard(card) {
+    card.classList.remove('active');
+    const content = card.querySelector('.itinerary-content');
+    if (content) {
+      content.style.maxHeight = '';
+    }
+  }
+
+  function updateToggleAllBtnState() {
+    toggleAllBtns.forEach(btn => {
+      const activeCards = document.querySelectorAll('.itinerary-card.active');
+      const allExpanded = itineraryCards.length > 0 && activeCards.length === itineraryCards.length;
+      if (allExpanded) {
+        btn.classList.add('is-expanded');
+        btn.innerHTML = `
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+          <span>Collapse All Days</span>
+        `;
+      } else {
+        btn.classList.remove('is-expanded');
+        btn.innerHTML = `
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+          <span>Expand All Days</span>
+        `;
+      }
+    });
+  }
+
+  // Header click handler
   accordionHeaders.forEach(header => {
     header.addEventListener('click', () => {
       const card = header.closest('.itinerary-card');
       if (!card) return;
-      const content = card.querySelector('.itinerary-content');
-      if (!content) return;
       const isExpanded = card.classList.contains('active');
 
       if (isExpanded) {
-        card.classList.remove('active');
-        content.style.maxHeight = '';
+        collapseCard(card);
       } else {
-        // Collapse other cards first to make it a clean accordion
-        const otherCards = document.querySelectorAll('.itinerary-card.active');
-        otherCards.forEach(c => {
-          if (c !== card) {
-            c.classList.remove('active');
-            const otherContent = c.querySelector('.itinerary-content');
-            if (otherContent) otherContent.style.maxHeight = '';
-          }
-        });
-
-        card.classList.add('active');
-        content.style.maxHeight = content.scrollHeight + 'px';
+        expandCard(card);
       }
+      updateToggleAllBtnState();
     });
   });
 
-  // Automatically compute and set initial heights for active items on page load
-  setTimeout(() => {
-    const activeContents = document.querySelectorAll('.itinerary-card.active .itinerary-content');
-    activeContents.forEach(content => {
-      content.style.maxHeight = content.scrollHeight + 'px';
+  // Global Toggle All button handler
+  toggleAllBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const activeCards = document.querySelectorAll('.itinerary-card.active');
+      const allExpanded = itineraryCards.length > 0 && activeCards.length === itineraryCards.length;
+
+      itineraryCards.forEach(card => {
+        if (allExpanded) {
+          collapseCard(card);
+        } else {
+          expandCard(card);
+        }
+      });
+
+      updateToggleAllBtnState();
     });
-  }, 300);
+  });
+
+  // Compute and set initial heights for active items on page load
+  setTimeout(() => {
+    const activeCards = document.querySelectorAll('.itinerary-card.active');
+    activeCards.forEach(card => {
+      const content = card.querySelector('.itinerary-content');
+      if (content) {
+        content.style.maxHeight = content.scrollHeight + 'px';
+      }
+    });
+    updateToggleAllBtnState();
+  }, 250);
 }
 
 // Setup Interactive Gear Checklist
@@ -325,6 +382,7 @@ function setupReadTracker(trekKey) {
   const bar = document.querySelector('.details-progress-ring-bar');
   const countText = document.querySelector('.details-progress-count');
   const statusText = document.querySelector('.details-progress-status');
+  const toggleAllDetailsBtns = document.querySelectorAll('#toggle-all-details, .details-toggle-all-btn');
   
   if (!cards.length) return;
 
@@ -359,7 +417,7 @@ function setupReadTracker(trekKey) {
     // Update status subtext
     if (statusText) {
       if (readCount === 0) {
-        statusText.textContent = 'Nice start — keep going';
+        statusText.textContent = 'Click topics below to explore essential briefings';
       } else if (readCount <= Math.floor(totalCount / 3)) {
         statusText.textContent = 'Doing great — learning more';
       } else if (readCount < totalCount) {
@@ -379,57 +437,108 @@ function setupReadTracker(trekKey) {
     }
   }
 
+  function expandCard(card) {
+    card.classList.add('active');
+    const content = card.querySelector('.detail-accordion-content');
+    if (content) {
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+      }
+      content.style.maxHeight = content.scrollHeight + 'px';
+    }
+    const id = card.getAttribute('data-detail-id');
+    if (id && !card.classList.contains('read')) {
+      card.classList.add('read');
+      readStates[id] = true;
+      try {
+        localStorage.setItem(storageKey, JSON.stringify(readStates));
+      } catch (e) {
+        console.error("Error saving read states:", e);
+      }
+      updateProgress();
+    }
+  }
+
+  function collapseCard(card) {
+    card.classList.remove('active');
+    const content = card.querySelector('.detail-accordion-content');
+    if (content) {
+      content.style.maxHeight = '';
+    }
+  }
+
+  function updateToggleAllBtnState() {
+    toggleAllDetailsBtns.forEach(btn => {
+      const activeCards = document.querySelectorAll('.detail-accordion-card.active');
+      const allExpanded = cards.length > 0 && activeCards.length === cards.length;
+      if (allExpanded) {
+        btn.classList.add('is-expanded');
+        btn.innerHTML = `
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+          <span>Collapse All Topics</span>
+        `;
+      } else {
+        btn.classList.remove('is-expanded');
+        btn.innerHTML = `
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+          <span>Expand All Topics</span>
+        `;
+      }
+    });
+  }
+
   // Click handler to expand/collapse and mark as read
   cards.forEach(card => {
     const header = card.querySelector('.detail-accordion-header');
     const content = card.querySelector('.detail-accordion-content');
-    const id = card.getAttribute('data-detail-id');
 
     if (!header || !content) return;
 
     header.addEventListener('click', () => {
       const isExpanded = card.classList.contains('active');
-
       if (isExpanded) {
-        card.classList.remove('active');
-        content.style.maxHeight = '';
+        collapseCard(card);
       } else {
-        // Collapse other cards first to make it a clean accordion
-        const otherCards = document.querySelectorAll('.detail-accordion-card.active');
-        otherCards.forEach(c => {
-          if (c !== card) {
-            c.classList.remove('active');
-            const otherContent = c.querySelector('.detail-accordion-content');
-            if (otherContent) otherContent.style.maxHeight = '';
-          }
-        });
-
-        // Expand this card
-        card.classList.add('active');
-        content.style.maxHeight = content.scrollHeight + 'px';
-
-        // Mark as read if not already read
-        if (!card.classList.contains('read')) {
-          card.classList.add('read');
-          readStates[id] = true;
-          try {
-            localStorage.setItem(storageKey, JSON.stringify(readStates));
-          } catch (e) {
-            console.error("Error saving read states:", e);
-          }
-          updateProgress();
-        }
+        expandCard(card);
       }
+      updateToggleAllBtnState();
     });
 
     // Make sure initial active content is sized properly (if any starts expanded)
     if (card.classList.contains('active')) {
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+      }
       content.style.maxHeight = content.scrollHeight + 'px';
     }
   });
 
-  // Run progress calculation on load
+  // Global Toggle All handler
+  toggleAllDetailsBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const activeCards = document.querySelectorAll('.detail-accordion-card.active');
+      const allExpanded = cards.length > 0 && activeCards.length === cards.length;
+
+      cards.forEach(card => {
+        if (allExpanded) {
+          collapseCard(card);
+        } else {
+          expandCard(card);
+        }
+      });
+
+      updateToggleAllBtnState();
+    });
+  });
+
+  // Run initial progress calculation on load
   updateProgress();
+  updateToggleAllBtnState();
 }
 
 // Setup Collapsible Group Discount Accordion
@@ -860,6 +969,16 @@ function setupFaqSection() {
 
   if (!categoryBtns.length) return;
 
+  function updateFaqExpandAllBtnState() {
+    if (!expandAllBtn) return;
+    const activePanel = document.querySelector('.faq-category-content.active');
+    if (!activePanel) return;
+    const items = activePanel.querySelectorAll('.faq-item');
+    if (!items.length) return;
+    const allOpen = Array.from(items).every(it => it.classList.contains('active'));
+    expandAllBtn.textContent = allOpen ? 'Collapse All' : 'Expand All';
+  }
+
   // Category Tab Switcher
   categoryBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -867,7 +986,8 @@ function setupFaqSection() {
       btn.classList.add('active');
 
       const targetCat = btn.getAttribute('data-category');
-      const catText = btn.innerText.trim();
+      const labelEl = btn.querySelector('.faq-cat-label') || btn.querySelector('.faq-cat-name');
+      const catText = labelEl ? labelEl.textContent.trim() : (btn.childNodes[0] ? btn.childNodes[0].textContent.trim() : btn.innerText.trim());
 
       if (currentCategoryTitle) {
         currentCategoryTitle.textContent = catText;
@@ -881,10 +1001,7 @@ function setupFaqSection() {
         }
       });
 
-      // Reset Expand All button label
-      if (expandAllBtn) {
-        expandAllBtn.textContent = 'Expand All';
-      }
+      updateFaqExpandAllBtnState();
     });
   });
 
@@ -894,6 +1011,7 @@ function setupFaqSection() {
       const item = q.closest('.faq-item');
       if (item) {
         item.classList.toggle('active');
+        updateFaqExpandAllBtnState();
       }
     });
   });
@@ -918,6 +1036,9 @@ function setupFaqSection() {
       expandAllBtn.textContent = isExpanded ? 'Expand All' : 'Collapse All';
     });
   }
+
+  // Initial check on page load
+  updateFaqExpandAllBtnState();
 }
 
 // Initialise everything on page load
