@@ -1,67 +1,194 @@
 /**
  * Dedicated Reviews Page Interactive Script
- * Handles Region Filtering, Live Search, Helpful Vote Buttons, Modal, and FAQ Accordion
+ * Handles Multi-Dimensional Filtering (Region & Platform), Live Search,
+ * Read More / Less Toggle, Helpful Vote Persistence, Modal & FAQ Accordion
  */
 
 document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('review-search-input');
-  const filterPills = document.querySelectorAll('.filter-pill-btn');
+  const regionPills = document.querySelectorAll('.filter-pill-btn');
+  const platformBtns = document.querySelectorAll('.platform-filter-btn');
   const reviewCards = document.querySelectorAll('.review-card-standalone');
+  const statusCounter = document.getElementById('reviews-count-status');
+  const noReviewsEl = document.getElementById('no-reviews-found');
+  const resetBtn = document.getElementById('reset-search-btn');
 
   let activeRegion = 'all';
+  let activePlatform = 'all';
 
   function filterCards() {
     const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
+    let visibleCount = 0;
 
     reviewCards.forEach(card => {
       const cardRegion = card.getAttribute('data-region') || 'all';
+      const cardPlatform = card.getAttribute('data-platform') || 'all';
       const cardText = card.innerText.toLowerCase();
 
       const matchesRegion = (activeRegion === 'all' || cardRegion === activeRegion);
+      const matchesPlatform = (activePlatform === 'all' || cardPlatform === activePlatform);
       const matchesQuery = (query === '' || cardText.includes(query));
 
-      if (matchesRegion && matchesQuery) {
+      if (matchesRegion && matchesPlatform && matchesQuery) {
         card.style.display = 'flex';
+        visibleCount++;
       } else {
         card.style.display = 'none';
       }
     });
+
+    // Update Counter Status
+    if (statusCounter) {
+      if (visibleCount === reviewCards.length) {
+        statusCounter.innerText = `Showing all ${reviewCards.length} verified reviews`;
+      } else {
+        statusCounter.innerText = `Showing ${visibleCount} of ${reviewCards.length} verified reviews`;
+      }
+    }
+
+    // Toggle Empty State
+    if (noReviewsEl) {
+      if (visibleCount === 0) {
+        noReviewsEl.style.display = 'block';
+      } else {
+        noReviewsEl.style.display = 'none';
+      }
+    }
   }
 
   // 1. Region Filter Pills
-  filterPills.forEach(pill => {
-    pill.addEventListener('click', () => {
-      filterPills.forEach(p => p.classList.remove('active'));
+  regionPills.forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.preventDefault();
+      regionPills.forEach(p => p.classList.remove('active'));
       pill.classList.add('active');
       activeRegion = pill.getAttribute('data-region') || 'all';
       filterCards();
     });
   });
 
-  // 2. Live Search Input
+  // 2. Platform Filter Buttons
+  platformBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      platformBtns.forEach(b => {
+        b.classList.remove('active');
+        b.style.background = '#FFFFFF';
+        b.style.color = b.getAttribute('data-platform') === 'tripadvisor' ? '#00AA6C' : (b.getAttribute('data-platform') === 'google' ? '#2563EB' : '#1A96C8');
+        b.style.borderColor = '#CBD5E1';
+      });
+      btn.classList.add('active');
+      const p = btn.getAttribute('data-platform');
+      if (p === 'tripadvisor') {
+        btn.style.background = '#00AA6C';
+        btn.style.color = '#FFFFFF';
+        btn.style.borderColor = '#00AA6C';
+      } else if (p === 'google') {
+        btn.style.background = '#2563EB';
+        btn.style.color = '#FFFFFF';
+        btn.style.borderColor = '#2563EB';
+      } else {
+        btn.style.background = '#1A96C8';
+        btn.style.color = '#FFFFFF';
+        btn.style.borderColor = '#1A96C8';
+      }
+      activePlatform = p || 'all';
+      filterCards();
+    });
+  });
+
+  // 3. Live Search Input
   if (searchInput) {
     searchInput.addEventListener('input', filterCards);
   }
 
-  // 3. Helpful Vote Counter
-  const helpfulBtns = document.querySelectorAll('.review-helpful-btn');
-  helpfulBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const countEl = btn.querySelector('.vote-count');
-      if (countEl) {
-        let currentCount = parseInt(countEl.innerText, 10) || 0;
-        if (btn.classList.contains('voted')) {
-          btn.classList.remove('voted');
-          countEl.innerText = currentCount - 1;
-        } else {
-          btn.classList.add('voted');
-          countEl.innerText = currentCount + 1;
-        }
+  // 4. Reset Filters Button
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      if (searchInput) searchInput.value = '';
+      activeRegion = 'all';
+      activePlatform = 'all';
+
+      regionPills.forEach(p => p.classList.remove('active'));
+      const allRegionPill = document.querySelector('.filter-pill-btn[data-region="all"]');
+      if (allRegionPill) allRegionPill.classList.add('active');
+
+      platformBtns.forEach(b => {
+        b.classList.remove('active');
+        b.style.background = '#FFFFFF';
+        b.style.color = b.getAttribute('data-platform') === 'tripadvisor' ? '#00AA6C' : (b.getAttribute('data-platform') === 'google' ? '#2563EB' : '#1A96C8');
+        b.style.borderColor = '#CBD5E1';
+      });
+      const allPlatformBtn = document.querySelector('.platform-filter-btn[data-platform="all"]');
+      if (allPlatformBtn) {
+        allPlatformBtn.classList.add('active');
+        allPlatformBtn.style.background = '#1A96C8';
+        allPlatformBtn.style.color = '#FFFFFF';
+        allPlatformBtn.style.borderColor = '#1A96C8';
       }
+
+      filterCards();
+    });
+  }
+
+  // 5. Read More / Less Toggle for Long Reviews
+  document.addEventListener('click', (e) => {
+    const readMoreBtn = e.target.closest('.review-read-more-btn');
+    if (!readMoreBtn) return;
+
+    e.preventDefault();
+    const wrap = readMoreBtn.closest('.review-text-wrap');
+    if (!wrap) return;
+
+    const shortBox = wrap.querySelector('.review-text-short');
+    const fullBox = wrap.querySelector('.review-text-full');
+    const arrow = readMoreBtn.querySelector('.read-more-arrow');
+    const label = readMoreBtn.querySelector('span:first-child');
+
+    if (fullBox.style.display === 'none') {
+      fullBox.style.display = 'block';
+      shortBox.style.display = 'none';
+      if (label) label.innerText = 'Show less';
+      if (arrow) arrow.innerText = '↑';
+    } else {
+      fullBox.style.display = 'none';
+      shortBox.style.display = 'block';
+      if (label) label.innerText = 'Read full review';
+      if (arrow) arrow.innerText = '↓';
+    }
+  });
+
+  // 6. Helpful Vote Counter with localStorage memory
+  const votedKeys = JSON.parse(localStorage.getItem('igloo_helpful_reviews') || '[]');
+
+  const helpfulBtns = document.querySelectorAll('.review-helpful-btn');
+  helpfulBtns.forEach((btn, idx) => {
+    const countEl = btn.querySelector('.vote-count');
+    const reviewId = 'rev_' + idx;
+
+    if (votedKeys.includes(reviewId)) {
+      btn.classList.add('voted');
+    }
+
+    btn.addEventListener('click', () => {
+      if (!countEl) return;
+      let currentCount = parseInt(countEl.innerText, 10) || 0;
+
+      if (btn.classList.contains('voted')) {
+        btn.classList.remove('voted');
+        countEl.innerText = Math.max(0, currentCount - 1);
+        const index = votedKeys.indexOf(reviewId);
+        if (index > -1) votedKeys.splice(index, 1);
+      } else {
+        btn.classList.add('voted');
+        countEl.innerText = currentCount + 1;
+        if (!votedKeys.includes(reviewId)) votedKeys.push(reviewId);
+      }
+      localStorage.setItem('igloo_helpful_reviews', JSON.stringify(votedKeys));
     });
   });
 
-  // 4. Leave a Review Modal
+  // 7. Leave a Review Modal
   const reviewModal = document.getElementById('leave-review-modal');
   const openModalBtns = document.querySelectorAll('.open-review-modal-btn');
   const closeModalBtn = document.getElementById('review-modal-close-btn');
@@ -92,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 5. Form Submission Handler
+  // 8. Form Submission Handler
   if (reviewForm) {
     reviewForm.addEventListener('submit', (e) => {
       e.preventDefault();
@@ -118,11 +245,11 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           `;
         }
-      }, 1200);
+      }, 1000);
     });
   }
 
-  // 6. FAQ Accordion Toggle
+  // 9. FAQ Accordion Toggle
   const faqHeaders = document.querySelectorAll('.faq-accordion-header');
   faqHeaders.forEach(header => {
     header.addEventListener('click', (e) => {

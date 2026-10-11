@@ -17,13 +17,6 @@ function getNavbarHtml(prefix, activeMenu = '') {
         <img src="${prefix}images/logo.png" alt="Igloo Himalaya Treks" width="85" height="70" style="height: 70px; width: auto; object-fit: contain;" loading="eager" decoding="async" fetchpriority="high">
       </a>
 
-      <!-- Hamburger Menu Button -->
-      <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-      </button>
-
       <!-- Navigation Links -->
       <nav>
         <ul class="nav-menu">
@@ -411,8 +404,20 @@ function getNavbarHtml(prefix, activeMenu = '') {
         </ul>
       </nav>
 
-      <div>
+      <div class="header-cta-desktop">
         <button class="btn btn-primary open-inquiry-btn">Book Custom Trip</button>
+      </div>
+
+      <!-- Mobile Action Cluster (WhatsApp & Hamburger Menu) -->
+      <div class="mobile-header-actions">
+        <a href="https://wa.me/9779860843980?text=Hello%20Igloo%20Himalaya%20Treks%2C%20I%20would%20like%20to%20inquire%20about%20a%20trek" target="_blank" rel="noopener" class="mobile-quick-whatsapp" aria-label="Chat on WhatsApp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+        </a>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
       </div>
     </div>
   </header>`;

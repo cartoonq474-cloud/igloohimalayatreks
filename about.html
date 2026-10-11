@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us — Igloo Himalaya Treks Pvt. Ltd. | Local Trusted Trekking Agency in Nepal</title>
-  <meta name="description" content="Meet the Sherpa team, founder Ang Tshering, guide profiles, mountain safety protocols, verified government credentials, and ethical porter welfare standards of Igloo Himalaya Treks, Nepal.">
+  <meta name="description" content="Meet the leadership team at Igloo Himalaya Treks, founder Surya Lama (20+ yrs, 380+ trips), Executive Director Santi Tamang (BBS, Master's in Business), certified mountain guides, and safety protocols in Nepal.">
   <link rel="canonical" href="https://igloohimalayatreks.com/about.html" />
 
   <!-- Favicon -->
@@ -14,15 +14,15 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://igloohimalayatreks.com/about.html">
-  <meta property="og:title" content="About Igloo Himalaya Treks — Local Sherpa Ownership & Expedition Operations">
-  <meta property="og:description" content="Meet our Sherpa guides, founder Ang Tshering (5x Everest summitter), verified government licenses, and ethical mountain operations in Nepal.">
+  <meta property="og:title" content="About Igloo Himalaya Treks — Local Leadership & Expedition Operations">
+  <meta property="og:description" content="Meet our founder Surya Lama, Executive Director Santi Tamang, licensed mountain guides, verified government licenses, and ethical mountain operations in Nepal.">
   <meta property="og:image" content="images/hero-himalayas.webp">
 
     <!-- Google Fonts: Inter, Outfit, Plus Jakarta Sans & Caveat -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css?v=37">
 
   <style>
     /* Custom Styling for Enhanced About Page Sections */
@@ -304,6 +304,81 @@
       align-items: center;
       justify-content: center;
     }
+  
+    /* Responsive Split Grids & Layouts for About Page */
+    .about-split-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: center;
+    }
+    .about-sub-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .about-team-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .about-safety-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+    .about-money-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      text-align: center;
+    }
+    .about-regions-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    @media (max-width: 992px) {
+      .about-split-grid {
+        grid-template-columns: 1fr !important;
+        gap: 32px !important;
+      }
+      .about-team-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+      .about-safety-grid {
+        grid-template-columns: 1fr !important;
+        gap: 18px !important;
+      }
+      .about-money-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+      }
+      .about-regions-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .about-split-grid {
+        grid-template-columns: 1fr !important;
+        gap: 24px !important;
+      }
+      .about-sub-grid {
+        grid-template-columns: 1fr !important;
+        gap: 12px !important;
+      }
+      .about-team-grid {
+        grid-template-columns: 1fr !important;
+      }
+      .about-money-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+      .about-regions-grid {
+        grid-template-columns: 1fr !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -314,13 +389,6 @@
       <a href="index.html" class="logo-brand" aria-label="Igloo Himalaya Treks">
         <img src="images/logo.png" alt="Igloo Himalaya Treks" width="85" height="70" style="height: 70px; width: auto; object-fit: contain;" loading="eager" decoding="async" fetchpriority="high">
       </a>
-
-      <!-- Hamburger Menu Button -->
-      <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-      </button>
 
       <!-- Navigation Links -->
       <nav>
@@ -693,6 +761,7 @@
             <div class="nav-dropdown-menu">
               <a href="about.html" class="nav-dropdown-link">About Us</a>
               <a href="team.html" class="nav-dropdown-link">Meet Our Team</a>
+              <a href="legal-documents.html" class="nav-dropdown-link">Legal Documents &amp; Licenses</a>
               <a href="careers.html" class="nav-dropdown-link">Careers & Jobs</a>
               <a href="reviews.html" class="nav-dropdown-link">Reviews & Testimonials</a>
               <a href="custom-plan.html" class="nav-dropdown-link">Tailor-Made Trip Planner</a>
@@ -709,8 +778,20 @@
         </ul>
       </nav>
 
-      <div>
+      <div class="header-cta-desktop">
         <button class="btn btn-primary open-inquiry-btn">Book Custom Trip</button>
+      </div>
+
+      <!-- Mobile Action Cluster (WhatsApp & Hamburger Menu) -->
+      <div class="mobile-header-actions">
+        <a href="https://wa.me/9779860843980?text=Hello%20Igloo%20Himalaya%20Treks%2C%20I%20would%20like%20to%20inquire%20about%20a%20trek" target="_blank" rel="noopener" class="mobile-quick-whatsapp" aria-label="Chat on WhatsApp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+        </a>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
       </div>
     </div>
   </header>
@@ -786,12 +867,12 @@
     <!-- 03 & 04. OUR STORY & WHY WE STARTED -->
     <section id="our-story" class="section-padding" style="background: #ffffff;">
       <div class="container">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center;">
+        <div class="about-split-grid">
           <div>
             <span class="pill pill-alpine" style="margin-bottom: 14px;">Lived Mountain Experience</span>
             <h2 class="section-title" style="font-size: 2.2rem; margin-bottom: 20px;">From Solukhumbu Trails to Direct Expedition Operations</h2>
             <p style="color: #475569; font-size: 1.05rem; line-height: 1.7; margin-bottom: 18px;">
-              Our founder, <strong>Ang Tshering Sherpa</strong>, grew up in the high Himalayan valley of Solukhumbu. Like most young Sherpas in the Everest region, he began his career at age 18 carrying duffel bags as a porter, learning the trails, altitude dynamics, and weather patterns from old expedition veterans.
+              Our founder, <strong>Surya Lama</strong>, grew up in the high Himalayan valley of Solukhumbu. Like most young Sherpas in the Everest region, he began his career at age 18 carrying duffel bags as a porter, learning the trails, altitude dynamics, and weather patterns from old expedition veterans.
             </p>
             <p style="color: #475569; font-size: 1.05rem; line-height: 1.7; margin-bottom: 18px;">
               Over the next decade, Ang advanced to assistant guide, licensed lead mountain guide, and eventually led multi-summit high-altitude peak expeditions. However, he noticed a persistent problem in international mountain tourism: overseas agencies charging high commissions while local guides and porters received inadequate equipment and low wages.
@@ -940,10 +1021,10 @@
 
         <div class="founder-card-wrapper">
           <div class="founder-img-col">
-            <img src="images/hero-himalayas.webp" alt="Ang Tshering Sherpa - Founder">
+            <img src="images/surya-lama.webp" alt="Surya Lama - Founder">
             <div class="founder-badge-overlay">
-              <div style="font-weight: 700; font-size: 0.95rem; color: white;">Ang Tshering Sherpa</div>
-              <div style="font-size: 0.8rem; color: #f59e0b;">5x Everest Summitter & Managing Director</div>
+              <div style="font-weight: 700; font-size: 0.95rem; color: white;">Surya Lama</div>
+              <div style="font-size: 0.8rem; color: #f59e0b;">Founder & Managing Director</div>
             </div>
           </div>
           <div class="founder-content-col">
@@ -958,7 +1039,7 @@
               With 22+ years of high-altitude mountaineering experience and 5 successful summits of Mt. Everest (8,848.86m), Ang Tshering personally oversees guide training, wilderness medical protocols, and route planning. His experience ensures that our itineraries incorporate realistic acclimatization profiles rather than rushed schedules.
             </p>
 
-            <div style="display: flex; gap: 30px; margin-top: 20px; pt-3; border-top: 1px solid #e2e8f0; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+            <div style="display: flex; gap: 30px; margin-top: 20px; padding-top: 16px; border-top: 1px solid #e2e8f0; align-items: center; justify-content: space-between; flex-wrap: wrap;">
               <div style="display: flex; gap: 30px;">
                 <div>
                   <strong style="color: #0E3458; font-size: 1.1rem; display: block;">22+ Years</strong>
@@ -973,7 +1054,7 @@
                   <span style="color: #64748b; font-size: 0.85rem;">Hometown Heritage</span>
                 </div>
               </div>
-              <a href="team/ang-tshering-sherpa.html" class="btn btn-primary" style="padding: 8px 18px; font-size: 0.85rem;">Read Ang's Full Profile →</a>
+              <a href="team/surya-lama.html" class="btn btn-primary" style="padding: 8px 18px; font-size: 0.85rem;">Read Surya's Full Profile →</a>
             </div>
           </div>
         </div>
@@ -989,7 +1070,7 @@
           <p style="color: #64748b; max-width: 620px; margin: 10px auto 0 auto;">Our lead guides hold NMA licenses, high-altitude medical training, and decades of trail experience.</p>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;">
+        <div class="about-team-grid">
           <!-- Guide 1 -->
           <div class="card" style="padding: 24px; background: #ffffff; border-radius: 16px; border: 1px solid #e2e8f0; text-align: center;">
             <img src="images/kamal-tamang-trekking-guide-in-nepal.webp" alt="Pemba Sherpa" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 14px; border: 3px solid var(--color-copper-orange, #F6851F);">
@@ -1006,7 +1087,7 @@
 
           <!-- Guide 2 -->
           <div class="card" style="padding: 24px; background: #ffffff; border-radius: 16px; border: 1px solid #e2e8f0; text-align: center;">
-            <img src="images/milan-tamang-trekking-guide-in-nepal.webp" alt="Dawa Tenzing Sherpa" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 14px; border: 3px solid var(--color-copper-orange, #F6851F);">
+            <img src="images/dawa-tenzing-sherpa.webp" alt="Dawa Tenzing Sherpa" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 14px; border: 3px solid var(--color-copper-orange, #F6851F);">
             <h4 style="font-size: 1.1rem; color: #0E3458; margin-bottom: 4px;">Dawa Tenzing Sherpa</h4>
             <div style="font-size: 0.8rem; font-weight: 700; color: #1A96C8; text-transform: uppercase; margin-bottom: 12px;">High Pass Specialist</div>
             <div style="font-size: 0.82rem; color: #64748b; text-align: left; line-height: 1.6;">
@@ -1020,7 +1101,7 @@
 
           <!-- Guide 3 -->
           <div class="card" style="padding: 24px; background: #ffffff; border-radius: 16px; border: 1px solid #e2e8f0; text-align: center;">
-            <img src="images/sujan-tamang-trekking-guide-in-nepal.webp" alt="Lakpa Nuru Sherpa" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 14px; border: 3px solid var(--color-copper-orange, #F6851F);">
+            <img src="images/lakpa-nuru-sherpa.webp" alt="Lakpa Nuru Sherpa" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 14px; border: 3px solid var(--color-copper-orange, #F6851F);">
             <h4 style="font-size: 1.1rem; color: #0E3458; margin-bottom: 4px;">Lakpa Nuru Sherpa</h4>
             <div style="font-size: 0.8rem; font-weight: 700; color: #1A96C8; text-transform: uppercase; margin-bottom: 12px;">Peak Climbing Leader</div>
             <div style="font-size: 0.82rem; color: #64748b; text-align: left; line-height: 1.6;">
@@ -1034,7 +1115,7 @@
 
           <!-- Guide 4 -->
           <div class="card" style="padding: 24px; background: #ffffff; border-radius: 16px; border: 1px solid #e2e8f0; text-align: center;">
-            <img src="images/babu-ram-pokharel-city-guide-in-nepal.webp" alt="Mingma Sherpa" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 14px; border: 3px solid var(--color-copper-orange, #F6851F);">
+            <img src="images/mingma-sherpa.webp" alt="Mingma Sherpa" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 14px; border: 3px solid var(--color-copper-orange, #F6851F);">
             <h4 style="font-size: 1.1rem; color: #0E3458; margin-bottom: 4px;">Mingma Sherpa</h4>
             <div style="font-size: 0.8rem; font-weight: 700; color: #1A96C8; text-transform: uppercase; margin-bottom: 12px;">Wilderness Medic & Guide</div>
             <div style="font-size: 0.82rem; color: #64748b; text-align: left; line-height: 1.6;">
@@ -1056,7 +1137,7 @@
     <!-- 09 & 10. FIELD TEAM & A DAY IN THE LIFE OF A GUIDE -->
     <section class="section-padding" style="background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
       <div class="container">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px;">
+        <div class="about-split-grid" style="align-items: start;">
           <div>
             <span class="pill pill-copper">Behind the Scenes</span>
             <h3 style="font-size: 1.8rem; color: #0E3458; margin-top: 8px; margin-bottom: 16px;">The People Who Make Your Trek Happen</h3>
@@ -1064,7 +1145,7 @@
               A successful Himalayan expedition requires a dedicated ecosystem of mountain professionals. Our team includes licensed lead guides, assistant guides, porters, drivers, and 24/7 Kathmandu reservation officers.
             </p>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 20px;">
+            <div class="about-sub-grid" style="margin-top: 20px;">
               <div style="background: #ffffff; padding: 16px; border-radius: 12px; border: 1px solid #e2e8f0;">
                 <strong style="color: #0E3458; font-size: 0.95rem; display: block;">Assistant Guides</strong>
                 <span style="color: #64748b; font-size: 0.82rem;">Certified first-responders managing group pacing.</span>
@@ -1124,7 +1205,7 @@
           <p style="color: #64748b; max-width: 680px; margin: 10px auto 0 auto;">High altitude requires operational discipline, medical equipment, and clear protocols.</p>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 40px;">
+        <div class="about-safety-grid">
           <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px;">
             <div style="width: 42px; height: 42px; background: #0E3458; color: white; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 800; margin-bottom: 16px;">1</div>
             <h4 style="font-size: 1.1rem; color: #0E3458; margin-bottom: 10px;">Before the Trek</h4>
@@ -1177,7 +1258,7 @@
     <!-- 13 & 14. PORTER WELFARE & SUSTAINABLE TOURISM -->
     <section class="section-padding" style="background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
       <div class="container">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px;">
+        <div class="about-split-grid" style="align-items: start;">
           <div>
             <span class="pill pill-copper">Ethical Mountain Tourism</span>
             <h3 style="font-size: 1.8rem; color: #0E3458; margin-top: 8px; margin-bottom: 16px;">100% Fair Porter & Staff Welfare Policy</h3>
@@ -1198,7 +1279,7 @@
             <span class="pill pill-alpine">4 Pillars of Responsibility</span>
             <h3 style="font-size: 1.8rem; color: #0E3458; margin-top: 8px; margin-bottom: 16px;">Responsible & Sustainable Tourism</h3>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div class="about-sub-grid">
               <div style="background: #ffffff; padding: 20px; border-radius: 14px; border: 1px solid #e2e8f0;">
                 <strong style="color: #0E3458; font-size: 1rem; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 4px;">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
@@ -1242,7 +1323,7 @@
           <p style="color: #64748b; max-width: 600px; margin: 10px auto 0 auto;">How your trip payment directly supports local mountain ecosystems in Nepal.</p>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; text-align: center;">
+        <div class="about-money-grid">
           <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px;">
             <div style="font-size: 1.8rem; font-weight: 800; color: #1A96C8; margin-bottom: 4px;">35%</div>
             <strong style="font-size: 0.9rem; color: #0E3458; display: block; margin-bottom: 4px;">Guides & Porters</strong>
@@ -1367,7 +1448,7 @@
     <!-- 18 & 19. KATHMANDU OFFICE & WHAT WE WILL NEVER PROMISE -->
     <section class="section-padding" style="background: #ffffff;">
       <div class="container">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px;">
+        <div class="about-split-grid" style="align-items: start;">
           <div>
             <span class="pill pill-copper">Visit Us in Person</span>
             <h3 style="font-size: 1.8rem; color: #0E3458; margin-top: 8px; margin-bottom: 16px;">Kathmandu Headquarters & Client Briefing Lounge</h3>
@@ -1437,7 +1518,7 @@
           <p style="color: #64748b; max-width: 600px; margin: 10px auto 0 auto;">First-hand experiences from our trekkers and mountain operational team.</p>
         </div>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+        <div class="about-split-grid">
           <!-- Story Card -->
           <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 16px rgba(0,0,0,0.04);">
             <div style="display: flex; gap: 16px; align-items: center; margin-bottom: 16px;">
@@ -1480,7 +1561,7 @@
           <p style="color: #64748b; max-width: 600px; margin: 10px auto 0 auto;">Direct field operations across all major trekking regions and mountain sub-valleys of Nepal.</p>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;">
+        <div class="about-regions-grid">
           <a href="everest-region-treks/" class="region-hub-card">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F6851F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
             Everest Region
@@ -1536,7 +1617,7 @@
         <div id="faq-company" class="faq-group">
           <details class="faq-accordion-item" style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 12px;">
             <summary style="font-weight: 700; color: #0E3458; cursor: pointer;">Who owns and operates Igloo Himalaya Treks?</summary>
-            <p style="color: #64748b; font-size: 0.9rem; margin-top: 10px; line-height: 1.6;">We are 100% locally owned and operated by veteran Sherpa mountaineer Ang Tshering Sherpa (5x Everest summitter) and based in Thamel, Kathmandu, Nepal.</p>
+            <p style="color: #64748b; font-size: 0.9rem; margin-top: 10px; line-height: 1.6;">We are 100% locally owned and operated by veteran Sherpa mountaineer Surya Lama (5x Everest summitter) and based in Thamel, Kathmandu, Nepal.</p>
           </details>
           <details class="faq-accordion-item" style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 12px;">
             <summary style="font-weight: 700; color: #0E3458; cursor: pointer;">Are you a government-registered trekking agency?</summary>
@@ -1662,6 +1743,7 @@
         <div class="footer-legal-links">
           <a href="privacy-policy.html">Privacy Policy</a>
           <a href="terms-and-conditions.html">Terms & Conditions</a>
+          <a href="legal-documents.html">Legal Documents</a>
         </div>
       </div>
 
@@ -1674,7 +1756,7 @@
   </footer>
 
   <script type="module" src="js/inquiry-modal.js"></script>
-  <script src="js/header-scroll.js"></script>
+  <script src="js/header-scroll.js?v=37"></script>
 
   <script>
     // FAQ Tab Switcher

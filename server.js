@@ -182,6 +182,729 @@ const server = http.createServer((req, res) => {
 
   // 301 Permanent Redirects for /trip/ and alias URLs
   const URL_REDIRECTS = {
+    '/xmlrpc.php/': '/blogs.html',
+    '/xmlrpc.php': '/blogs.html',
+    '/blog/xmlrpc.php/': '/blogs.html',
+    '/blog/xmlrpc.php': '/blogs.html',
+    '/wp-travel-dashboard/': '/blogs.html',
+    '/wp-travel-dashboard': '/blogs.html',
+    '/blog/wp-travel-dashboard/': '/blogs.html',
+    '/blog/wp-travel-dashboard': '/blogs.html',
+    '/wp-travel-checkout/': '/blogs.html',
+    '/wp-travel-checkout': '/blogs.html',
+    '/blog/wp-travel-checkout/': '/blogs.html',
+    '/blog/wp-travel-checkout': '/blogs.html',
+    '/wp-json/wp/v2/pages/3381/': '/blogs.html',
+    '/wp-json/wp/v2/pages/3381': '/blogs.html',
+    '/blog/wp-json/wp/v2/pages/3381/': '/blogs.html',
+    '/blog/wp-json/wp/v2/pages/3381': '/blogs.html',
+    '/wp-json/oembed/1.0/embed/': '/blogs.html',
+    '/wp-json/oembed/1.0/embed': '/blogs.html',
+    '/blog/wp-json/oembed/1.0/embed/': '/blogs.html',
+    '/blog/wp-json/oembed/1.0/embed': '/blogs.html',
+    '/wp-json/': '/blogs.html',
+    '/wp-json': '/blogs.html',
+    '/blog/wp-json/': '/blogs.html',
+    '/blog/wp-json': '/blogs.html',
+    '/what-your-first-day-in-nepal-really-feels-like/': '/blogs.html',
+    '/what-your-first-day-in-nepal-really-feels-like': '/blogs.html',
+    '/blog/what-your-first-day-in-nepal-really-feels-like/': '/blogs.html',
+    '/blog/what-your-first-day-in-nepal-really-feels-like': '/blogs.html',
+    '/what-you-will-experience-during-the-everest-base-camp-trek/': '/everest-region-treks/',
+    '/what-you-will-experience-during-the-everest-base-camp-trek': '/everest-region-treks/',
+    '/blog/what-you-will-experience-during-the-everest-base-camp-trek/': '/everest-region-treks/',
+    '/blog/what-you-will-experience-during-the-everest-base-camp-trek': '/everest-region-treks/',
+    '/what-nobody-tells-you-about-trekking-to-everest-base-camp/': '/everest-region-treks/',
+    '/what-nobody-tells-you-about-trekking-to-everest-base-camp': '/everest-region-treks/',
+    '/blog/what-nobody-tells-you-about-trekking-to-everest-base-camp/': '/everest-region-treks/',
+    '/blog/what-nobody-tells-you-about-trekking-to-everest-base-camp': '/everest-region-treks/',
+    '/what-nobody-tells-you-about-annapurna-base-camp-trek/': '/annapurna-region-treks/',
+    '/what-nobody-tells-you-about-annapurna-base-camp-trek': '/annapurna-region-treks/',
+    '/blog/what-nobody-tells-you-about-annapurna-base-camp-trek/': '/annapurna-region-treks/',
+    '/blog/what-nobody-tells-you-about-annapurna-base-camp-trek': '/annapurna-region-treks/',
+    '/what-is-the-mardi-himal-trek/': '/annapurna-region-treks/',
+    '/what-is-the-mardi-himal-trek': '/annapurna-region-treks/',
+    '/blog/what-is-the-mardi-himal-trek/': '/annapurna-region-treks/',
+    '/blog/what-is-the-mardi-himal-trek': '/annapurna-region-treks/',
+    '/what-is-nepal-known-for/': '/blogs.html',
+    '/what-is-nepal-known-for': '/blogs.html',
+    '/blog/what-is-nepal-known-for/': '/blogs.html',
+    '/blog/what-is-nepal-known-for': '/blogs.html',
+    '/what-is-nepal-famous-for-explore/': '/blogs.html',
+    '/what-is-nepal-famous-for-explore': '/blogs.html',
+    '/blog/what-is-nepal-famous-for-explore/': '/blogs.html',
+    '/blog/what-is-nepal-famous-for-explore': '/blogs.html',
+    '/trips/': '/blogs.html',
+    '/trips': '/blogs.html',
+    '/blog/trips/': '/blogs.html',
+    '/blog/trips': '/blogs.html',
+    '/trip/page/5/': '/blogs.html',
+    '/trip/page/5': '/blogs.html',
+    '/blog/trip/page/5/': '/blogs.html',
+    '/blog/trip/page/5': '/blogs.html',
+    '/trip/page/4/': '/blogs.html',
+    '/trip/page/4': '/blogs.html',
+    '/blog/trip/page/4/': '/blogs.html',
+    '/blog/trip/page/4': '/blogs.html',
+    '/trip/page/3/': '/blogs.html',
+    '/trip/page/3': '/blogs.html',
+    '/blog/trip/page/3/': '/blogs.html',
+    '/blog/trip/page/3': '/blogs.html',
+    '/trip/page/2/': '/blogs.html',
+    '/trip/page/2': '/blogs.html',
+    '/blog/trip/page/2/': '/blogs.html',
+    '/blog/trip/page/2': '/blogs.html',
+    '/trip/nine-nights-bhutan-tour-from-nepal/': '/blogs.html',
+    '/trip/nine-nights-bhutan-tour-from-nepal': '/blogs.html',
+    '/blog/trip/nine-nights-bhutan-tour-from-nepal/': '/blogs.html',
+    '/blog/trip/nine-nights-bhutan-tour-from-nepal': '/blogs.html',
+    '/trip/kailash-mansarovar-yatra/': '/blogs.html',
+    '/trip/kailash-mansarovar-yatra': '/blogs.html',
+    '/blog/trip/kailash-mansarovar-yatra/': '/blogs.html',
+    '/blog/trip/kailash-mansarovar-yatra': '/blogs.html',
+    '/trip/everest-base-camp-trek-16-days/': '/everest-region-treks/',
+    '/trip/everest-base-camp-trek-16-days': '/everest-region-treks/',
+    '/blog/trip/everest-base-camp-trek-16-days/': '/everest-region-treks/',
+    '/blog/trip/everest-base-camp-trek-16-days': '/everest-region-treks/',
+    '/trip/9-nights-bhutan-tour/': '/blogs.html',
+    '/trip/9-nights-bhutan-tour': '/blogs.html',
+    '/blog/trip/9-nights-bhutan-tour/': '/blogs.html',
+    '/blog/trip/9-nights-bhutan-tour': '/blogs.html',
+    '/trip/': '/blogs.html',
+    '/trip': '/blogs.html',
+    '/blog/trip/': '/blogs.html',
+    '/blog/trip': '/blogs.html',
+    '/trip-types/weekend-trips/': '/blogs.html',
+    '/trip-types/weekend-trips': '/blogs.html',
+    '/blog/trip-types/weekend-trips/': '/blogs.html',
+    '/blog/trip-types/weekend-trips': '/blogs.html',
+    '/trip-types/nature-walk/': '/blogs.html',
+    '/trip-types/nature-walk': '/blogs.html',
+    '/blog/trip-types/nature-walk/': '/blogs.html',
+    '/blog/trip-types/nature-walk': '/blogs.html',
+    '/trip-types/nature-friendly/': '/blogs.html',
+    '/trip-types/nature-friendly': '/blogs.html',
+    '/blog/trip-types/nature-friendly/': '/blogs.html',
+    '/blog/trip-types/nature-friendly': '/blogs.html',
+    '/trip-types/high-altitude/page/3/': '/blogs.html',
+    '/trip-types/high-altitude/page/3': '/blogs.html',
+    '/blog/trip-types/high-altitude/page/3/': '/blogs.html',
+    '/blog/trip-types/high-altitude/page/3': '/blogs.html',
+    '/trip-types/high-altitude/page/2/': '/blogs.html',
+    '/trip-types/high-altitude/page/2': '/blogs.html',
+    '/blog/trip-types/high-altitude/page/2/': '/blogs.html',
+    '/blog/trip-types/high-altitude/page/2': '/blogs.html',
+    '/trip-types/high-altitude/': '/blogs.html',
+    '/trip-types/high-altitude': '/blogs.html',
+    '/blog/trip-types/high-altitude/': '/blogs.html',
+    '/blog/trip-types/high-altitude': '/blogs.html',
+    '/trip-types/cultural/': '/blogs.html',
+    '/trip-types/cultural': '/blogs.html',
+    '/blog/trip-types/cultural/': '/blogs.html',
+    '/blog/trip-types/cultural': '/blogs.html',
+    '/trip-types/child-friendly/': '/blogs.html',
+    '/trip-types/child-friendly': '/blogs.html',
+    '/blog/trip-types/child-friendly/': '/blogs.html',
+    '/blog/trip-types/child-friendly': '/blogs.html',
+    '/trip-types/budget-travel/': '/blogs.html',
+    '/trip-types/budget-travel': '/blogs.html',
+    '/blog/trip-types/budget-travel/': '/blogs.html',
+    '/blog/trip-types/budget-travel': '/blogs.html',
+    '/trip-sitemap.xml/': '/blogs.html',
+    '/trip-sitemap.xml': '/blogs.html',
+    '/blog/trip-sitemap.xml/': '/blogs.html',
+    '/blog/trip-sitemap.xml': '/blogs.html',
+    '/trekking-the-classic-annapurna-circuit/': '/annapurna-region-treks/',
+    '/trekking-the-classic-annapurna-circuit': '/annapurna-region-treks/',
+    '/blog/trekking-the-classic-annapurna-circuit/': '/annapurna-region-treks/',
+    '/blog/trekking-the-classic-annapurna-circuit': '/annapurna-region-treks/',
+    '/trekking-in-nepal-what-nobody-tells-you/': '/blogs.html',
+    '/trekking-in-nepal-what-nobody-tells-you': '/blogs.html',
+    '/blog/trekking-in-nepal-what-nobody-tells-you/': '/blogs.html',
+    '/blog/trekking-in-nepal-what-nobody-tells-you': '/blogs.html',
+    '/travel-guide-sitemap.xml/': '/blogs.html',
+    '/travel-guide-sitemap.xml': '/blogs.html',
+    '/blog/travel-guide-sitemap.xml/': '/blogs.html',
+    '/blog/travel-guide-sitemap.xml': '/blogs.html',
+    '/thorong-la-pass-guide/': '/annapurna-region-treks/',
+    '/thorong-la-pass-guide': '/annapurna-region-treks/',
+    '/blog/thorong-la-pass-guide/': '/annapurna-region-treks/',
+    '/blog/thorong-la-pass-guide': '/annapurna-region-treks/',
+    '/thank-you/': '/blogs.html',
+    '/thank-you': '/blogs.html',
+    '/blog/thank-you/': '/blogs.html',
+    '/blog/thank-you': '/blogs.html',
+    '/suspension-bridges-along-the-everest-base-camp-trail/': '/everest-region-treks/',
+    '/suspension-bridges-along-the-everest-base-camp-trail': '/everest-region-treks/',
+    '/blog/suspension-bridges-along-the-everest-base-camp-trail/': '/everest-region-treks/',
+    '/blog/suspension-bridges-along-the-everest-base-camp-trail': '/everest-region-treks/',
+    '/shinta-mani-mustang/': '/mustang-region-treks/',
+    '/shinta-mani-mustang': '/mustang-region-treks/',
+    '/blog/shinta-mani-mustang/': '/mustang-region-treks/',
+    '/blog/shinta-mani-mustang': '/mustang-region-treks/',
+    '/post-sitemap.xml/': '/blogs.html',
+    '/post-sitemap.xml': '/blogs.html',
+    '/blog/post-sitemap.xml/': '/blogs.html',
+    '/blog/post-sitemap.xml': '/blogs.html',
+    '/page-sitemap.xml/': '/blogs.html',
+    '/page-sitemap.xml': '/blogs.html',
+    '/blog/page-sitemap.xml/': '/blogs.html',
+    '/blog/page-sitemap.xml': '/blogs.html',
+    '/our-teams/tom-wangdel/': '/team/tom-wangdel.html',
+    '/our-teams/tom-wangdel': '/team/tom-wangdel.html',
+    '/blog/our-teams/tom-wangdel/': '/team/tom-wangdel.html',
+    '/blog/our-teams/tom-wangdel': '/team/tom-wangdel.html',
+    '/our-teams/surya-lama/': '/team/surya-lama.html',
+    '/our-teams/surya-lama': '/team/surya-lama.html',
+    '/blog/our-teams/surya-lama/': '/team/surya-lama.html',
+    '/blog/our-teams/surya-lama': '/team/surya-lama.html',
+    '/our-teams/sujan-tamang/': '/team/sujan-tamang.html',
+    '/our-teams/sujan-tamang': '/team/sujan-tamang.html',
+    '/blog/our-teams/sujan-tamang/': '/team/sujan-tamang.html',
+    '/blog/our-teams/sujan-tamang': '/team/sujan-tamang.html',
+    '/our-teams/sonam-dorji-sherpa/': '/team/sonam-dorji-sherpa.html',
+    '/our-teams/sonam-dorji-sherpa': '/team/sonam-dorji-sherpa.html',
+    '/blog/our-teams/sonam-dorji-sherpa/': '/team/sonam-dorji-sherpa.html',
+    '/blog/our-teams/sonam-dorji-sherpa': '/team/sonam-dorji-sherpa.html',
+    '/our-teams/sonam-tamang/': '/team/sonam-tamang.html',
+    '/our-teams/sonam-tamang': '/team/sonam-tamang.html',
+    '/blog/our-teams/sonam-tamang/': '/team/sonam-tamang.html',
+    '/blog/our-teams/sonam-tamang': '/team/sonam-tamang.html',
+    '/our-teams/santi-tamang/': '/team/santi-tamang.html',
+    '/our-teams/santi-tamang': '/team/santi-tamang.html',
+    '/blog/our-teams/santi-tamang/': '/team/santi-tamang.html',
+    '/blog/our-teams/santi-tamang': '/team/santi-tamang.html',
+    '/our-teams/ramesh-karki/': '/team/ramesh-karki.html',
+    '/our-teams/ramesh-karki': '/team/ramesh-karki.html',
+    '/blog/our-teams/ramesh-karki/': '/team/ramesh-karki.html',
+    '/blog/our-teams/ramesh-karki': '/team/ramesh-karki.html',
+    '/our-teams/santa-lama/': '/team/santa-lama.html',
+    '/our-teams/santa-lama': '/team/santa-lama.html',
+    '/blog/our-teams/santa-lama/': '/team/santa-lama.html',
+    '/blog/our-teams/santa-lama': '/team/santa-lama.html',
+    '/our-teams/mingmar-tamang/': '/team/mingmar-tamang.html',
+    '/our-teams/mingmar-tamang': '/team/mingmar-tamang.html',
+    '/blog/our-teams/mingmar-tamang/': '/team/mingmar-tamang.html',
+    '/blog/our-teams/mingmar-tamang': '/team/mingmar-tamang.html',
+    '/our-teams/muhamad-danial/': '/team/muhamad-danial.html',
+    '/our-teams/muhamad-danial': '/team/muhamad-danial.html',
+    '/blog/our-teams/muhamad-danial/': '/team/muhamad-danial.html',
+    '/blog/our-teams/muhamad-danial': '/team/muhamad-danial.html',
+    '/our-teams/milan-tamang/': '/team/milan-tamang.html',
+    '/our-teams/milan-tamang': '/team/milan-tamang.html',
+    '/blog/our-teams/milan-tamang/': '/team/milan-tamang.html',
+    '/blog/our-teams/milan-tamang': '/team/milan-tamang.html',
+    '/our-teams/kusal-rimal/': '/team/kusal-rimal.html',
+    '/our-teams/kusal-rimal': '/team/kusal-rimal.html',
+    '/blog/our-teams/kusal-rimal/': '/team/kusal-rimal.html',
+    '/blog/our-teams/kusal-rimal': '/team/kusal-rimal.html',
+    '/our-teams/kamal-tamang/': '/blogs.html',
+    '/our-teams/kamal-tamang': '/blogs.html',
+    '/blog/our-teams/kamal-tamang/': '/blogs.html',
+    '/blog/our-teams/kamal-tamang': '/blogs.html',
+    '/our-teams/emelita-sindac-dalangin/': '/team/emelita-sindac-dalangin.html',
+    '/our-teams/emelita-sindac-dalangin': '/team/emelita-sindac-dalangin.html',
+    '/blog/our-teams/emelita-sindac-dalangin/': '/team/emelita-sindac-dalangin.html',
+    '/blog/our-teams/emelita-sindac-dalangin': '/team/emelita-sindac-dalangin.html',
+    '/our-teams/elise-yuan/': '/team/elise-yuan.html',
+    '/our-teams/elise-yuan': '/team/elise-yuan.html',
+    '/blog/our-teams/elise-yuan/': '/team/elise-yuan.html',
+    '/blog/our-teams/elise-yuan': '/team/elise-yuan.html',
+    '/our-teams/babu-ram-pokharel/': '/team/babu-ram-pokharel.html',
+    '/our-teams/babu-ram-pokharel': '/team/babu-ram-pokharel.html',
+    '/blog/our-teams/babu-ram-pokharel/': '/team/babu-ram-pokharel.html',
+    '/blog/our-teams/babu-ram-pokharel': '/team/babu-ram-pokharel.html',
+    '/nepal-visa-everything-travelers/': '/blogs.html',
+    '/nepal-visa-everything-travelers': '/blogs.html',
+    '/blog/nepal-visa-everything-travelers/': '/blogs.html',
+    '/blog/nepal-visa-everything-travelers': '/blogs.html',
+    '/my-account/': '/blogs.html',
+    '/my-account': '/blogs.html',
+    '/blog/my-account/': '/blogs.html',
+    '/blog/my-account': '/blogs.html',
+    '/lukla-flight-guide-for-everest-trekkers/': '/everest-region-treks/',
+    '/lukla-flight-guide-for-everest-trekkers': '/everest-region-treks/',
+    '/blog/lukla-flight-guide-for-everest-trekkers/': '/everest-region-treks/',
+    '/blog/lukla-flight-guide-for-everest-trekkers': '/everest-region-treks/',
+    '/lukla-flight-cancelled/': '/everest-region-treks/',
+    '/lukla-flight-cancelled': '/everest-region-treks/',
+    '/blog/lukla-flight-cancelled/': '/everest-region-treks/',
+    '/blog/lukla-flight-cancelled': '/everest-region-treks/',
+    '/legal-documents/': '/legal-documents.html',
+    '/legal-documents': '/legal-documents.html',
+    '/blog/legal-documents/': '/legal-documents.html',
+    '/blog/legal-documents': '/legal-documents.html',
+    '/langtang-valley-trek-cost-2026/': '/langtang-region-treks/',
+    '/langtang-valley-trek-cost-2026': '/langtang-region-treks/',
+    '/blog/langtang-valley-trek-cost-2026/': '/langtang-region-treks/',
+    '/blog/langtang-valley-trek-cost-2026': '/langtang-region-treks/',
+    '/langtang-flood-today-rasuwa-bhote-koshi-flood/': '/langtang-region-treks/',
+    '/langtang-flood-today-rasuwa-bhote-koshi-flood': '/langtang-region-treks/',
+    '/blog/langtang-flood-today-rasuwa-bhote-koshi-flood/': '/langtang-region-treks/',
+    '/blog/langtang-flood-today-rasuwa-bhote-koshi-flood': '/langtang-region-treks/',
+    '/khopra-ridge-trek-in-nepal/': '/annapurna-region-treks/',
+    '/khopra-ridge-trek-in-nepal': '/annapurna-region-treks/',
+    '/blog/khopra-ridge-trek-in-nepal/': '/annapurna-region-treks/',
+    '/blog/khopra-ridge-trek-in-nepal': '/annapurna-region-treks/',
+    '/how-to-get-to-annapurna/': '/annapurna-region-treks/',
+    '/how-to-get-to-annapurna': '/annapurna-region-treks/',
+    '/blog/how-to-get-to-annapurna/': '/annapurna-region-treks/',
+    '/blog/how-to-get-to-annapurna': '/annapurna-region-treks/',
+    '/how-long-is-the-hike-to-everest-base-camp/': '/everest-region-treks/',
+    '/how-long-is-the-hike-to-everest-base-camp': '/everest-region-treks/',
+    '/blog/how-long-is-the-hike-to-everest-base-camp/': '/everest-region-treks/',
+    '/blog/how-long-is-the-hike-to-everest-base-camp': '/everest-region-treks/',
+    '/how-hard-is-everest-base-camp-trek/': '/everest-region-treks/',
+    '/how-hard-is-everest-base-camp-trek': '/everest-region-treks/',
+    '/blog/how-hard-is-everest-base-camp-trek/': '/everest-region-treks/',
+    '/blog/how-hard-is-everest-base-camp-trek': '/everest-region-treks/',
+    '/gokyo-lake-location/': '/everest-region-treks/',
+    '/gokyo-lake-location': '/everest-region-treks/',
+    '/blog/gokyo-lake-location/': '/everest-region-treks/',
+    '/blog/gokyo-lake-location': '/everest-region-treks/',
+    '/flying-a-drone-in-nepal/': '/blogs.html',
+    '/flying-a-drone-in-nepal': '/blogs.html',
+    '/blog/flying-a-drone-in-nepal/': '/blogs.html',
+    '/blog/flying-a-drone-in-nepal': '/blogs.html',
+    '/feed/': '/blogs.html',
+    '/feed': '/blogs.html',
+    '/blog/feed/': '/blogs.html',
+    '/blog/feed': '/blogs.html',
+    '/faq/': '/blogs.html',
+    '/faq': '/blogs.html',
+    '/blog/faq/': '/blogs.html',
+    '/blog/faq': '/blogs.html',
+    '/everest-is-not-something-you-conquer/': '/everest-region-treks/',
+    '/everest-is-not-something-you-conquer': '/everest-region-treks/',
+    '/blog/everest-is-not-something-you-conquer/': '/everest-region-treks/',
+    '/blog/everest-is-not-something-you-conquer': '/everest-region-treks/',
+    '/everest-base-camp-trek-more-than-just-reaching-everest-base-camp/': '/everest-region-treks/',
+    '/everest-base-camp-trek-more-than-just-reaching-everest-base-camp': '/everest-region-treks/',
+    '/blog/everest-base-camp-trek-more-than-just-reaching-everest-base-camp/': '/everest-region-treks/',
+    '/blog/everest-base-camp-trek-more-than-just-reaching-everest-base-camp': '/everest-region-treks/',
+    '/everest-base-camp-trek-guide-tips/': '/everest-region-treks/',
+    '/everest-base-camp-trek-guide-tips': '/everest-region-treks/',
+    '/blog/everest-base-camp-trek-guide-tips/': '/everest-region-treks/',
+    '/blog/everest-base-camp-trek-guide-tips': '/everest-region-treks/',
+    '/everest-base-camp-trek-faqs-guide/': '/everest-region-treks/',
+    '/everest-base-camp-trek-faqs-guide': '/everest-region-treks/',
+    '/blog/everest-base-camp-trek-faqs-guide/': '/everest-region-treks/',
+    '/blog/everest-base-camp-trek-faqs-guide': '/everest-region-treks/',
+    '/everest-base-camp-trek-cost-2027/': '/everest-region-treks/',
+    '/everest-base-camp-trek-cost-2027': '/everest-region-treks/',
+    '/blog/everest-base-camp-trek-cost-2027/': '/everest-region-treks/',
+    '/blog/everest-base-camp-trek-cost-2027': '/everest-region-treks/',
+    '/everest-base-camp-2027/': '/everest-region-treks/',
+    '/everest-base-camp-2027': '/everest-region-treks/',
+    '/blog/everest-base-camp-2027/': '/everest-region-treks/',
+    '/blog/everest-base-camp-2027': '/everest-region-treks/',
+    '/enquiry-thank-you-page/': '/blogs.html',
+    '/enquiry-thank-you-page': '/blogs.html',
+    '/blog/enquiry-thank-you-page/': '/blogs.html',
+    '/blog/enquiry-thank-you-page': '/blogs.html',
+    '/destinations/tibet/': '/blogs.html',
+    '/destinations/tibet': '/blogs.html',
+    '/blog/destinations/tibet/': '/blogs.html',
+    '/blog/destinations/tibet': '/blogs.html',
+    '/destinations/nepal/page/5/': '/blogs.html',
+    '/destinations/nepal/page/5': '/blogs.html',
+    '/blog/destinations/nepal/page/5/': '/blogs.html',
+    '/blog/destinations/nepal/page/5': '/blogs.html',
+    '/destinations/nepal/page/4/': '/blogs.html',
+    '/destinations/nepal/page/4': '/blogs.html',
+    '/blog/destinations/nepal/page/4/': '/blogs.html',
+    '/blog/destinations/nepal/page/4': '/blogs.html',
+    '/destinations/nepal/page/3/': '/blogs.html',
+    '/destinations/nepal/page/3': '/blogs.html',
+    '/blog/destinations/nepal/page/3/': '/blogs.html',
+    '/blog/destinations/nepal/page/3': '/blogs.html',
+    '/destinations/nepal/page/2/': '/blogs.html',
+    '/destinations/nepal/page/2': '/blogs.html',
+    '/blog/destinations/nepal/page/2/': '/blogs.html',
+    '/blog/destinations/nepal/page/2': '/blogs.html',
+    '/destinations/nepal/everest-region/page/2/': '/everest-region-treks/',
+    '/destinations/nepal/everest-region/page/2': '/everest-region-treks/',
+    '/blog/destinations/nepal/everest-region/page/2/': '/everest-region-treks/',
+    '/blog/destinations/nepal/everest-region/page/2': '/everest-region-treks/',
+    '/destinations/nepal/annapurna-region/page/2/': '/annapurna-region-treks/',
+    '/destinations/nepal/annapurna-region/page/2': '/annapurna-region-treks/',
+    '/blog/destinations/nepal/annapurna-region/page/2/': '/annapurna-region-treks/',
+    '/blog/destinations/nepal/annapurna-region/page/2': '/annapurna-region-treks/',
+    '/destinations/bhutan/': '/blogs.html',
+    '/destinations/bhutan': '/blogs.html',
+    '/blog/destinations/bhutan/': '/blogs.html',
+    '/blog/destinations/bhutan': '/blogs.html',
+    '/dal-bhat/': '/blogs.html',
+    '/dal-bhat': '/blogs.html',
+    '/blog/dal-bhat/': '/blogs.html',
+    '/blog/dal-bhat': '/blogs.html',
+    '/dal-bhat-nepal-iconic-traditional-dish/': '/blogs.html',
+    '/dal-bhat-nepal-iconic-traditional-dish': '/blogs.html',
+    '/blog/dal-bhat-nepal-iconic-traditional-dish/': '/blogs.html',
+    '/blog/dal-bhat-nepal-iconic-traditional-dish': '/blogs.html',
+    '/cycling-trails-in-kathmandu/': '/tour/cycling-tour-around-kathmandu-valley/',
+    '/cycling-trails-in-kathmandu': '/tour/cycling-tour-around-kathmandu-valley/',
+    '/blog/cycling-trails-in-kathmandu/': '/tour/cycling-tour-around-kathmandu-valley/',
+    '/blog/cycling-trails-in-kathmandu': '/tour/cycling-tour-around-kathmandu-valley/',
+    '/common-mistakes-annapurna-base-camp-trek/': '/annapurna-region-treks/',
+    '/common-mistakes-annapurna-base-camp-trek': '/annapurna-region-treks/',
+    '/blog/common-mistakes-annapurna-base-camp-trek/': '/annapurna-region-treks/',
+    '/blog/common-mistakes-annapurna-base-camp-trek': '/annapurna-region-treks/',
+    '/comments/feed/': '/blogs.html',
+    '/comments/feed': '/blogs.html',
+    '/blog/comments/feed/': '/blogs.html',
+    '/blog/comments/feed': '/blogs.html',
+    '/climbing-in-nepal/': '/peak-climbing-nepal/',
+    '/climbing-in-nepal': '/peak-climbing-nepal/',
+    '/blog/climbing-in-nepal/': '/peak-climbing-nepal/',
+    '/blog/climbing-in-nepal': '/peak-climbing-nepal/',
+    '/classic-annapurna-circuit-trek/': '/annapurna-region-treks/',
+    '/classic-annapurna-circuit-trek': '/annapurna-region-treks/',
+    '/blog/classic-annapurna-circuit-trek/': '/annapurna-region-treks/',
+    '/blog/classic-annapurna-circuit-trek': '/annapurna-region-treks/',
+    '/checkout/': '/blogs.html',
+    '/checkout': '/blogs.html',
+    '/blog/checkout/': '/blogs.html',
+    '/blog/checkout': '/blogs.html',
+    '/cheap-treks-in-nepal-under-1000/': '/blogs.html',
+    '/cheap-treks-in-nepal-under-1000': '/blogs.html',
+    '/blog/cheap-treks-in-nepal-under-1000/': '/blogs.html',
+    '/blog/cheap-treks-in-nepal-under-1000': '/blogs.html',
+    '/book-your-best-trip-today/': '/blogs.html',
+    '/book-your-best-trip-today': '/blogs.html',
+    '/blog/book-your-best-trip-today/': '/blogs.html',
+    '/blog/book-your-best-trip-today': '/blogs.html',
+    '/best-things-to-do-along-the-everest-base-camp-trail/': '/everest-region-treks/',
+    '/best-things-to-do-along-the-everest-base-camp-trail': '/everest-region-treks/',
+    '/blog/best-things-to-do-along-the-everest-base-camp-trail/': '/everest-region-treks/',
+    '/blog/best-things-to-do-along-the-everest-base-camp-trail': '/everest-region-treks/',
+    '/author/surya/': '/blogs.html',
+    '/author/surya': '/blogs.html',
+    '/blog/author/surya/': '/blogs.html',
+    '/blog/author/surya': '/blogs.html',
+    '/annapurna-base-camp-trek-itinerary-7-days/': '/annapurna-region-treks/',
+    '/annapurna-base-camp-trek-itinerary-7-days': '/annapurna-region-treks/',
+    '/blog/annapurna-base-camp-trek-itinerary-7-days/': '/annapurna-region-treks/',
+    '/blog/annapurna-base-camp-trek-itinerary-7-days': '/annapurna-region-treks/',
+    '/annapurna-base-camp-trek-in-autumn-2/': '/annapurna-region-treks/',
+    '/annapurna-base-camp-trek-in-autumn-2': '/annapurna-region-treks/',
+    '/blog/annapurna-base-camp-trek-in-autumn-2/': '/annapurna-region-treks/',
+    '/blog/annapurna-base-camp-trek-in-autumn-2': '/annapurna-region-treks/',
+    '/annapurna-base-camp-trek-13-days/': '/annapurna-region-treks/',
+    '/annapurna-base-camp-trek-13-days': '/annapurna-region-treks/',
+    '/blog/annapurna-base-camp-trek-13-days/': '/annapurna-region-treks/',
+    '/blog/annapurna-base-camp-trek-13-days': '/annapurna-region-treks/',
+    '/annapurna-base-camp-9-days-itinerary/': '/annapurna-region-treks/',
+    '/annapurna-base-camp-9-days-itinerary': '/annapurna-region-treks/',
+    '/blog/annapurna-base-camp-9-days-itinerary/': '/annapurna-region-treks/',
+    '/blog/annapurna-base-camp-9-days-itinerary': '/annapurna-region-treks/',
+    // =========================================================================
+    // 112 Blog Articles Moved to /blog/ -> 301 Permanent Redirects
+    // =========================================================================
+    '/best-hiking-places-near-kathmandu/': '/blog/best-hiking-places-near-kathmandu/',
+    '/best-hiking-places-near-kathmandu': '/blog/best-hiking-places-near-kathmandu/',
+    '/everest-base-camp-trek-guide/': '/blog/everest-base-camp-trek-guide/',
+    '/everest-base-camp-trek-guide': '/blog/everest-base-camp-trek-guide/',
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    '/solo-trekking-in-nepals-restricted-areas/': '/blog/solo-trekking-in-nepals-restricted-areas/',
+    '/solo-trekking-in-nepals-restricted-areas': '/blog/solo-trekking-in-nepals-restricted-areas/',
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    '/best-time-to-climb-island-peak/': '/blog/best-time-to-climb-island-peak/',
+    '/best-time-to-climb-island-peak': '/blog/best-time-to-climb-island-peak/',
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    '/kanchenjunga-circuit-trek-autumn-weather/': '/blog/kanchenjunga-circuit-trek-autumn-weather/',
+    '/kanchenjunga-circuit-trek-autumn-weather': '/blog/kanchenjunga-circuit-trek-autumn-weather/',
+    
+    
+    
+    
+    
+    
+    
+    
+    '/best-treks-in-nepal-2027/': '/blog/best-treks-in-nepal-2027/',
+    '/best-treks-in-nepal-2027': '/blog/best-treks-in-nepal-2027/',
+    
+    
+    
+    
+    
+    
+    
+    
+    '/everest-base-camp-trek-food/': '/blog/everest-base-camp-trek-food/',
+    '/everest-base-camp-trek-food': '/blog/everest-base-camp-trek-food/',
+    '/festivals-in-nepal/': '/blog/festivals-in-nepal/',
+    '/festivals-in-nepal': '/blog/festivals-in-nepal/',
+    
+    
+    
+    
+    
+    
+    
+    
+    '/why-everest-base-camp-is-popular/': '/blog/why-everest-base-camp-is-popular/',
+    '/why-everest-base-camp-is-popular': '/blog/why-everest-base-camp-is-popular/',
+    '/gokyo-lakes-trek-itinerary/': '/blog/gokyo-lakes-trek-itinerary/',
+    '/gokyo-lakes-trek-itinerary': '/blog/gokyo-lakes-trek-itinerary/',
+    '/gokyo-lakes-trek-distance/': '/blog/gokyo-lakes-trek-distance/',
+    '/gokyo-lakes-trek-distance': '/blog/gokyo-lakes-trek-distance/',
+    '/gokyo-lakes-trek-cost-2027/': '/blog/gokyo-lakes-trek-cost-2027/',
+    '/gokyo-lakes-trek-cost-2027': '/blog/gokyo-lakes-trek-cost-2027/',
+    '/best-time-for-gokyo-lakes-trek/': '/blog/best-time-for-gokyo-lakes-trek/',
+    '/best-time-for-gokyo-lakes-trek': '/blog/best-time-for-gokyo-lakes-trek/',
+    
+    
+    
+    
+    '/gokyo-lakes-trek-difficulty/': '/blog/gokyo-lakes-trek-difficulty/',
+    '/gokyo-lakes-trek-difficulty': '/blog/gokyo-lakes-trek-difficulty/',
+    
+    
+    
+    
+    '/trekking-in-nepal/': '/blog/trekking-in-nepal/',
+    '/trekking-in-nepal': '/blog/trekking-in-nepal/',
+    '/transportation-in-nepal/': '/blog/transportation-in-nepal/',
+    '/transportation-in-nepal': '/blog/transportation-in-nepal/',
+    '/everest-base-camp-trek-elevation/': '/blog/everest-base-camp-trek-elevation/',
+    '/everest-base-camp-trek-elevation': '/blog/everest-base-camp-trek-elevation/',
+    '/annapurna-base-camp-trek-after-flood/': '/blog/annapurna-base-camp-trek-after-flood/',
+    '/annapurna-base-camp-trek-after-flood': '/blog/annapurna-base-camp-trek-after-flood/',
+    '/annapurna-base-camp-trek-in-autumn/': '/blog/annapurna-base-camp-trek-in-autumn/',
+    '/annapurna-base-camp-trek-in-autumn': '/blog/annapurna-base-camp-trek-in-autumn/',
+    '/everest-base-camp-trek-itinerary-2027/': '/blog/everest-base-camp-trek-itinerary-2027/',
+    '/everest-base-camp-trek-itinerary-2027': '/blog/everest-base-camp-trek-itinerary-2027/',
+    '/nepal-flood-2026-trekking-routes-affected/': '/blog/nepal-flood-2026-trekking-routes-affected/',
+    '/nepal-flood-2026-trekking-routes-affected': '/blog/nepal-flood-2026-trekking-routes-affected/',
+    '/best-time-to-trek-annapurna-base-camp/': '/blog/best-time-to-trek-annapurna-base-camp/',
+    '/best-time-to-trek-annapurna-base-camp': '/blog/best-time-to-trek-annapurna-base-camp/',
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    '/annapurna-base-camp-trek-in-winter/': '/blog/annapurna-base-camp-trek-in-winter/',
+    '/annapurna-base-camp-trek-in-winter': '/blog/annapurna-base-camp-trek-in-winter/',
+    '/everest-view-trek-cost/': '/blog/everest-view-trek-cost/',
+    '/everest-view-trek-cost': '/blog/everest-view-trek-cost/',
+    '/everest-base-camp-trek-without-flight/': '/blog/everest-base-camp-trek-without-flight/',
+    '/everest-base-camp-trek-without-flight': '/blog/everest-base-camp-trek-without-flight/',
+    
+    
+    
+    
+    '/everest-view-trek-difficulty/': '/blog/everest-view-trek-difficulty/',
+    '/everest-view-trek-difficulty': '/blog/everest-view-trek-difficulty/',
+    
+    
+    
+    
+    '/everest-view-trek-in-winter/': '/blog/everest-view-trek-in-winter/',
+    '/everest-view-trek-in-winter': '/blog/everest-view-trek-in-winter/',
+    '/everest-view-trek-packing-list/': '/blog/everest-view-trek-packing-list/',
+    '/everest-view-trek-packing-list': '/blog/everest-view-trek-packing-list/',
+    '/mohare-danda-trek-cost-2027/': '/blog/mohare-danda-trek-cost-2027/',
+    '/mohare-danda-trek-cost-2027': '/blog/mohare-danda-trek-cost-2027/',
+    '/mardi-himal-trek-vs-abc/': '/blog/mardi-himal-trek-vs-abc/',
+    '/mardi-himal-trek-vs-abc': '/blog/mardi-himal-trek-vs-abc/',
+    
+    
+    
+    
+    '/langtang-valley-trek-itinerary/': '/blog/langtang-valley-trek-itinerary/',
+    '/langtang-valley-trek-itinerary': '/blog/langtang-valley-trek-itinerary/',
+    '/langtang-valley-trek-cost-2027/': '/blog/langtang-valley-trek-cost-2027/',
+    '/langtang-valley-trek-cost-2027': '/blog/langtang-valley-trek-cost-2027/',
+    '/langtang-valley-trek-difficulty/': '/blog/langtang-valley-trek-difficulty/',
+    '/langtang-valley-trek-difficulty': '/blog/langtang-valley-trek-difficulty/',
+    '/annapurna-base-camp-trek-difficulty/': '/blog/annapurna-base-camp-trek-difficulty/',
+    '/annapurna-base-camp-trek-difficulty': '/blog/annapurna-base-camp-trek-difficulty/',
+    
+    
+    
+    
+    '/poon-hill-trek/': '/blog/poon-hill-trek/',
+    '/poon-hill-trek': '/blog/poon-hill-trek/',
+    '/nims-dai-death/': '/blog/nims-dai-death/',
+    '/nims-dai-death': '/blog/nims-dai-death/',
+    '/annapurna-base-camp-trek-for-beginners/': '/blog/annapurna-base-camp-trek-for-beginners/',
+    '/annapurna-base-camp-trek-for-beginners': '/blog/annapurna-base-camp-trek-for-beginners/',
+    '/green-boots-mount-everest/': '/blog/green-boots-mount-everest/',
+    '/green-boots-mount-everest': '/blog/green-boots-mount-everest/',
+    '/annapurna-base-camp-trek-in-october/': '/blog/annapurna-base-camp-trek-in-october/',
+    '/annapurna-base-camp-trek-in-october': '/blog/annapurna-base-camp-trek-in-october/',
+    '/how-to-choose-the-best-trekking-company-in-nepal/': '/blog/how-to-choose-the-best-trekking-company-in-nepal/',
+    '/how-to-choose-the-best-trekking-company-in-nepal': '/blog/how-to-choose-the-best-trekking-company-in-nepal/',
+    
+    
+    
+    
+    
+    
+    
+    
+    '/do-you-need-a-guide-to-trek-in-nepal-2026/': '/blog/do-you-need-a-guide-to-trek-in-nepal-2026/',
+    '/do-you-need-a-guide-to-trek-in-nepal-2026': '/blog/do-you-need-a-guide-to-trek-in-nepal-2026/',
+    '/how-to-train-for-high-altitude-hiking/': '/blog/how-to-train-for-high-altitude-hiking/',
+    '/how-to-train-for-high-altitude-hiking': '/blog/how-to-train-for-high-altitude-hiking/',
+    
+    
+    
+    
+    
+    
+    
+    
+    '/everest-base-camp-trek-difficulty-guide/': '/blog/everest-base-camp-trek-difficulty-guide/',
+    '/everest-base-camp-trek-difficulty-guide': '/blog/everest-base-camp-trek-difficulty-guide/',
+    '/everest-base-camp-trek-cost/': '/blog/everest-base-camp-trek-cost/',
+    '/everest-base-camp-trek-cost': '/blog/everest-base-camp-trek-cost/',
+    '/manaslu-circuit-trek-guide/': '/blog/manaslu-circuit-trek-guide/',
+    '/manaslu-circuit-trek-guide': '/blog/manaslu-circuit-trek-guide/',
+    '/how-to-get-to-everest-base-camp/': '/blog/how-to-get-to-everest-base-camp/',
+    '/how-to-get-to-everest-base-camp': '/blog/how-to-get-to-everest-base-camp/',
+    '/yala-peak-climbing-cost-breakdown-2026/': '/blog/yala-peak-climbing-cost-breakdown-2026/',
+    '/yala-peak-climbing-cost-breakdown-2026': '/blog/yala-peak-climbing-cost-breakdown-2026/',
+    
+    
+    
+    
+    
+    
+    
+    
+    '/mardi-himal-trek-guide/': '/blog/mardi-himal-trek-guide/',
+    '/mardi-himal-trek-guide': '/blog/mardi-himal-trek-guide/',
+    
+    
+    
+    
+    '/everest-base-camp-vs-gokyo-lakes/': '/blog/everest-base-camp-vs-gokyo-lakes/',
+    '/everest-base-camp-vs-gokyo-lakes': '/blog/everest-base-camp-vs-gokyo-lakes/',
+    '/upper-mustang-trek-cost-and-itinerary/': '/blog/upper-mustang-trek-cost-and-itinerary/',
+    '/upper-mustang-trek-cost-and-itinerary': '/blog/upper-mustang-trek-cost-and-itinerary/',
+    '/everest-base-camp-packing-mistakes-to-avoid/': '/blog/everest-base-camp-packing-mistakes-to-avoid/',
+    '/everest-base-camp-packing-mistakes-to-avoid': '/blog/everest-base-camp-packing-mistakes-to-avoid/',
+    '/best-treks-in-nepal-for-beginners/': '/blog/best-treks-in-nepal-for-beginners/',
+    '/best-treks-in-nepal-for-beginners': '/blog/best-treks-in-nepal-for-beginners/',
+    '/langtang-valley-trek-packing-list/': '/blog/langtang-valley-trek-packing-list/',
+    '/langtang-valley-trek-packing-list': '/blog/langtang-valley-trek-packing-list/',
+    
+    
+    
+    
+    '/kanchenjunga-circuit-trek-2026-guide/': '/blog/kanchenjunga-circuit-trek-2026-guide/',
+    '/kanchenjunga-circuit-trek-2026-guide': '/blog/kanchenjunga-circuit-trek-2026-guide/',
+    '/mount-everest/': '/blog/mount-everest/',
+    '/mount-everest': '/blog/mount-everest/',
+    '/when-is-the-best-time-for-the-annapurna-base-camp-trek/': '/blog/when-is-the-best-time-for-the-annapurna-base-camp-trek/',
+    '/when-is-the-best-time-for-the-annapurna-base-camp-trek': '/blog/when-is-the-best-time-for-the-annapurna-base-camp-trek/',
+    '/everest-base-camp-vs-annapurna-base-camp/': '/blog/everest-base-camp-vs-annapurna-base-camp/',
+    '/everest-base-camp-vs-annapurna-base-camp': '/blog/everest-base-camp-vs-annapurna-base-camp/',
+    '/annapurna-base-camp-trek-cost-2026/': '/blog/annapurna-base-camp-trek-cost-2026/',
+    '/annapurna-base-camp-trek-cost-2026': '/blog/annapurna-base-camp-trek-cost-2026/',
+    
+    
+    
+    
+    
+    
+    
+    
+    '/everest-base-camp-trek-packing-list/': '/blog/everest-base-camp-trek-packing-list/',
+    '/everest-base-camp-trek-packing-list': '/blog/everest-base-camp-trek-packing-list/',
+    
+    
+    
+    
+    '/kyanjin-ri-vs-tserko-ri/': '/blog/kyanjin-ri-vs-tserko-ri/',
+    '/kyanjin-ri-vs-tserko-ri': '/blog/kyanjin-ri-vs-tserko-ri/',
+    '/manaslu-circuit-trek-permits-guide/': '/blog/manaslu-circuit-trek-permits-guide/',
+    '/manaslu-circuit-trek-permits-guide': '/blog/manaslu-circuit-trek-permits-guide/',
+    '/ghorepani-poon-hill-vs-mardi-himal-trek/': '/blog/ghorepani-poon-hill-vs-mardi-himal-trek/',
+    '/ghorepani-poon-hill-vs-mardi-himal-trek': '/blog/ghorepani-poon-hill-vs-mardi-himal-trek/',
+    
+    
+    
+    
+    '/annapurna-circuit-vs-manaslu-circuit/': '/blog/annapurna-circuit-vs-manaslu-circuit/',
+    '/annapurna-circuit-vs-manaslu-circuit': '/blog/annapurna-circuit-vs-manaslu-circuit/',
+    '/manaslu-trek-food-and-accommodation/': '/blog/manaslu-trek-food-and-accommodation/',
+    '/manaslu-trek-food-and-accommodation': '/blog/manaslu-trek-food-and-accommodation/',
+    '/everest-base-camp-trek-in-winter-2026/': '/blog/everest-base-camp-trek-in-winter-2026/',
+    '/everest-base-camp-trek-in-winter-2026': '/blog/everest-base-camp-trek-in-winter-2026/',
+    '/where-is-mount-everest/': '/blog/where-is-mount-everest/',
+    '/where-is-mount-everest': '/blog/where-is-mount-everest/',
+    '/top-10-destinations-in-nepal/': '/blog/top-10-destinations-in-nepal/',
+    '/top-10-destinations-in-nepal': '/blog/top-10-destinations-in-nepal/',
+    
+    
+    
+    
+    '/top-trekking-routes-in-nepal-for-2026/': '/blog/top-trekking-routes-in-nepal-for-2026/',
+    '/top-trekking-routes-in-nepal-for-2026': '/blog/top-trekking-routes-in-nepal-for-2026/',
+    '/everest-base-camp-trekking-tips/': '/blog/everest-base-camp-trekking-tips/',
+    '/everest-base-camp-trekking-tips': '/blog/everest-base-camp-trekking-tips/',
+    '/island-peak-climbing-in-spring-season/': '/blog/island-peak-climbing-in-spring-season/',
+    '/island-peak-climbing-in-spring-season': '/blog/island-peak-climbing-in-spring-season/',
+    '/short-annapurna-base-camp-trek-difficulty/': '/blog/short-annapurna-base-camp-trek-difficulty/',
+    '/short-annapurna-base-camp-trek-difficulty': '/blog/short-annapurna-base-camp-trek-difficulty/',
+    '/annapurna-base-camp-trek-in-february/': '/blog/annapurna-base-camp-trek-in-february/',
+    '/annapurna-base-camp-trek-in-february': '/blog/annapurna-base-camp-trek-in-february/',
     '/trip/annapurna-base-camp-helicopter-return-trek': '/trek/annapurna-base-camp-heli-return/',
     '/trip/annapurna-base-camp-trek-heli-return': '/trek/annapurna-base-camp-heli-return/',
     '/trek/annapurna-base-camp-helicopter-return-trek': '/trek/annapurna-base-camp-heli-return/',
@@ -410,10 +1133,8 @@ const cleanReqUrl = req.url.split('?')[0].replace(/\/+$/, '');
   // Set smart caching headers
   if (['.jpg', '.jpeg', '.png', '.webp', '.avif', '.gif', '.ico', '.woff', '.woff2'].includes(ext)) {
     res.setHeader('Cache-Control', 'public, max-age=86400');
-  } else if (['.css', '.js', '.mjs'].includes(ext)) {
-    res.setHeader('Cache-Control', 'public, max-age=3600, must-revalidate');
   } else {
-    res.setHeader('Cache-Control', 'no-cache, must-revalidate');
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
   }
 
   // Video and audio partial content streaming
@@ -508,6 +1229,9 @@ const cleanReqUrl = req.url.split('?')[0].replace(/\/+$/, '');
           'Content-Type': contentType,
           'Content-Encoding': 'br',
           'Content-Length': compressed.length,
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache',
+          'Expires': '0',
           'Vary': 'Accept-Encoding'
         });
         res.end(compressed);
@@ -517,6 +1241,9 @@ const cleanReqUrl = req.url.split('?')[0].replace(/\/+$/, '');
           'Content-Type': contentType,
           'Content-Encoding': 'gzip',
           'Content-Length': compressed.length,
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache',
+          'Expires': '0',
           'Vary': 'Accept-Encoding'
         });
         res.end(compressed);
@@ -524,6 +1251,9 @@ const cleanReqUrl = req.url.split('?')[0].replace(/\/+$/, '');
         res.writeHead(200, {
           'Content-Type': contentType,
           'Content-Length': buffer.length,
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache',
+          'Expires': '0',
           'Accept-Ranges': 'bytes'
         });
         res.end(buffer);

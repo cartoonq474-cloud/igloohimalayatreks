@@ -1,13 +1,15 @@
 const fs = require('fs');
-const html = fs.readFileSync('scratch/act_temp.html', 'utf8');
-const m = html.match(/<section id="section-packing"[\s\S]*?<\/section>/i);
-if (m) {
-  const isEbc = /lukla|everest|namche|kala patthar|solukhumbu/i.test(m[0]);
-  console.log('section-packing has EBC mentions:', isEbc);
-  if (isEbc) {
-    const matches = m[0].match(/(.{0,40}(lukla|everest|namche|kala patthar|solukhumbu).{0,40})/gi);
-    console.log('Matches:', matches ? matches.slice(0, 10) : 'none');
+
+const file = 'blog/everest-packing-checklist/index.html';
+if (fs.existsSync(file)) {
+  const html = fs.readFileSync(file, 'utf8');
+  console.log('has faq-layout-container:', html.includes('faq-layout-container'));
+  console.log('has faq:', html.toLowerCase().includes('faq'));
+  const idx = html.toLowerCase().indexOf('frequently asked');
+  console.log('idx of frequently asked:', idx);
+  if (idx !== -1) {
+    console.log(html.slice(idx - 100, idx + 500));
   }
 } else {
-  console.log('section-packing not found');
+  console.log('File does not exist');
 }

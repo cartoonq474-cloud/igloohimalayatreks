@@ -9,7 +9,35 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css?v=37">
+  <style>
+    .contact-layout-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.6fr;
+      gap: 40px;
+    }
+    .contact-form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    @media (max-width: 900px) {
+      .contact-layout-grid {
+        grid-template-columns: 1fr !important;
+        gap: 32px !important;
+      }
+    }
+    @media (max-width: 600px) {
+      .contact-form-row {
+        grid-template-columns: 1fr !important;
+        gap: 14px !important;
+      }
+      .contact-layout-grid .card {
+        padding: 20px !important;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -19,13 +47,6 @@
       <a href="index.html" class="logo-brand" aria-label="Igloo Himalaya Treks">
         <img src="images/logo.png" alt="Igloo Himalaya Treks" width="85" height="70" style="height: 70px; width: auto; object-fit: contain;" loading="eager" decoding="async" fetchpriority="high">
       </a>
-
-      <!-- Hamburger Menu Button -->
-      <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-      </button>
 
       <!-- Navigation Links -->
       <nav>
@@ -414,8 +435,20 @@
         </ul>
       </nav>
 
-      <div>
+      <div class="header-cta-desktop">
         <button class="btn btn-primary open-inquiry-btn">Book Custom Trip</button>
+      </div>
+
+      <!-- Mobile Action Cluster (WhatsApp & Hamburger Menu) -->
+      <div class="mobile-header-actions">
+        <a href="https://wa.me/9779860843980?text=Hello%20Igloo%20Himalaya%20Treks%2C%20I%20would%20like%20to%20inquire%20about%20a%20trek" target="_blank" rel="noopener" class="mobile-quick-whatsapp" aria-label="Chat on WhatsApp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+        </a>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
       </div>
     </div>
   </header>
@@ -433,7 +466,7 @@
     </section>
 
     <section class="section-padding">
-      <div class="container" style="display: grid; grid-template-columns: 1fr 1.6fr; gap: 40px;">
+      <div class="container contact-layout-grid">
         
         <!-- Contact Cards Column -->
         <div style="display: flex; flex-direction: column; gap: 20px;">
@@ -485,7 +518,7 @@
           </p>
 
           <form id="contact-page-form">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+            <div class="contact-form-row">
               <div class="form-group">
                 <label class="form-label" for="c-name">Full Name *</label>
                 <input type="text" id="c-name" class="form-input" required placeholder="e.g. David Miller">
@@ -496,7 +529,7 @@
               </div>
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+            <div class="contact-form-row">
               <div class="form-group">
                 <label class="form-label" for="c-phone">Phone / WhatsApp</label>
                 <input type="tel" id="c-phone" class="form-input" placeholder="+1 (555) 000-0000">
@@ -550,7 +583,7 @@
         We respond to all inquiries within 4 hours.
       </p>
       <form id="inquiry-form">
-        <div class="filter-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 14px;">
+        <div class="contact-form-row" style="margin-bottom: 14px;">
           <div class="form-group">
             <label class="form-label" for="inq-name">Full Name *</label>
             <input type="text" id="inq-name" class="form-input" required>
@@ -639,7 +672,7 @@
   </footer>
 
   <script type="module" src="js/inquiry-modal.js"></script>
-  <script src="js/header-scroll.js"></script>
+  <script src="js/header-scroll.js?v=37"></script>
   <script src="js/mega-menu.js"></script>
 </body>
 </html>

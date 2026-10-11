@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const activityData = {
     trekking: [
       {
-        image: "images/a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
+        image: "images/everest-base-camp-16-days.webp",
         duration: "14 DAYS",
         tags: ["CLASSIC", "HIGH ALTITUDE", "TEAHOUSE"],
         name: "Everest Base Camp Trek",
-        slug: "everest-base-camp-trek",
+        url: "trek/everest-base-camp-trek/",
         region: "Khumbu Region, Nepal",
         altitude: "5545 m",
         difficulty: "challenging",
@@ -22,30 +22,29 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: 142
       },
       {
-        image: "images/trekker-hiking-on-the-annapurna-base-camp-trek-trail-with-breathtaking-himalayan-mountain.webp",
-        duration: "12 DAYS",
+        image: "images/trekking-the-classic-annapurna-circuit.webp",
+        duration: "13 DAYS",
         tags: ["SCENIC", "PASS CROSSING", "LODGE"],
-        name: "Annapurna Circuit Expedition",
-        slug: "annapurna-circuit-trek",
-        // Annapurna mountain image replacement
+        name: "Annapurna Circuit Trek",
+        url: "trek/annapurna-circuit-trek/",
         region: "Annapurna Massif, Nepal",
         altitude: "5416 m",
         difficulty: "moderate",
-        summary: "Traverse diverse eco-zones from lush rhododendron forests to the dramatic Thorong La Pass high-altitude desert.",
+        summary: "Traverse diverse eco-zones from lush rhododendron forests to dramatic Thorong La Pass high-altitude desert.",
         price: "$1150",
         reviews: 118
       },
       {
-        image: "images/manaslu-circuit-trek.webp",
-        duration: "16 DAYS",
+        image: "images/manaslu-circuit-trek-14-days-itinerary-and-cost-igloo.webp",
+        duration: "13 DAYS",
         tags: ["RESTRICTED", "REMOTE", "CULTURE"],
-        name: "Manaslu Circuit & Larke Pass",
-        slug: "manaslu-circuit-trek",
+        name: "Manaslu Circuit Trek",
+        url: "trek/manaslu-circuit-trek/",
         region: "Manaslu Conservation Area",
         altitude: "5106 m",
         difficulty: "challenging",
         summary: "Unspoiled Tibetan Buddhist culture around Mt. Manaslu (8,163m) with crossing of snow-bound Larke La Pass.",
-        price: "$1399",
+        price: "$1190",
         reviews: 64
       }
     ],
@@ -55,6 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         duration: "19 DAYS",
         tags: ["GLACIER", "SUMMIT", "TECHNICAL"],
         name: "Island Peak Climbing (6,189m)",
+        url: "trek/island-peak-climbing/",
         region: "Imja Valley, Everest Region",
         altitude: "6189 m",
         difficulty: "strenuous",
@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         duration: "18 DAYS",
         tags: ["TREKKING PEAK", "HIGH PASS", "EXPEDITION"],
         name: "Mera Peak Expedition (6,476m)",
+        url: "trek/mera-peak-climbing/",
         region: "Hinku Valley, Nepal",
         altitude: "6476 m",
         difficulty: "challenging",
@@ -76,9 +77,10 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         image: "images/lobuche-peak-climbing-02.webp",
-        duration: "21 DAYS",
+        duration: "18 DAYS",
         tags: ["EVEREST REGION", "ICE CLIMB", "ALPINE"],
         name: "Lobuche East Peak (6,119m)",
+        url: "trek/lobuche-peak-climbing/",
         region: "Khumbu Valley, Nepal",
         altitude: "6119 m",
         difficulty: "strenuous",
@@ -89,86 +91,93 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     tours: [
       {
-        image: "images/kathmandu-heritage-tour-unesco-world-heritage-sites-tour-02.webp",
-        duration: "7 DAYS",
-        tags: ["HERITAGE", "TEMPLE", "EASY"],
-        name: "Kathmandu & Pokhara Heritage",
-        region: "Kathmandu & Pokhara Valley",
+        image: "images/boat-5259878-1920.webp",
+        duration: "8 DAYS",
+        tags: ["HERITAGE", "WILDLIFE", "SCENIC"],
+        name: "Best of Nepal: Kathmandu, Pokhara & Chitwan",
+        url: "tour/kathmandu-pokhara-chitwan-tour/",
+        region: "Kathmandu, Pokhara & Chitwan",
         altitude: "1400 m",
         difficulty: "easy",
-        summary: "Discover UNESCO World Heritage durbar squares, ancient stupas, Fewa Lake boating, and Himalayan sunrise views.",
-        price: "$699",
+        summary: "Golden triangle tour combining Kathmandu UNESCO heritage, scenic Pokhara Fewa lake, and Chitwan wildlife jungle safari.",
+        price: "$890",
         reviews: 92
       },
       {
-        image: "images/chitwan-jungle-safari-tour-best-wildlife-safari-in-nepal.webp",
-        duration: "10 DAYS",
-        tags: ["SAFARI", "PILGRIMAGE", "NATURE"],
-        name: "Nepal Wildlife & Lumbini Tour",
-        region: "Chitwan & Lumbini, Nepal",
-        altitude: "820 m",
+        image: "images/kathmandu-heritage-tour-unesco-world-heritage-sites-tour-02.webp",
+        duration: "4 DAYS",
+        tags: ["HERITAGE", "TEMPLES", "CULTURE"],
+        name: "Kathmandu UNESCO World Heritage Tour",
+        url: "tour/kathmandu-cultural-heritage-tour/",
+        region: "Kathmandu Valley, Nepal",
+        altitude: "1400 m",
         difficulty: "easy",
-        summary: "Jungle safari with rhinos & tigers in Chitwan National Park followed by spiritual pilgrimage to Lord Buddha's birthplace.",
-        price: "$899",
-        reviews: 106
+        summary: "Explore historic Durbar Squares, Pashupatinath temple, Boudhanath stupa, and medieval courtyards of Bhaktapur.",
+        price: "$350",
+        reviews: 108
       },
       {
-        image: "images/nine-nights-bhutan-tour-from-nepal-igloo-himalaya-treks.webp",
-        duration: "12 DAYS",
-        tags: ["CROSS BORDER", "DRAGON KINGDOM", "CULTURE"],
-        name: "Bhutan & Nepal Combined Tour",
-        region: "Kathmandu & Paro/Thimphu",
-        altitude: "2320 m",
-        difficulty: "moderate",
-        summary: "Experience Kathmandu's historic temples and fly into Bhutan to hike Tiger's Nest Monastery in the Land of the Thunder Dragon.",
-        price: "$1799",
-        reviews: 52
+        image: "images/chitwan-jungle-safari-tour-best-wildlife-safari-in-nepal.webp",
+        duration: "3 DAYS",
+        tags: ["SAFARI", "RHINOS", "THARU CULTURE"],
+        name: "Chitwan National Park Jungle Safari",
+        url: "tour/chitwan-national-park-safari/",
+        region: "Chitwan National Park, Nepal",
+        altitude: "820 m",
+        difficulty: "easy",
+        summary: "Jeep safari spotting one-horned rhinos, canoe ride along Rapti river, bird watching, and authentic Tharu cultural dance.",
+        price: "$299",
+        reviews: 84
       }
     ],
     hikes: [
       {
-        image: "images/chisapani-nagarkot-trek-02.webp",
-        duration: "1 DAY",
-        tags: ["SUNRISE", "VALLEY VIEW", "DAY TRIP"],
-        name: "Nagarkot Sunrise & Changunarayan",
-        region: "Kathmandu Rim, Nepal",
-        altitude: "2175 m",
-        difficulty: "easy",
-        summary: "Early morning mountain panorama from Nagarkot tower followed by a scenic downhill walk to Nepal's oldest temple.",
-        price: "$89",
-        reviews: 68
-      },
-      {
         image: "images/jamacho-hike-1-day-hiking-shivapuri-national-park.webp",
         duration: "1 DAY",
-        tags: ["MONASTERY", "RIDGE WALK", "FOREST"],
-        name: "Champadevi Ridge & Monastery Trail",
-        region: "Southern Kathmandu Valley",
-        altitude: "2280 m",
+        tags: ["DAY HIKE", "MONASTERY", "FOREST"],
+        name: "Jamacho Peak Day Hike (2,128m)",
+        url: "tour/jamacho-hike/",
+        region: "Shivapuri Nagarjun National Park",
+        altitude: "2128 m",
         difficulty: "moderate",
-        summary: "Peaceful forest trail passing Buddhist stupas and pine ridges with panoramic views of Langtang and Ganesh Himal.",
-        price: "$79",
-        reviews: 34
+        summary: "Hike through lush Shivapuri Nagarjun National Park to Jamacho Buddhist Monastery with sweeping Himalayan views.",
+        price: "$65",
+        reviews: 54
+      },
+      {
+        image: "images/chisapani-nagarkot-trek-02.webp",
+        duration: "3 DAYS",
+        tags: ["SUNRISE", "PANORAMA", "ANCIENT CITY"],
+        name: "Nagarkot Sunrise & Bhaktapur Tour",
+        url: "tour/nagarkot-sunrise-bhaktapur-tour/",
+        region: "Kathmandu Valley Rim",
+        altitude: "2175 m",
+        difficulty: "easy",
+        summary: "Witness sunrise over the Himalayas from Nagarkot tower followed by exploration of ancient Bhaktapur Durbar Square.",
+        price: "$220",
+        reviews: 78
       },
       {
         image: "images/chisapani-nagarkot-trek.webp",
-        duration: "2 DAYS",
-        tags: ["NATIONAL PARK", "OVERNIGHT", "FLORA"],
-        name: "Shivapuri Peak & Chisapani Hike",
-        region: "Shivapuri National Park",
-        altitude: "2732 m",
-        difficulty: "moderate",
-        summary: "Overnight trek through pristine oak watershed forests to Chisapani for breathtaking Himalayan sunset and sunrise vistas.",
-        price: "$169",
-        reviews: 46
+        duration: "3 DAYS",
+        tags: ["SHORT TREK", "RIDGE WALK", "NATURE"],
+        name: "Chisapani Nagarkot Scenic Trek",
+        url: "trek/chisapani-nagarkot-trek/",
+        region: "Shivapuri & Nagarkot Rim",
+        altitude: "2438 m",
+        difficulty: "easy",
+        summary: "The quintessential short introductory trek through Shivapuri forest to Chisapani and Nagarkot for panoramic sunrise.",
+        price: "$249",
+        reviews: 96
       }
     ],
     heli: [
       {
         image: "images/everest-base-camp-helicopter-tour-1-day-luxury-heli-tour.webp",
         duration: "1 DAY",
-        tags: ["HELI TOUR", "EVEREST", "LUXURY"],
-        name: "Everest Base Camp Heli Flyover",
+        tags: ["HELI TOUR", "EVEREST VIEW", "LUXURY"],
+        name: "Everest Base Camp Heli Tour",
+        url: "tour/everest-base-camp-helicopter-tour/",
         region: "Khumbu Valley, Nepal",
         altitude: "5364 m",
         difficulty: "easy",
@@ -178,27 +187,29 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         image: "images/annapurna-base-camp-trek-heli-return.webp",
-        duration: "1 DAY",
-        tags: ["ANNAPURNA", "PANORAMA", "EXPRESS"],
-        name: "Annapurna Base Camp Heli Sightseeing",
-        region: "Annapurna Sanctuary",
+        duration: "8 DAYS",
+        tags: ["ANNAPURNA", "HELI RETURN", "AMPHITHEATER"],
+        name: "Annapurna Base Camp Heli Return",
+        url: "trek/annapurna-base-camp-heli-return/",
+        region: "Annapurna Sanctuary, Nepal",
         altitude: "4130 m",
-        difficulty: "easy",
-        summary: "Direct morning helicopter shuttle from Pokhara into the heart of the 360-degree Annapurna mountain amphitheater.",
-        price: "$749",
-        reviews: 42
+        difficulty: "moderate",
+        summary: "Trek into the heart of Annapurna Sanctuary and take an exhilarating scenic helicopter flight back to Pokhara.",
+        price: "$1499",
+        reviews: 62
       },
       {
-        image: "images/gokyo-lake-trek-helicopter-return.webp",
-        duration: "1 DAY",
-        tags: ["SACRED LAKE", "LANGTANG", "CHARTER"],
-        name: "Langtang Gosainkunda Heli Charter",
-        region: "Langtang National Park",
-        altitude: "4380 m",
+        image: "images/everest-base-camp-heli-tour.webp",
+        duration: "5 DAYS",
+        tags: ["VIP LUXURY", "EVEREST & ABC", "CHARTER"],
+        name: "Nepal Luxury Helicopter Tour",
+        url: "tour/nepal-luxury-helicopter-tour/",
+        region: "Everest & Annapurna, Nepal",
+        altitude: "5364 m",
         difficulty: "easy",
-        summary: "Scenic flight over Kathmandu Valley landing at sacred alpine Gosainkunda Lake for holy dip and Himalayan photography.",
-        price: "$649",
-        reviews: 28
+        summary: "Ultimate 5-star aerial expedition over Everest and Annapurna ranges with luxury resort stays in Kathmandu and Pokhara.",
+        price: "$2499",
+        reviews: 42
       }
     ]
   };
@@ -213,7 +224,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="act-package-card">
           <!-- Top Photo Banner with Floating Duration Badge & Smooth Hover Overlay -->
           <div class="act-card-img-wrapper">
-            <img src="${pkg.image}" alt="${pkg.name}" class="act-card-img" loading="lazy">
+            <a href="${pkg.url}" style="display: block; width: 100%; height: 100%;">
+              <img src="${pkg.image}" alt="${pkg.name}" class="act-card-img" loading="lazy" width="380" height="240" decoding="async">
+            </a>
             <div class="act-card-duration-badge">${pkg.duration}</div>
 
             <!-- Glassmorphism Hover Info Overlay -->
@@ -232,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
               </div>
               <p class="act-hover-summary">${pkg.summary}</p>
-              <div class="act-hover-hint">Hovered for details</div>
+              <div class="dest-hover-hint">Hovered for details</div>
             </div>
           </div>
 
@@ -240,10 +253,10 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="act-card-content">
             <div>
               <div class="package-rating-row">
-                <span class="stars-gold">★★★★★</span>
+                <span class="stars-gold"><svg width="15" height="15" viewBox="0 0 24 24" fill="#F6851F" style="display:inline-block; vertical-align:middle;"><use href="#icon-star"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#F6851F" style="display:inline-block; vertical-align:middle;"><use href="#icon-star"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#F6851F" style="display:inline-block; vertical-align:middle;"><use href="#icon-star"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#F6851F" style="display:inline-block; vertical-align:middle;"><use href="#icon-star"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#F6851F" style="display:inline-block; vertical-align:middle;"><use href="#icon-star"/></svg></span>
                 <span class="reviews-count">(${pkg.reviews} Reviews)</span>
               </div>
-              <h3 class="act-card-title">${pkg.name}</h3>
+              <h3 class="act-card-title"><a href="${pkg.url}" style="color: inherit; text-decoration: none;">${pkg.name}</a></h3>
               <div class="act-card-subregion">${pkg.region}</div>
             </div>
 
@@ -253,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <span class="act-starting-label">Starting From</span>
                 <span class="act-price-val">${pkg.price}</span>
               </div>
-              <button class="btn-inquire-now open-inquiry-btn">Inquire Now</button>
+              <button class="btn-inquire-now open-inquiry-btn" data-trek-title="${pkg.name}">Inquire Now</button>
             </div>
           </div>
         </div>

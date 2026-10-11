@@ -5,9 +5,191 @@ const ROOT = path.resolve(__dirname, '..', '..');
 const CANONICAL_PATH = path.join(ROOT, 'blog', 'everest-base-camp-vs-annapurna-circuit', 'index.html');
 const canonicalHtml = fs.readFileSync(CANONICAL_PATH, 'utf8');
 
+let blogSlugsSet = null;
+function getBlogSlugsSet() {
+  if (!blogSlugsSet) {
+    try {
+      const { articles } = require('../../data/blog/articles');
+      blogSlugsSet = new Set(articles.map(a => a.slug.replace(/^\//, '').replace(/\/+$/, '')));
+    } catch {
+      blogSlugsSet = new Set();
+    }
+  }
+  return blogSlugsSet;
+}
+
 // Extract Header & Footer from canonical gold-standard template
 const headerMatch = canonicalHtml.match(/<header class="main-header">[\s\S]*?<\/header>/);
 const footerMatch = canonicalHtml.match(/<footer class="site-footer">[\s\S]*?<\/footer>/);
+
+// Standardized FAQ Categories matching EBC vs ACT gold standard
+const CATEGORY_DEFS = [
+  {
+    id: 'general',
+    name: 'General & Planning',
+    iconSvg: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>`,
+    keywords: ['must-visit', 'destination', 'overview', 'first-time', 'difference', 'compare', 'best trek', 'which trek', 'why', 'what is', 'how long', 'how many days', 'days do i need', 'itinerary', 'recommend']
+  },
+  {
+    id: 'difficulty',
+    name: 'Difficulty & Fitness',
+    iconSvg: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>`,
+    keywords: ['difficult', 'hard', 'fitness', 'beginner', 'experience', 'train', 'strenuous', 'physical', 'steep', 'challenge', 'success rate', 'climb', 'stair', 'steps', 'stamina', 'workout']
+  },
+  {
+    id: 'safety',
+    name: 'Altitude & Safety',
+    iconSvg: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>`,
+    keywords: ['altitude', 'ams', 'sick', 'diamox', 'safety', 'safe', 'female', 'solo', 'cough', 'cold', 'weather', 'winter', 'monsoon', 'season', 'when is the best', 'emergency', 'rescue', 'hospital', 'insurance', 'animal']
+  },
+  {
+    id: 'logistics',
+    name: 'Permits, Cost & Logistics',
+    iconSvg: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>`,
+    keywords: ['permit', 'cost', 'price', 'expensive', 'cheap', 'budget', 'visa', 'guide', 'licensed', 'flight', 'lukla', 'transport', 'atm', 'cash', 'money', 'tip', 'tipping', 'how to get', 'return']
+  },
+  {
+    id: 'teahouse',
+    name: 'Teahouse, Food & Gear',
+    iconSvg: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>`,
+    keywords: ['teahouse', 'lodge', 'room', 'food', 'meal', 'eat', 'meat', 'dal bhat', 'water', 'shower', 'wifi', 'wi-fi', 'internet', 'electricity', 'charge', 'battery', 'gear', 'boots', 'rent', 'crampon', 'sleeping bag', 'pack', 'view', 'see mount', 'pole', 'poles', 'equipment']
+  }
+];
+
+function categorizeFaqs(faqs) {
+  if (!faqs || !faqs.length) return [];
+  const normalized = faqs.map(f => ({
+    q: (f.q || f.question || '').trim(),
+    a: (f.a || f.answer || '').trim()
+  })).filter(f => f.q && f.a);
+
+  if (!normalized.length) return [];
+
+  const buckets = {
+    general: [],
+    difficulty: [],
+    safety: [],
+    logistics: [],
+    teahouse: []
+  };
+
+  normalized.forEach(faq => {
+    const text = (faq.q + ' ' + faq.a).toLowerCase();
+    let bestCat = 'general';
+    let maxMatches = 0;
+
+    for (const def of CATEGORY_DEFS) {
+      if (def.id === 'general') continue;
+      let matches = 0;
+      for (const kw of def.keywords) {
+        if (text.includes(kw)) matches++;
+      }
+      if (matches > maxMatches) {
+        maxMatches = matches;
+        bestCat = def.id;
+      }
+    }
+
+    buckets[bestCat].push(faq);
+  });
+
+  const activeCategories = [];
+  CATEGORY_DEFS.forEach(def => {
+    if (buckets[def.id].length > 0) {
+      activeCategories.push({
+        id: def.id,
+        name: def.name,
+        iconSvg: def.iconSvg,
+        faqs: buckets[def.id]
+      });
+    }
+  });
+
+  if (activeCategories.length === 1 && normalized.length >= 2) {
+    const half = Math.ceil(normalized.length / 2);
+    return [
+      {
+        id: 'general',
+        name: 'Planning & Overview',
+        iconSvg: CATEGORY_DEFS[0].iconSvg,
+        faqs: normalized.slice(0, half)
+      },
+      {
+        id: 'logistics',
+        name: 'Logistics & Essentials',
+        iconSvg: CATEGORY_DEFS[3].iconSvg,
+        faqs: normalized.slice(half)
+      }
+    ];
+  }
+
+  return activeCategories;
+}
+
+function buildCategorizedFaqSection(article, faqId, faqHeading) {
+  const rawFaqs = article.faqs || [];
+  if (!rawFaqs.length) return '';
+
+  const categories = categorizeFaqs(rawFaqs);
+  if (!categories.length) return '';
+
+  const firstCat = categories[0];
+  const topicName = article.breadcrumbTitle || (article.title ? article.title.replace(/\s*[-–|].*$/, '').trim() : 'this trek');
+
+  return `
+    <section id="${faqId}" class="article-section" style="margin-bottom: 48px;">
+      <h2 class="faq-section-accent-title">
+        <span class="faq-accent-bar"></span>
+        ${faqHeading}
+      </h2>
+      <p style="margin-bottom: 24px; color: #475569;">
+        Select a category below to explore expert answers to the most common questions travelers ask about ${topicName}:
+      </p>
+
+      <div class="faq-layout-container">
+        <!-- Left Sidebar Category Navigation -->
+        <div class="faq-sidebar-card">
+          <div class="faq-category-nav">
+            ${categories.map((cat, idx) => `
+            <button type="button" class="faq-category-btn ${idx === 0 ? 'active' : ''}" data-category="${cat.id}" data-title="${cat.name}">
+              <span class="faq-cat-icon">
+                ${cat.iconSvg}
+              </span>
+              <span class="faq-cat-label">${cat.name}</span>
+            </button>
+            `).join('')}
+          </div>
+        </div>
+
+        <!-- Right FAQ Content Panel -->
+        <div class="faq-main-panel">
+          <!-- Header Bar -->
+          <div class="faq-panel-header">
+            <h3 class="faq-active-category-title" id="faq-current-category-title">${firstCat.name}</h3>
+            <button type="button" class="faq-expand-all-btn" id="faq-expand-all-btn">Expand All</button>
+          </div>
+
+          <!-- Category Panels -->
+          ${categories.map((cat, idx) => `
+          <div class="faq-category-content ${idx === 0 ? 'active' : ''}" id="faq-cat-${cat.id}">
+            ${cat.faqs.map(faq => `
+            <div class="faq-item">
+              <div class="faq-item-question" role="button" tabindex="0" aria-expanded="false">
+                <span>${faq.q}</span>
+                <span class="faq-toggle-circle">∨</span>
+              </div>
+              <div class="faq-item-answer">
+                ${faq.a}
+              </div>
+            </div>
+            `).join('')}
+          </div>
+          `).join('')}
+        </div>
+      </div>
+    </section>
+  `;
+}
 
 /**
  * Standard Blog Article Template Renderer
@@ -19,9 +201,9 @@ const footerMatch = canonicalHtml.match(/<footer class="site-footer">[\s\S]*?<\/
  * @param {Object} [nextArticle=null] - Next article metadata for bottom pagination
  * @returns {string} Fully rendered HTML document
  */
-function renderBlogArticle(article, relPath = '../', prevArticle = null, nextArticle = null) {
+function renderBlogArticle(article, relPath = '../../', prevArticle = null, nextArticle = null) {
   const slug = article.slug.replace(/^\//, '').replace(/\/+$/, '');
-  const canonicalUrl = article.canonicalUrl || `https://igloohimalayatreks.com/${slug}/`;
+  const canonicalUrl = article.canonicalUrl || (relPath === '../../' ? `https://igloohimalayatreks.com/blog/${slug}/` : `https://igloohimalayatreks.com/${slug}/`);
 
   // Normalize header and footer relative asset links
   const headerHtml = headerMatch
@@ -54,25 +236,74 @@ function renderBlogArticle(article, relPath = '../', prevArticle = null, nextArt
   const quickAnswerContent = article.quickAnswerContent || `<p>${article.lead}</p>`;
   const quickAnswerCtaText = article.quickAnswerCtaText || 'Planning your travel dates or have questions?';
 
-  // Sections
-  const sections = article.sections || [];
+  // Sections & FAQ Handling
+  const sections = article.sections ? article.sections.map(s => ({ ...s })) : [];
+  let faqSecIndex = sections.findIndex(s => s && s.id && (s.id.toLowerCase().includes('faq') || (s.h2 && s.h2.toLowerCase().includes('frequently'))));
+
+  let faqHeading = 'Frequently Asked Questions';
+  let faqSectionId = 'frequently-asked-questions';
+
+  if (faqSecIndex !== -1) {
+    const rawH2 = sections[faqSecIndex].h2 || '';
+    const cleaned = rawH2.replace(/^\d+[\.\:\s\-]+/, '').trim();
+    if (cleaned) {
+      faqHeading = cleaned.toLowerCase().includes('frequently asked') ? cleaned : `Frequently Asked Questions: ${cleaned}`;
+    }
+    faqSectionId = sections[faqSecIndex].id || 'frequently-asked-questions';
+  } else if (article.faqs && article.faqs.length > 0) {
+    faqSecIndex = sections.length;
+    sections.push({
+      id: faqSectionId,
+      h2: faqHeading,
+      content: ''
+    });
+  }
 
   // TOC entries
-  const desktopTocHtml = sections.map((sec, i) => `
-    <li><a href="#${sec.id}" class="toc-link"><span class="toc-num">${(i + 1).toString().padStart(2, '0')}</span><span>${sec.h2}</span></a></li>
-  `).join('');
+  const desktopTocHtml = sections.map((sec, i) => {
+    const title = (i === faqSecIndex) ? faqHeading : sec.h2;
+    return `
+    <li><a href="#${sec.id}" class="toc-link"><span class="toc-num">${(i + 1).toString().padStart(2, '0')}</span><span>${title}</span></a></li>
+  `;
+  }).join('');
 
-  const mobileTocHtml = sections.map((sec, i) => `
-    <li><a href="#${sec.id}" class="toc-link"><span class="toc-num">${(i + 1).toString().padStart(2, '0')}.</span> ${sec.h2}</a></li>
-  `).join('');
+  const mobileTocHtml = sections.map((sec, i) => {
+    const title = (i === faqSecIndex) ? faqHeading : sec.h2;
+    return `
+    <li><a href="#${sec.id}" class="toc-link"><span class="toc-num">${(i + 1).toString().padStart(2, '0')}.</span> ${title}</a></li>
+  `;
+  }).join('');
 
   // Section Body
-  const sectionsHtml = sections.map(sec => `
+  const sectionsHtml = sections.map((sec, i) => {
+    if (i === faqSecIndex) {
+      return buildCategorizedFaqSection(article, sec.id, faqHeading);
+    }
+
+    let content = sec.content || '';
+    if (relPath === '../../') {
+      content = content.replace(/\.\.\/(images|trek|tour|blog|team|js|index\.css|index\.html|blogs\.html|nepal-)/g, '../../$1');
+      const slugs = getBlogSlugsSet();
+      content = content.replace(/\.\.\/([a-z0-9\-]+)\/([#"'>\s])/g, (match, targetSlug, suffix) => {
+        if (slugs.has(targetSlug)) {
+          return `../../blog/${targetSlug}/${suffix}`;
+        }
+        return match;
+      });
+      content = content.replace(/href=["']\/([a-z0-9\-]+)\/?["']/g, (match, targetSlug) => {
+        if (slugs.has(targetSlug)) {
+          return `href="../../blog/${targetSlug}/"`;
+        }
+        return match;
+      });
+    }
+    return `
     <section id="${sec.id}" class="article-section" style="margin-bottom: 48px;">
       <h2>${sec.h2}</h2>
-      ${sec.content}
+      ${content}
     </section>
-  `).join('');
+  `;
+  }).join('');
 
   // Related Articles
   const related = article.relatedArticles && article.relatedArticles.length === 3 ? article.relatedArticles : [
@@ -102,21 +333,32 @@ function renderBlogArticle(article, relPath = '../', prevArticle = null, nextArt
     }
   ];
 
-  const relatedArticlesHtml = related.map(item => `
-    <a href="${item.url}" class="related-article-card">
-      <img src="${item.img}" alt="${item.title}" class="related-article-thumb" width="600" height="400" loading="lazy" decoding="async">
+  const relatedArticlesHtml = related.map(item => {
+    let itemUrl = item.url || '#';
+    let itemImg = item.img || '';
+    if (relPath === '../../') {
+      itemUrl = itemUrl.replace(/^\.\.\/(images|trek|tour|blog|team)/, '../../$1');
+      itemImg = itemImg.replace(/^\.\.\/(images|trek|tour|blog|team)/, '../../$1');
+      if (itemUrl.startsWith('../') && !itemUrl.startsWith('../../')) {
+        itemUrl = itemUrl.replace(/^\.\.\//, '../../blog/');
+      }
+    }
+    return `
+    <a href="${itemUrl}" class="related-article-card">
+      <img src="${itemImg}" alt="${item.title}" class="related-article-thumb" width="600" height="400" loading="lazy" decoding="async">
       <div class="related-article-content">
         <span class="related-article-category">${item.category}</span>
         <h3 class="related-article-title">${item.title}</h3>
         <p class="related-article-excerpt">${item.excerpt}</p>
         <div class="related-article-meta">
-          <span>By Ang Tshering Sherpa</span>
+          <span>By Surya Lama</span>
           <span>•</span>
           <span>${item.readTime || '15 min read'}</span>
         </div>
       </div>
     </a>
-  `).join('');
+  `;
+  }).join('');
 
   // Structured Data Schema Graphs
   const schemaGraphs = [
@@ -134,10 +376,10 @@ function renderBlogArticle(article, relPath = '../', prevArticle = null, nextArt
       "dateModified": `${updatedDateAttr}T08:00:00+05:45`,
       "author": {
         "@type": "Person",
-        "name": "Ang Tshering Sherpa",
-        "jobTitle": "Founder & Managing Director · 5x Everest Summitter",
-        "url": "https://igloohimalayatreks.com/team/ang-tshering-sherpa.html",
-        "image": "https://igloohimalayatreks.com/images/sonam-dorji-sherpa-climbing-guide-in-nepal.webp"
+        "name": "Surya Lama",
+        "jobTitle": "Founder & Managing Director · 20+ Years Guiding",
+        "url": "https://igloohimalayatreks.com/team/surya-lama.html",
+        "image": "https://igloohimalayatreks.com/images/surya-lama.webp"
       },
       "publisher": {
         "@type": "Organization",
@@ -182,11 +424,16 @@ function renderBlogArticle(article, relPath = '../', prevArticle = null, nextArt
   ];
 
   // Optional FAQ schema
-  if (article.faqs && article.faqs.length > 0) {
+  const normalizedFaqs = (article.faqs || []).map(faq => ({
+    q: (faq.q || faq.question || '').trim(),
+    a: (faq.a || faq.answer || '').trim()
+  })).filter(faq => faq.q && faq.a);
+
+  if (normalizedFaqs.length > 0) {
     schemaGraphs.push({
       "@type": "FAQPage",
       "@id": `${canonicalUrl}#faq`,
-      "mainEntity": article.faqs.map(faq => ({
+      "mainEntity": normalizedFaqs.map(faq => ({
         "@type": "Question",
         "name": faq.q,
         "acceptedAnswer": {
@@ -226,7 +473,7 @@ function renderBlogArticle(article, relPath = '../', prevArticle = null, nextArt
   <meta property="article:published_time" content="${publishedDateAttr}T08:00:00+05:45">
   <meta property="article:modified_time" content="${updatedDateAttr}T08:00:00+05:45">
   <meta property="article:section" content="${article.category}">
-  <meta property="article:author" content="https://igloohimalayatreks.com/team/ang-tshering-sherpa.html">
+  <meta property="article:author" content="https://igloohimalayatreks.com/team/surya-lama.html">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
@@ -238,7 +485,7 @@ function renderBlogArticle(article, relPath = '../', prevArticle = null, nextArt
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap">
-  <link rel="stylesheet" href="${relPath}index.css?v=43">
+  <link rel="stylesheet" href="${relPath}index.css?v=37">
 
   <!-- JSON-LD Structured Data: BlogPosting, BreadcrumbList & FAQPage -->
   <script type="application/ld+json">
@@ -282,11 +529,11 @@ function renderBlogArticle(article, relPath = '../', prevArticle = null, nextArt
         <!-- Metadata Bar -->
         <div class="article-meta-bar">
           <div class="article-author-chip">
-            <img src="${relPath}images/sonam-dorji-sherpa-climbing-guide-in-nepal.webp" alt="Ang Tshering Sherpa"
+            <img src="${relPath}images/surya-lama.webp" alt="Surya Lama"
               class="article-author-avatar" width="44" height="44" loading="eager" decoding="async">
             <div class="article-author-info">
-              <a href="${relPath}team/ang-tshering-sherpa.html" class="article-author-name" rel="author">Ang Tshering Sherpa</a>
-              <span class="article-author-title">Founder & Managing Director · 5x Everest Summitter</span>
+              <a href="${relPath}team/surya-lama.html" class="article-author-name" rel="author">Surya Lama</a>
+              <span class="article-author-title">Founder & Managing Director · 20+ Years Guiding</span>
             </div>
           </div>
           <div class="article-meta-dot" aria-hidden="true"></div>
@@ -374,18 +621,18 @@ function renderBlogArticle(article, relPath = '../', prevArticle = null, nextArt
 
           <!-- Author Bio Card -->
           <div class="author-profile-box">
-            <img src="${relPath}images/sonam-dorji-sherpa-climbing-guide-in-nepal.webp" alt="Ang Tshering Sherpa" class="author-profile-avatar" width="90" height="90" loading="lazy">
+            <img src="${relPath}images/surya-lama.webp" alt="Surya Lama" class="author-profile-avatar" width="90" height="90" loading="lazy">
             <div class="author-profile-details">
-              <h3>Ang Tshering Sherpa</h3>
-              <div class="author-profile-role">Founder & Managing Director · 5x Everest Summitter</div>
+              <h3>Surya Lama</h3>
+              <div class="author-profile-role">Founder & Managing Director · 20+ Years Guiding</div>
               <p class="author-profile-bio">
-                Born in the Khumbu and with over 18 years of high-altitude Himalayan expedition leadership, Ang Tshering oversees route safety, Sherpa guide training, and sustainable high-altitude trekking across all major regions of Nepal.
+                With over 20 years of high-altitude Himalayan expedition leadership and 380+ guided trips across Everest, Annapurna, and Manaslu, Surya Lama oversees safety, guide training, and authentic trekking experiences for Igloo Himalaya Treks.
               </p>
               <div class="author-profile-badges">
                 <span class="author-badge">UIAGM / NNMGA Certified</span>
-                <span class="author-badge">Everest 8,848.86m (5x)</span>
-                <span class="author-badge">Khumbu Local</span>
-                <a href="${relPath}team/ang-tshering-sherpa.html" style="font-size: 0.82rem; font-weight: 700; color: var(--color-primary); text-decoration: none; display: inline-flex; align-items: center; margin-left: auto;">View Full Profile →</a>
+                <span class="author-badge">380+ Himalayan Expeditions</span>
+                <span class="author-badge">Dhading Native</span>
+                <a href="${relPath}team/surya-lama.html" style="font-size: 0.82rem; font-weight: 700; color: var(--color-primary); text-decoration: none; display: inline-flex; align-items: center; margin-left: auto;">View Full Profile →</a>
               </div>
             </div>
           </div>
@@ -497,11 +744,11 @@ function renderBlogArticle(article, relPath = '../', prevArticle = null, nextArt
     ${prevArticle && nextArticle ? `
     <nav class="article-pagination-nav" aria-label="Previous and Next Articles" style="padding: 32px 0; background: #FFFFFF; border-top: 1px solid var(--color-neutral-200);">
       <div class="container" style="display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;">
-        <a href="${relPath}${prevArticle.slug}/" class="article-pagination-link prev" style="display: flex; flex-direction: column; text-decoration: none; max-width: 45%;">
+        <a href="${relPath}blog/${prevArticle.slug}/" class="article-pagination-link prev" style="display: flex; flex-direction: column; text-decoration: none; max-width: 45%;">
           <span style="font-size: 0.8rem; font-weight: 700; color: #f97316; text-transform: uppercase; letter-spacing: 0.5px;">← Previous Guide</span>
           <span style="font-size: 1.05rem; font-weight: 700; color: #0e3458; margin-top: 4px; line-height: 1.35;">${prevArticle.breadcrumbTitle || prevArticle.title}</span>
         </a>
-        <a href="${relPath}${nextArticle.slug}/" class="article-pagination-link next" style="display: flex; flex-direction: column; align-items: flex-end; text-align: right; text-decoration: none; max-width: 45%; margin-left: auto;">
+        <a href="${relPath}blog/${nextArticle.slug}/" class="article-pagination-link next" style="display: flex; flex-direction: column; align-items: flex-end; text-align: right; text-decoration: none; max-width: 45%; margin-left: auto;">
           <span style="font-size: 0.8rem; font-weight: 700; color: #f97316; text-transform: uppercase; letter-spacing: 0.5px;">Next Guide →</span>
           <span style="font-size: 1.05rem; font-weight: 700; color: #0e3458; margin-top: 4px; line-height: 1.35;">${nextArticle.breadcrumbTitle || nextArticle.title}</span>
         </a>

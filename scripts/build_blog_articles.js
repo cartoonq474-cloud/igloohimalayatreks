@@ -19,15 +19,22 @@ for (let i = 0; i < articles.length; i++) {
   const nextArticle = articles[(i + 1) % articles.length];
 
   const slug = article.slug.replace(/^\//, '').replace(/\/+$/, '');
-  const dirPath = path.join(ROOT, slug);
-  const filePath = path.join(dirPath, 'index.html');
 
-  if (!fs.existsSync(dirPath)) {
-    fs.mkdirSync(dirPath, { recursive: true });
+  // Canonical blog route: /blog/slug/
+  const blogDirPath = path.join(ROOT, 'blog', slug);
+  const blogFilePath = path.join(blogDirPath, 'index.html');
+  if (!fs.existsSync(blogDirPath)) {
+    fs.mkdirSync(blogDirPath, { recursive: true });
+  }
+  const htmlBlog = renderBlogArticle(article, '../../', prevArticle, nextArticle);
+  fs.writeFileSync(blogFilePath, htmlBlog, 'utf8');
+
+  // Ensure no duplicate root directory exists for this slug
+  const legacyRootDir = path.join(ROOT, slug);
+  if (fs.existsSync(legacyRootDir)) {
+    fs.rmSync(legacyRootDir, { recursive: true, force: true });
   }
 
-  const html = renderBlogArticle(article, '../', prevArticle, nextArticle);
-  fs.writeFileSync(filePath, html, 'utf8');
   count++;
 }
 

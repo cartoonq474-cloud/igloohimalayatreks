@@ -1,41 +1,83 @@
-const { execSync } = require('child_process');
-const path = require('path');
+const { spawn } = require('child_process');
 const fs = require('fs');
 
-const chrome = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+async function run() {
+  const chromePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+  const chrome = spawn(chromePath, [
+    '--headless=new',
+    '--remote-debugging-port=9666',
+    '--disable-gpu',
+    '--window-size=420,800',
+    '--user-data-dir=C:\\Users\\ASUS\\.gemini\\antigravity-ide\\brain\\41f5cfd1-dd97-497f-b601-cb7afa730ae6\\scratch\\chrome-test-profile-screenshot'
+  ]);
 
-const tests = [
-  {
-    name: 'ams_desktop_hero.png',
-    size: '1440,900',
-    url: 'http://localhost:3000/blog/how-to-prevent-altitude-sickness/'
-  },
-  {
-    name: 'ams_desktop_table.png',
-    size: '1440,900',
-    url: 'http://localhost:3000/blog/how-to-prevent-altitude-sickness/#barometric-pressure-hypoxia'
-  },
-  {
-    name: 'ams_desktop_faq.png',
-    size: '1440,900',
-    url: 'http://localhost:3000/blog/how-to-prevent-altitude-sickness/#frequently-asked-questions'
-  },
-  {
-    name: 'ams_mobile_hero.png',
-    size: '375,812',
-    url: 'http://localhost:3000/blog/how-to-prevent-altitude-sickness/'
-  }
-];
+  await new Promise(r => setTimeout(r, 2000));
 
-for (const t of tests) {
-  const outPath = path.resolve(__dirname, t.name);
-  if (fs.existsSync(outPath)) fs.unlinkSync(outPath);
-  console.log(`Capturing ${t.name} (${t.size})...`);
   try {
-    execSync(`"${chrome}" --headless --disable-gpu --window-size=${t.size} --screenshot="${outPath}" ${t.url}`, { stdio: 'inherit' });
-    const ok = fs.existsSync(outPath);
-    console.log(`Result: ${t.name} -> Exists: ${ok}, Size: ${ok ? (fs.statSync(outPath).size / 1024).toFixed(1) + ' KB' : '0'}`);
+    const newTab = await fetch('http://127.0.0.1:9666/json/new?http://localhost:3000/everest-region-treks/index.html', { method: 'PUT' }).then(r => r.json());
+    const wsUrl = newTab.webSocketDebuggerUrl;
+
+    const ws = new WebSocket(wsUrl);
+    let id = 1;
+    const callbacks = new Map();
+
+    ws.onmessage = (msg) => {
+      const data = JSON.parse(msg.data);
+      if (data.id && callbacks.has(data.id)) {
+        callbacks.get(data.id)(data);
+        callbacks.delete(data.id);
+      }
+    };
+
+    await new Promise(r => ws.onopen = r);
+
+    function send(method, params = {}) {
+      return new Promise((resolve) => {
+        const curId = id++;
+        callbacks.set(curId, resolve);
+        ws.send(JSON.stringify({ id: curId, method, params }));
+      });
+    }
+
+    await send('Page.enable');
+    await send('Emulation.setDeviceMetricsOverride', {
+      width: 420,
+      height: 800,
+      deviceScaleFactor: 2,
+      mobile: true
+    });
+
+    await send('Page.navigate', { url: 'http://localhost:3000/everest-region-treks/index.html' });
+    await new Promise(r => setTimeout(r, 2500));
+
+    // Open mobile toggle & Nepal Tours accordion
+    await send('Runtime.evaluate', {
+      expression: `(() => {
+        const toggle = document.querySelector('.mobile-nav-toggle');
+        if (toggle) toggle.click();
+
+        const toursLink = Array.from(document.querySelectorAll('.nav-link')).find(a => a.textContent.includes('Nepal Tours'));
+        const toursItem = toursLink ? toursLink.closest('.nav-item-dropdown') : null;
+        const toursRow = toursItem ? toursItem.querySelector('.nav-link-row') : null;
+        if (toursRow) toursRow.click();
+      })()`
+    });
+
+    await new Promise(r => setTimeout(r, 600));
+
+    // Capture screenshot
+    const shotRes = await send('Page.captureScreenshot', { format: 'png' });
+    const buffer = Buffer.from(shotRes.result.data, 'base64');
+    const outPath = 'C:\\Users\\ASUS\\.gemini\\antigravity-ide\\brain\\41f5cfd1-dd97-497f-b601-cb7afa730ae6\\mobile_nav_fixed.png';
+    fs.writeFileSync(outPath, buffer);
+    console.log('Screenshot saved to:', outPath);
+
+    ws.close();
   } catch (err) {
-    console.error(`Error capturing ${t.name}:`, err.message);
+    console.error('Error taking screenshot:', err);
+  } finally {
+    chrome.kill();
   }
 }
+
+run();

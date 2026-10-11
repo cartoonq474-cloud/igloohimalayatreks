@@ -23,18 +23,16 @@ function determineMenuState(filePath) {
   if (norm.includes('-region-treks') || norm.includes('trekking-regions-nepal')) return 'regions';
   if (norm.includes('travel-guide') || norm.includes('nepal-visa') || norm.includes('equipment-checklist') || norm.includes('travel-insurance') || norm.includes('recommended-medical-kit')) return 'guide';
   if (norm.includes('about.html') || norm.includes('team.html') || norm.includes('careers.html') || norm.includes('reviews.html') || norm.includes('custom-plan.html')) return 'company';
-  if (norm.includes('blogs.html')) return 'blog';
+  if (norm.includes('blogs.html') || norm.includes('blog/')) return 'blog';
   if (norm.includes('contact.html')) return 'contact';
   return '';
 }
 
 function getPrefix(filePath) {
-  const segments = filePath.split(path.sep);
-  const depth = segments.length - 1;
-  if (depth === 0) return '';
-  if (depth === 1) return '../';
-  if (depth === 2) return '../../';
-  return '';
+  const rel = path.relative('.', filePath);
+  const depth = rel.split(path.sep).length - 1;
+  if (depth <= 0) return '';
+  return '../'.repeat(depth);
 }
 
 function updateFileHeader(filePath) {
@@ -62,7 +60,20 @@ function updateFileHeader(filePath) {
     finalBefore = before.substring(0, commentIdx).trimEnd() + '\n\n';
   }
 
-  const updatedContent = finalBefore + newHeader + after;
+  let updatedContent = finalBefore + newHeader + after;
+
+  // Ensure header-scroll.js has ?v=37 cache buster
+  updatedContent = updatedContent.replace(
+    /(<script[^>]*src=["'][^"']*header-scroll\.js)(?:\?[^"']*)?(["'][^>]*><\/script>)/g,
+    '$1?v=37$2'
+  );
+
+  // Ensure index.css has ?v=37 cache buster
+  updatedContent = updatedContent.replace(
+    /(<link[^>]*href=["'][^"']*index\.css)(?:\?[^"']*)?(["'][^>]*>)/g,
+    '$1?v=37$2'
+  );
+
   fs.writeFileSync(filePath, updatedContent, 'utf8');
   return { status: 'updated', path: filePath, prefix, activeMenu };
 }

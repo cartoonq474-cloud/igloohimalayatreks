@@ -805,8 +805,7 @@ function setupHimalayanReviews() {
   const platformCounts = {
     google: '(1,549 Verified Reviews)',
     tripadvisor: '(380 Verified Reviews)',
-    trustpilot: '(250 Verified Reviews)',
-    sourceforge: '(120 Verified Reviews)'
+    trustpilot: '(250 Verified Reviews)'
   };
 
   platformSubTabs.forEach(tab => {

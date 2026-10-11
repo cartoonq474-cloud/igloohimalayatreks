@@ -21,6 +21,7 @@
   "author": "Igloo Himalaya Treks",
   "license": "ISC",
   "devDependencies": {
+    "exceljs": "^4.4.0",
     "sharp": "^0.35.5"
   }
 }

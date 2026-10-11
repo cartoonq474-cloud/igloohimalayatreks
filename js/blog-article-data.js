@@ -21,13 +21,13 @@ export const articleData = {
     caption: "Left: The high glaciated amphitheater of the Khumbu beneath Everest. Right: The sweeping alpine slopes and ancient villages of the Annapurna massif."
   },
   author: {
-    name: "Ang Tshering Sherpa",
-    role: "Founder & Managing Director · 5x Everest Summitter",
-    image: "images/sonam-dorji-sherpa-climbing-guide-in-nepal.webp",
-    profileUrl: "team/ang-tshering-sherpa.html",
-    experience: "25+ Years Guiding",
-    summits: "5x Everest (8,848m)",
-    bio: "Born in Pangboche, Solukhumbu under Ama Dablam, Ang Tshering has led over 50 expeditions across Everest, Annapurna, and Manaslu. He founded Igloo Himalaya Treks to champion 100% ethical porter welfare and uncompromising mountain safety."
+    name: "Surya Lama",
+    role: "Founder & Managing Director · 20+ Years Guiding",
+    image: "images/surya-lama.webp",
+    profileUrl: "team/surya-lama.html",
+    experience: "20+ Years Guiding",
+    summits: "380+ Himalayan Expeditions",
+    bio: "With over 20 years on Himalayan trails and more than 380 expeditions led across Everest, Annapurna, Manaslu, and Mustang, Surya Lama founded Igloo Himalaya Treks to share authentic mountain culture and uncompromising trail safety."
   },
   publishedAt: "2026-10-02T08:00:00+05:45",
   updatedAt: "2026-10-03T14:30:00+05:45",
