@@ -180,6 +180,16 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Canonical URL normalization: redirect any URL with consecutive slashes
+  const [urlPath, queryString] = req.url.split('?');
+  if (/\/{2,}/.test(urlPath)) {
+    const cleanPath = urlPath.replace(/\/{2,}/g, '/');
+    const target = queryString !== undefined ? `${cleanPath}?${queryString}` : cleanPath;
+    res.writeHead(301, { 'Location': target });
+    res.end();
+    return;
+  }
+
   // 301 Permanent Redirects for /trip/ and alias URLs
   const URL_REDIRECTS = {
     '/xmlrpc.php/': '/blogs.html',
@@ -262,10 +272,10 @@ const server = http.createServer((req, res) => {
     '/trip/kailash-mansarovar-yatra': '/blogs.html',
     '/blog/trip/kailash-mansarovar-yatra/': '/blogs.html',
     '/blog/trip/kailash-mansarovar-yatra': '/blogs.html',
-    '/trip/everest-base-camp-trek-16-days/': '/everest-region-treks/',
-    '/trip/everest-base-camp-trek-16-days': '/everest-region-treks/',
-    '/blog/trip/everest-base-camp-trek-16-days/': '/everest-region-treks/',
-    '/blog/trip/everest-base-camp-trek-16-days': '/everest-region-treks/',
+    '/trip/everest-base-camp-trek-16-days/': '/trek/everest-base-camp-trek-16-days/',
+    '/trip/everest-base-camp-trek-16-days': '/trek/everest-base-camp-trek-16-days/',
+    '/blog/trip/everest-base-camp-trek-16-days/': '/trek/everest-base-camp-trek-16-days/',
+    '/blog/trip/everest-base-camp-trek-16-days': '/trek/everest-base-camp-trek-16-days/',
     '/trip/9-nights-bhutan-tour/': '/blogs.html',
     '/trip/9-nights-bhutan-tour': '/blogs.html',
     '/blog/trip/9-nights-bhutan-tour/': '/blogs.html',
@@ -905,16 +915,46 @@ const server = http.createServer((req, res) => {
     '/short-annapurna-base-camp-trek-difficulty': '/blog/short-annapurna-base-camp-trek-difficulty/',
     '/annapurna-base-camp-trek-in-february/': '/blog/annapurna-base-camp-trek-in-february/',
     '/annapurna-base-camp-trek-in-february': '/blog/annapurna-base-camp-trek-in-february/',
+    '/annapurna-base-camp-trek-Via-Poon-Hill': '/trek/annapurna-base-camp-trek-via-poon-hill/',
+    '/annapurna-base-camp-trek-Via-Poon-Hill/': '/trek/annapurna-base-camp-trek-via-poon-hill/',
+    '/annapurna-base-camp-trek-via-poon-hill': '/trek/annapurna-base-camp-trek-via-poon-hill/',
+    '/annapurna-base-camp-trek-via-poon-hill/': '/trek/annapurna-base-camp-trek-via-poon-hill/',
+    '/trek/annapurna-base-camp-trek-Via-Poon-Hill': '/trek/annapurna-base-camp-trek-via-poon-hill/',
+    '/trek/annapurna-base-camp-trek-Via-Poon-Hill/': '/trek/annapurna-base-camp-trek-via-poon-hill/',
+    '/trek/poon-hill-abc-trek': '/trek/annapurna-base-camp-trek-via-poon-hill/',
+    '/trek/poon-hill-abc-trek/': '/trek/annapurna-base-camp-trek-via-poon-hill/',
+    '/trip/poon-hill-abc-trek': '/trek/annapurna-base-camp-trek-via-poon-hill/',
+    '/trip/poon-hill-abc-trek/': '/trek/annapurna-base-camp-trek-via-poon-hill/',
+    '/trip/annapurna-base-camp-trek-via-poon-hill': '/trek/annapurna-base-camp-trek-via-poon-hill/',
+    '/trip/annapurna-base-camp-trek-via-poon-hill/': '/trek/annapurna-base-camp-trek-via-poon-hill/',
     '/trip/annapurna-base-camp-helicopter-return-trek': '/trek/annapurna-base-camp-heli-return/',
     '/trip/annapurna-base-camp-trek-heli-return': '/trek/annapurna-base-camp-heli-return/',
     '/trek/annapurna-base-camp-helicopter-return-trek': '/trek/annapurna-base-camp-heli-return/',
     '/trek/annapurna-base-camp-helicopter-return-trek/': '/trek/annapurna-base-camp-heli-return/',
     '/trip/annapurna-base-camp-trek': '/trek/annapurna-base-camp/',
     '/trek/annapurna-base-camp-trek': '/trek/annapurna-base-camp/',
-    '/trek/annapurna-base-camp/': '/trek/annapurna-base-camp/',
     '/trip/annapurna-circuit-trek': '/trek/annapurna-circuit-trek/',
-    '/trip/classic-annapurna-circuit-trek': '/trek/annapurna-circuit-trek/',
-    '/trip/annapurna-circuit-with-tilicho-lake': '/trek/tilicho-lake-trek/',
+    '/trip/classic-annapurna-circuit-trek': '/trek/classic-annapurna-circuit-trek/',
+    '/trip/classic-annapurna-circuit-trek/': '/trek/classic-annapurna-circuit-trek/',
+    '/trek/classic-annapurna-circuit-trek': '/trek/classic-annapurna-circuit-trek/',
+    '/classic-annapurna-circuit-trek': '/trek/classic-annapurna-circuit-trek/',
+    '/classic-annapurna-circuit-trek/': '/trek/classic-annapurna-circuit-trek/',
+    '/trek/annapurna-sanctuary-trek': '/trek/classic-annapurna-circuit-trek/',
+    '/trek/annapurna-sanctuary-trek/': '/trek/classic-annapurna-circuit-trek/',
+    '/annapurna-sanctuary-trek': '/trek/classic-annapurna-circuit-trek/',
+    '/annapurna-sanctuary-trek/': '/trek/classic-annapurna-circuit-trek/',
+    '/trip/annapurna-sanctuary-trek': '/trek/classic-annapurna-circuit-trek/',
+    '/trip/annapurna-sanctuary-trek/': '/trek/classic-annapurna-circuit-trek/',
+    '/trip/annapurna-circuit-with-tilicho-lake': '/trek/annapurna-circuit-with-tilicho-lake/',
+    '/trip/annapurna-circuit-with-tilicho-lake/': '/trek/annapurna-circuit-with-tilicho-lake/',
+    '/annapurna-circuit-with-tilicho-lake': '/trek/annapurna-circuit-with-tilicho-lake/',
+    '/annapurna-circuit-with-tilicho-lake/': '/trek/annapurna-circuit-with-tilicho-lake/',
+    '/tilicho-lake-trek': '/trek/annapurna-circuit-with-tilicho-lake/',
+    '/tilicho-lake-trek/': '/trek/annapurna-circuit-with-tilicho-lake/',
+    '/trek/tilicho-lake-trek': '/trek/annapurna-circuit-with-tilicho-lake/',
+    '/trek/tilicho-lake-trek/': '/trek/annapurna-circuit-with-tilicho-lake/',
+    '/trip/tilicho-lake-trek': '/trek/annapurna-circuit-with-tilicho-lake/',
+    '/trip/tilicho-lake-trek/': '/trek/annapurna-circuit-with-tilicho-lake/',
     '/trip/ghorepani-poon-hill-trek': '/trek/ghorepani-poon-hill-trek/',
     '/trip/ghorepani-poonhill-ghandruk-trek': '/trek/ghorepani-poon-hill-trek/',
     '/trip/mardi-himal-trek': '/trek/mardi-himal-trek/',
@@ -922,7 +962,17 @@ const server = http.createServer((req, res) => {
     '/trip/panchase-trek': '/trek/panchase-trek/',
     '/trip/annapurna-scenic-trek': '/trek/panchase-trek/',
     '/trip/short-annapurna-base-camp-trek': '/trek/short-annapurna-base-camp-trek/',
-    '/trip/annapurna-short-trek': '/trek/annapurna-short-trek/',
+    '/trip/annapurna-short-trek': '/trek/annapurna-view-trek/',
+    '/trip/annapurna-short-trek/': '/trek/annapurna-view-trek/',
+    '/trek/annapurna-short-trek': '/trek/annapurna-view-trek/',
+    '/trek/annapurna-short-trek/': '/trek/annapurna-view-trek/',
+    '/annapurna-short-trek': '/trek/annapurna-view-trek/',
+    '/annapurna-short-trek/': '/trek/annapurna-view-trek/',
+    '/trip/annapurna-view-trek': '/trek/annapurna-view-trek/',
+    '/trip/annapurna-view-trek/': '/trek/annapurna-view-trek/',
+    '/trek/annapurna-view-trek': '/trek/annapurna-view-trek/',
+    '/annapurna-view-trek': '/trek/annapurna-view-trek/',
+    '/annapurna-view-trek/': '/trek/annapurna-view-trek/',
     '/trip/ghorepani-poon-hill-with-mardi-himal-trek': '/trek/ghorepani-poon-hill-with-mardi-himal-trek/',
     '/trip/abc-with-mardi-himal-trek': '/trek/abc-with-mardi-himal-trek/',
     '/trip/annapurna-luxury-trek': '/trek/annapurna-luxury-trek/',
@@ -948,14 +998,27 @@ const server = http.createServer((req, res) => {
     '/trip/gokyo-lakes-luxury-trek': '/trek/gokyo-lakes-luxury-trek/',
     '/trip/everest-chola-and-renjo-la-pass-trek': '/trek/everest-three-passes-trek/',
     '/trip/gokyo-lake-with-renjo-la-pass-trek': '/trek/gokyo-lakes-trek/',
-    '/trip/ebc-chola-pass-gokyo-trek': '/trek/everest-base-camp-via-gokyo-lakes/',
+    '/trip/ebc-chola-pass-gokyo-trek': '/trek/ebc-chola-pass-gokyo-trek/',
+    '/trip/ebc-chola-pass-gokyo-trek/': '/trek/ebc-chola-pass-gokyo-trek/',
+    '/trek/ebc-chola-pass-gokyo-trek': '/trek/ebc-chola-pass-gokyo-trek/',
+    '/ebc-chola-pass-gokyo-trek': '/trek/ebc-chola-pass-gokyo-trek/',
+    '/ebc-chola-pass-gokyo-trek/': '/trek/ebc-chola-pass-gokyo-trek/',
+    '/trek/gokyo-lakes-and-cho-la-pass': '/trek/ebc-chola-pass-gokyo-trek/',
+    '/trek/gokyo-lakes-and-cho-la-pass/': '/trek/ebc-chola-pass-gokyo-trek/',
+    '/gokyo-lakes-and-cho-la-pass': '/trek/ebc-chola-pass-gokyo-trek/',
+    '/gokyo-lakes-and-cho-la-pass/': '/trek/ebc-chola-pass-gokyo-trek/',
+    '/trip/gokyo-lakes-and-cho-la-pass': '/trek/ebc-chola-pass-gokyo-trek/',
+    '/trip/gokyo-lakes-and-cho-la-pass/': '/trek/ebc-chola-pass-gokyo-trek/',
     '/trip/everest-view-trek': '/trek/everest-view-trek/',
     '/trip/lobuche-peak-climbing': '/trek/lobuche-peak-climbing/',
     '/trip/island-peak-climbing': '/trek/island-peak-climbing/',
     '/trip/mera-peak-climbing': '/trek/mera-peak-climbing/',
     '/trip/gokyo-lake-trek-with-helicopter-return': '/trek/gokyo-lake-trek-with-helicopter-return/',
     '/trip/everest-base-camp-with-island-peak-climb': '/trek/island-peak-climbing/',
-    '/trip/everest-base-camp-16-days': '/trek/everest-base-camp-trek/',
+    '/trip/everest-base-camp-16-days': '/trek/everest-base-camp-trek-16-days/',
+    '/trip/everest-base-camp-16-days/': '/trek/everest-base-camp-trek-16-days/',
+    '/everest-base-camp-trek-16-days': '/trek/everest-base-camp-trek-16-days/',
+    '/everest-base-camp-trek-16-days/': '/trek/everest-base-camp-trek-16-days/',
     '/trip/everest-three-passes-trek': '/trek/everest-three-passes-trek/',
     '/trip/everest-base-camp-helicopter-tour': '/tour/everest-base-camp-helicopter-tour/',
     // Direct /trek/ and /tour/ alias redirects
@@ -970,12 +1033,22 @@ const server = http.createServer((req, res) => {
     '/tour/gokyo-lake-helicopter-tour': '/tour/everest-base-camp-helicopter-tour/',
     // Langtang & Helambu /trip/ and alias redirects
     '/trip/tamang-heritage-trail-with-langtang-valley-trek': '/trek/tamang-heritage-trail-with-langtang-valley-trek/',
-    '/trip/langtang-valley-with-gosaikunda-pass-trek': '/trek/langtang-gosaikunda-trek/',
+    '/trip/langtang-valley-with-gosaikunda-pass-trek': '/trek/gosaikunda-trek/',
     '/trip/langtang-valley-trek': '/trek/langtang-valley-trek/',
     '/trip/tamang-heritage-trail': '/trek/tamang-heritage-trail-trek/',
     '/trip/yala-peak-climbing': '/trek/yala-peak-climbing/',
     '/trip/langtang-gosaikunda-helambu-trek': '/trek/langtang-gosaikunda-helambu-trek/',
-    '/trip/gosaikunda-trek': '/trek/gosaikunda-lake-trek/',
+    '/trip/gosaikunda-trek': '/trek/gosaikunda-trek/',
+    '/trip/gosaikunda-trek/': '/trek/gosaikunda-trek/',
+    '/trek/gosaikunda-trek': '/trek/gosaikunda-trek/',
+    '/gosaikunda-trek': '/trek/gosaikunda-trek/',
+    '/gosaikunda-trek/': '/trek/gosaikunda-trek/',
+    '/trek/langtang-gosaikunda-trek': '/trek/gosaikunda-trek/',
+    '/trek/langtang-gosaikunda-trek/': '/trek/gosaikunda-trek/',
+    '/langtang-gosaikunda-trek': '/trek/gosaikunda-trek/',
+    '/langtang-gosaikunda-trek/': '/trek/gosaikunda-trek/',
+    '/trip/langtang-gosaikunda-trek': '/trek/gosaikunda-trek/',
+    '/trip/langtang-gosaikunda-trek/': '/trek/gosaikunda-trek/',
     '/trip/tamang-heritage-trail-langtang-valley': '/trek/tamang-heritage-trail-with-langtang-valley-trek/',
     // Direct Langtang /trek/ alias redirects
     '/trek/tamang-heritage-trail': '/trek/tamang-heritage-trail-trek/',
@@ -1085,10 +1158,12 @@ const server = http.createServer((req, res) => {
     '/activities/rafting': '/tour/one-day-kathmandu-city-tour/',
     '/activities/rafting/': '/tour/one-day-kathmandu-city-tour/',
   };
-const cleanReqUrl = req.url.split('?')[0].replace(/\/+$/, '');
+  const rawUrlPath = req.url.split('?')[0];
+  const cleanReqUrl = rawUrlPath.replace(/\/+$/, '');
   const cleanReqUrlWithSlash = cleanReqUrl + '/';
-  const targetRedirect = URL_REDIRECTS[req.url] || URL_REDIRECTS[cleanReqUrl] || URL_REDIRECTS[cleanReqUrlWithSlash];
-  if (targetRedirect) {
+  const targetRedirect = URL_REDIRECTS[req.url] || URL_REDIRECTS[rawUrlPath] || URL_REDIRECTS[cleanReqUrl] || URL_REDIRECTS[cleanReqUrlWithSlash] || URL_REDIRECTS[cleanReqUrl.toLowerCase()] || URL_REDIRECTS[cleanReqUrlWithSlash.toLowerCase()];
+  
+  if (targetRedirect && targetRedirect !== req.url && targetRedirect !== rawUrlPath) {
     res.writeHead(301, { 'Location': targetRedirect });
     res.end();
     return;
@@ -1097,6 +1172,24 @@ const cleanReqUrl = req.url.split('?')[0].replace(/\/+$/, '');
   const filePath = resolveFilePath(req.url);
 
   if (!filePath) {
+    // Fallback: If a static asset (CSS, JS, image) was requested under a subpath prefix (e.g. /trek/index.css or /trek/images/...)
+    const assetBasename = path.basename(rawUrlPath);
+    const rootAssetPath = path.join(ROOT, assetBasename);
+    if (['.css', '.js', '.png', '.jpg', '.jpeg', '.webp', '.svg', '.ico'].includes(path.extname(assetBasename).toLowerCase()) && fs.existsSync(rootAssetPath) && fs.statSync(rootAssetPath).isFile()) {
+      res.writeHead(301, { 'Location': '/' + assetBasename });
+      res.end();
+      return;
+    }
+    if (rawUrlPath.includes('/images/')) {
+      const imgRelative = rawUrlPath.slice(rawUrlPath.indexOf('/images/'));
+      const imgDiskPath = path.join(ROOT, imgRelative);
+      if (fs.existsSync(imgDiskPath) && fs.statSync(imgDiskPath).isFile()) {
+        res.writeHead(301, { 'Location': imgRelative });
+        res.end();
+        return;
+      }
+    }
+
     res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
     res.end(`
       <!DOCTYPE html>

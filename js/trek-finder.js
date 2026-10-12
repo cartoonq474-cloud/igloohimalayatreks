@@ -69,14 +69,14 @@ export const sampleTreks = [
   },
   {
     id: "gokyo-lakes",
-    slug: "gokyo-lakes-and-cho-la-pass",
-    title: "Gokyo Lakes & Cho La Pass Trek",
+    slug: "ebc-chola-pass-gokyo-trek",
+    title: "EBC Chola Pass Gokyo Trek",
     region: "everest",
     subregion: "Solukhumbu, Everest Region",
-    durationDays: 16,
+    durationDays: 17,
     difficulty: "challenging",
     maxAltitudeM: 5360,
-    basePriceUSD: 1490,
+    basePriceUSD: 1355,
     summary: "Breathtaking turquoise high-altitude lakes, Ngozumpa glacier, and technical Cho La pass crossing.",
     bestSeason: ["spring", "autumn"],
     image: "images/gokyo-lake-trek.webp",
@@ -146,7 +146,7 @@ export function initTrekFinder(containerId, treks = sampleTreks) {
         <div class="exotic-card-content">
           <div>
             <div class="peak-stars-row">
-              <span class="stars-gold">★★★★★</span>
+              <span class="stars-gold"><svg class="icon-svg icon-star" width="13" height="13" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="13" height="13" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="13" height="13" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="13" height="13" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="13" height="13" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
               <span class="rating-count-text">(${t.reviews} Reviews)</span>
             </div>
             <h3 class="exotic-card-title">${t.title}</h3>

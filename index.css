@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap');
+@import url('footer.css');
 
 /* ==========================================================================
    Igloo Himalaya Treks — Core Design System & Utility Framework
@@ -54,6 +55,7 @@
   --color-copper-orange: var(--color-adventure-orange);
   --color-copper-hover: var(--color-adventure-orange-hover);
   --color-copper-glow: var(--color-adventure-orange-glow);
+  --color-primary-copper: var(--color-adventure-orange);
 
   --color-neutral-900: var(--color-deep-navy);
   --color-neutral-800: var(--color-charcoal-navy);
@@ -1185,10 +1187,16 @@ textarea {
   letter-spacing: 0.05em;
 }
 
-.pill-copper,
+.pill-copper {
+  background-color: rgba(246, 133, 31, 0.14);
+  color: #F6851F;
+  border: 1px solid rgba(246, 133, 31, 0.32);
+}
+
 .pill-alpine {
   background-color: rgba(26, 150, 200, 0.12);
   color: #1A96C8;
+  border: 1px solid rgba(26, 150, 200, 0.25);
 }
 
 /* Section Header */
@@ -2887,6 +2895,224 @@ textarea {
   background: linear-gradient(135deg, #E07412, #F6851F);
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(246, 133, 31, 0.45);
+}
+
+/* ==========================================================================
+   We're Associated With Section (Accreditations & Affiliations Banner)
+   ========================================================================== */
+
+.associated-section {
+  padding: 30px 0 60px 0;
+  background-color: #FFFFFF;
+}
+
+.associated-title {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #0E3458;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin: 0 0 24px 0;
+}
+
+.associated-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.associated-card {
+  flex: 1 1 100px;
+  max-width: 124px;
+  min-width: 95px;
+  height: 64px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.associated-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(14, 52, 88, 0.09);
+  border-color: #CBD5E1;
+}
+
+.associated-card img {
+  max-height: 42px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.associated-card:hover img {
+  transform: scale(1.04);
+}
+
+@media (max-width: 992px) {
+  .associated-grid {
+    gap: 10px;
+  }
+  .associated-card {
+    flex: 1 1 calc(25% - 10px);
+    max-width: calc(25% - 10px);
+  }
+}
+
+@media (max-width: 576px) {
+  .associated-section {
+    padding: 24px 0 48px 0;
+  }
+  .associated-title {
+    font-size: 1.15rem;
+    margin-bottom: 18px;
+  }
+  .associated-card {
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    height: 58px;
+    padding: 6px 10px;
+  }
+  .associated-card img {
+    max-height: 36px;
+  }
+}
+
+/* ==========================================================================
+   Universal SVG Icon System (Clean, Scalable, Premium Vector Icons)
+   ========================================================================== */
+
+.icon-svg {
+  display: inline-block;
+  vertical-align: -0.15em;
+  flex-shrink: 0;
+  stroke-width: 2;
+  transition: transform 0.2s ease, stroke 0.2s ease;
+}
+
+.icon-svg-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-svg.icon-mountain {
+  color: #1A96C8;
+}
+
+.icon-svg.icon-bolt {
+  color: #F6851F;
+}
+
+.icon-svg.icon-clock {
+  color: #0E3458;
+}
+
+.icon-svg.icon-pin {
+  color: #EF4444;
+}
+
+.icon-svg.icon-sparkle {
+  color: #1A96C8;
+}
+
+.icon-svg.icon-thumbs-up {
+  color: #10B981;
+}
+
+.icon-svg.icon-lightbulb {
+  color: #F59E0B;
+}
+
+.icon-svg.icon-alert {
+  color: #F59E0B;
+}
+
+.icon-svg.icon-search {
+  color: #64748B;
+}
+
+.icon-svg.icon-star {
+  color: #F59E0B;
+  fill: #F59E0B;
+  vertical-align: -0.12em;
+}
+
+.icon-svg.icon-star-empty {
+  color: #CBD5E1;
+  stroke: #CBD5E1;
+  fill: none;
+  vertical-align: -0.12em;
+}
+
+/* Meta chip & pill icon alignment */
+.trek-meta-chip .icon-svg,
+.tour-meta-chip .icon-svg,
+.trek-duration-pill .icon-svg,
+.tour-duration-pill .icon-svg,
+.guide-meta-chip .icon-svg,
+.region-quick-pill .icon-svg {
+  margin-right: 5px;
+}
+
+.category-quick-pill .icon-svg {
+  margin-right: 6px;
+}
+
+/* Star rating rows */
+.stars-gold,
+.rating-stars-gold,
+.platform-stars,
+.matrix-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.stars-gold .icon-svg,
+.rating-stars-gold .icon-svg,
+.platform-stars .icon-svg,
+.matrix-stars .icon-svg {
+  margin-right: 0;
+}
+
+/* Helpful review buttons */
+.helpful-btn .icon-svg {
+  margin-right: 5px;
+}
+
+/* Callout icon container */
+.callout-icon .icon-svg {
+  vertical-align: middle;
+}
+
+/* Qualification badge icons */
+.team-qual-badge-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(26, 150, 200, 0.1);
+  color: #1A96C8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 /* ==========================================================================
@@ -9537,10 +9763,17 @@ textarea {
   gap: 28px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
+  .yml-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 640px) {
   .yml-cards-grid {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 20px;
   }
 }
 
@@ -9548,42 +9781,53 @@ textarea {
 .yml-card {
   display: flex;
   flex-direction: column;
-  border-radius: 18px;
+  border-radius: 20px;
   overflow: hidden;
   background: #ffffff;
+  border: 1px solid #E2E8F0;
   text-decoration: none;
   color: inherit;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.06);
+  position: relative;
+  height: 100%;
 }
 
 .yml-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(14, 52, 88, 0.14);
+  border-color: rgba(26, 150, 200, 0.45);
+}
+
+.yml-card:hover .yml-card-title {
+  color: #1A96C8;
 }
 
 /* Card Image Container */
 .yml-card-image {
   position: relative;
-  height: 260px;
+  height: 220px;
   overflow: hidden;
+  background-color: #0F172A;
+  flex-shrink: 0;
 }
 
 .yml-card-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.4s ease;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .yml-card:hover .yml-card-image img {
-  transform: scale(1.06);
+  transform: scale(1.08);
 }
 
 .yml-card-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.55) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 100%);
   pointer-events: none;
 }
 
@@ -9592,39 +9836,104 @@ textarea {
   position: absolute;
   top: 14px;
   left: 14px;
-  background: rgba(0, 0, 0, 0.55);
+  background: linear-gradient(135deg, rgba(14, 52, 88, 0.92) 0%, rgba(26, 150, 200, 0.92) 100%);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   color: #ffffff;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 700;
-  padding: 6px 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 5px 12px;
   border-radius: 9999px;
-  letter-spacing: 0.3px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 12px rgba(14, 52, 88, 0.35);
+  z-index: 2;
   display: inline-flex;
   align-items: center;
   gap: 5px;
 }
 
-.yml-badge-duration {
-  background: rgba(255, 255, 255, 0.2);
+.yml-badge-duration,
+.yml-card-badge-right {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 /* Card Body */
 .yml-card-body {
-  padding: 18px 20px 20px 20px;
+  padding: 22px 22px 20px 22px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
   flex: 1;
+  background: #ffffff;
 }
 
 .yml-card-title {
-  font-size: 1.2rem;
-  font-weight: 800;
-  color: var(--color-primary-navy);
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #071D36;
   margin: 0;
-  line-height: 1.3;
+  line-height: 1.35;
+  transition: color 0.2s ease;
+  min-height: 2.7em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.yml-card-desc {
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 0.88rem;
+  color: #64748B;
+  line-height: 1.55;
+  margin: 0;
+  min-height: 2.8em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Meta stats chips */
+.yml-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 4px 0;
+}
+
+.yml-meta-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #F8FAFC;
+  color: #334155;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 8px;
+  border: 1px solid #E2E8F0;
 }
 
 /* Rating */
@@ -9632,18 +9941,17 @@ textarea {
   display: flex;
   align-items: center;
   gap: 6px;
-  flex-wrap: wrap;
 }
 
 .yml-stars {
-  color: #f59e0b;
-  font-size: 0.85rem;
-  letter-spacing: 1px;
+  display: inline-flex;
+  gap: 2px;
+  color: #1A96C8;
 }
 
 .yml-rating-text {
   font-size: 0.82rem;
-  color: var(--color-neutral-500);
+  color: #64748B;
   font-weight: 600;
 }
 
@@ -9659,52 +9967,68 @@ textarea {
   align-items: center;
   justify-content: space-between;
   margin-top: auto;
-  padding-top: 8px;
+  padding-top: 16px;
+  border-top: 1px solid #E2E8F0;
   gap: 12px;
 }
 
-.yml-card-price {
+.yml-card-price,
+.yml-price-from {
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
 
 .yml-price-label {
-  font-size: 0.75rem;
-  color: var(--color-neutral-500);
-  font-weight: 500;
-}
-
-.yml-price-value {
-  font-size: 0.95rem;
-  color: var(--color-primary-navy);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748B;
   font-weight: 600;
 }
 
-.yml-price-value strong {
-  font-size: 1.5rem;
+.yml-price-value,
+.yml-price-from {
+  font-family: var(--font-heading, 'Outfit', sans-serif);
+  font-size: 1.3rem;
+  color: #071D36;
   font-weight: 800;
+  line-height: 1.1;
+}
+
+.yml-price-value strong,
+.yml-price-from strong {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #071D36;
 }
 
 /* View Trip Button */
-.yml-view-trip-btn {
+.yml-view-trip-btn,
+.yml-explore-link {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  background: var(--color-primary-navy);
-  color: #ffffff;
-  padding: 8px 18px;
+  justify-content: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #F6851F 0%, #F9AF6D 100%);
+  color: #FFFFFF !important;
+  padding: 9px 18px;
   border-radius: 9999px;
+  font-family: var(--font-heading, 'Outfit', sans-serif);
   font-weight: 700;
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   white-space: nowrap;
-  transition: all 0.2s ease;
+  text-decoration: none !important;
+  box-shadow: 0 4px 14px rgba(246, 133, 31, 0.35);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   flex-shrink: 0;
 }
 
-.yml-card:hover .yml-view-trip-btn {
-  background: #F6851F;
-  box-shadow: 0 4px 12px rgba(246, 133, 31, 0.35);
+.yml-card:hover .yml-view-trip-btn,
+.yml-card:hover .yml-explore-link {
+  background: linear-gradient(135deg, #e5730b 0%, #f6851f 100%);
+  box-shadow: 0 6px 18px rgba(246, 133, 31, 0.5);
+  transform: translateX(3px);
 }
 
 @media (min-width: 1025px) {

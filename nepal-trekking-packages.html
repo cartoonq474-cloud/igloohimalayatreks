@@ -30,6 +30,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap">
   <link rel="stylesheet" href="index.css?v=37">
+  <link rel="stylesheet" href="footer.css?v=1">
 
   <!-- Dedicated Nepal Trekking Packages Catalog Stylesheet -->
   <!-- Dedicated Nepal Trekking Packages Catalog Stylesheet -->
@@ -119,15 +120,15 @@
       box-shadow: 0 0 0 3px rgba(26, 150, 200, 0.35);
     }
     .region-quick-pill.active {
-      background: #071D36 !important;
+      background: #0E3458 !important;
       color: #FFFFFF !important;
-      border-color: #071D36 !important;
-      box-shadow: 0 4px 14px rgba(7, 29, 54, 0.28) !important;
+      border-color: #1A96C8 !important;
+      box-shadow: 0 4px 14px rgba(14, 52, 88, 0.35) !important;
       transform: translateY(-1px);
     }
     .region-quick-pill.active:hover {
-      background: #0D2847 !important;
-      border-color: #0D2847 !important;
+      background: #164B7C !important;
+      border-color: #1A96C8 !important;
     }
     @media (max-width: 768px) {
       .region-pills-wrap {
@@ -246,8 +247,9 @@
       width: 100%;
     }
     .btn-reset-filters:hover {
-      background: rgba(255, 255, 255, 0.22);
-      border-color: #FFFFFF;
+      background: rgba(246, 133, 31, 0.22);
+      border-color: #F6851F;
+      color: #FFFFFF;
     }
     .catalog-results-header {
       display: flex;
@@ -297,7 +299,10 @@
     .card.trek-item:hover {
       transform: translateY(-6px) !important;
       box-shadow: 0 16px 36px rgba(14, 52, 88, 0.15) !important;
-      border-color: rgba(26, 150, 200, 0.4) !important;
+      border-color: rgba(26, 150, 200, 0.45) !important;
+    }
+    .card.trek-item:hover .trek-item-title {
+      color: #1A96C8 !important;
     }
     .trek-item-media {
       position: relative !important;
@@ -334,11 +339,12 @@
       letter-spacing: 0.04em !important;
       text-transform: uppercase !important;
       color: #FFFFFF !important;
+      background: linear-gradient(135deg, rgba(14, 52, 88, 0.92) 0%, rgba(26, 150, 200, 0.92) 100%) !important;
       padding: 5px 12px !important;
       border-radius: 9999px !important;
       backdrop-filter: blur(8px) !important;
       -webkit-backdrop-filter: blur(8px) !important;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+      box-shadow: 0 4px 12px rgba(14, 52, 88, 0.35) !important;
       border: 1px solid rgba(255, 255, 255, 0.25) !important;
     }
     .trek-duration-pill {
@@ -382,6 +388,7 @@
       min-height: 2.7em !important;
       display: -webkit-box !important;
       -webkit-line-clamp: 2 !important;
+      line-clamp: 2 !important;
       -webkit-box-orient: vertical !important;
       overflow: hidden !important;
     }
@@ -394,6 +401,7 @@
       min-height: 2.8em !important;
       display: -webkit-box !important;
       -webkit-line-clamp: 2 !important;
+      line-clamp: 2 !important;
       -webkit-box-orient: vertical !important;
       overflow: hidden !important;
     }
@@ -446,22 +454,25 @@
       display: inline-flex !important;
       align-items: center !important;
       justify-content: center !important;
-      background-color: #E05A47 !important;
+      gap: 6px !important;
+      background: linear-gradient(135deg, #F6851F 0%, #F9AF6D 100%) !important;
       color: #FFFFFF !important;
-      font-weight: 600 !important;
+      font-family: 'Outfit', sans-serif !important;
+      font-weight: 700 !important;
       font-size: 0.88rem !important;
       padding: 9px 18px !important;
-      border-radius: 8px !important;
+      border-radius: 10px !important;
       text-decoration: none !important;
       white-space: nowrap !important;
       flex-shrink: 0 !important;
-      transition: all 0.2s ease !important;
-      box-shadow: 0 4px 12px rgba(224, 90, 71, 0.25) !important;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      box-shadow: 0 4px 14px rgba(246, 133, 31, 0.35) !important;
     }
     .trek-action-btn:hover {
-      background-color: #C84634 !important;
+      background: linear-gradient(135deg, #E07412 0%, #F6851F 100%) !important;
       transform: translateY(-2px) !important;
-      box-shadow: 0 6px 16px rgba(224, 90, 71, 0.35) !important;
+      box-shadow: 0 6px 20px rgba(246, 133, 31, 0.5) !important;
+      color: #FFFFFF !important;
     }
     .treks-empty-card {
       grid-column: 1 / -1 !important;
@@ -585,7 +596,7 @@
                       <div class="mega-col">
                         <div class="mega-col-title">Short Treks & Highlights</div>
                         <a href="trek/chisapani-nagarkot-trek/" class="mega-trek-link"><span>Chisapani Nagarkot Trek</span> <span class="days-badge">3 DAYS</span></a>
-                        <a href="trek/annapurna-short-trek/" class="mega-trek-link"><span>Annapurna Short Trek</span> <span class="days-badge">8 DAYS</span></a>
+                        <a href="trek/annapurna-view-trek/" class="mega-trek-link"><span>Annapurna View Trek</span> <span class="days-badge">8 DAYS</span></a>
                         <a href="trek/khopra-ridge-trek/" class="mega-trek-link"><span>Khopra Ridge Trek</span> <span class="days-badge">11 DAYS</span></a>
                         <a href="nepal-trekking-packages/" class="mega-trek-link" style="color: #1A96C8; font-weight: 700;"><span>All 60+ Trek Packages →</span> <span class="days-badge">EXPLORE</span></a>
                       </div>
@@ -633,7 +644,7 @@
                         <div class="mega-col-title">Classic Treks</div>
                         <a href="trek/annapurna-base-camp/" class="mega-trek-link"><span>Annapurna Base Camp Trek</span> <span class="days-badge">9 DAYS</span></a>
                         <a href="trek/annapurna-circuit-trek/" class="mega-trek-link"><span>Annapurna Circuit Trek</span> <span class="days-badge">14 DAYS</span></a>
-                        <a href="trek/tilicho-lake-trek/" class="mega-trek-link"><span>Tilicho Lake & Annapurna</span> <span class="days-badge">18 DAYS</span></a>
+                        <a href="trek/annapurna-circuit-with-tilicho-lake/" class="mega-trek-link"><span>Tilicho Lake & Annapurna</span> <span class="days-badge">18 DAYS</span></a>
                         <a href="trek/annapurna-base-camp-heli-return/" class="mega-trek-link"><span>ABC with Heli Return</span> <span class="days-badge">11 DAYS</span></a>
                         <a href="trek/short-annapurna-base-camp-trek/" class="mega-trek-link"><span>Short ABC Trek</span> <span class="days-badge">9 DAYS</span></a>
                       </div>
@@ -642,7 +653,7 @@
                         <a href="trek/ghorepani-poon-hill-trek/" class="mega-trek-link"><span>Ghorepani Poon Hill Trek</span> <span class="days-badge">10 DAYS</span></a>
                         <a href="trek/mardi-himal-trek/" class="mega-trek-link"><span>Mardi Himal Ridge Trek</span> <span class="days-badge">9 DAYS</span></a>
                         <a href="trek/khopra-ridge-trek/" class="mega-trek-link"><span>Khopra Ridge Trek</span> <span class="days-badge">11 DAYS</span></a>
-                        <a href="trek/annapurna-short-trek/" class="mega-trek-link"><span>Annapurna Short Trek</span> <span class="days-badge">8 DAYS</span></a>
+                        <a href="trek/annapurna-view-trek/" class="mega-trek-link"><span>Annapurna View Trek</span> <span class="days-badge">8 DAYS</span></a>
                         <a href="trek/panchase-trek/" class="mega-trek-link"><span>Panchase Scenic Trek</span> <span class="days-badge">8 DAYS</span></a>
                       </div>
                       <div class="mega-col">
@@ -680,7 +691,7 @@
                         <div class="mega-col-title">Valley & Lakes</div>
                         <a href="trek/langtang-valley-trek/" class="mega-trek-link"><span>Langtang Valley Trek</span> <span class="days-badge">10 DAYS</span></a>
                         <a href="trek/gosaikunda-lake-trek/" class="mega-trek-link"><span>Sacred Gosaikunda Lake</span> <span class="days-badge">7 DAYS</span></a>
-                        <a href="trek/langtang-gosaikunda-trek/" class="mega-trek-link"><span>Langtang & Gosaikunda</span> <span class="days-badge">6 DAYS</span></a>
+                        <a href="trek/gosaikunda-trek/" class="mega-trek-link"><span>Gosaikunda Trek</span> <span class="days-badge">6 DAYS</span></a>
                       </div>
                       <div class="mega-col">
                         <div class="mega-col-title">Grand Combos & Traverse</div>
@@ -760,7 +771,7 @@
                         <div class="mega-col-title">Short Himalayan Treks</div>
                         <a href="trek/chisapani-nagarkot-trek/" class="mega-trek-link"><span>Chisapani Nagarkot Trek</span> <span class="days-badge">3 DAYS</span></a>
                         <a href="trek/ghorepani-poon-hill-trek/" class="mega-trek-link"><span>Ghorepani Poon Hill Trek</span> <span class="days-badge">10 DAYS</span></a>
-                        <a href="trek/annapurna-short-trek/" class="mega-trek-link"><span>Annapurna Short Trek</span> <span class="days-badge">8 DAYS</span></a>
+                        <a href="trek/annapurna-view-trek/" class="mega-trek-link"><span>Annapurna View Trek</span> <span class="days-badge">8 DAYS</span></a>
                       </div>
                       <div class="mega-col">
                         <div class="mega-col-title">Panoramic Ridges</div>
@@ -925,22 +936,22 @@
         <div class="region-pills-wrap">
           <div class="region-pills-header">
             <strong class="region-pills-title">
-              <span class="region-pills-title-icon">📍</span>
+              <span class="region-pills-title-icon"><svg class="icon-svg icon-pin" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> </span>
               Quick Filter by Destination:
             </strong>
             <span class="region-pills-hint">Select a region to instant filter 60 packages</span>
           </div>
           <div class="region-pills-container">
-            <button type="button" class="region-quick-pill active" data-region="all">🌍 All Packages (60)</button>
-            <button type="button" class="region-quick-pill" data-region="everest">🏔️ Everest Region</button>
-            <button type="button" class="region-quick-pill" data-region="annapurna">🥾 Annapurna Region</button>
-            <button type="button" class="region-quick-pill" data-region="langtang">🌲 Langtang Valley</button>
-            <button type="button" class="region-quick-pill" data-region="manaslu">🌀 Manaslu Circuit</button>
-            <button type="button" class="region-quick-pill" data-region="mustang">🏰 Upper Mustang</button>
-            <button type="button" class="region-quick-pill" data-region="dolpo">💎 Dolpo Region</button>
-            <button type="button" class="region-quick-pill" data-region="kanchenjunga">❄️ Kanchenjunga</button>
-            <button type="button" class="region-quick-pill" data-region="peaks">⛏️ Peak Climbing</button>
-            <button type="button" class="region-quick-pill" data-region="short">⚡ Short Treks (1-7D)</button>
+            <button type="button" class="region-quick-pill active" data-region="all"><svg class="icon-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> All Packages (60)</button>
+            <button type="button" class="region-quick-pill" data-region="everest"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> Everest Region</button>
+            <button type="button" class="region-quick-pill" data-region="annapurna"><svg class="icon-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 16v-2.38C4 11.5 5.5 10 7.5 10H11v6H4z"/><path d="M11 16h6c1.66 0 3-1.34 3-3v-1.5c0-.83-.67-1.5-1.5-1.5H16l-3-3H9v9h2z"/><path d="M3 19h18v2H3z"/></svg> Annapurna Region</button>
+            <button type="button" class="region-quick-pill" data-region="langtang"><svg class="icon-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 17 8 14 8 19 15 5 15 10 8 7 8 12 2"/><line x1="12" y1="15" x2="12" y2="22"/></svg> Langtang Valley</button>
+            <button type="button" class="region-quick-pill" data-region="manaslu"><svg class="icon-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg> Manaslu Circuit</button>
+            <button type="button" class="region-quick-pill" data-region="mustang"><svg class="icon-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 20v-9H2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z"/><path d="M18 11V4H6v7"/><path d="M15 22v-4a3 3 0 0 0-6 0v4"/><path d="M22 11V9"/><path d="M2 11V9"/><path d="M6 4V2"/><path d="M18 4V2"/><path d="M10 4V2"/><path d="M14 4V2"/></svg> Upper Mustang</button>
+            <button type="button" class="region-quick-pill" data-region="dolpo"><svg class="icon-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M11 3 8 9l4 12 4-12-3-6"/><path d="M2 9h20"/></svg> Dolpo Region</button>
+            <button type="button" class="region-quick-pill" data-region="kanchenjunga"><svg class="icon-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/><line x1="19.07" y1="4.93" x2="4.93" y2="19.07"/><polyline points="9 4 12 2 15 4"/><polyline points="9 20 12 22 15 20"/><polyline points="4 9 2 12 4 15"/><polyline points="20 9 22 12 20 15"/></svg> Kanchenjunga</button>
+            <button type="button" class="region-quick-pill" data-region="peaks"><svg class="icon-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m14 10 7-7"/><path d="m3 21 9-9"/><path d="m14 3 7 7-4 1-4-4 1-4Z"/></svg> Peak Climbing</button>
+            <button type="button" class="region-quick-pill" data-region="short"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Short Treks (1-7D)</button>
           </div>
         </div>
 
@@ -1029,7 +1040,7 @@
             <div class="trek-item-media">
               <img src="images/manaslu-circuit-trek-12-days.webp" alt="Manaslu Circuit Trek 12 Days" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Budget-focused itinerary</span>
-              <span class="trek-duration-pill">⏱️ 12 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 12 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1037,9 +1048,9 @@
                 <p class="trek-item-desc">Trek the Manaslu Circuit via Pungyen Monastery and Larkya La on a budget-focused itinerary.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 12 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,106 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 12 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,106 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1062,7 +1073,7 @@
             <div class="trek-item-media">
               <img src="images/annapurna-base-camp-trek-heli-return.webp" alt="Annapurna Base Camp Trek with Helicopter Return" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Heli Flyback</span>
-              <span class="trek-duration-pill">⏱️ 11 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 11 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1070,9 +1081,9 @@
                 <p class="trek-item-desc">Trek through Ghorepani to Annapurna Base Camp and return to Pokhara by helicopter.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 11 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,130 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 11 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,130 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1095,7 +1106,7 @@
             <div class="trek-item-media">
               <img src="images/ghorepani-poon-hill-with-mardi-himal-trek.webp" alt="Ghorepani Poon Hill with Mardi Himal Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Sunrise and ridge viewpoints</span>
-              <span class="trek-duration-pill">⏱️ 12 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 12 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1103,9 +1114,9 @@
                 <p class="trek-item-desc">Enjoy Poon Hill’s sunrise before walking through Gurung villages to Mardi Himal’s upper viewpoint.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 12 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,500 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 12 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,500 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1128,7 +1139,7 @@
             <div class="trek-item-media">
               <img src="images/abc-with-mardi-himal-trek.webp" alt="Annapurna Base Camp with Mardi Himal Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Two trekking routes</span>
-              <span class="trek-duration-pill">⏱️ 13 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 13 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1136,9 +1147,9 @@
                 <p class="trek-item-desc">Combine Annapurna Base Camp with Mardi Himal’s ridge trails and mountain viewpoints.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 13 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,130 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 13 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,130 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1161,7 +1172,7 @@
             <div class="trek-item-media">
               <img src="images/annapurna-luxury-trek.webp" alt="Annapurna Luxury Lodge Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Luxury Signature</span>
-              <span class="trek-duration-pill">⏱️ 9 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 9 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1169,9 +1180,9 @@
                 <p class="trek-item-desc">Explore Ghandruk, Landruk and Dhampus with comfortable lodges and flights between Kathmandu and Pokhara.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 9 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,660 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ easy moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 9 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,660 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> easy moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1194,7 +1205,7 @@
             <div class="trek-item-media">
               <img src="images/annapurna-circuit-luxury-trek.webp" alt="Annapurna Circuit Luxury Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Luxury Signature</span>
-              <span class="trek-duration-pill">⏱️ 13 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 13 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1202,9 +1213,9 @@
                 <p class="trek-item-desc">Cross Thorong La with upgraded stays, private road transfers and a return flight from Pokhara.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 13 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,416 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 13 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,416 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1227,7 +1238,7 @@
             <div class="trek-item-media">
               <img src="images/everest-base-camp-luxury-trek.webp" alt="Everest Base Camp Luxury Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Luxury Signature</span>
-              <span class="trek-duration-pill">⏱️ 14 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1235,9 +1246,9 @@
                 <p class="trek-item-desc">Trek to Everest Base Camp and Kala Patthar with upgraded accommodation where available.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 14 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,545 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ easy moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,545 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> easy moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1260,7 +1271,7 @@
             <div class="trek-item-media">
               <img src="images/gokyo-lakes-luxury-trek.webp" alt="Gokyo Lakes Luxury Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Luxury Signature</span>
-              <span class="trek-duration-pill">⏱️ 15 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 15 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1268,9 +1279,9 @@
                 <p class="trek-item-desc">Explore Gokyo Lakes and Gokyo Ri with upgraded stays on the lower Khumbu route.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 15 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,545 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ easy moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 15 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,545 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> easy moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1293,7 +1304,7 @@
             <div class="trek-item-media">
               <img src="images/gokyo-lake-trek-with-helicopter-return.webp" alt="Gokyo Lake Trek with Helicopter Return" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Heli Flyback</span>
-              <span class="trek-duration-pill">⏱️ 11 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 11 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1301,9 +1312,9 @@
                 <p class="trek-item-desc">Explore Gokyo Lakes and Gokyo Ri, then return to Lukla by helicopter.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 11 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,545 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 11 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,545 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1326,7 +1337,7 @@
             <div class="trek-item-media">
               <img src="images/everest-base-camp-trek-without-flight.webp" alt="Everest Base Camp Trek without Flight" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Overland approach and return</span>
-              <span class="trek-duration-pill">⏱️ 17 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 17 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1334,9 +1345,9 @@
                 <p class="trek-item-desc">Reach Everest Base Camp and Kala Patthar using an overland approach through Salleri and Paiyun.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 17 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,545 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 17 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,545 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1359,7 +1370,7 @@
             <div class="trek-item-media">
               <img src="images/island-peak-climbing.webp" alt="Island Peak Climbing & Everest Base Camp" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Peak Expedition</span>
-              <span class="trek-duration-pill">⏱️ 16 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 16 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1367,9 +1378,9 @@
                 <p class="trek-item-desc">Trek through the Khumbu Valley to Chhukung and attempt the summit of Island Peak.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 16 Days</span>
-                <span class="trek-meta-chip">🏔️ 6,189 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 16 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 6,189 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1392,7 +1403,7 @@
             <div class="trek-item-media">
               <img src="images/mera-peak-climbing.webp" alt="Mera Peak Climbing Expedition" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Peak Expedition</span>
-              <span class="trek-duration-pill">⏱️ 18 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1400,9 +1411,9 @@
                 <p class="trek-item-desc">Follow the Hinku Valley to Khare and climb Mera Peak with acclimatisation and training.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 18 Days</span>
-                <span class="trek-meta-chip">🏔️ 6,189 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 6,189 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1425,7 +1436,7 @@
             <div class="trek-item-media">
               <img src="images/lobuche-peak-climbing.webp" alt="Lobuche East Peak Climbing" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Peak Expedition</span>
-              <span class="trek-duration-pill">⏱️ 16 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 16 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1433,9 +1444,9 @@
                 <p class="trek-item-desc">Trek through the Khumbu, visit Kala Patthar and attempt the summit of Lobuche East.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 16 Days</span>
-                <span class="trek-meta-chip">🏔️ 6,189 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 16 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 6,189 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1458,7 +1469,7 @@
             <div class="trek-item-media">
               <img src="images/island-peak-and-3-high-passes-trek-21-days-trek-in-everest.webp" alt="Three High Passes with Island Peak Climb" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Peak Expedition</span>
-              <span class="trek-duration-pill">⏱️ 20 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 20 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1466,9 +1477,9 @@
                 <p class="trek-item-desc">Combine the three Everest high passes, Everest Base Camp and an Island Peak summit attempt.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 20 Days</span>
-                <span class="trek-meta-chip">🏔️ 6,189 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 20 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 6,189 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1491,7 +1502,7 @@
             <div class="trek-item-media">
               <img src="images/short-annapurna-base-camp-trek.webp" alt="Short Annapurna Base Camp Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Short Trek</span>
-              <span class="trek-duration-pill">⏱️ 9 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 9 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1499,9 +1510,9 @@
                 <p class="trek-item-desc">Reach Annapurna Base Camp on a shorter route through Sinuwa and Deurali.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 9 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,130 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ easy moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 9 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,130 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> easy moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1524,7 +1535,7 @@
             <div class="trek-item-media">
               <img src="images/panchase-trek-best-short-trek-near-pokhara-nepal.webp" alt="Annapurna Short Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Village-based trekking</span>
-              <span class="trek-duration-pill">⏱️ 8 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 8 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1532,16 +1543,16 @@
                 <p class="trek-item-desc">Walk through Australian Camp, Landruk and Ghandruk for Annapurna views and village life.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 8 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,660 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ easy moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 8 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,660 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> easy moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
                   <span class="trek-price-label">Starting from</span>
                   <span class="trek-price-value">$525</span>
                 </div>
-                <a href="trek/annapurna-short-trek/" class="trek-action-btn">View Itinerary →</a>
+                <a href="trek/annapurna-view-trek/" class="trek-action-btn">View Itinerary →</a>
               </div>
             </div>
           </div>
@@ -1557,7 +1568,7 @@
             <div class="trek-item-media">
               <img src="images/everest-base-camp-16-days.webp" alt="Everest Base Camp Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Two acclimatisation stops</span>
-              <span class="trek-duration-pill">⏱️ 14 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1565,9 +1576,9 @@
                 <p class="trek-item-desc">Follow Sherpa village trails to Everest Base Camp and climb Kala Patthar for mountain views.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 14 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,545 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,545 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1590,7 +1601,7 @@
             <div class="trek-item-media">
               <img src="images/annapurna-destination card image.webp" alt="Annapurna Circuit Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Manang acclimatisation</span>
-              <span class="trek-duration-pill">⏱️ 14 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1598,9 +1609,9 @@
                 <p class="trek-item-desc">Follow the Marsyangdi Valley through Manang and cross Thorong La to Muktinath and Jomsom.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 14 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,416 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,416 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1623,7 +1634,7 @@
             <div class="trek-item-media">
               <img src="images/langtang-valley-trek-complete-10-day-trekking-guide.webp" alt="Langtang Valley Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Valley trekking</span>
-              <span class="trek-duration-pill">⏱️ 10 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1631,9 +1642,9 @@
                 <p class="trek-item-desc">Follow the Langtang Valley to Kyanjin Gompa, with optional hikes to nearby mountain viewpoints.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 10 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,773 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,773 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1656,7 +1667,7 @@
             <div class="trek-item-media">
               <img src="images/manaslu-circuit-trek.webp" alt="Manaslu Circuit Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">High pass crossing</span>
-              <span class="trek-duration-pill">⏱️ 14 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1664,9 +1675,9 @@
                 <p class="trek-item-desc">Follow the Budhi Gandaki Valley through mountain villages and cross Larkya La to Bimthang.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 14 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,106 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,106 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1689,7 +1700,7 @@
             <div class="trek-item-media">
               <img src="images/gokyo-lake-and-chola-pass-trek.webp" alt="Gokyo Lakes & Cho La Pass" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">High pass crossing</span>
-              <span class="trek-duration-pill">⏱️ 17 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 17 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1697,16 +1708,16 @@
                 <p class="trek-item-desc">Combine Everest Base Camp and Kala Patthar with Cho La Pass, Gokyo Lakes and Gokyo Ri.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 17 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,545 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 17 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,545 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
                   <span class="trek-price-label">Starting from</span>
                   <span class="trek-price-value">$1,355</span>
                 </div>
-                <a href="trek/gokyo-lakes-and-cho-la-pass/" class="trek-action-btn">View Itinerary →</a>
+                <a href="trek/ebc-chola-pass-gokyo-trek/" class="trek-action-btn">View Itinerary →</a>
               </div>
             </div>
           </div>
@@ -1722,7 +1733,7 @@
             <div class="trek-item-media">
               <img src="images/ghorepani-poon-hill-trek.webp" alt="Ghorepani Poon Hill Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Sunrise hiking</span>
-              <span class="trek-duration-pill">⏱️ 10 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1730,9 +1741,9 @@
                 <p class="trek-item-desc">Watch sunrise from Poon Hill and explore Ghorepani, Tadapani and Ghandruk.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 10 Days</span>
-                <span class="trek-meta-chip">🏔️ 3,210 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 3,210 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1755,7 +1766,7 @@
             <div class="trek-item-media">
               <img src="images/upper-mustang card image.jpeg" alt="Upper Mustang Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Dry valley landscapes</span>
-              <span class="trek-duration-pill">⏱️ 16 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 16 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1763,9 +1774,9 @@
                 <p class="trek-item-desc">Walk through Mustang’s dry valleys and walled villages to Lo Manthang and Chhoser Caves.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 16 Days</span>
-                <span class="trek-meta-chip">🏔️ 3,840 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 16 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 3,840 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1788,7 +1799,7 @@
             <div class="trek-item-media">
               <img src="images/upper-mustang-jeep-tour-12-days-to-lo-manthang-nepal.webp" alt="Upper Mustang Jeep Tour" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Jeep-based exploration</span>
-              <span class="trek-duration-pill">⏱️ 12 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 12 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1796,9 +1807,9 @@
                 <p class="trek-item-desc">Explore Upper Mustang by jeep, visiting Lo Manthang, Chosar Caves and traditional villages.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 12 Days</span>
-                <span class="trek-meta-chip">🏔️ 3,840 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 12 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 3,840 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1821,7 +1832,7 @@
             <div class="trek-item-media">
               <img src="images/upper-mustang-tiji-festival-spectacular-culture-rituals.webp" alt="Upper Mustang Tiji Festival Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Festival-centred itinerary</span>
-              <span class="trek-duration-pill">⏱️ 17 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 17 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1829,9 +1840,9 @@
                 <p class="trek-item-desc">Experience Tiji Festival in Lo Manthang and explore Mustang’s villages, caves and monasteries.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 17 Days</span>
-                <span class="trek-meta-chip">🏔️ 3,840 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 17 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 3,840 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1854,7 +1865,7 @@
             <div class="trek-item-media">
               <img src="images/annapurna-destination card image.webp" alt="Annapurna Base Camp (ABC)" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Annapurna Region</span>
-              <span class="trek-duration-pill">⏱️ 10 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1862,9 +1873,9 @@
                 <p class="trek-item-desc">Trek through Machhapuchhre (Fishtail) Base Camp into the 360-degree mountain amphitheater of Annapurna Sanctuary.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 10 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,130 m</span>
-                <span class="trek-meta-chip">⚡ Moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,130 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1887,7 +1898,7 @@
             <div class="trek-item-media">
               <img src="images/hero-himalayas.webp" alt="Everest Three Passes Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Three high pass crossings</span>
-              <span class="trek-duration-pill">⏱️ 21 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 21 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1895,9 +1906,9 @@
                 <p class="trek-item-desc">Cross Kongma La, Cho La and Renjo La while visiting Everest Base Camp and Gokyo Lakes.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 21 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,545 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 21 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,545 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1920,7 +1931,7 @@
             <div class="trek-item-media">
               <img src="images/gokyo-lakes-trek.webp" alt="Gokyo Lakes Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Lake-focused itinerary</span>
-              <span class="trek-duration-pill">⏱️ 12 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 12 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1928,9 +1939,9 @@
                 <p class="trek-item-desc">Follow the Gokyo Valley to its mountain lakes and climb Gokyo Ri for Himalayan views.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 12 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,545 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 12 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,545 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1953,7 +1964,7 @@
             <div class="trek-item-media">
               <img src="images/everest-view-trek.webp" alt="Everest View Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Short Khumbu itinerary</span>
-              <span class="trek-duration-pill">⏱️ 7 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 7 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1961,9 +1972,9 @@
                 <p class="trek-item-desc">Explore Namche Bazaar and hike to Everest View Hotel on a short Khumbu trek.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 7 Days</span>
-                <span class="trek-meta-chip">🏔️ 3,860 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ easy moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 7 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 3,860 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> easy moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -1986,7 +1997,7 @@
             <div class="trek-item-media">
               <img src="images/hero-himalayas.webp" alt="Everest Base Camp via Gokyo Lakes" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">High pass crossing</span>
-              <span class="trek-duration-pill">⏱️ 17 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 17 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -1994,9 +2005,9 @@
                 <p class="trek-item-desc">Combine Everest Base Camp and Kala Patthar with Cho La Pass, Gokyo Lakes and Gokyo Ri.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 17 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,545 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 17 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,545 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2019,7 +2030,7 @@
             <div class="trek-item-media">
               <img src="images/trekkers-posing-at-the-mardi-himal-view-point-sign-surrounded-by-snow-covered-himalayan-pe.webp" alt="Mardi Himal Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Forest-to-ridge walking</span>
-              <span class="trek-duration-pill">⏱️ 9 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 9 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2027,9 +2038,9 @@
                 <p class="trek-item-desc">Follow forest trails and open ridges to Mardi Himal’s viewpoints beneath Machhapuchhre.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 9 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,500 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 9 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,500 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2052,7 +2063,7 @@
             <div class="trek-item-media">
               <img src="images/abc-with-mardi-himal-trek.webp" alt="Khopra Ridge Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Ridge walking</span>
-              <span class="trek-duration-pill">⏱️ 11 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 11 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2060,9 +2071,9 @@
                 <p class="trek-item-desc">Walk to Khopra Ridge, visit Khayar Lake and finish with sunrise at Poon Hill.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 11 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,660 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 11 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,660 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2085,7 +2096,7 @@
             <div class="trek-item-media">
               <img src="images/hero-himalayas.webp" alt="Nar Phu Valley Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Village exploration</span>
-              <span class="trek-duration-pill">⏱️ 13 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 13 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2093,9 +2104,9 @@
                 <p class="trek-item-desc">Explore Nar and Phu villages before crossing Kang La Pass into the Annapurna valley.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 13 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,660 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 13 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,660 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2118,7 +2129,7 @@
             <div class="trek-item-media">
               <img src="images/annapurna-sanctuary-1983908-1920.webp" alt="Annapurna Sanctuary Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Extended circuit</span>
-              <span class="trek-duration-pill">⏱️ 17 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 17 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2126,16 +2137,16 @@
                 <p class="trek-item-desc">Cross Thorong La and continue through Marpha and Tatopani to Ghorepani and Poon Hill.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 17 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,416 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 17 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,416 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
                   <span class="trek-price-label">Starting from</span>
                   <span class="trek-price-value">$1,290</span>
                 </div>
-                <a href="trek/annapurna-sanctuary-trek/" class="trek-action-btn">View Itinerary →</a>
+                <a href="trek/classic-annapurna-circuit-trek/" class="trek-action-btn">View Itinerary →</a>
               </div>
             </div>
           </div>
@@ -2151,7 +2162,7 @@
             <div class="trek-item-media">
               <img src="images/annapurna-circuit-with-tilicho-lake-trek-2.webp" alt="Tilicho Lake Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Lake and high pass combination</span>
-              <span class="trek-duration-pill">⏱️ 18 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2159,16 +2170,16 @@
                 <p class="trek-item-desc">Add Tilicho Lake to the Annapurna Circuit before crossing Thorong La to Muktinath.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 18 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,416 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,416 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
                   <span class="trek-price-label">Starting from</span>
                   <span class="trek-price-value">$1,285</span>
                 </div>
-                <a href="trek/tilicho-lake-trek/" class="trek-action-btn">View Itinerary →</a>
+                <a href="trek/annapurna-circuit-with-tilicho-lake/" class="trek-action-btn">View Itinerary →</a>
               </div>
             </div>
           </div>
@@ -2184,7 +2195,7 @@
             <div class="trek-item-media">
               <img src="images/ghorepani-poon-hill-and-mardi-himal-trek.webp" alt="Poon Hill & ABC Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Sunrise viewpoint</span>
-              <span class="trek-duration-pill">⏱️ 13 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 13 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2192,16 +2203,16 @@
                 <p class="trek-item-desc">Walk through Ghorepani and Poon Hill to Annapurna Base Camp, returning through Jhinu Danda.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 13 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,130 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 13 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,130 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
                   <span class="trek-price-label">Starting from</span>
                   <span class="trek-price-value">$725</span>
                 </div>
-                <a href="trek/poon-hill-abc-trek/" class="trek-action-btn">View Itinerary →</a>
+                <a href="trek/annapurna-base-camp-trek-via-poon-hill/" class="trek-action-btn">View Itinerary →</a>
               </div>
             </div>
           </div>
@@ -2217,7 +2228,7 @@
             <div class="trek-item-media">
               <img src="images/hero-himalayas.webp" alt="Gosaikunda Lake Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Langtang Region</span>
-              <span class="trek-duration-pill">⏱️ 7 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 7 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2225,9 +2236,9 @@
                 <p class="trek-item-desc">Pilgrimage trek to sacred alpine lakes at 4,380m and Lauribina Pass.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 7 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,380 m</span>
-                <span class="trek-meta-chip">⚡ Moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 7 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,380 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2250,7 +2261,7 @@
             <div class="trek-item-media">
               <img src="images/langtang-gosaikunda-helambu-trek.webp" alt="Langtang Gosaikunda Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Sacred lake visit</span>
-              <span class="trek-duration-pill">⏱️ 6 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2258,16 +2269,16 @@
                 <p class="trek-item-desc">Walk from Dhunche through forest and highland trails to the sacred Gosaikunda Lake.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 6 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,380 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ easy moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,380 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> easy moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
                   <span class="trek-price-label">Starting from</span>
                   <span class="trek-price-value">$285</span>
                 </div>
-                <a href="trek/langtang-gosaikunda-trek/" class="trek-action-btn">View Itinerary →</a>
+                <a href="trek/gosaikunda-trek/" class="trek-action-btn">View Itinerary →</a>
               </div>
             </div>
           </div>
@@ -2283,7 +2294,7 @@
             <div class="trek-item-media">
               <img src="images/if-you-are-looking-for-a-less-crowded-trekking-region-and-close-to-kathmandu-langtang-vall.webp" alt="Tamang Heritage Trail Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Tamang cultural experience</span>
-              <span class="trek-duration-pill">⏱️ 10 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2291,9 +2302,9 @@
                 <p class="trek-item-desc">Explore Tamang villages through Gatlang, Tatopani, Thuman, Timure and Briddim.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 10 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,773 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,773 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2316,7 +2327,7 @@
             <div class="trek-item-media">
               <img src="images/chisapani-nagarkot-trek-02.webp" alt="Helambu Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Langtang Region</span>
-              <span class="trek-duration-pill">⏱️ 6 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2324,9 +2335,9 @@
                 <p class="trek-item-desc">Accessible cultural circuit north of Kathmandu with Hyolmo Buddhist villages.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 6 Days</span>
-                <span class="trek-meta-chip">🏔️ 3,650 m</span>
-                <span class="trek-meta-chip">⚡ Easy</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 3,650 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Easy</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2349,7 +2360,7 @@
             <div class="trek-item-media">
               <img src="images/hero-himalayas.webp" alt="Tsum Valley Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Monastery-focused journey</span>
-              <span class="trek-duration-pill">⏱️ 14 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2357,9 +2368,9 @@
                 <p class="trek-item-desc">Explore Tsum Valley’s villages and monasteries, reaching Mu Gompa before retracing the valley.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 14 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,106 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,106 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2382,7 +2393,7 @@
             <div class="trek-item-media">
               <img src="images/tsum-valley-trek.webp" alt="Manaslu Tsum Valley Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Combined valley itinerary</span>
-              <span class="trek-duration-pill">⏱️ 20 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 20 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2390,9 +2401,9 @@
                 <p class="trek-item-desc">Combine Tsum Valley’s monasteries with the Manaslu Circuit and the crossing of Larkya La.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 20 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,106 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 20 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,106 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2415,7 +2426,7 @@
             <div class="trek-item-media">
               <img src="images/upper-mustang.webp" alt="Lower Mustang Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Mustang Region</span>
-              <span class="trek-duration-pill">⏱️ 8 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 8 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2423,9 +2434,9 @@
                 <p class="trek-item-desc">Muktinath temple, Marpha apple orchards, and Kali Gandaki gorge walk.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 8 Days</span>
-                <span class="trek-meta-chip">🏔️ 3,800 m</span>
-                <span class="trek-meta-chip">⚡ Easy to Moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 8 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 3,800 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Easy to Moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2448,7 +2459,7 @@
             <div class="trek-item-media">
               <img src="images/view-from-jamacho.webp" alt="Pikey Peak Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Peak Expedition</span>
-              <span class="trek-duration-pill">⏱️ 10 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2456,9 +2467,9 @@
                 <p class="trek-item-desc">Climb Pikey Peak at sunrise and visit Sherpa villages and Thupten Chholing Monastery.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 10 Days</span>
-                <span class="trek-meta-chip">🏔️ 6,189 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 6,189 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2481,7 +2492,7 @@
             <div class="trek-item-media">
               <img src="images/hero-himalayas.webp" alt="Mohare Danda Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Village stays</span>
-              <span class="trek-duration-pill">⏱️ 9 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 9 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2489,9 +2500,9 @@
                 <p class="trek-item-desc">Walk through Banskharka and Nangi to Mohare Danda for mountain views and village stays.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 9 Days</span>
-                <span class="trek-meta-chip">🏔️ 3,210 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ easy moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 9 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 3,210 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> easy moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2514,7 +2525,7 @@
             <div class="trek-item-media">
               <img src="images/annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.webp" alt="Panchase Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Hill walking</span>
-              <span class="trek-duration-pill">⏱️ 8 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 8 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2522,9 +2533,9 @@
                 <p class="trek-item-desc">Walk through villages above Pokhara to Panchase for mountain views and quiet forest trails.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 8 Days</span>
-                <span class="trek-meta-chip">🏔️ 3,210 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ easy moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 8 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 3,210 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> easy moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2547,7 +2558,7 @@
             <div class="trek-item-media">
               <img src="images/chisapani-nagarkot-trek.webp" alt="Ruby Valley Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Remote Wilderness</span>
-              <span class="trek-duration-pill">⏱️ 9 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 9 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2555,9 +2566,9 @@
                 <p class="trek-item-desc">Hidden Ganesh Himal trail passing zinc and ruby mines and Gurung villages.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 9 Days</span>
-                <span class="trek-meta-chip">🏔️ 3,850 m</span>
-                <span class="trek-meta-chip">⚡ Moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 9 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 3,850 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2580,7 +2591,7 @@
             <div class="trek-item-media">
               <img src="images/7-day-rara-lake-jeep-tour-rara-lake-tour-package-02.webp" alt="Rara Lake Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Remote Wilderness</span>
-              <span class="trek-duration-pill">⏱️ 10 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2588,9 +2599,9 @@
                 <p class="trek-item-desc">Journey to Nepal's largest & deepest alpine lake in remote western Jumla.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 10 Days</span>
-                <span class="trek-meta-chip">🏔️ 2,990 m</span>
-                <span class="trek-meta-chip">⚡ Easy to Moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 10 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 2,990 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Easy to Moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2613,7 +2624,7 @@
             <div class="trek-item-media">
               <img src="images/hero-himalayas.webp" alt="Makalu Base Camp Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Remote Wilderness</span>
-              <span class="trek-duration-pill">⏱️ 18 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2621,9 +2632,9 @@
                 <p class="trek-item-desc">Wild, pristine trail to the base of the world's 5th highest mountain 5,250m.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 18 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,250 m</span>
-                <span class="trek-meta-chip">⚡ Strenuous</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,250 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Strenuous</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2646,7 +2657,7 @@
             <div class="trek-item-media">
               <img src="images/kangchenjunga_destanation card image.webp" alt="Kanchenjunga Base Camp Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Remote Wilderness</span>
-              <span class="trek-duration-pill">⏱️ 22 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 22 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2654,9 +2665,9 @@
                 <p class="trek-item-desc">Far-eastern wilderness expedition to North & South Kanchenjunga Base Camps.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 22 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,143 m</span>
-                <span class="trek-meta-chip">⚡ Strenuous</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 22 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,143 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Strenuous</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2679,7 +2690,7 @@
             <div class="trek-item-media">
               <img src="images/kanchenjunga-circuit-trek-nepal-remote-himalayan-adventure.webp" alt="Kanchenjunga Circuit Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Two base camp areas</span>
-              <span class="trek-duration-pill">⏱️ 20 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 20 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2687,9 +2698,9 @@
                 <p class="trek-item-desc">Explore both Kanchenjunga base camps, connecting Ghunsa and the southern valleys across high passes.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 20 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,143 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 20 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,143 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2712,7 +2723,7 @@
             <div class="trek-item-media">
               <img src="images/kanchenjunga-trek-without-flight-scenic-overland-trek.webp" alt="Kanchenjunga Trek Without Flight" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Two base camp areas</span>
-              <span class="trek-duration-pill">⏱️ 20 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 20 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2720,9 +2731,9 @@
                 <p class="trek-item-desc">Visit Kanchenjunga’s north and south base camps using road travel to and from Taplejung.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 20 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,143 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 20 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,143 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2744,8 +2755,8 @@
                data-title="lower dolpo trek">
             <div class="trek-item-media">
               <img src="images/lower-dolpo-trek.webp" alt="Lower Dolpo Trek" loading="lazy" width="400" height="220">
-              <span class="trek-badge-pill" style="background: linear-gradient(135deg, #7C3AED, #5B21B6);">Restricted Area</span>
-              <span class="trek-duration-pill">⏱️ 18 Days</span>
+              <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Restricted Area</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2753,9 +2764,9 @@
                 <p class="trek-item-desc">Circuit across crystal turquoise Shey Phoksundo Lake, Bon Po villages, and Numa La Pass (5,309m).</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 18 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,309 m</span>
-                <span class="trek-meta-chip">⚡ Challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,309 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2778,7 +2789,7 @@
             <div class="trek-item-media">
               <img src="images/upper-dolpo-trek-remote-himalayan-adventure-in-nepal.webp" alt="Upper Dolpo Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Trans-Himalayan Expedition</span>
-              <span class="trek-duration-pill">⏱️ 24 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 24 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2786,9 +2797,9 @@
                 <p class="trek-item-desc">The legendary 24-day Himalayan wilderness odyssey to Shey Gompa, Crystal Mountain, and Kang La (5,360m).</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 24 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,360 m</span>
-                <span class="trek-meta-chip">⚡ Strenuous</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 24 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,360 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Strenuous</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2810,8 +2821,8 @@
                data-title="chisapani nagarkot trek">
             <div class="trek-item-media">
               <img src="images/chisapani-nagarkot-trek.webp" alt="Chisapani Nagarkot Trek" loading="lazy" width="400" height="220">
-              <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0284C7, #0369A1);">Valley Rim Classic</span>
-              <span class="trek-duration-pill">⏱️ 3 Days</span>
+              <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Valley Rim Classic</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 3 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2819,9 +2830,9 @@
                 <p class="trek-item-desc">Hike through Shivapuri National Park to Chisapani pass and witness sunrise over Everest from Nagarkot.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 3 Days</span>
-                <span class="trek-meta-chip">🏔️ 2,215 m</span>
-                <span class="trek-meta-chip">⚡ Easy to Moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 3 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 2,215 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Easy to Moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2844,7 +2855,7 @@
             <div class="trek-item-media">
               <img src="images/best-treks-in-nepal-2027.webp" alt="Dhaulagiri Circuit Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Remote Wilderness</span>
-              <span class="trek-duration-pill">⏱️ 18 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2852,9 +2863,9 @@
                 <p class="trek-item-desc">Extreme high-altitude expedition across French Pass 5,360m and Dhaulagiri glacier.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 18 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,360 m</span>
-                <span class="trek-meta-chip">⚡ Extreme</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,360 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Extreme</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2877,7 +2888,7 @@
             <div class="trek-item-media">
               <img src="images/glacier-flow-seen-during-the-kanchenjunga-circuit-trekking-in-nepal-captured-by-igloo-hima.webp" alt="Rolwaling Valley Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Remote Wilderness</span>
-              <span class="trek-duration-pill">⏱️ 15 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 15 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2885,9 +2896,9 @@
                 <p class="trek-item-desc">Trek past Tsho Rolpa glacial lake and Tashi Lapcha Pass 5,755m into Khumbu.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 15 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,755 m</span>
-                <span class="trek-meta-chip">⚡ Strenuous</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 15 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,755 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Strenuous</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2910,7 +2921,7 @@
             <div class="trek-item-media">
               <img src="images/yala-peak-climbing.webp" alt="Yala Peak Climbing Expedition in Langtang" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Peak Expedition</span>
-              <span class="trek-duration-pill">⏱️ 12 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 12 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2918,9 +2929,9 @@
                 <p class="trek-item-desc">Trek through the Langtang Valley to Kyanjin Gompa and climb Yala Peak.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 12 Days</span>
-                <span class="trek-meta-chip">🏔️ 5,500 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 12 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 5,500 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2943,7 +2954,7 @@
             <div class="trek-item-media">
               <img src="images/langtang-valley-trek-complete-10-day-trekking-guide.webp" alt="Langtang Gosaikunda Helambu Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">Grand Traverse</span>
-              <span class="trek-duration-pill">⏱️ 16 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 16 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2951,9 +2962,9 @@
                 <p class="trek-item-desc">Link the Langtang Valley, sacred Gosaikunda Lake and Helambu villages across Lauribina La Pass.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 16 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,610 m</span>
-                <span class="trek-meta-chip">⚡ Challenging</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 16 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,610 m</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Challenging</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -2976,7 +2987,7 @@
             <div class="trek-item-media">
               <img src="images/tamang-heritage-trail-and-langtang-valley-trek.webp" alt="Tamang Heritage with Langtang Valley Trek" loading="lazy" width="400" height="220">
               <span class="trek-badge-pill">Cultural and mountain route</span>
-              <span class="trek-duration-pill">⏱️ 14 Days</span>
+              <span class="trek-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
             </div>
             <div class="trek-item-body">
               <div class="trek-item-top">
@@ -2984,9 +2995,9 @@
                 <p class="trek-item-desc">Combine Tamang villages with the Langtang Valley, Kyanjin Gompa and mountain viewpoint hikes.</p>
               </div>
               <div class="trek-item-meta">
-                <span class="trek-meta-chip">⏱️ 14 Days</span>
-                <span class="trek-meta-chip">🏔️ 4,773 m</span>
-                <span class="trek-meta-chip" style="text-transform: capitalize;">⚡ moderate</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 Days</span>
+                <span class="trek-meta-chip"><svg class="icon-svg icon-mountain" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg> 4,773 m</span>
+                <span class="trek-meta-chip" style="text-transform: capitalize;"><svg class="icon-svg icon-bolt" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> moderate</span>
               </div>
               <div class="trek-item-footer">
                 <div class="trek-price-wrap">
@@ -3000,7 +3011,7 @@
 
           <!-- Empty State -->
           <div id="treks-empty-state" class="treks-empty-card">
-            <span class="treks-empty-icon">🏔️</span>
+            <span class="treks-empty-icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15h6.72"/><path d="m14 10 3 3"/></svg></span>
             <h3 class="treks-empty-title">No matching trekking packages found</h3>
             <p class="treks-empty-text">We couldn't find any trek packages matching your current filter criteria. Try broadening your duration, difficulty, or region selections.</p>
             <button type="button" class="btn btn-primary" onclick="document.getElementById('reset-filters-btn').click();">Reset All Filters</button>
@@ -3050,80 +3061,467 @@
 
   <!-- Footer -->
     <!-- Luxury Footer -->
-  <footer class="site-footer">
-    <div class="container">
-
-      <!-- Top 4-Column Luxury Layout -->
-      <div class="footer-luxury-layout">
-
-        <!-- Column 1: Main Pages -->
-        <div class="footer-nav-col">
-          <h4>Main Pages</h4>
-          <ul class="footer-nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="nepal-trekking-packages/">All Trek Packages</a></li>
-            <li><a href="trek/everest-base-camp-trek/">Everest Base Camp</a></li>
-            <li><a href="trekking-regions-nepal/">Trekking Regions</a></li>
-            <li><a href="custom-plan.html">Tailor-Made Trip</a></li>
-          </ul>
+  <footer class="himalayan-ref-footer" role="contentinfo">
+    
+    <!-- Section 1: Panoramic Mountain CTA Banner -->
+    <section class="ref-footer-banner" aria-label="Trek Inspiration Banner">
+      <div class="ref-banner-inner">
+        <div class="ref-banner-content">
+          <div class="ref-banner-eyebrow">
+            <span class="ref-eyebrow-line"></span>
+            <span class="ref-eyebrow-text">YOUR NEXT HIMALAYAN STORY STARTS HERE</span>
+          </div>
+          <h2 class="ref-banner-heading">The mountains are calling.</h2>
+          <p class="ref-banner-subtext">Thoughtfully planned treks. Local expertise. Memories that stay with you.</p>
         </div>
-
-        <!-- Column 2: Essential Info -->
-        <div class="footer-nav-col">
-          <h4>Essential Info</h4>
-          <ul class="footer-nav-links">
-            <li><a href="nepal-travel-guide/">Nepal Travel Guide</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="team.html">Meet Our Team</a></li>
-            <li><a href="careers.html">Careers & Jobs</a></li>
-            <li><a href="reviews.html">Reviews & Testimonials</a></li>
-            <li><a href="blogs.html">Blog & Articles</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
+        <div class="ref-banner-actions">
+          <a href="custom-plan.html" class="btn-banner-orange open-inquiry-btn">
+            <span>Plan Your Custom Trek</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a href="nepal-trekking-packages/" class="btn-banner-outline">
+            <span>Explore All Treks</span>
+          </a>
         </div>
-
-        <!-- Column 3: Center Expedition Title & Pill CTA -->
-        <div class="footer-cta-center">
-          <h2 class="footer-cta-title">Expedition Expertise<br>at Your Service</h2>
-          <button class="btn-journey-pill open-inquiry-btn">
-            <span>Begin Your Journey</span>
-            <span class="arrow-circle-green">↗</span>
-          </button>
-        </div>
-
-        <!-- Column 4: Social Media -->
-        <div class="footer-social-col" style="text-align: right;">
-          <h4>Social Media</h4>
-          <ul class="footer-nav-links">
-            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-            <li><a href="https://www.linkedin.com/in/igloo-himalaya-treks-268269433/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://wa.me/9779860843980" target="_blank">WhatsApp</a></li>
-          </ul>
-        </div>
-
       </div>
+    </section>
 
-      <!-- Bottom Bar Strip -->
-      <div class="footer-bottom-strip">
-        <div>&copy; 2026 Igloo Himalaya Treks. All Rights Reserved.</div>
-        <div class="footer-legal-links">
+    <!-- Section 2: Main Footer Navigation (6 Columns with Cyan Vertical Dividers) -->
+    <nav class="ref-footer-nav" aria-label="Footer Navigation">
+      <div class="ref-nav-container">
+        <div class="ref-nav-grid">
+          
+          <!-- Column 1: Brand Identity & Social Links -->
+          <div class="ref-nav-col">
+            <a href="index.html" class="ref-brand-logo" aria-label="Igloo Himalaya Treks Home">
+              <img src="images/logo-footer.png" alt="Igloo Himalaya Treks - Dream it, Trek it, Explore it" width="160" height="60" loading="lazy">
+            </a>
+            <div class="ref-brand-tagline">Dream it, Trek it, Explore it</div>
+            <p class="ref-brand-desc">Locally led Himalayan journeys built around safety, culture, and responsible travel.</p>
+            <div class="ref-social-links">
+              <a href="https://instagram.com" target="_blank" rel="noopener" class="ref-social-icon" aria-label="Instagram">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener" class="ref-social-icon" aria-label="Facebook">
+                <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener" class="ref-social-icon" aria-label="YouTube">
+                <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+              <a href="https://tiktok.com" target="_blank" rel="noopener" class="ref-social-icon" aria-label="TikTok">
+                <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.16 1.18 2.09 2.35 2.3 1.05.21 2.19-.08 2.97-.8.54-.53.86-1.25.88-2.01.03-3.71.01-7.42.02-11.13.01-2.22-.01-4.44.02-6.66z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 2: Newsletter and Reviews -->
+          <div class="ref-nav-col">
+            <div class="ref-newsletter-title-row">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+              <span>Trail Notes from Nepal</span>
+            </div>
+            <p class="ref-newsletter-sub">Get travel tips, trek inspiration and special offers straight to your inbox.</p>
+            <form class="ref-newsletter-form" id="ref-newsletter-form">
+              <input type="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address">
+              <button type="submit" class="ref-newsletter-btn">Get Trek Inspiration →</button>
+            </form>
+            <div id="ref-newsletter-feedback" class="ref-newsletter-feedback" role="alert"></div>
+
+            <hr class="ref-cyan-divider-line">
+
+            <div class="ref-reviews-subsection">
+              <div class="ref-reviews-head">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <span>Real journeys. Genuine reviews.</span>
+              </div>
+              <div class="ref-stars-row" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <a href="reviews.html" class="ref-cyan-link">Read traveler reviews →</a>
+            </div>
+          </div>
+
+          <!-- Column 3: Explore Treks -->
+          <div class="ref-nav-col">
+            <h3 class="ref-col-heading">EXPLORE TREKS</h3>
+            <span class="ref-heading-bar"></span>
+            <ul class="ref-link-list">
+              <li><a href="trek/everest-base-camp-trek/">Everest Base Camp Trek</a></li>
+              <li><a href="trek/annapurna-circuit-trek/">Annapurna Circuit</a></li>
+              <li><a href="trek/manaslu-circuit-trek/">Manaslu Circuit</a></li>
+              <li><a href="trek/langtang-valley-trek/">Langtang Valley</a></li>
+              <li><a href="peak-climbing-nepal/">Peak Climbing</a></li>
+            </ul>
+            <a href="nepal-trekking-packages/" class="ref-cyan-link" style="margin-top: 10px;">All Trek Packages →</a>
+          </div>
+
+          <!-- Column 4: Destinations -->
+          <div class="ref-nav-col">
+            <h3 class="ref-col-heading">DESTINATIONS</h3>
+            <span class="ref-heading-bar"></span>
+            <ul class="ref-link-list">
+              <li><a href="everest-region-treks/">Everest Region</a></li>
+              <li><a href="annapurna-region-treks/">Annapurna Region</a></li>
+              <li><a href="langtang-region-treks/">Langtang Region</a></li>
+              <li><a href="manaslu-region-treks/">Manaslu Region</a></li>
+              <li><a href="mustang-region-treks/">Upper Mustang</a></li>
+            </ul>
+            <a href="trekking-regions-nepal/" class="ref-cyan-link" style="margin-top: 10px;">All Destinations →</a>
+          </div>
+
+          <!-- Column 5: Travel Guides -->
+          <div class="ref-nav-col">
+            <h3 class="ref-col-heading">TRAVEL GUIDES</h3>
+            <span class="ref-heading-bar"></span>
+            <ul class="ref-link-list">
+              <li><a href="nepal-travel-guide/">Trek Planning Guide</a></li>
+              <li><a href="equipment-checklist/">Packing Checklist</a></li>
+              <li><a href="travel-insurance/">Travel Insurance</a></li>
+              <li><a href="trekking-regions-nepal/">Trekking Regions</a></li>
+              <li><a href="blogs.html">Blog & Articles</a></li>
+            </ul>
+            <a href="nepal-travel-guide/" class="ref-cyan-link" style="margin-top: 10px;">View All Guides →</a>
+          </div>
+
+          <!-- Column 6: About Us & More Info -->
+          <div class="ref-nav-col">
+            <h3 class="ref-col-heading">ABOUT US</h3>
+            <span class="ref-heading-bar"></span>
+            <ul class="ref-link-list">
+              <li><a href="about.html">Our Story</a></li>
+              <li><a href="team.html">Meet the Team</a></li>
+              <li><a href="about.html">Why Choose Us</a></li>
+              <li><a href="reviews.html">Reviews</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+            <h3 class="ref-col-heading" style="margin-top: 16px;">MORE INFO</h3>
+            <span class="ref-heading-bar"></span>
+            <ul class="ref-link-list">
+              <li><a href="about.html">Responsible Travel</a></li>
+              <li><a href="custom-plan.html">FAQs</a></li>
+              <li><a href="terms-and-conditions.html">Booking Terms</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 7: Let's Talk -->
+          <div class="ref-nav-col">
+            <h3 class="ref-col-heading">LET'S TALK</h3>
+            <span class="ref-heading-bar"></span>
+            <div class="ref-contact-rows">
+              <div class="ref-contact-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Kathmandu, Nepal</span>
+              </div>
+              <div class="ref-contact-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <a href="tel:+9779860843980">+977 9860843980</a>
+              </div>
+              <div class="ref-contact-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <a href="mailto:info@igloohimalayatreks.com">info@igloohimalayatreks.com</a>
+              </div>
+            </div>
+            <a href="contact.html" class="btn-cyan-support">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+              <span>24/7 Trek Support</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section 3: Partners and Accreditations Row -->
+    <section class="ref-footer-accreditations" aria-label="Partners and Accreditations">
+      <div class="ref-accred-container">
+        <div class="ref-accred-left">
+          <div class="ref-accred-title">PARTNERS & ACCREDITATIONS</div>
+          <div class="ref-accred-sub">Working together for a better tomorrow</div>
+        </div>
+
+        <div class="ref-accred-items">
+          <!-- Item 1: Tourism Board -->
+          <a href="https://ntb.gov.np/" target="_blank" rel="noopener noreferrer" class="ref-accred-item" title="Nepal Tourism Board (NTB) — Official Website">
+            <div class="ref-accred-logo-wrap ref-accred-ntb-badge">
+              <img src="images/tourism-board-logo.png" alt="Nepal Tourism Board (NTB)" class="ref-accred-ntb-img" width="28" height="24" loading="lazy">
+            </div>
+            <span class="ref-accred-label">Tourism Board</span>
+          </a>
+
+          <!-- Item 2: Trekking Association -->
+          <a href="https://www.taan.org.np/" target="_blank" rel="noopener noreferrer" class="ref-accred-item" title="Trekking Agencies' Association of Nepal (TAAN) — Official Website">
+            <div class="ref-accred-logo-wrap ref-accred-badge ref-accred-taan-badge">
+              <img src="images/trekking-association-logo.png" alt="Trekking Agencies' Association of Nepal (TAAN)" class="ref-accred-taan-img" width="28" height="24" loading="lazy">
+            </div>
+            <span class="ref-accred-label">Trekking Association</span>
+          </a>
+
+          <!-- Item 3: Mountaineering Association -->
+          <a href="https://www.nepalmountaineering.org/" target="_blank" rel="noopener noreferrer" class="ref-accred-item" title="Nepal Mountaineering Association (NMA) — Official Website">
+            <div class="ref-accred-logo-wrap ref-accred-badge ref-accred-nma-badge">
+              <img src="images/mountaineering-association-logo.png" alt="Nepal Mountaineering Association (NMA)" class="ref-accred-nma-img" width="28" height="24" loading="lazy">
+            </div>
+            <span class="ref-accred-label">Mountaineering Association</span>
+          </a>
+
+          <!-- Item 4: Sustainable Travel -->
+          <a href="https://sustainabletravel.org/" target="_blank" rel="noopener noreferrer" class="ref-accred-item" title="Sustainable Travel International — Official Website">
+            <div class="ref-accred-logo-wrap ref-accred-badge ref-accred-sti-badge">
+              <img src="images/sustainable-travel-logo.png" alt="Sustainable Travel International" class="ref-accred-sti-img" width="28" height="24" loading="lazy">
+            </div>
+            <span class="ref-accred-label">Sustainable Travel</span>
+          </a>
+
+          <!-- Item 5: Adventure Travel -->
+          <a href="http://www.adventuretravelnepal.com/" target="_blank" rel="noopener noreferrer" class="ref-accred-item" title="Adventure Travel Nepal — Official Website">
+            <div class="ref-accred-logo-wrap ref-accred-badge ref-accred-adventure-badge">
+              <img src="images/adventure-travel-logo.png" alt="Adventure Travel" class="ref-accred-adventure-img" width="28" height="24" loading="lazy">
+            </div>
+            <span class="ref-accred-label">Adventure Travel</span>
+          </a>
+
+          <!-- Item 6: Traveler Reviews -->
+          <a href="reviews.html" class="ref-accred-item" title="Verified Traveler Reviews & Testimonials">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="12 6 13.8 9.7 18 10.3 15 13.2 15.7 17.3 12 15.3 8.3 17.3 9 13.2 6 10.3 10.2 9.7 12 6"/></svg>
+            <span class="ref-accred-label">Traveler Reviews</span>
+          </a>
+        </div>
+
+        <div class="ref-accred-right">
+          <svg viewBox="0 0 40 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22 L14 6 L22 16 L28 10 L38 22"/></svg>
+          <span>Responsible travel creates a lasting impact.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Recommended Review and Travel Platforms Strip -->
+    <section class="ref-footer-platforms" aria-label="Recommended Platforms">
+      <div class="ref-platforms-container">
+        <span class="ref-platforms-label">Recommended on:</span>
+        <div class="ref-platforms-list">
+          
+          <!-- Platform 1: Tripadvisor -->
+          <a href="reviews.html" class="ref-platform-logo-link" title="Tripadvisor Reviews" target="_blank" rel="noopener">
+            <span class="logo-tripadvisor-wrap">
+              <svg class="tripadvisor-owl-mark" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="11" fill="#00AF87"/>
+                <circle cx="8" cy="12" r="3.2" fill="#FFFFFF"/>
+                <circle cx="8" cy="12" r="1.5" fill="#00345D"/>
+                <circle cx="16" cy="12" r="3.2" fill="#FFFFFF"/>
+                <circle cx="16" cy="12" r="1.5" fill="#00345D"/>
+                <polygon points="12,13.5 13.5,11.5 10.5,11.5" fill="#FFFFFF"/>
+              </svg>
+              <span>Tripadvisor</span>
+            </span>
+          </a>
+
+          <span class="ref-platform-sep" aria-hidden="true"></span>
+
+          <!-- Platform 2: Google -->
+          <a href="reviews.html" class="ref-platform-logo-link" title="Google Reviews" target="_blank" rel="noopener">
+            <svg class="google-logo-svg" xmlns="http://www.w3.org/2000/svg" width="74" height="24" viewBox="0 0 74 24" aria-label="Google">
+              <path fill="#4285F4" d="M9.24 8.19v2.46h5.88c-.18 1.38-.64 2.39-1.34 3.1-.86.86-2.2 1.8-4.54 1.8-3.62 0-6.45-2.92-6.45-6.54s2.83-6.54 6.45-6.54c1.95 0 3.38.77 4.43 1.76L15.4 2.5C13.94 1.08 11.98 0 9.24 0 4.28 0 .11 4.04.11 9s4.17 9 9.13 9c2.68 0 4.7-.88 6.28-2.52 1.62-1.62 2.13-3.91 2.13-5.75 0-.57-.04-1.1-.13-1.54H9.24z"/>
+              <path fill="#EA4335" d="M25 6.19c-3.21 0-5.83 2.44-5.83 5.81 0 3.34 2.62 5.81 5.83 5.81s5.83-2.46 5.83-5.81c0-3.37-2.62-5.81-5.83-5.81zm0 9.33c-1.76 0-3.28-1.45-3.28-3.52 0-2.09 1.52-3.52 3.28-3.52s3.28 1.43 3.28 3.52c0 2.07-1.52 3.52-3.28 3.52z"/>
+              <path fill="#FBBC05" d="M38 6.19c-3.21 0-5.83 2.44-5.83 5.81 0 3.34 2.62 5.81 5.83 5.81s5.83-2.46 5.83-5.81c0-3.37-2.62-5.81-5.83-5.81zm0 9.33c-1.76 0-3.28-1.45-3.28-3.52 0-2.09 1.52-3.52 3.28-3.52s3.28 1.43 3.28 3.52c0 2.07-1.52 3.52-3.28 3.52z"/>
+              <path fill="#4285F4" d="M53.58 7.49h-.09c-.57-.68-1.67-1.3-3.06-1.3C47.53 6.19 45 8.72 45 12c0 3.26 2.53 5.81 5.43 5.81 1.39 0 2.49-.62 3.06-1.32h.09v.81c0 2.22-1.19 3.41-3.1 3.41-1.56 0-2.53-1.12-2.93-2.07l-2.22.92c.64 1.54 2.33 3.43 5.15 3.43 2.99 0 5.52-1.76 5.52-6.05V6.49h-2.42v1zm-2.93 8.03c-1.76 0-3.1-1.5-3.1-3.52 0-2.05 1.34-3.52 3.1-3.52 1.74 0 3.1 1.5 3.1 3.54.01 2.03-1.36 3.5-3.1 3.5z"/>
+              <path fill="#34A853" d="M58 .24h2.51v17.57H58z"/>
+              <path fill="#EA4335" d="M68.26 15.52c-1.3 0-2.22-.59-2.82-1.76l7.77-3.21-.26-.66c-.48-1.3-1.96-3.7-4.97-3.7-2.99 0-5.48 2.35-5.48 5.81 0 3.26 2.46 5.81 5.76 5.81 2.66 0 4.2-1.63 4.84-2.57l-1.98-1.32c-.66.96-1.56 1.6-2.86 1.6zm-.18-7.15c1.03 0 1.91.53 2.2 1.28l-5.25 2.17c0-2.44 1.73-3.45 3.05-3.45z"/>
+            </svg>
+          </a>
+
+          <span class="ref-platform-sep" aria-hidden="true"></span>
+
+          <!-- Platform 3: Bookmundi -->
+          <a href="reviews.html" class="ref-platform-logo-link" title="Bookmundi" target="_blank" rel="noopener">
+            <span class="bookmundi-badge">
+              <span>RECOMMENDED ON</span>
+              <span>Bookmundi</span>
+            </span>
+          </a>
+
+          <span class="ref-platform-sep" aria-hidden="true"></span>
+
+          <!-- Platform 4: Myrealtrip -->
+          <a href="reviews.html" class="ref-platform-logo-link" title="Myrealtrip" target="_blank" rel="noopener">
+            <span class="myrealtrip-text">Myrealtrip</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Head Office, Worldwide Representatives, and Award -->
+    <section class="ref-footer-lower" aria-label="Head Office and Representatives">
+      <div class="ref-lower-container">
+        <div class="ref-lower-grid">
+          
+          <!-- Column A: Head Office -->
+          <div class="ref-office-col">
+            <span class="ref-office-badge">HEAD OFFICE</span>
+            <div class="ref-office-address">Aja Swan Marg, Geetanjali Chowk, Ward 16, Kathmandu, Nepal</div>
+            
+            <div class="ref-office-info-list">
+              <div class="ref-office-info-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span><a href="tel:+9779860843980">+977 9860843980</a></span>
+              </div>
+              <div class="ref-office-info-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>Time: 09:00 AM to 07:00 PM</span>
+              </div>
+              <div class="ref-office-info-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <a href="mailto:info@igloohimalayatreks.com">info@igloohimalayatreks.com</a>
+              </div>
+            </div>
+
+            <div class="ref-emergency-block">
+              <div class="ref-emergency-title">Emergency SOS (24/7)</div>
+              <div>WhatsApp: <a href="https://wa.me/9779860843980" target="_blank" rel="noopener">+977 9860843980</a></div>
+              <div>Mobile: <a href="tel:+9779860843980">+977 9860843980</a></div>
+            </div>
+          </div>
+
+          <!-- Column B: Speak with Our Worldwide Representative -->
+          <div class="ref-reps-col">
+            <h3 class="ref-reps-heading">Speak with our worldwide representative</h3>
+            <div class="ref-reps-grid">
+              
+              <!-- Rep 1: Surya Lama (Nepal) -->
+              <div class="ref-rep-card">
+                <a href="team/surya-lama.html" title="View Surya Lama Profile">
+                  <img src="images/surya-lama.webp" alt="Surya Lama - Founder & Managing Director" class="ref-rep-avatar" width="36" height="36" loading="lazy">
+                </a>
+                <div class="ref-rep-details">
+                  <span class="ref-rep-country">NEPAL</span>
+                  <div class="ref-rep-meta">
+                    <a href="team/surya-lama.html" class="ref-rep-name">Surya</a>
+                    <a href="tel:+9779860843980" class="ref-rep-phone">+977 9860843980</a>
+                    <a href="https://wa.me/9779860843980?text=Hello%20Surya%20Lama%2C%20I%20would%20like%20to%20inquire%20about%20a%20trek" target="_blank" rel="noopener" class="ref-wa-badge" aria-label="WhatsApp Surya">
+                      <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Rep 2: Sujan Tamang (Nepal) -->
+              <div class="ref-rep-card">
+                <a href="team/sujan-tamang.html" title="View Sujan Tamang Profile">
+                  <img src="images/sujan-tamang-trekking-guide-in-nepal.webp" alt="Sujan Tamang - Senior Trekking Guide" class="ref-rep-avatar" width="36" height="36" loading="lazy">
+                </a>
+                <div class="ref-rep-details">
+                  <span class="ref-rep-country">NEPAL</span>
+                  <div class="ref-rep-meta">
+                    <a href="team/sujan-tamang.html" class="ref-rep-name">Sujan</a>
+                    <a href="tel:+9779860843980" class="ref-rep-phone">+977 9860843980</a>
+                    <a href="https://wa.me/9779860843980?text=Hello%20Sujan%20Tamang%2C%20I%20would%20like%20to%20inquire%20about%20a%20trek" target="_blank" rel="noopener" class="ref-wa-badge" aria-label="WhatsApp Sujan">
+                      <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Rep 3: Elise Yuan (USA) -->
+              <div class="ref-rep-card">
+                <a href="team/elise-yuan.html" title="View Elise Yuan Profile">
+                  <img src="images/elise-yuan.webp" alt="Elise Yuan - USA Representative" class="ref-rep-avatar" width="36" height="36" loading="lazy">
+                </a>
+                <div class="ref-rep-details">
+                  <span class="ref-rep-country">USA</span>
+                  <div class="ref-rep-meta">
+                    <a href="team/elise-yuan.html" class="ref-rep-name">Elise</a>
+                    <a href="team/elise-yuan.html" class="ref-rep-phone">Representative</a>
+                    <a href="https://wa.me/9779860843980?text=Hello%2C%20I%20would%20like%20to%20connect%20with%20Elise%20Yuan%20(USA%20Representative)" target="_blank" rel="noopener" class="ref-wa-badge" aria-label="WhatsApp Elise">
+                      <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Rep 4: Tom Wangdel (Germany) -->
+              <div class="ref-rep-card">
+                <a href="team/tom-wangdel.html" title="View Tom Wangdel Profile">
+                  <img src="images/tom-wangdel.webp" alt="Tom Wangdel - Germany Representative" class="ref-rep-avatar" width="36" height="36" loading="lazy">
+                </a>
+                <div class="ref-rep-details">
+                  <span class="ref-rep-country">GERMANY</span>
+                  <div class="ref-rep-meta">
+                    <a href="team/tom-wangdel.html" class="ref-rep-name">Tom</a>
+                    <a href="team/tom-wangdel.html" class="ref-rep-phone">Representative</a>
+                    <a href="https://wa.me/9779860843980?text=Hello%2C%20I%20would%20like%20to%20connect%20with%20Tom%20Wangdel%20(Germany%20Representative)" target="_blank" rel="noopener" class="ref-wa-badge" aria-label="WhatsApp Tom">
+                      <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Rep 5: Emelita Sindac Dalangin (Philippines) -->
+              <div class="ref-rep-card">
+                <a href="team/emelita-sindac-dalangin.html" title="View Emelita Sindac Dalangin Profile">
+                  <img src="images/emelita-sindac-dalangin.webp" alt="Emelita Sindac Dalangin - Philippines Representative" class="ref-rep-avatar" width="36" height="36" loading="lazy">
+                </a>
+                <div class="ref-rep-details">
+                  <span class="ref-rep-country">PHILIPPINES</span>
+                  <div class="ref-rep-meta">
+                    <a href="team/emelita-sindac-dalangin.html" class="ref-rep-name">Emelita</a>
+                    <a href="team/emelita-sindac-dalangin.html" class="ref-rep-phone">Representative</a>
+                    <a href="https://wa.me/9779860843980?text=Hello%2C%20I%20would%20like%20to%20connect%20with%20Emelita%20Dalangin%20(Philippines%20Representative)" target="_blank" rel="noopener" class="ref-wa-badge" aria-label="WhatsApp Emelita">
+                      <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Rep 6: Muhamad Danial (Malaysia) -->
+              <div class="ref-rep-card">
+                <a href="team/muhamad-danial.html" title="View Muhamad Danial Profile">
+                  <img src="images/muhamad-danial.webp" alt="Muhamad Danial - Malaysia Representative" class="ref-rep-avatar" width="36" height="36" loading="lazy">
+                </a>
+                <div class="ref-rep-details">
+                  <span class="ref-rep-country">MALAYSIA</span>
+                  <div class="ref-rep-meta">
+                    <a href="team/muhamad-danial.html" class="ref-rep-name">Danial</a>
+                    <a href="team/muhamad-danial.html" class="ref-rep-phone">Representative</a>
+                    <a href="https://wa.me/9779860843980?text=Hello%20Igloo%20Himalaya%2C%20I%20would%20like%20to%20connect%20with%20Muhamad%20Danial%20(Malaysia%20Representative)" target="_blank" rel="noopener" class="ref-wa-badge" aria-label="WhatsApp Danial">
+                      <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Column C: Award -->
+          <div class="ref-award-col">
+            <a href="reviews.html" class="ref-award-link" title="Tripadvisor Travelers' Choice 2026 Best of the Best">
+              <img src="images/travelers-choice-2026.svg" alt="Tripadvisor Travelers' Choice 2026 Best of the Best" class="ref-award-badge-img" width="140" height="150" loading="lazy">
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Copyright and Legal Links -->
+    <div class="ref-footer-copyright">
+      <div class="ref-copyright-container">
+        <p class="ref-copyright-text">© 2026 Igloo Himalaya Treks. All rights reserved.</p>
+        <div class="ref-legal-links">
           <a href="privacy-policy.html">Privacy Policy</a>
-          <a href="terms-and-conditions.html">Terms & Conditions</a>
+          <span class="ref-legal-sep" aria-hidden="true">|</span>
+          <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+          <span class="ref-legal-sep" aria-hidden="true">|</span>
+          <a href="legal-documents.html">Legal Documents</a>
         </div>
       </div>
-
     </div>
 
-    <!-- Giant Watermark Brand Typography at Bottom -->
-    <div class="watermark-brand-container">
-      <div class="watermark-brand-text">IGLOO HIMALAYA.</div>
-    </div>
   </footer>
 
   <script src="js/nepal-trek-packages.js"></script>
   <script type="module" src="js/inquiry-modal.js"></script>
   <script src="js/header-scroll.js?v=37"></script>
   <script src="js/mega-menu.js"></script>
+  <script defer src="js/footer-interactions.js"></script>
 </body>
 </html>

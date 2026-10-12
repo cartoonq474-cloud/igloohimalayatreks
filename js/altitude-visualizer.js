@@ -17,6 +17,27 @@ const trekAltitudeProfiles = {
       { day: "Day 13", spot: "Kathmandu", altitudeM: 1300, altitudeFt: 4265 }
     ]
   },
+  "ebc_16": {
+    name: "Everest Base Camp Trek (16 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Kathmandu (Sightseeing)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 3", spot: "Phakding", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 4", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 5", spot: "Everest View Hotel", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 6", spot: "Tengboche", altitudeM: 3860, altitudeFt: 12664 },
+      { day: "Day 7", spot: "Dingboche", altitudeM: 4410, altitudeFt: 14468 },
+      { day: "Day 8", spot: "Nangkartshang Peak", altitudeM: 5083, altitudeFt: 16676 },
+      { day: "Day 9", spot: "Lobuche", altitudeM: 4940, altitudeFt: 16207 },
+      { day: "Day 10", spot: "Everest Base Camp", altitudeM: 5364, altitudeFt: 17598 },
+      { day: "Day 11", spot: "Kala Patthar (5,545m) / Pheriche", altitudeM: 5545, altitudeFt: 18192 },
+      { day: "Day 12", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 13", spot: "Lukla", altitudeM: 2840, altitudeFt: 9317 },
+      { day: "Day 14", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 15", spot: "Kathmandu (Buffer Day)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 16", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
   "abc": {
     name: "Annapurna Base Camp Trek",
     points: [

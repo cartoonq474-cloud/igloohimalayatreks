@@ -423,7 +423,7 @@ function setupReadTracker(trekKey) {
       } else if (readCount < totalCount) {
         statusText.textContent = 'Almost there — well prepared!';
       } else {
-        statusText.textContent = 'All read — you are ready to trek! 🚀';
+        statusText.textContent = 'All read — you are ready to trek!';
       }
     }
 
