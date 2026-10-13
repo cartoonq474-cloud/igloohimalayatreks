@@ -276,6 +276,15 @@ function setupBookingCalculator() {
   const heliPriceVal = parseFloat(calcContainer.getAttribute('data-heli-price') || '800');
   const singlePriceVal = parseFloat(calcContainer.getAttribute('data-single-price') || '250');
 
+  function formatPrice(val) {
+    const currencySymbols = { USD: "$", EUR: "€", GBP: "£", NPR: "Rs." };
+    const activeCurr = typeof getCurrentCurrency === 'function' ? getCurrentCurrency() : 'USD';
+    const symbol = currencySymbols[activeCurr] || "$";
+    const rate = (window.fxRates && window.fxRates[activeCurr]) || 1;
+    const converted = Math.round(val * rate);
+    return `${symbol}${converted.toLocaleString()}`;
+  }
+
   function calculate() {
     const groupSize = parseInt(groupSizeInput.value) || 1;
     const isHeliChecked = heliCheckbox ? heliCheckbox.checked : false;

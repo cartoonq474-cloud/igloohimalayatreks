@@ -9763,6 +9763,23 @@ textarea {
   gap: 28px;
 }
 
+/* 4-Card Responsive Grid Layout */
+.yml-cards-grid.yml-grid-4,
+.yml-cards-grid.grid-4,
+.yml-cards-grid:has(> :nth-child(4):last-child) {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 1200px) {
+  .yml-cards-grid.yml-grid-4,
+  .yml-cards-grid.grid-4,
+  .yml-cards-grid:has(> :nth-child(4):last-child) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
 @media (max-width: 1024px) {
   .yml-cards-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -9771,7 +9788,10 @@ textarea {
 }
 
 @media (max-width: 640px) {
-  .yml-cards-grid {
+  .yml-cards-grid,
+  .yml-cards-grid.yml-grid-4,
+  .yml-cards-grid.grid-4,
+  .yml-cards-grid:has(> :nth-child(4):last-child) {
     grid-template-columns: 1fr;
     gap: 20px;
   }

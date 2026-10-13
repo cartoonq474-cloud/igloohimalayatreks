@@ -38,6 +38,66 @@ const trekAltitudeProfiles = {
       { day: "Day 16", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
     ]
   },
+  "ebc_heli": {
+    name: "Everest Base Camp Trek with Helicopter Return (12 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Phakding (via Lukla)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 3", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 4", spot: "Hotel Everest View / Namche", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Tengboche Monastery", altitudeM: 3860, altitudeFt: 12664 },
+      { day: "Day 6", spot: "Dingboche", altitudeM: 4410, altitudeFt: 14468 },
+      { day: "Day 7", spot: "Nangkartshang Peak / Dingboche", altitudeM: 5083, altitudeFt: 16676 },
+      { day: "Day 8", spot: "Lobuche", altitudeM: 4940, altitudeFt: 16207 },
+      { day: "Day 9", spot: "Everest Base Camp / Gorak Shep", altitudeM: 5364, altitudeFt: 17598 },
+      { day: "Day 10", spot: "Kala Patthar (5,545m) & Heli Flight to KTM", altitudeM: 5545, altitudeFt: 18192 },
+      { day: "Day 11", spot: "Kathmandu (Buffer Day)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 12", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "gokyo_renjo_la": {
+    name: "Gokyo Lake with Renjo La Pass Trek (14 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Phakding (via Lukla)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 3", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 4", spot: "Hotel Everest View / Namche", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Dole (via Mong La)", altitudeM: 4110, altitudeFt: 13484 },
+      { day: "Day 6", spot: "Machhermo", altitudeM: 4470, altitudeFt: 14665 },
+      { day: "Day 7", spot: "Gokyo 3rd Lake", altitudeM: 4790, altitudeFt: 15715 },
+      { day: "Day 8", spot: "Gokyo Ri (5,357m) & 4th Lake", altitudeM: 5357, altitudeFt: 17575 },
+      { day: "Day 9", spot: "Renjo La (5,360m) / Lungden", altitudeM: 5360, altitudeFt: 17585 },
+      { day: "Day 10", spot: "Thame (via Marlung)", altitudeM: 3820, altitudeFt: 12532 },
+      { day: "Day 11", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 12", spot: "Lukla", altitudeM: 2840, altitudeFt: 9317 },
+      { day: "Day 13", spot: "Kathmandu Flight", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 14", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "ebc_island_peak": {
+    name: "Everest Base Camp Trek with Island Peak Climb (19 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu (Arrival)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Phakding (via Lukla)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 3", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 4", spot: "Hotel Everest View / Namche", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Tengboche Monastery", altitudeM: 3867, altitudeFt: 12687 },
+      { day: "Day 6", spot: "Dingboche", altitudeM: 4410, altitudeFt: 14468 },
+      { day: "Day 7", spot: "Nangkartshang Peak (5,083m) / Dingboche", altitudeM: 5083, altitudeFt: 16676 },
+      { day: "Day 8", spot: "Lobuche (via Thokla Pass)", altitudeM: 4940, altitudeFt: 16207 },
+      { day: "Day 9", spot: "Gorak Shep & Everest Base Camp", altitudeM: 5364, altitudeFt: 17598 },
+      { day: "Day 10", spot: "Kala Patthar (5,545m) & Dingboche", altitudeM: 5545, altitudeFt: 18192 },
+      { day: "Day 11", spot: "Chhukung & Glacier Climbing Clinic", altitudeM: 4730, altitudeFt: 15518 },
+      { day: "Day 12", spot: "Island Peak Base Camp", altitudeM: 5200, altitudeFt: 17060 },
+      { day: "Day 13", spot: "SUMMIT Island Peak (6,189m) & Chhukung", altitudeM: 6189, altitudeFt: 20305 },
+      { day: "Day 14", spot: "Weather Reserve / Contingency Day", altitudeM: 4730, altitudeFt: 15518 },
+      { day: "Day 15", spot: "Pangboche", altitudeM: 3930, altitudeFt: 12894 },
+      { day: "Day 16", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 17", spot: "Lukla", altitudeM: 2840, altitudeFt: 9317 },
+      { day: "Day 18", spot: "Kathmandu Flight & Celebration", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 19", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
   "abc": {
     name: "Annapurna Base Camp Trek",
     points: [
@@ -55,14 +115,19 @@ const trekAltitudeProfiles = {
     ]
   },
   "abc_heli": {
-    name: "Annapurna Base Camp Heli Return Trek",
+    name: "Annapurna Base Camp Trek Heli Return (11 Days)",
     points: [
-      { day: "Day 1", spot: "Pokhara / Chhomrong", altitudeM: 2170 },
-      { day: "Day 2", spot: "Bamboo", altitudeM: 2310 },
-      { day: "Day 3", spot: "Deurali", altitudeM: 3230 },
-      { day: "Day 4", spot: "MBC (Machhapuchhre)", altitudeM: 3700 },
-      { day: "Day 5", spot: "ABC (Annapurna Base Camp)", altitudeM: 4130 },
-      { day: "Day 6", spot: "Heli Flight to Pokhara", altitudeM: 822 }
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1350 },
+      { day: "Day 2", spot: "Pokhara", altitudeM: 827 },
+      { day: "Day 3", spot: "Ulleri", altitudeM: 2050 },
+      { day: "Day 4", spot: "Ghorepani", altitudeM: 2860 },
+      { day: "Day 5", spot: "Poon Hill (3,210m) / Chuile", altitudeM: 3210 },
+      { day: "Day 6", spot: "Lower Sinuwa", altitudeM: 2200 },
+      { day: "Day 7", spot: "Deurali", altitudeM: 3230 },
+      { day: "Day 8", spot: "Annapurna Base Camp (ABC)", altitudeM: 4130 },
+      { day: "Day 9", spot: "Pokhara (Heli Return)", altitudeM: 827 },
+      { day: "Day 10", spot: "Kathmandu (Flight)", altitudeM: 1350 },
+      { day: "Day 11", spot: "Kathmandu (Departure)", altitudeM: 1350 }
     ]
   },
   "short_abc": {
@@ -147,6 +212,28 @@ const trekAltitudeProfiles = {
       { day: "Day 12", spot: "Pokhara", altitudeM: 820 },
       { day: "Day 13", spot: "Kathmandu", altitudeM: 1400 },
       { day: "Day 14", spot: "Departure", altitudeM: 1400 }
+    ]
+  },
+  "classic_circuit": {
+    name: "Classic Annapurna Circuit Trek (17 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1350 },
+      { day: "Day 2", spot: "Jagat", altitudeM: 1310 },
+      { day: "Day 3", spot: "Dharapani", altitudeM: 1855 },
+      { day: "Day 4", spot: "Chame", altitudeM: 2670 },
+      { day: "Day 5", spot: "Upper Pisang", altitudeM: 3300 },
+      { day: "Day 6", spot: "Manang via Ngawal", altitudeM: 3550 },
+      { day: "Day 7", spot: "Manang (Acclimatisation)", altitudeM: 3550 },
+      { day: "Day 8", spot: "Yak Kharka", altitudeM: 4045 },
+      { day: "Day 9", spot: "Thorong Phedi", altitudeM: 4445 },
+      { day: "Day 10", spot: "Thorong La Pass (5,416m) / Muktinath", altitudeM: 5416 },
+      { day: "Day 11", spot: "Marpha", altitudeM: 2580 },
+      { day: "Day 12", spot: "Ghasa", altitudeM: 2040 },
+      { day: "Day 13", spot: "Tatopani", altitudeM: 1190 },
+      { day: "Day 14", spot: "Ghorepani", altitudeM: 2860 },
+      { day: "Day 15", spot: "Poon Hill (3,210m) / Pokhara", altitudeM: 3210 },
+      { day: "Day 16", spot: "Kathmandu", altitudeM: 1350 },
+      { day: "Day 17", spot: "Departure", altitudeM: 1350 }
     ]
   },
   "manaslu": {
@@ -303,6 +390,7 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
         <select id="altitude-trek-selector" class="control-select" style="background: #ffffff; color: var(--color-primary-navy); border: 1px solid #cbd5e1; border-radius: 8px; padding: 8px 12px; font-size: 0.9rem; font-weight: 600; cursor: pointer; outline: none; transition: border-color var(--transition-fast);">
           <option value="ebc" ${trekKey === 'ebc' ? 'selected' : ''}>Everest Base Camp</option>
           <option value="abc" ${trekKey === 'abc' ? 'selected' : ''}>Annapurna Base Camp</option>
+          <option value="classic_circuit" ${trekKey === 'classic_circuit' ? 'selected' : ''}>Classic Annapurna Circuit (17 Days)</option>
           <option value="annapurna_circuit" ${trekKey === 'annapurna_circuit' ? 'selected' : ''}>Annapurna Circuit</option>
           <option value="manaslu" ${trekKey === 'manaslu' ? 'selected' : ''}>Manaslu Circuit</option>
           <option value="langtang" ${trekKey === 'langtang' ? 'selected' : ''}>Langtang Valley</option>
