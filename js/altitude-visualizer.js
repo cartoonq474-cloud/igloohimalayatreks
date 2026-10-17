@@ -142,42 +142,52 @@ const trekAltitudeProfiles = {
     ]
   },
   "poonhill_mardi": {
-    name: "Ghorepani Poon Hill & Mardi Himal Trek",
+    name: "Ghorepani Poon Hill with Mardi Himal Trek (12 Days)",
     points: [
-      { day: "Day 1", spot: "Pokhara / Tikhedhunga", altitudeM: 1540 },
-      { day: "Day 2", spot: "Ghorepani", altitudeM: 2874 },
-      { day: "Day 3", spot: "Poon Hill (3,210m) / Tadapani", altitudeM: 2630 },
-      { day: "Day 4", spot: "Landruk", altitudeM: 1565 },
-      { day: "Day 5", spot: "Forest Camp", altitudeM: 2550 },
-      { day: "Day 6", spot: "High Camp", altitudeM: 3580 },
-      { day: "Day 7", spot: "Mardi Upper Viewpoint", altitudeM: 4250 },
-      { day: "Day 8", spot: "Siding / Pokhara", altitudeM: 822 }
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 2", spot: "Pokhara", altitudeM: 820 },
+      { day: "Day 3", spot: "Ulleri", altitudeM: 1980 },
+      { day: "Day 4", spot: "Ghorepani", altitudeM: 2874 },
+      { day: "Day 5", spot: "Tadapani", altitudeM: 2630 },
+      { day: "Day 6", spot: "Landruk", altitudeM: 1560 },
+      { day: "Day 7", spot: "Forest Camp", altitudeM: 2550 },
+      { day: "Day 8", spot: "High Camp", altitudeM: 3540 },
+      { day: "Day 9", spot: "Badal Danda", altitudeM: 3300 },
+      { day: "Day 10", spot: "Pokhara", altitudeM: 820 },
+      { day: "Day 11", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 12", spot: "Departure", altitudeM: 1400 }
     ]
   },
   "abc_mardi": {
-    name: "Annapurna Base Camp & Mardi Himal Combo",
+    name: "ABC With Mardi Himal Trek (13 Days)",
     points: [
-      { day: "Day 1", spot: "Pokhara / Chhomrong", altitudeM: 2170 },
-      { day: "Day 2", spot: "Dovan / Deurali", altitudeM: 3230 },
-      { day: "Day 3", spot: "MBC", altitudeM: 3700 },
-      { day: "Day 4", spot: "ABC (Annapurna Base Camp)", altitudeM: 4130 },
-      { day: "Day 5", spot: "Bamboo", altitudeM: 2310 },
-      { day: "Day 6", spot: "Landruk", altitudeM: 1565 },
-      { day: "Day 7", spot: "Forest Camp", altitudeM: 2550 },
-      { day: "Day 8", spot: "High Camp", altitudeM: 3580 },
-      { day: "Day 9", spot: "Mardi Viewpoint", altitudeM: 4250 },
-      { day: "Day 10", spot: "Siding / Pokhara", altitudeM: 822 }
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 2", spot: "Pokhara", altitudeM: 820 },
+      { day: "Day 3", spot: "Sinuwa", altitudeM: 2280 },
+      { day: "Day 4", spot: "Deurali", altitudeM: 3210 },
+      { day: "Day 5", spot: "Annapurna Base Camp", altitudeM: 4130 },
+      { day: "Day 6", spot: "Bamboo", altitudeM: 2310 },
+      { day: "Day 7", spot: "Jhinu Danda", altitudeM: 1780 },
+      { day: "Day 8", spot: "Rest Camp", altitudeM: 2605 },
+      { day: "Day 9", spot: "High Camp", altitudeM: 3540 },
+      { day: "Day 10", spot: "Badal Danda", altitudeM: 3300 },
+      { day: "Day 11", spot: "Pokhara", altitudeM: 820 },
+      { day: "Day 12", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 13", spot: "Departure", altitudeM: 1400 }
     ]
   },
   "annapurna_luxury": {
-    name: "Annapurna Luxury Lodge Trek",
+    name: "Annapurna Luxury Trek (9 Days)",
     points: [
-      { day: "Day 1", spot: "Pokhara", altitudeM: 822 },
-      { day: "Day 2", spot: "Sanctuary Lodge (Birethanti)", altitudeM: 1100 },
-      { day: "Day 3", spot: "Gurung Lodge (Majgaun)", altitudeM: 1400 },
-      { day: "Day 4", spot: "Tanchok Nature Walk", altitudeM: 1450 },
-      { day: "Day 5", spot: "Basanta Lodge (Dhampus)", altitudeM: 1650 },
-      { day: "Day 6", spot: "Pokhara Luxury Resort", altitudeM: 822 }
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1350 },
+      { day: "Day 2", spot: "Kathmandu (Sightseeing)", altitudeM: 1350 },
+      { day: "Day 3", spot: "Birethanti", altitudeM: 1025 },
+      { day: "Day 4", spot: "Ghandruk", altitudeM: 1940 },
+      { day: "Day 5", spot: "Landruk", altitudeM: 1565 },
+      { day: "Day 6", spot: "Dhampus", altitudeM: 1700 },
+      { day: "Day 7", spot: "Pokhara", altitudeM: 827 },
+      { day: "Day 8", spot: "Kathmandu", altitudeM: 1350 },
+      { day: "Day 9", spot: "Departure", altitudeM: 1350 }
     ]
   },
   "circuit_luxury": {
@@ -316,6 +326,38 @@ const trekAltitudeProfiles = {
       { day: "Day 12", spot: "Jomsom", altitudeM: 2720 },
       { day: "Day 13", spot: "Pokhara", altitudeM: 822 }
     ]
+  },
+  "mohare_danda": {
+    name: "Mohare Danda Trek (9 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 2", spot: "Pokhara", altitudeM: 822 },
+      { day: "Day 3", spot: "Banskharka", altitudeM: 1525 },
+      { day: "Day 4", spot: "Nangi Village", altitudeM: 2300 },
+      { day: "Day 5", spot: "Mohare Danda", altitudeM: 3300 },
+      { day: "Day 6", spot: "Tikot Village", altitudeM: 2300 },
+      { day: "Day 7", spot: "Pokhara", altitudeM: 822 },
+      { day: "Day 8", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 9", spot: "Departure", altitudeM: 1400 }
+    ]
+  },
+  "nar_phu": {
+    name: "Nar Phu Valley Trek (13 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 2", spot: "Dharapani", altitudeM: 1860 },
+      { day: "Day 3", spot: "Koto", altitudeM: 2600 },
+      { day: "Day 4", spot: "Meta", altitudeM: 3560 },
+      { day: "Day 5", spot: "Phu Village", altitudeM: 4050 },
+      { day: "Day 6", spot: "Explore Phu", altitudeM: 4050 },
+      { day: "Day 7", spot: "Nar Phedi", altitudeM: 3500 },
+      { day: "Day 8", spot: "Nar Village", altitudeM: 4100 },
+      { day: "Day 9", spot: "Kang La Pass", altitudeM: 5320 },
+      { day: "Day 10", spot: "Besisahar", altitudeM: 760 },
+      { day: "Day 11", spot: "Besisahar (TBC)", altitudeM: 760 },
+      { day: "Day 12", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 13", spot: "Departure", altitudeM: 1400 }
+    ]
   }
 };
 
@@ -388,15 +430,7 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
       <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
         <!-- Trek Selector -->
         <select id="altitude-trek-selector" class="control-select" style="background: #ffffff; color: var(--color-primary-navy); border: 1px solid #cbd5e1; border-radius: 8px; padding: 8px 12px; font-size: 0.9rem; font-weight: 600; cursor: pointer; outline: none; transition: border-color var(--transition-fast);">
-          <option value="ebc" ${trekKey === 'ebc' ? 'selected' : ''}>Everest Base Camp</option>
-          <option value="abc" ${trekKey === 'abc' ? 'selected' : ''}>Annapurna Base Camp</option>
-          <option value="classic_circuit" ${trekKey === 'classic_circuit' ? 'selected' : ''}>Classic Annapurna Circuit (17 Days)</option>
-          <option value="annapurna_circuit" ${trekKey === 'annapurna_circuit' ? 'selected' : ''}>Annapurna Circuit</option>
-          <option value="manaslu" ${trekKey === 'manaslu' ? 'selected' : ''}>Manaslu Circuit</option>
-          <option value="langtang" ${trekKey === 'langtang' ? 'selected' : ''}>Langtang Valley</option>
-          <option value="poonhill" ${trekKey === 'poonhill' ? 'selected' : ''}>Ghorepani Poon Hill</option>
-          <option value="gokyo" ${trekKey === 'gokyo' ? 'selected' : ''}>Gokyo Lakes & Cho La</option>
-          <option value="mustang" ${trekKey === 'mustang' ? 'selected' : ''}>Upper Mustang</option>
+          ${Object.entries(trekAltitudeProfiles).map(([key, data]) => `<option value="${key}" ${trekKey === key ? 'selected' : ''}>${data.name}</option>`).join('')}
         </select>
 
         <!-- Inline Unit Selector Toggle -->

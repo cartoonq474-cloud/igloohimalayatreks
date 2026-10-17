@@ -255,6 +255,7 @@
   display: flex;
   align-items: center;
   gap: 9px;
+  flex-wrap: wrap;
 }
 
 .ref-social-icon {
@@ -851,6 +852,14 @@
   text-transform: uppercase;
   letter-spacing: 0.02em;
   margin-bottom: 12px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a.ref-office-address:hover,
+a.ref-office-address:focus-visible {
+  color: #00D9F2;
+  text-decoration: underline;
 }
 
 .ref-office-info-list {

@@ -11,6 +11,15 @@ This skill provides the comprehensive design system, component hierarchy, techni
 
 ## 1. Core Principles & Repository Standards
 
+> [!IMPORTANT]
+> **MANDATORY QUALITY RULES**: Before developing or editing any trek page, you MUST adhere to [trek-page-quality-rules.md](file:///c:/Users/ASUS/Desktop/igloohimalayatreks/.agents/rules/trek-page-quality-rules.md) to eliminate all past mistakes:
+> 1. **Both Columns Mandatory**: Never omit `.trek-sidebar-col` (`.sidebar-booking-card`) or `#inquiry-modal`.
+> 2. **No Orphan Classes**: Verify all CSS classes exist in `index.css` before using them.
+> 3. **Preserve JS Hooks**: Keep `data-altitude-m`, `data-tab`, `data-trek-details-wrapper`, and modal triggers intact.
+> 4. **Single Source of Truth**: Keep pricing, duration, altitude, and facts 100% consistent across Schema, Hero, Facts, Sidebar, and Modal.
+> 5. **Mandatory Visual Verification**: Never mark complete without verifying on desktop (1440px) and mobile (390px) via browser subagent.
+> 6. **Highlights Component**: Strict adherence to Nar Phu Valley gold standard (no wireframe triangles `<polygon>`, emerald circular check badges, `<h2>` heading).
+
 Every trek package detail page must adhere to these non-negotiable architectural and design rules:
 
 1. **Brand Identity & Design System**:
@@ -84,64 +93,30 @@ graph TD
 
 ## 3. Component Architecture & Production Blueprints
 
-### A. Highlights Grid (Side-by-Side Flex Layout)
-The highlights items must never stack the icon above the text. Use the scoped `.rich-highlights-grid` styles:
+### A. Highlights Section (Nar Phu Valley Gold Standard)
+> [!CAUTION]
+> NEVER output bare unstyled wireframe triangles (`<polygon points="12 2 2 22 22 22"></polygon>`) or invent classes like `.rich-highlights-grid` without them existing in `index.css`. Doing so drops an unstyled open triangle icon on top of text!
+> Always use the Nar Phu Valley gold standard: a clean `#F8FAFC` card container, an `<h2>` heading with the copper-orange star icon, an auto-fit 2-column flex grid (`minmax(320px, 1fr)`), and emerald green circular checkmark badges:
 
 ```html
-<div class="rich-highlights-container">
-  <div class="rich-highlights-header">
-    <div class="rich-highlights-title-group">
-      <span class="rich-highlights-accent-bar"></span>
-      <h3 class="rich-highlights-title">Trek Highlights</h3>
-    </div>
-  </div>
-  <div class="rich-highlights-grid">
-    <div class="rich-highlight-item">
-      <div class="rich-highlight-icon-wrapper">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <polygon points="12 2 2 22 22 22"></polygon>
+<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 30px;">
+  <h2 style="font-size: 1.25rem; font-weight: 700; color: var(--color-primary-navy); margin-bottom: 18px; display: flex; align-items: center; gap: 8px;">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--color-copper-orange)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+    </svg>
+    {Trek Title} Highlights
+  </h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 14px;">
+    <div style="display: flex; align-items: flex-start; gap: 12px;">
+      <div style="width: 24px; height: 24px; background: #ECFDF5; border: 1px solid #10B981; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 6 9 17 4 12"></polyline>
         </svg>
       </div>
-      <div class="rich-highlight-content">
-        <h4 class="rich-highlight-title">{Highlight Title}</h4>
-        <p class="rich-highlight-desc">{Highlight description narrative.}</p>
-      </div>
+      <span style="font-size: 0.98rem; color: #334155; line-height: 1.55; font-weight: 500;">{Highlight narrative statement.}</span>
     </div>
   </div>
 </div>
-```
-
-Scoped CSS to include in `<style>`:
-```css
-.rich-highlights-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-}
-@media (max-width: 768px) {
-  .rich-highlights-grid { grid-template-columns: 1fr; }
-}
-.rich-highlight-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  background: #ffffff;
-  border: 1px solid #eef2f6;
-  border-radius: 14px;
-  padding: 16px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
-}
-.rich-highlight-icon-wrapper {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
-  background: #f0f7fa;
-  color: #1A96C8;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
 ```
 
 ---

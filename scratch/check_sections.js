@@ -1,24 +1,28 @@
 const fs = require('fs');
+const html = fs.readFileSync('trek/ghorepani-poon-hill-with-mardi-himal-trek/index.html', 'utf8');
 
-const pages = [
-  'trek/everest-base-camp-trek/index.html',
-  'trek/annapurna-circuit-trek/index.html',
-  'trek/poon-hill-abc-trek/index.html',
-  'trek/short-annapurna-base-camp-trek/index.html'
-];
+const regex = /<\/?section\b[^>]*>/g;
+let match;
+let stack = [];
+let errors = [];
 
-pages.forEach(p => {
-  const html = fs.readFileSync(p, 'utf8');
-  ['section-itinerary', 'section-faqs'].forEach(id => {
-    const reg = new RegExp('<section id=\"' + id + '\"[\\s\\S]*?<\\/section>');
-    const match = html.match(reg);
-    if (match) {
-      const secHtml = match[0];
-      const openD = (secHtml.match(/<div(\s|>)/g) || []).length;
-      const closeD = (secHtml.match(/<\/div>/g) || []).length;
-      console.log(p, id, { openD, closeD, balanced: openD === closeD });
+while ((match = regex.exec(html)) !== null) {
+  const tag = match[0];
+  const index = match.index;
+  const line = html.substring(0, index).split('\n').length;
+  if (tag.startsWith('</')) {
+    if (stack.length === 0) {
+      errors.push({ type: 'unexpected_close', line, tag });
     } else {
-      console.log(p, id, 'NOT FOUND');
+      const last = stack.pop();
     }
-  });
-});
+  } else {
+    const id = (tag.match(/id="([^"]+)"/) || [])[1] || 'no-id';
+    stack.push({ line, id, tag: tag.substring(0, 50) });
+  }
+}
+
+console.log('Unclosed sections count:', stack.length);
+stack.forEach(s => console.log('Unclosed:', s));
+console.log('Unexpected close count:', errors.length);
+errors.forEach(e => console.log('Unexpected close:', e));

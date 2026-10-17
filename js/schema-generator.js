@@ -32,10 +32,12 @@ export function injectStructuredData() {
           "longitude": 85.3240
         },
         "sameAs": [
+          "https://www.facebook.com/profile.php?id=61572406411146",
+          "https://www.instagram.com/igloohimalayatreks/",
+          "https://www.tiktok.com/@igloohimalayatreks.com",
           "https://www.linkedin.com/in/igloo-himalaya-treks-268269433/",
-          "https://www.facebook.com/igloohimalayatreks",
-          "https://www.instagram.com/igloohimalayatreks",
-          "https://www.tripadvisor.com/igloohimalayatreks"
+          "https://www.tripadvisor.in/Attraction_Review-g293890-d33042443-Reviews-Igloo_Himalaya_Treks-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+          "https://maps.app.goo.gl/ZkkNTjtTvv8gNe2F6"
         ]
       },
       {

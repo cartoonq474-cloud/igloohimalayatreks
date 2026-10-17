@@ -1,5 +1,8 @@
 const fs = require('fs');
-const html = fs.readFileSync('tour/chitwan-national-park-safari/index.html', 'utf8');
-console.log('Chitwan has #section-faqs link:', html.includes('href="#section-faqs"'));
-const links = [...html.matchAll(/<a[^>]*href=["'](#[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)];
-console.log('Subnav links:', links.map(l => `${l[1]} -> ${l[2].replace(/<[^>]+>/g, '').trim()}`));
+const html = fs.readFileSync('trek/abc-with-mardi-himal-trek/index.html', 'utf8');
+
+const matches = [...html.matchAll(/class="[^"]*trek-sub-nav[^"]*"/g)];
+matches.forEach(m => {
+  console.log('Match index:', m.index);
+  console.log(html.slice(m.index, m.index + 800));
+});
