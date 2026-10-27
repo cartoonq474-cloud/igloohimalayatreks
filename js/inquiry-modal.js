@@ -61,18 +61,24 @@ export function setupInquiryModal() {
   }
 
   const modalOverlay = document.getElementById('inquiry-modal');
-  const closeBtn = document.getElementById('modal-close-btn');
-  const modalTitle = document.getElementById('modal-trek-title');
+  const closeBtn = document.getElementById('modal-close-btn') || (modalOverlay ? modalOverlay.querySelector('.modal-close') : null);
+  const modalTitle = document.getElementById('modal-trek-title') || document.getElementById('modal-trek-title-display');
   const inquiryForm = document.getElementById('custom-inquiry-form') || document.getElementById('inquiry-form');
 
   const openModal = (title = "Custom Himalayan Trip") => {
     if (modalTitle) modalTitle.textContent = `Inquire about: ${title}`;
-    if (modalOverlay) modalOverlay.classList.add('active');
+    if (modalOverlay) {
+      modalOverlay.style.display = 'flex';
+      modalOverlay.classList.add('active');
+    }
     document.body.style.overflow = 'hidden';
   };
 
   const closeModal = () => {
-    if (modalOverlay) modalOverlay.classList.remove('active');
+    if (modalOverlay) {
+      modalOverlay.classList.remove('active');
+      modalOverlay.style.display = 'none';
+    }
     document.body.style.overflow = 'auto';
   };
 
@@ -80,6 +86,11 @@ export function setupInquiryModal() {
   document.addEventListener('click', (e) => {
     // If the click is inside a video card or video trigger, ignore inquiry modal
     if (e.target.closest('.play-video-trigger, .video-card, .video-story-card, .video-thumb-card, .how-works-video-wrapper, .video-review-card, [data-video-src], [data-video-url]')) {
+      return;
+    }
+    const closeTrigger = e.target.closest('.modal-close, #modal-close-btn, #close-inquiry-modal');
+    if (closeTrigger && modalOverlay && modalOverlay.contains(closeTrigger)) {
+      closeModal();
       return;
     }
     const btn = e.target.closest('.open-inquiry-btn, .open-inquiry-modal-btn, .open-inquiry-modal-trigger, .btn-journey-pill, [data-inquiry-type]');

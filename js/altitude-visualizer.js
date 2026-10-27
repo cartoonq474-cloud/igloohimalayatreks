@@ -20,22 +20,156 @@ const trekAltitudeProfiles = {
   "ebc_16": {
     name: "Everest Base Camp Trek (16 Days)",
     points: [
-      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
-      { day: "Day 2", spot: "Kathmandu (Sightseeing)", altitudeM: 1400, altitudeFt: 4593 },
-      { day: "Day 3", spot: "Phakding", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1350, altitudeFt: 4429 },
+      { day: "Day 2", spot: "Kathmandu (Sightseeing)", altitudeM: 1350, altitudeFt: 4429 },
+      { day: "Day 3", spot: "Phakding (via Lukla)", altitudeM: 2610, altitudeFt: 8563 },
       { day: "Day 4", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
-      { day: "Day 5", spot: "Everest View Hotel", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Hotel Everest View / Namche", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 6", spot: "Tengboche", altitudeM: 3867, altitudeFt: 12687 },
+      { day: "Day 7", spot: "Dingboche", altitudeM: 4410, altitudeFt: 14468 },
+      { day: "Day 8", spot: "Nangkartshang Viewpoint / Dingboche", altitudeM: 5083, altitudeFt: 16676 },
+      { day: "Day 9", spot: "Lobuche", altitudeM: 4940, altitudeFt: 16207 },
+      { day: "Day 10", spot: "Everest Base Camp (5,364m) / Gorak Shep", altitudeM: 5364, altitudeFt: 17598 },
+      { day: "Day 11", spot: "Kala Patthar (5,545m) / Pheriche", altitudeM: 5545, altitudeFt: 18192 },
+      { day: "Day 12", spot: "Tengboche", altitudeM: 3867, altitudeFt: 12687 },
+      { day: "Day 13", spot: "Monjo", altitudeM: 2835, altitudeFt: 9301 },
+      { day: "Day 14", spot: "Lukla", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 15", spot: "Kathmandu", altitudeM: 1350, altitudeFt: 4429 },
+      { day: "Day 16", spot: "Kathmandu (Departure)", altitudeM: 1350, altitudeFt: 4429 }
+    ]
+  },
+  "ebc_without_flight": {
+    name: "Everest Base Camp Trek Without Flight (17 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Salleri", altitudeM: 2390, altitudeFt: 7841 },
+      { day: "Day 3", spot: "Paiyun", altitudeM: 2765, altitudeFt: 9071 },
+      { day: "Day 4", spot: "Phakding", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 5", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 6", spot: "Everest View / Khumjung", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 7", spot: "Tengboche", altitudeM: 3865, altitudeFt: 12680 },
+      { day: "Day 8", spot: "Dingboche", altitudeM: 4410, altitudeFt: 14468 },
+      { day: "Day 9", spot: "Nangkartshang Viewpoint", altitudeM: 5083, altitudeFt: 16676 },
+      { day: "Day 10", spot: "Lobuche", altitudeM: 4910, altitudeFt: 16109 },
+      { day: "Day 11", spot: "Everest Base Camp / Gorak Shep", altitudeM: 5364, altitudeFt: 17598 },
+      { day: "Day 12", spot: "Kala Patthar (5,545m) / Pheriche", altitudeM: 5545, altitudeFt: 18192 },
+      { day: "Day 13", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 14", spot: "Surke Village", altitudeM: 2300, altitudeFt: 7546 },
+      { day: "Day 15", spot: "Jubing", altitudeM: 1700, altitudeFt: 5577 },
+      { day: "Day 16", spot: "Kathmandu (Drive)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 17", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "everest_three_passes": {
+    name: "Everest Three High Passes Trek (21 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Kathmandu (Prep)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 3", spot: "Phakding (via Lukla)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 4", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 5", spot: "Everest View / Namche", altitudeM: 3880, altitudeFt: 12730 },
       { day: "Day 6", spot: "Tengboche", altitudeM: 3860, altitudeFt: 12664 },
       { day: "Day 7", spot: "Dingboche", altitudeM: 4410, altitudeFt: 14468 },
-      { day: "Day 8", spot: "Nangkartshang Peak", altitudeM: 5083, altitudeFt: 16676 },
-      { day: "Day 9", spot: "Lobuche", altitudeM: 4940, altitudeFt: 16207 },
-      { day: "Day 10", spot: "Everest Base Camp", altitudeM: 5364, altitudeFt: 17598 },
-      { day: "Day 11", spot: "Kala Patthar (5,545m) / Pheriche", altitudeM: 5545, altitudeFt: 18192 },
-      { day: "Day 12", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
-      { day: "Day 13", spot: "Lukla", altitudeM: 2840, altitudeFt: 9317 },
-      { day: "Day 14", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
-      { day: "Day 15", spot: "Kathmandu (Buffer Day)", altitudeM: 1400, altitudeFt: 4593 },
-      { day: "Day 16", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
+      { day: "Day 8", spot: "Chhukung", altitudeM: 4730, altitudeFt: 15518 },
+      { day: "Day 9", spot: "Chhukung Ri (5,550m) / Chhukung", altitudeM: 5550, altitudeFt: 18209 },
+      { day: "Day 10", spot: "Kongma La (5,535m) / Lobuche", altitudeM: 5535, altitudeFt: 18159 },
+      { day: "Day 11", spot: "Everest Base Camp (5,364m) / Gorak Shep", altitudeM: 5364, altitudeFt: 17598 },
+      { day: "Day 12", spot: "Kala Patthar (5,545m) / Dzongla", altitudeM: 5545, altitudeFt: 18192 },
+      { day: "Day 13", spot: "Cho La (5,420m) / Thangnak", altitudeM: 5420, altitudeFt: 17782 },
+      { day: "Day 14", spot: "Gokyo Lakes", altitudeM: 4790, altitudeFt: 15715 },
+      { day: "Day 15", spot: "Gokyo Ri (5,357m) / Gokyo", altitudeM: 5357, altitudeFt: 17575 },
+      { day: "Day 16", spot: "Renjo La (5,360m) / Lungdhen", altitudeM: 5360, altitudeFt: 17585 },
+      { day: "Day 17", spot: "Thame", altitudeM: 3800, altitudeFt: 12467 },
+      { day: "Day 18", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 19", spot: "Lukla", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 20", spot: "Kathmandu (Flight)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 21", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "ebc_chola_gokyo": {
+    name: "EBC Chola Pass Gokyo Trek (17 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Phakding (via Lukla)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 3", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 4", spot: "Everest View / Namche", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Tengboche", altitudeM: 3860, altitudeFt: 12664 },
+      { day: "Day 6", spot: "Dingboche", altitudeM: 4410, altitudeFt: 14468 },
+      { day: "Day 7", spot: "Nangkartshang / Dingboche", altitudeM: 5083, altitudeFt: 16676 },
+      { day: "Day 8", spot: "Lobuche", altitudeM: 4910, altitudeFt: 16109 },
+      { day: "Day 9", spot: "Everest Base Camp (5,364m) / Gorak Shep", altitudeM: 5364, altitudeFt: 17598 },
+      { day: "Day 10", spot: "Kala Patthar (5,545m) / Dzongla", altitudeM: 5545, altitudeFt: 18192 },
+      { day: "Day 11", spot: "Cho La Pass (5,420m) / Thangnak", altitudeM: 5420, altitudeFt: 17782 },
+      { day: "Day 12", spot: "Gokyo Lakes & 4th Lake", altitudeM: 4790, altitudeFt: 15715 },
+      { day: "Day 13", spot: "Gokyo Ri (5,357m) / Dole", altitudeM: 5357, altitudeFt: 17575 },
+      { day: "Day 14", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 15", spot: "Lukla", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 16", spot: "Kathmandu (Flight)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 17", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "ebc_chola_renjola": {
+    name: "Everest Cho La and Renjo La Pass Trek (19 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu (1,400 m)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Phakding (2,610 m)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 3", spot: "Namche Bazaar (3,440 m)", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 4", spot: "Everest View / Namche (3,880 m)", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Tengboche (3,860 m)", altitudeM: 3860, altitudeFt: 12664 },
+      { day: "Day 6", spot: "Dingboche (4,410 m)", altitudeM: 4410, altitudeFt: 14468 },
+      { day: "Day 7", spot: "Nangkartshang / Dingboche (5,083 m)", altitudeM: 5083, altitudeFt: 16676 },
+      { day: "Day 8", spot: "Lobuche (4,910 m)", altitudeM: 4910, altitudeFt: 16109 },
+      { day: "Day 9", spot: "Everest Base Camp (5,364 m) / Gorak Shep (5,164 m)", altitudeM: 5364, altitudeFt: 17598 },
+      { day: "Day 10", spot: "Kala Patthar (5,545 m) / Dzongla (4,830 m)", altitudeM: 5545, altitudeFt: 18192 },
+      { day: "Day 11", spot: "Cho La Pass (5,420 m) / Thangnak (4,700 m)", altitudeM: 5420, altitudeFt: 17782 },
+      { day: "Day 12", spot: "Gokyo Lakes (4,790 m)", altitudeM: 4790, altitudeFt: 15715 },
+      { day: "Day 13", spot: "Gokyo Ri Viewpoint (5,357 m) / Gokyo", altitudeM: 5357, altitudeFt: 17575 },
+      { day: "Day 14", spot: "Renjo La Pass (5,360 m) / Lungden (4,380 m)", altitudeM: 5360, altitudeFt: 17585 },
+      { day: "Day 15", spot: "Thame (3,800 m)", altitudeM: 3800, altitudeFt: 12467 },
+      { day: "Day 16", spot: "Namche Bazaar (3,440 m)", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 17", spot: "Lukla (2,860 m)", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 18", spot: "Kathmandu (1,400 m)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 19", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "ebc_island_peak": {
+    name: "Everest Base Camp Trek with Island Peak Climbing (18 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu (1,400 m)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Phakding (2,610 m)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 3", spot: "Namche Bazaar (3,440 m)", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 4", spot: "Hotel Everest View (3,880 m)", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Tengboche (3,860 m)", altitudeM: 3860, altitudeFt: 12664 },
+      { day: "Day 6", spot: "Dingboche (4,410 m)", altitudeM: 4410, altitudeFt: 14468 },
+      { day: "Day 7", spot: "Dingboche Acclimatisation", altitudeM: 4410, altitudeFt: 14468 },
+      { day: "Day 8", spot: "Lobuche (4,910 m)", altitudeM: 4910, altitudeFt: 16109 },
+      { day: "Day 9", spot: "Everest Base Camp (5,364 m) / Gorak Shep (5,164 m)", altitudeM: 5364, altitudeFt: 17598 },
+      { day: "Day 10", spot: "Kala Patthar (5,545 m) / Dingboche", altitudeM: 5545, altitudeFt: 18192 },
+      { day: "Day 11", spot: "Chhukung (4,730 m)", altitudeM: 4730, altitudeFt: 15518 },
+      { day: "Day 12", spot: "Island Peak Base Camp (5,080 m)", altitudeM: 5080, altitudeFt: 16667 },
+      { day: "Day 13", spot: "Island Peak Summit (6,189 m)", altitudeM: 6189, altitudeFt: 20305 },
+      { day: "Day 14", spot: "Tengboche (3,860 m)", altitudeM: 3860, altitudeFt: 12664 },
+      { day: "Day 15", spot: "Namche Bazaar (3,440 m)", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 16", spot: "Lukla (2,860 m)", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 17", spot: "Kathmandu (1,400 m)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 18", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "gokyo_lakes": {
+    name: "Gokyo Lakes Trek (12 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu (1,400 m)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Phakding (2,610 m)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 3", spot: "Namche Bazaar (3,440 m)", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 4", spot: "Hotel Everest View (3,880 m)", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Mong La (3,975 m) / Dole", altitudeM: 4200, altitudeFt: 13780 },
+      { day: "Day 6", spot: "Machhermo (4,470 m)", altitudeM: 4470, altitudeFt: 14665 },
+      { day: "Day 7", spot: "Gokyo Village & Lakes (4,750 m)", altitudeM: 4750, altitudeFt: 15584 },
+      { day: "Day 8", spot: "Gokyo Ri (5,357 m) / Dole", altitudeM: 5357, altitudeFt: 17575 },
+      { day: "Day 9", spot: "Namche Bazaar (3,440 m)", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 10", spot: "Lukla (2,860 m)", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 11", spot: "Kathmandu (1,400 m)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 12", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
     ]
   },
   "ebc_heli": {
@@ -58,20 +192,58 @@ const trekAltitudeProfiles = {
   "gokyo_renjo_la": {
     name: "Gokyo Lake with Renjo La Pass Trek (14 Days)",
     points: [
-      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
-      { day: "Day 2", spot: "Phakding (via Lukla)", altitudeM: 2610, altitudeFt: 8563 },
-      { day: "Day 3", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
-      { day: "Day 4", spot: "Hotel Everest View / Namche", altitudeM: 3880, altitudeFt: 12730 },
-      { day: "Day 5", spot: "Dole (via Mong La)", altitudeM: 4110, altitudeFt: 13484 },
-      { day: "Day 6", spot: "Machhermo", altitudeM: 4470, altitudeFt: 14665 },
-      { day: "Day 7", spot: "Gokyo 3rd Lake", altitudeM: 4790, altitudeFt: 15715 },
-      { day: "Day 8", spot: "Gokyo Ri (5,357m) & 4th Lake", altitudeM: 5357, altitudeFt: 17575 },
-      { day: "Day 9", spot: "Renjo La (5,360m) / Lungden", altitudeM: 5360, altitudeFt: 17585 },
-      { day: "Day 10", spot: "Thame (via Marlung)", altitudeM: 3820, altitudeFt: 12532 },
-      { day: "Day 11", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
-      { day: "Day 12", spot: "Lukla", altitudeM: 2840, altitudeFt: 9317 },
-      { day: "Day 13", spot: "Kathmandu Flight", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 1", spot: "Kathmandu (1,400 m)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Phakding (2,610 m)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 3", spot: "Namche Bazaar (3,440 m)", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 4", spot: "Everest View / Namche (3,880 m)", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Dole (4,200 m)", altitudeM: 4200, altitudeFt: 13780 },
+      { day: "Day 6", spot: "Machhermo (4,470 m)", altitudeM: 4470, altitudeFt: 14665 },
+      { day: "Day 7", spot: "Gokyo (4,790 m)", altitudeM: 4790, altitudeFt: 15715 },
+      { day: "Day 8", spot: "Gokyo Ri Viewpoint (5,357 m)", altitudeM: 5357, altitudeFt: 17575 },
+      { day: "Day 9", spot: "Renjo La Pass (5,360 m)", altitudeM: 5360, altitudeFt: 17585 },
+      { day: "Day 10", spot: "Thame (3,800 m)", altitudeM: 3800, altitudeFt: 12467 },
+      { day: "Day 11", spot: "Namche Bazaar (3,440 m)", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 12", spot: "Lukla (2,860 m)", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 13", spot: "Kathmandu (1,400 m)", altitudeM: 1400, altitudeFt: 4593 },
       { day: "Day 14", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "gokyo_luxury": {
+    name: "Gokyo Lakes Luxury Trek (14 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu (Arrival)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Kathmandu (Sightseeing)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 3", spot: "Phakding (via Lukla)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 4", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 5", spot: "Everest View / Namche", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 6", spot: "Dole", altitudeM: 4000, altitudeFt: 13123 },
+      { day: "Day 7", spot: "Machhermo", altitudeM: 4470, altitudeFt: 14665 },
+      { day: "Day 8", spot: "Gokyo Lakes", altitudeM: 4790, altitudeFt: 15715 },
+      { day: "Day 9", spot: "Gokyo Ri (5,357m) & Gokyo", altitudeM: 5357, altitudeFt: 17575 },
+      { day: "Day 10", spot: "Dole", altitudeM: 4000, altitudeFt: 13123 },
+      { day: "Day 11", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 12", spot: "Lukla", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 13", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 14", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "gokyo_luxury_14": {
+    name: "Gokyo Lakes Luxury Trek (14 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu (Arrival)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Kathmandu (Sightseeing)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 3", spot: "Phakding (via Lukla)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 4", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 5", spot: "Everest View / Namche", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 6", spot: "Dole", altitudeM: 4000, altitudeFt: 13123 },
+      { day: "Day 7", spot: "Machhermo", altitudeM: 4470, altitudeFt: 14665 },
+      { day: "Day 8", spot: "Gokyo Lakes", altitudeM: 4790, altitudeFt: 15715 },
+      { day: "Day 9", spot: "Gokyo Ri (5,357m) & Gokyo", altitudeM: 5357, altitudeFt: 17575 },
+      { day: "Day 10", spot: "Dole", altitudeM: 4000, altitudeFt: 13123 },
+      { day: "Day 11", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 12", spot: "Lukla", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 13", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 14", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
     ]
   },
   "ebc_island_peak": {
@@ -96,6 +268,27 @@ const trekAltitudeProfiles = {
       { day: "Day 17", spot: "Lukla", altitudeM: 2840, altitudeFt: 9317 },
       { day: "Day 18", spot: "Kathmandu Flight & Celebration", altitudeM: 1400, altitudeFt: 4593 },
       { day: "Day 19", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "island_peak_climbing": {
+    name: "Island Peak Climbing (16 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Kathmandu (Prep)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 3", spot: "Phakding (via Lukla)", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 4", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 5", spot: "Everest View / Namche", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 6", spot: "Tengboche", altitudeM: 3860, altitudeFt: 12664 },
+      { day: "Day 7", spot: "Dingboche", altitudeM: 4410, altitudeFt: 14468 },
+      { day: "Day 8", spot: "Chhukung", altitudeM: 4730, altitudeFt: 15518 },
+      { day: "Day 9", spot: "Chhukung (Prep & Training)", altitudeM: 4730, altitudeFt: 15518 },
+      { day: "Day 10", spot: "Island Peak Base Camp", altitudeM: 5100, altitudeFt: 16732 },
+      { day: "Day 11", spot: "SUMMIT Island Peak (6,189m) / Chhukung", altitudeM: 6189, altitudeFt: 20305 },
+      { day: "Day 12", spot: "Tengboche", altitudeM: 3860, altitudeFt: 12664 },
+      { day: "Day 13", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 14", spot: "Lukla", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 15", spot: "Kathmandu (Flight)", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 16", spot: "Kathmandu (Departure)", altitudeM: 1400, altitudeFt: 4593 }
     ]
   },
   "abc": {
@@ -139,6 +332,19 @@ const trekAltitudeProfiles = {
       { day: "Day 4", spot: "Bamboo", altitudeM: 2310 },
       { day: "Day 5", spot: "Jhinu Danda", altitudeM: 1780 },
       { day: "Day 6", spot: "Pokhara", altitudeM: 822 }
+    ]
+  },
+  "mardi_8": {
+    name: "Mardi Himal Trek (8 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 2", spot: "Pokhara / Pitam Deurali", altitudeM: 2100 },
+      { day: "Day 3", spot: "Rest Camp", altitudeM: 2605 },
+      { day: "Day 4", spot: "High Camp", altitudeM: 3580 },
+      { day: "Day 5", spot: "Viewpoint / Base Camp", altitudeM: 4500 },
+      { day: "Day 6", spot: "Badal Danda / Siding / Pokhara", altitudeM: 822 },
+      { day: "Day 7", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 8", spot: "Departure", altitudeM: 1400 }
     ]
   },
   "poonhill_mardi": {
@@ -278,15 +484,31 @@ const trekAltitudeProfiles = {
     ]
   },
   "poonhill": {
-    name: "Ghorepani Poon Hill Trek",
+    name: "Ghorepani Poon Hill Trek (9 Days)",
     points: [
-      { day: "Day 1", spot: "Pokhara", altitudeM: 822 },
-      { day: "Day 2", spot: "Tikhedhunga", altitudeM: 1540 },
-      { day: "Day 3", spot: "Ghorepani", altitudeM: 2874 },
-      { day: "Day 4", spot: "Poon Hill Sunrise", altitudeM: 3210 },
-      { day: "Day 5", spot: "Tadapani", altitudeM: 2630 },
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 2", spot: "Pokhara", altitudeM: 822 },
+      { day: "Day 3", spot: "Ulleri", altitudeM: 1980 },
+      { day: "Day 4", spot: "Ghorepani", altitudeM: 2874 },
+      { day: "Day 5", spot: "Poon Hill (3,210m)", altitudeM: 3210 },
       { day: "Day 6", spot: "Ghandruk", altitudeM: 1940 },
-      { day: "Day 7", spot: "Pokhara", altitudeM: 822 }
+      { day: "Day 7", spot: "Pokhara", altitudeM: 822 },
+      { day: "Day 8", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 9", spot: "Departure", altitudeM: 1400 }
+    ]
+  },
+  "poon_hill_9": {
+    name: "Ghorepani Poon Hill Trek (9 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 2", spot: "Pokhara", altitudeM: 822 },
+      { day: "Day 3", spot: "Ulleri", altitudeM: 1980 },
+      { day: "Day 4", spot: "Ghorepani", altitudeM: 2874 },
+      { day: "Day 5", spot: "Poon Hill (3,210m)", altitudeM: 3210 },
+      { day: "Day 6", spot: "Ghandruk", altitudeM: 1940 },
+      { day: "Day 7", spot: "Pokhara", altitudeM: 822 },
+      { day: "Day 8", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 9", spot: "Departure", altitudeM: 1400 }
     ]
   },
   "gokyo": {
@@ -357,6 +579,32 @@ const trekAltitudeProfiles = {
       { day: "Day 11", spot: "Besisahar (TBC)", altitudeM: 760 },
       { day: "Day 12", spot: "Kathmandu", altitudeM: 1400 },
       { day: "Day 13", spot: "Departure", altitudeM: 1400 }
+    ]
+  },
+  "panchase_8": {
+    name: "Panchase Trek (8 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 2", spot: "Pokhara", altitudeM: 822 },
+      { day: "Day 3", spot: "Bhumdi", altitudeM: 1520 },
+      { day: "Day 4", spot: "Panchase Bhanjyang", altitudeM: 2100 },
+      { day: "Day 5", spot: "Panchase View Point", altitudeM: 2500 },
+      { day: "Day 6", spot: "Bhadaure / Pokhara", altitudeM: 822 },
+      { day: "Day 7", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 8", spot: "Departure", altitudeM: 1400 }
+    ]
+  },
+  "panchase": {
+    name: "Panchase Trek (8 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 2", spot: "Pokhara", altitudeM: 822 },
+      { day: "Day 3", spot: "Bhumdi", altitudeM: 1520 },
+      { day: "Day 4", spot: "Panchase Bhanjyang", altitudeM: 2100 },
+      { day: "Day 5", spot: "Panchase View Point", altitudeM: 2500 },
+      { day: "Day 6", spot: "Bhadaure / Pokhara", altitudeM: 822 },
+      { day: "Day 7", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 8", spot: "Departure", altitudeM: 1400 }
     ]
   }
 };

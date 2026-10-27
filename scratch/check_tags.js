@@ -1,56 +1,22 @@
 const fs = require('fs');
 
-const content = fs.readFileSync('trek/upper-mustang-trek/index.html', 'utf8');
+const html = fs.readFileSync('trek/gokyo-lakes-trek/index.html', 'utf8');
+const tags = ['div', 'section', 'article', 'main', 'form', 'table', 'ul', 'ol', 'p', 'h1', 'h2', 'h3', 'h4', 'button'];
 
-// HTML tag balancer checker
-function checkTagBalance(html) {
-  const stack = [];
-  const voidTags = new Set(['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr', '!doctype']);
-  
-  // Regex to match tags
-  const tagRegex = /<\/?([a-zA-Z0-9\-]+)(\s+[^>]*)?>/g;
-  let match;
-  let line = 1;
-  let lastIndex = 0;
+let hasError = false;
+tags.forEach(t => {
+  const openRegex = new RegExp('<' + t + '(\\s+[^>]*)?>', 'gi');
+  const closeRegex = new RegExp('</' + t + '>', 'gi');
+  const open = (html.match(openRegex) || []).length;
+  const close = (html.match(closeRegex) || []).length;
+  const diff = open - close;
+  console.log(`${t.padEnd(10)}: open = ${String(open).padStart(3)}, close = ${String(close).padStart(3)}, diff = ${diff}`);
+  if (diff !== 0) hasError = true;
+});
 
-  const errors = [];
-
-  while ((match = tagRegex.exec(html)) !== null) {
-    const fullTag = match[0];
-    const tagName = match[1].toLowerCase();
-    const isClosing = fullTag.startsWith('</');
-    const isSelfClosing = fullTag.endsWith('/>') || voidTags.has(tagName);
-
-    // Calculate line number
-    const substr = html.substring(lastIndex, match.index);
-    line += (substr.match(/\n/g) || []).length;
-    lastIndex = match.index;
-
-    if (tagName.startsWith('!') || tagName === 'script' || tagName === 'style' || tagName === 'svg' || tagName === 'path' || tagName === 'polygon' || tagName === 'circle' || tagName === 'rect' || tagName === 'polyline' || tagName === 'line') {
-      // Skip svg inner or scripts for gross structure
-      continue;
-    }
-
-    if (isClosing) {
-      if (voidTags.has(tagName)) continue;
-      if (stack.length === 0) {
-        errors.push({ type: 'EXTRA_CLOSING', tag: tagName, line });
-      } else {
-        const top = stack.pop();
-        if (top.tag !== tagName) {
-          errors.push({ type: 'MISMATCH', expected: top.tag, found: tagName, line, openedAt: top.line });
-        }
-      }
-    } else if (!isSelfClosing) {
-      stack.push({ tag: tagName, line });
-    }
-  }
-
-  return { errors, unclosed: stack };
+if (hasError) {
+  console.error("❌ Tag divergence detected!");
+  process.exit(1);
+} else {
+  console.log("✅ All tags balanced with exactly 0 divergence!");
 }
-
-const result = checkTagBalance(content);
-console.log('Errors found:', result.errors.length);
-result.errors.slice(0, 30).forEach(e => console.log(e));
-console.log('Unclosed tags:', result.unclosed.length);
-result.unclosed.slice(-20).forEach(u => console.log(u));

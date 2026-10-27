@@ -1,8 +1,11 @@
 const fs = require('fs');
-const html = fs.readFileSync('trek/everest-base-camp-luxury-trek/index.html', 'utf8');
-const subnavMatch = html.match(/<div class="trek-sub-nav-wrapper">([\s\S]*?)<\/div>\s*<\/div>/i);
-if (subnavMatch) {
-  console.log('Subnav in EBC luxury trek:');
-  const links = [...subnavMatch[0].matchAll(/<a[^>]*href=["'](#[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)];
-  console.log(links.map(l => `${l[1]} -> ${l[2].replace(/<[^>]+>/g, '').trim()}`));
+const html = fs.readFileSync('trek/everest-base-camp-trek/index.html', 'utf8');
+const subnavIdx = html.indexOf('trek-sub-nav');
+if (subnavIdx !== -1) {
+  console.log('Subnav in EBC:');
+  console.log(html.substring(subnavIdx, subnavIdx + 1500));
+} else {
+  console.log('No trek-sub-nav in EBC, checking subnav:');
+  const subIdx = html.indexOf('subnav');
+  console.log(html.substring(subIdx - 50, subIdx + 500));
 }

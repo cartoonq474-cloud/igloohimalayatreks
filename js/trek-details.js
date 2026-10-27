@@ -22,6 +22,17 @@ function setupSubNavScrollSpy() {
     subNavButtons.forEach(btn => {
       if (btn.getAttribute('data-tab') === tabId) {
         btn.classList.add('active');
+        // Smoothly bring active pill into view in the horizontally scrollable track on mobile/narrow screens
+        const track = btn.closest('.trek-sub-nav-track, .trek-sub-nav-list');
+        if (track && track.scrollWidth > track.clientWidth) {
+          const btnLeft = btn.offsetLeft;
+          const btnWidth = btn.offsetWidth;
+          const trackScroll = track.scrollLeft;
+          const trackWidth = track.clientWidth;
+          if (btnLeft < trackScroll || (btnLeft + btnWidth) > (trackScroll + trackWidth)) {
+            track.scrollTo({ left: Math.max(0, btnLeft - 20), behavior: 'smooth' });
+          }
+        }
       } else {
         btn.classList.remove('active');
       }
@@ -33,7 +44,9 @@ function setupSubNavScrollSpy() {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       const tabId = btn.getAttribute('data-tab');
-      const targetSection = document.getElementById(`section-${tabId}`);
+      let targetSection = document.getElementById(`section-${tabId}`);
+      if (!targetSection && tabId === 'includes') targetSection = document.getElementById('section-inclusions');
+      if (!targetSection && tabId === 'inclusions') targetSection = document.getElementById('section-includes');
       
       if (targetSection) {
         isManualScrolling = true;
@@ -64,7 +77,10 @@ function setupSubNavScrollSpy() {
 
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          const tabId = entry.target.id.replace('section-', '');
+          let tabId = entry.target.id.replace('section-', '');
+          if (tabId === 'inclusions' && !document.querySelector(`.trek-sub-nav-btn[data-tab="inclusions"]`)) {
+            tabId = 'includes';
+          }
           setActiveButton(tabId);
         }
       });
@@ -99,13 +115,13 @@ function setupSubNavScrollSpy() {
 
 // Setup Itinerary & Accordions
 function setupAccordions() {
-  const accordionHeaders = document.querySelectorAll('.itinerary-header');
+  const accordionHeaders = document.querySelectorAll('.itinerary-header, .itinerary-card-header');
   const toggleAllBtns = document.querySelectorAll('#toggle-all-itinerary, .itinerary-toggle-all-btn');
   const itineraryCards = document.querySelectorAll('.itinerary-card');
 
   function expandCard(card) {
     card.classList.add('active');
-    const content = card.querySelector('.itinerary-content');
+    const content = card.querySelector('.itinerary-content, .itinerary-card-body, .itinerary-body');
     if (content) {
       content.style.maxHeight = content.scrollHeight + 'px';
       if (content.style.display === 'none') {
@@ -116,7 +132,7 @@ function setupAccordions() {
 
   function collapseCard(card) {
     card.classList.remove('active');
-    const content = card.querySelector('.itinerary-content');
+    const content = card.querySelector('.itinerary-content, .itinerary-card-body, .itinerary-body');
     if (content) {
       content.style.maxHeight = '';
     }
@@ -185,7 +201,7 @@ function setupAccordions() {
   setTimeout(() => {
     const activeCards = document.querySelectorAll('.itinerary-card.active');
     activeCards.forEach(card => {
-      const content = card.querySelector('.itinerary-content');
+      const content = card.querySelector('.itinerary-content, .itinerary-card-body');
       if (content) {
         content.style.maxHeight = content.scrollHeight + 'px';
       }
@@ -196,9 +212,11 @@ function setupAccordions() {
 
 // Setup Interactive Gear Checklist
 function setupGearChecklist(trekKey) {
-  const checkboxes = document.querySelectorAll('#section-packing .gear-item-checkbox');
+  const checkboxes = document.querySelectorAll('#section-packing .gear-item-checkbox, #section-packing .gear-checkbox');
   const countDisplay = document.querySelector('.gear-checked-count');
   const totalDisplay = document.querySelector('.gear-total-count');
+  const percentDisplay = document.querySelector('.gear-progress-percent');
+  const progressBar = document.querySelector('.gear-progress-bar-fill');
 
   if (!checkboxes.length) return;
 
@@ -216,7 +234,7 @@ function setupGearChecklist(trekKey) {
   // Initialize checks
   checkboxes.forEach(cb => {
     const id = cb.getAttribute('id');
-    if (savedStates[id]) {
+    if (id && savedStates[id]) {
       cb.checked = true;
       const row = cb.closest('.gear-item-row');
       if (row) row.classList.add('packed');
@@ -227,10 +245,10 @@ function setupGearChecklist(trekKey) {
       if (parentRow) {
         if (cb.checked) {
           parentRow.classList.add('packed');
-          savedStates[id] = true;
+          if (id) savedStates[id] = true;
         } else {
           parentRow.classList.remove('packed');
-          delete savedStates[id];
+          if (id) delete savedStates[id];
         }
       }
       
@@ -246,9 +264,98 @@ function setupGearChecklist(trekKey) {
   });
 
   function updatePackedCount() {
-    const packedCount = document.querySelectorAll('#section-packing .gear-item-checkbox:checked').length;
+    const packedCheckboxes = document.querySelectorAll('#section-packing .gear-item-checkbox:checked, #section-packing .gear-checkbox:checked');
+    const packedCount = packedCheckboxes.length;
+    const total = checkboxes.length;
+
     if (countDisplay) countDisplay.textContent = packedCount;
-    if (totalDisplay) totalDisplay.textContent = checkboxes.length;
+    if (totalDisplay) totalDisplay.textContent = total;
+    if (percentDisplay) {
+      const pct = total > 0 ? Math.round((packedCount / total) * 100) : 0;
+      percentDisplay.textContent = `${pct}%`;
+    }
+    if (progressBar) {
+      const pct = total > 0 ? (packedCount / total) * 100 : 0;
+      progressBar.style.width = `${pct}%`;
+    }
+
+    // Update category-specific count badges if present
+    document.querySelectorAll('.gear-section, .packing-category-card').forEach(sec => {
+      const catCheckboxes = sec.querySelectorAll('.gear-item-checkbox, .gear-checkbox');
+      const catChecked = sec.querySelectorAll('.gear-item-checkbox:checked, .gear-checkbox:checked').length;
+      const catBadge = sec.querySelector('.gear-cat-count-badge, .category-count-badge');
+      if (catBadge && catCheckboxes.length > 0) {
+        catBadge.textContent = `${catChecked} / ${catCheckboxes.length} Packed`;
+        if (catChecked === catCheckboxes.length) {
+          catBadge.style.background = '#ECFDF5';
+          catBadge.style.color = '#059669';
+          catBadge.style.borderColor = '#A7F3D0';
+        } else {
+          catBadge.style.background = '#F1F5F9';
+          catBadge.style.color = '#475569';
+          catBadge.style.borderColor = '#E2E8F0';
+        }
+      }
+    });
+  }
+
+  // Quick Action: Reset Checklist
+  const resetBtn = document.querySelector('#btn-reset-gear, .btn-reset-gear');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      checkboxes.forEach(cb => {
+        cb.checked = false;
+        const row = cb.closest('.gear-item-row');
+        if (row) row.classList.remove('packed');
+      });
+      savedStates = {};
+      try {
+        localStorage.removeItem(storageKey);
+      } catch (err) {}
+      updatePackedCount();
+    });
+  }
+
+  // Quick Action: Check All
+  const checkAllBtn = document.querySelector('#btn-check-all-gear, .btn-check-all-gear');
+  if (checkAllBtn) {
+    checkAllBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      checkboxes.forEach(cb => {
+        cb.checked = true;
+        const id = cb.getAttribute('id');
+        if (id) savedStates[id] = true;
+        const row = cb.closest('.gear-item-row');
+        if (row) row.classList.add('packed');
+      });
+      try {
+        localStorage.setItem(storageKey, JSON.stringify(savedStates));
+      } catch (err) {}
+      updatePackedCount();
+    });
+  }
+
+  // Category Filter Tabs
+  const tabBtns = document.querySelectorAll('.packing-tab-btn');
+  const catSections = document.querySelectorAll('.gear-section, .packing-category-card');
+  if (tabBtns.length && catSections.length) {
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const cat = btn.getAttribute('data-category');
+        tabBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        catSections.forEach(sec => {
+          const secCat = sec.getAttribute('data-category');
+          if (cat === 'all' || secCat === cat) {
+            sec.style.display = '';
+          } else {
+            sec.style.display = 'none';
+          }
+        });
+      });
+    });
   }
 
   updatePackedCount();
@@ -391,7 +498,9 @@ function setupReadTracker(trekKey) {
   const bar = document.querySelector('.details-progress-ring-bar');
   const countText = document.querySelector('.details-progress-count');
   const statusText = document.querySelector('.details-progress-status');
-  const toggleAllDetailsBtns = document.querySelectorAll('#toggle-all-details, .details-toggle-all-btn');
+  const toggleAllDetailsBtns = document.querySelectorAll('#toggle-all-details');
+  const expandAllDetailsBtns = document.querySelectorAll('#expand-all-details, .details-expand-all-btn');
+  const collapseAllDetailsBtns = document.querySelectorAll('#collapse-all-details, .details-collapse-all-btn');
   
   if (!cards.length) return;
 
@@ -524,6 +633,24 @@ function setupReadTracker(trekKey) {
       }
       content.style.maxHeight = content.scrollHeight + 'px';
     }
+  });
+
+  // Expand All Topics handler
+  expandAllDetailsBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      cards.forEach(card => expandCard(card));
+      updateToggleAllBtnState();
+    });
+  });
+
+  // Collapse All Topics handler
+  collapseAllDetailsBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      cards.forEach(card => collapseCard(card));
+      updateToggleAllBtnState();
+    });
   });
 
   // Global Toggle All handler
@@ -842,17 +969,35 @@ function setupHimalayanReviews() {
       if (player) {
         player.pause();
         player.currentTime = 0;
+        player.style.display = 'block';
       }
-      document.body.style.overflow = 'auto';
+      const imgPreview = modal.querySelector('#photo-modal-img');
+      if (imgPreview) imgPreview.style.display = 'none';
+      document.body.style.overflow = '';
     };
 
     videoCards.forEach(card => {
       card.addEventListener('click', () => openVideoModal(card));
     });
 
-    if (closeBtn) closeBtn.addEventListener('click', closeVideoModal);
+    if (closeBtn) {
+      closeBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        closeVideoModal();
+      });
+    }
+
     modal.addEventListener('click', (e) => {
-      if (e.target === modal) closeVideoModal();
+      if (e.target === modal) {
+        closeVideoModal();
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('active')) {
+        closeVideoModal();
+      }
     });
   }
 
@@ -916,13 +1061,14 @@ function setupHimalayanReviews() {
   }
 
   // 5. Sub-Platform Tab Switcher
-  const platformSubTabs = document.querySelectorAll('.platform-sub-tab');
+  const platformSubTabs = document.querySelectorAll('.platform-sub-tab, .platform-subtab-btn');
   const platformCards = document.querySelectorAll('.platform-review-item');
   const summaryCount = document.getElementById('platform-summary-count');
 
   const platformCounts = {
-    google: '(1,549 Verified Reviews)',
-    tripadvisor: '(380 Verified Reviews)',
+    all: '(128 Verified Reviews)',
+    google: '(82 Verified Google Reviews)',
+    tripadvisor: '(46 Verified Tripadvisor Reviews)',
     trustpilot: '(250 Verified Reviews)'
   };
 
@@ -938,7 +1084,7 @@ function setupHimalayanReviews() {
 
       platformCards.forEach(card => {
         const cardPlatform = card.getAttribute('data-platform');
-        if (cardPlatform === targetPlatform) {
+        if (targetPlatform === 'all' || cardPlatform === targetPlatform) {
           card.style.display = 'block';
         } else {
           card.style.display = 'none';

@@ -1,25 +1,14 @@
 const fs = require('fs');
-const path = require('path');
 
-const trekDir = path.join(__dirname, '../trek');
-const trekFolders = fs.readdirSync(trekDir).filter(f => {
-  return fs.statSync(path.join(trekDir, f)).isDirectory() && fs.existsSync(path.join(trekDir, f, 'index.html'));
-});
+const p = 'trek/everest-base-camp-trek/index.html';
+const html = fs.readFileSync(p, 'utf8');
 
-const catSets = {};
+const sIdx = html.indexOf('id="section-packing"');
+const eIdx = html.indexOf('</section>', sIdx);
+const sec = html.substring(sIdx, eIdx);
 
-trekFolders.forEach(folder => {
-  const filePath = path.join(trekDir, folder, 'index.html');
-  const html = fs.readFileSync(filePath, 'utf8');
-  if (/http-equiv=["']refresh["']/i.test(html)) return;
+const tabMatches = [...sec.matchAll(/class="[^"]*packing-tab-btn[^"]*"[^>]*data-category="([^"]+)"/g)].map(m => m[1]);
+const cardMatches = [...sec.matchAll(/class="[^"]*(?:packing-category-card|gear-section)[^"]*"[^>]*data-category="([^"]+)"/g)].map(m => m[1]);
 
-  const faqMatch = html.match(/<section[^>]*id=["']section-faqs["'][\s\S]*?<\/section>/i);
-  if (!faqMatch) return;
-
-  const buttons = [...faqMatch[0].matchAll(/data-category=["']([^"']+)["']/gi)].map(m => m[1]);
-  const key = buttons.join(',');
-  catSets[key] = (catSets[key] || 0) + 1;
-});
-
-console.log('Category sets across trek pages:');
-console.log(catSets);
+console.log('Tab categories:', tabMatches);
+console.log('Card categories:', cardMatches);
