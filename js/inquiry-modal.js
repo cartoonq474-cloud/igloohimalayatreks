@@ -106,6 +106,11 @@ export function setupInquiryModal() {
           title = "Custom Himalayan Trip";
         }
       }
+      const inquiryMessage = btn.getAttribute('data-inquiry-message');
+      const inquiryNotes = document.getElementById('inq-message') || document.getElementById('inq-notes');
+      if (inquiryMessage && inquiryNotes) {
+        inquiryNotes.value = inquiryMessage;
+      }
       openModal(title);
     }
   });

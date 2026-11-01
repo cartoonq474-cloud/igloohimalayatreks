@@ -1,17 +1,16 @@
 const fs = require('fs');
-
-const testImages = [
-  'images/gokyo lake trek.webp',
-  'images/gokyo-Lake-trek.webp',
-  'images/gokyo-Lake-trek1.webp',
-  'images/gokyo-lake-trek2.webp',
-  'images/Gokyo-lake-trek3.webp',
-  'images/best-time-for-gokyo-lakes-trek-02.webp',
-  'images/everest-base-camp-01.webp',
-  'images/renjo-la-pass-01.webp',
-  'images/cho-la-pass-01.webp'
+const files = [
+  'images/langtang-gosaikunda-helambu-trek.webp',
+  'images/langtang-gosaikunda-helambu-trek-02.webp',
+  'images/langtang-gosaikunda-helambu-trek-03.webp',
+  'images/langtang-gosaikunda-helambu-trek-difficulty-route-culture.webp',
+  'images/langtang-gosaikunda-helambu-trek-difficulty-route-culture-02.webp',
+  'images/langtang-valley-trek.webp',
+  'images/gosaikunda-lake-trek.webp',
+  'images/tamang-heritage-trail-trek.webp',
+  'images/yala-peak-climbing.webp'
 ];
 
-testImages.forEach(img => {
-  console.log(img, fs.existsSync(img) ? 'EXISTS' : 'MISSING');
+files.forEach(f => {
+  console.log(`${f}: ${fs.existsSync(f) ? 'EXISTS (' + fs.statSync(f).size + ' bytes)' : 'MISSING'}`);
 });

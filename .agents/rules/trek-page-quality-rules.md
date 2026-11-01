@@ -10,7 +10,7 @@ This document records the critical lessons learned, root causes, and mandatory p
 - **What happened**: The main content wrapper was set to a 2-column grid (`grid-template-columns: 2.2fr 1fr;`), but the right column (`.trek-sidebar-col` with `.sidebar-booking-card`) and the `#inquiry-modal` were omitted, creating a massive white void on desktop and breaking booking conversion.
 - **Rule**: Every trek detail page MUST have both columns of `.trek-detail-layout`:
   1. Left Column (`<div style="min-width: 0;">` containing the sequential content sections).
-  2. Right Column (`<div class="trek-sidebar-col">` containing `.sidebar-booking-card` with sticky positioning `top: 148px`).
+  2. Right Column (`<div class="trek-sidebar-col">` containing `.sidebar-booking-card` with sticky positioning `top: 160px`).
   3. Pre-footer `#inquiry-modal` dialog before `.you-might-like-section`.
 
 ### Mistake 2: Pre-Footer Structural Ordering Inversion
@@ -40,22 +40,26 @@ This document records the critical lessons learned, root causes, and mandatory p
 - **Rule**: Every trek detail page must adhere to a Single Source of Truth (SSOT):
   - Trek Title, Duration (e.g. `11 Days`), Max Altitude (e.g. `4,660 m`), Starting Price (e.g. `$925`), and WhatsApp pre-filled text must be 100% synchronized across Schema, Hero, Key Facts, Sidebar, and Modal.
 
-### Mistake 6: Highlights Section Failure (Unstyled Triangle Wireframes & Missing Container)
-- **What happened**: When generating Section 1 Highlights, bare unstyled wireframe SVGs (`<polygon points="12 2 2 22 22 22"></polygon>`) were used without scoped styles, rendering as raw, isolated open triangles (`Δ`) stacked awkwardly above each highlight item in a single column.
+### Mistake 6: Highlights Section Failure (Unstyled Wireframes, Paraphrasing & Synthetic Bold Tags)
+- **What happened**: When generating Section 1 Highlights, bare unstyled wireframe SVGs (`<polygon points="12 2 2 22 22 22"></polygon>`) were used without scoped styles, or highlights were rewritten/summarized with synthetic AI-generated bold lead-ins (e.g. `<strong>Both Base Camp Areas:</strong>`) instead of capturing the verbatim client narrative bullet points.
 - **Rule**: All Highlights sections MUST strictly implement the Nar Phu Valley gold standard:
   1. Contained in a rounded card: `<div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; margin-bottom: 30px;">`.
   2. Heading MUST be an `<h2>` with copper-orange star icon (`<polygon points="12 2 15.09 8.26 ...">`).
   3. Responsive 2-column flex grid: `<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 14px;">`.
-  4. Each item must be a flex container with an emerald green circular checkmark badge (`#ECFDF5` background, `#10B981` border and stroke) and 0.98rem text.
-  5. NEVER output wireframe triangles (`<polygon points="12 2 2 22 22 22"></polygon>`) as bullet icons.
+  4. Each item must be a flex container with an emerald-green circular checkmark badge (`#ECFDF5` background, `#10B981` border and stroke) and 0.98rem span.
+  5. **Verbatim Client Parity**: The text in each highlight span must be the 100% verbatim bullet statement from the client source document (Google Doc) without artificial bold prefixes, paraphrasing, or truncations.
+  6. NEVER output wireframe triangles (`<polygon points="12 2 2 22 22 22"></polygon>`) or unstyled class blocks.
 
-### Mistake 7: Generic / Broken Hero Bento Gallery & Social Cards
-- **What happened**: Using generic stock photos, wrong mountain ranges, or unverified filenames in the hero bento collage, or leaving `og:image` and `twitter:image` mismatched from the trek.
+### Mistake 7: Generic / Broken Hero Bento Gallery, Social Cards & Hero Copy Drift
+- **What happened**: Synthesizing or rewriting hero introductory text instead of capturing the client source document's top summary verbatim, arbitrarily hiding sentences behind a read-more toggle for concise 70-word introductions, formatting titles inconsistently, using generic stock photos, or leaving `og:image` and `twitter:image` mismatched from the trek.
 - **Rule**:
-  1. The Hero Bento Gallery must contain 5 authentic WebP images of the specific trek (1 main panoramic + 4 sub-grid tiles showing trails, lodges, mountain vistas, culture).
-  2. Main image must include TripAdvisor Travelers' Choice badge.
-  3. Every image must exist on disk in `images/`.
-  4. `og:image` and `twitter:image` must match the hero main photo.
+  1. The hero title (`<h1>`) must strictly match the client document title format using em-dash `&mdash;` (e.g. `{Trek Title} &mdash; {X} Days`).
+  2. The hero introductory paragraph beneath the `<h1>` must be the 100% verbatim introductory summary paragraph from the client document or Google Doc (never an AI rewrite).
+  3. Standard concise hero introductions (~70–80 words, like Mardi Himal, Nar Phu Valley, and Kanchenjunga Without Flight) must be rendered cleanly in full without artificial toggle spans or scripts.
+  4. The Hero Bento Gallery must contain 5 authentic WebP images of the specific trek (1 main panoramic + 4 sub-grid tiles showing trails, lodges, mountain vistas, culture).
+  5. Main image must include TripAdvisor Travelers' Choice badge.
+  6. Every image must exist on disk in `images/`.
+  7. `og:image` and `twitter:image` must match the hero main photo.
 
 ### Mistake 8: Truncated or Incomplete Key Trip Facts (Hierarchy & Icon failure)
 - **What happened**: Omitting items from client specifications or Google Docs (e.g. providing only 8 generic items instead of all 14 detailed items), failing to provide dedicated semantic SVG icons, or failing to follow the 3-tier visual hierarchy.
@@ -92,17 +96,18 @@ This document records the critical lessons learned, root causes, and mandatory p
   1. Every single section, fact, table row, packing item, and FAQ from client documentation must be faithfully included verbatim.
   2. Maintain an automated parity check script (`scratch/check_doc_match.js`) verifying 30+ critical items against the published page to guarantee 100% compliance.
 
-### Mistake 13: Itinerary Accordion Disconnection, Clipped Timeline Dots & Unstyled Fact Tables
+### Mistake 13: Itinerary Accordion Disconnection, Fact Stripping & Copy Paraphrasing
 - **What happened**:
   1. The global "Expand All Days" button was generated with `class="itinerary-expand-all-btn"` and `id="itinerary-expand-all-btn"` (copied from broken templates), whereas `js/trek-details.js` line 103 explicitly binds to `#toggle-all-itinerary, .itinerary-toggle-all-btn`. Because of this mismatch, the button was completely dead, unstyled, and did not expand/collapse cards or rotate icons.
   2. `.itinerary-card` had `overflow: hidden`, which clipped the timeline dot pseudo-element (`::before` at `left: -28px`). As a result, the vertical timeline connector had no circular nodes at all, looking like a disconnected line.
-  3. Daily fact tables from client Google Docs were rendered into an unstyled gray `#F8FAFC` rectangle without visual hierarchy or icons, looking like an amateur wireframe.
-  4. Day card subtitles were sparse 2-word labels lacking overnight altitude, duration, or `data-altitude-m` hooks.
+  3. The section introductory paragraph beneath `<h2>` was replaced by AI-invented marketing copy instead of using the verbatim narrative from the client document.
+  4. Daily fact tables were stripped down to only 3 items, omitting Driving/Walking Time, Trail Character, Highest Point, and Main Activity.
+  5. Day card subtitles were sparse 2-word labels lacking overnight altitude, duration, or `data-altitude-m` hooks.
 - **Rule**:
-  1. Header Bar: Must use `<div class="itinerary-header-bar">` with `<button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button">` containing the animated SVG chevron and "Expand All Days" label.
+  1. Header Bar & Section Intro: Must use `<div class="itinerary-header-bar">` with `<button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button">` containing the animated SVG chevron. The introductory paragraph below the title must be 100% verbatim from the client document.
   2. Timeline Dots: `.itinerary-card` must have `overflow: visible !important;` so the 14px circular dot (`left: -28px; top: 26px; border: 3px solid #1A96C8;`) displays centered on the vertical line (`border-left: 2px solid #E2E8F0;`). When `.active`, the dot illuminates with a glowing ring (`box-shadow: 0 0 0 4px rgba(26, 150, 200, 0.25)`).
-  3. Daily Fact Boxes: Must use the canonical `.itinerary-meta-box` and `.itinerary-meta-box-item` grid with `.itinerary-meta-box-badge` housing distinct semantic SVG icons (Activity = blue compass, Altitude = amber mountain, Accommodation = green lodge, Meals = rose cutlery, Time = blue clock, Route = purple map pin). NEVER output plain unstyled grey wireframe tables.
-  4. Subtitles: Must feature a rich 3-part subtitle with `data-altitude-m`: `[Action] — <span data-altitude-m="{meters}">[Overnight Altitude & Location]</span> — [Duration/Highlight]`.
+  3. Zero Fact Stripping: Every single row present in the client's daily fact table (Walking/Driving Time, Main Activity, Trail Character, Highest Point, Overnight Altitude, Accommodation, Meals) MUST be rendered into `.itinerary-meta-box` and `.itinerary-meta-box-item` with color-coded `.itinerary-meta-box-badge` SVGs (Activity = blue compass, Altitude = amber mountain, Accommodation = green lodge, Meals = rose cutlery, Time = blue clock, Route = purple map pin). NEVER strip facts or output plain unstyled grey wireframe tables.
+  4. Subtitles & Altitude Hooks: Must feature a rich 3-part subtitle with `data-altitude-m`: `[Action] — <span data-altitude-m="{meters}">[Overnight Altitude & Location]</span> — [Duration/Highlight]`.
   5. Descriptions: Narrative paragraphs must be wrapped in `.itinerary-description` with verbatim client copy preserved.
 
 ### Mistake 14: Zero-MVP First-Pass Publishing Failure (9 Iteration Burnout)
@@ -126,12 +131,15 @@ This document records the critical lessons learned, root causes, and mandatory p
   2. Must feature ambient radial glowing accents, frosted glass kicker badge (`PLAN YOUR HIMALAYAN EXPEDITION`), verbatim client closing text, dual action buttons (Adventure Orange `Enquire Now` with modal trigger + frosted glass `Chat on WhatsApp` with pre-filled message text), and 3 trust badges (100% Guaranteed Departures, 2–4 Hr Response, Certified High-Altitude Sherpa Guides).
 
 ### Mistake 17: Reviews Section Missing Interactive 3-Tab Architecture & Video Lightbox
-- **What happened**: `#section-reviews` was generated as a static block without interactive tabs, missing the 4.9/5 aggregate score bar with TripAdvisor & Google verified badges, and lacking video lightbox modal hooks.
+- **What happened**: `#section-reviews` was generated as a static block without interactive tabs or with non-matching attributes (`data-review-tab="all"`), missing the 4.9/5 aggregate score bar with TripAdvisor & Google verified badges, lacking video lightbox modal hooks, and omitting customer photo gallery thumbnails.
 - **Rule**:
-  1. Must feature 3 interactive tabs: `All Reviews`, `Video Stories`, and `Photo Reviews`.
-  2. Must feature the aggregate rating bar (4.9/5 stars, TripAdvisor 5.0, Google 4.9).
-  3. Video thumbnails must have play overlay buttons hooked into `video-modal.js` and `setupHimalayanReviews()`.
-  4. 100% authentic trekker reviews specific to this route.
+  1. Must feature the exact 3-tab architecture bound to `setupHimalayanReviews()`:
+     - `data-target="reviews-video-pane"` -> **Video Reviews**
+     - `data-target="reviews-customer-pane"` -> **Customer Reviews**
+     - `data-target="reviews-platform-pane"` -> **Platform Reviews**
+  2. Tab 1 (`#reviews-video-pane.review-pane-content.active`) contains `.video-reviews-grid` and 4 `.video-review-card` elements with ratings, dates, verified checks, play buttons, and `#video-review-modal.video-modal-overlay` lightbox modal before `</section>`.
+  3. Tab 2 (`#reviews-customer-pane.review-pane-content`) contains `.customer-reviews-stack` with 3 authentic route-specific reviews, verified purchase badges, inline SVG stars (`.stars-gold`), 3 photo thumbnails opening photo lightboxes, and "Guided by Sagar Gurung" tags with helpful vote buttons.
+  4. Tab 3 (`#reviews-platform-pane.review-pane-content`) contains `.platform-sub-tabs-wrapper` with Google Reviews, TripAdvisor, and Trustpilot sub-tabs, 4.9 summary score card, and review items.
 
 ### Mistake 18: Sticky Subnav Bar Alignment, Scrollbar & Backdrop Incompleteness
 - **What happened**: Subnav tabs didn't stick cleanly, lacked blur backdrop, had visible scrollbars on mobile, or broke active tab highlighting.
@@ -139,6 +147,12 @@ This document records the critical lessons learned, root causes, and mandatory p
   1. Sticky at `top: 76px` with `backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);`.
   2. Exactly 10 anchor buttons with SVG icons corresponding to the 10 left-column sections.
   3. Subnav container must have `display: flex; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none;` with active tab border-bottom accent.
+
+### Mistake 19: Corrupted Unicode Glyphs & Raw Question Marks in Ratings
+- **What happened**: Using raw unicode stars (`★`) or non-ASCII characters that corrupt across editors or encoding changes into `?????` or `?`.
+- **Rule**:
+  1. NEVER output raw unicode star characters (`★`) in ratings, reviews, badges, or summaries.
+  2. ALWAYS use inline SVG polygons (`<svg width="15" height="15" viewBox="0 0 24 24" fill="#1A96C8" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`).
 
 ---
 

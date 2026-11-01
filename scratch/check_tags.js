@@ -1,22 +1,27 @@
 const fs = require('fs');
 
-const html = fs.readFileSync('trek/gokyo-lakes-trek/index.html', 'utf8');
-const tags = ['div', 'section', 'article', 'main', 'form', 'table', 'ul', 'ol', 'p', 'h1', 'h2', 'h3', 'h4', 'button'];
+const files = [
+  'trek/mera-peak-climbing/index.html',
+  'trek/everest-base-camp-trek-heli-return/index.html',
+  'trek/pikey-peak-trek/index.html',
+  'trek/gokyo-lake-trek-with-helicopter-return/index.html'
+];
 
-let hasError = false;
-tags.forEach(t => {
-  const openRegex = new RegExp('<' + t + '(\\s+[^>]*)?>', 'gi');
-  const closeRegex = new RegExp('</' + t + '>', 'gi');
-  const open = (html.match(openRegex) || []).length;
-  const close = (html.match(closeRegex) || []).length;
-  const diff = open - close;
-  console.log(`${t.padEnd(10)}: open = ${String(open).padStart(3)}, close = ${String(close).padStart(3)}, diff = ${diff}`);
-  if (diff !== 0) hasError = true;
+const tagsToCheck = ['div', 'section', 'article', 'main', 'form', 'table', 'ul'];
+
+files.forEach(file => {
+  console.log('=== ' + file + ' ===');
+  const c = fs.readFileSync(file, 'utf8');
+  tagsToCheck.forEach(tag => {
+    const openRegex = new RegExp('<' + tag + '(\\s+[^>]*)?>', 'gi');
+    const closeRegex = new RegExp('</' + tag + '>', 'gi');
+    const openCount = (c.match(openRegex) || []).length;
+    const closeCount = (c.match(closeRegex) || []).length;
+    const diff = openCount - closeCount;
+    if (diff !== 0) {
+      console.log(`  MISMATCH in <${tag}>: open=${openCount}, close=${closeCount}, diff=${diff}`);
+    } else {
+      console.log(`  <${tag}> balanced: ${openCount}`);
+    }
+  });
 });
-
-if (hasError) {
-  console.error("❌ Tag divergence detected!");
-  process.exit(1);
-} else {
-  console.log("✅ All tags balanced with exactly 0 divergence!");
-}

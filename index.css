@@ -16,14 +16,22 @@
 
 :root {
   /* Brand Color Palette - Explicit Semantic Specifications */
-  --color-primary: #1A96C8;            /* Himalayan Blue: Links, icons, highlights, active states */
-  --color-primary-dark: #0E3458;       /* Deep Navy: Header, navigation, headings, footer */
-  --color-accent: #F6851F;             /* Adventure Orange: CTA buttons, highlights, badges, important actions */
-  --color-accent-light: #F9AF6D;       /* Soft Orange: Hover backgrounds, subtle highlights */
-  --color-bg: #FFFFFF;                 /* Snow White: Main page background */
-  --color-bg-light: #F2F4F6;           /* Mountain Mist: Sections, cards, forms */
-  --color-text: #263746;               /* Charcoal Navy: Body text */
-  --color-text-muted: #64748B;         /* Slate Gray: Secondary text */
+  --color-primary: #1A96C8;
+  /* Himalayan Blue: Links, icons, highlights, active states */
+  --color-primary-dark: #0E3458;
+  /* Deep Navy: Header, navigation, headings, footer */
+  --color-accent: #F6851F;
+  /* Adventure Orange: CTA buttons, highlights, badges, important actions */
+  --color-accent-light: #F9AF6D;
+  /* Soft Orange: Hover backgrounds, subtle highlights */
+  --color-bg: #FFFFFF;
+  /* Snow White: Main page background */
+  --color-bg-light: #F2F4F6;
+  /* Mountain Mist: Sections, cards, forms */
+  --color-text: #263746;
+  /* Charcoal Navy: Body text */
+  --color-text-muted: #64748B;
+  /* Slate Gray: Secondary text */
 
   /* Named Palette Variables */
   --color-himalayan-blue: #1A96C8;
@@ -388,6 +396,7 @@ textarea {
 }
 
 @media (min-width: 1025px) {
+
   .mobile-drawer-footer,
   .mobile-nav-drawer-actions,
   .mobile-header-actions,
@@ -668,9 +677,11 @@ textarea {
   .nav-menu {
     gap: 14px;
   }
+
   .nav-link {
     font-size: 0.88rem;
   }
+
   .logo-brand img {
     height: 60px;
   }
@@ -680,12 +691,15 @@ textarea {
   .nav-menu {
     gap: 10px;
   }
+
   .nav-link {
     font-size: 0.82rem;
   }
+
   .logo-brand img {
     height: 52px;
   }
+
   .main-header .btn {
     padding: 8px 16px;
     font-size: 0.86rem;
@@ -693,6 +707,7 @@ textarea {
 }
 
 @media (max-width: 1024px) {
+
   /* Header Bar */
   .main-header {
     height: 70px !important;
@@ -822,11 +837,11 @@ textarea {
   .mobile-drawer-header,
   .mobile-nav-backdrop,
   .header-cta-desktop,
-  .main-header > .container > div:not(.mobile-header-actions) {
+  .main-header>.container>div:not(.mobile-header-actions) {
     display: none !important;
   }
 
-  .nav-menu > li {
+  .nav-menu>li {
     width: 100% !important;
     list-style: none !important;
     flex-shrink: 0 !important;
@@ -862,7 +877,7 @@ textarea {
     user-select: none !important;
   }
 
-  .nav-item-dropdown.dropdown-open > .nav-link-row {
+  .nav-item-dropdown.dropdown-open>.nav-link-row {
     background: rgba(26, 150, 200, 0.04) !important;
   }
 
@@ -900,7 +915,7 @@ textarea {
     flex-shrink: 0 !important;
   }
 
-  .nav-item-dropdown.dropdown-open > .nav-link-row .mobile-dropdown-arrow {
+  .nav-item-dropdown.dropdown-open>.nav-link-row .mobile-dropdown-arrow {
     transform: rotate(180deg) !important;
     background: #1A96C8 !important;
     color: #FFFFFF !important;
@@ -944,9 +959,9 @@ textarea {
     grid-template-columns: 1fr !important;
   }
 
-  .nav-item-dropdown.dropdown-open > .nav-dropdown-menu,
-  .nav-item-dropdown.dropdown-open > .mobile-accordion-menu,
-  .nav-item-dropdown.dropdown-open > .tour-dropdown-menu {
+  .nav-item-dropdown.dropdown-open>.nav-dropdown-menu,
+  .nav-item-dropdown.dropdown-open>.mobile-accordion-menu,
+  .nav-item-dropdown.dropdown-open>.tour-dropdown-menu {
     display: flex !important;
     flex-direction: column !important;
     gap: 4px !important;
@@ -956,7 +971,7 @@ textarea {
   }
 
   /* Tour Submenu Column Layout on Mobile */
-  .tour-dropdown-menu > div {
+  .tour-dropdown-menu>div {
     display: flex !important;
     flex-direction: column !important;
     width: 100% !important;
@@ -1029,7 +1044,7 @@ textarea {
   }
 
   /* Single Links (Blog, Contact) */
-  .nav-menu > li:not(.nav-item-dropdown):not(.mobile-nav-drawer-actions) > .nav-link {
+  .nav-menu>li:not(.nav-item-dropdown):not(.mobile-nav-drawer-actions)>.nav-link {
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
@@ -1045,7 +1060,7 @@ textarea {
     transition: background 0.15s ease, border-color 0.15s ease !important;
   }
 
-  .nav-menu > li:not(.nav-item-dropdown):not(.mobile-nav-drawer-actions) > .nav-link:active {
+  .nav-menu>li:not(.nav-item-dropdown):not(.mobile-nav-drawer-actions)>.nav-link:active {
     background: #F1F5F9 !important;
     border-color: #CBD5E1 !important;
   }
@@ -1118,6 +1133,7 @@ textarea {
     opacity: 0;
     transform: translateY(-4px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1295,7 +1311,8 @@ textarea {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   cursor: grab;
-  user-select: none; /* Prevent text highlighting during drag */
+  user-select: none;
+  /* Prevent text highlighting during drag */
 }
 
 .trekking-gallery-container.dragging {
@@ -2969,6 +2986,7 @@ textarea {
   .associated-grid {
     gap: 10px;
   }
+
   .associated-card {
     flex: 1 1 calc(25% - 10px);
     max-width: calc(25% - 10px);
@@ -2979,16 +2997,19 @@ textarea {
   .associated-section {
     padding: 24px 0 48px 0;
   }
+
   .associated-title {
     font-size: 1.15rem;
     margin-bottom: 18px;
   }
+
   .associated-card {
     flex: 1 1 calc(50% - 10px);
     max-width: calc(50% - 10px);
     height: 58px;
     padding: 6px 10px;
   }
+
   .associated-card img {
     max-height: 36px;
   }
@@ -3382,7 +3403,7 @@ textarea {
 /* ==================== Resources Section (Webinars, Blogs, Checklists, E-Books) ==================== */
 .resources-section {
   position: relative;
-  background-image: 
+  background-image:
     linear-gradient(to bottom, rgba(241, 245, 249, 0.92) 0%, rgba(241, 245, 249, 0.88) 50%, rgba(241, 245, 249, 0.94) 100%),
     url('images/himalayan-bg.webp');
   background-size: cover;
@@ -3572,7 +3593,7 @@ textarea {
 /* ==================== Newsletter CTA Subscription Banner ==================== */
 .newsletter-cta-section {
   position: relative;
-  background-image: 
+  background-image:
     linear-gradient(to bottom, rgba(241, 245, 249, 0.92) 0%, rgba(241, 245, 249, 0.88) 50%, rgba(241, 245, 249, 0.94) 100%),
     url('images/himalayan-bg.webp');
   background-size: cover;
@@ -4227,16 +4248,19 @@ textarea {
     display: block !important;
     width: 100% !important;
   }
-  .act-panel-layout > div {
+
+  .act-panel-layout>div {
     min-width: 0 !important;
     max-width: 100% !important;
     width: 100% !important;
   }
+
   .act-category-sidebar {
     width: 100% !important;
     box-sizing: border-box !important;
     margin-bottom: 24px !important;
   }
+
   .act-packages-grid {
     width: 100% !important;
     max-width: 100% !important;
@@ -4311,12 +4335,15 @@ textarea {
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   padding: 10px 4px 28px 4px;
-  scrollbar-width: none; /* Hide scrollbar for Firefox */
-  -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+  scrollbar-width: none;
+  /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none;
+  /* Hide scrollbar for IE/Edge */
 }
 
 .act-packages-grid::-webkit-scrollbar {
-  display: none; /* Hide scrollbar for Chrome, Safari, Opera */
+  display: none;
+  /* Hide scrollbar for Chrome, Safari, Opera */
 }
 
 /* Package Card Base (Clean & Uncluttered Layout) */
@@ -4839,6 +4866,7 @@ textarea {
     padding: 12px;
     border-radius: 20px;
   }
+
   .dest-card-img-wrapper {
     height: 190px;
     border-radius: 14px;
@@ -5019,7 +5047,7 @@ textarea {
 /* How Does It Work Section (Clean Light Theme with Green Accents) */
 .how-it-works-section {
   position: relative;
-  background-image: 
+  background-image:
     linear-gradient(to bottom, rgba(241, 245, 249, 0.92) 0%, rgba(241, 245, 249, 0.88) 50%, rgba(241, 245, 249, 0.94) 100%),
     url('images/himalayan-bg.webp');
   background-size: cover;
@@ -5283,6 +5311,7 @@ textarea {
   .how-works-cards-track .how-step-card {
     flex: 0 0 calc(100% - 0px);
   }
+
   .how-it-works-section {
     padding: 60px 0;
   }
@@ -5683,7 +5712,7 @@ textarea {
 /* ==================== WHY IGLOO HIMALAYA TREKS REDESIGN ==================== */
 .why-igloo-redesign-section {
   position: relative;
-  background-image: 
+  background-image:
     linear-gradient(to bottom, rgba(241, 245, 249, 0.92) 0%, rgba(241, 245, 249, 0.88) 50%, rgba(241, 245, 249, 0.94) 100%),
     url('images/himalayan-bg.webp');
   background-size: cover;
@@ -5820,6 +5849,7 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
   }
+
   .why-igloo-main-title {
     font-size: 2.1rem;
   }
@@ -5830,13 +5860,16 @@ textarea {
     grid-template-columns: 1fr;
     gap: 16px;
   }
+
   .why-igloo-redesign-section {
     padding: 60px 0;
   }
+
   .why-igloo-card {
     padding: 24px 18px;
   }
 }
+
 /* ==================== Footer Associations Bar ==================== */
 .footer-associations-bar {
   background: var(--color-neutral-50);
@@ -5885,7 +5918,8 @@ textarea {
 
 .association-card:hover {
   transform: translateY(-4px);
-  border-color: #D97706; /* Gold borders matching TripAdvisor choice theme */
+  border-color: #D97706;
+  /* Gold borders matching TripAdvisor choice theme */
   box-shadow: 0 10px 20px rgba(14, 52, 88, 0.08);
 }
 
@@ -5901,9 +5935,11 @@ textarea {
   .footer-associations-bar {
     padding: 40px 0;
   }
+
   .associations-grid {
     gap: 12px;
   }
+
   .association-card {
     width: 135px;
     height: 58px;
@@ -5922,13 +5958,15 @@ textarea {
 }
 
 .stars-gold {
-  color: #FBBF24; /* Amber gold */
+  color: #FBBF24;
+  /* Amber gold */
   letter-spacing: 0.05em;
   font-size: 0.85rem;
 }
 
 .reviews-count {
-  color: #64748B; /* Slate gray */
+  color: #64748B;
+  /* Slate gray */
   font-weight: 550;
   font-size: 0.8rem;
 }
@@ -5987,7 +6025,8 @@ textarea {
 .trek-gallery-badge-icon {
   width: 32px;
   height: 32px;
-  background: #00af87; /* TripAdvisor green */
+  background: #00af87;
+  /* TripAdvisor green */
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -6077,9 +6116,11 @@ textarea {
     grid-template-rows: auto;
     height: 300px;
   }
+
   .trek-gallery-sub {
     display: none;
   }
+
   .trek-gallery-main {
     border-radius: var(--radius-md);
     grid-column: 1 / -1;
@@ -6163,7 +6204,7 @@ textarea {
   position: -webkit-sticky;
   position: sticky;
   top: var(--header-height, 80px);
-  z-index: 90;
+  z-index: 90 !important;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -6180,6 +6221,7 @@ textarea {
 }
 
 @media (max-width: 1024px) {
+
   .trek-sticky-subnav,
   .trek-sub-nav {
     top: 70px;
@@ -6271,6 +6313,7 @@ textarea {
 }
 
 @media (max-width: 1280px) {
+
   .trek-sub-nav-btn,
   .subnav-tab {
     padding: 5px 8px;
@@ -6280,6 +6323,7 @@ textarea {
 }
 
 @media (max-width: 768px) {
+
   .trek-sticky-subnav .container,
   .trek-sub-nav .container {
     width: 100% !important;
@@ -6287,12 +6331,14 @@ textarea {
     padding: 0 16px;
     box-sizing: border-box;
   }
+
   .trek-sub-nav-btn,
   .subnav-tab {
     padding: 6px 11px !important;
     font-size: 0.8rem !important;
     gap: 5px !important;
   }
+
   .trek-sub-nav-btn svg,
   .subnav-tab svg {
     width: 13px !important;
@@ -6323,6 +6369,21 @@ textarea {
   height: 1px;
   background: var(--color-neutral-100);
   margin-left: 20px;
+}
+
+.trek-overview-narrative {
+  color: var(--color-neutral-700);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 35px;
+}
+
+.trek-overview-narrative p {
+  margin: 0 0 18px;
+}
+
+.trek-overview-narrative p:last-child {
+  margin-bottom: 0;
 }
 
 /* Highlights Grid */
@@ -6543,6 +6604,40 @@ textarea {
 @media (max-width: 768px) {
   .packing-header-right {
     align-items: stretch;
+    width: 100%;
+  }
+}
+
+/* Packing Controls Toolbar Bar */
+.packing-controls-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  background: #FFFFFF;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 14px;
+  padding: 12px 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
+}
+
+@media (max-width: 640px) {
+  .packing-controls-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 14px;
+  }
+
+  .packing-controls-bar .packing-progress-pill {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .packing-controls-bar .packing-actions-row {
+    justify-content: center;
     width: 100%;
   }
 }
@@ -6826,6 +6921,7 @@ textarea {
   .gear-grid {
     grid-template-columns: 1fr;
   }
+
   .gear-section,
   .packing-category-card {
     padding: 16px;
@@ -6936,6 +7032,73 @@ textarea {
   align-items: center;
   gap: 8px;
   font-weight: 500;
+}
+
+[data-trek-key="everest-view-trek"] #section-packing .everest-view-packing-container {
+  margin-bottom: 36px;
+}
+
+[data-trek-key="everest-view-trek"] #section-packing .packing-section-header {
+  margin-bottom: 22px;
+}
+
+[data-trek-key="everest-view-trek"] #section-packing .packing-section-header .trek-section-title {
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+[data-trek-key="everest-view-trek"] #section-packing .everest-view-packing-accent {
+  width: 48px;
+  height: 4px;
+  margin: 0 0 14px;
+  border-radius: 2px;
+  background: var(--color-copper-orange, #F6851F);
+}
+
+[data-trek-key="everest-view-trek"] #section-packing .packing-progress-track {
+  width: 140px;
+  height: 8px;
+  overflow: hidden;
+  border-radius: 9999px;
+  background: #E2E8F0;
+}
+
+[data-trek-key="everest-view-trek"] #section-packing .gear-progress-bar-fill {
+  width: 0;
+  height: 100%;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #1A96C8 0%, #10B981 100%);
+  transition: width 0.3s ease;
+}
+
+[data-trek-key="everest-view-trek"] #section-packing .everest-view-packing-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)) !important;
+  gap: 20px !important;
+  margin-bottom: 24px;
+}
+
+[data-trek-key="everest-view-trek"] #section-packing .everest-view-packing-grid > .packing-category-card {
+  min-width: 0;
+}
+
+[data-trek-key="everest-view-trek"] #section-packing .everest-view-packing-item {
+  min-width: 0;
+  list-style: none;
+}
+
+[data-trek-key="everest-view-trek"] #section-packing .packing-advisory-card {
+  margin-top: 28px;
+}
+
+@media (max-width: 640px) {
+  [data-trek-key="everest-view-trek"] #section-packing .packing-section-header .trek-section-title {
+    font-size: 1.5rem;
+  }
+
+  [data-trek-key="everest-view-trek"] #section-packing .packing-progress-track {
+    width: 100%;
+  }
 }
 
 /* Advisory Card */
@@ -7253,6 +7416,7 @@ textarea {
     transform: scale(1);
     opacity: 0.6;
   }
+
   100% {
     transform: scale(2.8);
     opacity: 0;
@@ -7596,12 +7760,15 @@ textarea {
   .about-hero-stats-row {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .founder-card-wrapper {
     grid-template-columns: 1fr;
   }
+
   .founder-img-col {
     min-height: 320px;
   }
+
   .founder-content-col {
     padding: 30px 24px;
   }
@@ -7622,7 +7789,7 @@ textarea {
   border: 1px solid #e2e8f0 !important;
   border-radius: 16px !important;
   background: #ffffff !important;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.02) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02) !important;
   margin-bottom: 20px !important;
   transition: all var(--transition-fast) !important;
   overflow: visible !important;
@@ -7643,7 +7810,8 @@ textarea {
   height: 14px !important;
   border-radius: 50% !important;
   background: #ffffff !important;
-  border: 3px solid #1A96C8 !important; /* brand timeline dot! */
+  border: 3px solid #1A96C8 !important;
+  /* brand timeline dot! */
   z-index: 2;
   transition: all var(--transition-fast) !important;
 }
@@ -7836,9 +8004,442 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
   }
+
   .itinerary-meta-box {
     gap: 16px;
     padding: 14px 16px;
+  }
+}
+
+[data-trek-key="everest-view-trek"] #section-itinerary .itinerary-timeline-wrapper {
+  gap: 16px !important;
+}
+
+[data-trek-key="everest-view-trek"] #section-itinerary .itinerary-timeline-wrapper > .itinerary-card {
+  margin-bottom: 0 !important;
+}
+
+[data-trek-key="everest-view-trek"] #section-itinerary .itinerary-card-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border-top-width: 0 !important;
+}
+
+[data-trek-key="everest-view-trek"] #section-itinerary .itinerary-card.active .itinerary-card-content {
+  max-height: 2500px;
+  padding-bottom: 22px !important;
+  border-top-width: 1px !important;
+}
+
+[data-trek-key="everest-view-trek"] #section-itinerary .itinerary-card::before {
+  display: none;
+}
+
+[data-trek-key="everest-view-trek"] #section-itinerary .itinerary-card-header {
+  gap: 18px;
+}
+
+[data-trek-key="everest-view-trek"] #section-itinerary .itinerary-card-header > div:first-child {
+  min-width: 0;
+}
+
+[data-trek-key="everest-view-trek"] #section-itinerary .itinerary-card-header h3 {
+  line-height: 1.35;
+}
+
+[data-trek-key="everest-view-trek"] #section-itinerary .itinerary-card-chevron-circle {
+  flex-shrink: 0;
+}
+
+[data-trek-key="everest-view-trek"] #section-itinerary .itinerary-meta-box {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)) !important;
+  gap: 12px 16px !important;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-header-bar {
+  align-items: flex-end;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-header-bar h2 {
+  flex: 1 1 420px;
+  min-width: 0;
+  font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+  line-height: 1.3;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-header-bar button {
+  flex-shrink: 0;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-card {
+  margin-bottom: 0 !important;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-card-content {
+  display: none !important;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-card.active .itinerary-card-content {
+  display: block !important;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-card > span[style*="position: absolute"] {
+  display: none !important;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-card-header {
+  gap: 16px;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-card-header > div:first-child {
+  flex: 1;
+  min-width: 0;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-card-header h3 {
+  line-height: 1.35;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-card-chevron-circle {
+  flex-shrink: 0;
+}
+
+[data-trek-key="everest"] #section-itinerary .itinerary-meta-box {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)) !important;
+  gap: 12px 16px !important;
+}
+
+@media (max-width: 600px) {
+  [data-trek-key="everest"] #section-itinerary .itinerary-header-bar {
+    align-items: flex-start;
+  }
+
+  [data-trek-key="everest"] #section-itinerary .itinerary-header-bar h2 {
+    flex-basis: 100%;
+  }
+
+  [data-trek-key="everest"] #section-itinerary .itinerary-card-header {
+    padding: 16px !important;
+  }
+
+  [data-trek-key="everest"] #section-itinerary .itinerary-card-content {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+  }
+}
+
+/* Gold Standard Inclusions & Exclusions Bento Grid Styles (Rule #3 & #14) */
+.inc-exc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.inc-exc-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  gap: 14px;
+  transition: all var(--transition-fast);
+}
+
+.inc-exc-card:hover {
+  border-color: var(--color-copper-orange);
+  box-shadow: 0 8px 20px rgba(26, 150, 200, 0.08);
+  transform: translateY(-1px);
+}
+
+.inc-exc-card.exclude-card:hover {
+  border-color: #ef4444;
+  box-shadow: 0 8px 20px rgba(239, 68, 68, 0.05);
+}
+
+.inc-exc-icon-box {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.inc-exc-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.inc-exc-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-primary-navy);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.inc-exc-card-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--color-neutral-600);
+  margin: 0;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 14px 20px;
+  margin-top: 10px;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper {
+  min-width: 0;
+  margin: 0;
+  padding: 0 0 12px;
+  border: 0;
+  border-bottom: 1px solid #A7F3D0;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper:nth-child(3) {
+  border-bottom-color: #FECACA;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-section-title {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-grid {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  margin: 0;
+  padding: 14px;
+  border: 1px solid #D1FAE5;
+  border-radius: 16px;
+  background: #F0FDF4;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4) {
+  grid-column: 2;
+  grid-row: 2;
+  border-color: #FECACA;
+  background: #FFF7F7;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-card {
+  min-width: 0;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 15px;
+  border-color: #E2E8F0;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(2) .inc-exc-card:hover {
+  border-color: #10B981;
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.1);
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4) .inc-exc-card:hover {
+  border-color: #EF4444;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-icon-box {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  margin: 0;
+  border-radius: 50%;
+  background: #ECFDF5;
+  color: #059669;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-icon-box svg {
+  width: 17px;
+  height: 17px;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-card:not(.exclude-card) .inc-exc-icon-box svg {
+  stroke: #059669 !important;
+}
+
+[data-trek-key="everest"] #section-includes .exclude-card .inc-exc-icon-box {
+  background: #FEF2F2;
+  color: #DC2626;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-card-content {
+  min-width: 0;
+  gap: 4px;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-card-title {
+  font-size: 0.96rem;
+  line-height: 1.4;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-card-text {
+  font-size: 0.87rem;
+  line-height: 1.55;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-pricing-jump {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 14px 18px;
+  border: 1px solid #BFDBFE;
+  border-left: 4px solid #1A96C8;
+  border-radius: 10px;
+  background: #EFF6FF;
+  color: #334155;
+  font-size: 0.92rem;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-pricing-jump a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #0E668E;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+[data-trek-key="everest"] #section-includes .inc-exc-pricing-jump a:hover {
+  text-decoration: underline;
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .everest-view-inc-exc-layout {
+  margin-top: 10px;
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .everest-view-inc-exc-panel {
+  display: contents;
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .inc-exc-section-title-wrapper {
+  border-left: 4px solid var(--color-copper-orange);
+  padding-left: 14px;
+  margin: 0 0 24px;
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .inc-exc-section-title {
+  margin: 0;
+  color: var(--color-primary-navy);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .everest-view-inc-exc-accent {
+  width: 48px;
+  height: 4px;
+  margin-top: 8px;
+  border-radius: 2px;
+  background: var(--color-copper-orange);
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .everest-view-excluded-title {
+  margin-top: 30px;
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .everest-view-excluded-title .everest-view-inc-exc-accent {
+  background: #EF4444;
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .everest-view-inc-exc-list {
+  margin-bottom: 40px !important;
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .everest-view-inc-exc-list > li {
+  min-width: 0;
+  padding: 20px !important;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  background: #FFFFFF;
+  gap: 14px !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .everest-view-inc-exc-list > li:hover {
+  border-color: var(--color-copper-orange);
+  box-shadow: 0 8px 20px rgba(26, 150, 200, 0.08);
+  transform: translateY(-1px);
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .everest-view-excluded-title ~ .everest-view-inc-exc-list > li:hover {
+  border-color: #EF4444;
+  box-shadow: 0 8px 20px rgba(239, 68, 68, 0.05);
+}
+
+[data-trek-key="everest-view-trek"] #section-includes .everest-view-inc-exc-list > li > span:last-child {
+  min-width: 0;
+}
+
+@media (max-width: 800px) {
+  .inc-exc-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  [data-trek-key="everest"] #section-includes .inc-exc-container {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  [data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(2),
+  [data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4) {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  [data-trek-key="everest"] #section-includes .inc-exc-pricing-jump {
+    grid-column: 1;
+  }
+
+  [data-trek-key="everest-view-trek"] #section-includes .inc-exc-section-title {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  [data-trek-key="everest"] #section-includes .inc-exc-container {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  [data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  [data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  [data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper:nth-child(3) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  [data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4) {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  [data-trek-key="everest"] #section-includes .inc-exc-pricing-jump {
+    grid-column: 1;
   }
 }
 
@@ -7914,6 +8515,7 @@ textarea {
     grid-template-columns: 1fr;
     gap: 14px;
   }
+
   .why-book-title {
     font-size: 1.4rem;
   }
@@ -8046,7 +8648,8 @@ textarea {
   stroke-width: 3.5;
   fill: transparent;
   stroke-linecap: round;
-  stroke-dasharray: 113.1; /* 2 * PI * 18 = 113.1 */
+  stroke-dasharray: 113.1;
+  /* 2 * PI * 18 = 113.1 */
   stroke-dashoffset: 113.1;
   transition: stroke-dashoffset 0.4s ease;
 }
@@ -8108,11 +8711,13 @@ textarea {
     gap: 16px;
     padding: 16px;
   }
+
   .details-controls-bar .details-header-actions {
     display: flex;
     width: 100%;
     gap: 10px;
   }
+
   .details-controls-bar .details-header-actions .details-toggle-all-btn {
     flex: 1;
     justify-content: center;
@@ -8193,6 +8798,21 @@ textarea {
   user-select: none;
 }
 
+[data-trek-key="everest-view-trek"] #section-details .detail-accordion-header {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 24px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
 .detail-accordion-header-left {
   display: flex;
   align-items: center;
@@ -8204,7 +8824,8 @@ textarea {
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  background: #f0fdf4; /* soft light green */
+  background: #f0fdf4;
+  /* soft light green */
   color: #1A96C8;
   display: flex;
   align-items: center;
@@ -8219,7 +8840,8 @@ textarea {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #cbd5e1; /* unread grey */
+  background: #cbd5e1;
+  /* unread grey */
   border: 2px solid #ffffff;
   display: flex;
   align-items: center;
@@ -8228,7 +8850,8 @@ textarea {
 }
 
 .detail-accordion-card.read .detail-check-bubble {
-  background: #1A96C8; /* read green */
+  background: #1A96C8;
+  /* read green */
 }
 
 .detail-check-bubble svg {
@@ -8277,7 +8900,8 @@ textarea {
 }
 
 .detail-accordion-content-inner {
-  padding: 0 24px 24px 84px; /* offset to align content under title instead of icon */
+  padding: 0 24px 24px 84px;
+  /* offset to align content under title instead of icon */
   font-size: 0.98rem;
   line-height: 1.65;
   color: var(--color-neutral-700);
@@ -8293,8 +8917,10 @@ textarea {
 
 @media (max-width: 640px) {
   .detail-accordion-content-inner {
-    padding: 0 20px 20px 20px; /* remove left indent on small screens to fit text */
+    padding: 0 20px 20px 20px;
+    /* remove left indent on small screens to fit text */
   }
+
   .detail-accordion-header {
     padding: 16px;
   }
@@ -8314,8 +8940,10 @@ textarea {
 }
 
 .altitude-unit-toggle-btn.active {
-  background: #f0fdf4 !important; /* Brand soft light green */
-  color: #1A96C8 !important; /* Brand green */
+  background: #f0fdf4 !important;
+  /* Brand soft light green */
+  color: #1A96C8 !important;
+  /* Brand green */
   box-shadow: 0 2px 6px rgba(26, 150, 200, 0.08);
 }
 
@@ -8335,7 +8963,8 @@ textarea {
 }
 
 .altitude-download-btn:hover {
-  background: #1A96C8 !important; /* Brand green */
+  background: #1A96C8 !important;
+  /* Brand green */
   color: white !important;
   border-color: #1A96C8 !important;
 }
@@ -8347,16 +8976,19 @@ textarea {
   gap: 14px;
   margin-bottom: 24px;
 }
+
 @media (max-width: 992px) {
   .alt-stats-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media (max-width: 480px) {
   .alt-stats-grid {
     grid-template-columns: 1fr;
   }
 }
+
 .alt-stat-card {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
@@ -8368,17 +9000,20 @@ textarea {
   gap: 6px;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
+
 .alt-stat-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
   border-color: #CBD5E1;
 }
+
 .alt-stat-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 4px;
 }
+
 .alt-stat-tag {
   font-size: 0.68rem;
   font-weight: 800;
@@ -8387,6 +9022,7 @@ textarea {
   padding: 2px 8px;
   border-radius: 4px;
 }
+
 .alt-stat-icon-wrap {
   width: 32px;
   height: 32px;
@@ -8396,17 +9032,20 @@ textarea {
   justify-content: center;
   flex-shrink: 0;
 }
+
 .alt-stat-value {
   font-size: 1.25rem;
   font-weight: 800;
   color: #0E3458;
   line-height: 1.2;
 }
+
 .alt-stat-label {
   font-size: 0.8rem;
   color: #64748B;
   line-height: 1.35;
 }
+
 .altitude-chart-card {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
@@ -8415,6 +9054,7 @@ textarea {
   box-shadow: 0 4px 16px rgba(15, 23, 42, 0.03);
   margin-bottom: 30px;
 }
+
 .altitude-chart-card-header {
   display: flex;
   justify-content: space-between;
@@ -8423,6 +9063,7 @@ textarea {
   gap: 12px;
   margin-bottom: 16px;
 }
+
 .altitude-chart-card-title {
   font-size: 1.15rem;
   font-weight: 700;
@@ -8432,11 +9073,13 @@ textarea {
   align-items: center;
   gap: 10px;
 }
+
 .altitude-chart-card-subtitle {
   font-size: 0.88rem;
   color: #64748B;
   margin: 0;
 }
+
 .altitude-max-pill {
   font-size: 0.78rem;
   font-weight: 700;
@@ -8447,6 +9090,7 @@ textarea {
   border-radius: 50px;
   white-space: nowrap;
 }
+
 .alt-table-card {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
@@ -8455,6 +9099,7 @@ textarea {
   overflow: hidden;
   margin-bottom: 24px;
 }
+
 .alt-table-header-bar {
   padding: 16px 20px;
   background: #F8FAFC;
@@ -8465,6 +9110,7 @@ textarea {
   flex-wrap: wrap;
   gap: 10px;
 }
+
 .alt-table-title {
   font-size: 1.15rem;
   font-weight: 700;
@@ -8474,6 +9120,7 @@ textarea {
   align-items: center;
   gap: 8px;
 }
+
 .alt-table-badge {
   font-size: 0.74rem;
   font-weight: 700;
@@ -8484,20 +9131,24 @@ textarea {
   border-radius: 12px;
   text-transform: uppercase;
 }
+
 .alt-table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
+
 .alt-custom-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.9rem;
   text-align: left;
 }
+
 .alt-custom-table thead tr {
   background: #F8FAFC;
   border-bottom: 2px solid #E2E8F0;
 }
+
 .alt-custom-table th {
   padding: 12px 16px;
   font-size: 0.78rem;
@@ -8507,20 +9158,25 @@ textarea {
   letter-spacing: 0.04em;
   white-space: nowrap;
 }
+
 .alt-custom-table tbody tr {
   border-bottom: 1px solid #F1F5F9;
   transition: background-color 0.15s ease;
 }
+
 .alt-custom-table tbody tr:last-child {
   border-bottom: none;
 }
+
 .alt-custom-table tbody tr:hover {
   background-color: #F0F9FF !important;
 }
+
 .alt-custom-table td {
   padding: 12px 16px;
   vertical-align: middle;
 }
+
 .alt-day-pill {
   display: inline-block;
   font-weight: 700;
@@ -8531,10 +9187,12 @@ textarea {
   border-radius: 6px;
   white-space: nowrap;
 }
+
 .alt-stop-name {
   font-weight: 600;
   color: #1E293B;
 }
+
 .alt-val-badge {
   font-weight: 700;
   font-size: 0.86rem;
@@ -8543,27 +9201,36 @@ textarea {
   display: inline-block;
   white-space: nowrap;
 }
+
 .alt-val-high {
   color: #C2410C;
   background: #FFF7ED;
   border: 1px solid #FFEDD5;
 }
+
 .alt-val-med {
   color: #0284C7;
   background: #F0F9FF;
   border: 1px solid #BAE6FD;
 }
+
 .alt-val-low {
   color: #334155;
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
 }
+
 .higher-places-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   gap: 16px;
   margin-bottom: 20px;
 }
+
+[data-trek-key="everest-view-trek"] #section-altitude-profile .higher-places-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr));
+}
+
 .higher-place-card {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
@@ -8575,11 +9242,13 @@ textarea {
   justify-content: space-between;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
+
 .higher-place-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
   border-color: #CBD5E1;
 }
+
 .higher-place-card-top {
   display: flex;
   justify-content: space-between;
@@ -8588,6 +9257,7 @@ textarea {
   flex-wrap: wrap;
   gap: 8px;
 }
+
 .higher-place-tag {
   font-size: 0.7rem;
   font-weight: 800;
@@ -8596,18 +9266,21 @@ textarea {
   padding: 3px 8px;
   border-radius: 4px;
 }
+
 .higher-place-alt-badge {
   font-size: 0.82rem;
   font-weight: 800;
   padding: 3px 10px;
   border-radius: 20px;
 }
+
 .higher-place-title-wrap {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 8px;
 }
+
 .higher-place-icon-box {
   width: 34px;
   height: 34px;
@@ -8617,6 +9290,7 @@ textarea {
   justify-content: center;
   flex-shrink: 0;
 }
+
 .higher-place-title {
   font-size: 1rem;
   font-weight: 700;
@@ -8624,12 +9298,14 @@ textarea {
   margin: 0;
   line-height: 1.35;
 }
+
 .higher-place-desc {
   font-size: 0.88rem;
   color: #64748B;
   line-height: 1.55;
   margin: 0 0 14px 0;
 }
+
 .higher-place-feature-tag {
   display: inline-flex;
   align-items: center;
@@ -8643,6 +9319,7 @@ textarea {
   border-radius: 6px;
   width: fit-content;
 }
+
 .alt-lodging-note-card {
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
@@ -8653,6 +9330,7 @@ textarea {
   align-items: flex-start;
   gap: 14px;
 }
+
 .alt-lodging-note-icon {
   width: 28px;
   height: 28px;
@@ -8665,6 +9343,7 @@ textarea {
   flex-shrink: 0;
   margin-top: 2px;
 }
+
 .alt-lodging-note-text {
   font-size: 0.92rem;
   color: #334155;
@@ -8693,7 +9372,8 @@ textarea {
 }
 
 .weather-tab-btn.active {
-  background: #1A96C8 !important; /* Brand green */
+  background: #1A96C8 !important;
+  /* Brand green */
   border-color: #1A96C8 !important;
   color: white !important;
   box-shadow: 0 4px 12px rgba(26, 150, 200, 0.15);
@@ -8712,8 +9392,10 @@ textarea {
 }
 
 .weather-unit-btn.active {
-  background: #f0fdf4 !important; /* Brand soft light green */
-  color: #1A96C8 !important; /* Brand green */
+  background: #f0fdf4 !important;
+  /* Brand soft light green */
+  color: #1A96C8 !important;
+  /* Brand green */
   box-shadow: 0 2px 6px rgba(26, 150, 200, 0.08);
 }
 
@@ -8721,12 +9403,15 @@ textarea {
   overflow-x: auto;
   width: 100%;
   border-radius: 8px;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 .weather-scroll-container::-webkit-scrollbar {
-  display: none; /* Chrome, Safari and Opera */
+  display: none;
+  /* Chrome, Safari and Opera */
 }
 
 /* Custom Scroll Navigation Bar */
@@ -8781,12 +9466,74 @@ textarea {
   background: #64748b;
 }
 
+@media (max-width: 640px) {
+  #section-weather table {
+    display: block;
+    min-width: 0 !important;
+    width: 100%;
+    border: 0 !important;
+    background: transparent !important;
+    overflow: visible !important;
+  }
+
+  #section-weather thead,
+  #section-weather tbody {
+    display: block;
+  }
+
+  #section-weather thead {
+    display: none;
+  }
+
+  #section-weather tr {
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    background: #FFFFFF !important;
+  }
+
+  #section-weather td {
+    display: block;
+    padding: 10px 12px !important;
+    border-bottom: 1px solid #F1F5F9;
+  }
+
+  #section-weather td:last-child {
+    border-bottom: 0;
+  }
+
+  #section-weather td::before {
+    display: block;
+    margin-bottom: 4px;
+    color: #64748B;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  #section-weather td:nth-child(1)::before {
+    content: "Season";
+  }
+
+  #section-weather td:nth-child(2)::before {
+    content: "Months";
+  }
+
+  #section-weather td:nth-child(3)::before {
+    content: "What to expect";
+  }
+}
+
 /* EBC Booking Sidebar Redesign */
 .best-seller-ribbon {
   position: absolute;
   top: 24px;
   right: -8px;
-  background: #f59e0b; /* Orange best seller color */
+  background: #f59e0b;
+  /* Orange best seller color */
   color: white;
   font-size: 0.72rem;
   font-weight: 800;
@@ -8806,7 +9553,8 @@ textarea {
   bottom: -6px;
   border-width: 6px 8px 0 0;
   border-style: solid;
-  border-color: #d97706 transparent transparent transparent; /* Ribbon fold crease back */
+  border-color: #d97706 transparent transparent transparent;
+  /* Ribbon fold crease back */
 }
 
 .booking-discount-table {
@@ -8833,7 +9581,8 @@ textarea {
 }
 
 .booking-discount-row.active {
-  background: #f1f5f9 !important; /* light grey/blue highlight from screenshot */
+  background: #f1f5f9 !important;
+  /* light grey/blue highlight from screenshot */
 }
 
 /* Call and WhatsApp Contact Link Circles */
@@ -8846,7 +9595,7 @@ textarea {
   justify-content: center;
   text-decoration: none;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
 .contact-circle-btn.phone {
@@ -8862,7 +9611,8 @@ textarea {
 }
 
 .contact-circle-btn.whatsapp {
-  background: #25D366; /* Solid WhatsApp green */
+  background: #25D366;
+  /* Solid WhatsApp green */
   color: #ffffff;
 }
 
@@ -8920,7 +9670,8 @@ textarea {
 }
 
 .booking-discount-content.open {
-  max-height: 180px; /* fit 3 rows nicely */
+  max-height: 180px;
+  /* fit 3 rows nicely */
 }
 
 .booking-discount-chevron {
@@ -8936,6 +9687,56 @@ textarea {
 /* ==========================================================================
    Booking Dates & Availability Section Styles
    ========================================================================== */
+.dates-tier-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+@media (max-width: 991px) {
+  .dates-tier-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .dates-tier-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  [data-trek-key="everest"] #section-dates .dates-pricing-panel {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 380px) {
+  .dates-tier-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.dates-tier-card {
+  background: #F8FAFC;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 16px 10px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dates-tier-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+.dates-tier-card.best-value {
+  background: #F0FDF4;
+  border: 2px solid #10B981;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.12);
+}
+
 .dates-section-header {
   display: flex;
   justify-content: space-between;
@@ -8943,6 +9744,309 @@ textarea {
   margin-bottom: 24px;
   flex-wrap: wrap;
   gap: 16px;
+}
+
+[data-trek-key="everest"] #section-dates .dates-section-header {
+  align-items: flex-end;
+  margin-bottom: 22px;
+}
+
+[data-trek-key="everest"] #section-dates .dates-booking-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+[data-trek-key="everest"] #section-dates .dates-booking-option {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px;
+  border: 1px solid #BFDBFE;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #FFFFFF 0%, #F4F9FC 100%);
+  box-shadow: 0 3px 12px rgba(15, 23, 42, 0.04);
+}
+
+[data-trek-key="everest"] #section-dates .dates-private-option {
+  border-color: #FED7AA;
+  background: linear-gradient(145deg, #FFFFFF 0%, #FFF8F1 100%);
+}
+
+[data-trek-key="everest"] #section-dates .dates-booking-option-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+[data-trek-key="everest"] #section-dates .dates-booking-option-icon {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  place-items: center;
+  border-radius: 12px;
+  background: #E0F2FE;
+  color: #0284C7;
+}
+
+[data-trek-key="everest"] #section-dates .dates-private-option .dates-booking-option-icon {
+  background: #FFEDD5;
+  color: #EA580C;
+}
+
+[data-trek-key="everest"] #section-dates .dates-booking-kicker {
+  display: block;
+  margin-bottom: 3px;
+  color: #64748B;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+[data-trek-key="everest"] #section-dates .dates-booking-option h3,
+[data-trek-key="everest"] #section-dates .dates-pricing-heading h3 {
+  margin: 0;
+  color: #0E3458;
+  font-size: 1.18rem;
+  line-height: 1.35;
+  font-weight: 750;
+}
+
+[data-trek-key="everest"] #section-dates .dates-booking-option p {
+  margin: 0 0 18px;
+  color: #475569;
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+[data-trek-key="everest"] #section-dates .dates-booking-action {
+  width: 100%;
+  margin-top: auto;
+  padding: 11px 16px;
+  border: 0;
+  border-radius: 8px;
+  background: #0E3458;
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+[data-trek-key="everest"] #section-dates .dates-private-option .dates-booking-action {
+  background: #EA580C;
+}
+
+[data-trek-key="everest"] #section-dates .dates-booking-action:hover {
+  background: #1A96C8;
+  transform: translateY(-1px);
+}
+
+[data-trek-key="everest"] #section-dates .dates-pricing-panel {
+  padding: 24px;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+}
+
+[data-trek-key="everest"] #section-dates .dates-pricing-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-bottom: 18px;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-currency {
+  padding: 5px 10px;
+  border: 1px solid #DBEAFE;
+  border-radius: 999px;
+  background: #EFF6FF;
+  color: #1E40AF;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+[data-trek-key="everest"] #section-dates .dates-tier-grid {
+  grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+[data-trek-key="everest"] #section-dates .dates-tier-card {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  min-height: 126px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 16px 10px;
+  border: 1px solid #E2E8F0;
+  background: #F8FAFC;
+}
+
+[data-trek-key="everest"] #section-dates .dates-tier-travellers {
+  color: #64748B;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+[data-trek-key="everest"] #section-dates .dates-tier-card strong {
+  color: #0E3458;
+  font-size: clamp(0.94rem, 1.6vw, 1.15rem);
+  line-height: 1.3;
+}
+
+[data-trek-key="everest"] #section-dates .dates-tier-label {
+  color: #64748B;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+[data-trek-key="everest"] #section-dates .dates-tier-card.best-value {
+  justify-content: flex-end;
+  padding-top: 30px;
+  border-color: #10B981;
+}
+
+[data-trek-key="everest"] #section-dates .dates-tier-card.best-value strong {
+  color: #065F46;
+}
+
+[data-trek-key="everest"] #section-dates .dates-best-value-badge {
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  max-width: calc(100% - 14px);
+  transform: translateX(-50%);
+  padding: 3px 7px;
+  border-radius: 999px;
+  background: #10B981;
+  color: #FFFFFF;
+  font-size: 0.61rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-table th {
+  padding: 12px 14px;
+  background: #0E3458;
+  color: #FFFFFF;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-table td {
+  padding: 11px 14px;
+  border-top: 1px solid #E2E8F0;
+  color: #334155;
+  font-size: 0.88rem;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-table tbody tr:nth-child(even) {
+  background: #F8FAFC;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-table td:nth-child(2) {
+  color: #0E3458;
+  font-weight: 700;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-table td:last-child,
+[data-trek-key="everest"] #section-dates .dates-price-table th:last-child {
+  text-align: right;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-table td:last-child button {
+  padding: 7px 12px;
+  border: 0;
+  border-radius: 7px;
+  background: #1A96C8;
+  color: #FFFFFF;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-best-value {
+  background: #F0FDF4 !important;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-best-value td {
+  color: #065F46;
+}
+
+[data-trek-key="everest"] #section-dates .dates-price-best-value td:first-child span {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: #D1FAE5;
+  color: #047857;
+  font-size: 0.65rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+[data-trek-key="everest"] #section-dates .dates-pricing-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-top: 16px;
+  padding: 13px 15px;
+  border-left: 3px solid #1A96C8;
+  border-radius: 0 8px 8px 0;
+  background: #EFF6FF;
+}
+
+[data-trek-key="everest"] #section-dates .dates-pricing-note p {
+  flex: 1 1 360px;
+  margin: 0;
+  color: #475569;
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+[data-trek-key="everest"] #section-dates .dates-pricing-note button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #0E668E;
+  font-size: 0.84rem;
+  font-weight: 800;
+  text-align: left;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  [data-trek-key="everest"] #section-dates .dates-booking-options {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .dates-mode-toggle {
@@ -8974,12 +10078,177 @@ textarea {
   box-shadow: 0 2px 8px rgba(26, 150, 200, 0.28);
 }
 
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-date-message {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+  padding: 16px 20px;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-date-message h3 {
+  margin: 0 0 6px;
+  color: var(--color-primary-navy);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-date-message p {
+  margin: 0;
+  color: var(--color-neutral-600);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .dates-price-card th:last-child,
+[data-trek-key="everest-view-trek"] #section-dates .dates-price-card td:last-child {
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  [data-trek-key="everest-view-trek"] #section-dates .dates-price-card thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  [data-trek-key="everest-view-trek"] #section-dates .dates-price-card tbody {
+    display: block;
+  }
+
+  [data-trek-key="everest-view-trek"] #section-dates .dates-price-card tbody tr {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 2px 12px;
+    padding: 8px 14px;
+  }
+
+  [data-trek-key="everest-view-trek"] #section-dates .dates-price-card tbody td {
+    min-width: 0;
+    padding: 4px 0 !important;
+  }
+
+  [data-trek-key="everest-view-trek"] #section-dates .dates-price-card tbody td:first-child {
+    grid-column: 1;
+    font-size: 0.88rem;
+  }
+
+  [data-trek-key="everest-view-trek"] #section-dates .dates-price-card tbody td:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 0.94rem;
+  }
+
+  [data-trek-key="everest-view-trek"] #section-dates .dates-price-card tbody td:last-child {
+    grid-column: 2;
+    grid-row: 1 / 3;
+  }
+
+  [data-trek-key="everest-view-trek"] #section-dates .dates-price-card tbody td:last-child button {
+    white-space: nowrap;
+    padding: 5px 10px !important;
+  }
+}
+
 .dates-card-container {
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 20px;
   padding: 32px;
   box-shadow: 0 10px 30px rgba(14, 52, 88, 0.05);
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-dates-request-note {
+  margin-left: auto;
+  color: var(--color-neutral-600);
+  font-size: 0.9rem;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-date-request-row {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-request-date-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1A96C8;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-date-request-info {
+  min-width: 0;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-date-request-info p {
+  flex: 1 1 100%;
+  margin: 0;
+  color: var(--color-neutral-600);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .private-dates-title {
+  margin: 0 0 6px;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-private-date-card {
+  margin-bottom: 20px;
+  background: #F8FAFC;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-private-date-picker {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+  align-items: center;
+  gap: 12px 20px;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-private-date-picker label {
+  color: var(--color-primary-navy);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-private-date-picker input {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid #CBD5E1;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: var(--color-primary-navy);
+  font: inherit;
+}
+
+[data-trek-key="everest-view-trek"] #section-dates .everest-view-private-date-picker p {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--color-neutral-600);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 768px) {
+  [data-trek-key="everest-view-trek"] #section-dates .everest-view-dates-request-note {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
+
+  [data-trek-key="everest-view-trek"] #section-dates .everest-view-private-date-picker {
+    grid-template-columns: 1fr;
+  }
+
+  [data-trek-key="everest-view-trek"] #section-dates .everest-view-private-date-picker p {
+    grid-column: 1;
+  }
 }
 
 /* Group Joining View */
@@ -9049,6 +10318,7 @@ textarea {
 .dates-departure-list::-webkit-scrollbar {
   width: 6px;
 }
+
 .dates-departure-list::-webkit-scrollbar-thumb {
   background: #cbd5e1;
   border-radius: 4px;
@@ -9413,13 +10683,16 @@ textarea {
   .dual-calendar-mount {
     grid-template-columns: 1fr;
   }
+
   .dates-card-container {
     padding: 20px 16px;
   }
+
   .departure-item-row {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .departure-action {
     width: 100%;
     justify-content: space-between;
@@ -9821,6 +11094,7 @@ textarea {
   .video-reviews-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .platform-reviews-grid {
     grid-template-columns: 1fr;
   }
@@ -10275,10 +11549,25 @@ textarea {
   flex-shrink: 0;
 }
 
-.blue-bg { background: #dbeafe; color: #1d4ed8; }
-.green-bg { background: #dcfce7; color: #15803d; }
-.yellow-bg { background: #fef3c7; color: #b45309; }
-.purple-bg { background: #f3e8ff; color: #6b21a8; }
+.blue-bg {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.green-bg {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.yellow-bg {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.purple-bg {
+  background: #f3e8ff;
+  color: #6b21a8;
+}
 
 .reviewer-name {
   font-weight: 700;
@@ -10823,6 +12112,7 @@ textarea {
 }
 
 @media (max-width: 1200px) {
+
   .yml-cards-grid.yml-grid-4,
   .yml-cards-grid.grid-4,
   .yml-cards-grid:has(> :nth-child(4):last-child) {
@@ -10839,6 +12129,7 @@ textarea {
 }
 
 @media (max-width: 640px) {
+
   .yml-cards-grid,
   .yml-cards-grid.yml-grid-4,
   .yml-cards-grid.grid-4,
@@ -11145,6 +12436,7 @@ textarea {
 }
 
 @media (min-width: 1025px) {
+
   /* Navigation Dropdown Menu for Regional Hubs */
   .nav-item-dropdown {
     position: relative;
@@ -11198,6 +12490,24 @@ textarea {
   display: none;
 }
 
+@media (max-width: 560px) {
+  [data-trek-key="everest-view-trek"] .everest-view-trip-facts-header {
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    gap: 8px;
+  }
+
+  [data-trek-key="everest-view-trek"] .everest-view-trip-facts-header h2 {
+    flex: 1 1 100%;
+    font-size: 1.2rem !important;
+  }
+
+  [data-trek-key="everest-view-trek"] .everest-view-trip-facts-header > span {
+    flex: 1 1 100%;
+    margin-left: 46px;
+  }
+}
+
 /* ---- Mobile (≤ 768px) ---- */
 @media (max-width: 768px) {
 
@@ -11209,7 +12519,7 @@ textarea {
 
   /* 2. Main layout: single column, sidebar on top */
   .trek-detail-layout,
-  [data-trek-details-wrapper] > .container {
+  [data-trek-details-wrapper]>.container {
     grid-template-columns: 1fr !important;
     gap: 20px;
     width: 100% !important;
@@ -11217,23 +12527,31 @@ textarea {
     box-sizing: border-box !important;
   }
 
-  .trek-detail-layout > *,
-  [data-trek-details-wrapper] > .container > * {
+  .trek-detail-layout>*,
+  [data-trek-details-wrapper]>.container>* {
     min-width: 0 !important;
     max-width: 100% !important;
     width: 100% !important;
     box-sizing: border-box !important;
   }
 
+  [data-trek-key="everest-view-trek"] #section-details {
+    width: calc(100% + 40px) !important;
+    max-width: none !important;
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+    box-sizing: border-box !important;
+  }
+
   /* Move booking sidebar above main content on mobile */
-  .trek-detail-layout > div:last-child,
-  [data-trek-details-wrapper] > .container > div:last-child {
+  .trek-detail-layout>div:last-child,
+  [data-trek-details-wrapper]>.container>div:last-child {
     order: -1;
   }
 
   /* Un-stick the sidebar on mobile */
-  .trek-detail-layout > div:last-child > div[style*="sticky"],
-  [data-trek-details-wrapper] > .container > div:last-child > div[style*="sticky"] {
+  .trek-detail-layout>div:last-child>div[style*="sticky"],
+  [data-trek-details-wrapper]>.container>div:last-child>div[style*="sticky"] {
     position: static !important;
     top: auto !important;
   }
@@ -11257,6 +12575,7 @@ textarea {
     font-size: 0.8rem !important;
     gap: 5px !important;
   }
+
   .trek-sub-nav-btn svg,
   .subnav-tab svg {
     width: 13px !important;
@@ -11322,10 +12641,12 @@ textarea {
     /* Safe area for notched phones */
     bottom: calc(16px + env(safe-area-inset-bottom));
   }
+
   .mobile-book-cta:hover {
     transform: translateY(-2px);
     box-shadow: 0 12px 35px rgba(246, 133, 31, 0.55);
   }
+
   .mobile-book-cta svg {
     flex-shrink: 0;
   }
@@ -11383,8 +12704,8 @@ textarea {
 /* Hero Styling */
 .regions-hero-section {
   position: relative;
-  background: linear-gradient(135deg, rgba(14, 52, 88, 0.92) 0%, rgba(14, 52, 88, 0.96) 100%), 
-              url('images/hero-himalayas.webp') center/cover no-repeat;
+  background: linear-gradient(135deg, rgba(14, 52, 88, 0.92) 0%, rgba(14, 52, 88, 0.96) 100%),
+    url('images/hero-himalayas.webp') center/cover no-repeat;
   color: #FFFFFF;
   padding: 85px 0 75px 0;
   text-align: center;
@@ -11740,8 +13061,8 @@ textarea {
 /* Hero */
 .careers-hero-section {
   position: relative;
-  background: linear-gradient(135deg, rgba(14, 52, 88, 0.92) 0%, rgba(14, 52, 88, 0.96) 100%), 
-              url('images/hero-himalayas.webp') center/cover no-repeat;
+  background: linear-gradient(135deg, rgba(14, 52, 88, 0.92) 0%, rgba(14, 52, 88, 0.96) 100%),
+    url('images/hero-himalayas.webp') center/cover no-repeat;
   color: #FFFFFF;
   padding: 90px 0 80px 0;
   text-align: center;
@@ -11932,8 +13253,8 @@ textarea {
 /* Hero Section */
 .reviews-hero-section {
   position: relative;
-  background: linear-gradient(135deg, rgba(14, 52, 88, 0.95) 0%, rgba(14, 52, 88, 0.98) 100%), 
-              url('images/himalayan-bg.webp') center/cover no-repeat;
+  background: linear-gradient(135deg, rgba(14, 52, 88, 0.95) 0%, rgba(14, 52, 88, 0.98) 100%),
+    url('images/himalayan-bg.webp') center/cover no-repeat;
   color: #FFFFFF;
   padding: 80px 0 75px 0;
 }
@@ -12449,6 +13770,7 @@ textarea {
     grid-template-columns: 1fr;
     padding: 24px;
   }
+
   .reviews-hero-title {
     font-size: 2.3rem;
   }
@@ -12514,8 +13836,15 @@ textarea {
 }
 
 @keyframes fadeInReviewTab {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Platform Sub-Tabs Navigation Bar */
@@ -12711,21 +14040,24 @@ textarea {
    STICKY BOOKING SIDEBAR CARD — TREK & TOUR DETAIL PAGES
    ======================================================= */
 .trek-detail-layout {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr;
+  gap: 40px;
   align-items: stretch !important;
+  position: relative;
 }
 
 .trek-sidebar-col,
-.trek-detail-layout > div:last-child {
+.trek-detail-layout>div:last-child {
   position: relative !important;
-  height: 100% !important;
-  min-height: 100% !important;
+  align-self: stretch !important;
 }
 
 .sidebar-booking-card {
   position: -webkit-sticky !important;
   position: sticky !important;
-  top: 148px !important;
-  z-index: 50 !important;
+  top: 160px !important;
+  z-index: 40 !important;
   display: block !important;
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
@@ -12736,8 +14068,9 @@ textarea {
 }
 
 @media (max-width: 768px) {
+
   .trek-sidebar-col,
-  .trek-detail-layout > div:last-child {
+  .trek-detail-layout>div:last-child {
     height: auto !important;
     min-height: auto !important;
     order: -1 !important;
@@ -12755,7 +14088,7 @@ textarea {
 .guide-hero-section {
   position: relative;
   background: linear-gradient(135deg, rgba(14, 52, 88, 0.94) 0%, rgba(14, 52, 88, 0.97) 100%),
-              url('images/himalayan-bg.webp') center/cover no-repeat;
+    url('images/himalayan-bg.webp') center/cover no-repeat;
   color: #FFFFFF;
   padding: 80px 0 75px 0;
   text-align: center;
@@ -12925,7 +14258,8 @@ textarea {
     grid-template-columns: 100% !important;
     display: block !important;
   }
-  .guide-layout-split > * {
+
+  .guide-layout-split>* {
     min-width: 0 !important;
     max-width: 100% !important;
     width: 100% !important;
@@ -13042,7 +14376,7 @@ textarea {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.03);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
 }
 
 .checklist-bar-track {
@@ -13068,7 +14402,7 @@ textarea {
   border-radius: 18px;
   padding: 26px 28px;
   margin-bottom: 24px;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.02);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.02);
 }
 
 .checklist-group-header {
@@ -13182,9 +14516,11 @@ textarea {
   .guide-hero-title {
     font-size: 2.2rem;
   }
+
   .guide-hero-desc {
     font-size: 1rem;
   }
+
   .guide-group {
     padding: 18px;
   }
@@ -13303,7 +14639,7 @@ textarea {
     padding: 16px;
     border-radius: 14px;
   }
-  
+
   .region-pills-header {
     margin-bottom: 12px;
   }
@@ -13519,7 +14855,7 @@ textarea {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 45%, rgba(0,0,0,0.4) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 100%);
   pointer-events: none;
 }
 
@@ -13554,7 +14890,7 @@ textarea {
   border-radius: 9999px;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.2);
   display: inline-flex;
   align-items: center;
@@ -14260,7 +15596,7 @@ textarea {
   border-top: 1px solid var(--color-neutral-200);
 }
 
-.article-content-column h2 + .article-figure {
+.article-content-column h2+.article-figure {
   margin-top: 20px;
   margin-bottom: 26px;
 }
@@ -14799,9 +16135,11 @@ textarea {
     grid-template-columns: 1fr;
     gap: 36px;
   }
+
   .article-toc-column {
     display: none;
   }
+
   .toc-mobile-card {
     display: block;
     position: sticky;
@@ -14810,11 +16148,13 @@ textarea {
     margin: 16px 0 24px 0;
     box-shadow: 0 4px 18px rgba(14, 52, 88, 0.08);
   }
+
   .toc-mobile-dropdown.is-open {
     max-height: 55vh;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
+
   .related-guides-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -14824,48 +16164,60 @@ textarea {
   .quick-answer-card {
     padding: 22px 20px;
   }
+
   .quick-answer-cta-strip {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .quick-answer-btn-group {
     width: 100%;
     flex-direction: column;
   }
+
   .quick-answer-btn-group a,
   .quick-answer-btn-group button {
     width: 100%;
     text-align: center;
   }
+
   .timeline-card-grid,
   .self-assessment-box,
   .choice-split-grid {
     grid-template-columns: 1fr;
   }
+
   .author-profile-box {
     grid-template-columns: 1fr;
     text-align: center;
   }
+
   .author-profile-avatar {
     margin: 0 auto;
   }
+
   .author-profile-badges {
     justify-content: center;
   }
+
   .related-guides-grid,
   .related-articles-grid {
     grid-template-columns: 1fr;
   }
+
   .article-final-cta-card {
     padding: 36px 20px;
   }
+
   .article-final-cta-btn-group {
     flex-direction: column;
   }
+
   .article-final-cta-btn-group a,
   .article-final-cta-btn-group button {
     width: 100%;
   }
+
   .matrix-row {
     grid-template-columns: 1.5fr 1fr 1fr;
     font-size: 0.85rem;
@@ -14899,11 +16251,11 @@ textarea {
   visibility: hidden;
   transform: translateY(16px);
   transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-              transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-              visibility 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-              background 0.2s ease,
-              border-color 0.2s ease,
-              box-shadow 0.2s ease;
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    background 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -15263,6 +16615,7 @@ textarea {
 
 /* 1. Prevent iOS Safari Automatic Zoom Glitch on Focused Inputs */
 @media (max-width: 768px) {
+
   input[type="text"],
   input[type="email"],
   input[type="tel"],
@@ -15293,19 +16646,22 @@ textarea {
     display: block !important;
     width: 100% !important;
   }
-  .compare-map-grid > div {
+
+  .compare-map-grid>div {
     min-width: 0 !important;
     max-width: 100% !important;
     width: 100% !important;
     box-sizing: border-box !important;
     margin-bottom: 24px;
   }
+
   .map-card-wrapper,
   .map-visual-box {
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
   }
+
   .map-visual-box svg {
     width: 100% !important;
     max-width: 100% !important;
@@ -15320,6 +16676,7 @@ textarea {
     align-items: flex-start !important;
     gap: 8px !important;
   }
+
   .day-time {
     min-width: unset !important;
     width: auto !important;
@@ -15332,6 +16689,7 @@ textarea {
     width: 44px !important;
     height: 44px !important;
   }
+
   .modal-card {
     width: 94% !important;
     max-width: 94% !important;
@@ -15339,16 +16697,18 @@ textarea {
     padding: 24px 20px !important;
     box-sizing: border-box !important;
   }
+
   .platform-sub-tab {
     min-height: 44px !important;
     padding: 10px 14px !important;
   }
-  
+
   /* Fluid Scaling for Mobile Headings */
   h1 {
     font-size: clamp(1.85rem, 6vw, 2.5rem) !important;
     line-height: 1.25 !important;
   }
+
   .details-main-title,
   .section-heading-responsive {
     font-size: clamp(1.5rem, 5vw, 1.85rem) !important;
@@ -15358,6 +16718,7 @@ textarea {
 
 /* 6. Universal Mobile Table Scrolling & 2-Col Detail Layout Collapse */
 @media (max-width: 768px) {
+
   article table,
   main table,
   .container table,
@@ -15371,6 +16732,7 @@ textarea {
 }
 
 @media (max-width: 640px) {
+
   .trek-detail-layout [style*="grid-template-columns: repeat(2, 1fr)"],
   .trek-detail-section [style*="grid-template-columns: repeat(2, 1fr)"] {
     grid-template-columns: 1fr !important;

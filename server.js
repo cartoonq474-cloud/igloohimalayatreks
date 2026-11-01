@@ -1298,6 +1298,9 @@ const server = http.createServer((req, res) => {
           'Content-Type': contentType,
           'Content-Encoding': 'br',
           'Content-Length': compressed.length,
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache',
+          'Expires': '0',
           'Vary': 'Accept-Encoding'
         });
         res.end(compressed);
@@ -1307,6 +1310,9 @@ const server = http.createServer((req, res) => {
           'Content-Type': contentType,
           'Content-Encoding': 'gzip',
           'Content-Length': compressed.length,
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache',
+          'Expires': '0',
           'Vary': 'Accept-Encoding'
         });
         res.end(compressed);
@@ -1314,6 +1320,9 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, {
           'Content-Type': contentType,
           'Content-Length': buffer.length,
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache',
+          'Expires': '0',
           'Accept-Ranges': 'bytes'
         });
         res.end(buffer);

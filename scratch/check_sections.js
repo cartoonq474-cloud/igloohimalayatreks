@@ -1,15 +1,15 @@
 const fs = require('fs');
 
-function checkFile(file) {
-  console.log('=== ' + file + ' ===');
-  const html = fs.readFileSync(file, 'utf8');
-  const lines = html.split('\n');
-  lines.forEach(l => {
-    if (l.includes('<section') && l.includes('id=')) {
-      console.log(l.trim());
-    }
-  });
-}
+const html = fs.readFileSync('trek/upper-mustang-trek/index.html', 'utf8');
 
-checkFile('trek/gokyo-lakes-trek/index.html');
-checkFile('trek/gokyo-lake-with-renjo-la-pass-trek/index.html');
+const pStart = html.indexOf('id="section-packing"');
+console.log('--- SECTION PACKING (first 1500 chars) ---');
+console.log(html.substring(pStart, pStart + 1500));
+
+const mStart = html.indexOf('id="section-map"');
+console.log('--- SECTION MAP (first 1500 chars) ---');
+console.log(html.substring(mStart, mStart + 1500));
+
+const fStart = html.indexOf('id="section-faqs"');
+console.log('--- SECTION FAQS (first 1500 chars) ---');
+console.log(html.substring(fStart, fStart + 1500));

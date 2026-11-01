@@ -1,20 +1,6 @@
 const fs = require('fs');
-
-const html = fs.readFileSync('trek/gokyo-lakes-trek/index.html', 'utf8');
-
-const subnavTabs = [...html.matchAll(/data-tab="([^"]+)"/g)].map(m => m[1]);
-console.log('Subnav tabs found:', subnavTabs);
-
-let allValid = true;
-subnavTabs.forEach(tab => {
-  const targetId = `id="section-${tab}"`;
-  const exists = html.includes(targetId);
-  console.log(`Tab [${tab}] -> Target [${targetId}]: ${exists ? 'EXISTS ✅' : 'MISSING ❌'}`);
-  if (!exists) allValid = false;
+['trek/yala-peak-climbing/index.html', 'trek/tamang-heritage-trail-with-langtang-valley-trek/index.html', 'trek/langtang-valley-trek/index.html', 'trek/kanchenjunga-circuit-trek/index.html'].forEach(f => {
+  const html = fs.readFileSync(f, 'utf8');
+  const hasSubnav = html.includes('href="#section-details"');
+  console.log(f, 'hasSubnav:', hasSubnav);
 });
-
-if (!allValid) {
-  process.exit(1);
-} else {
-  console.log('All subnav tabs perfectly match section IDs!');
-}

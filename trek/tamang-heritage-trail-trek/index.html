@@ -728,365 +728,328 @@
   </header>
 
   <main>
-    <article itemscope itemtype="https://schema.org/TouristTrip">
-    <!-- Page Title Section -->
-    <section style="padding: 30px 0 10px 0; background: var(--color-neutral-50);">
+    <article itemscope itemtype="https://schema.org/TouristTrip" data-trek-details-wrapper data-trek-key="tamang-heritage-trail-trek">
+
+    <!-- Page Title Section (Rule 7) -->
+    <section class="trek-hero-title-section" style="padding: 30px 0 10px 0; background: var(--color-neutral-50);">
       <div class="container">
-        <!-- Top Row: Region Pill & Review Badges -->
-        <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 12px;">
-          <span class="pill pill-copper" style="margin-bottom: 0;">Langtang Region • Valley of Glaciers & Tamang Heritage</span>
-          
-          <!-- TripAdvisor Review Badge -->
-          <div style="display: inline-flex; align-items: center; gap: 8px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 100px; padding: 4px 12px; font-size: 0.85rem; color: #475569; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <span style="display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; background: #00af87; border-radius: 50%;">
-              <svg viewBox="0 0 24 24" fill="#000000" width="10" height="10">
-                <path d="M12 3.2c-4.8 0-8.8 4-8.8 8.8 0 4.8 4 8.8 8.8 8.8 4.8 0 8.8-4 8.8-8.8 0-4.8-4-8.8-8.8-8.8zm-3.3 12.1c-1.8 0-3.3-1.5-3.3-3.3 0-1.8 1.5-3.3 3.3-3.3 1.8 0 3.3 1.5 3.3 3.3.1 1.8-1.4 3.3-3.3 3.3zm6.6 0c-1.8 0-3.3-1.5-3.3-3.3 0-1.8 1.5-3.3 3.3-3.3 1.8 0 3.3 1.5 3.3 3.3 0 1.8-1.5 3.3-3.3 3.3zm-6.6-4.9c-.9 0-1.6.7-1.6 1.6 0 .9.7 1.6 1.6 1.6.9 0 1.6-.7 1.6-1.6 0-.9-.7-1.6-1.6-1.6zm6.6 0c-.9 0-1.6.7-1.6 1.6 0 .9.7 1.6 1.6 1.6.9 0 1.6-.7 1.6-1.6 0-.9-.7-1.6-1.6-1.6zM12 11.5c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5z"/>
-              </svg>
-            </span>
-            <span style="font-weight: 700; color: #0E3458;">5.0</span>
-            <span style="display: inline-flex; gap: 2px;">
-              <span style="width: 8px; height: 8px; background: #00af87; border-radius: 50%;"></span>
-              <span style="width: 8px; height: 8px; background: #00af87; border-radius: 50%;"></span>
-              <span style="width: 8px; height: 8px; background: #00af87; border-radius: 50%;"></span>
-              <span style="width: 8px; height: 8px; background: #00af87; border-radius: 50%;"></span>
-              <span style="width: 8px; height: 8px; background: #00af87; border-radius: 50%;"></span>
-            </span>
-            <span>reviews on <strong style="font-weight: 600; color: #0E3458;">TripAdvisor</strong></span>
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="Breadcrumb" style="margin-bottom: 16px;">
+          <ol style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; list-style: none; padding: 0; margin: 0; font-size: 0.85rem; color: #64748B;">
+            <li><a href="../../index.html" style="color: #64748B; text-decoration: none;">Home</a></li>
+            <li><span style="color: #CBD5E1;">/</span></li>
+            <li><a href="../../destination/langtang/" style="color: #64748B; text-decoration: none;">Langtang Region</a></li>
+            <li><span style="color: #CBD5E1;">/</span></li>
+            <li aria-current="page" style="color: #0E3458; font-weight: 600;">Tamang Heritage Trail — 10 Days</li>
+          </ol>
+        </nav>
+
+        <!-- Title & Badges Header -->
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 12px;">
+          <div style="display: contents;">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 0; order: 1; flex: 1 1 auto;">
+              <span class="trek-badge badge-region" style="background: #EBF8FF; color: #1A96C8; border: 1px solid #BEE3F8; padding: 4px 12px; border-radius: 9999px; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;">Langtang Region</span>
+              <span class="trek-badge badge-theme" style="background: #F0FDF4; color: #16A34A; border: 1px solid #BBF7D0; padding: 4px 12px; border-radius: 9999px; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;">Indigenous Culture &bull; Hot Springs &bull; Homestays</span>
+              <span class="trek-badge badge-route" style="background: #FEF3C7; color: #D97706; border: 1px solid #FDE68A; padding: 4px 12px; border-radius: 9999px; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;">Gatlang &bull; Tatopani &bull; Nagthali (3,165m) &bull; Briddim</span>
+            </div>
+            <h1 style="font-size: clamp(2rem, 3.5vw, 2.75rem); color: #0E3458; font-weight: 800; line-height: 1.15; margin: 0 0 14px 0; order: 2; flex: 1 0 100%;">Tamang Heritage Trail &mdash; 10 Days</h1>
+            <!-- Verbatim Introductory Summary Paragraph with See more toggle (Rule 7) -->
+            <p style="font-size: 1.15rem; line-height: 1.7; color: var(--color-neutral-600); margin: 12px 0 0; max-width: 900px; order: 3; flex: 1 0 100%;">
+              Explore Tamang villages on our ten-day heritage trek in Nepal’s Langtang region.
+              <span id="tamang-hero-more-text" style="display: none;"> Begin in Syabrubesi, then walk to Gatlang, Tatopani, Thuman, Timure and Briddim before completing the circuit. Stone houses, Buddhist prayer sites and hillsides accompany the village trails, with mountain views when the weather clears. Stay in simple lodges and arranged village accommodation. The programme includes Kathmandu arrival and departure, return road travel and six walking days, with sustained climbs and descents between the overnight stops.</span>
+              <button id="tamang-hero-toggle-btn" type="button" style="background: none; border: none; color: #1A96C8; font-weight: 700; font-size: 1.05rem; cursor: pointer; padding: 0; margin-left: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; vertical-align: middle; transition: opacity 0.2s ease;">
+                See more <span style="font-size: 1.1rem; margin-left: 2px;">&rarr;</span>
+              </button>
+            </p>
+
+            <script>
+              (function() {
+                function initHeroToggle() {
+                  var btn = document.getElementById('tamang-hero-toggle-btn');
+                  var text = document.getElementById('tamang-hero-more-text');
+                  if (btn && text) {
+                    btn.addEventListener('click', function() {
+                      var isHidden = text.style.display === 'none';
+                      text.style.display = isHidden ? 'inline' : 'none';
+                      btn.innerHTML = isHidden 
+                        ? 'See less <span style="font-size: 1.1rem; margin-left: 2px;">&uarr;</span>' 
+                        : 'See more <span style="font-size: 1.1rem; margin-left: 2px;">&rarr;</span>';
+                    });
+                  }
+                }
+                if (document.readyState === 'loading') {
+                  document.addEventListener('DOMContentLoaded', initHeroToggle);
+                } else {
+                  initHeroToggle();
+                }
+              })();
+            </script>
           </div>
 
-          <!-- Google Review Badge -->
-          <div style="display: inline-flex; align-items: center; gap: 8px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 100px; padding: 4px 12px; font-size: 0.85rem; color: #475569; box-shadow: 0 1px 2px rgba(0,0,0,0.05); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <svg width="14" height="14" viewBox="0 0 24 24">
-              <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
-              <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
-              <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
-              <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
-            </svg>
-            <span style="font-weight: 700; color: #0E3458;">5.0</span>
-            <span style="color: #FBBF24; display: inline-flex; gap: 1px; font-size: 0.9rem;"><svg width="15" height="15" viewBox="0 0 24 24" fill="#1A96C8" stroke="none" style="display:inline-block; vertical-align:middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#1A96C8" stroke="none" style="display:inline-block; vertical-align:middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#1A96C8" stroke="none" style="display:inline-block; vertical-align:middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#1A96C8" stroke="none" style="display:inline-block; vertical-align:middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#1A96C8" stroke="none" style="display:inline-block; vertical-align:middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-            <span><strong style="font-weight: 600; color: #0E3458;">169</strong> reviews on Google</span>
+          <!-- Rating & Highlights Pill -->
+          <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 100px; padding: 8px 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; min-width: 0; align-self: flex-start; box-shadow: 0 1px 2px rgba(0,0,0,0.05); order: 1;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <div style="display: flex; gap: 2px;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span style="font-weight: 700; color: #0E3458; font-size: 0.95rem;">4.9 / 5</span>
+            </div>
+            <span style="font-size: 0.8rem; color: #64748B;">Based on 28 verified cultural trekker reviews</span>
+            <div style="display: flex; align-items: center; gap: 6px; margin-top: 4px; font-size: 0.8rem; color: #10B981; font-weight: 600;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>100% Guaranteed Departure</span>
+            </div>
           </div>
         </div>
-        <h1 style="font-size: 2.8rem; margin-top: 6px; margin-bottom: 8px; color: var(--color-primary-navy);">Tamang Heritage Trail (10 Days)</h1>
-        <p style="font-size: 1.15rem; color: var(--color-neutral-600); line-height: 1.7; margin-top: 12px; margin-bottom: 0;">Walk a village circuit from Syabrubesi through Gatlang, Tatopani, Thuman, Timure and Briddim. Igloo’s itinerary focuses on Tamang communities and local village trails before returning to the starting point.
-          <span id="ebc-more-text" style="display: none;">
-            Guided by our certified local expert team, you will safely navigate high-altitude Himalayan terrain with tailored acclimatization, comfortable teahouse stays, and rich local cultural traditions.
-          </span>
-          <button id="ebc-toggle-btn" style="background: none; border: none; color: #1A96C8; font-weight: 700; font-size: 1.05rem; cursor: pointer; padding: 0; margin-left: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; vertical-align: middle; transition: opacity 0.2s ease;">
-            Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>
-          </button>
-        </p>
-        
-        <script>
-          document.addEventListener('DOMContentLoaded', () => {
-            const toggleBtn = document.getElementById('ebc-toggle-btn');
-            const moreText = document.getElementById('ebc-more-text');
+
+        <!-- Hero Bento Gallery (Rule 7) -->
+        <div class="trek-gallery-collage">
+          <!-- Main Hero Image (Spans 2 rows) -->
+          <div class="trek-gallery-main">
+            <img src="../../images/tamang-heritage-trail.webp" alt="Traditional stone houses and terraced fields in Gatlang village, Tamang Heritage Trail" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;" loading="eager" decoding="async" fetchpriority="high">
+            <div class="trek-gallery-badge">
+              <div class="trek-gallery-badge-icon" style="background: #00af87; display: flex; align-items: center; justify-content: center;">
+                <svg class="icon-svg icon-sm icon-svg-fill" style="stroke: none; fill: white;" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              </div>
+              <div class="trek-gallery-badge-text">
+                <span>Travelers' Choice</span>
+                <span>Best of the Best 2026</span>
+              </div>
+            </div>
+            <div style="position: absolute; top: 16px; left: 16px; background: rgba(14, 52, 88, 0.85); backdrop-filter: blur(8px); padding: 8px 16px; border-radius: 9999px; display: flex; align-items: center; gap: 8px; color: #FFFFFF; font-size: 0.85rem; font-weight: 600;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Gatlang Heritage Village — 2,238m</span>
+            </div>
+          </div>
+          <!-- Sub Tile 1 -->
+          <div class="trek-gallery-sub">
+            <img src="../../images/tamang-heritage-trail-02.webp" alt="Tatopani natural healing hot springs nestled in the Himalayan valley" style="width: 100%; height: 100%; object-fit: cover;" loading="eager">
+            <div style="position: absolute; bottom: 10px; left: 10px; background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(4px); padding: 4px 10px; border-radius: 6px; color: #FFFFFF; font-size: 0.75rem;">Tatopani Hot Springs — 2,607m</div>
+          </div>
+          <!-- Sub Tile 2 -->
+          <div class="trek-gallery-sub trek-gallery-sub-top-right">
+            <img src="../../images/tamang-heritage-trail-best-itinerary-cost-2026-2027.webp" alt="Nagthali viewpoint overlooking Ganesh Himal and Langtang range" style="width: 100%; height: 100%; object-fit: cover;" loading="eager">
+            <div style="position: absolute; bottom: 10px; left: 10px; background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(4px); padding: 4px 10px; border-radius: 6px; color: #FFFFFF; font-size: 0.75rem;">Nagthali Viewpoint — 3,165m</div>
+            <button type="button" class="trek-gallery-see-all-btn">
+              <span><svg class="icon-svg icon-xs icon-margin-right" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>See all photos</span>
+            </button>
+          </div>
+          <!-- Sub Tile 3 -->
+          <div class="trek-gallery-sub">
+            <img src="../../images/tamang-heritage-trail-best-itinerary-cost-2026-2027-02.webp" alt="Ancient wood-carved traditional Tamang homes in Thuman village" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+            <div style="position: absolute; bottom: 10px; left: 10px; background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(4px); padding: 4px 10px; border-radius: 6px; color: #FFFFFF; font-size: 0.75rem;">Traditional Stone Houses</div>
+          </div>
+          <!-- Sub Tile 4 -->
+          <div class="trek-gallery-sub trek-gallery-sub-bottom-right">
+            <img src="../../images/tamang-heritage-trail-best-itinerary-cost-2026-2027-03.webp" alt="Warm local community homestay experience in Briddim village" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+            <div style="position: absolute; bottom: 10px; left: 10px; background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(4px); padding: 4px 10px; border-radius: 6px; color: #FFFFFF; font-size: 0.75rem;">Briddim Village Homestay</div>
+          </div>
+        </div>
+
+        <!-- Comprehensive 14-Item Key Trip Facts (Rule 8) -->
+        <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 16px; padding: 28px 24px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04); margin-bottom: 24px;">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; border-bottom: 1px solid #F1F5F9; padding-bottom: 14px;">
+            <h2 style="font-size: 1.25rem; color: #0E3458; font-weight: 700; margin: 0; display: flex; align-items: center; gap: 10px;">
+              <span style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 8px; background: #EBF8FF; color: #1A96C8;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              </span>
+              Key Trip Facts
+            </h2>
+            <span style="font-size: 0.85rem; color: #64748B; font-weight: 500;">Essential Expedition Specifications</span>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px;">
             
-            if (toggleBtn && moreText) {
-              toggleBtn.addEventListener('click', () => {
-                const isHidden = moreText.style.display === 'none';
-                moreText.style.display = isHidden ? 'inline' : 'none';
-                toggleBtn.innerHTML = isHidden 
-                  ? 'Learn less <span style="font-size: 1.1rem; margin-left: 2px;">↑</span>' 
-                  : 'Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>';
-              });
-            }
-          });
-        </script>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Duration</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">10 Days</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Six walking days, two road journeys and nine planned nights</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Difficulty</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">Moderate</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Consecutive walking days, steep uphill/downhill paths, stone steps and uneven ground</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;" data-altitude-m="3165">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3l4 8 5-5 5 15H2L8 3z"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Maximum Altitude</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">3,165 m / 10,384 ft</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Nagthali viewpoint; highest overnight Tatopani (2,607 m)</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Destination</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">Nepal</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Langtang Region, Rasuwa District, Ganesh Himal foothills</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Activity</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">Cultural Trekking</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Indigenous heritage trails, natural hot springs & village homestays</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Accommodation</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">9 Nights Total</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">2 nights in 3-star Kathmandu hotel + 7 nights in village lodges & homestays</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Transport</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">Private Vehicle Drive</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Airport transfers & Kathmandu–Syabrubesi–Kathmandu overland transport</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Meals</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">Full Board Mountain Meals</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Kathmandu breakfast; trekking breakfast, lunch, dinner + fruits & farewell dinner</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Recommended Season</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">Spring & Autumn</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">March–May (rhododendrons) and September–November (crisp mountain views)</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Trek Starts</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">Syabrubesi</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Scenic overland road journey from Kathmandu through Trishuli</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Trek Ends</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">Syabrubesi</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Scenic return drive along Trishuli river valley to Kathmandu</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Trek Region</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">Langtang</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Tamang Heritage area bordering Tibet / Ganesh Himal</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Package Start Point</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">Kathmandu</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Airport pickup upon arrival at Tribhuvan International (KTM)</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 14px; padding: 12px; border-radius: 12px; background: #F8FAFC; border: 1px solid #F1F5F9;">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: #F2F4F6; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #1A96C8;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+              </div>
+              <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; font-weight: 700; display: block;">Package End Point</span>
+                <strong style="font-size: 0.98rem; color: #0E3458; display: block; margin: 2px 0;">Kathmandu</strong>
+                <span style="font-size: 0.8rem; color: #475569; line-height: 1.4; display: block;">Airport departure transfer for international flight home</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sticky Subnav Bar (Rule 18) -->
+        <div class="trek-subnav-sticky" style="position: sticky; top: 76px; z-index: 30; background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(12px); border-bottom: 1px solid #E2E8F0; padding: 10px 0; margin-bottom: 30px;">
+          <div style="display: flex; align-items: center; gap: 10px; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; white-space: nowrap;">
+            <a href="#section-overview" class="subnav-tab active" data-tab="overview" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 9999px; text-decoration: none; font-size: 0.88rem; font-weight: 700; color: #0E3458; background: #F1F5F9;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+              <span>Overview</span>
+            </a>
+            <a href="#section-itinerary" class="subnav-tab" data-tab="itinerary" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 9999px; text-decoration: none; font-size: 0.88rem; font-weight: 600; color: #64748B; background: transparent;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Itinerary</span>
+            </a>
+            <a href="#section-includes" class="subnav-tab" data-tab="includes" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 9999px; text-decoration: none; font-size: 0.88rem; font-weight: 600; color: #64748B; background: transparent;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span>Includes</span>
+            </a>
+            <a href="#section-dates" class="subnav-tab" data-tab="dates" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 9999px; text-decoration: none; font-size: 0.88rem; font-weight: 600; color: #64748B; background: transparent;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              <span>Dates &amp; Price</span>
+            </a>
+            <a href="#section-packing" class="subnav-tab" data-tab="packing" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 9999px; text-decoration: none; font-size: 0.88rem; font-weight: 600; color: #64748B; background: transparent;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+              <span>Packing</span>
+            </a>
+            <a href="#section-details" class="subnav-tab" data-tab="details" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 9999px; text-decoration: none; font-size: 0.88rem; font-weight: 600; color: #64748B; background: transparent;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              <span>Trip Details</span>
+            </a>
+            <a href="#section-altitude-profile" class="subnav-tab" data-tab="altitude-profile" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 9999px; text-decoration: none; font-size: 0.88rem; font-weight: 600; color: #64748B; background: transparent;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              <span>Altitude</span>
+            </a>
+            <a href="#section-weather" class="subnav-tab" data-tab="weather" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 9999px; text-decoration: none; font-size: 0.88rem; font-weight: 600; color: #64748B; background: transparent;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+              <span>Weather</span>
+            </a>
+            <a href="#section-reviews" class="subnav-tab" data-tab="reviews" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 9999px; text-decoration: none; font-size: 0.88rem; font-weight: 600; color: #64748B; background: transparent;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <span>Reviews</span>
+            </a>
+            <a href="#section-faqs" class="subnav-tab" data-tab="faqs" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 9999px; text-decoration: none; font-size: 0.88rem; font-weight: 600; color: #64748B; background: transparent;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+              <span>FAQs</span>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-
-    <!-- Multi-Image Collage Gallery -->
-    <div class="container" style="margin-bottom: 24px;">
-      <div class="trek-gallery-collage">
-        <!-- Main Large Photo (Left) with Travelers' Choice badge -->
-        <div class="trek-gallery-main">
-          <img src="../../images/hero-himalayas.webp" alt="Tamang Heritage Trail Trek View">
-          <!-- TripAdvisor Travelers' Choice Badge -->
-          <div class="trek-gallery-badge">
-            <div class="trek-gallery-badge-icon" style="background: #00af87; display: flex; align-items: center; justify-content: center;">
-              <svg class="icon-svg icon-sm icon-svg-fill" style="stroke: none; fill: white;" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-            </div>
-            <div class="trek-gallery-badge-text">
-              <span>Travelers' Choice</span>
-              <span>Best of the Best 2026</span>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Grid Items (Right 2x2 Columns) -->
-        <div class="trek-gallery-sub">
-          <img src="../../images/gallery-1-5.webp" alt="Himalayan Valley">
-        </div>
-        <div class="trek-gallery-sub trek-gallery-sub-top-right">
-          <img src="../../images/gallery-1-6.webp" alt="Trekkers walking in snow">
-          <!-- See all photos button -->
-          <button class="trek-gallery-see-all-btn">
-            <span><svg class="icon-svg icon-xs icon-margin-right" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>See all photos</span>
-          </button>
-        </div>
-        <div class="trek-gallery-sub">
-          <img src="../../images/gallery-1-5.webp" alt="Himalayan Peak">
-        </div>
-        <div class="trek-gallery-sub trek-gallery-sub-bottom-right">
-          <img src="../../images/gallery-1-6.webp" alt="Himalayan Range">
-        </div>
-      </div>
-    </div>
-
-    <!-- Key Trip Facts Grid -->
-    <div class="container" style="margin-bottom: 30px;">
-      <style>
-        .trip-fact-item {
-          display: flex;
-          align-items: center;
-          gap: 16px;
-          transition: transform 0.2s ease-in-out;
-        }
-        .trip-fact-item:hover {
-          transform: translateY(-2px);
-        }
-      </style>
-      <div style="background: #ffffff; border: 1px solid var(--color-neutral-100); border-radius: var(--radius-md); box-shadow: var(--shadow-sm); padding: 24px 30px;">
-        <h3 style="font-size: 1.3rem; margin-bottom: 24px; color: var(--color-primary-navy); display: flex; align-items: center; gap: 8px; font-weight: 700;">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon-navy" style="color: var(--color-primary-navy);"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>
-          Key Trip Facts
-        </h3>
-        
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 24px 20px;">
-          <!-- 1. Duration -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Duration</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">10 days</span>
-            </div>
-          </div>
-
-          <!-- 2. Difficulty -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Difficulty</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">Easy to Moderate</span>
-            </div>
-          </div>
-
-          <!-- 3. Max Altitude -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22L12 2l8 20H4z"/><path d="M9 22l3-7 3 7H9z" fill="#1A96C8"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Max Altitude</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;" data-altitude-m="3165">3,165 m (10,383 ft)</span>
-            </div>
-          </div>
-
-          <!-- 4. Destination -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Destination</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">Nepal</span>
-            </div>
-          </div>
-
-          <!-- 5. Activity -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Activity</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">Trekking</span>
-            </div>
-          </div>
-
-          <!-- 6. Accommodation -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Accommodation</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">Hostels & Guesthouses</span>
-            </div>
-          </div>
-
-          <!-- 7. Transport -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2zM3 10h18M7 15h.01M11 15h.01"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Transport</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">Private Vehicle / Tourist Coach</span>
-            </div>
-          </div>
-
-          <!-- 8. Meals -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Meals</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">B.D.L.</span>
-            </div>
-          </div>
-
-          <!-- 9. Season -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Season</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">Sep-October & Mar-May</span>
-            </div>
-          </div>
-
-          <!-- 10. Trek Starts -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"/><polygon points="12 7 17 12 12 17 12 7"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Trek Starts</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">Lukla</span>
-            </div>
-          </div>
-
-          <!-- 11. Trek End At -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Trek End At</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">Lukla</span>
-            </div>
-          </div>
-
-          <!-- 12. Trek Region -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Trek Region</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">Langtang</span>
-            </div>
-          </div>
-
-          <!-- 13. Package Start Point -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Package Start Point</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">Kathmandu</span>
-            </div>
-          </div>
-
-          <!-- 14. Package End Point -->
-          <div class="trip-fact-item">
-            <div style="width: 42px; height: 42px; background: #F2F4F6; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-              <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-neutral-500); font-weight: 700;">Package End Point</span>
-              <span style="font-size: 1.05rem; color: var(--color-neutral-800); font-weight: 600;">Kathmandu</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Trust Badges Section -->
-    <div class="container" style="margin-bottom: 30px;">
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
-        
-        <!-- Badge 1: Govt-registered local Nepal agency -->
-        <div style="display: flex; align-items: center; gap: 12px; background: #ffffff; border: 1px solid var(--color-neutral-100); padding: 14px 20px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
-          <div style="width: 38px; height: 38px; background: #F2F4F6; color: #1A96C8; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          </div>
-          <span style="font-size: 0.9rem; font-weight: 700; color: var(--color-primary-navy); line-height: 1.3;">Govt-registered local Nepal agency</span>
-        </div>
-
-        <!-- Badge 2: 10,000+ happy travellers -->
-        <div style="display: flex; align-items: center; gap: 12px; background: #ffffff; border: 1px solid var(--color-neutral-100); padding: 14px 20px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
-          <div style="width: 38px; height: 38px; background: #F2F4F6; color: #1A96C8; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          </div>
-          <span style="font-size: 0.9rem; font-weight: 700; color: var(--color-primary-navy); line-height: 1.3;">10,000+ happy travellers</span>
-        </div>
-
-        <!-- Badge 3: Secure payment · No hidden fees -->
-        <div style="display: flex; align-items: center; gap: 12px; background: #ffffff; border: 1px solid var(--color-neutral-100); padding: 14px 20px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
-          <div style="width: 38px; height: 38px; background: #F2F4F6; color: #1A96C8; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
-          </div>
-          <span style="font-size: 0.9rem; font-weight: 700; color: var(--color-primary-navy); line-height: 1.3;">Secure payment · No hidden fees</span>
-        </div>
-
-        <!-- Badge 4: Instant confirmation -->
-        <div style="display: flex; align-items: center; gap: 12px; background: #ffffff; border: 1px solid var(--color-neutral-100); padding: 14px 20px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
-          <div style="width: 38px; height: 38px; background: #F2F4F6; color: #1A96C8; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-          </div>
-          <span style="font-size: 0.9rem; font-weight: 700; color: var(--color-primary-navy); line-height: 1.3;">Instant confirmation</span>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Sticky Scroll-Spy Sub-Navigation Bar -->
-    <div class="trek-sub-nav">
-      <div class="container">
-        <div class="trek-sub-nav-list">
-          <button class="trek-sub-nav-btn active" data-tab="overview">
-            <svg class="icon-svg icon-sm icon-margin-right" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>Overview
-          </button>
-          <button class="trek-sub-nav-btn" data-tab="itinerary">
-            <svg class="icon-svg icon-sm icon-margin-right" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Itinerary
-          </button>
-          <button class="trek-sub-nav-btn" data-tab="includes">
-            <svg class="icon-svg icon-sm icon-margin-right" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Includes & Excludes
-          </button>
-          <button class="trek-sub-nav-btn" data-tab="dates">
-            <svg class="icon-svg icon-sm icon-margin-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Dates & Availability
-          </button>
-          <button class="trek-sub-nav-btn" data-tab="packing">
-            <svg class="icon-svg icon-sm icon-margin-right" viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>Packing List
-          </button>
-          <button class="trek-sub-nav-btn" data-tab="details">
-            <svg class="icon-svg icon-sm icon-margin-right" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>Trip Details
-          </button>
-          <button class="trek-sub-nav-btn" data-tab="map">
-            <svg class="icon-svg icon-sm icon-margin-right" viewBox="0 0 24 24"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/></svg>Map
-          </button>
-          <button class="trek-sub-nav-btn" data-tab="booking">
-            <svg class="icon-svg icon-sm icon-margin-right" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>Booking
-          </button>
-          <button class="trek-sub-nav-btn" data-tab="reviews">
-            <svg class="icon-svg icon-sm icon-margin-right icon-svg-fill" style="fill: currentColor; stroke: none;" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>Reviews
-          </button>
-          <button class="trek-sub-nav-btn" data-tab="faqs">
-            <svg class="icon-svg icon-sm icon-margin-right" viewBox="0 0 24 24"><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><circle cx="12" cy="12" r="10"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>FAQs
-          </button>
-        </div>
-      </div>
-    </div>
 
     <!-- Main Content Layout with Sticky Booking Sidebar -->
     <section class="section-padding" style="padding-top: 10px;" data-trek-details-wrapper data-trek-key="langtang">
@@ -1493,430 +1456,761 @@
           </section>
 
           <!-- Section 2: Itinerary -->
-          <section id="section-itinerary" class="trek-detail-section">
-            <h2 class="trek-section-title">Tamang Heritage Trail (10 Days) Itinerary: Day by Day Details</h2>
-            <p style="font-size: 1.05rem; color: var(--color-neutral-600); line-height: 1.6; margin-bottom: 24px; max-width: 800px;">Our authentic 10 Days Tamang Heritage Trail itinerary is expertly paced for safe acclimatization and panoramic mountain vistas. Review the full day-by-day stages, distances, elevations, and overnight stops below:</p>
-            
-            <div class="itinerary-timeline">
-              <!-- Day 1: Arrival at Tribhuwan International Airport, Kathmandu -->
-              <div class="itinerary-card active">
-                <div class="itinerary-header">
-                  <div class="itinerary-header-left">
-                    <h4 class="itinerary-day-title-new">
-                      <span class="day-label">Day 1:</span> Arrival at Tribhuwan International Airport, Kathmandu
-                    </h4>
-                    <p class="itinerary-day-subtitle-new">
+          <section id="section-itinerary" class="trek-detail-section" style="margin-bottom: 40px;">
+            <div class="itinerary-header-bar" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+              <h2 style="font-size: 1.6rem; color: #0E3458; font-weight: 800; margin: 0;">10&#8209;Day Tamang Heritage Trail Itinerary &mdash; Day by Day</h2>
+              <button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; border-radius: 9999px; background: #F1F5F9; border: 1px solid #CBD5E1; color: #0E3458; font-size: 0.85rem; font-weight: 700; cursor: pointer;">
+                <span>Expand All Days</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="itinerary-chevron" style="transition: transform 0.3s ease;"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </div>
+            <p style="font-size: 1rem; line-height: 1.65; color: #475569; margin: 0 0 28px 0;">Our ten-day itinerary includes Kathmandu arrival and departure, return road travel and six walking days around Tamang villages. Times and distances are approximate; road access, weather, trail conditions and group pace can change arrangements.</p>
+
+            <!-- Vertical Timeline Wrapper -->
+            <div class="itinerary-timeline-wrapper" style="position: relative; padding-left: 28px; border-left: 2px solid #E2E8F0; display: flex; flex-direction: column; gap: 20px;">
+
+              <!-- Day 1 Card -->
+              <div class="itinerary-card active" data-day="1" style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); position: relative; overflow: visible !important;">
+                <!-- Timeline Dot (Rule 13) -->
+                <span style="position: absolute; left: -36px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 3px solid #1A96C8; box-shadow: 0 0 0 3px #FFFFFF; z-index: 2;"></span>
+
+                <!-- Card Header -->
+                <div class="itinerary-card-header" style="padding: 18px 22px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                  <div>
+                    <span style="display: inline-block; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #1A96C8; margin-bottom: 4px;">Day 1</span>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: #0E3458; margin: 0 0 6px 0;">Day 1: Arrival in Kathmandu</h3>
+                    <div style="font-size: 0.85rem; color: #64748B; font-weight: 500;">
                       Tribhuvan International Airport, Kathmandu – <span data-altitude-m="1400">1,400 m / 4,593 ft</span> – Arrival Transfer
-                    </p>
-                  </div>
-                  <div class="itinerary-header-right">
-                    <div class="itinerary-toggle-btn-new">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
                     </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="itinerary-card-chevron-circle" style="width: 32px; height: 32px; border-radius: 50%; background: #F8FAFC; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; color: #64748B; transition: all 0.3s ease;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="itinerary-card-chevron" style="transition: transform 0.3s ease; transform: rotate(180deg);"><polyline points="6 9 12 15 18 9"/></svg>
+                    </span>
                   </div>
                 </div>
-                <div class="itinerary-content">
-                  <div class="itinerary-content-inner">
-                    <div class="itinerary-metrics-list">
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        <span>Arrival Transfer</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                        <span>Overnight: Authentic Teahouse / Mountain Lodge</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-                        <span>Meals: Breakfast, Lunch & Dinner Included</span>
+
+                <!-- Card Content (Default Open for Day 1, Closed for Others) -->
+                <div class="itinerary-card-content" style="padding: 0 22px 22px 22px; border-top: 1px solid #F1F5F9; display: block;">
+                  <!-- Facts Meta Box (Rule 13: Zero Fact Stripping) -->
+                  <div class="itinerary-meta-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px; margin: 16px 0;">
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #EBF8FF; color: #1A96C8;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Main activity</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Arrival at Tribhuvan International Airport, hotel transfer and trek briefing</strong>
                       </div>
                     </div>
-                    <p style="font-size: 0.98rem; line-height: 1.7; color: var(--color-neutral-700); margin: 0;">
-                      Arrive at Tribhuvan International Airport in Kathmandu. Our Igloo Himalaya Treks representative warmly welcomes you outside the terminal and transfers you to your hotel. Evening pre-trip orientation, gear check, and welcome dinner.
-                    </p>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FEF3C7; color: #D97706;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Overnight altitude</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">1,400 m / 4,593 ft</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #ECFDF5; color: #10B981;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Accommodation</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">3-star hotel in Kathmandu; first of two city nights</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FFE4E6; color: #E11D48;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Meals</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Arrival-day meals at your own expense; breakfast included with the hotel stay</strong>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Narrative Description Paragraphs -->
+                  <div class="itinerary-description" style="font-size: 0.96rem; line-height: 1.7; color: #334155;">
+                    <p style="margin-bottom: 12px;">Welcome to Nepal. Our representative meets you at Tribhuvan International Airport and accompanies you to your hotel. After settling in, review the village itinerary, equipment and required documents with the team, allowing time to discuss questions beforehand.</p>
+                    <p style="margin-bottom: 0;">Depending on your arrival time, rest after the flight or explore nearby Thamel. Organise your trekking bag and keep passport details ready for documentation. Tomorrow begins with the road journey to Syabrubesi.</p>
                   </div>
                 </div>
               </div>
 
-              <!-- Day 2: Drive to Syabru Besi -->
-              <div class="itinerary-card ">
-                <div class="itinerary-header">
-                  <div class="itinerary-header-left">
-                    <h4 class="itinerary-day-title-new">
-                      <span class="day-label">Day 2:</span> Drive to Syabru Besi
-                    </h4>
-                    <p class="itinerary-day-subtitle-new">
+              <!-- Day 2 Card -->
+              <div class="itinerary-card" data-day="2" style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); position: relative; overflow: visible !important;">
+                <!-- Timeline Dot (Rule 13) -->
+                <span style="position: absolute; left: -36px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 3px solid #1A96C8; box-shadow: 0 0 0 3px #FFFFFF; z-index: 2;"></span>
+
+                <!-- Card Header -->
+                <div class="itinerary-card-header" style="padding: 18px 22px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                  <div>
+                    <span style="display: inline-block; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #1A96C8; margin-bottom: 4px;">Day 2</span>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: #0E3458; margin: 0 0 6px 0;">Day 2: Drive from Kathmandu to Syabrubesi</h3>
+                    <div style="font-size: 0.85rem; color: #64748B; font-weight: 500;">
                       Drive to Syabru Besi – <span data-altitude-m="1460">1,460 m / 4,790 ft</span> – 6-8 hrs scenic road drive
-                    </p>
-                  </div>
-                  <div class="itinerary-header-right">
-                    <div class="itinerary-toggle-btn-new">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
                     </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="itinerary-card-chevron-circle" style="width: 32px; height: 32px; border-radius: 50%; background: #F8FAFC; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; color: #64748B; transition: all 0.3s ease;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="itinerary-card-chevron" style="transition: transform 0.3s ease; "><polyline points="6 9 12 15 18 9"/></svg>
+                    </span>
                   </div>
                 </div>
-                <div class="itinerary-content">
-                  <div class="itinerary-content-inner">
-                    <div class="itinerary-metrics-list">
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        <span>6-8 hrs scenic road drive</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                        <span>Overnight: Authentic Teahouse / Mountain Lodge</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-                        <span>Meals: Breakfast, Lunch & Dinner Included</span>
+
+                <!-- Card Content (Default Open for Day 1, Closed for Others) -->
+                <div class="itinerary-card-content" style="padding: 0 22px 22px 22px; border-top: 1px solid #F1F5F9; display: none;">
+                  <!-- Facts Meta Box (Rule 13: Zero Fact Stripping) -->
+                  <div class="itinerary-meta-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px; margin: 16px 0;">
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #EDE9FE; color: #7C3AED;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Driving time</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 7&ndash;8 hours; traffic, repairs and weather can cause delays</strong>
                       </div>
                     </div>
-                    <p style="font-size: 0.98rem; line-height: 1.7; color: var(--color-neutral-700); margin: 0;">
-                      Private overland transport through lush river valleys, terraced hillsides, and traditional rural settlements. Enjoy scenic lunch stops along the scenic highway.
-                    </p>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Road distance</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 120 km; varies with the road and pickup point</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Main route</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Kathmandu &rarr; Trishuli area &rarr; Dhunche &rarr; Syabrubesi, subject to current road access</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FEF3C7; color: #D97706;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Overnight altitude</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">1,460 m / 4,790 ft</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #ECFDF5; color: #10B981;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Accommodation</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Guesthouse or lodge in Syabrubesi</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FFE4E6; color: #E11D48;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Meals</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Breakfast; confirm road-day lunch and dinner coverage in your quotation</strong>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Narrative Description Paragraphs -->
+                  <div class="itinerary-description" style="font-size: 0.96rem; line-height: 1.7; color: #334155;">
+                    <p style="margin-bottom: 12px;">Leave Kathmandu after breakfast for the drive towards Syabrubesi. The road passes hillside settlements, cultivated land and river valleys, with travel time depending on traffic, weather and the available road.</p>
+                    <p style="margin-bottom: 0;">Bus or jeep transport is arranged according to your quotation. Keep water, medicines and rain protection in your day bag, with the rest of your luggage securely packed. On arrival, settle into the guesthouse and discuss tomorrow&rsquo;s walking stage. If time allows, take a short walk nearby before dinner and an early night in Syabrubesi.</p>
                   </div>
                 </div>
               </div>
 
-              <!-- Day 3: Syabru Besi to Gatlang -->
-              <div class="itinerary-card ">
-                <div class="itinerary-header">
-                  <div class="itinerary-header-left">
-                    <h4 class="itinerary-day-title-new">
-                      <span class="day-label">Day 3:</span> Syabru Besi to Gatlang
-                    </h4>
-                    <p class="itinerary-day-subtitle-new">
+              <!-- Day 3 Card -->
+              <div class="itinerary-card" data-day="3" style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); position: relative; overflow: visible !important;">
+                <!-- Timeline Dot (Rule 13) -->
+                <span style="position: absolute; left: -36px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 3px solid #1A96C8; box-shadow: 0 0 0 3px #FFFFFF; z-index: 2;"></span>
+
+                <!-- Card Header -->
+                <div class="itinerary-card-header" style="padding: 18px 22px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                  <div>
+                    <span style="display: inline-block; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #1A96C8; margin-bottom: 4px;">Day 3</span>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: #0E3458; margin: 0 0 6px 0;">Day 3: Trek from Syabrubesi to Gatlang</h3>
+                    <div style="font-size: 0.85rem; color: #64748B; font-weight: 500;">
                       Syabru Besi to Gatlang (High Pass / Ascent) – <span data-altitude-m="4773">4,773 m</span> – 7-9 hrs challenging trek
-                    </p>
-                  </div>
-                  <div class="itinerary-header-right">
-                    <div class="itinerary-toggle-btn-new">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
                     </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="itinerary-card-chevron-circle" style="width: 32px; height: 32px; border-radius: 50%; background: #F8FAFC; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; color: #64748B; transition: all 0.3s ease;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="itinerary-card-chevron" style="transition: transform 0.3s ease; "><polyline points="6 9 12 15 18 9"/></svg>
+                    </span>
                   </div>
                 </div>
-                <div class="itinerary-content">
-                  <div class="itinerary-content-inner">
-                    <div class="itinerary-metrics-list">
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        <span>7-9 hrs challenging trek</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                        <span>Overnight: Authentic Teahouse / Mountain Lodge</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-                        <span>Meals: Breakfast, Lunch & Dinner Included</span>
+
+                <!-- Card Content (Default Open for Day 1, Closed for Others) -->
+                <div class="itinerary-card-content" style="padding: 0 22px 22px 22px; border-top: 1px solid #F1F5F9; display: none;">
+                  <!-- Facts Meta Box (Rule 13: Zero Fact Stripping) -->
+                  <div class="itinerary-meta-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px; margin: 16px 0;">
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #EDE9FE; color: #7C3AED;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Walking time</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 5&ndash;6 hours</strong>
                       </div>
                     </div>
-                    <p style="font-size: 0.98rem; line-height: 1.7; color: var(--color-neutral-700); margin: 0;">
-                      Early pre-dawn departure under starlight with headlamps. A steady, rhythmic ascent brings you to the prayer-flag adorned high summit or pass. Marvel at 360-degree Himalayan panoramas before descending safely to the overnight lodge.
-                    </p>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Trek distance</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 10&ndash;12 km; depends on the selected village trail</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Main route</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Syabrubesi &rarr; Goljung area &rarr; Gatlang</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FEF3C7; color: #D97706;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Overnight altitude</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">2,238 m / 7,343 ft</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #ECFDF5; color: #10B981;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Accommodation</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Village lodge or arranged homestay in Gatlang</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FFE4E6; color: #E11D48;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Meals</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Breakfast, lunch and dinner; seasonal fruits where available; drinks and personal extras cost separately</strong>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Narrative Description Paragraphs -->
+                  <div class="itinerary-description" style="font-size: 0.96rem; line-height: 1.7; color: #334155;">
+                    <p style="margin-bottom: 12px;">Begin the circuit with a climb away from Syabrubesi towards the Gatlang hills. Village paths cross cultivated slopes and wooded ground, with views opening as you gain height.</p>
+                    <p style="margin-bottom: 0;">Keep a steady pace on steps and uphill sections, allowing time to become comfortable with the trail. Gatlang&rsquo;s closely grouped stone houses and fields introduce the village setting of the heritage route. After reaching your accommodation, explore the nearby lanes when time permits. Your guide explains visiting customs, including respect for prayer sites and residents&rsquo; privacy.</p>
                   </div>
                 </div>
               </div>
 
-              <!-- Day 4: Gatlang to Tatopani -->
-              <div class="itinerary-card ">
-                <div class="itinerary-header">
-                  <div class="itinerary-header-left">
-                    <h4 class="itinerary-day-title-new">
-                      <span class="day-label">Day 4:</span> Gatlang to Tatopani
-                    </h4>
-                    <p class="itinerary-day-subtitle-new">
+              <!-- Day 4 Card -->
+              <div class="itinerary-card" data-day="4" style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); position: relative; overflow: visible !important;">
+                <!-- Timeline Dot (Rule 13) -->
+                <span style="position: absolute; left: -36px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 3px solid #1A96C8; box-shadow: 0 0 0 3px #FFFFFF; z-index: 2;"></span>
+
+                <!-- Card Header -->
+                <div class="itinerary-card-header" style="padding: 18px 22px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                  <div>
+                    <span style="display: inline-block; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #1A96C8; margin-bottom: 4px;">Day 4</span>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: #0E3458; margin: 0 0 6px 0;">Day 4: Trek from Gatlang to Tatopani</h3>
+                    <div style="font-size: 0.85rem; color: #64748B; font-weight: 500;">
                       Gatlang to Tatopani (High Pass / Ascent) – <span data-altitude-m="4773">4,773 m</span> – 7-9 hrs challenging trek
-                    </p>
-                  </div>
-                  <div class="itinerary-header-right">
-                    <div class="itinerary-toggle-btn-new">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
                     </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="itinerary-card-chevron-circle" style="width: 32px; height: 32px; border-radius: 50%; background: #F8FAFC; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; color: #64748B; transition: all 0.3s ease;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="itinerary-card-chevron" style="transition: transform 0.3s ease; "><polyline points="6 9 12 15 18 9"/></svg>
+                    </span>
                   </div>
                 </div>
-                <div class="itinerary-content">
-                  <div class="itinerary-content-inner">
-                    <div class="itinerary-metrics-list">
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        <span>7-9 hrs challenging trek</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                        <span>Overnight: Authentic Teahouse / Mountain Lodge</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-                        <span>Meals: Breakfast, Lunch & Dinner Included</span>
+
+                <!-- Card Content (Default Open for Day 1, Closed for Others) -->
+                <div class="itinerary-card-content" style="padding: 0 22px 22px 22px; border-top: 1px solid #F1F5F9; display: none;">
+                  <!-- Facts Meta Box (Rule 13: Zero Fact Stripping) -->
+                  <div class="itinerary-meta-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px; margin: 16px 0;">
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #EDE9FE; color: #7C3AED;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Walking time</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 5&ndash;6 hours; trail conditions can extend the day</strong>
                       </div>
                     </div>
-                    <p style="font-size: 0.98rem; line-height: 1.7; color: var(--color-neutral-700); margin: 0;">
-                      Early pre-dawn departure under starlight with headlamps. A steady, rhythmic ascent brings you to the prayer-flag adorned high summit or pass. Marvel at 360-degree Himalayan panoramas before descending safely to the overnight lodge.
-                    </p>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Trek distance</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 12 km</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Main route</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Gatlang &rarr; Chilime area &rarr; Tatopani</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FEF3C7; color: #D97706;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Overnight altitude</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">2,607 m / 8,553 ft</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #ECFDF5; color: #10B981;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Accommodation</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Village lodge in Tatopani; highest overnight stop</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FFE4E6; color: #E11D48;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Meals</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Breakfast, lunch and dinner; seasonal fruits where available; drinks and personal extras cost separately</strong>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Narrative Description Paragraphs -->
+                  <div class="itinerary-description" style="font-size: 0.96rem; line-height: 1.7; color: #334155;">
+                    <p style="margin-bottom: 12px;">Leave Gatlang after breakfast and follow village paths towards the Chilime area before climbing towards Tatopani. Descents and uphill sections make this more demanding than the difference between overnight elevations suggests.</p>
+                    <p style="margin-bottom: 0;">Forest and cultivated hillsides accompany the walk, with time for breaks and a meal stop. Tatopani is known for its hot springs, but bathing depends on current water flow and local access. Your guide checks arrangements before any visit. Settle into the lodge and prepare for tomorrow&rsquo;s walk towards Thuman.</p>
                   </div>
                 </div>
               </div>
 
-              <!-- Day 5: Tatopani to Thuman -->
-              <div class="itinerary-card ">
-                <div class="itinerary-header">
-                  <div class="itinerary-header-left">
-                    <h4 class="itinerary-day-title-new">
-                      <span class="day-label">Day 5:</span> Tatopani to Thuman
-                    </h4>
-                    <p class="itinerary-day-subtitle-new">
+              <!-- Day 5 Card -->
+              <div class="itinerary-card" data-day="5" style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); position: relative; overflow: visible !important;">
+                <!-- Timeline Dot (Rule 13) -->
+                <span style="position: absolute; left: -36px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 3px solid #1A96C8; box-shadow: 0 0 0 3px #FFFFFF; z-index: 2;"></span>
+
+                <!-- Card Header -->
+                <div class="itinerary-card-header" style="padding: 18px 22px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                  <div>
+                    <span style="display: inline-block; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #1A96C8; margin-bottom: 4px;">Day 5</span>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: #0E3458; margin: 0 0 6px 0;">Day 5: Trek from Tatopani to Thuman</h3>
+                    <div style="font-size: 0.85rem; color: #64748B; font-weight: 500;">
                       Tatopani to Thuman – <span data-altitude-m="3000">3,000 m / 9,843 ft</span> – 5-6 hrs trek
-                    </p>
-                  </div>
-                  <div class="itinerary-header-right">
-                    <div class="itinerary-toggle-btn-new">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
                     </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="itinerary-card-chevron-circle" style="width: 32px; height: 32px; border-radius: 50%; background: #F8FAFC; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; color: #64748B; transition: all 0.3s ease;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="itinerary-card-chevron" style="transition: transform 0.3s ease; "><polyline points="6 9 12 15 18 9"/></svg>
+                    </span>
                   </div>
                 </div>
-                <div class="itinerary-content">
-                  <div class="itinerary-content-inner">
-                    <div class="itinerary-metrics-list">
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        <span>5-6 hrs trek</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                        <span>Overnight: Authentic Teahouse / Mountain Lodge</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-                        <span>Meals: Breakfast, Lunch & Dinner Included</span>
+
+                <!-- Card Content (Default Open for Day 1, Closed for Others) -->
+                <div class="itinerary-card-content" style="padding: 0 22px 22px 22px; border-top: 1px solid #F1F5F9; display: none;">
+                  <!-- Facts Meta Box (Rule 13: Zero Fact Stripping) -->
+                  <div class="itinerary-meta-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px; margin: 16px 0;">
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #EDE9FE; color: #7C3AED;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Walking time</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 6&ndash;7 hours if taking the Nagthali route</strong>
                       </div>
                     </div>
-                    <p style="font-size: 0.98rem; line-height: 1.7; color: var(--color-neutral-700); margin: 0;">
-                      Follow well-maintained stone trails winding past prayer wheels, mani walls, cascading waterfalls, and traditional Himalayan teahouse settlements with warm hospitality and freshly cooked meals.
-                    </p>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Trek distance</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 10&ndash;12 km; varies with the chosen path</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Main route</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Tatopani &rarr; Brimdang &rarr; Nagthali, if included &rarr; Thuman</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FEF3C7; color: #D97706;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Daytime high point</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Nagthali, approximately 3,165 m / 10,384 ft if included; confirm the selected route</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FEF3C7; color: #D97706;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Overnight altitude</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">2,400 m / 7,874 ft</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #ECFDF5; color: #10B981;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Accommodation</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Village lodge in Thuman</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FFE4E6; color: #E11D48;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Meals</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Breakfast, lunch and dinner; seasonal fruits where available; drinks and personal extras cost separately</strong>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Narrative Description Paragraphs -->
+                  <div class="itinerary-description" style="font-size: 0.96rem; line-height: 1.7; color: #334155;">
+                    <p style="margin-bottom: 12px;">Climb away from Tatopani across wooded hills towards Thuman. The usual path visits Brimdang and Nagthali, a viewpoint above the villages. Your guide confirms this route according to weather, trail access and the group&rsquo;s progress.</p>
+                    <p style="margin-bottom: 0;">Nagthali offers views towards the Langtang and Ganesh Himal ranges when skies clear. After the higher ground, descend carefully towards Thuman, passing forest and open slopes. Stone houses and Buddhist prayer sites mark the village, where we spend the night in arranged local accommodation.</p>
                   </div>
                 </div>
               </div>
 
-              <!-- Day 6: Thuman to Timure -->
-              <div class="itinerary-card ">
-                <div class="itinerary-header">
-                  <div class="itinerary-header-left">
-                    <h4 class="itinerary-day-title-new">
-                      <span class="day-label">Day 6:</span> Thuman to Timure
-                    </h4>
-                    <p class="itinerary-day-subtitle-new">
+              <!-- Day 6 Card -->
+              <div class="itinerary-card" data-day="6" style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); position: relative; overflow: visible !important;">
+                <!-- Timeline Dot (Rule 13) -->
+                <span style="position: absolute; left: -36px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 3px solid #1A96C8; box-shadow: 0 0 0 3px #FFFFFF; z-index: 2;"></span>
+
+                <!-- Card Header -->
+                <div class="itinerary-card-header" style="padding: 18px 22px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                  <div>
+                    <span style="display: inline-block; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #1A96C8; margin-bottom: 4px;">Day 6</span>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: #0E3458; margin: 0 0 6px 0;">Day 6: Trek from Thuman to Timure</h3>
+                    <div style="font-size: 0.85rem; color: #64748B; font-weight: 500;">
                       Thuman to Timure – <span data-altitude-m="3240">3,240 m / 10,630 ft</span> – 5-6 hrs trek
-                    </p>
-                  </div>
-                  <div class="itinerary-header-right">
-                    <div class="itinerary-toggle-btn-new">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
                     </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="itinerary-card-chevron-circle" style="width: 32px; height: 32px; border-radius: 50%; background: #F8FAFC; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; color: #64748B; transition: all 0.3s ease;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="itinerary-card-chevron" style="transition: transform 0.3s ease; "><polyline points="6 9 12 15 18 9"/></svg>
+                    </span>
                   </div>
                 </div>
-                <div class="itinerary-content">
-                  <div class="itinerary-content-inner">
-                    <div class="itinerary-metrics-list">
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        <span>5-6 hrs trek</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                        <span>Overnight: Authentic Teahouse / Mountain Lodge</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-                        <span>Meals: Breakfast, Lunch & Dinner Included</span>
+
+                <!-- Card Content (Default Open for Day 1, Closed for Others) -->
+                <div class="itinerary-card-content" style="padding: 0 22px 22px 22px; border-top: 1px solid #F1F5F9; display: none;">
+                  <!-- Facts Meta Box (Rule 13: Zero Fact Stripping) -->
+                  <div class="itinerary-meta-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px; margin: 16px 0;">
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #EDE9FE; color: #7C3AED;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Walking time</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 5 hours</strong>
                       </div>
                     </div>
-                    <p style="font-size: 0.98rem; line-height: 1.7; color: var(--color-neutral-700); margin: 0;">
-                      Follow well-maintained stone trails winding past prayer wheels, mani walls, cascading waterfalls, and traditional Himalayan teahouse settlements with warm hospitality and freshly cooked meals.
-                    </p>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Trek distance</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 10 km</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Main route</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Thuman &rarr; Timure in the Bhote Koshi valley</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FEF3C7; color: #D97706;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Overnight altitude</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">1,762 m / 5,781 ft</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #ECFDF5; color: #10B981;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Accommodation</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Lodge or guesthouse in Timure</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FFE4E6; color: #E11D48;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Meals</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Breakfast, lunch and dinner; seasonal fruits where available; drinks and personal extras cost separately</strong>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Narrative Description Paragraphs -->
+                  <div class="itinerary-description" style="font-size: 0.96rem; line-height: 1.7; color: #334155;">
+                    <p style="margin-bottom: 12px;">Today&rsquo;s walk descends from Thuman towards Timure, passing village land, forest paths and stream crossings. The overnight elevation is lower, but steps and uneven downhill ground still require care. Keep an unhurried pace between breaks.</p>
+                    <p style="margin-bottom: 0;">Timure lies beside the old trade corridor towards Tibet. Follow your guide&rsquo;s instructions around local checkpoints and river crossings, where access can change after rain or flood damage. Settle into the lodge and rest before tomorrow&rsquo;s climb towards Briddim village.</p>
                   </div>
                 </div>
               </div>
 
-              <!-- Day 7: Timure to Briddim -->
-              <div class="itinerary-card ">
-                <div class="itinerary-header">
-                  <div class="itinerary-header-left">
-                    <h4 class="itinerary-day-title-new">
-                      <span class="day-label">Day 7:</span> Timure to Briddim
-                    </h4>
-                    <p class="itinerary-day-subtitle-new">
+              <!-- Day 7 Card -->
+              <div class="itinerary-card" data-day="7" style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); position: relative; overflow: visible !important;">
+                <!-- Timeline Dot (Rule 13) -->
+                <span style="position: absolute; left: -36px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 3px solid #1A96C8; box-shadow: 0 0 0 3px #FFFFFF; z-index: 2;"></span>
+
+                <!-- Card Header -->
+                <div class="itinerary-card-header" style="padding: 18px 22px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                  <div>
+                    <span style="display: inline-block; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #1A96C8; margin-bottom: 4px;">Day 7</span>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: #0E3458; margin: 0 0 6px 0;">Day 7: Trek from Timure to Briddim</h3>
+                    <div style="font-size: 0.85rem; color: #64748B; font-weight: 500;">
                       Timure to Briddim – <span data-altitude-m="3480">3,480 m / 11,417 ft</span> – 5-6 hrs trek
-                    </p>
-                  </div>
-                  <div class="itinerary-header-right">
-                    <div class="itinerary-toggle-btn-new">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
                     </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="itinerary-card-chevron-circle" style="width: 32px; height: 32px; border-radius: 50%; background: #F8FAFC; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; color: #64748B; transition: all 0.3s ease;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="itinerary-card-chevron" style="transition: transform 0.3s ease; "><polyline points="6 9 12 15 18 9"/></svg>
+                    </span>
                   </div>
                 </div>
-                <div class="itinerary-content">
-                  <div class="itinerary-content-inner">
-                    <div class="itinerary-metrics-list">
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        <span>5-6 hrs trek</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                        <span>Overnight: Authentic Teahouse / Mountain Lodge</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-                        <span>Meals: Breakfast, Lunch & Dinner Included</span>
+
+                <!-- Card Content (Default Open for Day 1, Closed for Others) -->
+                <div class="itinerary-card-content" style="padding: 0 22px 22px 22px; border-top: 1px solid #F1F5F9; display: none;">
+                  <!-- Facts Meta Box (Rule 13: Zero Fact Stripping) -->
+                  <div class="itinerary-meta-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px; margin: 16px 0;">
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #EDE9FE; color: #7C3AED;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Walking time</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 6 hours</strong>
                       </div>
                     </div>
-                    <p style="font-size: 0.98rem; line-height: 1.7; color: var(--color-neutral-700); margin: 0;">
-                      Follow well-maintained stone trails winding past prayer wheels, mani walls, cascading waterfalls, and traditional Himalayan teahouse settlements with warm hospitality and freshly cooked meals.
-                    </p>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Trek distance</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 12 km; trail alignment affects the actual distance</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Main route</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Timure &rarr; village paths towards Briddim</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FEF3C7; color: #D97706;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Overnight altitude</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 2,230 m / 7,316 ft</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #ECFDF5; color: #10B981;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Accommodation</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Village lodge or homestay in Briddim, as arranged</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FFE4E6; color: #E11D48;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Meals</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Breakfast, lunch and dinner; seasonal fruits where available; drinks and personal extras cost separately</strong>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Narrative Description Paragraphs -->
+                  <div class="itinerary-description" style="font-size: 0.96rem; line-height: 1.7; color: #334155;">
+                    <p style="margin-bottom: 12px;">Leave Timure and climb towards Briddim, following village paths and wooded slopes. Stream crossings and changes in gradient break up the day, so allow time for rests. Your guide chooses the practical walking line according to current access.</p>
+                    <p style="margin-bottom: 0;">Briddim is known for Tamang homestays and Buddhist traditions. Stay in village accommodation arranged for your group, with shared facilities and simple meals. Ask before entering homes or taking photographs, and follow local advice when visiting monasteries or prayer sites.</p>
                   </div>
                 </div>
               </div>
 
-              <!-- Day 8: Briddim to Syabru Besi -->
-              <div class="itinerary-card ">
-                <div class="itinerary-header">
-                  <div class="itinerary-header-left">
-                    <h4 class="itinerary-day-title-new">
-                      <span class="day-label">Day 8:</span> Briddim to Syabru Besi
-                    </h4>
-                    <p class="itinerary-day-subtitle-new">
+              <!-- Day 8 Card -->
+              <div class="itinerary-card" data-day="8" style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); position: relative; overflow: visible !important;">
+                <!-- Timeline Dot (Rule 13) -->
+                <span style="position: absolute; left: -36px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 3px solid #1A96C8; box-shadow: 0 0 0 3px #FFFFFF; z-index: 2;"></span>
+
+                <!-- Card Header -->
+                <div class="itinerary-card-header" style="padding: 18px 22px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                  <div>
+                    <span style="display: inline-block; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #1A96C8; margin-bottom: 4px;">Day 8</span>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: #0E3458; margin: 0 0 6px 0;">Day 8: Trek from Briddim to Syabrubesi</h3>
+                    <div style="font-size: 0.85rem; color: #64748B; font-weight: 500;">
                       Briddim to Syabru Besi – <span data-altitude-m="3720">3,720 m / 12,205 ft</span> – 5-6 hrs trek
-                    </p>
-                  </div>
-                  <div class="itinerary-header-right">
-                    <div class="itinerary-toggle-btn-new">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
                     </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="itinerary-card-chevron-circle" style="width: 32px; height: 32px; border-radius: 50%; background: #F8FAFC; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; color: #64748B; transition: all 0.3s ease;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="itinerary-card-chevron" style="transition: transform 0.3s ease; "><polyline points="6 9 12 15 18 9"/></svg>
+                    </span>
                   </div>
                 </div>
-                <div class="itinerary-content">
-                  <div class="itinerary-content-inner">
-                    <div class="itinerary-metrics-list">
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        <span>5-6 hrs trek</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                        <span>Overnight: Authentic Teahouse / Mountain Lodge</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-                        <span>Meals: Breakfast, Lunch & Dinner Included</span>
+
+                <!-- Card Content (Default Open for Day 1, Closed for Others) -->
+                <div class="itinerary-card-content" style="padding: 0 22px 22px 22px; border-top: 1px solid #F1F5F9; display: none;">
+                  <!-- Facts Meta Box (Rule 13: Zero Fact Stripping) -->
+                  <div class="itinerary-meta-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px; margin: 16px 0;">
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #EDE9FE; color: #7C3AED;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Walking time</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 5&ndash;6 hours; shorter trail variants exist</strong>
                       </div>
                     </div>
-                    <p style="font-size: 0.98rem; line-height: 1.7; color: var(--color-neutral-700); margin: 0;">
-                      Follow well-maintained stone trails winding past prayer wheels, mani walls, cascading waterfalls, and traditional Himalayan teahouse settlements with warm hospitality and freshly cooked meals.
-                    </p>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Trek distance</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 10 km on the planned village route</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Main route</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Briddim &rarr; Syabrubesi</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FEF3C7; color: #D97706;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Overnight altitude</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">1,460 m / 4,790 ft</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #ECFDF5; color: #10B981;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Accommodation</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Guesthouse or lodge in Syabrubesi; second stay here</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FFE4E6; color: #E11D48;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Meals</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Breakfast, lunch and dinner; seasonal fruits where available; drinks and personal extras cost separately</strong>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Narrative Description Paragraphs -->
+                  <div class="itinerary-description" style="font-size: 0.96rem; line-height: 1.7; color: #334155;">
+                    <p style="margin-bottom: 12px;">Complete the circuit by descending from Briddim towards Syabrubesi. The route passes wooded slopes, cultivated land and village paths, with the precise walking line determined by current trail conditions.</p>
+                    <p style="margin-bottom: 0;">Downhill walking can tire the knees, so keep a steady pace and take care on wet steps or loose stones. Reach Syabrubesi and check into your guesthouse for the final night on the route. Organise your luggage, return separately hired equipment as agreed and confirm tomorrow&rsquo;s departure time before dinner.</p>
                   </div>
                 </div>
               </div>
 
-              <!-- Day 9: Syabru Besi to Kathmandu Drive -->
-              <div class="itinerary-card ">
-                <div class="itinerary-header">
-                  <div class="itinerary-header-left">
-                    <h4 class="itinerary-day-title-new">
-                      <span class="day-label">Day 9:</span> Syabru Besi to Kathmandu Drive
-                    </h4>
-                    <p class="itinerary-day-subtitle-new">
+              <!-- Day 9 Card -->
+              <div class="itinerary-card" data-day="9" style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); position: relative; overflow: visible !important;">
+                <!-- Timeline Dot (Rule 13) -->
+                <span style="position: absolute; left: -36px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 3px solid #1A96C8; box-shadow: 0 0 0 3px #FFFFFF; z-index: 2;"></span>
+
+                <!-- Card Header -->
+                <div class="itinerary-card-header" style="padding: 18px 22px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                  <div>
+                    <span style="display: inline-block; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #1A96C8; margin-bottom: 4px;">Day 9</span>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: #0E3458; margin: 0 0 6px 0;">Day 9: Drive from Syabrubesi to Kathmandu</h3>
+                    <div style="font-size: 0.85rem; color: #64748B; font-weight: 500;">
                       Syabru Besi to Kathmandu Drive – <span data-altitude-m="1460">1,460 m / 4,790 ft</span> – 6-8 hrs scenic road drive
-                    </p>
-                  </div>
-                  <div class="itinerary-header-right">
-                    <div class="itinerary-toggle-btn-new">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
                     </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="itinerary-card-chevron-circle" style="width: 32px; height: 32px; border-radius: 50%; background: #F8FAFC; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; color: #64748B; transition: all 0.3s ease;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="itinerary-card-chevron" style="transition: transform 0.3s ease; "><polyline points="6 9 12 15 18 9"/></svg>
+                    </span>
                   </div>
                 </div>
-                <div class="itinerary-content">
-                  <div class="itinerary-content-inner">
-                    <div class="itinerary-metrics-list">
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        <span>6-8 hrs scenic road drive</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                        <span>Overnight: Authentic Teahouse / Mountain Lodge</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-                        <span>Meals: Breakfast, Lunch & Dinner Included</span>
+
+                <!-- Card Content (Default Open for Day 1, Closed for Others) -->
+                <div class="itinerary-card-content" style="padding: 0 22px 22px 22px; border-top: 1px solid #F1F5F9; display: none;">
+                  <!-- Facts Meta Box (Rule 13: Zero Fact Stripping) -->
+                  <div class="itinerary-meta-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px; margin: 16px 0;">
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #EDE9FE; color: #7C3AED;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Driving time</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 7&ndash;8 hours; allow for traffic and road delays</strong>
                       </div>
                     </div>
-                    <p style="font-size: 0.98rem; line-height: 1.7; color: var(--color-neutral-700); margin: 0;">
-                      Private overland transport through lush river valleys, terraced hillsides, and traditional rural settlements. Enjoy scenic lunch stops along the scenic highway.
-                    </p>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Road distance</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Approximately 120 km; varies with the available road</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #F3E8FF; color: #9333EA;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Main route</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Syabrubesi &rarr; Kathmandu</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FEF3C7; color: #D97706;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Overnight altitude</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">1,400 m / 4,593 ft</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #ECFDF5; color: #10B981;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Accommodation</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">3-star hotel in Kathmandu; second city night</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FFE4E6; color: #E11D48;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Meals</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Breakfast and farewell dinner; confirm road-day lunch coverage in your quotation</strong>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Narrative Description Paragraphs -->
+                  <div class="itinerary-description" style="font-size: 0.96rem; line-height: 1.7; color: #334155;">
+                    <p style="margin-bottom: 12px;">After breakfast, leave Syabrubesi for the road journey to Kathmandu. River valleys, hillside settlements and cultivated slopes accompany the drive, with stops depending on traffic and road conditions.</p>
+                    <p style="margin-bottom: 0;">On reaching Kathmandu, check into your hotel and organise your belongings. The remaining time is available for rest or nearby shopping. A farewell dinner is included in the package. Confirm your airport transfer and departure details with the team.</p>
                   </div>
                 </div>
               </div>
 
-              <!-- Day 10: Farewell -->
-              <div class="itinerary-card ">
-                <div class="itinerary-header">
-                  <div class="itinerary-header-left">
-                    <h4 class="itinerary-day-title-new">
-                      <span class="day-label">Day 10:</span> Farewell
-                    </h4>
-                    <p class="itinerary-day-subtitle-new">
+              <!-- Day 10 Card -->
+              <div class="itinerary-card" data-day="10" style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); position: relative; overflow: visible !important;">
+                <!-- Timeline Dot (Rule 13) -->
+                <span style="position: absolute; left: -36px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 3px solid #1A96C8; box-shadow: 0 0 0 3px #FFFFFF; z-index: 2;"></span>
+
+                <!-- Card Header -->
+                <div class="itinerary-card-header" style="padding: 18px 22px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none;">
+                  <div>
+                    <span style="display: inline-block; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #1A96C8; margin-bottom: 4px;">Day 10</span>
+                    <h3 style="font-size: 1.15rem; font-weight: 700; color: #0E3458; margin: 0 0 6px 0;">Day 10: Farewell and Departure from Kathmandu</h3>
+                    <div style="font-size: 0.85rem; color: #64748B; font-weight: 500;">
                       Kathmandu Departure – <span data-altitude-m="1400">1,400 m / 4,593 ft</span> – Airport Transfer
-                    </p>
-                  </div>
-                  <div class="itinerary-header-right">
-                    <div class="itinerary-toggle-btn-new">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
                     </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="itinerary-card-chevron-circle" style="width: 32px; height: 32px; border-radius: 50%; background: #F8FAFC; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; color: #64748B; transition: all 0.3s ease;">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="itinerary-card-chevron" style="transition: transform 0.3s ease; "><polyline points="6 9 12 15 18 9"/></svg>
+                    </span>
                   </div>
                 </div>
-                <div class="itinerary-content">
-                  <div class="itinerary-content-inner">
-                    <div class="itinerary-metrics-list">
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        <span>Airport Transfer</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                        <span>Overnight: Authentic Teahouse / Mountain Lodge</span>
-                      </div>
-                      <div class="itinerary-metric-item">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-                        <span>Meals: Breakfast, Lunch & Dinner Included</span>
+
+                <!-- Card Content (Default Open for Day 1, Closed for Others) -->
+                <div class="itinerary-card-content" style="padding: 0 22px 22px 22px; border-top: 1px solid #F1F5F9; display: none;">
+                  <!-- Facts Meta Box (Rule 13: Zero Fact Stripping) -->
+                  <div class="itinerary-meta-box" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 14px; margin: 16px 0;">
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #EBF8FF; color: #1A96C8;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Main activity</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Hotel checkout and transfer to Tribhuvan International Airport</strong>
                       </div>
                     </div>
-                    <p style="font-size: 0.98rem; line-height: 1.7; color: var(--color-neutral-700); margin: 0;">
-                      Enjoy breakfast at your hotel. Depending on your flight schedule, explore local Kathmandu markets for souvenirs before our private vehicle transfers you to Tribhuvan International Airport for your flight home.
-                    </p>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #FFE4E6; color: #E11D48;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Meals</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">Breakfast</strong>
+                      </div>
+                    </div>
+                    <div class="itinerary-meta-box-item" style="display: flex; align-items: center; gap: 10px;">
+                      <span class="itinerary-meta-box-badge" style="background: #ECFDF5; color: #10B981;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>
+                      <div>
+                        <span style="font-size: 0.72rem; text-transform: uppercase; color: #64748B; font-weight: 700; display: block;">Accommodation</span>
+                        <strong style="font-size: 0.85rem; color: #0E3458; font-weight: 600;">No overnight stay included after departure</strong>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Narrative Description Paragraphs -->
+                  <div class="itinerary-description" style="font-size: 0.96rem; line-height: 1.7; color: #334155;">
+                    <p style="margin-bottom: 12px;">Your ten-day Tamang Heritage Trail ends today. After breakfast, prepare for your onward journey and check that documents and belongings are ready. Depending on flight timing, there may be time for a final walk nearby.</p>
+                    <p style="margin-bottom: 0;">Our representative accompanies you to Tribhuvan International Airport for your departure.</p>
                   </div>
                 </div>
               </div>
+
             </div>
           </section>
 
@@ -2161,6 +2455,7 @@
                   Private Date
                 </button>
               </div>
+            </div>
 
             <!-- Group Size Pricing Table from packages.md -->
             <div style="background: white; border-radius: 12px; border: 1px solid #E2E8F0; padding: 24px; margin-bottom: 28px; box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);">
@@ -4163,7 +4458,10 @@
                   </div>
                 </div>
 
-                <!-- Video Player Lightbox Modal -->
+                </div> <!-- Closes #platform-cards-container -->
+              </div> <!-- Closes #reviews-platform-pane -->
+
+              <!-- Video Player Lightbox Modal -->
             <div id="video-review-modal" class="video-modal-overlay">
               <div class="video-modal-card">
                 <button type="button" id="video-modal-close" class="video-modal-close-btn">&times;</button>
@@ -5203,5 +5501,55 @@
   <script src="../../js/header-scroll.js?v=37"></script>
   <script src="../../js/mega-menu.js"></script>
   <script defer src="../../js/footer-interactions.js"></script>
+
+  <script>
+    (function() {
+      function initItinerary() {
+        // Itinerary Accordion & Toggle All (Rule 13)
+        document.querySelectorAll('#section-itinerary .itinerary-card-header').forEach(function(header) {
+          header.addEventListener('click', function() {
+            var card = this.closest('.itinerary-card');
+            var content = card.querySelector('.itinerary-card-content, .itinerary-card-body');
+            var chevron = this.querySelector('.itinerary-card-chevron');
+            var isOpen = content && content.style.display === 'block';
+            if (content) content.style.display = isOpen ? 'none' : 'block';
+            if (isOpen) {
+              card.classList.remove('active');
+            } else {
+              card.classList.add('active');
+            }
+            if (chevron) chevron.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
+          });
+        });
+
+        var toggleAllItinBtn = document.getElementById('toggle-all-itinerary');
+        if (toggleAllItinBtn) {
+          toggleAllItinBtn.addEventListener('click', function() {
+            var contents = document.querySelectorAll('#section-itinerary .itinerary-card-content, #section-itinerary .itinerary-card-body');
+            var chevrons = document.querySelectorAll('#section-itinerary .itinerary-card-chevron');
+            var cards = document.querySelectorAll('#section-itinerary .itinerary-card');
+            var someClosed = Array.from(contents).some(function(c) { return c.style.display !== 'block'; });
+            contents.forEach(function(c) { c.style.display = someClosed ? 'block' : 'none'; });
+            chevrons.forEach(function(ch) { ch.style.transform = someClosed ? 'rotate(180deg)' : 'rotate(0deg)'; });
+            cards.forEach(function(card) {
+              if (someClosed) card.classList.add('active');
+              else card.classList.remove('active');
+            });
+            var btnSpan = this.querySelector('span');
+            if (btnSpan) btnSpan.textContent = someClosed ? 'Collapse All Days' : 'Expand All Days';
+            var mainChevron = this.querySelector('.itinerary-chevron') || this.querySelector('svg');
+            if (mainChevron) mainChevron.style.transform = someClosed ? 'rotate(180deg)' : 'rotate(0deg)';
+          });
+        }
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initItinerary);
+      } else {
+        initItinerary();
+      }
+    })();
+  </script>
+
 </body>
 </html>
