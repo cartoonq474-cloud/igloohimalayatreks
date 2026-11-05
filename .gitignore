@@ -113,6 +113,9 @@ updated_google_sheet.csv
 brain/
 
 # ------------------------------------------------------------------------------
+# Duplicate of the canonical video/reviews assets
+videos reviews/
+
 # 7. Temporary, Cache & Build Artifacts
 # ------------------------------------------------------------------------------
 temp/
