@@ -1,83 +1,99 @@
-const { spawn } = require('child_process');
+const http = require('http');
 const fs = require('fs');
+const { spawn } = require('child_process');
+const WebSocket = globalThis.WebSocket;
 
-async function run() {
+function request(options, data) {
+  return new Promise((resolve, reject) => {
+    const req = http.request(options, res => {
+      let body = '';
+      res.on('data', chunk => body += chunk);
+      res.on('end', () => resolve(body));
+    });
+    req.on('error', reject);
+    if (data) req.write(data);
+    req.end();
+  });
+}
+
+class CDPClient {
+  constructor(wsUrl) {
+    this.ws = new WebSocket(wsUrl);
+    this.id = 1;
+    this.pending = new Map();
+    this.ws.onmessage = (event) => {
+      const msg = JSON.parse(event.data);
+      if (msg.id && this.pending.has(msg.id)) {
+        const { resolve, reject } = this.pending.get(msg.id);
+        this.pending.delete(msg.id);
+        if (msg.error) reject(msg.error);
+        else resolve(msg.result);
+      }
+    };
+  }
+  async connect() {
+    if (this.ws.readyState === WebSocket.OPEN) return;
+    return new Promise((resolve, reject) => {
+      this.ws.onopen = () => resolve();
+      this.ws.onerror = (err) => reject(err);
+    });
+  }
+  send(method, params = {}) {
+    return new Promise((resolve, reject) => {
+      const msgId = this.id++;
+      this.pending.set(msgId, { resolve, reject });
+      this.ws.send(JSON.stringify({ id: msgId, method, params }));
+    });
+  }
+  close() {
+    try { this.ws.close(); } catch (e) {}
+  }
+}
+
+async function main() {
   const chromePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
-  const chrome = spawn(chromePath, [
+  const chromeProcess = spawn(chromePath, [
     '--headless=new',
-    '--remote-debugging-port=9666',
+    '--remote-debugging-port=9224',
     '--disable-gpu',
-    '--window-size=420,800',
-    '--user-data-dir=C:\\Users\\ASUS\\.gemini\\antigravity-ide\\brain\\41f5cfd1-dd97-497f-b601-cb7afa730ae6\\scratch\\chrome-test-profile-screenshot'
+    '--no-first-run',
+    '--no-default-browser-check',
+    '--window-size=1440,1200'
   ]);
 
   await new Promise(r => setTimeout(r, 2000));
 
   try {
-    const newTab = await fetch('http://127.0.0.1:9666/json/new?http://localhost:3000/everest-region-treks/index.html', { method: 'PUT' }).then(r => r.json());
-    const wsUrl = newTab.webSocketDebuggerUrl;
+    const targetsBody = await request({ host: '127.0.0.1', port: 9224, path: '/json', method: 'GET' });
+    const targets = JSON.parse(targetsBody);
+    const pageTarget = targets.find(t => t.type === 'page');
+    const client = new CDPClient(pageTarget.webSocketDebuggerUrl);
+    await client.connect();
+    await client.send('Page.enable');
+    await client.send('Runtime.enable');
 
-    const ws = new WebSocket(wsUrl);
-    let id = 1;
-    const callbacks = new Map();
-
-    ws.onmessage = (msg) => {
-      const data = JSON.parse(msg.data);
-      if (data.id && callbacks.has(data.id)) {
-        callbacks.get(data.id)(data);
-        callbacks.delete(data.id);
-      }
-    };
-
-    await new Promise(r => ws.onopen = r);
-
-    function send(method, params = {}) {
-      return new Promise((resolve) => {
-        const curId = id++;
-        callbacks.set(curId, resolve);
-        ws.send(JSON.stringify({ id: curId, method, params }));
-      });
-    }
-
-    await send('Page.enable');
-    await send('Emulation.setDeviceMetricsOverride', {
-      width: 420,
-      height: 800,
-      deviceScaleFactor: 2,
-      mobile: true
-    });
-
-    await send('Page.navigate', { url: 'http://localhost:3000/everest-region-treks/index.html' });
+    await client.send('Page.navigate', { url: 'http://localhost:3000/tour/everest-base-camp-helicopter-tour/index.html' });
     await new Promise(r => setTimeout(r, 2500));
 
-    // Open mobile toggle & Nepal Tours accordion
-    await send('Runtime.evaluate', {
+    // Scroll to #section-reviews
+    await client.send('Runtime.evaluate', {
       expression: `(() => {
-        const toggle = document.querySelector('.mobile-nav-toggle');
-        if (toggle) toggle.click();
-
-        const toursLink = Array.from(document.querySelectorAll('.nav-link')).find(a => a.textContent.includes('Nepal Tours'));
-        const toursItem = toursLink ? toursLink.closest('.nav-item-dropdown') : null;
-        const toursRow = toursItem ? toursItem.querySelector('.nav-link-row') : null;
-        if (toursRow) toursRow.click();
+        const el = document.getElementById('section-reviews');
+        if (el) el.scrollIntoView({ behavior: 'instant', block: 'center' });
       })()`
     });
+    await new Promise(r => setTimeout(r, 1000));
 
-    await new Promise(r => setTimeout(r, 600));
+    const shotRes = await client.send('Page.captureScreenshot', { format: 'png' });
+    fs.writeFileSync('scratch/ebc_heli_removed_sec9_shot.png', Buffer.from(shotRes.data, 'base64'));
+    console.log('Saved screenshot: scratch/ebc_heli_removed_sec9_shot.png');
 
-    // Capture screenshot
-    const shotRes = await send('Page.captureScreenshot', { format: 'png' });
-    const buffer = Buffer.from(shotRes.result.data, 'base64');
-    const outPath = 'C:\\Users\\ASUS\\.gemini\\antigravity-ide\\brain\\41f5cfd1-dd97-497f-b601-cb7afa730ae6\\mobile_nav_fixed.png';
-    fs.writeFileSync(outPath, buffer);
-    console.log('Screenshot saved to:', outPath);
-
-    ws.close();
-  } catch (err) {
-    console.error('Error taking screenshot:', err);
+    client.close();
+  } catch (e) {
+    console.error(e);
   } finally {
-    chrome.kill();
+    chromeProcess.kill();
   }
 }
 
-run();
+main();

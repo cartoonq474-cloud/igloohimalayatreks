@@ -1,35 +1,660 @@
-// Weather Onboarding Visualizer State Management
+const WEATHER_PROFILES = {
+  "chitwan-national-park-safari": {
+    regionTitle: "Chitwan National Park & Terai Lowlands Climate",
+    monthData: [
+      { name: "January", min: 8, max: 24 },
+      { name: "February", min: 11, max: 27 },
+      { name: "March", min: 16, max: 33 },
+      { name: "April", min: 21, max: 37 },
+      { name: "May", min: 24, max: 38 },
+      { name: "June", min: 25, max: 36 },
+      { name: "July", min: 26, max: 34 },
+      { name: "August", min: 26, max: 34 },
+      { name: "September", min: 24, max: 33 },
+      { name: "October", min: 19, max: 31 },
+      { name: "November", min: 13, max: 28 },
+      { name: "December", min: 9, max: 24 }
+    ],
+    baseDailyData: [
+      { label: "Sauraha / Chitwan Lowlands (150 m)", min: 18, max: 31 },
+      { label: "Rapti River Banks (150 m)", min: 17, max: 30 },
+      { label: "Chitwan Forest Interior (160 m)", min: 18, max: 29 },
+      { label: "Kathmandu Valley (1400 m)", min: 12, max: 25 }
+    ]
+  },
+  "chitwan-jungle-safari-tour": {
+    regionTitle: "Chitwan National Park & Terai Lowlands Climate",
+    monthData: [
+      { name: "January", min: 8, max: 24 },
+      { name: "February", min: 11, max: 27 },
+      { name: "March", min: 16, max: 33 },
+      { name: "April", min: 21, max: 37 },
+      { name: "May", min: 24, max: 38 },
+      { name: "June", min: 25, max: 36 },
+      { name: "July", min: 26, max: 34 },
+      { name: "August", min: 26, max: 34 },
+      { name: "September", min: 24, max: 33 },
+      { name: "October", min: 19, max: 31 },
+      { name: "November", min: 13, max: 28 },
+      { name: "December", min: 9, max: 24 }
+    ],
+    baseDailyData: [
+      { label: "Sauraha / Chitwan Lowlands (150 m)", min: 18, max: 31 },
+      { label: "Rapti River Banks (150 m)", min: 17, max: 30 },
+      { label: "Chitwan Forest Interior (160 m)", min: 18, max: 29 },
+      { label: "Kathmandu Valley (1400 m)", min: 12, max: 25 }
+    ]
+  },
+  "chitwan-safari": {
+    regionTitle: "Chitwan National Park & Terai Lowlands Climate",
+    monthData: [
+      { name: "January", min: 8, max: 24 },
+      { name: "February", min: 11, max: 27 },
+      { name: "March", min: 16, max: 33 },
+      { name: "April", min: 21, max: 37 },
+      { name: "May", min: 24, max: 38 },
+      { name: "June", min: 25, max: 36 },
+      { name: "July", min: 26, max: 34 },
+      { name: "August", min: 26, max: 34 },
+      { name: "September", min: 24, max: 33 },
+      { name: "October", min: 19, max: 31 },
+      { name: "November", min: 13, max: 28 },
+      { name: "December", min: 9, max: 24 }
+    ],
+    baseDailyData: [
+      { label: "Sauraha / Chitwan Lowlands (150 m)", min: 18, max: 31 },
+      { label: "Rapti River Banks (150 m)", min: 17, max: 30 },
+      { label: "Chitwan Forest Interior (160 m)", min: 18, max: 29 },
+      { label: "Kathmandu Valley (1400 m)", min: 12, max: 25 }
+    ]
+  },
+  "chitwan": {
+    regionTitle: "Chitwan National Park & Terai Lowlands Climate",
+    monthData: [
+      { name: "January", min: 8, max: 24 },
+      { name: "February", min: 11, max: 27 },
+      { name: "March", min: 16, max: 33 },
+      { name: "April", min: 21, max: 37 },
+      { name: "May", min: 24, max: 38 },
+      { name: "June", min: 25, max: 36 },
+      { name: "July", min: 26, max: 34 },
+      { name: "August", min: 26, max: 34 },
+      { name: "September", min: 24, max: 33 },
+      { name: "October", min: 19, max: 31 },
+      { name: "November", min: 13, max: 28 },
+      { name: "December", min: 9, max: 24 }
+    ],
+    baseDailyData: [
+      { label: "Sauraha / Chitwan Lowlands (150 m)", min: 18, max: 31 },
+      { label: "Rapti River Banks (150 m)", min: 17, max: 30 },
+      { label: "Chitwan Forest Interior (160 m)", min: 18, max: 29 },
+      { label: "Kathmandu Valley (1400 m)", min: 12, max: 25 }
+    ]
+  },
+  "cycling-tour-around-kathmandu-valley": {
+    regionTitle: "Kathmandu Valley & Trail Ridges Climate",
+    monthData: [
+      { name: "January", min: 3, max: 18 },
+      { name: "February", min: 5, max: 20 },
+      { name: "March", min: 9, max: 25 },
+      { name: "April", min: 12, max: 28 },
+      { name: "May", min: 16, max: 29 },
+      { name: "June", min: 19, max: 28 },
+      { name: "July", min: 20, max: 28 },
+      { name: "August", min: 20, max: 27 },
+      { name: "September", min: 18, max: 27 },
+      { name: "October", min: 12, max: 26 },
+      { name: "November", min: 7, max: 22 },
+      { name: "December", min: 4, max: 19 }
+    ],
+    baseDailyData: [
+      { label: "Kathmandu Valley (1350 m)", min: 14, max: 24 },
+      { label: "Mudkhu Ridge (1550 m)", min: 12, max: 22 },
+      { label: "Budhanilkantha (1480 m)", min: 13, max: 23 },
+      { label: "Jamacho Hill (2128 m)", min: 8, max: 18 },
+      { label: "Phulchowki Trail (2600 m)", min: 6, max: 15 },
+      { label: "Valley Floor Return (1350 m)", min: 14, max: 24 }
+    ]
+  },
+  "one-day-bicycle-trip-kathmandu": {
+    regionTitle: "Kathmandu Valley & Trail Ridges Climate",
+    monthData: [
+      { name: "January", min: 3, max: 18 },
+      { name: "February", min: 5, max: 20 },
+      { name: "March", min: 9, max: 25 },
+      { name: "April", min: 12, max: 28 },
+      { name: "May", min: 16, max: 29 },
+      { name: "June", min: 19, max: 28 },
+      { name: "July", min: 20, max: 28 },
+      { name: "August", min: 20, max: 27 },
+      { name: "September", min: 18, max: 27 },
+      { name: "October", min: 12, max: 26 },
+      { name: "November", min: 7, max: 22 },
+      { name: "December", min: 4, max: 19 }
+    ],
+    baseDailyData: [
+      { label: "Kathmandu Valley (1350 m)", min: 14, max: 24 },
+      { label: "Mudkhu Ridge (1550 m)", min: 12, max: 22 },
+      { label: "Budhanilkantha (1480 m)", min: 13, max: 23 },
+      { label: "Jamacho Hill (2128 m)", min: 8, max: 18 },
+      { label: "Phulchowki Trail (2600 m)", min: 6, max: 15 },
+      { label: "Valley Floor Return (1350 m)", min: 14, max: 24 }
+    ]
+  },
+  "cycling_tour_around_kathmandu_valley": {
+    regionTitle: "Kathmandu Valley & Trail Ridges Climate",
+    monthData: [
+      { name: "January", min: 3, max: 18 },
+      { name: "February", min: 5, max: 20 },
+      { name: "March", min: 9, max: 25 },
+      { name: "April", min: 12, max: 28 },
+      { name: "May", min: 16, max: 29 },
+      { name: "June", min: 19, max: 28 },
+      { name: "July", min: 20, max: 28 },
+      { name: "August", min: 20, max: 27 },
+      { name: "September", min: 18, max: 27 },
+      { name: "October", min: 12, max: 26 },
+      { name: "November", min: 7, max: 22 },
+      { name: "December", min: 4, max: 19 }
+    ],
+    baseDailyData: [
+      { label: "Kathmandu Valley (1350 m)", min: 14, max: 24 },
+      { label: "Mudkhu Ridge (1550 m)", min: 12, max: 22 },
+      { label: "Budhanilkantha (1480 m)", min: 13, max: 23 },
+      { label: "Jamacho Hill (2128 m)", min: 8, max: 18 },
+      { label: "Phulchowki Trail (2600 m)", min: 6, max: 15 },
+      { label: "Valley Floor Return (1350 m)", min: 14, max: 24 }
+    ]
+  },
+  "jamacho-hike": {
+    regionTitle: "Shivapuri Nagarjun & Jamacho Ridge Climate",
+    monthData: [
+      { name: "January", min: 2, max: 17 },
+      { name: "February", min: 4, max: 19 },
+      { name: "March", min: 8, max: 24 },
+      { name: "April", min: 11, max: 27 },
+      { name: "May", min: 15, max: 28 },
+      { name: "June", min: 18, max: 27 },
+      { name: "July", min: 19, max: 27 },
+      { name: "August", min: 19, max: 26 },
+      { name: "September", min: 17, max: 26 },
+      { name: "October", min: 11, max: 25 },
+      { name: "November", min: 6, max: 21 },
+      { name: "December", min: 3, max: 18 }
+    ],
+    baseDailyData: [
+      { label: "Kathmandu Hotel (1400 m)", min: 13, max: 23 },
+      { label: "Fulbari Gate (1480 m)", min: 12, max: 22 },
+      { label: "Nagarjun Mid-Forest (1800 m)", min: 10, max: 20 },
+      { label: "Jamacho Gumba (2128 m)", min: 8, max: 18 },
+      { label: "Forest Trail Descent (1800 m)", min: 10, max: 20 },
+      { label: "Fulbari Gate Return (1480 m)", min: 12, max: 22 },
+      { label: "Hotel Drop-off (1400 m)", min: 13, max: 23 }
+    ]
+  },
+  "jamacho_hike": {
+    regionTitle: "Shivapuri Nagarjun & Jamacho Ridge Climate",
+    monthData: [
+      { name: "January", min: 2, max: 17 },
+      { name: "February", min: 4, max: 19 },
+      { name: "March", min: 8, max: 24 },
+      { name: "April", min: 11, max: 27 },
+      { name: "May", min: 15, max: 28 },
+      { name: "June", min: 18, max: 27 },
+      { name: "July", min: 19, max: 27 },
+      { name: "August", min: 19, max: 26 },
+      { name: "September", min: 17, max: 26 },
+      { name: "October", min: 11, max: 25 },
+      { name: "November", min: 6, max: 21 },
+      { name: "December", min: 3, max: 18 }
+    ],
+    baseDailyData: [
+      { label: "Kathmandu Hotel (1400 m)", min: 13, max: 23 },
+      { label: "Fulbari Gate (1480 m)", min: 12, max: 22 },
+      { label: "Nagarjun Mid-Forest (1800 m)", min: 10, max: 20 },
+      { label: "Jamacho Gumba (2128 m)", min: 8, max: 18 },
+      { label: "Forest Trail Descent (1800 m)", min: 10, max: 20 },
+      { label: "Fulbari Gate Return (1480 m)", min: 12, max: 22 },
+      { label: "Hotel Drop-off (1400 m)", min: 13, max: 23 }
+    ]
+  },
+  "kathmandu-cultural-heritage-tour": {
+    regionTitle: "Kathmandu Valley & Heritage Zones Climate",
+    monthData: [
+      { name: "January", min: 3, max: 19 },
+      { name: "February", min: 5, max: 21 },
+      { name: "March", min: 9, max: 26 },
+      { name: "April", min: 13, max: 29 },
+      { name: "May", min: 17, max: 30 },
+      { name: "June", min: 20, max: 29 },
+      { name: "July", min: 21, max: 29 },
+      { name: "August", min: 20, max: 29 },
+      { name: "September", min: 19, max: 28 },
+      { name: "October", min: 13, max: 27 },
+      { name: "November", min: 8, max: 23 },
+      { name: "December", min: 4, max: 20 }
+    ],
+    baseDailyData: [
+      { label: "Boudhanath Stupa (1400 m)", min: 14, max: 24 },
+      { label: "Changu Narayan (1600 m)", min: 12, max: 22 },
+      { label: "Bhaktapur Durbar (1400 m)", min: 14, max: 24 },
+      { label: "Pashupatinath (1380 m)", min: 14, max: 24 },
+      { label: "Patan Durbar (1400 m)", min: 14, max: 24 },
+      { label: "Kathmandu Durbar (1400 m)", min: 14, max: 24 },
+      { label: "Swayambhunath (1480 m)", min: 13, max: 23 }
+    ]
+  },
+  "kathmandu-heritage-tour": {
+    regionTitle: "Kathmandu Valley & Heritage Zones Climate",
+    monthData: [
+      { name: "January", min: 3, max: 19 },
+      { name: "February", min: 5, max: 21 },
+      { name: "March", min: 9, max: 26 },
+      { name: "April", min: 13, max: 29 },
+      { name: "May", min: 17, max: 30 },
+      { name: "June", min: 20, max: 29 },
+      { name: "July", min: 21, max: 29 },
+      { name: "August", min: 20, max: 29 },
+      { name: "September", min: 19, max: 28 },
+      { name: "October", min: 13, max: 27 },
+      { name: "November", min: 8, max: 23 },
+      { name: "December", min: 4, max: 20 }
+    ],
+    baseDailyData: [
+      { label: "Boudhanath Stupa (1400 m)", min: 14, max: 24 },
+      { label: "Changu Narayan (1600 m)", min: 12, max: 22 },
+      { label: "Bhaktapur Durbar (1400 m)", min: 14, max: 24 },
+      { label: "Pashupatinath (1380 m)", min: 14, max: 24 },
+      { label: "Patan Durbar (1400 m)", min: 14, max: 24 },
+      { label: "Kathmandu Durbar (1400 m)", min: 14, max: 24 },
+      { label: "Swayambhunath (1480 m)", min: 13, max: 23 }
+    ]
+  },
+  "kathmandu_heritage_tour": {
+    regionTitle: "Kathmandu Valley & Heritage Zones Climate",
+    monthData: [
+      { name: "January", min: 3, max: 19 },
+      { name: "February", min: 5, max: 21 },
+      { name: "March", min: 9, max: 26 },
+      { name: "April", min: 13, max: 29 },
+      { name: "May", min: 17, max: 30 },
+      { name: "June", min: 20, max: 29 },
+      { name: "July", min: 21, max: 29 },
+      { name: "August", min: 20, max: 29 },
+      { name: "September", min: 19, max: 28 },
+      { name: "October", min: 13, max: 27 },
+      { name: "November", min: 8, max: 23 },
+      { name: "December", min: 4, max: 20 }
+    ],
+    baseDailyData: [
+      { label: "Boudhanath Stupa (1400 m)", min: 14, max: 24 },
+      { label: "Changu Narayan (1600 m)", min: 12, max: 22 },
+      { label: "Bhaktapur Durbar (1400 m)", min: 14, max: 24 },
+      { label: "Pashupatinath (1380 m)", min: 14, max: 24 },
+      { label: "Patan Durbar (1400 m)", min: 14, max: 24 },
+      { label: "Kathmandu Durbar (1400 m)", min: 14, max: 24 },
+      { label: "Swayambhunath (1480 m)", min: 13, max: 23 }
+    ]
+  },
+  "rara-lake-jeep-tour": {
+    regionTitle: "Rara Lake & Karnali Climate Patterns",
+    monthData: [
+      { name: "January", min: -6, max: 7 },
+      { name: "February", min: -4, max: 9 },
+      { name: "March", min: 0, max: 14 },
+      { name: "April", min: 4, max: 18 },
+      { name: "May", min: 8, max: 22 },
+      { name: "June", min: 12, max: 24 },
+      { name: "July", min: 14, max: 23 },
+      { name: "August", min: 13, max: 22 },
+      { name: "September", min: 10, max: 20 },
+      { name: "October", min: 3, max: 16 },
+      { name: "November", min: -2, max: 12 },
+      { name: "December", min: -5, max: 8 }
+    ],
+    baseDailyData: [
+      { label: "Kathmandu (1,400 m)", min: 8, max: 24 },
+      { label: "Kohalpur (175 m)", min: 14, max: 32 },
+      { label: "Manma (Kalikot) (2,033 m)", min: 6, max: 20 },
+      { label: "Rara Lake (2,990 m)", min: 1, max: 16 },
+      { label: "Murma Top (3,700 m)", min: -3, max: 11 },
+      { label: "Kathmandu Return (1,400 m)", min: 8, max: 24 }
+    ]
+  },
+  "rara_lake_jeep_tour": {
+    regionTitle: "Rara Lake & Karnali Climate Patterns",
+    monthData: [
+      { name: "January", min: -6, max: 7 },
+      { name: "February", min: -4, max: 9 },
+      { name: "March", min: 0, max: 14 },
+      { name: "April", min: 4, max: 18 },
+      { name: "May", min: 8, max: 22 },
+      { name: "June", min: 12, max: 24 },
+      { name: "July", min: 14, max: 23 },
+      { name: "August", min: 13, max: 22 },
+      { name: "September", min: 10, max: 20 },
+      { name: "October", min: 3, max: 16 },
+      { name: "November", min: -2, max: 12 },
+      { name: "December", min: -5, max: 8 }
+    ],
+    baseDailyData: [
+      { label: "Kathmandu (1,400 m)", min: 8, max: 24 },
+      { label: "Kohalpur (175 m)", min: 14, max: 32 },
+      { label: "Manma (Kalikot) (2,033 m)", min: 6, max: 20 },
+      { label: "Rara Lake (2,990 m)", min: 1, max: 16 },
+      { label: "Murma Top (3,700 m)", min: -3, max: 11 },
+      { label: "Kathmandu Return (1,400 m)", min: 8, max: 24 }
+    ]
+  },
+  "everest-base-camp-helicopter-tour": {
+    regionTitle: "Hotel Everest View & Khumbu Flying Weather",
+    monthData: [
+      { name: "January", min: -14, max: 3 },
+      { name: "February", min: -12, max: 5 },
+      { name: "March", min: -7, max: 8 },
+      { name: "April", min: -3, max: 12 },
+      { name: "May", min: 1, max: 14 },
+      { name: "June", min: 5, max: 15 },
+      { name: "July", min: 7, max: 16 },
+      { name: "August", min: 6, max: 15 },
+      { name: "September", min: 4, max: 13 },
+      { name: "October", min: -3, max: 10 },
+      { name: "November", min: -8, max: 7 },
+      { name: "December", min: -12, max: 4 }
+    ],
+    baseDailyData: [
+      { label: "Kathmandu Departure (1,400 m)", min: 4, max: 22 },
+      { label: "Lukla Airport Stop (2,846 m)", min: -2, max: 14 },
+      { label: "Everest BC / Kala Patthar Aerial (5,364 m)", min: -16, max: -2 },
+      { label: "Hotel Everest View (3,880 m)", min: -8, max: 8 },
+      { label: "Lukla Refuel (2,846 m)", min: -2, max: 14 },
+      { label: "Kathmandu Return (1,400 m)", min: 4, max: 22 }
+    ]
+  },
+  "everest-heli-tour": {
+    regionTitle: "Hotel Everest View & Khumbu Flying Weather",
+    monthData: [
+      { name: "January", min: -14, max: 3 },
+      { name: "February", min: -12, max: 5 },
+      { name: "March", min: -7, max: 8 },
+      { name: "April", min: -3, max: 12 },
+      { name: "May", min: 1, max: 14 },
+      { name: "June", min: 5, max: 15 },
+      { name: "July", min: 7, max: 16 },
+      { name: "August", min: 6, max: 15 },
+      { name: "September", min: 4, max: 13 },
+      { name: "October", min: -3, max: 10 },
+      { name: "November", min: -8, max: 7 },
+      { name: "December", min: -12, max: 4 }
+    ],
+    baseDailyData: [
+      { label: "Kathmandu Departure (1,400 m)", min: 4, max: 22 },
+      { label: "Lukla Airport Stop (2,846 m)", min: -2, max: 14 },
+      { label: "Everest BC / Kala Patthar Aerial (5,364 m)", min: -16, max: -2 },
+      { label: "Hotel Everest View (3,880 m)", min: -8, max: 8 },
+      { label: "Lukla Refuel (2,846 m)", min: -2, max: 14 },
+      { label: "Kathmandu Return (1,400 m)", min: 4, max: 22 }
+    ]
+  },
+  "north-annapurna-base-camp-trek": {
+    regionTitle: "Northern Annapurna / Panch Pokhari Averages",
+    monthData: [
+      { name: "January", min: -12, max: 7 },
+      { name: "February", min: -10, max: 8 },
+      { name: "March", min: -6, max: 12 },
+      { name: "April", min: -2, max: 15 },
+      { name: "May", min: 3, max: 17 },
+      { name: "June", min: 7, max: 18 },
+      { name: "July", min: 9, max: 18 },
+      { name: "August", min: 9, max: 18 },
+      { name: "September", min: 6, max: 16 },
+      { name: "October", min: -1, max: 13 },
+      { name: "November", min: -6, max: 10 },
+      { name: "December", min: -10, max: 8 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (830 m / 2723 ft)", min: 10, max: 24 },
+      { label: "Day 3 (3160 m / 10367 ft)", min: -4, max: 13 },
+      { label: "Day 4 (3551 m / 11650 ft)", min: -7, max: 11 },
+      { label: "Day 5 (4050 m / 13287 ft)", min: -10, max: 8 },
+      { label: "Day 6 (4190 m / 13747 ft)", min: -11, max: 7 },
+      { label: "Day 7 (822 m / 2697 ft)", min: 10, max: 25 },
+      { label: "Day 8 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 9 (1400 m / 4593 ft)", min: 4, max: 20 }
+    ]
+  },
+  "north-annapurna": {
+    regionTitle: "Northern Annapurna / Panch Pokhari Averages",
+    monthData: [
+      { name: "January", min: -12, max: 7 },
+      { name: "February", min: -10, max: 8 },
+      { name: "March", min: -6, max: 12 },
+      { name: "April", min: -2, max: 15 },
+      { name: "May", min: 3, max: 17 },
+      { name: "June", min: 7, max: 18 },
+      { name: "July", min: 9, max: 18 },
+      { name: "August", min: 9, max: 18 },
+      { name: "September", min: 6, max: 16 },
+      { name: "October", min: -1, max: 13 },
+      { name: "November", min: -6, max: 10 },
+      { name: "December", min: -10, max: 8 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (830 m / 2723 ft)", min: 10, max: 24 },
+      { label: "Day 3 (3160 m / 10367 ft)", min: -4, max: 13 },
+      { label: "Day 4 (3551 m / 11650 ft)", min: -7, max: 11 },
+      { label: "Day 5 (4050 m / 13287 ft)", min: -10, max: 8 },
+      { label: "Day 6 (4190 m / 13747 ft)", min: -11, max: 7 },
+      { label: "Day 7 (822 m / 2697 ft)", min: 10, max: 25 },
+      { label: "Day 8 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 9 (1400 m / 4593 ft)", min: 4, max: 20 }
+    ]
+  },
+  "tengboche-trek": {
+    regionTitle: "Tengboche / Lower Khumbu Averages",
+    monthData: [
+      { name: "January", min: -14, max: 6 },
+      { name: "February", min: -12, max: 7 },
+      { name: "March", min: -8, max: 10 },
+      { name: "April", min: -3, max: 13 },
+      { name: "May", min: 1, max: 15 },
+      { name: "June", min: 5, max: 16 },
+      { name: "July", min: 7, max: 16 },
+      { name: "August", min: 7, max: 16 },
+      { name: "September", min: 4, max: 15 },
+      { name: "October", min: -2, max: 12 },
+      { name: "November", min: -7, max: 9 },
+      { name: "December", min: -12, max: 7 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (2610 m / 8563 ft)", min: -4, max: 14 },
+      { label: "Day 3 (3440 m / 11286 ft)", min: -8, max: 11 },
+      { label: "Day 4 (3880 m / 12730 ft)", min: -10, max: 9 },
+      { label: "Day 5 (3860 m / 12664 ft)", min: -10, max: 9 },
+      { label: "Day 6 (3440 m / 11286 ft)", min: -8, max: 11 },
+      { label: "Day 7 (2860 m / 9383 ft)", min: -5, max: 13 },
+      { label: "Day 8 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 9 (1400 m / 4593 ft)", min: 4, max: 20 }
+    ]
+  },
+  "tengboche": {
+    regionTitle: "Tengboche / Lower Khumbu Averages",
+    monthData: [
+      { name: "January", min: -14, max: 6 },
+      { name: "February", min: -12, max: 7 },
+      { name: "March", min: -8, max: 10 },
+      { name: "April", min: -3, max: 13 },
+      { name: "May", min: 1, max: 15 },
+      { name: "June", min: 5, max: 16 },
+      { name: "July", min: 7, max: 16 },
+      { name: "August", min: 7, max: 16 },
+      { name: "September", min: 4, max: 15 },
+      { name: "October", min: -2, max: 12 },
+      { name: "November", min: -7, max: 9 },
+      { name: "December", min: -12, max: 7 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (2610 m / 8563 ft)", min: -4, max: 14 },
+      { label: "Day 3 (3440 m / 11286 ft)", min: -8, max: 11 },
+      { label: "Day 4 (3880 m / 12730 ft)", min: -10, max: 9 },
+      { label: "Day 5 (3860 m / 12664 ft)", min: -10, max: 9 },
+      { label: "Day 6 (3440 m / 11286 ft)", min: -8, max: 11 },
+      { label: "Day 7 (2860 m / 9383 ft)", min: -5, max: 13 },
+      { label: "Day 8 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 9 (1400 m / 4593 ft)", min: 4, max: 20 }
+    ]
+  },
+  "tengbuche": {
+    regionTitle: "Tengboche / Lower Khumbu Averages",
+    monthData: [
+      { name: "January", min: -14, max: 6 },
+      { name: "February", min: -12, max: 7 },
+      { name: "March", min: -8, max: 10 },
+      { name: "April", min: -3, max: 13 },
+      { name: "May", min: 1, max: 15 },
+      { name: "June", min: 5, max: 16 },
+      { name: "July", min: 7, max: 16 },
+      { name: "August", min: 7, max: 16 },
+      { name: "September", min: 4, max: 15 },
+      { name: "October", min: -2, max: 12 },
+      { name: "November", min: -7, max: 9 },
+      { name: "December", min: -12, max: 7 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (2610 m / 8563 ft)", min: -4, max: 14 },
+      { label: "Day 3 (3440 m / 11286 ft)", min: -8, max: 11 },
+      { label: "Day 4 (3880 m / 12730 ft)", min: -10, max: 9 },
+      { label: "Day 5 (3860 m / 12664 ft)", min: -10, max: 9 },
+      { label: "Day 6 (3440 m / 11286 ft)", min: -8, max: 11 },
+      { label: "Day 7 (2860 m / 9383 ft)", min: -5, max: 13 },
+      { label: "Day 8 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 9 (1400 m / 4593 ft)", min: 4, max: 20 }
+    ]
+  },
+  "default": {
+    regionTitle: "Everest Averages",
+    monthData: [
+      { name: "January", min: -15, max: 9 },
+      { name: "February", min: -20, max: 11 },
+      { name: "March", min: -2, max: 15 },
+      { name: "April", min: 1, max: 18 },
+      { name: "May", min: 4, max: 19 },
+      { name: "June", min: 9, max: 20 },
+      { name: "July", min: 10, max: 19 },
+      { name: "August", min: 10, max: 19 },
+      { name: "September", min: 9, max: 18 },
+      { name: "October", min: 2, max: 16 },
+      { name: "November", min: -5, max: 12 },
+      { name: "December", min: -10, max: 10 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1300 m / 4265 ft)", min: 5, max: 19 },
+      { label: "Day 2 (2651 m / 8697 ft)", min: -10, max: 11 },
+      { label: "Day 3 (3440 m / 11286 ft)", min: -15, max: 6 },
+      { label: "Day 4 (3700 m / 12139 ft)", min: -15, max: 6 },
+      { label: "Day 5 (3956 m / 12979 ft)", min: -17, max: 5 },
+      { label: "Day 6 (4380 m / 14370 ft)", min: -25, max: -5 },
+      { label: "Day 7 (4380 m / 14370 ft)", min: -25, max: -5 },
+      { label: "Day 8 (4938 m / 16200 ft)", min: -20, max: 0 },
+      { label: "Day 9 (5160 m / 16929 ft)", min: -20, max: -3 },
+      { label: "Day 10 (4371 m / 14340 ft)", min: -15, max: 4 },
+      { label: "Day 11 (3440 m / 11286 ft)", min: -15, max: 6 },
+      { label: "Day 12 (2860 m / 9383 ft)", min: -10, max: 11 },
+      { label: "Day 13 (1300 m / 4265 ft)", min: 5, max: 19 }
+    ]
+  },
+  "kathmandu_day_tour": {
+    regionTitle: "Kathmandu Valley Averages",
+    monthData: [
+      { name: "January", min: 3, max: 19 },
+      { name: "February", min: 5, max: 21 },
+      { name: "March", min: 9, max: 26 },
+      { name: "April", min: 13, max: 29 },
+      { name: "May", min: 17, max: 30 },
+      { name: "June", min: 20, max: 29 },
+      { name: "July", min: 21, max: 29 },
+      { name: "August", min: 20, max: 29 },
+      { name: "September", min: 19, max: 28 },
+      { name: "October", min: 13, max: 27 },
+      { name: "November", min: 8, max: 23 },
+      { name: "December", min: 4, max: 20 }
+    ],
+    baseDailyData: [
+      { label: "Hotel Pickup (1350 m)", min: 14, max: 23 },
+      { label: "Swayambhunath (1400 m)", min: 13, max: 22 },
+      { label: "Kathmandu Durbar (1340 m)", min: 15, max: 25 },
+      { label: "Patan Durbar (1335 m)", min: 15, max: 25 },
+      { label: "Pashupatinath (1310 m)", min: 14, max: 24 },
+      { label: "Boudhanath Stupa (1330 m)", min: 15, max: 25 },
+      { label: "Hotel Drop-off (1350 m)", min: 14, max: 23 }
+    ]
+  },
+  "honeymoon_tour": {
+    regionTitle: "Honeymoon Multi-Region Averages",
+    monthData: [
+      { name: "January", min: 4, max: 20 },
+      { name: "February", min: 7, max: 23 },
+      { name: "March", min: 11, max: 27 },
+      { name: "April", min: 15, max: 30 },
+      { name: "May", min: 19, max: 32 },
+      { name: "June", min: 22, max: 33 },
+      { name: "July", min: 23, max: 32 },
+      { name: "August", min: 23, max: 32 },
+      { name: "September", min: 21, max: 31 },
+      { name: "October", min: 16, max: 28 },
+      { name: "November", min: 10, max: 24 },
+      { name: "December", min: 5, max: 21 }
+    ],
+    baseDailyData: [
+      { label: "Day 1: Kathmandu (1350 m)", min: 14, max: 24 },
+      { label: "Day 2: Nagarkot (2175 m)", min: 8, max: 18 },
+      { label: "Day 3: Pokhara (820 m)", min: 14, max: 26 },
+      { label: "Day 4: Fewa Lake (820 m)", min: 15, max: 26 },
+      { label: "Day 5: Sarangkot (1592 m)", min: 11, max: 21 },
+      { label: "Day 6: Ghandruk (1940 m)", min: 9, max: 19 },
+      { label: "Day 7: Pokhara (820 m)", min: 15, max: 26 },
+      { label: "Day 8: Chitwan (150 m)", min: 19, max: 31 },
+      { label: "Day 9: Chitwan Safari (150 m)", min: 19, max: 32 },
+      { label: "Day 10: Kathmandu (1350 m)", min: 14, max: 24 },
+      { label: "Day 11: Departure (1350 m)", min: 14, max: 24 }
+    ]
+  },
+  "chisapani_nagarkot": {
+    regionTitle: "Kathmandu Rim & Ridge Averages",
+    monthData: [
+      { name: "January", min: 1, max: 14 },
+      { name: "February", min: 3, max: 16 },
+      { name: "March", min: 7, max: 21 },
+      { name: "April", min: 11, max: 24 },
+      { name: "May", min: 14, max: 25 },
+      { name: "June", min: 17, max: 25 },
+      { name: "July", min: 18, max: 24 },
+      { name: "August", min: 18, max: 24 },
+      { name: "September", min: 16, max: 23 },
+      { name: "October", min: 11, max: 21 },
+      { name: "November", min: 6, max: 17 },
+      { name: "December", min: 2, max: 15 }
+    ],
+    baseDailyData: [
+      { label: "Day 1: Sundarijal (1460 m)", min: 13, max: 23 },
+      { label: "Day 1: Chisapani (2165 m)", min: 7, max: 17 },
+      { label: "Day 2: Chauki Bhanjyang (1800 m)", min: 10, max: 20 },
+      { label: "Day 2: Nagarkot (2175 m)", min: 7, max: 17 },
+      { label: "Day 3: Changunarayan (1540 m)", min: 13, max: 23 },
+      { label: "Day 3: Kathmandu Return (1350 m)", min: 14, max: 24 }
+    ]
+  }
+};
 
-const monthData = [
-  { name: "January", min: -15, max: 9 },
-  { name: "February", min: -20, max: 11 },
-  { name: "March", min: -2, max: 15 },
-  { name: "April", min: 1, max: 18 },
-  { name: "May", min: 4, max: 19 },
-  { name: "June", min: 9, max: 20 },
-  { name: "July", min: 10, max: 19 },
-  { name: "August", min: 10, max: 19 },
-  { name: "September", min: 9, max: 18 },
-  { name: "October", min: 2, max: 16 },
-  { name: "November", min: -5, max: 12 },
-  { name: "December", min: -10, max: 10 }
-];
-
-const baseDailyData = [
-  { label: "Day 1 (1300 m / 4265 ft)", min: 5, max: 19 },
-  { label: "Day 2 (2651 m / 8697 ft)", min: -10, max: 11 },
-  { label: "Day 3 (3440 m / 11286 ft)", min: -15, max: 6 },
-  { label: "Day 4 (3700 m / 12139 ft)", min: -15, max: 6 },
-  { label: "Day 5 (3956 m / 12979 ft)", min: -17, max: 5 },
-  { label: "Day 6 (4380 m / 14370 ft)", min: -25, max: -5 },
-  { label: "Day 7 (4380 m / 14370 ft)", min: -25, max: -5 },
-  { label: "Day 8 (4938 m / 16200 ft)", min: -20, max: 0 },
-  { label: "Day 9 (5160 m / 16929 ft)", min: -20, max: -3 },
-  { label: "Day 10 (4371 m / 14340 ft)", min: -15, max: 4 },
-  { label: "Day 11 (3440 m / 11286 ft)", min: -15, max: 6 },
-  { label: "Day 12 (2860 m / 9383 ft)", min: -10, max: 11 },
-  { label: "Day 13 (1300 m / 4265 ft)", min: 5, max: 19 }
-];
+// Aliases
+WEATHER_PROFILES["one-day-kathmandu-city-tour"] = WEATHER_PROFILES["kathmandu_day_tour"];
+WEATHER_PROFILES["honeymoon-tour-in-nepal"] = WEATHER_PROFILES["honeymoon_tour"];
+WEATHER_PROFILES["chisapani-nagarkot-trek"] = WEATHER_PROFILES["chisapani_nagarkot"];
 
 const monthOffsets = {
   "January": 0,
@@ -84,6 +709,13 @@ function getSplinePath(points, includeM = true) {
 export function renderWeatherChart(containerId) {
   const container = document.getElementById(containerId);
   if (!container) return;
+
+  const rawKey = container.getAttribute('data-trek-key') || 'default';
+  const profileKey = WEATHER_PROFILES[rawKey] ? rawKey : (rawKey.replace(/-/g, '_') in WEATHER_PROFILES ? rawKey.replace(/-/g, '_') : 'default');
+  const profile = WEATHER_PROFILES[profileKey] || WEATHER_PROFILES['default'];
+  const baseDailyData = profile.baseDailyData;
+  const monthData = profile.monthData;
+  const regionTitle = profile.regionTitle || 'Regional Averages';
 
   const isDaily = currentTab === "daily";
   const isFahrenheit = tempUnit === "f";
@@ -180,7 +812,7 @@ export function renderWeatherChart(containerId) {
             ${monthData.map(m => `<option value="${m.name}" ${currentMonth === m.name ? 'selected' : ''}>${m.name}</option>`).join('')}
           </select>
         ` : `
-          <span style="font-size: 1.1rem; font-weight: 700; color: var(--color-primary-navy);">Everest Averages</span>
+          <span style="font-size: 1.1rem; font-weight: 700; color: var(--color-primary-navy);">${regionTitle}</span>
         `}
       </div>
 
@@ -334,9 +966,15 @@ export function renderWeatherChart(containerId) {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function initWeatherChart() {
   const wrapper = document.getElementById('weather-chart-wrapper');
   if (wrapper) {
     renderWeatherChart('weather-chart-wrapper');
   }
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initWeatherChart);
+} else {
+  initWeatherChart();
+}

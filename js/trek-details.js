@@ -771,6 +771,11 @@ function setupDatesAndAvailability() {
 
   if (!calendarMount) return;
 
+  const baseTrekTitle = selectBtn ? (selectBtn.getAttribute('data-trek-title') || document.querySelector('h1')?.textContent?.trim() || 'Himalayan Trek') : 'Himalayan Trek';
+  const durationMatch = baseTrekTitle.match(/(\d+)\s*Days?/i);
+  const trekDays = durationMatch ? parseInt(durationMatch[1], 10) : 12;
+  const trekOffsetMs = (trekDays - 1) * 86400000;
+
   let currentYear = 2026;
   let currentMonth = 7; // August (0-indexed: 7 = Aug)
   let selectedStartDate = null;
@@ -843,7 +848,7 @@ function setupDatesAndAvailability() {
 
         if (selectedStartDate) {
           const startTime = selectedStartDate.getTime();
-          const endTime = startTime + 13 * 86400000;
+          const endTime = startTime + trekOffsetMs;
           const thisTime = thisDate.getTime();
 
           if (thisTime === startTime) {
@@ -895,19 +900,19 @@ function setupDatesAndAvailability() {
         selectedStartDate = new Date(y, m - 1, d);
 
         const endDate = new Date(selectedStartDate);
-        endDate.setDate(endDate.getDate() + 13);
+        endDate.setDate(endDate.getDate() + (trekDays - 1));
 
         const startTxt = `${monthNames[selectedStartDate.getMonth()].slice(0, 3)} ${selectedStartDate.getDate()}`;
         const endTxt = `${monthNames[endDate.getMonth()].slice(0, 3)} ${endDate.getDate()}, ${endDate.getFullYear()}`;
         const rangeString = `${startTxt} – ${endTxt}`;
 
         if (selectedText) {
-          selectedText.innerHTML = `<strong>Selected Date:</strong> ${rangeString} (14 Days)`;
+          selectedText.innerHTML = `<strong>Selected Date:</strong> ${rangeString} (${trekDays} Days)`;
         }
 
         if (selectBtn) {
           selectBtn.removeAttribute('disabled');
-          selectBtn.setAttribute('data-trek-title', `Everest Base Camp Private Trek (${rangeString})`);
+          selectBtn.setAttribute('data-trek-title', `${baseTrekTitle} (${rangeString})`);
         }
 
         renderCalendar();
@@ -1137,13 +1142,18 @@ function setupFaqSection() {
     if (!items.length) return;
     const allOpen = Array.from(items).every(it => it.classList.contains('active'));
     expandAllBtn.textContent = allOpen ? 'Collapse All' : 'Expand All';
+    expandAllBtn.setAttribute('aria-expanded', String(allOpen));
   }
 
   // Category Tab Switcher
   categoryBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      categoryBtns.forEach(b => b.classList.remove('active'));
+      categoryBtns.forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-pressed', 'false');
+      });
       btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
 
       const targetCat = btn.getAttribute('data-category');
       const labelEl = btn.querySelector('.faq-cat-label') || btn.querySelector('.faq-cat-name');
@@ -1165,12 +1175,24 @@ function setupFaqSection() {
     });
   });
 
+  document.querySelectorAll('.faq-item-question').forEach(question => {
+    const item = question.closest('.faq-item');
+    const answer = item && item.querySelector('.faq-item-answer');
+    const isExpanded = Boolean(item && item.classList.contains('active'));
+    question.setAttribute('aria-expanded', String(isExpanded));
+    if (answer) answer.setAttribute('aria-hidden', String(!isExpanded));
+  });
+
   // Accordion Item Toggle
   document.querySelectorAll('.faq-item-question').forEach(q => {
     q.addEventListener('click', () => {
       const item = q.closest('.faq-item');
       if (item) {
         item.classList.toggle('active');
+        const isExpanded = item.classList.contains('active');
+        q.setAttribute('aria-expanded', String(isExpanded));
+        const answer = item.querySelector('.faq-item-answer');
+        if (answer) answer.setAttribute('aria-hidden', String(!isExpanded));
         updateFaqExpandAllBtnState();
       }
     });
@@ -1191,9 +1213,16 @@ function setupFaqSection() {
         } else {
           item.classList.add('active');
         }
+        const question = item.querySelector('.faq-item-question');
+        if (question) {
+          question.setAttribute('aria-expanded', String(!isExpanded));
+          const answer = item.querySelector('.faq-item-answer');
+          if (answer) answer.setAttribute('aria-hidden', String(isExpanded));
+        }
       });
 
       expandAllBtn.textContent = isExpanded ? 'Expand All' : 'Collapse All';
+      expandAllBtn.setAttribute('aria-expanded', String(!isExpanded));
     });
   }
 
@@ -1230,4 +1259,3 @@ if (document.readyState === 'loading') {
 } else {
   initTrekDetails();
 }
-

@@ -16,6 +16,16 @@ document.addEventListener('DOMContentLoaded', () => {
       tabPanels.forEach(p => p.classList.remove('active'));
 
       btn.classList.add('active');
+      const container = btn.closest('.review-tabs-container');
+      if (container && container.scrollWidth > container.clientWidth) {
+        const btnLeft = btn.offsetLeft;
+        const btnWidth = btn.offsetWidth;
+        const containerWidth = container.clientWidth;
+        container.scrollTo({
+          left: btnLeft - (containerWidth / 2) + (btnWidth / 2),
+          behavior: 'smooth'
+        });
+      }
       const targetPanel = document.getElementById(targetId);
       if (targetPanel) {
         targetPanel.classList.add('active');

@@ -1275,18 +1275,93 @@ a.ref-office-address:focus-visible {
   .ref-nav-col:last-child {
     border-bottom: none;
   }
+  .ref-footer-accreditations {
+    padding: 24px 0;
+  }
   .ref-accred-container {
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    gap: 16px;
+    gap: 20px;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  .ref-accred-left {
+    width: 100%;
+    text-align: center;
+  }
+  .ref-accred-title {
+    font-size: 0.88rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+  }
+  .ref-accred-sub {
+    font-size: 0.76rem;
+    color: rgba(255, 255, 255, 0.75);
   }
   .ref-accred-items {
-    flex-wrap: wrap;
-    gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 14px;
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: start;
   }
   .ref-accred-item {
     border-left: none;
-    padding: 0 6px;
+    padding: 4px 6px;
+    width: 100%;
+    max-width: 155px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+  }
+  .ref-accred-logo-wrap {
+    height: 28px;
+    min-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ref-accred-item > svg {
+    margin: 3px 0;
+  }
+  .ref-accred-label {
+    font-size: 0.72rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.25;
+  }
+  .ref-accred-right {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4px auto 0;
+    gap: 10px;
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .ref-accred-right svg {
+    width: 28px;
+    height: 18px;
+    flex-shrink: 0;
+    color: rgba(0, 217, 242, 0.9);
+  }
+  .ref-accred-right span {
+    white-space: normal;
   }
   .ref-lower-grid {
     grid-template-columns: 1fr;
@@ -1321,5 +1396,12 @@ a.ref-office-address:focus-visible {
   .ref-platforms-list {
     gap: 18px;
     justify-content: center;
+  }
+}
+
+@media (min-width: 520px) and (max-width: 767px) {
+  .ref-accred-items {
+    grid-template-columns: repeat(3, 1fr) !important;
+    max-width: 500px !important;
   }
 }

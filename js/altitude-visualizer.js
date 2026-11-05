@@ -1,4 +1,337 @@
 const trekAltitudeProfiles = {
+  "chitwan-national-park-safari": {
+    name: "Chitwan Jungle Safari Tour (5 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu Arrival", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Sauraha Chitwan Arrival", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 3", spot: "Chitwan National Park & Rapti River", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 4", spot: "Elephant Breeding Centre & Return to KTM", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 5", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "chitwan-jungle-safari-tour": {
+    name: "Chitwan Jungle Safari Tour (5 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu Arrival", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Sauraha Chitwan Arrival", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 3", spot: "Chitwan National Park & Rapti River", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 4", spot: "Elephant Breeding Centre & Return to KTM", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 5", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "chitwan-safari": {
+    name: "Chitwan Jungle Safari Tour (5 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu Arrival", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Sauraha Chitwan Arrival", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 3", spot: "Chitwan National Park & Rapti River", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 4", spot: "Elephant Breeding Centre & Return to KTM", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 5", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "chitwan": {
+    name: "Chitwan Jungle Safari Tour (5 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu Arrival", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Sauraha Chitwan Arrival", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 3", spot: "Chitwan National Park & Rapti River", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 4", spot: "Elephant Breeding Centre & Return to KTM", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 5", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "cycling-tour-around-kathmandu-valley": {
+    name: "One Day Bicycle Trip: Kathmandu (1 Day)",
+    points: [
+      { day: "08:30 AM", spot: "Kathmandu Valley Start", altitudeM: 1350, altitudeFt: 4429 },
+      { day: "10:00 AM", spot: "Mudkhu Ridge Viewpoint", altitudeM: 1550, altitudeFt: 5085 },
+      { day: "11:30 AM", spot: "Budhanilkantha Foothills", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "01:00 PM", spot: "Jamacho Hill (Nagarjun)", altitudeM: 2128, altitudeFt: 6982 },
+      { day: "02:30 PM", spot: "Phulchowki Trail Section", altitudeM: 2600, altitudeFt: 8530 },
+      { day: "03:45 PM", spot: "Valley Rim Trail Descent", altitudeM: 1600, altitudeFt: 5249 },
+      { day: "05:00 PM", spot: "Kathmandu Finish Point", altitudeM: 1350, altitudeFt: 4429 }
+    ]
+  },
+  "one-day-bicycle-trip-kathmandu": {
+    name: "One Day Bicycle Trip: Kathmandu (1 Day)",
+    points: [
+      { day: "08:30 AM", spot: "Kathmandu Valley Start", altitudeM: 1350, altitudeFt: 4429 },
+      { day: "10:00 AM", spot: "Mudkhu Ridge Viewpoint", altitudeM: 1550, altitudeFt: 5085 },
+      { day: "11:30 AM", spot: "Budhanilkantha Foothills", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "01:00 PM", spot: "Jamacho Hill (Nagarjun)", altitudeM: 2128, altitudeFt: 6982 },
+      { day: "02:30 PM", spot: "Phulchowki Trail Section", altitudeM: 2600, altitudeFt: 8530 },
+      { day: "03:45 PM", spot: "Valley Rim Trail Descent", altitudeM: 1600, altitudeFt: 5249 },
+      { day: "05:00 PM", spot: "Kathmandu Finish Point", altitudeM: 1350, altitudeFt: 4429 }
+    ]
+  },
+  "cycling_tour_around_kathmandu_valley": {
+    name: "One Day Bicycle Trip: Kathmandu (1 Day)",
+    points: [
+      { day: "08:30 AM", spot: "Kathmandu Valley Start", altitudeM: 1350, altitudeFt: 4429 },
+      { day: "10:00 AM", spot: "Mudkhu Ridge Viewpoint", altitudeM: 1550, altitudeFt: 5085 },
+      { day: "11:30 AM", spot: "Budhanilkantha Foothills", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "01:00 PM", spot: "Jamacho Hill (Nagarjun)", altitudeM: 2128, altitudeFt: 6982 },
+      { day: "02:30 PM", spot: "Phulchowki Trail Section", altitudeM: 2600, altitudeFt: 8530 },
+      { day: "03:45 PM", spot: "Valley Rim Trail Descent", altitudeM: 1600, altitudeFt: 5249 },
+      { day: "05:00 PM", spot: "Kathmandu Finish Point", altitudeM: 1350, altitudeFt: 4429 }
+    ]
+  },
+  "jamacho-hike": {
+    name: "Jamacho Hike (1 Day)",
+    points: [
+      { day: "08:00 AM", spot: "Kathmandu Hotel Pickup", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "08:45 AM", spot: "Fulbari Gate (Entry)", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "10:30 AM", spot: "Nagarjun Forest Trail", altitudeM: 1800, altitudeFt: 5905 },
+      { day: "12:00 PM", spot: "Jamacho Gumba (Summit)", altitudeM: 2128, altitudeFt: 6982 },
+      { day: "01:30 PM", spot: "Forest Trail Descent", altitudeM: 1800, altitudeFt: 5905 },
+      { day: "03:00 PM", spot: "Fulbari Gate (Exit)", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "04:00 PM", spot: "Kathmandu Hotel Drop-off", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "jamacho_hike": {
+    name: "Jamacho Hike (1 Day)",
+    points: [
+      { day: "08:00 AM", spot: "Kathmandu Hotel Pickup", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "08:45 AM", spot: "Fulbari Gate (Entry)", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "10:30 AM", spot: "Nagarjun Forest Trail", altitudeM: 1800, altitudeFt: 5905 },
+      { day: "12:00 PM", spot: "Jamacho Gumba (Summit)", altitudeM: 2128, altitudeFt: 6982 },
+      { day: "01:30 PM", spot: "Forest Trail Descent", altitudeM: 1800, altitudeFt: 5905 },
+      { day: "03:00 PM", spot: "Fulbari Gate (Exit)", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "04:00 PM", spot: "Kathmandu Hotel Drop-off", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "kathmandu-cultural-heritage-tour": {
+    name: "Kathmandu Heritage Tour (2 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu Hotel", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 1", spot: "Boudhanath Stupa", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 1", spot: "Changu Narayan Hill", altitudeM: 1600, altitudeFt: 5249 },
+      { day: "Day 1", spot: "Bhaktapur Durbar", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 1", spot: "Hotel Drop-off", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Pashupatinath", altitudeM: 1380, altitudeFt: 4528 },
+      { day: "Day 2", spot: "Patan Durbar", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Kathmandu Durbar", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Swayambhunath Stupa", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "Day 2", spot: "Hotel Drop-off", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "kathmandu-heritage-tour": {
+    name: "Kathmandu Heritage Tour (2 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu Hotel", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 1", spot: "Boudhanath Stupa", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 1", spot: "Changu Narayan Hill", altitudeM: 1600, altitudeFt: 5249 },
+      { day: "Day 1", spot: "Bhaktapur Durbar", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 1", spot: "Hotel Drop-off", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Pashupatinath", altitudeM: 1380, altitudeFt: 4528 },
+      { day: "Day 2", spot: "Patan Durbar", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Kathmandu Durbar", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Swayambhunath Stupa", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "Day 2", spot: "Hotel Drop-off", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "kathmandu_heritage_tour": {
+    name: "Kathmandu Heritage Tour (2 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu Hotel", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 1", spot: "Boudhanath Stupa", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 1", spot: "Changu Narayan Hill", altitudeM: 1600, altitudeFt: 5249 },
+      { day: "Day 1", spot: "Bhaktapur Durbar", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 1", spot: "Hotel Drop-off", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Pashupatinath", altitudeM: 1380, altitudeFt: 4528 },
+      { day: "Day 2", spot: "Patan Durbar", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Kathmandu Durbar", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Swayambhunath Stupa", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "Day 2", spot: "Hotel Drop-off", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "rara-lake-jeep-tour": {
+    name: "Rara Lake Jeep Tour (7 Days)",
+    points: [
+      { day: "Day 1", spot: "Kohalpur", altitudeM: 175, altitudeFt: 574 },
+      { day: "Day 2", spot: "Manma (Kalikot)", altitudeM: 2033, altitudeFt: 6670 },
+      { day: "Day 3", spot: "Rara Lake (Arrival)", altitudeM: 2990, altitudeFt: 9810 },
+      { day: "Day 4", spot: "Rara Lake (Exploration)", altitudeM: 2990, altitudeFt: 9810 },
+      { day: "Day 5", spot: "Manma Return", altitudeM: 2033, altitudeFt: 6670 },
+      { day: "Day 6", spot: "Kohalpur Return", altitudeM: 175, altitudeFt: 574 },
+      { day: "Day 7", spot: "Kathmandu Return", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "rara_lake_jeep_tour": {
+    name: "Rara Lake Jeep Tour (7 Days)",
+    points: [
+      { day: "Day 1", spot: "Kohalpur", altitudeM: 175, altitudeFt: 574 },
+      { day: "Day 2", spot: "Manma (Kalikot)", altitudeM: 2033, altitudeFt: 6670 },
+      { day: "Day 3", spot: "Rara Lake (Arrival)", altitudeM: 2990, altitudeFt: 9810 },
+      { day: "Day 4", spot: "Rara Lake (Exploration)", altitudeM: 2990, altitudeFt: 9810 },
+      { day: "Day 5", spot: "Manma Return", altitudeM: 2033, altitudeFt: 6670 },
+      { day: "Day 6", spot: "Kohalpur Return", altitudeM: 175, altitudeFt: 574 },
+      { day: "Day 7", spot: "Kathmandu Return", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "everest-base-camp-helicopter-tour": {
+    name: "Everest Base Camp Helicopter Tour (1 Day)",
+    points: [
+      { day: "Stage 1", spot: "Kathmandu Airport", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Stage 2", spot: "Lukla Airport Stop", altitudeM: 2846, altitudeFt: 9337 },
+      { day: "Stage 3", spot: "Everest BC / Kala Patthar Flyover", altitudeM: 5364, altitudeFt: 17598 },
+      { day: "Stage 4", spot: "Hotel Everest View Stop", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Stage 5", spot: "Lukla Refuel Stop", altitudeM: 2846, altitudeFt: 9337 },
+      { day: "Stage 6", spot: "Kathmandu Return", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "everest_heli_tour": {
+    name: "Everest Base Camp Helicopter Tour (1 Day)",
+    points: [
+      { day: "Stage 1", spot: "Kathmandu Airport", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Stage 2", spot: "Lukla Airport Stop", altitudeM: 2846, altitudeFt: 9337 },
+      { day: "Stage 3", spot: "Everest BC / Kala Patthar Flyover", altitudeM: 5364, altitudeFt: 17598 },
+      { day: "Stage 4", spot: "Hotel Everest View Stop", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Stage 5", spot: "Lukla Refuel Stop", altitudeM: 2846, altitudeFt: 9337 },
+      { day: "Stage 6", spot: "Kathmandu Return", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "north-annapurna-base-camp-trek": {
+    name: "North Annapurna Base Camp Trek (9 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Beni", altitudeM: 830, altitudeFt: 2723 },
+      { day: "Day 3", spot: "Sidikharka", altitudeM: 3160, altitudeFt: 10367 },
+      { day: "Day 4", spot: "Buket Mela", altitudeM: 3551, altitudeFt: 11650 },
+      { day: "Day 5", spot: "Panch Pokhari", altitudeM: 4050, altitudeFt: 13287 },
+      { day: "Day 6", spot: "North ABC / Sidikharka", altitudeM: 4190, altitudeFt: 13747 },
+      { day: "Day 7", spot: "Pokhara", altitudeM: 822, altitudeFt: 2697 },
+      { day: "Day 8", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 9", spot: "Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "north-annapurna": {
+    name: "North Annapurna Base Camp Trek (9 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Beni", altitudeM: 830, altitudeFt: 2723 },
+      { day: "Day 3", spot: "Sidikharka", altitudeM: 3160, altitudeFt: 10367 },
+      { day: "Day 4", spot: "Buket Mela", altitudeM: 3551, altitudeFt: 11650 },
+      { day: "Day 5", spot: "Panch Pokhari", altitudeM: 4050, altitudeFt: 13287 },
+      { day: "Day 6", spot: "North ABC / Sidikharka", altitudeM: 4190, altitudeFt: 13747 },
+      { day: "Day 7", spot: "Pokhara", altitudeM: 822, altitudeFt: 2697 },
+      { day: "Day 8", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 9", spot: "Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "tengboche-trek": {
+    name: "Tengbuche Trek (9 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Phakding", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 3", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 4", spot: "Everest View Hike", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Tengboche", altitudeM: 3860, altitudeFt: 12664 },
+      { day: "Day 6", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 7", spot: "Lukla", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 8", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 9", spot: "Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "tengboche": {
+    name: "Tengbuche Trek (9 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Phakding", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 3", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 4", spot: "Everest View Hike", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Tengboche", altitudeM: 3860, altitudeFt: 12664 },
+      { day: "Day 6", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 7", spot: "Lukla", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 8", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 9", spot: "Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "tengbuche": {
+    name: "Tengbuche Trek (9 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Phakding", altitudeM: 2610, altitudeFt: 8563 },
+      { day: "Day 3", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 4", spot: "Everest View Hike", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 5", spot: "Tengboche", altitudeM: 3860, altitudeFt: 12664 },
+      { day: "Day 6", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
+      { day: "Day 7", spot: "Lukla", altitudeM: 2860, altitudeFt: 9383 },
+      { day: "Day 8", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 9", spot: "Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "chisapani-nagarkot-trek": {
+    name: "Chisapani Nagarkot Trek (5 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Chisapani", altitudeM: 2200, altitudeFt: 7218 },
+      { day: "Day 3", spot: "Nagarkot", altitudeM: 2175, altitudeFt: 7136 },
+      { day: "Day 4", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 5", spot: "Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "chisapani": {
+    name: "Chisapani Nagarkot Trek (5 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Chisapani", altitudeM: 2200, altitudeFt: 7218 },
+      { day: "Day 3", spot: "Nagarkot", altitudeM: 2175, altitudeFt: 7136 },
+      { day: "Day 4", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 5", spot: "Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "honeymoon-tour-in-nepal": {
+    name: "Honeymoon Tour in Nepal (11 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Nagarkot", altitudeM: 2175, altitudeFt: 7136 },
+      { day: "Day 3", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 4", spot: "Pokhara", altitudeM: 822, altitudeFt: 2697 },
+      { day: "Day 5", spot: "Pokhara (Sarangkot)", altitudeM: 822, altitudeFt: 2697 },
+      { day: "Day 6", spot: "Ghandruk", altitudeM: 1990, altitudeFt: 6529 },
+      { day: "Day 7", spot: "Pokhara", altitudeM: 822, altitudeFt: 2697 },
+      { day: "Day 8", spot: "Chitwan (Sauraha)", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 9", spot: "Chitwan National Park", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 10", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 11", spot: "Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "honeymoon": {
+    name: "Honeymoon Tour in Nepal (11 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Nagarkot", altitudeM: 2175, altitudeFt: 7136 },
+      { day: "Day 3", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 4", spot: "Pokhara", altitudeM: 822, altitudeFt: 2697 },
+      { day: "Day 5", spot: "Pokhara (Sarangkot)", altitudeM: 822, altitudeFt: 2697 },
+      { day: "Day 6", spot: "Ghandruk", altitudeM: 1990, altitudeFt: 6529 },
+      { day: "Day 7", spot: "Pokhara", altitudeM: 822, altitudeFt: 2697 },
+      { day: "Day 8", spot: "Chitwan (Sauraha)", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 9", spot: "Chitwan National Park", altitudeM: 150, altitudeFt: 492 },
+      { day: "Day 10", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 11", spot: "Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "one-day-kathmandu-city-tour": {
+    name: "Kathmandu City Day Tour",
+    points: [
+      { day: "Stop 1", spot: "Kathmandu Durbar", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Stop 2", spot: "Swayambhunath", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "Stop 3", spot: "Boudhanath Stupa", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Stop 4", spot: "Pashupatinath", altitudeM: 1380, altitudeFt: 4528 },
+      { day: "Stop 5", spot: "Patan Durbar", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "kathmandu_city_tour": {
+    name: "Kathmandu City Day Tour",
+    points: [
+      { day: "Stop 1", spot: "Kathmandu Durbar", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Stop 2", spot: "Swayambhunath", altitudeM: 1480, altitudeFt: 4856 },
+      { day: "Stop 3", spot: "Boudhanath Stupa", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Stop 4", spot: "Pashupatinath", altitudeM: 1380, altitudeFt: 4528 },
+      { day: "Stop 5", spot: "Patan Durbar", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
   "kanchenjunga": {
     name: "Kanchenjunga Circuit Trek Without Flight (20 Days)",
     points: [
@@ -161,19 +494,19 @@ const trekAltitudeProfiles = {
       { day: "Day 1", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
       { day: "Day 2", spot: "Phakding (via Lukla)", altitudeM: 2610, altitudeFt: 8563 },
       { day: "Day 3", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
-      { day: "Day 4", spot: "Everest View / Namche", altitudeM: 3880, altitudeFt: 12730 },
+      { day: "Day 4", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
       { day: "Day 5", spot: "Thame", altitudeM: 3800, altitudeFt: 12467 },
       { day: "Day 6", spot: "Lungden", altitudeM: 4380, altitudeFt: 14370 },
-      { day: "Day 7", spot: "Renjo La (5,360m) / Gokyo", altitudeM: 5360, altitudeFt: 17585 },
-      { day: "Day 8", spot: "Gokyo Ri (5,357m) / Thangnak", altitudeM: 5357, altitudeFt: 17575 },
-      { day: "Day 9", spot: "Cho La Pass (5,420m) / Dzongla", altitudeM: 5420, altitudeFt: 17782 },
+      { day: "Day 7", spot: "Gokyo", altitudeM: 4790, altitudeFt: 15715 },
+      { day: "Day 8", spot: "Thangnak", altitudeM: 4750, altitudeFt: 15584 },
+      { day: "Day 9", spot: "Dzongla", altitudeM: 4830, altitudeFt: 15846 },
       { day: "Day 10", spot: "Lobuche", altitudeM: 4910, altitudeFt: 16109 },
-      { day: "Day 11", spot: "Everest Base Camp (5,364m) / Gorak Shep", altitudeM: 5364, altitudeFt: 17598 },
-      { day: "Day 12", spot: "Kala Patthar (5,545m) / Lobuche", altitudeM: 5545, altitudeFt: 18192 },
-      { day: "Day 13", spot: "Kongma La (5,535m) / Chhukung", altitudeM: 5535, altitudeFt: 18159 },
-      { day: "Day 14", spot: "Chhukung (Ri Prep)", altitudeM: 4730, altitudeFt: 15518 },
+      { day: "Day 11", spot: "Gorak Shep", altitudeM: 5164, altitudeFt: 16942 },
+      { day: "Day 12", spot: "Lobuche", altitudeM: 4910, altitudeFt: 16109 },
+      { day: "Day 13", spot: "Chhukung", altitudeM: 4730, altitudeFt: 15518 },
+      { day: "Day 14", spot: "Chhukung", altitudeM: 4730, altitudeFt: 15518 },
       { day: "Day 15", spot: "Island Peak Base Camp", altitudeM: 5100, altitudeFt: 16732 },
-      { day: "Day 16", spot: "SUMMIT Island Peak (6,189m) / Chhukung", altitudeM: 6189, altitudeFt: 20305 },
+      { day: "Day 16", spot: "Chhukung (after summit attempt)", altitudeM: 4730, altitudeFt: 15518 },
       { day: "Day 17", spot: "Namche Bazaar", altitudeM: 3440, altitudeFt: 11286 },
       { day: "Day 18", spot: "Lukla", altitudeM: 2860, altitudeFt: 9383 },
       { day: "Day 19", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
@@ -1653,13 +1986,19 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function initAltitudeChart() {
   const wrapper = document.getElementById('altitude-chart-wrapper');
   if (wrapper) {
     const key = wrapper.getAttribute('data-trek-key') || 'ebc';
     renderAltitudeChart('altitude-chart-wrapper', key);
   }
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initAltitudeChart);
+} else {
+  initAltitudeChart();
+}
 
 window.addEventListener('unitchange', () => {
   const wrapper = document.getElementById('altitude-chart-wrapper');
