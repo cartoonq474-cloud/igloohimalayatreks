@@ -12783,6 +12783,7 @@ textarea {
 .yml-card-image {
   position: relative;
   height: 220px;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   background-color: #0F172A;
   flex-shrink: 0;

@@ -1179,6 +1179,8 @@ function setupFaqSection() {
     const item = question.closest('.faq-item');
     const answer = item && item.querySelector('.faq-item-answer');
     const isExpanded = Boolean(item && item.classList.contains('active'));
+    question.setAttribute('role', 'button');
+    question.setAttribute('tabindex', '0');
     question.setAttribute('aria-expanded', String(isExpanded));
     if (answer) answer.setAttribute('aria-hidden', String(!isExpanded));
   });
@@ -1194,6 +1196,13 @@ function setupFaqSection() {
         const answer = item.querySelector('.faq-item-answer');
         if (answer) answer.setAttribute('aria-hidden', String(!isExpanded));
         updateFaqExpandAllBtnState();
+      }
+    });
+
+    q.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        q.click();
       }
     });
   });

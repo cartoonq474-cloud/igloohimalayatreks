@@ -808,7 +808,7 @@ export function renderWeatherChart(containerId) {
       <!-- Month Dropdown (Daily Tab Only) -->
       <div>
         ${isDaily ? `
-          <select id="weather-month-selector" class="control-select" style="background: #ffffff; color: var(--color-primary-navy); border: 1px solid #cbd5e1; border-radius: 8px; padding: 8px 16px; font-size: 0.95rem; font-weight: bold; cursor: pointer; outline: none;">
+          <select id="weather-month-selector" name="weather_month_selector" aria-label="Select Forecast Month" class="control-select" style="background: #ffffff; color: var(--color-primary-navy); border: 1px solid #cbd5e1; border-radius: 8px; padding: 8px 16px; font-size: 0.95rem; font-weight: bold; cursor: pointer; outline: none;">
             ${monthData.map(m => `<option value="${m.name}" ${currentMonth === m.name ? 'selected' : ''}>${m.name}</option>`).join('')}
           </select>
         ` : `

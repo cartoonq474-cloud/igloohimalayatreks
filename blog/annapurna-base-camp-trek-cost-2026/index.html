@@ -838,7 +838,7 @@
         </div>
 
         <figure class="article-figure">
-          <img src="../../images/a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp" alt="Topographic route map of the Annapurna Base Camp trek" class="article-img" loading="lazy">
+          <img width="1200" height="1583" src="../../images/a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp" alt="Topographic route map of the Annapurna Base Camp trek" class="article-img" loading="lazy">
           <figcaption class="figure-caption">Topographical trail map illustrating the Modi Khola river valley, settlements, and elevation milestones for budget planning.</figcaption>
         </figure>
       
@@ -910,7 +910,7 @@
         <p>Your transportation budget covers two distinct legs: traveling between Kathmandu and Pokhara, and traveling between Pokhara and the mountain roadheads.</p>
 
         <figure class="article-figure">
-          <img src="../../images/annapurna-base-camp-trek-06.webp" alt="Private four wheel drive vehicle traveling along mountain roads near Pokhara" class="article-img" loading="lazy">
+          <img width="1024" height="680" src="../../images/annapurna-base-camp-trek-06.webp" alt="Private four wheel drive vehicle traveling along mountain roads near Pokhara" class="article-img" loading="lazy">
           <figcaption class="figure-caption">Private 4WD Mahindra Scorpio jeeps provide fast, scenic transfers between Pokhara and the high roadhead at Siwai.</figcaption>
         </figure>
 
@@ -1047,7 +1047,7 @@
         </div>
 
         <figure class="article-figure">
-          <img src="../../images/annapurna-base-camp-trek-11.webp" alt="Steaming plate of fresh vegetable Dal Bhat served in an Annapurna teahouse" class="article-img" loading="lazy">
+          <img width="672" height="846" src="../../images/annapurna-base-camp-trek-11.webp" alt="Steaming plate of fresh vegetable Dal Bhat served in an Annapurna teahouse" class="article-img" loading="lazy">
           <figcaption class="figure-caption">Dal Bhat Tarkari—the beloved national dish offering unlimited refills of hot lentil soup, rice, and fresh vegetables along the ABC trail.</figcaption>
         </figure>
       
@@ -1178,7 +1178,7 @@
         <p>For trekkers who want the thrill of hiking up to Annapurna Base Camp but wish to skip the knee-jarring 2- to 3-day descent down thousands of stone steps, taking a <strong>helicopter return from ABC to Pokhara</strong> is an increasingly popular luxury upgrade.</p>
 
         <figure class="article-figure">
-          <img src="../../images/annapurna-base-camp-trek-heli-return-cost-itinerary-2027.webp" alt="Helicopter parked on the snow-covered helipad at Annapurna Base Camp surrounded by peaks" class="article-img" loading="lazy">
+          <img width="1024" height="576" src="../../images/annapurna-base-camp-trek-heli-return-cost-itinerary-2027.webp" alt="Helicopter parked on the snow-covered helipad at Annapurna Base Camp surrounded by peaks" class="article-img" loading="lazy">
           <figcaption class="figure-caption">An Airbus H125 B3 helicopter stationed at the ABC helipad (4,130 m), preparing for the scenic 20-minute flight back to Pokhara.</figcaption>
         </figure>
 
@@ -1256,7 +1256,7 @@
         </div>
 
         <figure class="article-figure">
-          <img src="../../images/annapurna-base-camp-trek-12.webp" alt="Pristine mountain view of Annapurna South reflecting the extraordinary value of ABC trekking" class="article-img" loading="lazy">
+          <img width="1024" height="655" src="../../images/annapurna-base-camp-trek-12.webp" alt="Pristine mountain view of Annapurna South reflecting the extraordinary value of ABC trekking" class="article-img" loading="lazy">
           <figcaption class="figure-caption">The awe-inspiring vistas of Annapurna South make ABC one of the highest-value alpine adventures on earth.</figcaption>
         </figure>
       
@@ -1633,16 +1633,16 @@
         <div class="filter-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 14px; gap: 12px;">
           <div class="form-group">
             <label class="form-label" for="inq-name">Full Name *</label>
-            <input type="text" id="inq-name" class="form-input" placeholder="Your Name" required>
+            <input type="text" id="inq-name" name="name" autocomplete="name" class="form-input" placeholder="Your Name" required>
           </div>
           <div class="form-group">
             <label class="form-label" for="inq-email">Email Address *</label>
-            <input type="email" id="inq-email" class="form-input" placeholder="your@email.com" required>
+            <input type="email" id="inq-email" name="email" autocomplete="email" class="form-input" placeholder="your@email.com" required>
           </div>
         </div>
         <div class="form-group" style="margin-bottom: 14px;">
           <label class="form-label" for="inq-route">Preferred Route</label>
-          <select id="inq-route" class="form-input" style="width: 100%;">
+          <select id="inq-route" name="route" class="form-input" style="width: 100%;">
             <option value="undecided">Still deciding (Need expert advice)</option>
             <option value="ebc">Everest Base Camp Trek (14 Days)</option>
             <option value="act">Annapurna Circuit Trek (13 Days)</option>
@@ -1654,7 +1654,7 @@
         </div>
         <div class="form-group" style="margin-bottom: 18px;">
           <label class="form-label" for="inq-notes">Your Questions / Travel Dates</label>
-          <textarea id="inq-notes" class="form-input" rows="3" placeholder="Tell us your tentative travel month, fitness level, or specific questions..."></textarea>
+          <textarea id="inq-notes" name="notes" class="form-input" rows="3" placeholder="Tell us your tentative travel month, fitness level, or specific questions..."></textarea>
         </div>
         <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px; font-weight: 700;">Submit Inquiry ↗</button>
       </form>
@@ -1726,7 +1726,8 @@
             </div>
             <p class="ref-newsletter-sub">Get travel tips, trek inspiration and special offers straight to your inbox.</p>
             <form class="ref-newsletter-form" id="ref-newsletter-form">
-              <input type="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address">
+              <label for="ref-newsletter-email" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Email address for newsletter</label>
+              <input type="email" id="ref-newsletter-email" name="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address" autocomplete="email">
               <button type="submit" class="ref-newsletter-btn">Get Trek Inspiration →</button>
             </form>
             <div id="ref-newsletter-feedback" class="ref-newsletter-feedback" role="alert"></div>
@@ -1738,7 +1739,7 @@
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                 <span>Real journeys. Genuine reviews.</span>
               </div>
-              <div class="ref-stars-row" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <div class="ref-stars-row" role="img" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
               <a href="../../reviews.html" class="ref-cyan-link">Read traveler reviews →</a>
             </div>
           </div>

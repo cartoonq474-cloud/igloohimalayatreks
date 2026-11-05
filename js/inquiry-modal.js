@@ -19,28 +19,28 @@ export function setupInquiryModal() {
         <form id="custom-inquiry-form">
           <div class="form-group">
             <label class="form-label" for="inq-name">Full Name *</label>
-            <input type="text" id="inq-name" class="form-input" placeholder="e.g. Alex Smith" required>
+            <input type="text" id="inq-name" name="name" autocomplete="name" class="form-input" placeholder="e.g. Alex Smith" required>
           </div>
 
           <div class="grid grid-2">
             <div class="form-group">
               <label class="form-label" for="inq-email">Email Address *</label>
-              <input type="email" id="inq-email" class="form-input" placeholder="alex@example.com" required>
+              <input type="email" id="inq-email" name="email" autocomplete="email" class="form-input" placeholder="alex@example.com" required>
             </div>
             <div class="form-group">
               <label class="form-label" for="inq-phone">WhatsApp / Phone *</label>
-              <input type="tel" id="inq-phone" class="form-input" placeholder="+1 (555) 000-0000" required>
+              <input type="tel" id="inq-phone" name="phone" autocomplete="tel" class="form-input" placeholder="+1 (555) 000-0000" required>
             </div>
           </div>
 
           <div class="grid grid-2">
             <div class="form-group">
               <label class="form-label" for="inq-trekkers">Number of Travellers</label>
-              <input type="number" id="inq-trekkers" class="form-input" min="1" value="2">
+              <input type="number" id="inq-trekkers" name="trekkers" class="form-input" min="1" value="2">
             </div>
             <div class="form-group">
               <label class="form-label" for="inq-month">Expected Travel Month</label>
-              <select id="inq-month" class="form-select">
+              <select id="inq-month" name="month" class="form-select">
                 <option value="autumn">Autumn (Sep - Nov)</option>
                 <option value="spring">Spring (Mar - May)</option>
                 <option value="winter">Winter (Dec - Feb)</option>
@@ -51,7 +51,7 @@ export function setupInquiryModal() {
 
           <div class="form-group">
             <label class="form-label" for="inq-notes">Custom Requirements / Questions</label>
-            <textarea id="inq-notes" class="form-textarea" rows="4" placeholder="Tell us your preferred itinerary, travel dates, hotel grade, or special requests..."></textarea>
+            <textarea id="inq-notes" name="notes" class="form-textarea" rows="4" placeholder="Tell us your preferred itinerary, travel dates, hotel grade, or special requests..."></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary" style="width: 100%; padding: 14px;">Send Custom Inquiry Request</button>

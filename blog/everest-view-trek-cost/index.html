@@ -1677,16 +1677,16 @@
         <div class="filter-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 14px; gap: 12px;">
           <div class="form-group">
             <label class="form-label" for="inq-name">Full Name *</label>
-            <input type="text" id="inq-name" class="form-input" placeholder="Your Name" required>
+            <input type="text" id="inq-name" name="name" autocomplete="name" class="form-input" placeholder="Your Name" required>
           </div>
           <div class="form-group">
             <label class="form-label" for="inq-email">Email Address *</label>
-            <input type="email" id="inq-email" class="form-input" placeholder="your@email.com" required>
+            <input type="email" id="inq-email" name="email" autocomplete="email" class="form-input" placeholder="your@email.com" required>
           </div>
         </div>
         <div class="form-group" style="margin-bottom: 14px;">
           <label class="form-label" for="inq-route">Preferred Route</label>
-          <select id="inq-route" class="form-input" style="width: 100%;">
+          <select id="inq-route" name="route" class="form-input" style="width: 100%;">
             <option value="undecided">Still deciding (Need expert advice)</option>
             <option value="ebc">Everest Base Camp Trek (14 Days)</option>
             <option value="act">Annapurna Circuit Trek (13 Days)</option>
@@ -1698,7 +1698,7 @@
         </div>
         <div class="form-group" style="margin-bottom: 18px;">
           <label class="form-label" for="inq-notes">Your Questions / Travel Dates</label>
-          <textarea id="inq-notes" class="form-input" rows="3" placeholder="Tell us your tentative travel month, fitness level, or specific questions..."></textarea>
+          <textarea id="inq-notes" name="notes" class="form-input" rows="3" placeholder="Tell us your tentative travel month, fitness level, or specific questions..."></textarea>
         </div>
         <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px; font-weight: 700;">Submit Inquiry ↗</button>
       </form>
@@ -1770,7 +1770,8 @@
             </div>
             <p class="ref-newsletter-sub">Get travel tips, trek inspiration and special offers straight to your inbox.</p>
             <form class="ref-newsletter-form" id="ref-newsletter-form">
-              <input type="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address">
+              <label for="ref-newsletter-email" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Email address for newsletter</label>
+              <input type="email" id="ref-newsletter-email" name="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address" autocomplete="email">
               <button type="submit" class="ref-newsletter-btn">Get Trek Inspiration →</button>
             </form>
             <div id="ref-newsletter-feedback" class="ref-newsletter-feedback" role="alert"></div>
@@ -1782,7 +1783,7 @@
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                 <span>Real journeys. Genuine reviews.</span>
               </div>
-              <div class="ref-stars-row" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <div class="ref-stars-row" role="img" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
               <a href="../../reviews.html" class="ref-cyan-link">Read traveler reviews →</a>
             </div>
           </div>

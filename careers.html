@@ -838,22 +838,22 @@
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 14px;">
           <div class="form-group">
             <label class="form-label" for="app-name">Full Name *</label>
-            <input type="text" id="app-name" class="form-input" required placeholder="e.g. Pemba Dorje Sherpa">
+            <input type="text" id="app-name" name="name" autocomplete="name" class="form-input" required placeholder="e.g. Pemba Dorje Sherpa">
           </div>
           <div class="form-group">
             <label class="form-label" for="app-email">Email Address *</label>
-            <input type="email" id="app-email" class="form-input" required placeholder="e.g. pemba@example.com">
+            <input type="email" id="app-email" name="email" autocomplete="email" class="form-input" required placeholder="e.g. pemba@example.com">
           </div>
         </div>
 
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 14px;">
           <div class="form-group">
             <label class="form-label" for="app-phone">Phone / WhatsApp *</label>
-            <input type="tel" id="app-phone" class="form-input" required placeholder="+977 9860843980">
+            <input type="tel" id="app-phone" name="phone" autocomplete="tel" class="form-input" required placeholder="+977 9860843980">
           </div>
           <div class="form-group">
             <label class="form-label" for="app-position">Position Applied For *</label>
-            <select id="app-position" class="form-input" style="height: 46px;" required>
+            <select id="app-position" name="position" class="form-input" style="height: 46px;" required>
               <option value="Lead High-Altitude Trekking Guide">Lead High-Altitude Trekking Guide</option>
               <option value="Assistant Guide & Wilderness First Responder">Assistant Guide & Wilderness First Responder</option>
               <option value="Senior Trek Operations Manager">Senior Trek Operations Manager</option>
@@ -867,17 +867,17 @@
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 14px;">
           <div class="form-group">
             <label class="form-label" for="app-exp">Years of Experience</label>
-            <input type="text" id="app-exp" class="form-input" placeholder="e.g. 5 Years in Solukhumbu">
+            <input type="text" id="app-exp" name="experience" class="form-input" placeholder="e.g. 5 Years in Solukhumbu">
           </div>
           <div class="form-group">
             <label class="form-label" for="app-cv">CV / Portfolio Link</label>
-            <input type="url" id="app-cv" class="form-input" placeholder="https://linkedin.com/in/... or Drive Link">
+            <input type="url" id="app-cv" name="cv_url" class="form-input" placeholder="https://linkedin.com/in/... or Drive Link">
           </div>
         </div>
 
         <div class="form-group" style="margin-bottom: 20px;">
           <label class="form-label" for="app-notes">Short Introduction / Experience Overview</label>
-          <textarea id="app-notes" class="form-textarea" rows="3" placeholder="Tell us briefly about your trekking certifications, key mountain routes, or operational experience..."></textarea>
+          <textarea id="app-notes" name="notes" class="form-textarea" rows="3" placeholder="Tell us briefly about your trekking certifications, key mountain routes, or operational experience..."></textarea>
         </div>
 
         <button type="submit" class="btn btn-primary" style="width: 100%; padding: 14px; font-size: 1rem;">Submit Application</button>
@@ -950,7 +950,8 @@
             </div>
             <p class="ref-newsletter-sub">Get travel tips, trek inspiration and special offers straight to your inbox.</p>
             <form class="ref-newsletter-form" id="ref-newsletter-form">
-              <input type="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address">
+              <label for="ref-newsletter-email" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Email address for newsletter</label>
+              <input type="email" id="ref-newsletter-email" name="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address" autocomplete="email">
               <button type="submit" class="ref-newsletter-btn">Get Trek Inspiration →</button>
             </form>
             <div id="ref-newsletter-feedback" class="ref-newsletter-feedback" role="alert"></div>
@@ -962,7 +963,7 @@
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                 <span>Real journeys. Genuine reviews.</span>
               </div>
-              <div class="ref-stars-row" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <div class="ref-stars-row" role="img" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
               <a href="reviews.html" class="ref-cyan-link">Read traveler reviews →</a>
             </div>
           </div>

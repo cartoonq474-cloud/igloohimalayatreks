@@ -232,6 +232,7 @@
 .ref-brand-logo img {
   height: 56px;
   width: auto;
+  aspect-ratio: 1570 / 1289;
   object-fit: contain;
   display: block;
 }
@@ -653,14 +654,47 @@
   box-shadow: 0 2px 6px rgba(0, 217, 242, 0.3);
 }
 
-.ref-accred-ntb-img,
-.ref-accred-taan-img,
-.ref-accred-nma-img,
-.ref-accred-sti-img,
+.ref-accred-ntb-img {
+  height: 22px;
+  width: auto;
+  max-width: 32px;
+  aspect-ratio: 197 / 200;
+  object-fit: contain;
+  display: block;
+}
+
+.ref-accred-taan-img {
+  height: 22px;
+  width: auto;
+  max-width: 32px;
+  aspect-ratio: 118 / 160;
+  object-fit: contain;
+  display: block;
+}
+
+.ref-accred-nma-img {
+  height: 22px;
+  width: auto;
+  max-width: 32px;
+  aspect-ratio: 123 / 107;
+  object-fit: contain;
+  display: block;
+}
+
+.ref-accred-sti-img {
+  height: 22px;
+  width: auto;
+  max-width: 32px;
+  aspect-ratio: 50 / 51;
+  object-fit: contain;
+  display: block;
+}
+
 .ref-accred-adventure-img {
   height: 22px;
   width: auto;
   max-width: 32px;
+  aspect-ratio: 85 / 84;
   object-fit: contain;
   display: block;
 }
@@ -945,6 +979,7 @@ a.ref-office-address:focus-visible {
 .ref-rep-avatar {
   width: 36px;
   height: 36px;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
@@ -1044,6 +1079,7 @@ a.ref-office-address:focus-visible {
 .ref-award-badge-img {
   width: 130px;
   height: auto;
+  aspect-ratio: 160 / 170;
   max-width: 100%;
   display: block;
   margin: 0 auto;

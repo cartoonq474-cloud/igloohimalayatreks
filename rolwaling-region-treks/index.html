@@ -529,7 +529,7 @@
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; max-width: 600px;">
           <div class="exotic-trek-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
             <div style="position: relative; height: 200px;">
-              <img src="../images/frozen-lake-2393378.webp" alt="Rolwaling Valley Trek" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+              <img width="1920" height="1440" src="../images/frozen-lake-2393378.webp" alt="Rolwaling Valley Trek" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
               <span style="position: absolute; top: 12px; right: 12px; background: var(--color-primary-navy); color: white; padding: 4px 10px; border-radius: 14px; font-weight: 700; font-size: 0.75rem;">12 DAYS • GLACIAL LAKE</span>
             </div>
             <div style="padding: 20px; flex: 1; display: flex; flex-direction: column; justify-content: space-between;">
@@ -738,10 +738,13 @@
       <h3 style="font-size: 1.5rem; margin-bottom: 6px;">Plan Your Rolwaling Trip</h3>
       <form id="inquiry-form">
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
-          <input type="text" class="form-input" required placeholder="Full Name *">
-          <input type="email" class="form-input" required placeholder="Email Address *">
+          <label for="region-inq-name" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Full Name</label>
+          <input type="text" id="region-inq-name" name="name" autocomplete="name" class="form-input" required placeholder="Full Name *">
+          <label for="region-inq-email" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Email Address</label>
+          <input type="email" id="region-inq-email" name="email" autocomplete="email" class="form-input" required placeholder="Email Address *">
         </div>
-        <textarea class="form-textarea" rows="3" placeholder="Travel dates or custom questions..." style="width:100%; margin-bottom: 16px;"></textarea>
+        <label for="region-inq-notes" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Travel dates or custom questions</label>
+        <textarea id="region-inq-notes" name="notes" class="form-textarea" rows="3" placeholder="Travel dates or custom questions..." style="width:100%; margin-bottom: 16px;"></textarea>
         <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px;">Submit Inquiry</button>
       </form>
     </div>
@@ -812,7 +815,8 @@
             </div>
             <p class="ref-newsletter-sub">Get travel tips, trek inspiration and special offers straight to your inbox.</p>
             <form class="ref-newsletter-form" id="ref-newsletter-form">
-              <input type="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address">
+              <label for="ref-newsletter-email" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Email address for newsletter</label>
+              <input type="email" id="ref-newsletter-email" name="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address" autocomplete="email">
               <button type="submit" class="ref-newsletter-btn">Get Trek Inspiration →</button>
             </form>
             <div id="ref-newsletter-feedback" class="ref-newsletter-feedback" role="alert"></div>
@@ -824,7 +828,7 @@
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                 <span>Real journeys. Genuine reviews.</span>
               </div>
-              <div class="ref-stars-row" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <div class="ref-stars-row" role="img" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
               <a href="../reviews.html" class="ref-cyan-link">Read traveler reviews →</a>
             </div>
           </div>

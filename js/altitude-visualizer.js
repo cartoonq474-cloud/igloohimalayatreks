@@ -1850,7 +1850,7 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 16px; border-bottom: 1px solid #f1f5f9; padding-bottom: 16px;">
       <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
         <!-- Trek Selector -->
-        <select id="altitude-trek-selector" class="control-select" style="background: #ffffff; color: var(--color-primary-navy); border: 1px solid #cbd5e1; border-radius: 8px; padding: 8px 12px; font-size: 0.9rem; font-weight: 600; cursor: pointer; outline: none; transition: border-color var(--transition-fast);">
+        <select id="altitude-trek-selector" name="altitude_trek_selector" aria-label="Select Trek Route" class="control-select" style="background: #ffffff; color: var(--color-primary-navy); border: 1px solid #cbd5e1; border-radius: 8px; padding: 8px 12px; font-size: 0.9rem; font-weight: 600; cursor: pointer; outline: none; transition: border-color var(--transition-fast);">
           ${Object.entries(trekAltitudeProfiles).map(([key, data]) => `<option value="${key}" ${trekKey === key ? 'selected' : ''}>${data.name}</option>`).join('')}
         </select>
 

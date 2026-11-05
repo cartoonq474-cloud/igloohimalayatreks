@@ -611,7 +611,7 @@
             <p style="color: var(--color-neutral-600); font-size: 0.95rem; margin-top: 6px;">Browse in-depth route guides, gear checklists, cost analyses, and Sherpa advice.</p>
           </div>
           <div style="width: 100%; max-width: 320px;">
-            <input type="text" id="blog-search-input" placeholder="Search guides by keyword..." class="form-input" style="width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--color-neutral-300);">
+            <input type="text" id="blog-search-input" name="search" placeholder="Search guides by keyword..." class="form-input" style="width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--color-neutral-300);">
           </div>
         </div>
 
@@ -2474,7 +2474,8 @@
           Get seasonal trail updates, permit news, and exclusive trekking discounts delivered to your inbox once a month.
         </p>
         <form style="display: flex; justify-content: center; gap: 12px; max-width: 500px; margin: 0 auto;" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
-          <input type="email" placeholder="Enter your email address" class="form-input" style="background: white;" required>
+          <label for="blog-newsletter-email" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Enter your email address</label>
+          <input type="email" id="blog-newsletter-email" name="email" autocomplete="email" placeholder="Enter your email address" class="form-input" style="background: white;" required>
           <button type="submit" class="btn btn-primary" style="white-space: nowrap;">Subscribe</button>
         </form>
       </div>
@@ -2493,11 +2494,11 @@
         <div class="filter-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 14px;">
           <div class="form-group">
             <label class="form-label" for="inq-name">Full Name *</label>
-            <input type="text" id="inq-name" class="form-input" required>
+            <input type="text" id="inq-name" name="name" autocomplete="name" class="form-input" required>
           </div>
           <div class="form-group">
             <label class="form-label" for="inq-email">Email Address *</label>
-            <input type="email" id="inq-email" class="form-input" required>
+            <input type="email" id="inq-email" name="email" autocomplete="email" class="form-input" required>
           </div>
         </div>
         <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px;">Submit Inquiry</button>
@@ -2571,7 +2572,8 @@
             </div>
             <p class="ref-newsletter-sub">Get travel tips, trek inspiration and special offers straight to your inbox.</p>
             <form class="ref-newsletter-form" id="ref-newsletter-form">
-              <input type="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address">
+              <label for="ref-newsletter-email" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Email address for newsletter</label>
+              <input type="email" id="ref-newsletter-email" name="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address" autocomplete="email">
               <button type="submit" class="ref-newsletter-btn">Get Trek Inspiration →</button>
             </form>
             <div id="ref-newsletter-feedback" class="ref-newsletter-feedback" role="alert"></div>
@@ -2583,7 +2585,7 @@
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                 <span>Real journeys. Genuine reviews.</span>
               </div>
-              <div class="ref-stars-row" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <div class="ref-stars-row" role="img" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
               <a href="reviews.html" class="ref-cyan-link">Read traveler reviews →</a>
             </div>
           </div>

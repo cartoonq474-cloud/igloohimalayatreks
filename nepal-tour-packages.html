@@ -941,11 +941,11 @@
           <div class="catalog-filter-grid">
             <div class="catalog-filter-group">
               <label for="filter-search">Search Keyword</label>
-              <input type="text" id="filter-search" class="catalog-filter-input" placeholder="e.g. Kathmandu, Chitwan, Helicopter, Rara, Sunrise...">
+              <input type="text" id="filter-search" name="search" class="catalog-filter-input" placeholder="e.g. Kathmandu, Chitwan, Helicopter, Rara, Sunrise...">
             </div>
             <div class="catalog-filter-group">
               <label for="filter-category">Tour Style</label>
-              <select id="filter-category" class="catalog-filter-select">
+              <select id="filter-category" name="category" class="catalog-filter-select">
                 <option value="all">All Tour Styles (14)</option>
                 <option value="cultural">Cultural & Heritage Tours</option>
                 <option value="nature">Nature, Wildlife & Romance</option>
@@ -956,7 +956,7 @@
             </div>
             <div class="catalog-filter-group">
               <label for="filter-duration">Duration</label>
-              <select id="filter-duration" class="catalog-filter-select">
+              <select id="filter-duration" name="duration" class="catalog-filter-select">
                 <option value="all">All Durations</option>
                 <option value="short">Short / Day Tours (1 - 7 Days)</option>
                 <option value="medium">Classic Multi-Day (8 - 12 Days)</option>
@@ -965,7 +965,7 @@
             </div>
             <div class="catalog-filter-group">
               <label for="filter-sort">Sort By</label>
-              <select id="filter-sort" class="catalog-filter-select">
+              <select id="filter-sort" name="sort" class="catalog-filter-select">
                 <option value="default">Featured & Recommended</option>
                 <option value="price-low">Price: Low to High</option>
                 <option value="price-high">Price: High to Low</option>
@@ -1487,28 +1487,28 @@
       <form id="custom-inquiry-form">
         <div class="form-group">
           <label class="form-label" for="inq-name">Full Name *</label>
-          <input type="text" id="inq-name" class="form-input" placeholder="e.g. Alex Smith" required>
+          <input type="text" id="inq-name" name="name" autocomplete="name" class="form-input" placeholder="e.g. Alex Smith" required>
         </div>
 
         <div class="grid grid-2">
           <div class="form-group">
             <label class="form-label" for="inq-email">Email Address *</label>
-            <input type="email" id="inq-email" class="form-input" placeholder="alex@example.com" required>
+            <input type="email" id="inq-email" name="email" autocomplete="email" class="form-input" placeholder="alex@example.com" required>
           </div>
           <div class="form-group">
             <label class="form-label" for="inq-phone">WhatsApp / Phone *</label>
-            <input type="tel" id="inq-phone" class="form-input" placeholder="+1 (555) 000-0000" required>
+            <input type="tel" id="inq-phone" name="phone" autocomplete="tel" class="form-input" placeholder="+1 (555) 000-0000" required>
           </div>
         </div>
 
         <div class="grid grid-2">
           <div class="form-group">
             <label class="form-label" for="inq-trekkers">Number of Travellers</label>
-            <input type="number" id="inq-trekkers" class="form-input" min="1" value="2">
+            <input type="number" id="inq-trekkers" name="trekkers" class="form-input" min="1" value="2">
           </div>
           <div class="form-group">
             <label class="form-label" for="inq-month">Expected Travel Month</label>
-            <select id="inq-month" class="form-select">
+            <select id="inq-month" name="month" class="form-select">
               <option value="autumn">Autumn (Sep - Nov)</option>
               <option value="spring">Spring (Mar - May)</option>
               <option value="winter">Winter (Dec - Feb)</option>
@@ -1519,7 +1519,7 @@
 
         <div class="form-group">
           <label class="form-label" for="inq-notes">Custom Requirements / Questions</label>
-          <textarea id="inq-notes" class="form-textarea" rows="4" placeholder="Tell us your preferred itinerary, travel dates, hotel grade, or special requests..."></textarea>
+          <textarea id="inq-notes" name="notes" class="form-textarea" rows="4" placeholder="Tell us your preferred itinerary, travel dates, hotel grade, or special requests..."></textarea>
         </div>
 
         <button type="submit" class="btn btn-primary" style="width: 100%; padding: 14px;">Send Custom Inquiry Request</button>
@@ -1591,7 +1591,8 @@
             </div>
             <p class="ref-newsletter-sub">Get travel tips, trek inspiration and special offers straight to your inbox.</p>
             <form class="ref-newsletter-form" id="ref-newsletter-form">
-              <input type="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address">
+              <label for="ref-newsletter-email" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Email address for newsletter</label>
+              <input type="email" id="ref-newsletter-email" name="email" placeholder="Your email address" class="ref-newsletter-input" required aria-label="Your email address" autocomplete="email">
               <button type="submit" class="ref-newsletter-btn">Get Trek Inspiration →</button>
             </form>
             <div id="ref-newsletter-feedback" class="ref-newsletter-feedback" role="alert"></div>
@@ -1603,7 +1604,7 @@
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                 <span>Real journeys. Genuine reviews.</span>
               </div>
-              <div class="ref-stars-row" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <div class="ref-stars-row" role="img" aria-label="5 out of 5 stars"><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="14" height="14" viewBox="0 0 24 24" fill="#FF7900" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
               <a href="reviews.html" class="ref-cyan-link">Read traveler reviews →</a>
             </div>
           </div>

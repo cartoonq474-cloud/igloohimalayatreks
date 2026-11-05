@@ -18,6 +18,18 @@ function getBlogSlugsSet() {
   return blogSlugsSet;
 }
 
+let imageCache = null;
+function getImageCache() {
+  if (!imageCache) {
+    try {
+      imageCache = require('../../data/image_cache.json');
+    } catch {
+      imageCache = {};
+    }
+  }
+  return imageCache;
+}
+
 // Extract Header & Footer from canonical gold-standard template
 const headerMatch = canonicalHtml.match(/<header class="main-header">[\s\S]*?<\/header>/);
 const footerMatch = canonicalHtml.match(/<footer class="site-footer">[\s\S]*?<\/footer>/);
@@ -281,6 +293,25 @@ function renderBlogArticle(article, relPath = '../../', prevArticle = null, next
     }
 
     let content = sec.content || '';
+    const imgCache = getImageCache();
+    content = content.replace(/<img\b([^>]*?)>/gi, (match, attrs) => {
+      const hasW = /\bwidth\s*=/i.test(attrs);
+      const hasH = /\bheight\s*=/i.test(attrs);
+      if (hasW && hasH) return match;
+      const srcM = /\bsrc\s*=\s*['"]([^'"]+)['"]/i.exec(attrs);
+      if (!srcM) return match;
+      const filename = path.basename(srcM[1]).toLowerCase().split('?')[0];
+      const dims = imgCache[filename] || { width: 800, height: 533 };
+      let newAttrs = attrs;
+      if (!hasW && !hasH) {
+        newAttrs = ` width="${dims.width}" height="${dims.height}"` + newAttrs;
+      } else if (!hasW) {
+        newAttrs = ` width="${dims.width}"` + newAttrs;
+      } else if (!hasH) {
+        newAttrs = ` height="${dims.height}"` + newAttrs;
+      }
+      return `<img${newAttrs}>`;
+    });
     if (relPath === '../../') {
       content = content.replace(/\.\.\/(images|trek|tour|blog|team|js|index\.css|index\.html|blogs\.html|nepal-)/g, '../../$1');
       const slugs = getBlogSlugsSet();
@@ -770,16 +801,16 @@ function renderBlogArticle(article, relPath = '../../', prevArticle = null, next
         <div class="filter-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 14px; gap: 12px;">
           <div class="form-group">
             <label class="form-label" for="inq-name">Full Name *</label>
-            <input type="text" id="inq-name" class="form-input" placeholder="Your Name" required>
+            <input type="text" id="inq-name" name="name" autocomplete="name" class="form-input" placeholder="Your Name" required>
           </div>
           <div class="form-group">
             <label class="form-label" for="inq-email">Email Address *</label>
-            <input type="email" id="inq-email" class="form-input" placeholder="your@email.com" required>
+            <input type="email" id="inq-email" name="email" autocomplete="email" class="form-input" placeholder="your@email.com" required>
           </div>
         </div>
         <div class="form-group" style="margin-bottom: 14px;">
           <label class="form-label" for="inq-route">Preferred Route</label>
-          <select id="inq-route" class="form-input" style="width: 100%;">
+          <select id="inq-route" name="route" class="form-input" style="width: 100%;">
             <option value="undecided">Still deciding (Need expert advice)</option>
             <option value="ebc">Everest Base Camp Trek (14 Days)</option>
             <option value="act">Annapurna Circuit Trek (13 Days)</option>
@@ -791,7 +822,7 @@ function renderBlogArticle(article, relPath = '../../', prevArticle = null, next
         </div>
         <div class="form-group" style="margin-bottom: 18px;">
           <label class="form-label" for="inq-notes">Your Questions / Travel Dates</label>
-          <textarea id="inq-notes" class="form-input" rows="3" placeholder="Tell us your tentative travel month, fitness level, or specific questions..."></textarea>
+          <textarea id="inq-notes" name="notes" class="form-input" rows="3" placeholder="Tell us your tentative travel month, fitness level, or specific questions..."></textarea>
         </div>
         <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px; font-weight: 700;">Submit Inquiry ↗</button>
       </form>
