@@ -5,7 +5,7 @@
 
 // Setup Anchor Scroll & Zero-Jank Scroll Spy (IntersectionObserver)
 function setupSubNavScrollSpy() {
-  const subNavButtons = document.querySelectorAll('.trek-sub-nav-btn');
+  const subNavButtons = document.querySelectorAll('.trek-sub-nav-btn, .subnav-tab');
   const sections = document.querySelectorAll('.trek-detail-section');
   
   if (!subNavButtons.length || !sections.length) return;
@@ -23,7 +23,7 @@ function setupSubNavScrollSpy() {
       if (btn.getAttribute('data-tab') === tabId) {
         btn.classList.add('active');
         // Smoothly bring active pill into view in the horizontally scrollable track on mobile/narrow screens
-        const track = btn.closest('.trek-sub-nav-track, .trek-sub-nav-list');
+        const track = btn.closest('.trek-sub-nav-track, .trek-sub-nav-list, .trek-subnav-sticky > div, .trek-subnav-sticky');
         if (track && track.scrollWidth > track.clientWidth) {
           const btnLeft = btn.offsetLeft;
           const btnWidth = btn.offsetWidth;
@@ -78,7 +78,7 @@ function setupSubNavScrollSpy() {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           let tabId = entry.target.id.replace('section-', '');
-          if (tabId === 'inclusions' && !document.querySelector(`.trek-sub-nav-btn[data-tab="inclusions"]`)) {
+          if (tabId === 'inclusions' && !document.querySelector('.trek-sub-nav-btn[data-tab="inclusions"], .subnav-tab[data-tab="inclusions"]')) {
             tabId = 'includes';
           }
           setActiveButton(tabId);
@@ -121,18 +121,18 @@ function setupAccordions() {
 
   function expandCard(card) {
     card.classList.add('active');
-    const content = card.querySelector('.itinerary-content, .itinerary-card-body, .itinerary-body');
+    const content = card.querySelector('.itinerary-content, .itinerary-card-body, .itinerary-body, .itinerary-card-content');
     if (content) {
-      content.style.maxHeight = content.scrollHeight + 'px';
       if (content.style.display === 'none') {
         content.style.display = 'block';
       }
+      content.style.maxHeight = content.scrollHeight + 'px';
     }
   }
 
   function collapseCard(card) {
     card.classList.remove('active');
-    const content = card.querySelector('.itinerary-content, .itinerary-card-body, .itinerary-body');
+    const content = card.querySelector('.itinerary-content, .itinerary-card-body, .itinerary-body, .itinerary-card-content');
     if (content) {
       content.style.maxHeight = '';
     }
@@ -142,6 +142,7 @@ function setupAccordions() {
     toggleAllBtns.forEach(btn => {
       const activeCards = document.querySelectorAll('.itinerary-card.active');
       const allExpanded = itineraryCards.length > 0 && activeCards.length === itineraryCards.length;
+      btn.setAttribute('aria-expanded', String(allExpanded));
       if (allExpanded) {
         btn.classList.add('is-expanded');
         btn.innerHTML = `
@@ -343,8 +344,12 @@ function setupGearChecklist(trekKey) {
     tabBtns.forEach(btn => {
       btn.addEventListener('click', () => {
         const cat = btn.getAttribute('data-category');
-        tabBtns.forEach(b => b.classList.remove('active'));
+        tabBtns.forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-pressed', 'false');
+        });
         btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
 
         catSections.forEach(sec => {
           const secCat = sec.getAttribute('data-category');
@@ -1225,5 +1230,4 @@ if (document.readyState === 'loading') {
 } else {
   initTrekDetails();
 }
-
 
