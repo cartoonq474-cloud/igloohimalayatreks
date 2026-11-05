@@ -12,18 +12,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const emptyState = document.getElementById('treks-empty-state');
 
   const filterSearch = document.getElementById('filter-search');
+  const filterCategory = document.getElementById('filter-category');
   const filterRegion = document.getElementById('filter-region');
   const filterDuration = document.getElementById('filter-duration');
   const filterDifficulty = document.getElementById('filter-difficulty');
   const filterSort = document.getElementById('filter-sort');
   const resetBtn = document.getElementById('reset-filters-btn');
-  const quickPills = document.querySelectorAll('.region-quick-pill');
+
+  const categoryPills = document.querySelectorAll('.category-quick-pill');
+  const regionPills = document.querySelectorAll('.region-quick-pill');
 
   // Keep original order of cards for default sort
   const originalCardsOrder = [...cards];
 
   function applyFilters() {
     const searchVal = filterSearch ? filterSearch.value.trim().toLowerCase() : '';
+    const categoryVal = filterCategory ? filterCategory.value : 'all';
     const regionVal = filterRegion ? filterRegion.value : 'all';
     const durationVal = filterDuration ? filterDuration.value : 'all';
     const difficultyVal = filterDifficulty ? filterDifficulty.value : 'all';
@@ -34,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Filter cards
     cards.forEach(card => {
       const region = card.getAttribute('data-region') || '';
+      const category = card.getAttribute('data-category') || '';
       const duration = card.getAttribute('data-duration') || '';
       const difficulty = card.getAttribute('data-difficulty') || '';
       const title = (card.getAttribute('data-title') || '').toLowerCase();
@@ -45,13 +50,21 @@ document.addEventListener('DOMContentLoaded', () => {
         matchesSearch = title.includes(searchVal) || desc.includes(searchVal);
       }
 
+      // Category match
+      let matchesCategory = true;
+      if (categoryVal !== 'all') {
+        matchesCategory = category === categoryVal;
+      }
+
       // Region match
       let matchesRegion = true;
       if (regionVal !== 'all') {
         if (regionVal === 'peaks') {
-          matchesRegion = region === 'peaks' || title.includes('peak') || title.includes('climbing');
+          matchesRegion = category === 'peak-climbing' || region === 'peaks' || title.includes('peak') || title.includes('climbing');
         } else if (regionVal === 'short') {
-          matchesRegion = duration === 'short';
+          matchesRegion = duration === 'short' || category === 'short-treks';
+        } else if (regionVal === 'remote') {
+          matchesRegion = region === 'remote' || region === 'dolpo' || region === 'kanchenjunga' || title.includes('rara') || title.includes('makalu') || title.includes('rolwaling') || title.includes('ruby') || title.includes('dhaulagiri');
         } else {
           matchesRegion = region === regionVal;
         }
@@ -75,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
 
-      if (matchesSearch && matchesRegion && matchesDuration && matchesDifficulty) {
+      if (matchesSearch && matchesCategory && matchesRegion && matchesDuration && matchesDifficulty) {
         card.classList.remove('is-hidden');
         card.style.setProperty('display', 'flex', 'important');
         visibleCount++;
@@ -116,8 +129,18 @@ document.addEventListener('DOMContentLoaded', () => {
       emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
     }
 
-    // Sync quick pills active class
-    quickPills.forEach(pill => {
+    // Sync Category quick pills
+    categoryPills.forEach(pill => {
+      const pCat = pill.getAttribute('data-category');
+      if (pCat === categoryVal) {
+        pill.classList.add('active');
+      } else {
+        pill.classList.remove('active');
+      }
+    });
+
+    // Sync Region quick pills
+    regionPills.forEach(pill => {
       const pRegion = pill.getAttribute('data-region');
       if (pRegion === regionVal) {
         pill.classList.add('active');
@@ -129,13 +152,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Event Listeners for Filters
   if (filterSearch) filterSearch.addEventListener('input', applyFilters);
+  if (filterCategory) filterCategory.addEventListener('change', applyFilters);
   if (filterRegion) filterRegion.addEventListener('change', applyFilters);
   if (filterDuration) filterDuration.addEventListener('change', applyFilters);
   if (filterDifficulty) filterDifficulty.addEventListener('change', applyFilters);
   if (filterSort) filterSort.addEventListener('change', applyFilters);
 
+  // Quick Category Pills
+  categoryPills.forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.preventDefault();
+      const cat = pill.getAttribute('data-category') || 'all';
+      if (filterCategory) {
+        filterCategory.value = cat;
+      }
+      applyFilters();
+    });
+  });
+
   // Quick Region Pills
-  quickPills.forEach(pill => {
+  regionPills.forEach(pill => {
     pill.addEventListener('click', (e) => {
       e.preventDefault();
       const region = pill.getAttribute('data-region') || 'all';
@@ -151,12 +187,26 @@ document.addEventListener('DOMContentLoaded', () => {
     resetBtn.addEventListener('click', (e) => {
       e.preventDefault();
       if (filterSearch) filterSearch.value = '';
+      if (filterCategory) filterCategory.value = 'all';
       if (filterRegion) filterRegion.value = 'all';
       if (filterDuration) filterDuration.value = 'all';
       if (filterDifficulty) filterDifficulty.value = 'all';
       if (filterSort) filterSort.value = 'default';
       applyFilters();
     });
+  }
+
+  // Check URL Hash for Deep Linking on Page Load (e.g. #peak-climbing, #everest)
+  if (window.location.hash) {
+    const rawHash = window.location.hash.replace('#', '').toLowerCase();
+    const validCats = ['base-camp', 'peak-climbing', 'circuits', 'luxury-heli', 'short-treks', 'restricted'];
+    const validRegs = ['everest', 'annapurna', 'langtang', 'manaslu', 'mustang', 'dolpo', 'kanchenjunga', 'remote', 'kathmandu'];
+
+    if (validCats.includes(rawHash) && filterCategory) {
+      filterCategory.value = rawHash;
+    } else if (validRegs.includes(rawHash) && filterRegion) {
+      filterRegion.value = rawHash;
+    }
   }
 
   // Initial Run

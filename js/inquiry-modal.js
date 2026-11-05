@@ -9,6 +9,7 @@ export function setupInquiryModal() {
     const modalDiv = document.createElement('div');
     modalDiv.id = 'inquiry-modal';
     modalDiv.className = 'modal-overlay';
+    modalDiv.style.display = 'none';
     modalDiv.innerHTML = `
       <div class="modal-card">
         <button id="modal-close-btn" class="modal-close" aria-label="Close Modal">&times;</button>

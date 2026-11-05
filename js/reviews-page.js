@@ -198,23 +198,29 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       if (reviewModal) {
+        reviewModal.style.display = 'flex';
         reviewModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
       }
     });
   });
 
+  const closeReviewModal = () => {
+    if (reviewModal) {
+      reviewModal.classList.remove('active');
+      reviewModal.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    }
+  };
+
   if (closeModalBtn) {
-    closeModalBtn.addEventListener('click', () => {
-      if (reviewModal) {
-        reviewModal.classList.remove('active');
-      }
-    });
+    closeModalBtn.addEventListener('click', closeReviewModal);
   }
 
   if (reviewModal) {
     reviewModal.addEventListener('click', (e) => {
       if (e.target === reviewModal) {
-        reviewModal.classList.remove('active');
+        closeReviewModal();
       }
     });
   }

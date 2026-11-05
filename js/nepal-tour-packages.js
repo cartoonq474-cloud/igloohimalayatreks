@@ -143,6 +143,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Check URL Hash for Deep Linking on Page Load (e.g. #cultural, #heli, #nature, #overland, #hikes)
+  if (window.location.hash) {
+    const rawHash = window.location.hash.replace('#', '').toLowerCase();
+    const validCats = ['cultural', 'nature', 'heli', 'overland', 'hikes'];
+    if (validCats.includes(rawHash) && filterCategory) {
+      filterCategory.value = rawHash;
+    }
+  }
+
   // Run initial filter check
   applyFilters();
 });

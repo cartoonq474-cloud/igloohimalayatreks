@@ -269,7 +269,10 @@
     .card.tour-item:hover {
       transform: translateY(-6px) !important;
       box-shadow: 0 16px 36px rgba(14, 52, 88, 0.15) !important;
-      border-color: rgba(26, 150, 200, 0.4) !important;
+      border-color: rgba(26, 150, 200, 0.45) !important;
+    }
+    .card.tour-item:hover .tour-item-title {
+      color: #1A96C8 !important;
     }
     .tour-item-media {
       position: relative !important;
@@ -306,11 +309,12 @@
       letter-spacing: 0.04em !important;
       text-transform: uppercase !important;
       color: #FFFFFF !important;
+      background: linear-gradient(135deg, rgba(14, 52, 88, 0.92) 0%, rgba(26, 150, 200, 0.92) 100%) !important;
       padding: 5px 12px !important;
       border-radius: 9999px !important;
       backdrop-filter: blur(8px) !important;
       -webkit-backdrop-filter: blur(8px) !important;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+      box-shadow: 0 4px 12px rgba(14, 52, 88, 0.35) !important;
       border: 1px solid rgba(255, 255, 255, 0.25) !important;
     }
     .tour-duration-pill {
@@ -321,12 +325,12 @@
       font-size: 0.75rem !important;
       font-weight: 700 !important;
       color: #FFFFFF !important;
-      background: rgba(7, 29, 54, 0.8) !important;
+      background: rgba(14, 52, 88, 0.88) !important;
       padding: 5px 12px !important;
       border-radius: 9999px !important;
       backdrop-filter: blur(8px) !important;
       -webkit-backdrop-filter: blur(8px) !important;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2) !important;
+      box-shadow: 0 4px 12px rgba(14, 52, 88, 0.3) !important;
       border: 1px solid rgba(255, 255, 255, 0.2) !important;
       display: inline-flex !important;
       align-items: center !important;
@@ -348,14 +352,16 @@
       font-family: 'Outfit', sans-serif !important;
       font-size: 1.25rem !important;
       font-weight: 700 !important;
-      color: #071D36 !important;
+      color: #0E3458 !important;
       line-height: 1.35 !important;
       margin-bottom: 8px !important;
       min-height: 2.7em !important;
       display: -webkit-box !important;
       -webkit-line-clamp: 2 !important;
+      line-clamp: 2 !important;
       -webkit-box-orient: vertical !important;
       overflow: hidden !important;
+      transition: color 0.2s ease !important;
     }
     .tour-item-desc {
       font-family: 'Inter', sans-serif !important;
@@ -387,6 +393,9 @@
       border-radius: 8px !important;
       border: 1px solid #E2E8F0 !important;
     }
+    .tour-meta-chip svg {
+      color: #1A96C8 !important;
+    }
     .tour-item-footer {
       display: flex !important;
       justify-content: space-between !important;
@@ -411,29 +420,33 @@
       font-family: 'Outfit', sans-serif !important;
       font-size: 1.35rem !important;
       font-weight: 800 !important;
-      color: #071D36 !important;
+      color: #0E3458 !important;
       line-height: 1.1 !important;
     }
     .tour-action-btn {
       display: inline-flex !important;
       align-items: center !important;
       justify-content: center !important;
-      background-color: #E05A47 !important;
+      gap: 6px !important;
+      background: linear-gradient(135deg, #F6851F 0%, #F9AF6D 100%) !important;
       color: #FFFFFF !important;
-      font-weight: 600 !important;
+      font-family: 'Outfit', sans-serif !important;
+      font-weight: 700 !important;
       font-size: 0.88rem !important;
       padding: 9px 18px !important;
-      border-radius: 8px !important;
+      border-radius: 10px !important;
       text-decoration: none !important;
       white-space: nowrap !important;
       flex-shrink: 0 !important;
-      transition: all 0.2s ease !important;
-      box-shadow: 0 4px 12px rgba(224, 90, 71, 0.25) !important;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      box-shadow: 0 4px 14px rgba(246, 133, 31, 0.35) !important;
+      border: none !important;
     }
     .tour-action-btn:hover {
-      background-color: #C84634 !important;
+      background: linear-gradient(135deg, #E07412 0%, #F6851F 100%) !important;
       transform: translateY(-2px) !important;
-      box-shadow: 0 6px 16px rgba(224, 90, 71, 0.35) !important;
+      box-shadow: 0 6px 20px rgba(246, 133, 31, 0.5) !important;
+      color: #FFFFFF !important;
     }
 
     /* Empty State Card */
@@ -1188,7 +1201,7 @@
                data-tags="luxury & romance honeymoon-tour-in-nepal">
             <div class="tour-item-media">
               <img src="images/honeymoon-tour-in-nepal.webp" alt="Honeymoon Tour in Nepal" loading="lazy" width="400" height="220">
-              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #E05A47, #C84634);">Boutique Romance</span>
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #F6851F, #E07412);">Boutique Romance</span>
               <span class="tour-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 8 Days</span>
             </div>
             <div class="tour-item-body">
@@ -1222,7 +1235,7 @@
                data-tags="helicopter tours everest-base-camp-helicopter-tour">
             <div class="tour-item-media">
               <img src="images/everest-base-camp-helicopter-tour.webp" alt="Everest Base Camp 1-Day Helicopter Tour" loading="lazy" width="400" height="220">
-              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #E05A47, #991B1B);">VIP Mountain Flight</span>
+              <span class="tour-badge-pill" style="background: linear-gradient(135deg, #0E3458, #1A96C8);">VIP Mountain Flight</span>
               <span class="tour-duration-pill"><svg class="icon-svg icon-clock" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 1 Day (4-5 Hrs)</span>
             </div>
             <div class="tour-item-body">
