@@ -105,7 +105,8 @@ export function initTrekFinder(containerId, treks = sampleTreks) {
   const container = document.getElementById(containerId);
   if (!container) return;
 
-  const isTreksPage = window.location.pathname.includes('treks') || window.location.pathname.includes('nepal-trekking-packages');
+  // Ensure isTreksPage matches only the treks packages hub, not the repository name "/igloohimalayatreks/"
+  const isTreksPage = /nepal-trekking-packages|treks\.html/i.test(window.location.pathname);
   const linkPrefix = window.location.pathname.includes('/nepal-trekking-packages/') ? '../' : '';
 
   const renderCards = (filtered) => {
