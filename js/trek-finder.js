@@ -79,7 +79,7 @@ export const sampleTreks = [
     basePriceUSD: 1355,
     summary: "Breathtaking turquoise high-altitude lakes, Ngozumpa glacier, and technical Cho La pass crossing.",
     bestSeason: ["spring", "autumn"],
-    image: "images/gokyo-lake-trek.webp",
+    image: "images/gokyo-Lake-trek.webp",
     tags: ["TURQUOISE LAKES", "HIGH PASS", "GLACIER"],
     reviews: 76
   },
