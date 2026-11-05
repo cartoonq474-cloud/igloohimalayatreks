@@ -25,6 +25,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: true
+      - name: Fetch Git LFS assets
+        run: git lfs pull
+      - name: Verify review video assets
+        run: |
+          node -e "const fs=require('node:fs'); const dir='video/reviews'; const files=fs.readdirSync(dir).filter(file=>file.endsWith('.mp4')); if (!files.length || files.some(file => { const data=fs.readFileSync(dir+'/'+file); return data.length < 8 || data.toString('ascii',4,8) !== 'ftyp'; })) throw new Error('Review videos are not hydrated from Git LFS.');"
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
