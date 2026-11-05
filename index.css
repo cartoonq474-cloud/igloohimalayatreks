@@ -15282,6 +15282,116 @@ textarea {
   font-weight: 600;
 }
 
+@media (max-width: 640px) {
+  .nepal-travel-guide-page .guide-hero-section {
+    padding: 48px 0 44px;
+  }
+
+  .nepal-travel-guide-page .guide-hero-section > .container {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .nepal-travel-guide-page .guide-hero-title {
+    font-size: clamp(1.75rem, 8vw, 2.2rem);
+    line-height: 1.15;
+    margin-top: 10px;
+    margin-bottom: 12px;
+  }
+
+  .nepal-travel-guide-page .guide-hero-desc {
+    font-size: 0.94rem;
+    line-height: 1.55;
+    margin-bottom: 18px;
+  }
+
+  .nepal-travel-guide-page .guide-hero-meta {
+    width: 100%;
+    gap: 8px;
+    margin-top: 4px;
+  }
+
+  .nepal-travel-guide-page .guide-meta-chip {
+    max-width: 100%;
+    padding: 6px 10px;
+    font-size: 0.76rem;
+    line-height: 1.3;
+    white-space: normal;
+  }
+
+  .nepal-travel-guide-page .guide-pillars-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .nepal-travel-guide-page .guide-pillars-title {
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: clamp(1.55rem, 7vw, 2rem) !important;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+
+  .nepal-travel-guide-page .guide-hub-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .nepal-travel-guide-page .guide-card {
+    min-width: 0;
+    padding: 22px;
+  }
+}
+
+@media (max-width: 360px) {
+  .nepal-travel-guide-page .guide-hero-section {
+    padding: 36px 0 32px;
+  }
+
+  .nepal-travel-guide-page .guide-hero-section > .container {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .nepal-travel-guide-page .guide-meta-chip {
+    width: 100%;
+    max-width: 260px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .nepal-travel-guide-page .guide-etiquette-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 12px !important;
+  }
+
+  .nepal-travel-guide-page .guide-etiquette-grid > div {
+    min-width: 0;
+    padding: 16px !important;
+  }
+
+  .nepal-travel-guide-page .guide-etiquette-grid h4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    line-height: 1.35;
+  }
+
+  .nepal-travel-guide-page .guide-etiquette-grid h4 svg {
+    flex: 0 0 15px;
+    margin-top: 2px;
+  }
+
+  .nepal-travel-guide-page .guide-etiquette-grid p {
+    margin-bottom: 0;
+  }
+}
+
 /* Hub Grid */
 .guide-hub-grid {
   display: grid;
