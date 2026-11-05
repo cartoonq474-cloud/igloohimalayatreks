@@ -7,15 +7,23 @@
 (function () {
   'use strict';
 
+  const modalScriptUrl = document.currentScript && document.currentScript.src;
+
   function getRootRelativePath(relativePath) {
     if (!relativePath) return '';
     if (relativePath.startsWith('http://') || relativePath.startsWith('https://')) {
       return relativePath;
     }
-    // If running under http/https protocol, absolute root path works anywhere
+    // Resolve from this script so project-site prefixes (e.g. GitHub Pages) are preserved.
     if (window.location.protocol.startsWith('http')) {
       const clean = relativePath.replace(/^(\.\.\/)+/, '').replace(/^\//, '');
-      return '/' + clean;
+      const scriptUrl = modalScriptUrl
+        ? new URL(modalScriptUrl, window.location.href)
+        : new URL('/', window.location.origin);
+      const baseUrl = scriptUrl.origin === window.location.origin
+        ? new URL('../', scriptUrl)
+        : new URL('/', window.location.origin);
+      return new URL(clean, baseUrl).href;
     }
     // If running under file:///, compute relative depth
     const path = window.location.pathname.replace(/\\/g, '/');
