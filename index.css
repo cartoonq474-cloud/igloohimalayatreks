@@ -4383,6 +4383,44 @@ textarea {
   box-shadow: 0 6px 20px rgba(246, 133, 31, 0.45);
 }
 
+@media (max-width: 480px) {
+  .team-support-banner-wrapper {
+    width: 100%;
+    margin-top: 28px;
+    padding: 0 12px;
+    box-sizing: border-box;
+  }
+
+  .team-support-pill-card {
+    width: 100%;
+    max-width: 360px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  .support-pill-left {
+    min-width: 0;
+    gap: 10px;
+    font-size: 0.85rem;
+  }
+
+  .support-avatar-wrapper {
+    flex: 0 0 38px;
+  }
+
+  .btn-support-green {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 14px;
+    font-size: 0.88rem;
+  }
+}
+
 /* ==================== Activity Packages & Pricing Panel (Screenshot Design) ==================== */
 .activity-packages-section {
   background: linear-gradient(180deg, #F8FAFC 0%, #EEF6FC 100%);
