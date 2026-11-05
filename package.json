@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "Igloo Himalaya Treks - Premier Himalayan Trekking & Expedition Website",
   "private": true,
-  "main": "server.js",
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js",
-    "serve": "node server.js",
-    "open": "node server.js --open",
+    "dev": "node scripts/dev-server.js",
+    "start": "node scripts/dev-server.js",
+    "serve": "node scripts/dev-server.js",
+    "open": "node scripts/dev-server.js --open",
     "build": "node scripts/build.js"
   },
   "keywords": [

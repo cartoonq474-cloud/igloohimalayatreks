@@ -28,7 +28,7 @@ npm run open
 
 ---
 
-## ✨ Features of the Dev Server (`server.js`)
+## ✨ Features of the Dev Server (`scripts/dev-server.js`)
 
 - **Instant Zero-Dependency Startup**: Runs directly on Node's native HTTP module without waiting for heavy `node_modules`.
 - **Live Reload**: Automatically refreshes open browser tabs when `.html`, `.css`, or `.js` files are edited.

@@ -5,7 +5,7 @@ const os = require('os');
 const zlib = require('zlib');
 const { exec } = require('child_process');
 
-const ROOT = path.resolve(__dirname);
+const ROOT = path.resolve(__dirname, '..');
 
 // Parse CLI options
 const args = process.argv.slice(2);
