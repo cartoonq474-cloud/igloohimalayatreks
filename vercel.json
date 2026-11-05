@@ -2,7 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
-  "outputDirectory": ".",
   "headers": [
     {
       "source": "/(.*\\.(css|js|webp|png|jpg|jpeg|svg|woff2?))",
@@ -15,3 +14,4 @@
     }
   ]
 }
+
