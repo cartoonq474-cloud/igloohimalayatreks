@@ -53,7 +53,7 @@ export const sampleTreks = [
   },
   {
     id: "mardi-himal",
-    slug: null,
+    slug: "mardi-himal-trek",
     title: "Mardi Himal Ridge Trek",
     region: "annapurna",
     subregion: "Kaski, Annapurna Region",
@@ -149,7 +149,7 @@ export function initTrekFinder(containerId, treks = sampleTreks) {
               <span class="stars-gold"><svg class="icon-svg icon-star" width="13" height="13" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="13" height="13" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="13" height="13" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="13" height="13" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg class="icon-svg icon-star" width="13" height="13" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
               <span class="rating-count-text">(${t.reviews} Reviews)</span>
             </div>
-            <h3 class="exotic-card-title">${t.title}</h3>
+            <h3 class="exotic-card-title"><a href="${linkPrefix}trek/${t.slug}/">${t.title}</a></h3>
             <div class="exotic-card-subregion">${t.subregion || t.region.toUpperCase() + ' REGION'}</div>
           </div>
 
