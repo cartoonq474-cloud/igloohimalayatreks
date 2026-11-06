@@ -1,6 +1,2 @@
 User-agent: *
-Allow: /
-Disallow: /scratch/
-Disallow: /node_modules/
-
-Sitemap: https://igloohimalayatreks.com/sitemap.xml
+Disallow: /
