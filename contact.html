@@ -656,7 +656,10 @@
             </p>
           </div>
 
-          <form id="contact-page-form" class="inq-form" novalidate>
+          <form id="contact-page-form" class="inq-form" action="https://formsubmit.co/info@igloohimalayatreks.com" method="POST" novalidate>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_autoresponse" value="Namaste from Igloo Himalaya Treks! Thank you for reaching out. A Senior Trek Specialist at Igloo Himalaya Treks has received your consultation message and will get back to you within 2–4 hours with your customized route brief and confirmed quotation.">
             <!-- Row 1: Full Name & Email -->
             <div class="inq-form-grid">
               <div class="inq-field-group">
@@ -1238,7 +1241,10 @@
         </div>
       </div>
 
-      <form id="custom-inquiry-form" class="inq-form" novalidate>
+      <form id="custom-inquiry-form" class="inq-form" action="https://formsubmit.co/info@igloohimalayatreks.com" method="POST" novalidate>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_autoresponse" value="Namaste from Igloo Himalaya Treks! Thank you for inquiring. Our Senior Sherpa Expedition Team in Kathmandu has received your details and is preparing your personalized itinerary and confirmed quotation. We will reach out to you within 2–4 hours.">
         <input type="hidden" id="inq-hidden-trek" name="trekTitle" value="Custom Himalayan Trip">
         <input type="hidden" id="inq-hidden-departure" name="departureDate" value="">
 
@@ -2120,6 +2126,43 @@
             '• Notes / Requirements: ' + msgVal
           ];
           const waUrl = 'https://wa.me/9779860843980?text=' + encodeURIComponent(waLines.join('\n'));
+
+          // Transmit consultation details directly to info@igloohimalayatreks.com
+          const emailPayload = {
+            "Consultation Type": "Direct Message & Route Consultation",
+            "Selected Trek / Package": trekVal,
+            "Full Name": nameVal,
+            "Email Address": emailVal,
+            "Phone / WhatsApp": phoneVal,
+            "Target Start Date": startDateVal,
+            "Preferred Season": seasonVal,
+            "Group Size / Travellers": trekkersVal,
+            "Message / Questions": msgVal,
+            "Source Page URL": window.location.href,
+            "Submitted At (NPT)": new Date().toLocaleString('en-US', { timeZone: 'Asia/Kathmandu' }) + ' (NPT)',
+            "_subject": `[Contact Consultation] ${trekVal} - ${nameVal}`,
+            "_replyto": emailVal,
+            "_template": "table",
+            "_captcha": "false",
+            "_autoresponse": `Namaste from Igloo Himalaya Treks! Thank you for reaching out regarding ${trekVal}. A senior expedition planner has received your message and will provide a comprehensive itinerary quote and logistics brief within 2–4 hours.`
+          };
+
+          try {
+            fetch('https://formsubmit.co/ajax/info@igloohimalayatreks.com', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+              },
+              body: JSON.stringify(emailPayload)
+            }).then(res => res.json()).then(data => {
+              console.log('Contact message dispatched to info@igloohimalayatreks.com:', data);
+            }).catch(err => {
+              console.warn('FormSubmit background notification:', err);
+            });
+          } catch (err) {
+            console.warn('Direct email dispatch notice:', err);
+          }
 
           setTimeout(() => {
             if (!formCard) return;

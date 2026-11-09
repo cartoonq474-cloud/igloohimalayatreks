@@ -48,7 +48,10 @@ export function getModalTemplate(trekTitle = "Custom Himalayan Trip", departureI
         </div>
       </div>
 
-      <form id="custom-inquiry-form" class="inq-form" novalidate>
+      <form id="custom-inquiry-form" class="inq-form" action="https://formsubmit.co/info@igloohimalayatreks.com" method="POST" novalidate>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_autoresponse" value="Namaste from Igloo Himalaya Treks! Thank you for inquiring. Our Senior Sherpa Expedition Team in Kathmandu has received your details and is preparing your personalized itinerary and confirmed quotation. We will reach out to you within 2–4 hours.">
         <input type="hidden" id="inq-hidden-trek" name="trekTitle" value="${safeTitle}">
         <input type="hidden" id="inq-hidden-departure" name="departureDate" value="${safeDeparture}">
 
@@ -607,7 +610,10 @@ export function setupInquiryModal() {
 
   // Form Submission Handler
   const attachFormSubmit = () => {
-    const inquiryForm = document.getElementById('custom-inquiry-form') || document.getElementById('inquiry-form');
+    const inquiryForm = (modalOverlay && modalOverlay.querySelector('form')) ||
+                        document.getElementById('custom-inquiry-form') ||
+                        document.getElementById('inquiry-form') ||
+                        document.getElementById('trek-inquiry-form');
     if (!inquiryForm) return;
 
     inquiryForm.addEventListener('submit', (e) => {
@@ -725,7 +731,44 @@ export function setupInquiryModal() {
 
       const waUrl = `https://wa.me/9779860843980?text=${encodeURIComponent(waSummary)}`;
 
-      // Simulate smooth submission response
+      // Transmit all inquiry details directly to info@igloohimalayatreks.com
+      const emailPayload = {
+        "Trek / Package": selectedPackage,
+        "Full Name": nameVal,
+        "Email Address": emailVal,
+        "Phone / WhatsApp": phoneVal,
+        "Target Start Date": startDate || departureDate || "Flexible / Unspecified",
+        "Group Size / Travellers": trekkers,
+        "Preferred Season": season || "Flexible",
+        "Preferences": preferences.length > 0 ? preferences.join(', ') : "Standard Package",
+        "Special Requirements & Notes": notes || "None provided",
+        "Source Page URL": window.location.href,
+        "Submitted At (NPT)": new Date().toLocaleString('en-US', { timeZone: 'Asia/Kathmandu' }) + ' (NPT)',
+        "_subject": `[Trek Booking Inquiry] ${selectedPackage} - ${nameVal}`,
+        "_replyto": emailVal,
+        "_template": "table",
+        "_captcha": "false",
+        "_autoresponse": `Namaste from Igloo Himalaya Treks! Thank you for inquiring about ${selectedPackage}. Our senior trekking specialists in Kathmandu have received your details and are preparing your personalized route proposal, permit details, and quote. We will respond within 2–4 hours.`
+      };
+
+      try {
+        fetch('https://formsubmit.co/ajax/info@igloohimalayatreks.com', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(emailPayload)
+        }).then(res => res.json()).then(data => {
+          console.log('Inquiry dispatched to info@igloohimalayatreks.com:', data);
+        }).catch(err => {
+          console.warn('FormSubmit background notification:', err);
+        });
+      } catch (err) {
+        console.warn('Email dispatch notice:', err);
+      }
+
+      // Smooth submission response
       setTimeout(() => {
         const card = inquiryForm.closest('.modal-card');
         if (!card) {

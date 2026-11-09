@@ -67,6 +67,50 @@ document.addEventListener('DOMContentLoaded', () => {
         submitBtn.innerText = 'Submitting Application...';
       }
 
+      const name = document.getElementById('app-name') ? document.getElementById('app-name').value.trim() : '';
+      const email = document.getElementById('app-email') ? document.getElementById('app-email').value.trim() : '';
+      const phone = document.getElementById('app-phone') ? document.getElementById('app-phone').value.trim() : '';
+      const posEl = document.getElementById('app-position');
+      const position = posEl ? posEl.value : 'General Application';
+      const experience = document.getElementById('app-exp') ? document.getElementById('app-exp').value.trim() : 'Unspecified';
+      const cvUrl = document.getElementById('app-cv') ? document.getElementById('app-cv').value.trim() : 'Not provided';
+      const notes = document.getElementById('app-notes') ? document.getElementById('app-notes').value.trim() : 'None';
+
+      const emailPayload = {
+        "Application Type": "Igloo Himalaya Treks Career Application",
+        "Position Applied For": position,
+        "Full Name": name,
+        "Email Address": email,
+        "Phone / WhatsApp": phone,
+        "Experience": experience,
+        "CV / Portfolio Link": cvUrl,
+        "Introduction & Notes": notes,
+        "Source Page URL": window.location.href,
+        "Submitted At (NPT)": new Date().toLocaleString('en-US', { timeZone: 'Asia/Kathmandu' }) + ' (NPT)',
+        "_subject": `[Job Application] ${position} - ${name}`,
+        "_replyto": email,
+        "_template": "table",
+        "_captcha": "false",
+        "_autoresponse": `Namaste ${name}! Thank you for applying for the ${position} role at Igloo Himalaya Treks. Our HR and expedition operations team in Kathmandu has received your application and will review your credentials within 2–3 business days.`
+      };
+
+      try {
+        fetch('https://formsubmit.co/ajax/info@igloohimalayatreks.com', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(emailPayload)
+        }).then(res => res.json()).then(data => {
+          console.log('Job application dispatched to info@igloohimalayatreks.com:', data);
+        }).catch(err => {
+          console.warn('FormSubmit background notification:', err);
+        });
+      } catch (err) {
+        console.warn('Direct email dispatch notice:', err);
+      }
+
       setTimeout(() => {
         if (appForm) {
           appForm.innerHTML = `

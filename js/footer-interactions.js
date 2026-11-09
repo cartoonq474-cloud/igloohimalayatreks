@@ -15,6 +15,35 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
+      // Transmit newsletter subscription to info@igloohimalayatreks.com
+      const emailPayload = {
+        "Subscription Type": "Himalayan Trail Notes Newsletter",
+        "Subscriber Email": email,
+        "Source Page URL": window.location.href,
+        "Subscribed At (NPT)": new Date().toLocaleString('en-US', { timeZone: 'Asia/Kathmandu' }) + ' (NPT)',
+        "_subject": `[Newsletter Subscription] ${email}`,
+        "_replyto": email,
+        "_template": "table",
+        "_captcha": "false"
+      };
+
+      try {
+        fetch('https://formsubmit.co/ajax/info@igloohimalayatreks.com', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(emailPayload)
+        }).then(res => res.json()).then(data => {
+          console.log('Newsletter subscription dispatched to info@igloohimalayatreks.com:', data);
+        }).catch(err => {
+          console.warn('FormSubmit background notification:', err);
+        });
+      } catch (err) {
+        console.warn('Direct email dispatch notice:', err);
+      }
+
       // Display accessible confirmation
       feedbackEl.textContent = 'Thank you for subscribing! Himalayan Trail Notes are on their way.';
       feedbackEl.className = 'ref-newsletter-feedback success';

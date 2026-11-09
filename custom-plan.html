@@ -1212,11 +1212,60 @@
             submitBtn.innerHTML = '<span>Processing Your Request...</span>';
           }
 
-          const name = document.getElementById('cust-name') ? document.getElementById('cust-name').value : 'Traveler';
+          const name = document.getElementById('cust-name') ? document.getElementById('cust-name').value.trim() : 'Traveler';
+          const email = document.getElementById('cust-email') ? document.getElementById('cust-email').value.trim() : '';
+          const notes = document.getElementById('cust-notes') ? document.getElementById('cust-notes').value.trim() : '';
           const regEl = document.getElementById('custom-region');
           const durEl = document.getElementById('custom-duration');
+          const accEl = document.getElementById('custom-acc');
+          const heliEl = document.getElementById('custom-heli');
+          const paceEl = document.getElementById('custom-pace');
+          const travEl = document.getElementById('custom-travelers');
+
           const region = regEl ? regEl.options[regEl.selectedIndex].text : 'Nepal';
           const duration = durEl ? durEl.options[durEl.selectedIndex].text : '';
+          const accommodation = accEl ? accEl.options[accEl.selectedIndex].text : '';
+          const helicopter = heliEl ? heliEl.options[heliEl.selectedIndex].text : '';
+          const pace = paceEl ? paceEl.options[paceEl.selectedIndex].text : '';
+          const travelers = travEl ? travEl.options[travEl.selectedIndex].text : '';
+
+          // Transmit custom trip details directly to info@igloohimalayatreks.com
+          const emailPayload = {
+            "Inquiry Type": "Custom Tailor-Made Himalayan Expedition",
+            "Full Name": name,
+            "Email Address": email,
+            "Preferred Region": region,
+            "Target Duration": duration,
+            "Number of Travellers": travelers,
+            "Accommodation Preference": accommodation,
+            "Helicopter Option": helicopter,
+            "Trekking Pace": pace,
+            "Special Requests & Notes": notes || "None provided",
+            "Source Page URL": window.location.href,
+            "Submitted At (NPT)": new Date().toLocaleString('en-US', { timeZone: 'Asia/Kathmandu' }) + ' (NPT)',
+            "_subject": `[Custom Trip Request] ${region} - ${name}`,
+            "_replyto": email,
+            "_template": "table",
+            "_captcha": "false",
+            "_autoresponse": `Namaste from Igloo Himalaya Treks! Thank you for requesting a custom Himalayan itinerary for ${region} (${duration}). Our lead Sherpa planner will prepare a detailed day-by-day itinerary and pricing proposal for you within 2–4 hours.`
+          };
+
+          try {
+            fetch('https://formsubmit.co/ajax/info@igloohimalayatreks.com', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+              },
+              body: JSON.stringify(emailPayload)
+            }).then(res => res.json()).then(data => {
+              console.log('Custom trip inquiry dispatched to info@igloohimalayatreks.com:', data);
+            }).catch(err => {
+              console.warn('FormSubmit background notification:', err);
+            });
+          } catch (err) {
+            console.warn('Direct email dispatch notice:', err);
+          }
 
           setTimeout(() => {
             customForm.innerHTML = `
