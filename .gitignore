@@ -118,6 +118,7 @@ videos reviews/
 
 # 7. Temporary, Cache & Build Artifacts
 # ------------------------------------------------------------------------------
+/Gallery/
 temp/
 tmp/
 *.tmp

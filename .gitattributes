@@ -1,1 +1,2 @@
 video/reviews/*.mp4 filter=lfs diff=lfs merge=lfs -text
+video/gallery/**/*.mp4 filter=lfs diff=lfs merge=lfs -text

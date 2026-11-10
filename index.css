@@ -19226,3 +19226,613 @@ textarea {
     justify-content: center;
   }
 }
+
+
+/* Interactive Cursor on Hero Bento Collage */
+.trek-gallery-main,
+.trek-gallery-sub {
+  cursor: pointer;
+  position: relative;
+}
+
+.trek-gallery-main img,
+.trek-gallery-sub img {
+  transition: transform 0.35s ease;
+}
+
+.trek-gallery-main:hover img,
+.trek-gallery-sub:hover img {
+  transform: scale(1.02);
+}
+
+/* Mobile See All Photos floating badge on main hero image */
+@media (max-width: 800px) {
+  .trek-gallery-main .trek-gallery-see-all-mobile-btn {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background: rgba(14, 52, 88, 0.85);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* ========================================================
+   FULL-SCREEN EXPEDITION PHOTO GALLERY MODAL
+   ======================================================== */
+.trek-gallery-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+  background: rgba(8, 20, 36, 0.96);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  display: none;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.trek-gallery-modal-overlay.active {
+  display: flex;
+  opacity: 1;
+}
+
+/* Top Header Bar */
+.tg-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 28px;
+  background: rgba(14, 52, 88, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+  gap: 16px;
+  z-index: 10;
+}
+
+.tg-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.tg-header-left-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tg-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(26, 150, 200, 0.2);
+  border: 1px solid rgba(26, 150, 200, 0.4);
+  color: #38BDF8;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 2px 8px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.tg-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 480px;
+}
+
+.tg-count-pill {
+  font-size: 0.78rem;
+  color: #CBD5E1;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px 9px;
+  border-radius: 12px;
+}
+
+/* View Switcher */
+.tg-view-toggle {
+  display: inline-flex;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 4px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.tg-toggle-btn {
+  background: transparent;
+  border: none;
+  color: #94A3B8;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.tg-toggle-btn.active {
+  background: #1A96C8;
+  color: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(26, 150, 200, 0.4);
+}
+
+.tg-toggle-btn:hover:not(.active) {
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Close Button */
+.tg-close-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #FFFFFF;
+  padding: 6px 14px;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.tg-close-btn:hover {
+  background: #EF4444;
+  border-color: #EF4444;
+  transform: scale(1.02);
+}
+
+.tg-close-text {
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  opacity: 0.75;
+}
+
+/* Modal Body */
+.tg-modal-body {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- View 1: Responsive Grid of All Photos --- */
+.tg-grid-view {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px 28px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tg-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+  justify-content: center;
+  max-width: 900px;
+}
+
+.tg-filter-pill {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #CBD5E1;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tg-filter-pill:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #FFFFFF;
+}
+
+.tg-filter-pill.active {
+  background: #1A96C8;
+  color: #FFFFFF;
+  border-color: #1A96C8;
+  box-shadow: 0 2px 8px rgba(26, 150, 200, 0.35);
+}
+
+.tg-photos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.tg-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0B1E33;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  aspect-ratio: 4 / 3;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.tg-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.5);
+  border-color: rgba(26, 150, 200, 0.5);
+}
+
+.tg-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.tg-card:hover img {
+  transform: scale(1.06);
+}
+
+.tg-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(8, 20, 36, 0.95) 0%, rgba(8, 20, 36, 0.3) 50%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 14px;
+}
+
+.tg-card:hover .tg-card-overlay {
+  opacity: 1;
+}
+
+.tg-card-tag {
+  display: inline-block;
+  background: #1A96C8;
+  color: white;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  width: fit-content;
+}
+
+.tg-card-caption {
+  color: #FFFFFF;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* --- View 2: Single Photo Viewer --- */
+.tg-single-view {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tg-viewer-stage {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 70px;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.tg-nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(14, 52, 88, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.2s ease;
+}
+
+.tg-nav-arrow:hover {
+  background: #1A96C8;
+  border-color: #1A96C8;
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 4px 16px rgba(26, 150, 200, 0.5);
+}
+
+.tg-prev-btn {
+  left: 20px;
+}
+
+.tg-next-btn {
+  right: 20px;
+}
+
+.tg-main-image-wrapper {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tg-active-image {
+  max-width: 86vw;
+  max-height: calc(100vh - 230px);
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+  transition: opacity 0.2s ease;
+}
+
+.tg-image-caption-bar {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 86vw;
+  color: #CBD5E1;
+  font-size: 0.92rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 8px 14px;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  gap: 16px;
+}
+
+.tg-caption-text {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+.tg-counter-text {
+  font-size: 0.85rem;
+  color: #38BDF8;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* Bottom Thumbnail Strip */
+.tg-thumb-strip-container {
+  height: 82px;
+  background: rgba(6, 15, 26, 0.95);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  overflow-x: auto;
+  flex-shrink: 0;
+}
+
+.tg-thumb-strip {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 4px 0;
+}
+
+.tg-thumb-strip::-webkit-scrollbar {
+  height: 4px;
+}
+
+.tg-thumb-strip::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.tg-thumb-item {
+  width: 68px;
+  height: 50px;
+  border-radius: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  opacity: 0.45;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.tg-thumb-item:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+.tg-thumb-item.active {
+  opacity: 1;
+  border-color: #1A96C8;
+  box-shadow: 0 0 12px rgba(26, 150, 200, 0.7);
+  transform: scale(1.08);
+}
+
+.tg-thumb-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tg-modal-header {
+    padding: 10px 14px;
+  }
+
+  .tg-title {
+    font-size: 0.95rem;
+    max-width: 180px;
+  }
+
+  .tg-close-text {
+    display: none;
+  }
+
+  .tg-close-btn {
+    padding: 6px 10px;
+  }
+
+  .tg-viewer-stage {
+    padding: 0 10px;
+  }
+
+  .tg-nav-arrow {
+    width: 38px;
+    height: 38px;
+  }
+
+  .tg-prev-btn {
+    left: 8px;
+  }
+
+  .tg-next-btn {
+    right: 8px;
+  }
+
+  .tg-active-image {
+    max-width: 96vw;
+    max-height: calc(100vh - 210px);
+  }
+
+  .tg-image-caption-bar {
+    max-width: 96vw;
+    font-size: 0.82rem;
+    padding: 6px 10px;
+  }
+
+  .tg-photos-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+
+  .tg-grid-view {
+    padding: 14px;
+  }
+
+  .tg-thumb-item {
+    width: 52px;
+    height: 38px;
+  }
+}
+
+
+/* ==============================================================================
+   Trek & Tour Gallery Modal - Video Card & Single Viewer Video Player
+   ============================================================================== */
+.tg-card-video-element {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tg-card-play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(14, 52, 88, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, background 0.2s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.tg-card:hover .tg-card-play-icon {
+  transform: translate(-50%, -50%) scale(1.15);
+  background: #1A96C8;
+  border-color: #FFFFFF;
+}
+
+.tg-viewer-video {
+  max-width: 86vw;
+  max-height: calc(100vh - 230px);
+  border-radius: 8px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+  background: #000000;
+  outline: none;
+  display: block;
+}
+
+.tg-thumb-video-badge {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  background: rgba(14, 52, 88, 0.9);
+  border-radius: 4px;
+  padding: 1px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
