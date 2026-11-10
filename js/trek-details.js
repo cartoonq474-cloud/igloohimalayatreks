@@ -1462,6 +1462,24 @@ function setupTrekPhotoGallery() {
   ],
   "everest-base-camp-helicopter-tour": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video Third.mp4",
       "type": "video",
       "title": "Everest Base Camp & Kala Patthar Aerial Mountain Flight",
@@ -1543,6 +1561,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "nepal-luxury-helicopter-tour": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video Third.mp4",
       "type": "video",
@@ -1904,6 +1934,18 @@ function setupTrekPhotoGallery() {
   ],
   "kathmandu-pokhara-chitwan-tour": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video Fifth.mp4",
       "type": "video",
       "title": "Kathmandu UNESCO World Heritage Temples & Royal Squares",
@@ -2043,6 +2085,18 @@ function setupTrekPhotoGallery() {
   ],
   "nagarkot-sunrise-bhaktapur-tour": [
     {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Nagarkot Himalayan Sunrise across 8 Mountain Ranges",
@@ -2109,6 +2163,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "pokhara-valley-nature-tour": [
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video Second.mp4",
       "type": "video",
@@ -2177,6 +2243,18 @@ function setupTrekPhotoGallery() {
   ],
   "rara-lake-jeep-tour": [
     {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video Fourth.mp4",
       "type": "video",
       "title": "4WD Overland Journey to Pristine Western Nepal",
@@ -2238,6 +2316,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "upper-mustang-jeep-tour": [
+    {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video Fourth.mp4",
       "type": "video",
@@ -2321,6 +2411,18 @@ function setupTrekPhotoGallery() {
   ],
   "upper-mustang-tiji-festival": [
     {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video Fifth.mp4",
       "type": "video",
       "title": "Lo Manthang Walled City & Royal Palace Monasteries",
@@ -2397,6 +2499,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "ebc": [
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
       "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
@@ -2625,6 +2745,24 @@ function setupTrekPhotoGallery() {
   ],
   "gokyo": [
     {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "a-detailed-map-of-the-gokyo-lake-with-ranjo-la-pass-trek-with-a-altitude-graph.jpg",
       "title": "A Detailed Map Of The Gokyo Lake With Ranjo La Pass Trek With A Altitude Graph",
       "category": "Trail"
@@ -2801,6 +2939,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "three_passes": [
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
       "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
@@ -3004,6 +3160,24 @@ function setupTrekPhotoGallery() {
   ],
   "everest_view": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "ama-dablam-peak.jpg",
       "title": "Ama Dablam Peak",
       "category": "Peaks"
@@ -3156,6 +3330,24 @@ function setupTrekPhotoGallery() {
   ],
   "pikey": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "everest-base-camp-trekking-boots-and-poles-at-hotel-everest-view.webp",
       "title": "Everest Base Camp Trekking Boots And Poles At Hotel Everest View",
       "category": "Panoramas"
@@ -3283,6 +3475,24 @@ function setupTrekPhotoGallery() {
   ],
   "tengboche": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
       "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
       "category": "Panoramas"
@@ -3409,6 +3619,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "island_peak": [
+    {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
     {
       "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
       "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
@@ -3586,6 +3814,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "mera_peak": [
+    {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -3909,6 +4155,24 @@ function setupTrekPhotoGallery() {
   ],
   "lobuche": [
     {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
       "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
       "category": "Panoramas"
@@ -4060,6 +4324,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "yala_peak": [
+    {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -4452,6 +4734,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "abc": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -5380,6 +5680,18 @@ function setupTrekPhotoGallery() {
   ],
   "act": [
     {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "gallery/annapurna-circuit/act-14-expedition-001.webp",
       "title": "Act 14 Expedition 001",
       "category": "Peaks"
@@ -6061,6 +6373,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "classic_act": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
     {
       "file": "gallery/classic-annapurna-circuit/classic-act-expedition-001.webp",
       "title": "Classic Act Expedition 001",
@@ -6889,6 +7213,24 @@ function setupTrekPhotoGallery() {
   ],
   "poonhill": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -7276,6 +7618,24 @@ function setupTrekPhotoGallery() {
   ],
   "mardi": [
     {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "abc-gallery-machhapuchhre-base-camp.webp",
       "title": "Abc Gallery Machhapuchhre Base Camp",
       "category": "Peaks"
@@ -7453,6 +7813,24 @@ function setupTrekPhotoGallery() {
   ],
   "khopra": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "classic-act-gallery-dhaulagiri-icefall-view.webp",
       "title": "Classic Act Gallery Dhaulagiri Icefall View",
       "category": "Panoramas"
@@ -7554,6 +7932,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "mohare": [
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "a-detail-map-of-annapurna-circuit-trek-showing-checkpoints-with-landmarks-along-with-a-alt.jpg",
       "title": "A Detail Map Of Annapurna Circuit Trek Showing Checkpoints With Landmarks Along With A Alt",
@@ -7657,6 +8053,24 @@ function setupTrekPhotoGallery() {
   ],
   "panchase": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "how-to-get-to-annapurna-flight-from-kathmandu-to-pokhara.jpg",
       "title": "How To Get To Annapurna Flight From Kathmandu To Pokhara",
       "category": "Peaks"
@@ -7738,6 +8152,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "annapurna_luxury": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -8105,6 +8537,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "langtang": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -8523,6 +8967,18 @@ function setupTrekPhotoGallery() {
   ],
   "gosaikunda": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "gosaikunda-lake-trek-02.webp",
       "title": "Gosaikunda Lake Trek 02",
       "category": "Trail"
@@ -8645,6 +9101,18 @@ function setupTrekPhotoGallery() {
   ],
   "helambu": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "jamacho-hike-1-day-hiking-shivapuri-national-park-02.webp",
       "title": "Jamacho Hike 1 Day Hiking Shivapuri National Park 02",
       "category": "Trail"
@@ -8711,6 +9179,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "tamang": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "a-collection-of-iconic-moments-and-landscapes-experienced-during-the-langtang-valley-trek.jpg",
       "title": "A Collection Of Iconic Moments And Landscapes Experienced During The Langtang Valley Trek",
@@ -8839,6 +9319,18 @@ function setupTrekPhotoGallery() {
   ],
   "chisapani_nagarkot": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "chisapani-nagarkot-trek-02.jpg",
       "title": "Chisapani Nagarkot Trek 02",
       "category": "Trail"
@@ -8885,6 +9377,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "manaslu": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -9313,6 +9817,18 @@ function setupTrekPhotoGallery() {
   ],
   "tsum": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -9714,6 +10230,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "upper_mustang": [
+    {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
     {
       "file": "gallery/classic-annapurna-circuit/classic-act-expedition-001.webp",
       "title": "Classic Act Expedition 001",
@@ -10542,6 +11070,18 @@ function setupTrekPhotoGallery() {
   ],
   "lower_mustang": [
     {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
+    {
       "file": "gallery/classic-annapurna-circuit/classic-act-expedition-001.webp",
       "title": "Classic Act Expedition 001",
       "category": "Peaks"
@@ -11344,6 +11884,24 @@ function setupTrekPhotoGallery() {
   ],
   "nar_phu": [
     {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -11710,6 +12268,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "kanchenjunga": [
+    {
+      "file": "video/gallery/treks/kanchenjunga-circuit-trek.mp4",
+      "type": "video",
+      "title": "Kanchenjunga Circuit & High Base Camp Remote Wilderness Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -12128,6 +12698,18 @@ function setupTrekPhotoGallery() {
   ],
   "dolpo": [
     {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -12545,6 +13127,18 @@ function setupTrekPhotoGallery() {
   ],
   "rara": [
     {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video Third.mp4",
       "type": "video",
       "title": "Himalayan Mountain Passes & Ridge Traversing",
@@ -12816,6 +13410,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "makalu": [
+    {
+      "file": "video/gallery/treks/kanchenjunga-circuit-trek.mp4",
+      "type": "video",
+      "title": "Kanchenjunga Circuit & High Base Camp Remote Wilderness Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -13184,6 +13790,24 @@ function setupTrekPhotoGallery() {
   ],
   "dhaulagiri": [
     {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -13550,6 +14174,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "rolwaling": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -13918,6 +14554,18 @@ function setupTrekPhotoGallery() {
   ],
   "ruby": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -14284,6 +14932,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "abc_mardi": [
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -15287,6 +15953,24 @@ function setupTrekPhotoGallery() {
   ],
   "poonhill_mardi": [
     {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -15749,6 +16433,18 @@ function setupTrekPhotoGallery() {
   ],
   "langtang_gosaikunda_helambu": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "a-collection-of-iconic-moments-and-landscapes-experienced-during-the-langtang-valley-trek.jpg",
       "title": "A Collection Of Iconic Moments And Landscapes Experienced During The Langtang Valley Trek",
       "category": "Trail"
@@ -16051,6 +16747,18 @@ function setupTrekPhotoGallery() {
   ],
   "tamang_langtang": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "a-collection-of-iconic-moments-and-landscapes-experienced-during-the-langtang-valley-trek.jpg",
       "title": "A Collection Of Iconic Moments And Landscapes Experienced During The Langtang Valley Trek",
       "category": "Trail"
@@ -16277,6 +16985,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "manaslu_tsum": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "gallery/manaslu/manaslu-expedition-001.webp",
       "title": "Manaslu Expedition 001",
@@ -16539,6 +17259,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "abc-with-mardi-himal-trek": [
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -17542,6 +18280,24 @@ function setupTrekPhotoGallery() {
   ],
   "annapurna-base-camp": [
     {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -18468,6 +19224,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "annapurna-base-camp-heli-return": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -19396,6 +20170,24 @@ function setupTrekPhotoGallery() {
   ],
   "annapurna-base-camp-trek-via-poon-hill": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -20323,6 +21115,24 @@ function setupTrekPhotoGallery() {
   ],
   "annapurna-circuit-luxury-trek": [
     {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -21244,6 +22054,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "annapurna-circuit-trek": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -22167,6 +22995,24 @@ function setupTrekPhotoGallery() {
   ],
   "annapurna-circuit-with-tilicho-lake": [
     {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -23089,6 +23935,18 @@ function setupTrekPhotoGallery() {
   ],
   "annapurna-luxury-trek": [
     {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -23455,6 +24313,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "annapurna-view-trek": [
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -23843,6 +24719,18 @@ function setupTrekPhotoGallery() {
   ],
   "chisapani-nagarkot-trek": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -24129,6 +25017,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "classic-annapurna-circuit-trek": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -25197,6 +26103,24 @@ function setupTrekPhotoGallery() {
   ],
   "dhaulagiri-circuit-trek": [
     {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -25563,6 +26487,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "ebc-chola-pass-gokyo-trek": [
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -25980,6 +26922,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "everest-base-camp-luxury-trek": [
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -26448,6 +27408,24 @@ function setupTrekPhotoGallery() {
   ],
   "everest-base-camp-trek": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -26914,6 +27892,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "everest-base-camp-trek-16-days": [
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -27382,6 +28378,24 @@ function setupTrekPhotoGallery() {
   ],
   "everest-base-camp-trek-heli-return": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -27849,6 +28863,24 @@ function setupTrekPhotoGallery() {
   ],
   "everest-base-camp-trek-with-island-peak-climb": [
     {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -28265,6 +29297,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "everest-base-camp-trek-without-flight": [
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -28733,6 +29783,24 @@ function setupTrekPhotoGallery() {
   ],
   "everest-base-camp-via-gokyo-lakes": [
     {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -29149,6 +30217,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "everest-chola-and-renjo-la-pass-trek": [
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -29617,6 +30703,24 @@ function setupTrekPhotoGallery() {
   ],
   "everest-three-passes-trek": [
     {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -30059,6 +31163,24 @@ function setupTrekPhotoGallery() {
   ],
   "everest-view-trek": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -30451,6 +31573,24 @@ function setupTrekPhotoGallery() {
   ],
   "ghorepani-poon-hill-trek": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -30837,6 +31977,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "ghorepani-poon-hill-with-mardi-himal-trek": [
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -31300,6 +32458,24 @@ function setupTrekPhotoGallery() {
   ],
   "gokyo-lake-trek-with-helicopter-return": [
     {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -31716,6 +32892,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "gokyo-lake-with-renjo-la-pass-trek": [
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -32134,6 +33328,24 @@ function setupTrekPhotoGallery() {
   ],
   "gokyo-lakes-luxury-trek": [
     {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -32550,6 +33762,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "gokyo-lakes-trek": [
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -32968,6 +34198,18 @@ function setupTrekPhotoGallery() {
   ],
   "gosaikunda-lake-trek": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -33329,6 +34571,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "gosaikunda-trek": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -33692,6 +34946,18 @@ function setupTrekPhotoGallery() {
   ],
   "helambu-trek": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -33998,6 +35264,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "island-peak-climbing": [
+    {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -34416,6 +35700,18 @@ function setupTrekPhotoGallery() {
   ],
   "kanchenjunga-base-camp-trek": [
     {
+      "file": "video/gallery/treks/kanchenjunga-circuit-trek.mp4",
+      "type": "video",
+      "title": "Kanchenjunga Circuit & High Base Camp Remote Wilderness Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -34832,6 +36128,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "kanchenjunga-circuit-trek": [
+    {
+      "file": "video/gallery/treks/kanchenjunga-circuit-trek.mp4",
+      "type": "video",
+      "title": "Kanchenjunga Circuit & High Base Camp Remote Wilderness Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -35250,6 +36558,18 @@ function setupTrekPhotoGallery() {
   ],
   "kanchenjunga-trek-without-flight": [
     {
+      "file": "video/gallery/treks/kanchenjunga-circuit-trek.mp4",
+      "type": "video",
+      "title": "Kanchenjunga Circuit & High Base Camp Remote Wilderness Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -35667,6 +36987,24 @@ function setupTrekPhotoGallery() {
   ],
   "khopra-ridge-trek": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -36008,6 +37346,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "langtang-gosaikunda-helambu-trek": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -36551,6 +37901,18 @@ function setupTrekPhotoGallery() {
   ],
   "langtang-valley-trek": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -36968,6 +38330,24 @@ function setupTrekPhotoGallery() {
   ],
   "lobuche-peak-climbing": [
     {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -37359,6 +38739,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "lower-dolpo-trek": [
+    {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -37776,6 +39168,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "lower-mustang-trek": [
+    {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -38819,6 +40223,18 @@ function setupTrekPhotoGallery() {
   ],
   "makalu-base-camp-trek": [
     {
+      "file": "video/gallery/treks/kanchenjunga-circuit-trek.mp4",
+      "type": "video",
+      "title": "Kanchenjunga Circuit & High Base Camp Remote Wilderness Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -39185,6 +40601,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "manaslu-circuit-trek": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -39613,6 +41041,18 @@ function setupTrekPhotoGallery() {
   ],
   "manaslu-circuit-trek-12-days": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -40039,6 +41479,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "manaslu-tsum-valley-trek": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -40542,6 +41994,24 @@ function setupTrekPhotoGallery() {
   ],
   "mardi-himal-trek": [
     {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -40959,6 +42429,24 @@ function setupTrekPhotoGallery() {
   ],
   "mera-peak-climbing": [
     {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -41280,6 +42768,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "mohare-danda-trek": [
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -41622,6 +43128,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "nar-phu-valley-trek": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -41989,6 +43513,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "north-annapurna-base-camp-trek": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -42917,6 +44459,24 @@ function setupTrekPhotoGallery() {
   ],
   "panchase-trek": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -43238,6 +44798,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "pikey-peak-trek": [
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -43606,6 +45184,18 @@ function setupTrekPhotoGallery() {
   ],
   "rara-lake-trek": [
     {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -43882,6 +45472,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "rolwaling-valley-trek": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -44250,6 +45852,18 @@ function setupTrekPhotoGallery() {
   ],
   "ruby-valley-trek": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -44616,6 +46230,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "short-annapurna-base-camp-trek": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -45544,6 +47176,18 @@ function setupTrekPhotoGallery() {
   ],
   "tamang-heritage-trail-trek": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -45910,6 +47554,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "tamang-heritage-trail-with-langtang-valley-trek": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -46378,6 +48034,24 @@ function setupTrekPhotoGallery() {
   ],
   "tengboche-trek": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -46744,6 +48418,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "three-high-passes-with-island-peak-climb": [
+    {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -47162,6 +48854,18 @@ function setupTrekPhotoGallery() {
   ],
   "tsum-valley-trek": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -47563,6 +49267,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "upper-dolpo-trek": [
+    {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -47980,6 +49696,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "upper-mustang-trek": [
+    {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -49048,6 +50776,24 @@ function setupTrekPhotoGallery() {
   ],
   "yala-peak-climbing": [
     {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -49723,6 +51469,18 @@ function setupTrekPhotoGallery() {
   ],
   "city-tour": [
     {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video Fifth.mp4",
       "type": "video",
       "title": "Kathmandu Durbar Square & Living Goddess Kumari Ghar",
@@ -49867,6 +51625,18 @@ function setupTrekPhotoGallery() {
   ],
   "kpc-tour": [
     {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video Fifth.mp4",
       "type": "video",
       "title": "Kathmandu UNESCO World Heritage Temples & Royal Squares",
@@ -50006,6 +51776,18 @@ function setupTrekPhotoGallery() {
   ],
   "nagarkot": [
     {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Nagarkot Himalayan Sunrise across 8 Mountain Ranges",
@@ -50072,6 +51854,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "pokhara": [
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video Second.mp4",
       "type": "video",
@@ -50140,6 +51934,18 @@ function setupTrekPhotoGallery() {
   ],
   "rara-jeep": [
     {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video Fourth.mp4",
       "type": "video",
       "title": "4WD Overland Journey to Pristine Western Nepal",
@@ -50201,6 +52007,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "mustang-jeep": [
+    {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video Fourth.mp4",
       "type": "video",
@@ -50283,6 +52101,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "tiji": [
+    {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video Fifth.mp4",
       "type": "video",
@@ -50453,6 +52283,24 @@ function setupTrekPhotoGallery() {
   ],
   "everest-heli": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video Third.mp4",
       "type": "video",
       "title": "Everest Base Camp & Kala Patthar Aerial Mountain Flight",
@@ -50534,6 +52382,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "luxury-heli": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video Third.mp4",
       "type": "video",
@@ -50683,6 +52543,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "abc_heli": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -50926,6 +52804,24 @@ function setupTrekPhotoGallery() {
   ],
   "annapurna_circuit": [
     {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -51167,6 +53063,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "annapurna_view": [
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -51410,6 +53324,18 @@ function setupTrekPhotoGallery() {
   ],
   "chisapani": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -51651,6 +53577,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "classic_annapurna_circuit": [
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -51894,6 +53838,24 @@ function setupTrekPhotoGallery() {
   ],
   "ebc_chola_gokyo": [
     {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -52135,6 +54097,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "ebc_luxury": [
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -52378,6 +54358,24 @@ function setupTrekPhotoGallery() {
   ],
   "everest": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -52619,6 +54617,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "ebc_16": [
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -52862,6 +54878,24 @@ function setupTrekPhotoGallery() {
   ],
   "ebc_heli": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -53103,6 +55137,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "ebc_island_peak": [
+    {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -53346,6 +55398,24 @@ function setupTrekPhotoGallery() {
   ],
   "ebc_without_flight": [
     {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -53587,6 +55657,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "ebc_chola_renjola": [
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -53830,6 +55918,24 @@ function setupTrekPhotoGallery() {
   ],
   "everest_three_passes": [
     {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -54071,6 +56177,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "poon_hill_9": [
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -54314,6 +56438,24 @@ function setupTrekPhotoGallery() {
   ],
   "gokyo_heli_11": [
     {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -54555,6 +56697,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "gokyo_renjo_la": [
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -54798,6 +56958,24 @@ function setupTrekPhotoGallery() {
   ],
   "gokyo_luxury": [
     {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -55039,6 +57217,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "gokyo_lakes": [
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -55282,6 +57478,24 @@ function setupTrekPhotoGallery() {
   ],
   "island_peak_climbing": [
     {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -55523,6 +57737,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "khopra_ridge": [
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -55766,6 +57998,24 @@ function setupTrekPhotoGallery() {
   ],
   "lobuche_16": [
     {
+      "file": "video/gallery/treks/island-peak-climbing.mp4",
+      "type": "video",
+      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -56007,6 +58257,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "mustang": [
+    {
+      "file": "video/gallery/treks/upper-mustang-trek.mp4",
+      "type": "video",
+      "title": "Upper Mustang Forbidden Kingdom & Lo Manthang Ancient Walled City",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -56250,6 +58512,18 @@ function setupTrekPhotoGallery() {
   ],
   "manaslu-12": [
     {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -56491,6 +58765,18 @@ function setupTrekPhotoGallery() {
     }
   ],
   "manaslu-tsum": [
+    {
+      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
+      "type": "video",
+      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -56734,6 +59020,24 @@ function setupTrekPhotoGallery() {
   ],
   "mardi_8": [
     {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -56975,6 +59279,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "mohare_danda": [
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
@@ -57218,6 +59540,24 @@ function setupTrekPhotoGallery() {
   ],
   "panchase_8": [
     {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "video/Clip Video First.mp4",
       "type": "video",
       "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
@@ -57459,6 +59799,24 @@ function setupTrekPhotoGallery() {
     }
   ],
   "pikey_peak": [
+    {
+      "file": "video/gallery/treks/everest-base-camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+      "type": "video",
+      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/everest-without-flight.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
     {
       "file": "video/Clip Video First.mp4",
       "type": "video",
