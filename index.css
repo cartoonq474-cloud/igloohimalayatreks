@@ -19245,6 +19245,10 @@ textarea {
   transform: scale(1.02);
 }
 
+.trek-gallery-see-all-mobile-btn {
+  display: none;
+}
+
 /* Mobile See All Photos floating badge on main hero image */
 @media (max-width: 800px) {
   .trek-gallery-main .trek-gallery-see-all-mobile-btn {

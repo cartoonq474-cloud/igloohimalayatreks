@@ -907,29 +907,7 @@
 
         <!-- Hero Lead Intro with Scoped Toggle (Rule #11) -->
         <p style="font-size: 1.15rem; color: var(--color-neutral-600); line-height: 1.7; margin-top: 12px; margin-bottom: 0;">Trek through the Khumbu to Everest Base Camp and Kala Patthar, then return from Gorak Shep to Lukla by helicopter. This twelve-day journey follows the classic approach through Namche Bazaar, Tengboche and Dingboche, with acclimatisation days in Namche and Dingboche before the higher stages.
-          <span id="ebc-more-text" style="display: none;">
-            After the Kala Patthar hike, your helicopter shuttle replaces the walk back down the valley. Stay overnight in Lukla before the onward flight and return to Kathmandu, followed by departure the next day.
-          </span>
-          <button id="ebc-toggle-btn" type="button" style="background: none; border: none; color: #1A96C8; font-weight: 700; font-size: 1.05rem; cursor: pointer; padding: 0; margin-left: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; vertical-align: middle; transition: opacity 0.2s ease;">
-            Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>
-          </button>
-        </p>
-
-        <script>
-          document.addEventListener('DOMContentLoaded', () => {
-            const toggleBtn = document.getElementById('ebc-toggle-btn');
-            const moreText = document.getElementById('ebc-more-text');
-            if (toggleBtn && moreText) {
-              toggleBtn.addEventListener('click', () => {
-                const isHidden = moreText.style.display === 'none';
-                moreText.style.display = isHidden ? 'inline' : 'none';
-                toggleBtn.innerHTML = isHidden 
-                  ? 'Learn less <span style="font-size: 1.1rem; margin-left: 2px;">↑</span>' 
-                  : 'Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>';
-              });
-            }
-          });
-        </script>
+           After the Kala Patthar hike, your helicopter shuttle replaces the walk back down the valley. Stay overnight in Lukla before the onward flight and return to Kathmandu, followed by departure the next day.</p>
       </div>
     </section>
 

@@ -1007,78 +1007,53 @@
             time to explore before continuing through Nar Phedi to Nar. Cross Kang La at approximately 5,320 m, then
             descend to Ngawal and finish walking at Humde. Village lodges, Buddhist heritage and changing mountain
             scenery shape the journey.
-
-            <button id="ebc-toggle-btn"
-              style="background: none; border: none; color: #1A96C8; font-weight: 700; font-size: 1.05rem; cursor: pointer; padding: 0; margin-left: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; vertical-align: middle; transition: opacity 0.2s ease;">
-              Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>
-            </button>
           </p>
-
-          <script>
-            document.addEventListener('DOMContentLoaded', () => {
-              const toggleBtn = document.getElementById('ebc-toggle-btn');
-              const moreText = document.getElementById('ebc-more-text');
-
-              if (toggleBtn && moreText) {
-                toggleBtn.addEventListener('click', () => {
-                  const isHidden = moreText.style.display === 'none';
-                  moreText.style.display = isHidden ? 'inline' : 'none';
-                  toggleBtn.innerHTML = isHidden
-                    ? 'Learn less <span style="font-size: 1.1rem; margin-left: 2px;">↑</span>'
-                    : 'Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>';
-                });
-              }
-            });
-          </script>
         </div>
       </section>
 
       <!-- Multi-Image Collage Gallery -->
       <div class="container" style="margin-bottom: 24px;">
         <div class="trek-gallery-collage">
-          <!-- Main Large Photo (Left) with Travelers' Choice badge -->
-          <div class="trek-gallery-main">
-            <img src="../../images/hero-himalayas.webp" alt="Nar Phu Valley Trek View">
-            <!-- TripAdvisor Travelers' Choice Badge -->
-            <div class="trek-gallery-badge">
-              <div class="trek-gallery-badge-icon"
-                style="background: #00af87; display: flex; align-items: center; justify-content: center;">
-                <svg class="icon-svg icon-sm icon-svg-fill" style="stroke: none; fill: white;" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                </svg>
-              </div>
-              <div class="trek-gallery-badge-text">
-                <span>Travelers' Choice</span>
-                <span>Best of the Best 2026</span>
-              </div>
+        <!-- Main Large Photo (Left) with Travelers' Choice badge -->
+        <div class="trek-gallery-main">
+          <img src="../../images/nar-phu-valley-trek-13-days-cost-itinerary-and-kang-la-pass.webp" alt="Nar Phu Valley Trek rugged remote canyon gorge with ancient stone chortens and high Himalayan peaks" loading="eager" fetchpriority="high">
+          <!-- TripAdvisor Travelers' Choice Badge -->
+          <div class="trek-gallery-badge">
+            <div class="trek-gallery-badge-icon" style="background: #00af87; display: flex; align-items: center; justify-content: center;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white" stroke="none"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <div class="trek-gallery-badge-text">
+              <span>Travelers' Choice</span>
+              <span>Best of the Best 2026</span>
             </div>
           </div>
-
-          <!-- Grid Items (Right 2x2 Columns) -->
-          <div class="trek-gallery-sub">
-            <img src="../../images/gallery-1-5.webp" alt="Himalayan Valley">
-          </div>
-          <div class="trek-gallery-sub trek-gallery-sub-top-right">
-            <img src="../../images/gallery-1-6.webp" alt="Trekkers walking in snow">
-            <!-- See all photos button -->
-            <button class="trek-gallery-see-all-btn">
-              <span><svg class="icon-svg icon-xs icon-margin-right" viewBox="0 0 24 24">
-                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-                  <circle cx="8.5" cy="8.5" r="1.5" />
-                  <polyline points="21 15 16 10 5 21" />
-                </svg>See all photos</span>
-            </button>
-          </div>
-          <div class="trek-gallery-sub">
-            <img src="../../images/gallery-1-5.webp" alt="Himalayan Peak">
-          </div>
-          <div class="trek-gallery-sub trek-gallery-sub-bottom-right">
-            <img src="../../images/gallery-1-6.webp" alt="Himalayan Range">
-          </div>
+          <!-- Mobile See All Photos floating badge -->
+          <button class="trek-gallery-see-all-mobile-btn" type="button" aria-label="See all photos">
+            <span><svg class="icon-svg icon-xs icon-margin-right" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>See all photos</span>
+          </button>
+        </div>
+        
+        <!-- Grid Items (Right 2x2 Columns) -->
+        <div class="trek-gallery-sub">
+          <img src="../../images/nar-phu-valley-trek-02.webp" alt="Traditional stone-roofed fortified houses of Phu village in the lost valley" loading="lazy">
+        </div>
+        <div class="trek-gallery-sub trek-gallery-sub-top-right">
+          <img src="../../images/nar-phu-valley-trek-03.webp" alt="Buddhist gompa and ancient prayer wheels overlooking Nar village terraced fields" loading="lazy">
+          <!-- See all photos button -->
+          <button class="trek-gallery-see-all-btn" type="button" aria-label="See all photos">
+            <span><svg class="icon-svg icon-xs icon-margin-right" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>See all photos</span>
+          </button>
+        </div>
+        <div class="trek-gallery-sub">
+          <img src="../../images/nar-phu-valley-trek-04.webp" alt="Trekkers traversing the high Kang La Pass (5,320m) alpine trail" loading="lazy">
+        </div>
+        <div class="trek-gallery-sub trek-gallery-sub-bottom-right">
+          <img src="../../images/nar-phu-valley-trek-05.webp" alt="Dramatic snow-covered peaks surrounding the Annapurna and Manaslu wilderness" loading="lazy">
         </div>
       </div>
+    </div>
 
-      <!-- Key Trip Facts Grid -->
+    <!-- Key Trip Facts Grid -->
       <div class="container" style="margin-bottom: 30px;">
         <style>
           .trip-fact-item {

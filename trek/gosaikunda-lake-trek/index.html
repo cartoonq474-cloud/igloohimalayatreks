@@ -785,30 +785,7 @@
         <h1 style="font-size: 2.8rem; margin-top: 6px; margin-bottom: 8px; color: var(--color-primary-navy);">Gosaikunda Lake Trek</h1>
         <p style="font-size: 1.15rem; color: var(--color-neutral-600); line-height: 1.7; margin-top: 12px; margin-bottom: 0;">
           Journey to the sacred alpine freshwater lakes of Gosaikunda (4,380m), revered by Hindu and Buddhist pilgrims alike.
-          <span id="ebc-more-text" style="display: none;">
-            Guided by our certified local expert team, you will safely navigate high-altitude Himalayan terrain with tailored acclimatization, comfortable teahouse stays, and rich local cultural traditions.
-          </span>
-          <button id="ebc-toggle-btn" style="background: none; border: none; color: #1A96C8; font-weight: 700; font-size: 1.05rem; cursor: pointer; padding: 0; margin-left: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; vertical-align: middle; transition: opacity 0.2s ease;">
-            Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>
-          </button>
-        </p>
-        
-        <script>
-          document.addEventListener('DOMContentLoaded', () => {
-            const toggleBtn = document.getElementById('ebc-toggle-btn');
-            const moreText = document.getElementById('ebc-more-text');
-            
-            if (toggleBtn && moreText) {
-              toggleBtn.addEventListener('click', () => {
-                const isHidden = moreText.style.display === 'none';
-                moreText.style.display = isHidden ? 'inline' : 'none';
-                toggleBtn.innerHTML = isHidden 
-                  ? 'Learn less <span style="font-size: 1.1rem; margin-left: 2px;">↑</span>' 
-                  : 'Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>';
-              });
-            }
-          });
-        </script>
+           Guided by our certified local expert team, you will safely navigate high-altitude Himalayan terrain with tailored acclimatization, comfortable teahouse stays, and rich local cultural traditions.</p>
       </div>
     </section>
 
@@ -817,35 +794,39 @@
       <div class="trek-gallery-collage">
         <!-- Main Large Photo (Left) with Travelers' Choice badge -->
         <div class="trek-gallery-main">
-          <img src="../../images/gosaikunda-trek.webp" alt="Gosaikunda Lake Trek View">
+          <img src="../../images/gosaikunda-trek.webp" alt="Sacred high-altitude holy lake of Gosaikunda (4,380m) framed by snow-capped Langtang peaks" loading="eager" fetchpriority="high">
           <!-- TripAdvisor Travelers' Choice Badge -->
           <div class="trek-gallery-badge">
             <div class="trek-gallery-badge-icon" style="background: #00af87; display: flex; align-items: center; justify-content: center;">
-              <svg class="icon-svg icon-sm icon-svg-fill" style="stroke: none; fill: white;" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white" stroke="none"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
             </div>
             <div class="trek-gallery-badge-text">
               <span>Travelers' Choice</span>
               <span>Best of the Best 2026</span>
             </div>
           </div>
+          <!-- Mobile See All Photos floating badge -->
+          <button class="trek-gallery-see-all-mobile-btn" type="button" aria-label="See all photos">
+            <span><svg class="icon-svg icon-xs icon-margin-right" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>See all photos</span>
+          </button>
         </div>
         
         <!-- Grid Items (Right 2x2 Columns) -->
         <div class="trek-gallery-sub">
-          <img src="../../images/frozen-lake-2393378.webp" alt="Himalayan Valley">
+          <img src="../../images/gosaikunda-trek-02.webp" alt="Mountain trail winding through rhododendron forests along the ridge to Cholangpati" loading="lazy">
         </div>
         <div class="trek-gallery-sub trek-gallery-sub-top-right">
-          <img src="../../images/langtang-gosaikunda-helambu-trek.webp" alt="Trekkers walking in snow">
+          <img src="../../images/gosaikunda-trek-03.webp" alt="Laurebina Pass view overlooking the frozen glacial lakes and Ganesh Himal skyline" loading="lazy">
           <!-- See all photos button -->
-          <button class="trek-gallery-see-all-btn">
+          <button class="trek-gallery-see-all-btn" type="button" aria-label="See all photos">
             <span><svg class="icon-svg icon-xs icon-margin-right" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>See all photos</span>
           </button>
         </div>
         <div class="trek-gallery-sub">
-          <img src="../../images/frozen-lake-2393378.webp" alt="Himalayan Peak">
+          <img src="../../images/gosaikunda-trek-04.webp" alt="Traditional teahouses in Shin Gompa known for local yak cheese production" loading="lazy">
         </div>
         <div class="trek-gallery-sub trek-gallery-sub-bottom-right">
-          <img src="../../images/langtang-gosaikunda-helambu-trek.webp" alt="Himalayan Range">
+          <img src="../../images/gosaikunda-trek-05.webp" alt="Prayer flags fluttering above the sacred Shiva shrine at the shores of Lake Gosaikunda" loading="lazy">
         </div>
       </div>
     </div>

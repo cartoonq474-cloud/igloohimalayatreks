@@ -730,31 +730,7 @@
           </div>
         </div>
         <h1 style="font-size: 2.8rem; margin-top: 6px; margin-bottom: 8px; color: var(--color-primary-navy);">Annapurna Circuit Trek — 14 Days</h1>
-        <p style="font-size: 1.15rem; color: var(--color-neutral-600); line-height: 1.7; margin-top: 12px; margin-bottom: 0;">Follow the Marsyangdi Valley through villages to Manang before crossing Thorong La on our 14-day Annapurna Circuit Trek. You walk through Dharapani, Chame and Upper Pisang, with an acclimatisation day in Manang before continuing towards the pass at 5,416 m. The descent takes you to Muktinath, Kagbeni and Jomsom, where the walking route ends.
-          <span id="ebc-more-text" style="display: none;">
-            Along the way, forests give way to open mountain terrain, with steep climbs, cold nights and a demanding pass crossing to prepare for.
-          </span>
-          <button id="ebc-toggle-btn" style="background: none; border: none; color: #1A96C8; font-weight: 700; font-size: 1.05rem; cursor: pointer; padding: 0; margin-left: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; vertical-align: middle; transition: opacity 0.2s ease;">
-            Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>
-          </button>
-        </p>
-        
-        <script>
-          document.addEventListener('DOMContentLoaded', () => {
-            const toggleBtn = document.getElementById('ebc-toggle-btn');
-            const moreText = document.getElementById('ebc-more-text');
-            
-            if (toggleBtn && moreText) {
-              toggleBtn.addEventListener('click', () => {
-                const isHidden = moreText.style.display === 'none';
-                moreText.style.display = isHidden ? 'inline' : 'none';
-                toggleBtn.innerHTML = isHidden 
-                  ? 'Learn less <span style="font-size: 1.1rem; margin-left: 2px;">↑</span>' 
-                  : 'Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>';
-              });
-            }
-          });
-        </script>
+        <p style="font-size: 1.15rem; color: var(--color-neutral-600); line-height: 1.7; margin-top: 12px; margin-bottom: 0;">Follow the Marsyangdi Valley through villages to Manang before crossing Thorong La on our 14-day Annapurna Circuit Trek. You walk through Dharapani, Chame and Upper Pisang, with an acclimatisation day in Manang before continuing towards the pass at 5,416 m. The descent takes you to Muktinath, Kagbeni and Jomsom, where the walking route ends. Along the way, forests give way to open mountain terrain, with steep climbs, cold nights and a demanding pass crossing to prepare for.</p>
       </div>
     </section>
 
@@ -763,7 +739,7 @@
       <div class="trek-gallery-collage">
         <!-- Main Large Photo (Left) with Travelers' Choice badge -->
         <div class="trek-gallery-main">
-          <img src="../../images/annapurna-circuit-14-days-upper-pisang-panorama.webp" alt="Annapurna Circuit Trek Upper Pisang panoramic mountain vista overlooking Annapurna II and IV" loading="eager" fetchpriority="high">
+          <img src="../../images/annapurna-circuit-14-days-upper-pisang-panorama.webp" alt="Upper Pisang and Manang valley panoramic viewpoint overlooking Annapurna mountain range with Buddhist chorten and prayer flags" loading="eager" fetchpriority="high">
           <!-- TripAdvisor Travelers' Choice Badge -->
           <div class="trek-gallery-badge">
             <div class="trek-gallery-badge-icon" style="background: #00af87; display: flex; align-items: center; justify-content: center;">
@@ -774,24 +750,28 @@
               <span>Best of the Best 2026</span>
             </div>
           </div>
+          <!-- Mobile See All Photos floating badge -->
+          <button class="trek-gallery-see-all-mobile-btn" type="button" aria-label="See all photos">
+            <span><svg class="icon-svg icon-xs icon-margin-right" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>See all photos</span>
+          </button>
         </div>
         
         <!-- Grid Items (Right 2x2 Columns) -->
         <div class="trek-gallery-sub">
-          <img src="../../images/annapurna-circuit-14-days-marsyangdi-forest.webp" alt="Pine forests and roaring Marsyangdi river gorge near Chame" loading="lazy">
+          <img src="../../images/annapurna-circuit-14-days-marsyangdi-forest.webp" alt="Trekkers at Chame mountain village framed by Himalayan pine forests and snow peaks" loading="lazy">
         </div>
         <div class="trek-gallery-sub trek-gallery-sub-top-right">
-          <img src="../../images/annapurna-circuit-14-days-manang-chortens.webp" alt="Historic Buddhist chorten and arid valley terrain in Manang (3,540m)" loading="lazy">
+          <img src="../../images/annapurna-circuit-14-days-manang-chortens.webp" alt="Turquoise waters of Gangapurna Glacial Lake nestled beneath towering Manang peaks" loading="lazy">
           <!-- See all photos button -->
-          <button class="trek-gallery-see-all-btn">
+          <button class="trek-gallery-see-all-btn" type="button" aria-label="See all photos">
             <span><svg class="icon-svg icon-xs icon-margin-right" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>See all photos</span>
           </button>
         </div>
         <div class="trek-gallery-sub">
-          <img src="../../images/annapurna-circuit-14-days-thorong-phedi-ascent.webp" alt="Steep scree trail ascent from Thorong Phedi towards High Camp" loading="lazy">
+          <img src="../../images/annapurna-circuit-14-days-thorong-phedi-ascent.webp" alt="High alpine pasture of Yak Kharka with grazing yaks and snow-capped peaks" loading="lazy">
         </div>
         <div class="trek-gallery-sub trek-gallery-sub-bottom-right">
-          <img src="../../images/annapurna-circuit-14-days-thorong-la-pass-crossing.webp" alt="Colorful prayer flags fluttering at Thorong La Pass summit (5,416m)" loading="lazy">
+          <img src="../../images/annapurna-circuit-14-days-thorong-la-pass-crossing.webp" alt="Trekkers at Thorong La Pass summit (5,416m) with official pass signboard, Nepal flag, and prayer flags" loading="lazy">
         </div>
       </div>
     </div>

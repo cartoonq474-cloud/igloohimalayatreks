@@ -797,30 +797,7 @@
         <h1 style="font-size: 2.8rem; margin-top: 6px; margin-bottom: 8px; color: var(--color-primary-navy);">Rara Lake Trek</h1>
         <p style="font-size: 1.15rem; color: var(--color-neutral-600); line-height: 1.7; margin-top: 12px; margin-bottom: 0;">
           Discover the pristine blue waters of Rara Lake (2,990m) nestled within Rara National Park in remote western Nepal.
-          <span id="ebc-more-text" style="display: none;">
-            Guided by our certified local expert team, you will safely navigate high-altitude Himalayan terrain with tailored acclimatization, comfortable teahouse stays, and rich local cultural traditions.
-          </span>
-          <button id="ebc-toggle-btn" style="background: none; border: none; color: #1A96C8; font-weight: 700; font-size: 1.05rem; cursor: pointer; padding: 0; margin-left: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; vertical-align: middle; transition: opacity 0.2s ease;">
-            Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>
-          </button>
-        </p>
-        
-        <script>
-          document.addEventListener('DOMContentLoaded', () => {
-            const toggleBtn = document.getElementById('ebc-toggle-btn');
-            const moreText = document.getElementById('ebc-more-text');
-            
-            if (toggleBtn && moreText) {
-              toggleBtn.addEventListener('click', () => {
-                const isHidden = moreText.style.display === 'none';
-                moreText.style.display = isHidden ? 'inline' : 'none';
-                toggleBtn.innerHTML = isHidden 
-                  ? 'Learn less <span style="font-size: 1.1rem; margin-left: 2px;">↑</span>' 
-                  : 'Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>';
-              });
-            }
-          });
-        </script>
+           Guided by our certified local expert team, you will safely navigate high-altitude Himalayan terrain with tailored acclimatization, comfortable teahouse stays, and rich local cultural traditions.</p>
       </div>
     </section>
 
@@ -829,35 +806,39 @@
       <div class="trek-gallery-collage">
         <!-- Main Large Photo (Left) with Travelers' Choice badge -->
         <div class="trek-gallery-main">
-          <img src="../../images/7-day-rara-lake-jeep-tour-rara-lake-tour-package.webp" alt="Rara Lake Trek View">
+          <img src="../../images/7-day-rara-lake-jeep-tour-rara-lake-tour-package.webp" alt="Deep azure blue waters of Lake Rara (2,990m), the largest freshwater lake in Nepal" loading="eager" fetchpriority="high">
           <!-- TripAdvisor Travelers' Choice Badge -->
           <div class="trek-gallery-badge">
             <div class="trek-gallery-badge-icon" style="background: #00af87; display: flex; align-items: center; justify-content: center;">
-              <svg class="icon-svg icon-sm icon-svg-fill" style="stroke: none; fill: white;" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white" stroke="none"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
             </div>
             <div class="trek-gallery-badge-text">
               <span>Travelers' Choice</span>
               <span>Best of the Best 2026</span>
             </div>
           </div>
+          <!-- Mobile See All Photos floating badge -->
+          <button class="trek-gallery-see-all-mobile-btn" type="button" aria-label="See all photos">
+            <span><svg class="icon-svg icon-xs icon-margin-right" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>See all photos</span>
+          </button>
         </div>
         
         <!-- Grid Items (Right 2x2 Columns) -->
         <div class="trek-gallery-sub">
-          <img src="../../images/himalaya-4039495-1920.webp" alt="Himalayan Valley">
+          <img src="../../images/7-day-rara-lake-jeep-tour-rara-lake-tour-package-02.webp" alt="Pristine pine and spruce forests ringing the shoreline of Rara National Park" loading="lazy">
         </div>
         <div class="trek-gallery-sub trek-gallery-sub-top-right">
-          <img src="../../images/himalaya-4039495-1920.webp" alt="Trekkers walking in snow">
+          <img src="../../images/7-day-rara-lake-jeep-tour-rara-lake-tour-package-03.png" alt="Traditional wooden boats floating on the tranquil waters of Rara Lake" loading="lazy">
           <!-- See all photos button -->
-          <button class="trek-gallery-see-all-btn">
+          <button class="trek-gallery-see-all-btn" type="button" aria-label="See all photos">
             <span><svg class="icon-svg icon-xs icon-margin-right" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>See all photos</span>
           </button>
         </div>
         <div class="trek-gallery-sub">
-          <img src="../../images/himalaya-4039495-1920.webp" alt="Himalayan Peak">
+          <img src="../../images/rara-lake-jeep-tour.webp" alt="Scenic remote trails of Western Nepal passing through historic mountain settlements" loading="lazy">
         </div>
         <div class="trek-gallery-sub trek-gallery-sub-bottom-right">
-          <img src="../../images/himalaya-4039495-1920.webp" alt="Himalayan Range">
+          <img src="../../images/gallery-lake.webp" alt="Spectacular alpine reflections of snow peaks in the crystal-clear waters of Rara" loading="lazy">
         </div>
       </div>
     </div>

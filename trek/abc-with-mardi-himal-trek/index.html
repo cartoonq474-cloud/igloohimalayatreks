@@ -1458,36 +1458,6 @@
               Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>
             </button>
           </p>
-          <script>
-            document.addEventListener('DOMContentLoaded', () => {
-              const toggleBtn = document.getElementById('abc-toggle-btn');
-              const moreText = document.getElementById('abc-more-text');
-              if (toggleBtn && moreText) {
-                toggleBtn.addEventListener('click', () => {
-                  const isHidden = moreText.style.display === 'none';
-                  moreText.style.display = isHidden ? 'inline' : 'none';
-                  toggleBtn.innerHTML = isHidden ? 'Show less <span style="font-size: 1.1rem; margin-left: 2px;">↑</span>' : 'Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>';
-                });
-              }
-            });
-          </script>
-
-          <script>
-            document.addEventListener('DOMContentLoaded', () => {
-              const toggleBtn = document.getElementById('ebc-toggle-btn');
-              const moreText = document.getElementById('ebc-more-text');
-
-              if (toggleBtn && moreText) {
-                toggleBtn.addEventListener('click', () => {
-                  const isHidden = moreText.style.display === 'none';
-                  moreText.style.display = isHidden ? 'inline' : 'none';
-                  toggleBtn.innerHTML = isHidden
-                    ? 'Learn less <span style="font-size: 1.1rem; margin-left: 2px;">↑</span>'
-                    : 'Learn more <span style="font-size: 1.1rem; margin-left: 2px;">→</span>';
-                });
-              }
-            });
-          </script>
         </div>
       </section>
 
