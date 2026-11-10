@@ -1617,50 +1617,247 @@
       </div>
     </section>
 
-    <!-- 24. CATEGORIZED TABBED FAQ -->
-    <section class="section-padding" style="background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
-      <div class="container" style="max-width: 860px;">
+        <!-- 24. CATEGORIZED TABBED FAQ (Homepage Match) -->
+    <section id="faq" class="faq-section">
+      <div class="container">
+
+        <!-- Header -->
         <div class="text-center" style="margin-bottom: 30px;">
-          <span class="pill pill-copper">Clear Answers</span>
-          <h2 class="section-title">Frequently Asked Questions</h2>
+          <h2 class="faq-title-main">Frequently Asked <span>Questions</span></h2>
+          <p class="faq-subtitle-text">Clear answers on our leadership, mountain safety, ethical porter welfare, and flexible booking policies.</p>
         </div>
 
-        <!-- Category Tabs -->
-        <div style="display: flex; justify-content: center; gap: 12px; margin-bottom: 30px; flex-wrap: wrap;">
-          <button class="faq-tab-btn active" onclick="switchFaqTab('company')">Company & Ownership</button>
-          <button class="faq-tab-btn" onclick="switchFaqTab('safety')">Guides & Safety</button>
-          <button class="faq-tab-btn" onclick="switchFaqTab('booking')">Booking & Logistics</button>
+        <!-- Categorized Navigation Pill Bar -->
+        <div class="faq-categories-bar">
+          <div class="faq-pill-nav">
+            <button class="faq-category-btn active" data-faq-cat="company">Company & Ownership</button>
+            <button class="faq-category-btn" data-faq-cat="safety">Guides & Safety</button>
+            <button class="faq-category-btn" data-faq-cat="porters">Porter Welfare & Ethics</button>
+            <button class="faq-category-btn" data-faq-cat="booking">Booking & Logistics</button>
+          </div>
         </div>
 
-        <!-- FAQ Items Container -->
-        <div id="faq-company" class="faq-group">
-          <details class="faq-accordion-item" style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 12px;">
-            <summary style="font-weight: 700; color: #0E3458; cursor: pointer;">Who owns and operates Igloo Himalaya Treks?</summary>
-            <p style="color: #64748b; font-size: 0.9rem; margin-top: 10px; line-height: 1.6;">We are 100% locally owned and operated by veteran Sherpa mountaineer Surya Lama (5x Everest summitter) and based in Thamel, Kathmandu, Nepal.</p>
-          </details>
-          <details class="faq-accordion-item" style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 12px;">
-            <summary style="font-weight: 700; color: #0E3458; cursor: pointer;">Are you a government-registered trekking agency?</summary>
-            <p style="color: #64748b; font-size: 0.9rem; margin-top: 10px; line-height: 1.6;">Yes, we hold Nepal Ministry of Tourism License #1482/068, Company Registration #60124859, and active memberships with TAAN and NMA.</p>
-          </details>
+        <!-- FAQ Outer Frame -->
+        <div class="faq-frame-container">
+
+          <!-- Category 1: Company & Ownership -->
+          <div id="faq-cat-company" class="faq-category-panel active">
+            <div class="faq-accordion-item active">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">Who owns and operates Igloo Himalaya Treks?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>We are 100% locally owned and operated by veteran Sherpa mountaineer Surya Lama (5x Everest summitter) and based in Thamel, Kathmandu, Nepal. Our leadership team brings over two decades of high-altitude Himalayan expedition guidance, prioritizing authentic local culture, ethical employment, and uncompromising guest safety.</p>
+              </div>
+            </div>
+
+            <div class="faq-accordion-item">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">Are you a government-registered trekking agency?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>Yes, we are fully licensed by the Government of Nepal, Ministry of Culture, Tourism & Civil Aviation (License #1482/068), the Company Registrar's Office (Registration #60124859), and authorized for foreign exchange operations by Nepal Rastra Bank. We hold active memberships with the Trekking Agencies' Association of Nepal (TAAN) and Nepal Mountaineering Association (NMA).</p>
+              </div>
+            </div>
+
+            <div class="faq-accordion-item">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">Where is your Kathmandu office located and how do we meet before departure?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>Our main operations office is located on Bhagawati Marg in Thamel, Kathmandu (opposite Hotel Mulberry). We warmly welcome you to our office upon arrival or conduct an extensive pre-trek briefing and gear inspection directly at your hotel lobby the day prior to departure.</p>
+              </div>
+            </div>
+
+            <div class="faq-accordion-item">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">What makes Igloo Himalaya Treks different from overseas travel agencies?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>Booking directly with us means you work directly with the Sherpa expedition team who will guide you on the trail. There are no middleman commission fees, 100% of your financial investment directly supports local Himalayan families and porters, and our 24/7 Kathmandu operations room provides instant on-the-ground crisis management.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Guides & Safety -->
+          <div id="faq-cat-safety" class="faq-category-panel">
+            <div class="faq-accordion-item active">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">What qualifications and licenses do your mountain guides have?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>All our mountain guides are licensed by the Nepal Government / Nepal Mountain Academy and hold certified Wilderness First Responder (WFR) credentials. Each guide possesses a minimum of 8 to 15 years of continuous guiding experience across high-altitude Himalayan passes, glaciers, and remote routes.</p>
+              </div>
+            </div>
+
+            <div class="faq-accordion-item">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">How do you handle Acute Mountain Sickness (AMS) and high altitudes?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>Safety is built into every itinerary with mandatory acclimatization rest days. Our guides monitor blood oxygen saturation (SpO2) and pulse twice daily using medical-grade pulse oximeters, carry emergency bottled oxygen, adhere to strict daily ascent limits, and coordinate immediate descents or medical evacuations if needed.</p>
+              </div>
+            </div>
+
+            <div class="faq-accordion-item">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">What emergency rescue and medical protocols are in place?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>Our field leaders carry comprehensive first-aid kits, satellite tracking communication devices, and mobile connectivity. In any critical situation, our Kathmandu command team coordinates immediate 24/7 emergency helicopter rescue standby for direct hospital evacuation in Kathmandu.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Porter Welfare & Ethics -->
+          <div id="faq-cat-porters" class="faq-category-panel">
+            <div class="faq-accordion-item active">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">What are your porter welfare guidelines and load limits?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>We strictly comply with International Porter Protection Group (IPPG) ethical guidelines. Porter baggage loads are strictly limited to 20–25 kg (shared between two clients). We provide high-altitude thermal gear, waterproof jackets, sturdy boots, warm sleeping quarters, wholesome meals, and comprehensive accident/rescue insurance for all crew members.</p>
+              </div>
+            </div>
+
+            <div class="faq-accordion-item">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">How does booking with Igloo Himalaya Treks benefit local communities?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>We believe in regenerative tourism that directly enriches the Himalayas. We employ indigenous Sherpa, Tamang, Gurung, and Rai mountain staff from the local trail valleys, patronize family-run eco-lodges, source local organic produce, and dedicate a percentage of our profits to supporting rural community schools in remote Solukhumbu and Langtang.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Booking & Logistics -->
+          <div id="faq-cat-booking" class="faq-category-panel">
+            <div class="faq-accordion-item active">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">How does trip deposit, confirmation, and date flexibility work?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>We require a 20% advance deposit to secure government permits, conservation entry tickets, and domestic flights. If your travel plans need to be rescheduled due to flight issues or personal circumstances, your deposit is 100% lifetime transferable to any future date or alternate trekking route with zero penalty.</p>
+              </div>
+            </div>
+
+            <div class="faq-accordion-item">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">What payment methods are accepted for remaining balance payments?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>You can settle the remaining balance conveniently upon arrival in Kathmandu via international credit/debit card (Visa, MasterCard, JCB, American Express), bank wire transfer, or in cash (USD, EUR, GBP, AUD, or NPR) at our office.</p>
+              </div>
+            </div>
+
+            <div class="faq-accordion-item">
+              <div class="faq-accordion-header">
+                <div class="faq-header-left">
+                  <div class="faq-icon-bubble">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </div>
+                  <h3 class="faq-question-title">What happens if mountain flights (such as Lukla or Jomsom) are delayed?</h3>
+                </div>
+                <span class="faq-chevron">▼</span>
+              </div>
+              <div class="faq-accordion-body">
+                <p>Mountain flights can occasionally be delayed due to dense cloud cover or high winds. Our 24/7 Kathmandu operations desk immediately monitors alternative flight windows, coordinates standby priority, or arranges shared helicopter shuttles and overland alternatives to ensure your trek proceeds without disruption.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
 
-        <div id="faq-safety" class="faq-group" style="display: none;">
-          <details class="faq-accordion-item" style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 12px;">
-            <summary style="font-weight: 700; color: #0E3458; cursor: pointer;">What qualifications do your mountain guides have?</summary>
-            <p style="color: #64748b; font-size: 0.9rem; margin-top: 10px; line-height: 1.6;">All our lead guides hold government trekking licenses from NMA/TAAN, high-altitude wilderness first-responder training, and a minimum of 8–15 years experience in the Himalayas.</p>
-          </details>
-          <details class="faq-accordion-item" style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 12px;">
-            <summary style="font-weight: 700; color: #0E3458; cursor: pointer;">How do you handle altitude sickness (AMS)?</summary>
-            <p style="color: #64748b; font-size: 0.9rem; margin-top: 10px; line-height: 1.6;">Our guides monitor guest pulse oximeter SpO2 logs twice daily, carry emergency oxygen, follow strict elevation gain limits, and coordinate immediate descent or helicopter evacuation if symptoms persist.</p>
-          </details>
-        </div>
-
-        <div id="faq-booking" class="faq-group" style="display: none;">
-          <details class="faq-accordion-item" style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 12px;">
-            <summary style="font-weight: 700; color: #0E3458; cursor: pointer;">How does trip deposit and cancellation work?</summary>
-            <p style="color: #64748b; font-size: 0.9rem; margin-top: 10px; line-height: 1.6;">We require a 20% advance deposit to secure permits and domestic flights. Deposits can be transferred to future travel dates if weather or personal plans change.</p>
-          </details>
-        </div>
       </div>
     </section>
 
@@ -2167,15 +2364,45 @@
   <script src="js/header-scroll.js?v=37"></script>
 
   <script>
-    // FAQ Tab Switcher
-    function switchFaqTab(category) {
-      document.querySelectorAll('.faq-tab-btn').forEach(btn => btn.classList.remove('active'));
-      document.querySelectorAll('.faq-group').forEach(group => group.style.display = 'none');
-      
-      event.target.classList.add('active');
-      const targetGroup = document.getElementById('faq-' + category);
-      if (targetGroup) targetGroup.style.display = 'block';
-    }
+    // Modern Categorized FAQ Pill Switcher & Accordion
+    document.addEventListener('DOMContentLoaded', () => {
+      const faqCatBtns = document.querySelectorAll('.faq-category-btn');
+      const faqPanels = document.querySelectorAll('.faq-category-panel');
+
+      faqCatBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const catKey = btn.getAttribute('data-faq-cat');
+
+          faqCatBtns.forEach(b => b.classList.remove('active'));
+          faqPanels.forEach(p => p.classList.remove('active'));
+
+          btn.classList.add('active');
+          const targetFaqPanel = document.getElementById(`faq-cat-${catKey}`);
+          if (targetFaqPanel) {
+            targetFaqPanel.classList.add('active');
+          }
+        });
+      });
+
+      const accordionItems = document.querySelectorAll('.faq-accordion-item');
+      accordionItems.forEach(item => {
+        const header = item.querySelector('.faq-accordion-header');
+        if (header) {
+          header.addEventListener('click', () => {
+            const isOpen = item.classList.contains('active');
+            const parentPanel = item.closest('.faq-category-panel');
+            if (parentPanel) {
+              parentPanel.querySelectorAll('.faq-accordion-item').forEach(sibling => {
+                sibling.classList.remove('active');
+              });
+            }
+            if (!isOpen) {
+              item.classList.add('active');
+            }
+          });
+        }
+      });
+    });
 
     // License Modal Handlers
     document.querySelectorAll('.open-license-modal').forEach(btn => {
