@@ -59734,25 +59734,27 @@ function setupTrekPhotoGallery() {
   const existingFileNames = new Set();
 
   // 1. First collect all authentic photos directly present on this package's page (Hero collage, itinerary, details)
-  const pageDomImgs = document.querySelectorAll('.trek-gallery-collage img, #section-itinerary img, #section-overview img, #section-highlights img, #section-details img');
   const pagePhotos = [];
-  pageDomImgs.forEach((img, idx) => {
-    const src = img.getAttribute('src');
-    if (!src) return;
-    const fileName = src.split('/').pop();
-    if (!fileName || fileName.endsWith('.svg') || fileName.includes('icon') || fileName.includes('avatar') || fileName.includes('logo') || fileName.includes('payment') || fileName.includes('badge')) return;
-    if (existingFileNames.has(fileName)) return;
+  if (matchedKey !== 'annapurna-base-camp-trek-via-poon-hill' && matchedKey !== 'poonhill') {
+    const pageDomImgs = document.querySelectorAll('.trek-gallery-collage img, #section-itinerary img, #section-overview img, #section-highlights img, #section-details img');
+    pageDomImgs.forEach((img, idx) => {
+      const src = img.getAttribute('src');
+      if (!src) return;
+      const fileName = src.split('/').pop();
+      if (!fileName || fileName.endsWith('.svg') || fileName.includes('icon') || fileName.includes('avatar') || fileName.includes('logo') || fileName.includes('payment') || fileName.includes('badge')) return;
+      if (existingFileNames.has(fileName)) return;
 
-    existingFileNames.add(fileName);
-    const alt = (img.getAttribute('alt') || '').trim();
-    const title = alt && alt.length > 5 ? alt : formatTitle(fileName);
-    pagePhotos.push({
-      src: src.startsWith('http') || src.startsWith('/') ? src : (imgPrefix + fileName),
-      type: 'image',
-      title: title,
-      category: detectCategory(title + ' ' + fileName)
+      existingFileNames.add(fileName);
+      const alt = (img.getAttribute('alt') || '').trim();
+      const title = alt && alt.length > 5 ? alt : formatTitle(fileName);
+      pagePhotos.push({
+        src: src.startsWith('http') || src.startsWith('/') ? src : (imgPrefix + fileName),
+        type: 'image',
+        title: title,
+        category: detectCategory(title + ' ' + fileName)
+      });
     });
-  });
+  }
 
   // 2. Add curated collection photos & videos from registry
   const registryPhotos = [];
