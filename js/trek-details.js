@@ -60114,24 +60114,30 @@ function setupTrekPhotoGallery() {
 
         let poster = item.poster;
         if (isVideo && !poster) {
-          if (mediaSrc.includes('ghorepani')) {
+          const lowerFile = mediaSrc.toLowerCase();
+          if (lowerFile.includes('everest') || lowerFile.includes('ebc')) {
+            poster = imgPrefix + 'Everest Base Camp Trek.jpg';
+          } else if (lowerFile.includes('manaslu')) {
+            poster = imgPrefix + 'manaslu-circuit-trek.webp';
+          } else if (lowerFile.includes('mardi')) {
+            poster = imgPrefix + 'mardi-himal-trek.webp';
+          } else if (lowerFile.includes('circuit') || lowerFile.includes('annapurna-circuit')) {
+            poster = imgPrefix + 'annapurna-circuit-trek.webp';
+          } else if (lowerFile.includes('ghorepani') || lowerFile.includes('poon')) {
             poster = imgPrefix + 'abc-poon-hill-golden-sunrise-panorama.webp';
-          } else if (mediaSrc.includes('annapurna-circuit')) {
-            poster = imgPrefix + 'abc-poon-hill-autumn-morning-peaks.webp';
-          } else if (mediaSrc.includes('mardi-himal')) {
-            poster = imgPrefix + 'abc-poon-hill-viewpoint-ghorepani.webp';
-          } else if (mediaSrc.includes('First')) {
-            poster = imgPrefix + 'abc-poon-hill-golden-sunrise-panorama.webp';
-          } else if (mediaSrc.includes('Second')) {
-            poster = imgPrefix + 'abc-poon-hill-teahouse-vista.webp';
-          } else if (mediaSrc.includes('Third')) {
-            poster = imgPrefix + 'abc-poon-hill-viewpoint-ghorepani.webp';
-          } else if (mediaSrc.includes('Fourth')) {
-            poster = imgPrefix + 'abc-poon-hill-sanctuary-trail.webp';
+          } else if (lowerFile.includes('langtang')) {
+            poster = imgPrefix + 'langtang-valley-trek.webp';
+          } else if (lowerFile.includes('mustang')) {
+            poster = imgPrefix + 'upper-mustang-trek.webp';
+          } else if (lowerFile.includes('island-peak')) {
+            poster = imgPrefix + 'island-peak-climbing.webp';
+          } else if (lowerFile.includes('kanchenjunga')) {
+            poster = imgPrefix + 'kanchenjunga-circuit-trek.webp';
+          } else if (pagePhotos.length > 0) {
+            const pickIdx = registryPhotos.length % pagePhotos.length;
+            poster = pagePhotos[pickIdx].src;
           } else {
-            const pNum = (registryPhotos.length % 50) + 1;
-            const pStr = pNum < 10 ? '00' + pNum : (pNum < 100 ? '0' + pNum : '' + pNum);
-            poster = imgPrefix + 'gallery/annapurna-base-camp/abc-expedition-' + pStr + '.webp';
+            poster = imgPrefix + 'abc-poon-hill-golden-sunrise-panorama.webp';
           }
         }
 
