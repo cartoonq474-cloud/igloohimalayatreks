@@ -4735,29 +4735,79 @@ function setupTrekPhotoGallery() {
   ],
   "abc": [
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-001.webp",
-    "title": "Annapurna Sanctuary Amphitheater Panoramic Vista (4,130m)",
+    "file": "abc-poon-hill-golden-sunrise-panorama.webp",
+    "title": "Annapurna Sanctuary Alpine Amphitheater Reflection with Golden Sunrise",
     "category": "Panoramas"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-002.webp",
-    "title": "Sunrise Alpenglow on Mt. Annapurna I South Face (8,091m)",
+    "file": "annapurna-base-camp-trek.webp",
+    "title": "Sacred Mt. Machhapuchhre (Fishtail) Rising Above Alpine Clouds with Blossoms",
     "category": "Peaks"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-003.webp",
-    "title": "Sacred Fluted Ridge of Mt. Machhapuchhre (Fishtail 6,993m)",
+    "file": "gallery/abc-poon-hill/abc-poon-hill-029.webp",
+    "title": "Annapurna Base Camp Sanctuary Panoramic Snow Amphitheater (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-4496175-1920.webp",
+    "title": "Massive South Face Wall and Glaciers of Mt. Annapurna I (8,091m)",
     "category": "Peaks"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-004.webp",
-    "title": "Trekkers Ascending Stone Stairs Along Modi Khola River Gorge",
+    "file": "gallery/abc-poon-hill/abc-poon-hill-031.webp",
+    "title": "Tibetan Prayer Flags with Sunrise Alpenglow Across the ABC Amphitheater",
+    "category": "Heritage"
+  },
+  {
+    "file": "annapurna-base-camp-with-panoramic-views-of-the-annapurna-mountain-range-in-nepal.webp",
+    "title": "Panoramic Vistas of the Annapurna Mountain Range Along Sanctuary Trail",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-024.webp",
+    "title": "Trekkers Navigating Pristine Snow Trail Leading into Annapurna Base Camp",
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-005.webp",
-    "title": "High Altitude Teahouse Lodges in Annapurna Base Camp",
-    "category": "Villages"
+    "file": "gallery/abc-poon-hill/abc-poon-hill-023.webp",
+    "title": "High Mountain Walls and Fresh Snow Enclosing the Annapurna Sanctuary",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-025.webp",
+    "title": "Deep Alpine Snow Basin Beneath Annapurna South and Hiunchuli",
+    "category": "Trail"
+  },
+  {
+    "file": "annapurna-base-camp-trek-06.webp",
+    "title": "Pristine Lake Mirror Reflection of Mt. Machhapuchhre and Annapurna Range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-010.webp",
+    "title": "First Light of Dawn Cresting Over the Annapurna Mountain Range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-012.webp",
+    "title": "Sunrise Golden Horizon over Snow-Capped Himalayan Giants",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-002.webp",
+    "title": "Golden Morning Alpenglow Illuminating Sacred Mt. Machhapuchhre",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-003.webp",
+    "title": "Sunrise Illumination Over Annapurna South Summit (7,219m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-004.webp",
+    "title": "Mt. Fishtail Rising Above Himalayan Rhododendron Forests",
+    "category": "Peaks"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-006.webp",
@@ -4770,11 +4820,6 @@ function setupTrekPhotoGallery() {
     "category": "Villages"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-008.webp",
-    "title": "Pristine Mountain Vistas on the Ascent to Deurali",
-    "category": "Panoramas"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-009.webp",
     "title": "Chhomrong Village Terraced Fields and Himalayan Backdrop",
     "category": "Villages"
@@ -4785,24 +4830,9 @@ function setupTrekPhotoGallery() {
     "category": "Panoramas"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-011.webp",
-    "title": "Mt. Hiunchuli (6,441m) Towering Above the Alpine Trail",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-012.webp",
-    "title": "Rhododendron and Bamboo Forest Trail Above Sinuwa",
-    "category": "Trail"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-013.webp",
     "title": "Traditional Prayer Flags Fluttering at Annapurna Base Camp Signboard",
     "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-014.webp",
-    "title": "Panoramic 360-Degree Amphitheater of High Himalayan Giants",
-    "category": "Panoramas"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-015.webp",
@@ -4820,39 +4850,14 @@ function setupTrekPhotoGallery() {
     "category": "Peaks"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-018.webp",
-    "title": "Glacial River Crossing via Suspension Bridge near Jhinu",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-019.webp",
-    "title": "Majestic Summit of Gangapurna (7,455m) in Morning Glow",
-    "category": "Peaks"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-020.webp",
     "title": "Cozy Dining Hall and Warmth in Alpine High Camp Lodge",
     "category": "Villages"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-021.webp",
-    "title": "Tent Peak (Tharpu Chuli) Rising in the Heart of the Sanctuary",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-022.webp",
-    "title": "Morning Mist Rising Through Bamboo and Alpine Forest",
-    "category": "Trail"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-023.webp",
     "title": "Natural Thermal Hot Springs along the Riverbank at Jhinu Danda",
     "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-024.webp",
-    "title": "Chhomrong's Famous Stone Staircase Looking Toward Annapurna South",
-    "category": "Villages"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-025.webp",
@@ -4870,16 +4875,6 @@ function setupTrekPhotoGallery() {
     "category": "Peaks"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-028.webp",
-    "title": "Early Morning Departure from Deurali Toward Machhapuchhre Base Camp",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-029.webp",
-    "title": "Upper Sinuwa Viewpoint Gazing Across the Deep River Valley",
-    "category": "Panoramas"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-030.webp",
     "title": "Himalayan Vulture Soaring High Above the Alpine Cliffs",
     "category": "Panoramas"
@@ -4890,54 +4885,14 @@ function setupTrekPhotoGallery() {
     "category": "Peaks"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-032.webp",
-    "title": "Stone Paved Trails Weaving Through Gurung Cultural Settlements",
-    "category": "Villages"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-033.webp",
     "title": "Alpine Gateway into the Holy Annapurna Sanctuary Sanctuary Basin",
     "category": "Panoramas"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-034.webp",
-    "title": "Hikers Navigating Rocky Glacial Trail Beneath Fishtail Peak",
-    "category": "Trail"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-035.webp",
     "title": "Sunset Reflections over the Snow-Capped Annapurna Range",
     "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-036.webp",
-    "title": "Traditional Stone Lodges at Bamboo Surrounded by Canyon Walls",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-037.webp",
-    "title": "Mt. Machhapuchhre's Twin Summits Viewed from Lower Sanctuary",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-038.webp",
-    "title": "Colorful Prayer Flags Strung Across Mountain Stupa",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-039.webp",
-    "title": "Lush Subtropical Flora Transitioning into High Alpine Tundra",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-040.webp",
-    "title": "Starlit Night Sky and Milky Way Over Annapurna Base Camp",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-041.webp",
-    "title": "Morning Alpenglow Lighting the Fluted Face of Hiunchuli",
-    "category": "Peaks"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-042.webp",
@@ -4965,16 +4920,6 @@ function setupTrekPhotoGallery() {
     "category": "Heritage"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-047.webp",
-    "title": "Dramatic Cloud Formations Swirling Around Mt. Annapurna I",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-048.webp",
-    "title": "Himalayan Sunrise Painting the Fishtail Summit in Gold",
-    "category": "Panoramas"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-049.webp",
     "title": "Quaint Gurung Village of Landruk Across the Valley",
     "category": "Villages"
@@ -4985,44 +4930,14 @@ function setupTrekPhotoGallery() {
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-051.webp",
-    "title": "Glacial Icefall and Deep Crevasses of the South Annapurna Glacier",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-052.webp",
-    "title": "Crystal Clear Alpine Stream Meandering Through MBC Meadow",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-053.webp",
-    "title": "Mt. Annapurna I South Face Steep Rock and Ice Wall",
-    "category": "Peaks"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-054.webp",
     "title": "Rest Stop at Deurali with Warm Ginger Lemon Tea",
     "category": "Villages"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-055.webp",
-    "title": "Spectacular Contrast of Wild Flowers and High Snowy Mountains",
-    "category": "Trail"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-056.webp",
     "title": "Morning Shadows Receding from the Annapurna Basin Floor",
     "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-057.webp",
-    "title": "Close-Up of Sacred Machhapuchhre Peak Under Cerulean Skies",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-058.webp",
-    "title": "Local Porters and Guides Sharing Stories at Evening Teahouse",
-    "category": "Villages"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-059.webp",
@@ -5045,29 +4960,14 @@ function setupTrekPhotoGallery() {
     "category": "Villages"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-063.webp",
-    "title": "Alpenglow Cresting Over the Annapurna Massif at Dawn",
-    "category": "Peaks"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-064.webp",
     "title": "Suspension Footbridge High Above Rushing Glacier Torrent",
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-065.webp",
-    "title": "Breathtaking 360 Degree Panorama Inside the Sanctuary",
-    "category": "Panoramas"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-066.webp",
     "title": "View of Hiunchuli and Annapurna South Standing Shoulder to Shoulder",
     "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-067.webp",
-    "title": "Traditional Hand-Carved Wooden Windows in Gurung Teahouse",
-    "category": "Heritage"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-068.webp",
@@ -5078,21 +4978,6 @@ function setupTrekPhotoGallery() {
     "file": "gallery/annapurna-base-camp/abc-expedition-069.webp",
     "title": "Peaceful Evening Atmosphere at Machhapuchhre Base Camp",
     "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-070.webp",
-    "title": "High Alpine Moraine Ridges Enclosing the Sacred Sanctuary",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-071.webp",
-    "title": "First Morning Light Illuminating Annapurna I Glacier",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-072.webp",
-    "title": "Winding Stone Trail Ascending Steep Terrain near Sinuwa",
-    "category": "Trail"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-073.webp",
@@ -5130,46 +5015,6 @@ function setupTrekPhotoGallery() {
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-080.webp",
-    "title": "Panoramic View of Modi Khola Valley Carved by Ancient Glaciers",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-081.webp",
-    "title": "Towering North Flank of Hiunchuli Rising Sharply",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-082.webp",
-    "title": "Peaceful Forest Trail Through Moss-Draped Rhododendron Woods",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-083.webp",
-    "title": "Gurung Cultural Architecture and Stone Paved Alleys in Chhomrong",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-084.webp",
-    "title": "Historic Climbers Memorial Shrines in the Annapurna Sanctuary",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-085.webp",
-    "title": "Majestic Panorama of the Annapurna Cirque Under Sunlit Skies",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-086.webp",
-    "title": "Golden Sunlight Highlighting Machhapuchhre's Sharp Ridge",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-087.webp",
-    "title": "Trekkers Crossing Wooden Bridges Across Crystal Alpine Brooks",
-    "category": "Trail"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-088.webp",
     "title": "Teahouses of Deurali Framed by Massive Overhanging Cliffs",
     "category": "Villages"
@@ -5180,24 +5025,9 @@ function setupTrekPhotoGallery() {
     "category": "Panoramas"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-090.webp",
-    "title": "Snow and Ice Formations on the Glacial Slopes of Annapurna",
-    "category": "Peaks"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-091.webp",
     "title": "Morning Yoga and Contemplation in Annapurna Base Camp",
     "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-092.webp",
-    "title": "Lush Greenery Along the Lower Steps to Jhinu Hot Springs",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-093.webp",
-    "title": "Panoramic Mountain Horizon from the Heights of the Sanctuary",
-    "category": "Panoramas"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-094.webp",
@@ -5215,31 +5045,6 @@ function setupTrekPhotoGallery() {
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-097.webp",
-    "title": "Golden Crest of Annapurna I at the Break of Dawn",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-098.webp",
-    "title": "Atmospheric Clouds Floating Through the Deep Modi Canyon",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-099.webp",
-    "title": "Traditional Brass Teapots and Local Hospitality at Chhomrong",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-100.webp",
-    "title": "Sacred Prayer Flags Spanning the Gap Across Alpine Ridge",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-101.webp",
-    "title": "Himalayan Foothills Meeting High Alpine Peaks in Grand Contrast",
-    "category": "Panoramas"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-102.webp",
     "title": "Machhapuchhre Peak Flanked by Morning Cloud Inversion",
     "category": "Peaks"
@@ -5253,11 +5058,6 @@ function setupTrekPhotoGallery() {
     "file": "gallery/annapurna-base-camp/abc-expedition-104.webp",
     "title": "Base Camp Lodges Resting at the Foot of Annapurna South",
     "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-105.webp",
-    "title": "Pure Wilderness Experience Inside the Annapurna Conservation Area",
-    "category": "Trail"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-106.webp",
@@ -5280,19 +5080,9 @@ function setupTrekPhotoGallery() {
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-110.webp",
-    "title": "Welcoming Village of Jhinu Danda Framed by Forest Ridges",
-    "category": "Villages"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-111.webp",
     "title": "Iconic Fishtail Mountain Catching the Last Rays of Sunset",
     "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-112.webp",
-    "title": "Unforgettable 360-Degree Sunset over the Annapurna Sanctuary",
-    "category": "Panoramas"
   }
 ],
   "act": [
@@ -45502,29 +45292,79 @@ function setupTrekPhotoGallery() {
   ],
   "short-annapurna-base-camp-trek": [
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-001.webp",
-    "title": "Annapurna Sanctuary Amphitheater Panoramic Vista (4,130m)",
+    "file": "abc-poon-hill-golden-sunrise-panorama.webp",
+    "title": "Annapurna Sanctuary Alpine Amphitheater Reflection with Golden Sunrise",
     "category": "Panoramas"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-002.webp",
-    "title": "Sunrise Alpenglow on Mt. Annapurna I South Face (8,091m)",
+    "file": "annapurna-base-camp-trek.webp",
+    "title": "Sacred Mt. Machhapuchhre (Fishtail) Rising Above Alpine Clouds with Blossoms",
     "category": "Peaks"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-003.webp",
-    "title": "Sacred Fluted Ridge of Mt. Machhapuchhre (Fishtail 6,993m)",
+    "file": "gallery/abc-poon-hill/abc-poon-hill-029.webp",
+    "title": "Annapurna Base Camp Sanctuary Panoramic Snow Amphitheater (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-4496175-1920.webp",
+    "title": "Massive South Face Wall and Glaciers of Mt. Annapurna I (8,091m)",
     "category": "Peaks"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-004.webp",
-    "title": "Trekkers Ascending Stone Stairs Along Modi Khola River Gorge",
+    "file": "gallery/abc-poon-hill/abc-poon-hill-031.webp",
+    "title": "Tibetan Prayer Flags with Sunrise Alpenglow Across the ABC Amphitheater",
+    "category": "Heritage"
+  },
+  {
+    "file": "annapurna-base-camp-with-panoramic-views-of-the-annapurna-mountain-range-in-nepal.webp",
+    "title": "Panoramic Vistas of the Annapurna Mountain Range Along Sanctuary Trail",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-024.webp",
+    "title": "Trekkers Navigating Pristine Snow Trail Leading into Annapurna Base Camp",
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-005.webp",
-    "title": "High Altitude Teahouse Lodges in Annapurna Base Camp",
-    "category": "Villages"
+    "file": "gallery/abc-poon-hill/abc-poon-hill-023.webp",
+    "title": "High Mountain Walls and Fresh Snow Enclosing the Annapurna Sanctuary",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-025.webp",
+    "title": "Deep Alpine Snow Basin Beneath Annapurna South and Hiunchuli",
+    "category": "Trail"
+  },
+  {
+    "file": "annapurna-base-camp-trek-06.webp",
+    "title": "Pristine Lake Mirror Reflection of Mt. Machhapuchhre and Annapurna Range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-010.webp",
+    "title": "First Light of Dawn Cresting Over the Annapurna Mountain Range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-012.webp",
+    "title": "Sunrise Golden Horizon over Snow-Capped Himalayan Giants",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-002.webp",
+    "title": "Golden Morning Alpenglow Illuminating Sacred Mt. Machhapuchhre",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-003.webp",
+    "title": "Sunrise Illumination Over Annapurna South Summit (7,219m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-004.webp",
+    "title": "Mt. Fishtail Rising Above Himalayan Rhododendron Forests",
+    "category": "Peaks"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-006.webp",
@@ -45537,11 +45377,6 @@ function setupTrekPhotoGallery() {
     "category": "Villages"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-008.webp",
-    "title": "Pristine Mountain Vistas on the Ascent to Deurali",
-    "category": "Panoramas"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-009.webp",
     "title": "Chhomrong Village Terraced Fields and Himalayan Backdrop",
     "category": "Villages"
@@ -45552,24 +45387,9 @@ function setupTrekPhotoGallery() {
     "category": "Panoramas"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-011.webp",
-    "title": "Mt. Hiunchuli (6,441m) Towering Above the Alpine Trail",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-012.webp",
-    "title": "Rhododendron and Bamboo Forest Trail Above Sinuwa",
-    "category": "Trail"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-013.webp",
     "title": "Traditional Prayer Flags Fluttering at Annapurna Base Camp Signboard",
     "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-014.webp",
-    "title": "Panoramic 360-Degree Amphitheater of High Himalayan Giants",
-    "category": "Panoramas"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-015.webp",
@@ -45587,39 +45407,14 @@ function setupTrekPhotoGallery() {
     "category": "Peaks"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-018.webp",
-    "title": "Glacial River Crossing via Suspension Bridge near Jhinu",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-019.webp",
-    "title": "Majestic Summit of Gangapurna (7,455m) in Morning Glow",
-    "category": "Peaks"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-020.webp",
     "title": "Cozy Dining Hall and Warmth in Alpine High Camp Lodge",
     "category": "Villages"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-021.webp",
-    "title": "Tent Peak (Tharpu Chuli) Rising in the Heart of the Sanctuary",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-022.webp",
-    "title": "Morning Mist Rising Through Bamboo and Alpine Forest",
-    "category": "Trail"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-023.webp",
     "title": "Natural Thermal Hot Springs along the Riverbank at Jhinu Danda",
     "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-024.webp",
-    "title": "Chhomrong's Famous Stone Staircase Looking Toward Annapurna South",
-    "category": "Villages"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-025.webp",
@@ -45637,16 +45432,6 @@ function setupTrekPhotoGallery() {
     "category": "Peaks"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-028.webp",
-    "title": "Early Morning Departure from Deurali Toward Machhapuchhre Base Camp",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-029.webp",
-    "title": "Upper Sinuwa Viewpoint Gazing Across the Deep River Valley",
-    "category": "Panoramas"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-030.webp",
     "title": "Himalayan Vulture Soaring High Above the Alpine Cliffs",
     "category": "Panoramas"
@@ -45657,54 +45442,14 @@ function setupTrekPhotoGallery() {
     "category": "Peaks"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-032.webp",
-    "title": "Stone Paved Trails Weaving Through Gurung Cultural Settlements",
-    "category": "Villages"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-033.webp",
     "title": "Alpine Gateway into the Holy Annapurna Sanctuary Sanctuary Basin",
     "category": "Panoramas"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-034.webp",
-    "title": "Hikers Navigating Rocky Glacial Trail Beneath Fishtail Peak",
-    "category": "Trail"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-035.webp",
     "title": "Sunset Reflections over the Snow-Capped Annapurna Range",
     "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-036.webp",
-    "title": "Traditional Stone Lodges at Bamboo Surrounded by Canyon Walls",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-037.webp",
-    "title": "Mt. Machhapuchhre's Twin Summits Viewed from Lower Sanctuary",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-038.webp",
-    "title": "Colorful Prayer Flags Strung Across Mountain Stupa",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-039.webp",
-    "title": "Lush Subtropical Flora Transitioning into High Alpine Tundra",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-040.webp",
-    "title": "Starlit Night Sky and Milky Way Over Annapurna Base Camp",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-041.webp",
-    "title": "Morning Alpenglow Lighting the Fluted Face of Hiunchuli",
-    "category": "Peaks"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-042.webp",
@@ -45732,16 +45477,6 @@ function setupTrekPhotoGallery() {
     "category": "Heritage"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-047.webp",
-    "title": "Dramatic Cloud Formations Swirling Around Mt. Annapurna I",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-048.webp",
-    "title": "Himalayan Sunrise Painting the Fishtail Summit in Gold",
-    "category": "Panoramas"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-049.webp",
     "title": "Quaint Gurung Village of Landruk Across the Valley",
     "category": "Villages"
@@ -45752,44 +45487,14 @@ function setupTrekPhotoGallery() {
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-051.webp",
-    "title": "Glacial Icefall and Deep Crevasses of the South Annapurna Glacier",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-052.webp",
-    "title": "Crystal Clear Alpine Stream Meandering Through MBC Meadow",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-053.webp",
-    "title": "Mt. Annapurna I South Face Steep Rock and Ice Wall",
-    "category": "Peaks"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-054.webp",
     "title": "Rest Stop at Deurali with Warm Ginger Lemon Tea",
     "category": "Villages"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-055.webp",
-    "title": "Spectacular Contrast of Wild Flowers and High Snowy Mountains",
-    "category": "Trail"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-056.webp",
     "title": "Morning Shadows Receding from the Annapurna Basin Floor",
     "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-057.webp",
-    "title": "Close-Up of Sacred Machhapuchhre Peak Under Cerulean Skies",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-058.webp",
-    "title": "Local Porters and Guides Sharing Stories at Evening Teahouse",
-    "category": "Villages"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-059.webp",
@@ -45812,29 +45517,14 @@ function setupTrekPhotoGallery() {
     "category": "Villages"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-063.webp",
-    "title": "Alpenglow Cresting Over the Annapurna Massif at Dawn",
-    "category": "Peaks"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-064.webp",
     "title": "Suspension Footbridge High Above Rushing Glacier Torrent",
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-065.webp",
-    "title": "Breathtaking 360 Degree Panorama Inside the Sanctuary",
-    "category": "Panoramas"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-066.webp",
     "title": "View of Hiunchuli and Annapurna South Standing Shoulder to Shoulder",
     "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-067.webp",
-    "title": "Traditional Hand-Carved Wooden Windows in Gurung Teahouse",
-    "category": "Heritage"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-068.webp",
@@ -45845,21 +45535,6 @@ function setupTrekPhotoGallery() {
     "file": "gallery/annapurna-base-camp/abc-expedition-069.webp",
     "title": "Peaceful Evening Atmosphere at Machhapuchhre Base Camp",
     "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-070.webp",
-    "title": "High Alpine Moraine Ridges Enclosing the Sacred Sanctuary",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-071.webp",
-    "title": "First Morning Light Illuminating Annapurna I Glacier",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-072.webp",
-    "title": "Winding Stone Trail Ascending Steep Terrain near Sinuwa",
-    "category": "Trail"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-073.webp",
@@ -45897,46 +45572,6 @@ function setupTrekPhotoGallery() {
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-080.webp",
-    "title": "Panoramic View of Modi Khola Valley Carved by Ancient Glaciers",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-081.webp",
-    "title": "Towering North Flank of Hiunchuli Rising Sharply",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-082.webp",
-    "title": "Peaceful Forest Trail Through Moss-Draped Rhododendron Woods",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-083.webp",
-    "title": "Gurung Cultural Architecture and Stone Paved Alleys in Chhomrong",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-084.webp",
-    "title": "Historic Climbers Memorial Shrines in the Annapurna Sanctuary",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-085.webp",
-    "title": "Majestic Panorama of the Annapurna Cirque Under Sunlit Skies",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-086.webp",
-    "title": "Golden Sunlight Highlighting Machhapuchhre's Sharp Ridge",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-087.webp",
-    "title": "Trekkers Crossing Wooden Bridges Across Crystal Alpine Brooks",
-    "category": "Trail"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-088.webp",
     "title": "Teahouses of Deurali Framed by Massive Overhanging Cliffs",
     "category": "Villages"
@@ -45947,24 +45582,9 @@ function setupTrekPhotoGallery() {
     "category": "Panoramas"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-090.webp",
-    "title": "Snow and Ice Formations on the Glacial Slopes of Annapurna",
-    "category": "Peaks"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-091.webp",
     "title": "Morning Yoga and Contemplation in Annapurna Base Camp",
     "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-092.webp",
-    "title": "Lush Greenery Along the Lower Steps to Jhinu Hot Springs",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-093.webp",
-    "title": "Panoramic Mountain Horizon from the Heights of the Sanctuary",
-    "category": "Panoramas"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-094.webp",
@@ -45982,31 +45602,6 @@ function setupTrekPhotoGallery() {
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-097.webp",
-    "title": "Golden Crest of Annapurna I at the Break of Dawn",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-098.webp",
-    "title": "Atmospheric Clouds Floating Through the Deep Modi Canyon",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-099.webp",
-    "title": "Traditional Brass Teapots and Local Hospitality at Chhomrong",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-100.webp",
-    "title": "Sacred Prayer Flags Spanning the Gap Across Alpine Ridge",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-101.webp",
-    "title": "Himalayan Foothills Meeting High Alpine Peaks in Grand Contrast",
-    "category": "Panoramas"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-102.webp",
     "title": "Machhapuchhre Peak Flanked by Morning Cloud Inversion",
     "category": "Peaks"
@@ -46020,11 +45615,6 @@ function setupTrekPhotoGallery() {
     "file": "gallery/annapurna-base-camp/abc-expedition-104.webp",
     "title": "Base Camp Lodges Resting at the Foot of Annapurna South",
     "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-105.webp",
-    "title": "Pure Wilderness Experience Inside the Annapurna Conservation Area",
-    "category": "Trail"
   },
   {
     "file": "gallery/annapurna-base-camp/abc-expedition-106.webp",
@@ -46047,19 +45637,9 @@ function setupTrekPhotoGallery() {
     "category": "Trail"
   },
   {
-    "file": "gallery/annapurna-base-camp/abc-expedition-110.webp",
-    "title": "Welcoming Village of Jhinu Danda Framed by Forest Ridges",
-    "category": "Villages"
-  },
-  {
     "file": "gallery/annapurna-base-camp/abc-expedition-111.webp",
     "title": "Iconic Fishtail Mountain Catching the Last Rays of Sunset",
     "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-112.webp",
-    "title": "Unforgettable 360-Degree Sunset over the Annapurna Sanctuary",
-    "category": "Panoramas"
   }
 ],
   "tamang-heritage-trail-trek": [
