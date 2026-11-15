@@ -7213,176 +7213,504 @@ function setupTrekPhotoGallery() {
   ],
   "poonhill": [
     {
-      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
-      "type": "video",
-      "poster": "abc-poon-hill-golden-sunrise-panorama.webp",
-      "title": "Ghorepani Poon Hill Sunrise & Annapurna South Panorama",
-      "category": "Videos"
-    },
-    {
-      "file": "abc-poon-hill-golden-sunrise-panorama.webp",
-      "title": "Annapurna Base Camp Sanctuary (4,130m) & Pristine Glacial Tarn Reflection",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-001.webp",
+      "title": "Modi Khola Alpine Valley with Mountain Shrines",
       "category": "Panoramas"
     },
     {
-      "file": "abc-poon-hill-autumn-morning-peaks.webp",
-      "title": "Welcome to Ghodepani Poon Hill Historic Gateway Arch",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-002.webp",
+      "title": "Golden Alpenglow on Sacred Mt. Machhapuchhre (Fishtail)",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-003.webp",
+      "title": "Sunrise Illumination over Annapurna South Summit",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-004.webp",
+      "title": "Mt. Fishtail Rising Above Himalayan Rhododendron Forests",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-005.webp",
+      "title": "Relaxing in Natural Riverside Hot Springs at Jhinu Danda",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-006.webp",
+      "title": "Scenic Gateway to the Annapurna Region in Pokhara",
       "category": "Villages"
     },
     {
-      "file": "abc-poon-hill-sanctuary-trail.webp",
-      "title": "Poon Hill Summit (3,210m) Sunrise Celebration & Mountain Panorama",
-      "category": "Panoramas"
+      "file": "gallery/abc-poon-hill/abc-poon-hill-007.webp",
+      "title": "Hiking Traditional Stone Stairways of Ulleri",
+      "category": "Trail"
     },
     {
-      "file": "abc-poon-hill-viewpoint-ghorepani.webp",
-      "title": "Mt. Machhapuchhre (Fishtail) Framed by Blooming Rhododendrons",
-      "category": "Peaks"
+      "file": "gallery/abc-poon-hill/abc-poon-hill-008.webp",
+      "title": "Spring Rhododendron Trail toward Ghorepani",
+      "category": "Trail"
     },
     {
-      "file": "abc-poon-hill-teahouse-vista.webp",
-      "title": "Golden Morning Alpenglow from Machhapuchhre Base Camp (3,700m)",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-poon-hill-sanctuary-lodge-ridge.webp",
-      "title": "Annapurna Sanctuary Alpine Lodges beneath Annapurna I & Annapurna South",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-009.webp",
+      "title": "Cozy Teahouse Resting Point on the Ghorepani Route",
       "category": "Villages"
     },
     {
-      "file": "annapurna-base-camp-trek-13-days.webp",
-      "title": "Trekkers Arriving at Annapurna Base Camp Signboard (4,130m)",
-      "category": "Trail"
-    },
-    {
-      "file": "annapurna-base-camp-trek-13-days-02.webp",
-      "title": "Machhapuchhre Base Camp Trail beneath Towering Himalayan Walls",
-      "category": "Trail"
-    },
-    {
-      "file": "annapurna-base-camp-trek-13-days-03.webp",
-      "title": "Annapurna Base Camp Mountain Amphitheater & Fluttering Prayer Flags",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-010.webp",
+      "title": "First Light of Dawn from Poon Hill (3,210m)",
       "category": "Panoramas"
     },
     {
-      "file": "annapurna-base-camp-trek-13-days-04.webp",
-      "title": "Rhododendron and Moss Forest Trail along the Modi Khola Valley",
-      "category": "Trail"
-    },
-    {
-      "file": "annapurna-base-camp-trek-13-days-05.webp",
-      "title": "Pristine Glacial Basin inside the Annapurna Sanctuary",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-011.webp",
+      "title": "Spectacular Dhaulagiri & Annapurna Sunrise Panorama",
       "category": "Panoramas"
     },
     {
-      "file": "annapurna-base-camp-trek-13-days-with-out-valuable-clients.webp",
-      "title": "Expedition Team Trekking on the High Annapurna Sanctuary Route",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-012.webp",
+      "title": "Trekkers Celebrating Sunrise at Poon Hill View Tower",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-013.webp",
+      "title": "Endless Himalayan Horizons from Poon Hill Summit",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-014.webp",
+      "title": "Golden Mountain Ridges of the Annapurna Massif",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-015.webp",
+      "title": "Hiunchuli and Annapurna South Peak Vista",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-016.webp",
+      "title": "Morning Sun Over the Western Himalaya",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-017.webp",
+      "title": "Scenic Ridge Trail from Ghorepani to Tadapani",
       "category": "Trail"
     },
     {
-      "file": "annapurna-base-camp-trek-13-days-full-info.webp",
-      "title": "Traditional Stone Lodges at Bamboo and Sinuwa Villages",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-018.webp",
+      "title": "Ancient Moss-Draped Rhododendron Forest",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-019.webp",
+      "title": "Stone Lodges and Terraced Fields of Chhomrong",
       "category": "Villages"
     },
     {
-      "file": "annapurna-base-camp-with-panoramic-views-of-the-annapurna-mountain-range-in-nepal.webp",
-      "title": "Breathtaking Amphitheater Panorama of Annapurna South, Hiunchuli & Annapurna I",
-      "category": "Peaks"
-    },
-    {
-      "file": "trekker-hiking-on-the-annapurna-base-camp-trek-trail-with-breathtaking-himalayan-mountain.webp",
-      "title": "High Altitude Mountain Trail Approaching Base Camp",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-020.webp",
+      "title": "Steep Modi Khola River Canyon Ascent",
       "category": "Trail"
     },
     {
-      "file": "ghorepani-poon-hill-trek.webp",
-      "title": "Ghorepani Village Stone Trails & Mountain Backdrop",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-021.webp",
+      "title": "Winter Snow Trail Approaching Deurali & MBC",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-022.webp",
+      "title": "Trekking beneath Machhapuchhre Base Camp",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-023.webp",
+      "title": "Towering Walls of Mt. Fishtail at MBC (3,700m)",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-024.webp",
+      "title": "High Altitude Mountain Shelters at Machhapuchhre Base Camp",
       "category": "Villages"
     },
     {
-      "file": "ghorepani-poon-hill-trek-02.webp",
-      "title": "Scenic High Ridge Trail from Ghorepani to Tadapani",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-025.webp",
+      "title": "Expedition Team Hiking the High Sanctuary Basin",
       "category": "Trail"
     },
     {
-      "file": "ghorepani-poon-hill-trek-03.webp",
-      "title": "Jhinu Danda Natural Riverside Hot Springs Trail",
-      "category": "Trail"
-    },
-    {
-      "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.webp",
-      "title": "Early Dawn Sunrise over Dhaulagiri & Annapurna Ranges from Poon Hill",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-026.webp",
+      "title": "Alpine Snow Amphitheater inside Annapurna Sanctuary",
       "category": "Panoramas"
     },
     {
-      "file": "sunrise-view-from-poon-hills-viewing-tower-over-the-annapurna-range.webp",
-      "title": "Panoramic Dawn Vista from Poon Hill Viewing Tower (3,210m)",
-      "category": "Panoramas"
-    },
-    {
-      "file": "this-picture-was-taken-in-the-poon-hill.webp",
-      "title": "Golden Morning Alpenglow over the Annapurna Massif from Poon Hill",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-027.webp",
+      "title": "Glacial Summits of Annapurna South (7,219m)",
       "category": "Peaks"
     },
     {
-      "file": "this-picture-was-taken-in-the-poon-hill-02.webp",
-      "title": "Poon Hill Morning Ridge Outlook over Snow-Capped Peaks",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-028.webp",
+      "title": "Final Ascent into Annapurna Base Camp (4,130m)",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-029.webp",
+      "title": "Morning Glory at Annapurna Base Camp (4,130m)",
       "category": "Panoramas"
     },
     {
-      "file": "poon-hill-viewpoint-on-annapurna-trek.webp",
-      "title": "Poon Hill Alpine Ridge Viewpoint and Prayer Flags",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-annapurna-glacier-moraine.webp",
-      "title": "Glacial Moraine Trail in the Annapurna Sanctuary",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-bamboo-dovan-canyon.webp",
-      "title": "Bamboo and Dovan River Gorge along the Modi Khola",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-jhinu-danda-hot-springs.webp",
-      "title": "Relaxing at Jhinu Danda Natural Riverside Hot Springs",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-machhapuchhre-base-camp.webp",
-      "title": "Machhapuchhre Base Camp View of Sacred Mt. Fishtail",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-030.webp",
+      "title": "Annapurna I (8,091m) Golden Summit at Sunrise",
       "category": "Peaks"
     },
     {
-      "file": "abc-gallery-modi-khola-suspension.webp",
-      "title": "Modi Khola High Suspension Bridge Crossing",
-      "category": "Trail"
+      "file": "gallery/abc-poon-hill/abc-poon-hill-031.webp",
+      "title": "Vast Annapurna Glacial Basin and Moraines",
+      "category": "Panoramas"
     },
     {
-      "file": "abc-gallery-prayer-flags-sanctuary.webp",
-      "title": "Sacred Buddhist Prayer Flags Fluttering at Annapurna Sanctuary",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-032.webp",
+      "title": "Alpenglow Painting the High Annapurna Amphitheater",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-033.webp",
+      "title": "Majestic Fluted Ridge of Annapurna South",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-034.webp",
+      "title": "Prayer Flags and Memorial Chortens at ABC",
       "category": "Heritage"
     },
     {
-      "file": "abc-gallery-rhododendron-forest-trail.webp",
-      "title": "Spring Rhododendron Forest between Ghorepani and Tadapani",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-035.webp",
+      "title": "Trekkers Celebrating Base Camp Achievement",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-036.webp",
+      "title": "Complete 360-Degree Amphitheater Vista of ABC",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-037.webp",
+      "title": "Descending Modi Khola Gorge from Base Camp",
       "category": "Trail"
     },
     {
-      "file": "abc-gallery-teahouse-breakfast-mountain-view.webp",
-      "title": "Teahouse Breakfast with Mountain Views at Chhomrong",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-038.webp",
+      "title": "Crossing Modi Khola River at Birethanti",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-039.webp",
+      "title": "Lush Terraced Green Hillsides of Tikhedhunga",
       "category": "Villages"
     },
     {
-      "file": "abc-trekking-in-february.webp",
-      "title": "Winter Snow Trekking towards Deurali and MBC",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-040.webp",
+      "title": "Conquering the Famous Stone Steps of Ulleri",
       "category": "Trail"
     },
     {
-      "file": "annapurna-base-camp-trek-difficulty-is-abc-hard.webp",
-      "title": "Traditional Stone Staircases of Ulleri and Chhomrong",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-041.webp",
+      "title": "Sunset Alpenglow from Ulleri Lodge Terraces",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-042.webp",
+      "title": "Early Morning Lantern Walk up to Poon Hill",
       "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-043.webp",
+      "title": "First Rays on Mt. Dhaulagiri (8,167m) from Poon Hill",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-044.webp",
+      "title": "Dawn at Poon Hill Summit Viewing Tower (3,210m)",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-045.webp",
+      "title": "Golden Annapurna Range Alpenglow from Poon Hill",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-046.webp",
+      "title": "Sharp Fishtail Profile Lit by Rising Sun",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-047.webp",
+      "title": "360-Degree Himalayan Sunrise Panorama at Poon Hill",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-048.webp",
+      "title": "Trekkers Watching Sunrise from Poon Hill Ridge",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-049.webp",
+      "title": "Endless Snow-Capped Horizons above Cloud Inversions",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-050.webp",
+      "title": "Celebrating at the Poon Hill Summit Elevation Sign (3,210m)",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-051.webp",
+      "title": "High Alpine Panorama Across the Kali Gandaki Valley",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-052.webp",
+      "title": "Formidable South Face of Annapurna South",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-053.webp",
+      "title": "Hiunchuli Peak in Crisp Morning Autumn Sunlight",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-054.webp",
+      "title": "Poon Hill High Ridge Outlook toward Nilgiri Peaks",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-055.webp",
+      "title": "Buddhist Prayer Flags Streaming at Poon Hill Viewpoint",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-056.webp",
+      "title": "Enjoying Hot Himalayan Tea at Poon Hill Summit",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-057.webp",
+      "title": "Golden Autumn Light over the Annapurna Massif",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-058.webp",
+      "title": "Lush Deep Forest Trail descending from Ghorepani",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-059.webp",
+      "title": "Rushing Alpine Waterfall between Ghorepani and Tadapani",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-060.webp",
+      "title": "Gorge Path Leading toward Kimrong Khola",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-061.webp",
+      "title": "Crossing the Terraced Stone Steps of Chhomrong",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-062.webp",
+      "title": "Spectacular Valley Views from Upper Sinuwa Ridge",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-063.webp",
+      "title": "Dense Bamboo and Fern Trail along Modi Khola",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-064.webp",
+      "title": "Rustic Stone Lodges at Himalaya Settlement",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-065.webp",
+      "title": "Dramatic Canyon Approach into Deurali (3,200m)",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-066.webp",
+      "title": "Towering Granite Cliffs above the Modi Khola Gorge",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-067.webp",
+      "title": "Gateway to Machhapuchhre Base Camp",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-068.webp",
+      "title": "Trekking the Open Valley into Machhapuchhre Sanctuary",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-069.webp",
+      "title": "Arriving at Machhapuchhre Base Camp Signboard (3,700m)",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-070.webp",
+      "title": "Machhapuchhre Base Camp Lodges beneath Mt. Fishtail",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-071.webp",
+      "title": "Sheer Vertical Cliffs of Machhapuchhre from MBC",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-072.webp",
+      "title": "Early Dawn Trek from MBC into Annapurna Base Camp",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-073.webp",
+      "title": "Entering the Holy Annapurna Sanctuary (4,130m)",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-074.webp",
+      "title": "Golden Sunrise on Annapurna I (8,091m) South Face",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-075.webp",
+      "title": "Glacial Flutes of Annapurna South at Sunrise",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-076.webp",
+      "title": "Pristine Alpine Reflection Pool inside Base Camp Sanctuary",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-077.webp",
+      "title": "Mirror Reflection of Annapurna South in Sanctuary Tarn",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-078.webp",
+      "title": "Mt. Machhapuchhre Bathed in Golden Morning Sunlight",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-079.webp",
+      "title": "Annapurna Sanctuary Alpine Lodges beneath Towering Peaks",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-080.webp",
+      "title": "Glacial Reflection Pool and Snow Peaks at ABC",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-081.webp",
+      "title": "Crystal Clear Water Reflection inside Annapurna Sanctuary",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-082.webp",
+      "title": "Double Reflection of Annapurna Massif in Glacial Tarn",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-083.webp",
+      "title": "Himalayan Peaks Mirrored in High Sanctuary Waters",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-084.webp",
+      "title": "High Altitude Reflection Tarn beneath Annapurna Peaks",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-085.webp",
+      "title": "Pristine Glacial Waters at Annapurna Base Camp (4,130m)",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-086.webp",
+      "title": "Panoramic Moraine Ridges of Annapurna Sanctuary",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-087.webp",
+      "title": "Sunburst Star Over Sacred Mt. Machhapuchhre",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-088.webp",
+      "title": "Expedition Signboard at Annapurna Base Camp (4,130m)",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-089.webp",
+      "title": "Trekkers Celebrating Victory at Annapurna Base Camp",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-090.webp",
+      "title": "Soaking in Natural Geothermal Hot Springs at Jhinu Danda",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-091.webp",
+      "title": "Riverside Thermal Springs of Modi Khola at Jhinu Danda",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-092.webp",
+      "title": "Pokhara International Airport with Annapurna Backdrop",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-093.webp",
+      "title": "Traditional Gurung Stone Cottages of Ghandruk",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-094.webp",
+      "title": "Phewa Lake Peaceful Morning Waters with Mountain Reflection",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-095.webp",
+      "title": "Pokhara Valley Green Terraces and Mountain Backdrop",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-096.webp",
+      "title": "Sweeping Sunrise Panorama over Western Himalayan Ranges",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-097.webp",
+      "title": "Ghorepani Village Blue Lodges Overlooking Mt. Dhaulagiri",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-098.webp",
+      "title": "Sheer Granite Cliffs of the Modi Khola Gorge",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-099.webp",
+      "title": "Panoramic Lake Phewa with Annapurna Massif",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-100.webp",
+      "title": "Golden Himalayan Vistas on the Annapurna Trail",
+      "category": "Panoramas"
     }
   ],
   "mardi": [
@@ -19939,176 +20267,504 @@ function setupTrekPhotoGallery() {
   ],
   "annapurna-base-camp-trek-via-poon-hill": [
     {
-      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
-      "type": "video",
-      "poster": "abc-poon-hill-golden-sunrise-panorama.webp",
-      "title": "Ghorepani Poon Hill Sunrise & Annapurna South Panorama",
-      "category": "Videos"
-    },
-    {
-      "file": "abc-poon-hill-golden-sunrise-panorama.webp",
-      "title": "Annapurna Base Camp Sanctuary (4,130m) & Pristine Glacial Tarn Reflection",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-001.webp",
+      "title": "Modi Khola Alpine Valley with Mountain Shrines",
       "category": "Panoramas"
     },
     {
-      "file": "abc-poon-hill-autumn-morning-peaks.webp",
-      "title": "Welcome to Ghodepani Poon Hill Historic Gateway Arch",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-002.webp",
+      "title": "Golden Alpenglow on Sacred Mt. Machhapuchhre (Fishtail)",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-003.webp",
+      "title": "Sunrise Illumination over Annapurna South Summit",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-004.webp",
+      "title": "Mt. Fishtail Rising Above Himalayan Rhododendron Forests",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-005.webp",
+      "title": "Relaxing in Natural Riverside Hot Springs at Jhinu Danda",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-006.webp",
+      "title": "Scenic Gateway to the Annapurna Region in Pokhara",
       "category": "Villages"
     },
     {
-      "file": "abc-poon-hill-sanctuary-trail.webp",
-      "title": "Poon Hill Summit (3,210m) Sunrise Celebration & Mountain Panorama",
-      "category": "Panoramas"
+      "file": "gallery/abc-poon-hill/abc-poon-hill-007.webp",
+      "title": "Hiking Traditional Stone Stairways of Ulleri",
+      "category": "Trail"
     },
     {
-      "file": "abc-poon-hill-viewpoint-ghorepani.webp",
-      "title": "Mt. Machhapuchhre (Fishtail) Framed by Blooming Rhododendrons",
-      "category": "Peaks"
+      "file": "gallery/abc-poon-hill/abc-poon-hill-008.webp",
+      "title": "Spring Rhododendron Trail toward Ghorepani",
+      "category": "Trail"
     },
     {
-      "file": "abc-poon-hill-teahouse-vista.webp",
-      "title": "Golden Morning Alpenglow from Machhapuchhre Base Camp (3,700m)",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-poon-hill-sanctuary-lodge-ridge.webp",
-      "title": "Annapurna Sanctuary Alpine Lodges beneath Annapurna I & Annapurna South",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-009.webp",
+      "title": "Cozy Teahouse Resting Point on the Ghorepani Route",
       "category": "Villages"
     },
     {
-      "file": "annapurna-base-camp-trek-13-days.webp",
-      "title": "Trekkers Arriving at Annapurna Base Camp Signboard (4,130m)",
-      "category": "Trail"
-    },
-    {
-      "file": "annapurna-base-camp-trek-13-days-02.webp",
-      "title": "Machhapuchhre Base Camp Trail beneath Towering Himalayan Walls",
-      "category": "Trail"
-    },
-    {
-      "file": "annapurna-base-camp-trek-13-days-03.webp",
-      "title": "Annapurna Base Camp Mountain Amphitheater & Fluttering Prayer Flags",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-010.webp",
+      "title": "First Light of Dawn from Poon Hill (3,210m)",
       "category": "Panoramas"
     },
     {
-      "file": "annapurna-base-camp-trek-13-days-04.webp",
-      "title": "Rhododendron and Moss Forest Trail along the Modi Khola Valley",
-      "category": "Trail"
-    },
-    {
-      "file": "annapurna-base-camp-trek-13-days-05.webp",
-      "title": "Pristine Glacial Basin inside the Annapurna Sanctuary",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-011.webp",
+      "title": "Spectacular Dhaulagiri & Annapurna Sunrise Panorama",
       "category": "Panoramas"
     },
     {
-      "file": "annapurna-base-camp-trek-13-days-with-out-valuable-clients.webp",
-      "title": "Expedition Team Trekking on the High Annapurna Sanctuary Route",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-012.webp",
+      "title": "Trekkers Celebrating Sunrise at Poon Hill View Tower",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-013.webp",
+      "title": "Endless Himalayan Horizons from Poon Hill Summit",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-014.webp",
+      "title": "Golden Mountain Ridges of the Annapurna Massif",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-015.webp",
+      "title": "Hiunchuli and Annapurna South Peak Vista",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-016.webp",
+      "title": "Morning Sun Over the Western Himalaya",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-017.webp",
+      "title": "Scenic Ridge Trail from Ghorepani to Tadapani",
       "category": "Trail"
     },
     {
-      "file": "annapurna-base-camp-trek-13-days-full-info.webp",
-      "title": "Traditional Stone Lodges at Bamboo and Sinuwa Villages",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-018.webp",
+      "title": "Ancient Moss-Draped Rhododendron Forest",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-019.webp",
+      "title": "Stone Lodges and Terraced Fields of Chhomrong",
       "category": "Villages"
     },
     {
-      "file": "annapurna-base-camp-with-panoramic-views-of-the-annapurna-mountain-range-in-nepal.webp",
-      "title": "Breathtaking Amphitheater Panorama of Annapurna South, Hiunchuli & Annapurna I",
-      "category": "Peaks"
-    },
-    {
-      "file": "trekker-hiking-on-the-annapurna-base-camp-trek-trail-with-breathtaking-himalayan-mountain.webp",
-      "title": "High Altitude Mountain Trail Approaching Base Camp",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-020.webp",
+      "title": "Steep Modi Khola River Canyon Ascent",
       "category": "Trail"
     },
     {
-      "file": "ghorepani-poon-hill-trek.webp",
-      "title": "Ghorepani Village Stone Trails & Mountain Backdrop",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-021.webp",
+      "title": "Winter Snow Trail Approaching Deurali & MBC",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-022.webp",
+      "title": "Trekking beneath Machhapuchhre Base Camp",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-023.webp",
+      "title": "Towering Walls of Mt. Fishtail at MBC (3,700m)",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-024.webp",
+      "title": "High Altitude Mountain Shelters at Machhapuchhre Base Camp",
       "category": "Villages"
     },
     {
-      "file": "ghorepani-poon-hill-trek-02.webp",
-      "title": "Scenic High Ridge Trail from Ghorepani to Tadapani",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-025.webp",
+      "title": "Expedition Team Hiking the High Sanctuary Basin",
       "category": "Trail"
     },
     {
-      "file": "ghorepani-poon-hill-trek-03.webp",
-      "title": "Jhinu Danda Natural Riverside Hot Springs Trail",
-      "category": "Trail"
-    },
-    {
-      "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.webp",
-      "title": "Early Dawn Sunrise over Dhaulagiri & Annapurna Ranges from Poon Hill",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-026.webp",
+      "title": "Alpine Snow Amphitheater inside Annapurna Sanctuary",
       "category": "Panoramas"
     },
     {
-      "file": "sunrise-view-from-poon-hills-viewing-tower-over-the-annapurna-range.webp",
-      "title": "Panoramic Dawn Vista from Poon Hill Viewing Tower (3,210m)",
-      "category": "Panoramas"
-    },
-    {
-      "file": "this-picture-was-taken-in-the-poon-hill.webp",
-      "title": "Golden Morning Alpenglow over the Annapurna Massif from Poon Hill",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-027.webp",
+      "title": "Glacial Summits of Annapurna South (7,219m)",
       "category": "Peaks"
     },
     {
-      "file": "this-picture-was-taken-in-the-poon-hill-02.webp",
-      "title": "Poon Hill Morning Ridge Outlook over Snow-Capped Peaks",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-028.webp",
+      "title": "Final Ascent into Annapurna Base Camp (4,130m)",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-029.webp",
+      "title": "Morning Glory at Annapurna Base Camp (4,130m)",
       "category": "Panoramas"
     },
     {
-      "file": "poon-hill-viewpoint-on-annapurna-trek.webp",
-      "title": "Poon Hill Alpine Ridge Viewpoint and Prayer Flags",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-annapurna-glacier-moraine.webp",
-      "title": "Glacial Moraine Trail in the Annapurna Sanctuary",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-bamboo-dovan-canyon.webp",
-      "title": "Bamboo and Dovan River Gorge along the Modi Khola",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-jhinu-danda-hot-springs.webp",
-      "title": "Relaxing at Jhinu Danda Natural Riverside Hot Springs",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-machhapuchhre-base-camp.webp",
-      "title": "Machhapuchhre Base Camp View of Sacred Mt. Fishtail",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-030.webp",
+      "title": "Annapurna I (8,091m) Golden Summit at Sunrise",
       "category": "Peaks"
     },
     {
-      "file": "abc-gallery-modi-khola-suspension.webp",
-      "title": "Modi Khola High Suspension Bridge Crossing",
-      "category": "Trail"
+      "file": "gallery/abc-poon-hill/abc-poon-hill-031.webp",
+      "title": "Vast Annapurna Glacial Basin and Moraines",
+      "category": "Panoramas"
     },
     {
-      "file": "abc-gallery-prayer-flags-sanctuary.webp",
-      "title": "Sacred Buddhist Prayer Flags Fluttering at Annapurna Sanctuary",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-032.webp",
+      "title": "Alpenglow Painting the High Annapurna Amphitheater",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-033.webp",
+      "title": "Majestic Fluted Ridge of Annapurna South",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-034.webp",
+      "title": "Prayer Flags and Memorial Chortens at ABC",
       "category": "Heritage"
     },
     {
-      "file": "abc-gallery-rhododendron-forest-trail.webp",
-      "title": "Spring Rhododendron Forest between Ghorepani and Tadapani",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-035.webp",
+      "title": "Trekkers Celebrating Base Camp Achievement",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-036.webp",
+      "title": "Complete 360-Degree Amphitheater Vista of ABC",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-037.webp",
+      "title": "Descending Modi Khola Gorge from Base Camp",
       "category": "Trail"
     },
     {
-      "file": "abc-gallery-teahouse-breakfast-mountain-view.webp",
-      "title": "Teahouse Breakfast with Mountain Views at Chhomrong",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-038.webp",
+      "title": "Crossing Modi Khola River at Birethanti",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-039.webp",
+      "title": "Lush Terraced Green Hillsides of Tikhedhunga",
       "category": "Villages"
     },
     {
-      "file": "abc-trekking-in-february.webp",
-      "title": "Winter Snow Trekking towards Deurali and MBC",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-040.webp",
+      "title": "Conquering the Famous Stone Steps of Ulleri",
       "category": "Trail"
     },
     {
-      "file": "annapurna-base-camp-trek-difficulty-is-abc-hard.webp",
-      "title": "Traditional Stone Staircases of Ulleri and Chhomrong",
+      "file": "gallery/abc-poon-hill/abc-poon-hill-041.webp",
+      "title": "Sunset Alpenglow from Ulleri Lodge Terraces",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-042.webp",
+      "title": "Early Morning Lantern Walk up to Poon Hill",
       "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-043.webp",
+      "title": "First Rays on Mt. Dhaulagiri (8,167m) from Poon Hill",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-044.webp",
+      "title": "Dawn at Poon Hill Summit Viewing Tower (3,210m)",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-045.webp",
+      "title": "Golden Annapurna Range Alpenglow from Poon Hill",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-046.webp",
+      "title": "Sharp Fishtail Profile Lit by Rising Sun",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-047.webp",
+      "title": "360-Degree Himalayan Sunrise Panorama at Poon Hill",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-048.webp",
+      "title": "Trekkers Watching Sunrise from Poon Hill Ridge",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-049.webp",
+      "title": "Endless Snow-Capped Horizons above Cloud Inversions",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-050.webp",
+      "title": "Celebrating at the Poon Hill Summit Elevation Sign (3,210m)",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-051.webp",
+      "title": "High Alpine Panorama Across the Kali Gandaki Valley",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-052.webp",
+      "title": "Formidable South Face of Annapurna South",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-053.webp",
+      "title": "Hiunchuli Peak in Crisp Morning Autumn Sunlight",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-054.webp",
+      "title": "Poon Hill High Ridge Outlook toward Nilgiri Peaks",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-055.webp",
+      "title": "Buddhist Prayer Flags Streaming at Poon Hill Viewpoint",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-056.webp",
+      "title": "Enjoying Hot Himalayan Tea at Poon Hill Summit",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-057.webp",
+      "title": "Golden Autumn Light over the Annapurna Massif",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-058.webp",
+      "title": "Lush Deep Forest Trail descending from Ghorepani",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-059.webp",
+      "title": "Rushing Alpine Waterfall between Ghorepani and Tadapani",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-060.webp",
+      "title": "Gorge Path Leading toward Kimrong Khola",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-061.webp",
+      "title": "Crossing the Terraced Stone Steps of Chhomrong",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-062.webp",
+      "title": "Spectacular Valley Views from Upper Sinuwa Ridge",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-063.webp",
+      "title": "Dense Bamboo and Fern Trail along Modi Khola",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-064.webp",
+      "title": "Rustic Stone Lodges at Himalaya Settlement",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-065.webp",
+      "title": "Dramatic Canyon Approach into Deurali (3,200m)",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-066.webp",
+      "title": "Towering Granite Cliffs above the Modi Khola Gorge",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-067.webp",
+      "title": "Gateway to Machhapuchhre Base Camp",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-068.webp",
+      "title": "Trekking the Open Valley into Machhapuchhre Sanctuary",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-069.webp",
+      "title": "Arriving at Machhapuchhre Base Camp Signboard (3,700m)",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-070.webp",
+      "title": "Machhapuchhre Base Camp Lodges beneath Mt. Fishtail",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-071.webp",
+      "title": "Sheer Vertical Cliffs of Machhapuchhre from MBC",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-072.webp",
+      "title": "Early Dawn Trek from MBC into Annapurna Base Camp",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-073.webp",
+      "title": "Entering the Holy Annapurna Sanctuary (4,130m)",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-074.webp",
+      "title": "Golden Sunrise on Annapurna I (8,091m) South Face",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-075.webp",
+      "title": "Glacial Flutes of Annapurna South at Sunrise",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-076.webp",
+      "title": "Pristine Alpine Reflection Pool inside Base Camp Sanctuary",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-077.webp",
+      "title": "Mirror Reflection of Annapurna South in Sanctuary Tarn",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-078.webp",
+      "title": "Mt. Machhapuchhre Bathed in Golden Morning Sunlight",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-079.webp",
+      "title": "Annapurna Sanctuary Alpine Lodges beneath Towering Peaks",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-080.webp",
+      "title": "Glacial Reflection Pool and Snow Peaks at ABC",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-081.webp",
+      "title": "Crystal Clear Water Reflection inside Annapurna Sanctuary",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-082.webp",
+      "title": "Double Reflection of Annapurna Massif in Glacial Tarn",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-083.webp",
+      "title": "Himalayan Peaks Mirrored in High Sanctuary Waters",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-084.webp",
+      "title": "High Altitude Reflection Tarn beneath Annapurna Peaks",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-085.webp",
+      "title": "Pristine Glacial Waters at Annapurna Base Camp (4,130m)",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-086.webp",
+      "title": "Panoramic Moraine Ridges of Annapurna Sanctuary",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-087.webp",
+      "title": "Sunburst Star Over Sacred Mt. Machhapuchhre",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-088.webp",
+      "title": "Expedition Signboard at Annapurna Base Camp (4,130m)",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-089.webp",
+      "title": "Trekkers Celebrating Victory at Annapurna Base Camp",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-090.webp",
+      "title": "Soaking in Natural Geothermal Hot Springs at Jhinu Danda",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-091.webp",
+      "title": "Riverside Thermal Springs of Modi Khola at Jhinu Danda",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-092.webp",
+      "title": "Pokhara International Airport with Annapurna Backdrop",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-093.webp",
+      "title": "Traditional Gurung Stone Cottages of Ghandruk",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-094.webp",
+      "title": "Phewa Lake Peaceful Morning Waters with Mountain Reflection",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-095.webp",
+      "title": "Pokhara Valley Green Terraces and Mountain Backdrop",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-096.webp",
+      "title": "Sweeping Sunrise Panorama over Western Himalayan Ranges",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-097.webp",
+      "title": "Ghorepani Village Blue Lodges Overlooking Mt. Dhaulagiri",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-098.webp",
+      "title": "Sheer Granite Cliffs of the Modi Khola Gorge",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-099.webp",
+      "title": "Panoramic Lake Phewa with Annapurna Massif",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-100.webp",
+      "title": "Golden Himalayan Vistas on the Annapurna Trail",
+      "category": "Panoramas"
     }
   ],
   "annapurna-circuit-luxury-trek": [
@@ -59084,7 +59740,7 @@ function setupTrekPhotoGallery() {
     const src = img.getAttribute('src');
     if (!src) return;
     const fileName = src.split('/').pop();
-    if (!fileName || fileName.endsWith('.svg') || fileName.includes('icon') || fileName.includes('avatar') || fileName.includes('logo') || fileName.includes('payment') || fileName.includes('badge') || fileName.includes('map') || fileName.includes('graph') || fileName.includes('chart')) return;
+    if (!fileName || fileName.endsWith('.svg') || fileName.includes('icon') || fileName.includes('avatar') || fileName.includes('logo') || fileName.includes('payment') || fileName.includes('badge')) return;
     if (existingFileNames.has(fileName)) return;
 
     existingFileNames.add(fileName);
@@ -59111,9 +59767,6 @@ function setupTrekPhotoGallery() {
           : imgPrefix + item.file;
 
         let poster = item.poster;
-        if (poster && !poster.startsWith('http') && !poster.startsWith('/') && !poster.startsWith('images/')) {
-          poster = imgPrefix + poster;
-        }
         if (isVideo && !poster) {
           const lowerFile = mediaSrc.toLowerCase();
           if (lowerFile.includes('everest') || lowerFile.includes('ebc')) {
@@ -59154,7 +59807,11 @@ function setupTrekPhotoGallery() {
   }
 
   // Combine page photos (priority) + full curated expedition photos & videos
-  activePhotos = [...pagePhotos, ...registryPhotos];
+  if (matchedKey === 'annapurna-base-camp-trek-via-poon-hill' || matchedKey === 'poonhill') {
+    activePhotos = registryPhotos;
+  } else {
+    activePhotos = [...pagePhotos, ...registryPhotos];
+  }
 
   if (activePhotos.length === 0) return;
 
@@ -59229,7 +59886,7 @@ function setupTrekPhotoGallery() {
   if (titleEl) titleEl.textContent = modalTrekTitle;
   const countEl = modal.querySelector('#tg-photo-count');
   const videoCount = activePhotos.filter(p => p.type === 'video').length;
-  if (countEl) countEl.textContent = activePhotos.length + ' Media' + (videoCount > 0 ? (videoCount === 1 ? ' (1 Video)' : ' (' + videoCount + ' Videos)') : '');
+  if (countEl) countEl.textContent = activePhotos.length + ' Media' + (videoCount > 0 ? ' (' + videoCount + ' Videos)' : '');
 
   let currentView = 'grid'; // 'grid' | 'single'
   let currentIndex = 0;
