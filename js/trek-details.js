@@ -4734,950 +4734,567 @@ function setupTrekPhotoGallery() {
     }
   ],
   "abc": [
-    {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
-      "type": "video",
-      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/mardi-himal-trek.mp4",
-      "type": "video",
-      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-001.webp",
-      "title": "Abc Expedition 001",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-002.webp",
-      "title": "Abc Expedition 002",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-003.webp",
-      "title": "Abc Expedition 003",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-004.webp",
-      "title": "Abc Expedition 004",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-005.webp",
-      "title": "Abc Expedition 005",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-006.webp",
-      "title": "Abc Expedition 006",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-007.webp",
-      "title": "Abc Expedition 007",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-008.webp",
-      "title": "Abc Expedition 008",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-009.webp",
-      "title": "Abc Expedition 009",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-010.webp",
-      "title": "Abc Expedition 010",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-011.webp",
-      "title": "Abc Expedition 011",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-012.webp",
-      "title": "Abc Expedition 012",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-013.webp",
-      "title": "Abc Expedition 013",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-014.webp",
-      "title": "Abc Expedition 014",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-015.webp",
-      "title": "Abc Expedition 015",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-016.webp",
-      "title": "Abc Expedition 016",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-017.webp",
-      "title": "Abc Expedition 017",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-018.webp",
-      "title": "Abc Expedition 018",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-019.webp",
-      "title": "Abc Expedition 019",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-020.webp",
-      "title": "Abc Expedition 020",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-021.webp",
-      "title": "Abc Expedition 021",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-022.webp",
-      "title": "Abc Expedition 022",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-023.webp",
-      "title": "Abc Expedition 023",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-024.webp",
-      "title": "Abc Expedition 024",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-025.webp",
-      "title": "Abc Expedition 025",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-026.webp",
-      "title": "Abc Expedition 026",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-027.webp",
-      "title": "Abc Expedition 027",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-028.webp",
-      "title": "Abc Expedition 028",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-029.webp",
-      "title": "Abc Expedition 029",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-030.webp",
-      "title": "Abc Expedition 030",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-031.webp",
-      "title": "Abc Expedition 031",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-032.webp",
-      "title": "Abc Expedition 032",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-033.webp",
-      "title": "Abc Expedition 033",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-034.webp",
-      "title": "Abc Expedition 034",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-035.webp",
-      "title": "Abc Expedition 035",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-036.webp",
-      "title": "Abc Expedition 036",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-037.webp",
-      "title": "Abc Expedition 037",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-038.webp",
-      "title": "Abc Expedition 038",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-039.webp",
-      "title": "Abc Expedition 039",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-040.webp",
-      "title": "Abc Expedition 040",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-041.webp",
-      "title": "Abc Expedition 041",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-042.webp",
-      "title": "Abc Expedition 042",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-043.webp",
-      "title": "Abc Expedition 043",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-044.webp",
-      "title": "Abc Expedition 044",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-045.webp",
-      "title": "Abc Expedition 045",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-046.webp",
-      "title": "Abc Expedition 046",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-047.webp",
-      "title": "Abc Expedition 047",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-048.webp",
-      "title": "Abc Expedition 048",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-049.webp",
-      "title": "Abc Expedition 049",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-050.webp",
-      "title": "Abc Expedition 050",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-051.webp",
-      "title": "Abc Expedition 051",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-052.webp",
-      "title": "Abc Expedition 052",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-053.webp",
-      "title": "Abc Expedition 053",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-054.webp",
-      "title": "Abc Expedition 054",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-055.webp",
-      "title": "Abc Expedition 055",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-056.webp",
-      "title": "Abc Expedition 056",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-057.webp",
-      "title": "Abc Expedition 057",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-058.webp",
-      "title": "Abc Expedition 058",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-059.webp",
-      "title": "Abc Expedition 059",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-060.webp",
-      "title": "Abc Expedition 060",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-061.webp",
-      "title": "Abc Expedition 061",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-062.webp",
-      "title": "Abc Expedition 062",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-063.webp",
-      "title": "Abc Expedition 063",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-064.webp",
-      "title": "Abc Expedition 064",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-065.webp",
-      "title": "Abc Expedition 065",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-066.webp",
-      "title": "Abc Expedition 066",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-067.webp",
-      "title": "Abc Expedition 067",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-068.webp",
-      "title": "Abc Expedition 068",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-069.webp",
-      "title": "Abc Expedition 069",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-070.webp",
-      "title": "Abc Expedition 070",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-071.webp",
-      "title": "Abc Expedition 071",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-072.webp",
-      "title": "Abc Expedition 072",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-073.webp",
-      "title": "Abc Expedition 073",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-074.webp",
-      "title": "Abc Expedition 074",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-075.webp",
-      "title": "Abc Expedition 075",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-076.webp",
-      "title": "Abc Expedition 076",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-077.webp",
-      "title": "Abc Expedition 077",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-078.webp",
-      "title": "Abc Expedition 078",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-079.webp",
-      "title": "Abc Expedition 079",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-080.webp",
-      "title": "Abc Expedition 080",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-081.webp",
-      "title": "Abc Expedition 081",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-082.webp",
-      "title": "Abc Expedition 082",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-083.webp",
-      "title": "Abc Expedition 083",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-084.webp",
-      "title": "Abc Expedition 084",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-085.webp",
-      "title": "Abc Expedition 085",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-086.webp",
-      "title": "Abc Expedition 086",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-087.webp",
-      "title": "Abc Expedition 087",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-088.webp",
-      "title": "Abc Expedition 088",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-089.webp",
-      "title": "Abc Expedition 089",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-090.webp",
-      "title": "Abc Expedition 090",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-091.webp",
-      "title": "Abc Expedition 091",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-092.webp",
-      "title": "Abc Expedition 092",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-093.webp",
-      "title": "Abc Expedition 093",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-094.webp",
-      "title": "Abc Expedition 094",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-095.webp",
-      "title": "Abc Expedition 095",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-096.webp",
-      "title": "Abc Expedition 096",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-097.webp",
-      "title": "Abc Expedition 097",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-098.webp",
-      "title": "Abc Expedition 098",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-099.webp",
-      "title": "Abc Expedition 099",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-100.webp",
-      "title": "Abc Expedition 100",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-101.webp",
-      "title": "Abc Expedition 101",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-102.webp",
-      "title": "Abc Expedition 102",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-103.webp",
-      "title": "Abc Expedition 103",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-104.webp",
-      "title": "Abc Expedition 104",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-105.webp",
-      "title": "Abc Expedition 105",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-106.webp",
-      "title": "Abc Expedition 106",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-107.webp",
-      "title": "Abc Expedition 107",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-108.webp",
-      "title": "Abc Expedition 108",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-109.webp",
-      "title": "Abc Expedition 109",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-110.webp",
-      "title": "Abc Expedition 110",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-111.webp",
-      "title": "Abc Expedition 111",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-112.webp",
-      "title": "Abc Expedition 112",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.jpg",
-      "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp",
-      "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-gallery-annapurna-glacier-moraine.webp",
-      "title": "Abc Gallery Annapurna Glacier Moraine",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-gallery-bamboo-dovan-canyon.webp",
-      "title": "Abc Gallery Bamboo Dovan Canyon",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-jhinu-danda-hot-springs.webp",
-      "title": "Abc Gallery Jhinu Danda Hot Springs",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-machhapuchhre-base-camp.webp",
-      "title": "Abc Gallery Machhapuchhre Base Camp",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-gallery-modi-khola-suspension.webp",
-      "title": "Abc Gallery Modi Khola Suspension",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-prayer-flags-sanctuary.webp",
-      "title": "Abc Gallery Prayer Flags Sanctuary",
-      "category": "Heritage"
-    },
-    {
-      "file": "abc-gallery-rhododendron-forest-trail.webp",
-      "title": "Abc Gallery Rhododendron Forest Trail",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-teahouse-breakfast-mountain-view.webp",
-      "title": "Abc Gallery Teahouse Breakfast Mountain View",
-      "category": "Panoramas"
-    },
-    {
-      "file": "abc-poon-hill-autumn-morning-peaks.webp",
-      "title": "Abc Poon Hill Autumn Morning Peaks",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-poon-hill-golden-sunrise-panorama.webp",
-      "title": "Abc Poon Hill Golden Sunrise Panorama",
-      "category": "Panoramas"
-    },
-    {
-      "file": "abc-poon-hill-sanctuary-trail.webp",
-      "title": "Abc Poon Hill Sanctuary Trail",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-poon-hill-teahouse-vista.webp",
-      "title": "Abc Poon Hill Teahouse Vista",
-      "category": "Villages"
-    },
-    {
-      "file": "abc-poon-hill-viewpoint-ghorepani.webp",
-      "title": "Abc Poon Hill Viewpoint Ghorepani",
-      "category": "Panoramas"
-    },
-    {
-      "file": "abc-trekking-in-february.webp",
-      "title": "Abc Trekking In February",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-02.jpg",
-      "title": "Abc With Mardi Himal Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-02.webp",
-      "title": "Abc With Mardi Himal Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-02.webp",
-      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.jpg",
-      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.webp",
-      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.jpg",
-      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.webp",
-      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek.webp",
-      "title": "Abc With Mardi Himal Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-base-camp-9-days-itinerary-02.jpg",
-      "title": "Annapurna Base Camp 9 Days Itinerary 02",
-      "category": "Peaks"
-    }
-  ],
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-001.webp",
+    "title": "Annapurna Sanctuary Amphitheater Panoramic Vista (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-002.webp",
+    "title": "Sunrise Alpenglow on Mt. Annapurna I South Face (8,091m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-003.webp",
+    "title": "Sacred Fluted Ridge of Mt. Machhapuchhre (Fishtail 6,993m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-004.webp",
+    "title": "Trekkers Ascending Stone Stairs Along Modi Khola River Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-005.webp",
+    "title": "High Altitude Teahouse Lodges in Annapurna Base Camp",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-006.webp",
+    "title": "Golden Morning Light over Annapurna South (7,219m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-007.webp",
+    "title": "Machhapuchhre Base Camp Gateway (3,700m) Alpine Basin",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-008.webp",
+    "title": "Pristine Mountain Vistas on the Ascent to Deurali",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-009.webp",
+    "title": "Chhomrong Village Terraced Fields and Himalayan Backdrop",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-010.webp",
+    "title": "Dramatic Glacial Moraine and Snowfields of Annapurna Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-011.webp",
+    "title": "Mt. Hiunchuli (6,441m) Towering Above the Alpine Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-012.webp",
+    "title": "Rhododendron and Bamboo Forest Trail Above Sinuwa",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-013.webp",
+    "title": "Traditional Prayer Flags Fluttering at Annapurna Base Camp Signboard",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-014.webp",
+    "title": "Panoramic 360-Degree Amphitheater of High Himalayan Giants",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-015.webp",
+    "title": "Dovan Settlement Nestled in the Dense Modi Khola Gorge",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-016.webp",
+    "title": "Expedition Trekkers Celebrating at Annapurna Base Camp (4,130m)",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-017.webp",
+    "title": "Machhapuchhre Pinnacle Dramatic Silhouette at Twilight",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-018.webp",
+    "title": "Glacial River Crossing via Suspension Bridge near Jhinu",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-019.webp",
+    "title": "Majestic Summit of Gangapurna (7,455m) in Morning Glow",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-020.webp",
+    "title": "Cozy Dining Hall and Warmth in Alpine High Camp Lodge",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-021.webp",
+    "title": "Tent Peak (Tharpu Chuli) Rising in the Heart of the Sanctuary",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-022.webp",
+    "title": "Morning Mist Rising Through Bamboo and Alpine Forest",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-023.webp",
+    "title": "Natural Thermal Hot Springs along the Riverbank at Jhinu Danda",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-024.webp",
+    "title": "Chhomrong's Famous Stone Staircase Looking Toward Annapurna South",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-025.webp",
+    "title": "Crisp High-Altitude Clear Skies over the Annapurna Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-026.webp",
+    "title": "Buddhist Mani Stones and Memorial Chortens in the Sanctuary",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-027.webp",
+    "title": "Spectacular Ice Flutes and Hanging Glaciers on Annapurna South",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-028.webp",
+    "title": "Early Morning Departure from Deurali Toward Machhapuchhre Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-029.webp",
+    "title": "Upper Sinuwa Viewpoint Gazing Across the Deep River Valley",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-030.webp",
+    "title": "Himalayan Vulture Soaring High Above the Alpine Cliffs",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-031.webp",
+    "title": "Golden Hour Glow on Mt. Annapurna I Summit Ridge",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-032.webp",
+    "title": "Stone Paved Trails Weaving Through Gurung Cultural Settlements",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-033.webp",
+    "title": "Alpine Gateway into the Holy Annapurna Sanctuary Sanctuary Basin",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-034.webp",
+    "title": "Hikers Navigating Rocky Glacial Trail Beneath Fishtail Peak",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-035.webp",
+    "title": "Sunset Reflections over the Snow-Capped Annapurna Range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-036.webp",
+    "title": "Traditional Stone Lodges at Bamboo Surrounded by Canyon Walls",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-037.webp",
+    "title": "Mt. Machhapuchhre's Twin Summits Viewed from Lower Sanctuary",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-038.webp",
+    "title": "Colorful Prayer Flags Strung Across Mountain Stupa",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-039.webp",
+    "title": "Lush Subtropical Flora Transitioning into High Alpine Tundra",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-040.webp",
+    "title": "Starlit Night Sky and Milky Way Over Annapurna Base Camp",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-041.webp",
+    "title": "Morning Alpenglow Lighting the Fluted Face of Hiunchuli",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-042.webp",
+    "title": "Trekkers Enjoying Fresh Tea with Annapurna South Views",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-043.webp",
+    "title": "Cascading Waterfalls of the Modi Khola Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-044.webp",
+    "title": "Panoramic View of the Sanctuary Ring of 7,000m and 8,000m Peaks",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-045.webp",
+    "title": "High Altitude Sherpa Guide Leading the Way in Snow Trail",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-046.webp",
+    "title": "Iconic Wooden Annapurna Base Camp Welcome Signboard",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-047.webp",
+    "title": "Dramatic Cloud Formations Swirling Around Mt. Annapurna I",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-048.webp",
+    "title": "Himalayan Sunrise Painting the Fishtail Summit in Gold",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-049.webp",
+    "title": "Quaint Gurung Village of Landruk Across the Valley",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-050.webp",
+    "title": "Expedition Trail Cutting Through Narrow Rocky Canyons",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-051.webp",
+    "title": "Glacial Icefall and Deep Crevasses of the South Annapurna Glacier",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-052.webp",
+    "title": "Crystal Clear Alpine Stream Meandering Through MBC Meadow",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-053.webp",
+    "title": "Mt. Annapurna I South Face Steep Rock and Ice Wall",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-054.webp",
+    "title": "Rest Stop at Deurali with Warm Ginger Lemon Tea",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-055.webp",
+    "title": "Spectacular Contrast of Wild Flowers and High Snowy Mountains",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-056.webp",
+    "title": "Morning Shadows Receding from the Annapurna Basin Floor",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-057.webp",
+    "title": "Close-Up of Sacred Machhapuchhre Peak Under Cerulean Skies",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-058.webp",
+    "title": "Local Porters and Guides Sharing Stories at Evening Teahouse",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-059.webp",
+    "title": "Prayer Wheels and Himalayan Buddhist Shrines along the Way",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-060.webp",
+    "title": "Panoramic Ridge Walk Approaching Chhomrong",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-061.webp",
+    "title": "Rugged Mountain Trail Etched into Vertical Canyon Walls",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-062.webp",
+    "title": "Snow Dusted Roofs of High Altitude Lodges at Annapurna Base Camp",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-063.webp",
+    "title": "Alpenglow Cresting Over the Annapurna Massif at Dawn",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-064.webp",
+    "title": "Suspension Footbridge High Above Rushing Glacier Torrent",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-065.webp",
+    "title": "Breathtaking 360 Degree Panorama Inside the Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-066.webp",
+    "title": "View of Hiunchuli and Annapurna South Standing Shoulder to Shoulder",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-067.webp",
+    "title": "Traditional Hand-Carved Wooden Windows in Gurung Teahouse",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-068.webp",
+    "title": "Trekkers Pausing to Admire the Sheer Scale of Fishtail Peak",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-069.webp",
+    "title": "Peaceful Evening Atmosphere at Machhapuchhre Base Camp",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-070.webp",
+    "title": "High Alpine Moraine Ridges Enclosing the Sacred Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-071.webp",
+    "title": "First Morning Light Illuminating Annapurna I Glacier",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-072.webp",
+    "title": "Winding Stone Trail Ascending Steep Terrain near Sinuwa",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-073.webp",
+    "title": "Expedition Base Camp with Fluttering Tibetan Prayer Flags",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-074.webp",
+    "title": "Dramatic Amphitheater Walls Rising 4,000m Above Sanctuary Floor",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-075.webp",
+    "title": "Warm Hospitality and Fresh Meals in Himalayan Trekking Lodge",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-076.webp",
+    "title": "Deep Blue Himalayan Sky Framing Fishtail's Iconic Summit",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-077.webp",
+    "title": "Cascading Alpine Streams Flowing from Annapurna Glaciers",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-078.webp",
+    "title": "Magnificent Sunset Colors Bathing Annapurna South in Crimson",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-079.webp",
+    "title": "Trekkers Arriving at Annapurna Base Camp with Joyful Cheers",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-080.webp",
+    "title": "Panoramic View of Modi Khola Valley Carved by Ancient Glaciers",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-081.webp",
+    "title": "Towering North Flank of Hiunchuli Rising Sharply",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-082.webp",
+    "title": "Peaceful Forest Trail Through Moss-Draped Rhododendron Woods",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-083.webp",
+    "title": "Gurung Cultural Architecture and Stone Paved Alleys in Chhomrong",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-084.webp",
+    "title": "Historic Climbers Memorial Shrines in the Annapurna Sanctuary",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-085.webp",
+    "title": "Majestic Panorama of the Annapurna Cirque Under Sunlit Skies",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-086.webp",
+    "title": "Golden Sunlight Highlighting Machhapuchhre's Sharp Ridge",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-087.webp",
+    "title": "Trekkers Crossing Wooden Bridges Across Crystal Alpine Brooks",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-088.webp",
+    "title": "Teahouses of Deurali Framed by Massive Overhanging Cliffs",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-089.webp",
+    "title": "Spectacular Glacial Basin Beneath the South Face of Annapurna I",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-090.webp",
+    "title": "Snow and Ice Formations on the Glacial Slopes of Annapurna",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-091.webp",
+    "title": "Morning Yoga and Contemplation in Annapurna Base Camp",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-092.webp",
+    "title": "Lush Greenery Along the Lower Steps to Jhinu Hot Springs",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-093.webp",
+    "title": "Panoramic Mountain Horizon from the Heights of the Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-094.webp",
+    "title": "Dramatic Profile of Mt. Machhapuchhre Against Deep Blue Sky",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-095.webp",
+    "title": "Stone Teahouses and Smoke Rising in the Crisp Morning Air",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-096.webp",
+    "title": "Trekkers Navigating the Scenic Switchbacks Leading to Sinuwa",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-097.webp",
+    "title": "Golden Crest of Annapurna I at the Break of Dawn",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-098.webp",
+    "title": "Atmospheric Clouds Floating Through the Deep Modi Canyon",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-099.webp",
+    "title": "Traditional Brass Teapots and Local Hospitality at Chhomrong",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-100.webp",
+    "title": "Sacred Prayer Flags Spanning the Gap Across Alpine Ridge",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-101.webp",
+    "title": "Himalayan Foothills Meeting High Alpine Peaks in Grand Contrast",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-102.webp",
+    "title": "Machhapuchhre Peak Flanked by Morning Cloud Inversion",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-103.webp",
+    "title": "Scenic Stone Steps Through the Dense Forest Above Bamboo",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-104.webp",
+    "title": "Base Camp Lodges Resting at the Foot of Annapurna South",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-105.webp",
+    "title": "Pure Wilderness Experience Inside the Annapurna Conservation Area",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-106.webp",
+    "title": "The South Face of Annapurna I in Spectacular Broad Daylight",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-107.webp",
+    "title": "Panoramic Vista Looking Down the Modi Khola Glacial Valley",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-108.webp",
+    "title": "Prayer Flags Framing Mt. Hiunchuli Under Brilliant Alpine Sun",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-109.webp",
+    "title": "Resting Along the Scenic Trail with Endless Mountain Vistas",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-110.webp",
+    "title": "Welcoming Village of Jhinu Danda Framed by Forest Ridges",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-111.webp",
+    "title": "Iconic Fishtail Mountain Catching the Last Rays of Sunset",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-112.webp",
+    "title": "Unforgettable 360-Degree Sunset over the Annapurna Sanctuary",
+    "category": "Panoramas"
+  }
+],
   "act": [
     {
       "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
@@ -45884,950 +45501,567 @@ function setupTrekPhotoGallery() {
     }
   ],
   "short-annapurna-base-camp-trek": [
-    {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
-      "type": "video",
-      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/mardi-himal-trek.mp4",
-      "type": "video",
-      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-001.webp",
-      "title": "Abc Expedition 001",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-002.webp",
-      "title": "Abc Expedition 002",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-003.webp",
-      "title": "Abc Expedition 003",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-004.webp",
-      "title": "Abc Expedition 004",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-005.webp",
-      "title": "Abc Expedition 005",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-006.webp",
-      "title": "Abc Expedition 006",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-007.webp",
-      "title": "Abc Expedition 007",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-008.webp",
-      "title": "Abc Expedition 008",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-009.webp",
-      "title": "Abc Expedition 009",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-010.webp",
-      "title": "Abc Expedition 010",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-011.webp",
-      "title": "Abc Expedition 011",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-012.webp",
-      "title": "Abc Expedition 012",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-013.webp",
-      "title": "Abc Expedition 013",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-014.webp",
-      "title": "Abc Expedition 014",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-015.webp",
-      "title": "Abc Expedition 015",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-016.webp",
-      "title": "Abc Expedition 016",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-017.webp",
-      "title": "Abc Expedition 017",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-018.webp",
-      "title": "Abc Expedition 018",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-019.webp",
-      "title": "Abc Expedition 019",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-020.webp",
-      "title": "Abc Expedition 020",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-021.webp",
-      "title": "Abc Expedition 021",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-022.webp",
-      "title": "Abc Expedition 022",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-023.webp",
-      "title": "Abc Expedition 023",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-024.webp",
-      "title": "Abc Expedition 024",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-025.webp",
-      "title": "Abc Expedition 025",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-026.webp",
-      "title": "Abc Expedition 026",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-027.webp",
-      "title": "Abc Expedition 027",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-028.webp",
-      "title": "Abc Expedition 028",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-029.webp",
-      "title": "Abc Expedition 029",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-030.webp",
-      "title": "Abc Expedition 030",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-031.webp",
-      "title": "Abc Expedition 031",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-032.webp",
-      "title": "Abc Expedition 032",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-033.webp",
-      "title": "Abc Expedition 033",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-034.webp",
-      "title": "Abc Expedition 034",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-035.webp",
-      "title": "Abc Expedition 035",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-036.webp",
-      "title": "Abc Expedition 036",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-037.webp",
-      "title": "Abc Expedition 037",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-038.webp",
-      "title": "Abc Expedition 038",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-039.webp",
-      "title": "Abc Expedition 039",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-040.webp",
-      "title": "Abc Expedition 040",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-041.webp",
-      "title": "Abc Expedition 041",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-042.webp",
-      "title": "Abc Expedition 042",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-043.webp",
-      "title": "Abc Expedition 043",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-044.webp",
-      "title": "Abc Expedition 044",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-045.webp",
-      "title": "Abc Expedition 045",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-046.webp",
-      "title": "Abc Expedition 046",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-047.webp",
-      "title": "Abc Expedition 047",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-048.webp",
-      "title": "Abc Expedition 048",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-049.webp",
-      "title": "Abc Expedition 049",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-050.webp",
-      "title": "Abc Expedition 050",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-051.webp",
-      "title": "Abc Expedition 051",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-052.webp",
-      "title": "Abc Expedition 052",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-053.webp",
-      "title": "Abc Expedition 053",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-054.webp",
-      "title": "Abc Expedition 054",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-055.webp",
-      "title": "Abc Expedition 055",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-056.webp",
-      "title": "Abc Expedition 056",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-057.webp",
-      "title": "Abc Expedition 057",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-058.webp",
-      "title": "Abc Expedition 058",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-059.webp",
-      "title": "Abc Expedition 059",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-060.webp",
-      "title": "Abc Expedition 060",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-061.webp",
-      "title": "Abc Expedition 061",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-062.webp",
-      "title": "Abc Expedition 062",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-063.webp",
-      "title": "Abc Expedition 063",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-064.webp",
-      "title": "Abc Expedition 064",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-065.webp",
-      "title": "Abc Expedition 065",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-066.webp",
-      "title": "Abc Expedition 066",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-067.webp",
-      "title": "Abc Expedition 067",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-068.webp",
-      "title": "Abc Expedition 068",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-069.webp",
-      "title": "Abc Expedition 069",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-070.webp",
-      "title": "Abc Expedition 070",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-071.webp",
-      "title": "Abc Expedition 071",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-072.webp",
-      "title": "Abc Expedition 072",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-073.webp",
-      "title": "Abc Expedition 073",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-074.webp",
-      "title": "Abc Expedition 074",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-075.webp",
-      "title": "Abc Expedition 075",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-076.webp",
-      "title": "Abc Expedition 076",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-077.webp",
-      "title": "Abc Expedition 077",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-078.webp",
-      "title": "Abc Expedition 078",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-079.webp",
-      "title": "Abc Expedition 079",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-080.webp",
-      "title": "Abc Expedition 080",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-081.webp",
-      "title": "Abc Expedition 081",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-082.webp",
-      "title": "Abc Expedition 082",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-083.webp",
-      "title": "Abc Expedition 083",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-084.webp",
-      "title": "Abc Expedition 084",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-085.webp",
-      "title": "Abc Expedition 085",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-086.webp",
-      "title": "Abc Expedition 086",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-087.webp",
-      "title": "Abc Expedition 087",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-088.webp",
-      "title": "Abc Expedition 088",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-089.webp",
-      "title": "Abc Expedition 089",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-090.webp",
-      "title": "Abc Expedition 090",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-091.webp",
-      "title": "Abc Expedition 091",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-092.webp",
-      "title": "Abc Expedition 092",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-093.webp",
-      "title": "Abc Expedition 093",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-094.webp",
-      "title": "Abc Expedition 094",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-095.webp",
-      "title": "Abc Expedition 095",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-096.webp",
-      "title": "Abc Expedition 096",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-097.webp",
-      "title": "Abc Expedition 097",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-098.webp",
-      "title": "Abc Expedition 098",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-099.webp",
-      "title": "Abc Expedition 099",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-100.webp",
-      "title": "Abc Expedition 100",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-101.webp",
-      "title": "Abc Expedition 101",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-102.webp",
-      "title": "Abc Expedition 102",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-103.webp",
-      "title": "Abc Expedition 103",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-104.webp",
-      "title": "Abc Expedition 104",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-105.webp",
-      "title": "Abc Expedition 105",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-106.webp",
-      "title": "Abc Expedition 106",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-107.webp",
-      "title": "Abc Expedition 107",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-108.webp",
-      "title": "Abc Expedition 108",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-109.webp",
-      "title": "Abc Expedition 109",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-110.webp",
-      "title": "Abc Expedition 110",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-111.webp",
-      "title": "Abc Expedition 111",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-base-camp/abc-expedition-112.webp",
-      "title": "Abc Expedition 112",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.jpg",
-      "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp",
-      "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-gallery-annapurna-glacier-moraine.webp",
-      "title": "Abc Gallery Annapurna Glacier Moraine",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-gallery-bamboo-dovan-canyon.webp",
-      "title": "Abc Gallery Bamboo Dovan Canyon",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-jhinu-danda-hot-springs.webp",
-      "title": "Abc Gallery Jhinu Danda Hot Springs",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-machhapuchhre-base-camp.webp",
-      "title": "Abc Gallery Machhapuchhre Base Camp",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-gallery-modi-khola-suspension.webp",
-      "title": "Abc Gallery Modi Khola Suspension",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-prayer-flags-sanctuary.webp",
-      "title": "Abc Gallery Prayer Flags Sanctuary",
-      "category": "Heritage"
-    },
-    {
-      "file": "abc-gallery-rhododendron-forest-trail.webp",
-      "title": "Abc Gallery Rhododendron Forest Trail",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-gallery-teahouse-breakfast-mountain-view.webp",
-      "title": "Abc Gallery Teahouse Breakfast Mountain View",
-      "category": "Panoramas"
-    },
-    {
-      "file": "abc-poon-hill-autumn-morning-peaks.webp",
-      "title": "Abc Poon Hill Autumn Morning Peaks",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-poon-hill-golden-sunrise-panorama.webp",
-      "title": "Abc Poon Hill Golden Sunrise Panorama",
-      "category": "Panoramas"
-    },
-    {
-      "file": "abc-poon-hill-sanctuary-trail.webp",
-      "title": "Abc Poon Hill Sanctuary Trail",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-poon-hill-teahouse-vista.webp",
-      "title": "Abc Poon Hill Teahouse Vista",
-      "category": "Villages"
-    },
-    {
-      "file": "abc-poon-hill-viewpoint-ghorepani.webp",
-      "title": "Abc Poon Hill Viewpoint Ghorepani",
-      "category": "Panoramas"
-    },
-    {
-      "file": "abc-trekking-in-february.webp",
-      "title": "Abc Trekking In February",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-02.jpg",
-      "title": "Abc With Mardi Himal Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-02.webp",
-      "title": "Abc With Mardi Himal Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-02.webp",
-      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.jpg",
-      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.webp",
-      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.jpg",
-      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.webp",
-      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-with-mardi-himal-trek.webp",
-      "title": "Abc With Mardi Himal Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-base-camp-9-days-itinerary-02.jpg",
-      "title": "Annapurna Base Camp 9 Days Itinerary 02",
-      "category": "Peaks"
-    }
-  ],
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-001.webp",
+    "title": "Annapurna Sanctuary Amphitheater Panoramic Vista (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-002.webp",
+    "title": "Sunrise Alpenglow on Mt. Annapurna I South Face (8,091m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-003.webp",
+    "title": "Sacred Fluted Ridge of Mt. Machhapuchhre (Fishtail 6,993m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-004.webp",
+    "title": "Trekkers Ascending Stone Stairs Along Modi Khola River Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-005.webp",
+    "title": "High Altitude Teahouse Lodges in Annapurna Base Camp",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-006.webp",
+    "title": "Golden Morning Light over Annapurna South (7,219m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-007.webp",
+    "title": "Machhapuchhre Base Camp Gateway (3,700m) Alpine Basin",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-008.webp",
+    "title": "Pristine Mountain Vistas on the Ascent to Deurali",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-009.webp",
+    "title": "Chhomrong Village Terraced Fields and Himalayan Backdrop",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-010.webp",
+    "title": "Dramatic Glacial Moraine and Snowfields of Annapurna Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-011.webp",
+    "title": "Mt. Hiunchuli (6,441m) Towering Above the Alpine Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-012.webp",
+    "title": "Rhododendron and Bamboo Forest Trail Above Sinuwa",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-013.webp",
+    "title": "Traditional Prayer Flags Fluttering at Annapurna Base Camp Signboard",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-014.webp",
+    "title": "Panoramic 360-Degree Amphitheater of High Himalayan Giants",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-015.webp",
+    "title": "Dovan Settlement Nestled in the Dense Modi Khola Gorge",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-016.webp",
+    "title": "Expedition Trekkers Celebrating at Annapurna Base Camp (4,130m)",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-017.webp",
+    "title": "Machhapuchhre Pinnacle Dramatic Silhouette at Twilight",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-018.webp",
+    "title": "Glacial River Crossing via Suspension Bridge near Jhinu",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-019.webp",
+    "title": "Majestic Summit of Gangapurna (7,455m) in Morning Glow",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-020.webp",
+    "title": "Cozy Dining Hall and Warmth in Alpine High Camp Lodge",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-021.webp",
+    "title": "Tent Peak (Tharpu Chuli) Rising in the Heart of the Sanctuary",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-022.webp",
+    "title": "Morning Mist Rising Through Bamboo and Alpine Forest",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-023.webp",
+    "title": "Natural Thermal Hot Springs along the Riverbank at Jhinu Danda",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-024.webp",
+    "title": "Chhomrong's Famous Stone Staircase Looking Toward Annapurna South",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-025.webp",
+    "title": "Crisp High-Altitude Clear Skies over the Annapurna Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-026.webp",
+    "title": "Buddhist Mani Stones and Memorial Chortens in the Sanctuary",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-027.webp",
+    "title": "Spectacular Ice Flutes and Hanging Glaciers on Annapurna South",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-028.webp",
+    "title": "Early Morning Departure from Deurali Toward Machhapuchhre Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-029.webp",
+    "title": "Upper Sinuwa Viewpoint Gazing Across the Deep River Valley",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-030.webp",
+    "title": "Himalayan Vulture Soaring High Above the Alpine Cliffs",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-031.webp",
+    "title": "Golden Hour Glow on Mt. Annapurna I Summit Ridge",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-032.webp",
+    "title": "Stone Paved Trails Weaving Through Gurung Cultural Settlements",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-033.webp",
+    "title": "Alpine Gateway into the Holy Annapurna Sanctuary Sanctuary Basin",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-034.webp",
+    "title": "Hikers Navigating Rocky Glacial Trail Beneath Fishtail Peak",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-035.webp",
+    "title": "Sunset Reflections over the Snow-Capped Annapurna Range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-036.webp",
+    "title": "Traditional Stone Lodges at Bamboo Surrounded by Canyon Walls",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-037.webp",
+    "title": "Mt. Machhapuchhre's Twin Summits Viewed from Lower Sanctuary",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-038.webp",
+    "title": "Colorful Prayer Flags Strung Across Mountain Stupa",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-039.webp",
+    "title": "Lush Subtropical Flora Transitioning into High Alpine Tundra",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-040.webp",
+    "title": "Starlit Night Sky and Milky Way Over Annapurna Base Camp",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-041.webp",
+    "title": "Morning Alpenglow Lighting the Fluted Face of Hiunchuli",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-042.webp",
+    "title": "Trekkers Enjoying Fresh Tea with Annapurna South Views",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-043.webp",
+    "title": "Cascading Waterfalls of the Modi Khola Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-044.webp",
+    "title": "Panoramic View of the Sanctuary Ring of 7,000m and 8,000m Peaks",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-045.webp",
+    "title": "High Altitude Sherpa Guide Leading the Way in Snow Trail",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-046.webp",
+    "title": "Iconic Wooden Annapurna Base Camp Welcome Signboard",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-047.webp",
+    "title": "Dramatic Cloud Formations Swirling Around Mt. Annapurna I",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-048.webp",
+    "title": "Himalayan Sunrise Painting the Fishtail Summit in Gold",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-049.webp",
+    "title": "Quaint Gurung Village of Landruk Across the Valley",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-050.webp",
+    "title": "Expedition Trail Cutting Through Narrow Rocky Canyons",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-051.webp",
+    "title": "Glacial Icefall and Deep Crevasses of the South Annapurna Glacier",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-052.webp",
+    "title": "Crystal Clear Alpine Stream Meandering Through MBC Meadow",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-053.webp",
+    "title": "Mt. Annapurna I South Face Steep Rock and Ice Wall",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-054.webp",
+    "title": "Rest Stop at Deurali with Warm Ginger Lemon Tea",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-055.webp",
+    "title": "Spectacular Contrast of Wild Flowers and High Snowy Mountains",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-056.webp",
+    "title": "Morning Shadows Receding from the Annapurna Basin Floor",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-057.webp",
+    "title": "Close-Up of Sacred Machhapuchhre Peak Under Cerulean Skies",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-058.webp",
+    "title": "Local Porters and Guides Sharing Stories at Evening Teahouse",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-059.webp",
+    "title": "Prayer Wheels and Himalayan Buddhist Shrines along the Way",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-060.webp",
+    "title": "Panoramic Ridge Walk Approaching Chhomrong",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-061.webp",
+    "title": "Rugged Mountain Trail Etched into Vertical Canyon Walls",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-062.webp",
+    "title": "Snow Dusted Roofs of High Altitude Lodges at Annapurna Base Camp",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-063.webp",
+    "title": "Alpenglow Cresting Over the Annapurna Massif at Dawn",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-064.webp",
+    "title": "Suspension Footbridge High Above Rushing Glacier Torrent",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-065.webp",
+    "title": "Breathtaking 360 Degree Panorama Inside the Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-066.webp",
+    "title": "View of Hiunchuli and Annapurna South Standing Shoulder to Shoulder",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-067.webp",
+    "title": "Traditional Hand-Carved Wooden Windows in Gurung Teahouse",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-068.webp",
+    "title": "Trekkers Pausing to Admire the Sheer Scale of Fishtail Peak",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-069.webp",
+    "title": "Peaceful Evening Atmosphere at Machhapuchhre Base Camp",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-070.webp",
+    "title": "High Alpine Moraine Ridges Enclosing the Sacred Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-071.webp",
+    "title": "First Morning Light Illuminating Annapurna I Glacier",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-072.webp",
+    "title": "Winding Stone Trail Ascending Steep Terrain near Sinuwa",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-073.webp",
+    "title": "Expedition Base Camp with Fluttering Tibetan Prayer Flags",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-074.webp",
+    "title": "Dramatic Amphitheater Walls Rising 4,000m Above Sanctuary Floor",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-075.webp",
+    "title": "Warm Hospitality and Fresh Meals in Himalayan Trekking Lodge",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-076.webp",
+    "title": "Deep Blue Himalayan Sky Framing Fishtail's Iconic Summit",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-077.webp",
+    "title": "Cascading Alpine Streams Flowing from Annapurna Glaciers",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-078.webp",
+    "title": "Magnificent Sunset Colors Bathing Annapurna South in Crimson",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-079.webp",
+    "title": "Trekkers Arriving at Annapurna Base Camp with Joyful Cheers",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-080.webp",
+    "title": "Panoramic View of Modi Khola Valley Carved by Ancient Glaciers",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-081.webp",
+    "title": "Towering North Flank of Hiunchuli Rising Sharply",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-082.webp",
+    "title": "Peaceful Forest Trail Through Moss-Draped Rhododendron Woods",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-083.webp",
+    "title": "Gurung Cultural Architecture and Stone Paved Alleys in Chhomrong",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-084.webp",
+    "title": "Historic Climbers Memorial Shrines in the Annapurna Sanctuary",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-085.webp",
+    "title": "Majestic Panorama of the Annapurna Cirque Under Sunlit Skies",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-086.webp",
+    "title": "Golden Sunlight Highlighting Machhapuchhre's Sharp Ridge",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-087.webp",
+    "title": "Trekkers Crossing Wooden Bridges Across Crystal Alpine Brooks",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-088.webp",
+    "title": "Teahouses of Deurali Framed by Massive Overhanging Cliffs",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-089.webp",
+    "title": "Spectacular Glacial Basin Beneath the South Face of Annapurna I",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-090.webp",
+    "title": "Snow and Ice Formations on the Glacial Slopes of Annapurna",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-091.webp",
+    "title": "Morning Yoga and Contemplation in Annapurna Base Camp",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-092.webp",
+    "title": "Lush Greenery Along the Lower Steps to Jhinu Hot Springs",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-093.webp",
+    "title": "Panoramic Mountain Horizon from the Heights of the Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-094.webp",
+    "title": "Dramatic Profile of Mt. Machhapuchhre Against Deep Blue Sky",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-095.webp",
+    "title": "Stone Teahouses and Smoke Rising in the Crisp Morning Air",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-096.webp",
+    "title": "Trekkers Navigating the Scenic Switchbacks Leading to Sinuwa",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-097.webp",
+    "title": "Golden Crest of Annapurna I at the Break of Dawn",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-098.webp",
+    "title": "Atmospheric Clouds Floating Through the Deep Modi Canyon",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-099.webp",
+    "title": "Traditional Brass Teapots and Local Hospitality at Chhomrong",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-100.webp",
+    "title": "Sacred Prayer Flags Spanning the Gap Across Alpine Ridge",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-101.webp",
+    "title": "Himalayan Foothills Meeting High Alpine Peaks in Grand Contrast",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-102.webp",
+    "title": "Machhapuchhre Peak Flanked by Morning Cloud Inversion",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-103.webp",
+    "title": "Scenic Stone Steps Through the Dense Forest Above Bamboo",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-104.webp",
+    "title": "Base Camp Lodges Resting at the Foot of Annapurna South",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-105.webp",
+    "title": "Pure Wilderness Experience Inside the Annapurna Conservation Area",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-106.webp",
+    "title": "The South Face of Annapurna I in Spectacular Broad Daylight",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-107.webp",
+    "title": "Panoramic Vista Looking Down the Modi Khola Glacial Valley",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-108.webp",
+    "title": "Prayer Flags Framing Mt. Hiunchuli Under Brilliant Alpine Sun",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-109.webp",
+    "title": "Resting Along the Scenic Trail with Endless Mountain Vistas",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-110.webp",
+    "title": "Welcoming Village of Jhinu Danda Framed by Forest Ridges",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-111.webp",
+    "title": "Iconic Fishtail Mountain Catching the Last Rays of Sunset",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-base-camp/abc-expedition-112.webp",
+    "title": "Unforgettable 360-Degree Sunset over the Annapurna Sanctuary",
+    "category": "Panoramas"
+  }
+],
   "tamang-heritage-trail-trek": [
     {
       "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
@@ -59735,7 +58969,7 @@ function setupTrekPhotoGallery() {
 
   // 1. First collect all authentic photos directly present on this package's page (Hero collage, itinerary, details)
   const pagePhotos = [];
-  if (matchedKey !== 'annapurna-base-camp-trek-via-poon-hill' && matchedKey !== 'poonhill') {
+  if (matchedKey !== 'annapurna-base-camp-trek-via-poon-hill' && matchedKey !== 'poonhill' && matchedKey !== 'short-annapurna-base-camp-trek' && matchedKey !== 'abc') {
     const pageDomImgs = document.querySelectorAll('.trek-gallery-collage img, #section-itinerary img, #section-overview img, #section-highlights img, #section-details img');
     pageDomImgs.forEach((img, idx) => {
       const src = img.getAttribute('src');
@@ -59809,7 +59043,7 @@ function setupTrekPhotoGallery() {
   }
 
   // Combine page photos (priority) + full curated expedition photos & videos
-  if (matchedKey === 'annapurna-base-camp-trek-via-poon-hill' || matchedKey === 'poonhill') {
+  if (matchedKey === 'annapurna-base-camp-trek-via-poon-hill' || matchedKey === 'poonhill' || matchedKey === 'short-annapurna-base-camp-trek' || matchedKey === 'abc') {
     activePhotos = registryPhotos;
   } else {
     activePhotos = [...pagePhotos, ...registryPhotos];
