@@ -8882,443 +8882,41 @@ function setupTrekPhotoGallery() {
   ],
   "manaslu": [
     {
-      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
-      "type": "video",
-      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-004.webp",
+        "title": "Turquoise Birendra Tal Glacial Lake Beneath Mt Manaslu Peak (8,163m)",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-006.webp",
+        "title": "Ancient Buddhist Mani Wall Trail Beneath Soaring Mt Manaslu",
+        "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-001.webp",
+        "title": "Traditional Mountain Tea at Historic Tibetan Buddhist Monastery Courtyard",
+        "category": "Heritage"
     },
     {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-005.webp",
+        "title": "Trekkers and Sherpa Guide Trekking in Fresh Snow with Himalayan Giants",
+        "category": "Trail"
     },
     {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-002.webp",
+        "title": "Crossing High Alpine Wooden Bridge Over Rushing Glacial Stream",
+        "category": "Trail"
     },
     {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-003.webp",
+        "title": "Warm Cultural Encounter with Local Children in Remote Mountain Village",
+        "category": "Villages"
     },
     {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-001.webp",
-      "title": "Manaslu Expedition 001",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-002.webp",
-      "title": "Manaslu Expedition 002",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-003.webp",
-      "title": "Manaslu Expedition 003",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-004.webp",
-      "title": "Manaslu Expedition 004",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-005.webp",
-      "title": "Manaslu Expedition 005",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-006.webp",
-      "title": "Manaslu Expedition 006",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-007.webp",
-      "title": "Manaslu Expedition 007",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-manaslu-circuit-trek-with-a-altitude-graph.jpg",
-      "title": "A Detailed Map Of The Manaslu Circuit Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-manaslu-circuit-trek-with-a-altitude-graph.webp",
-      "title": "A Detailed Map Of The Manaslu Circuit Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-manaslu-tsum-valley-trek-with-a-altitude-graph.webp",
-      "title": "A Detailed Map Of The Manaslu Tsum Valley Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks-02.jpg",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks-02.webp",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks.jpg",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks.webp",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-vs-manaslu-circuit.jpg",
-      "title": "Annapurna Circuit Vs Manaslu Circuit",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-vs-manaslu-circuit.webp",
-      "title": "Annapurna Circuit Vs Manaslu Circuit",
-      "category": "Peaks"
-    },
-    {
-      "file": "Manaslu Region card image.jpg",
-      "title": "Manaslu region card image",
-      "category": "Peaks"
-    },
-    {
-      "file": "Manaslu Region card image.webp",
-      "title": "Manaslu region card image",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-02.jpg",
-      "title": "Manaslu Circuit Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-02.webp",
-      "title": "Manaslu Circuit Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-02.jpg",
-      "title": "Manaslu Circuit Trek 12 Days 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-02.webp",
-      "title": "Manaslu Circuit Trek 12 Days 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly-02.jpg",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly-02.webp",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly.jpg",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly.webp",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days.jpg",
-      "title": "Manaslu Circuit Trek 12 Days",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days.webp",
-      "title": "Manaslu Circuit Trek 12 Days",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo-02.jpg",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo-02.webp",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo.jpg",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo.webp",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-budhi-gandaki-trail.webp",
-      "title": "Manaslu Circuit Trek Budhi Gandaki Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-02.jpg",
-      "title": "Manaslu Circuit Trek Guide 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-02.webp",
-      "title": "Manaslu Circuit Trek Guide 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-03.jpg",
-      "title": "Manaslu Circuit Trek Guide 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-03.webp",
-      "title": "Manaslu Circuit Trek Guide 03",
-      "category": "Peaks"
+        "file": "gallery/manaslu/manaslu-expedition-007.webp",
+        "title": "Sacred Buddhist Mani Prayer Stones along the High Alpine Route",
+        "category": "Heritage"
     }
-  ],
+],
   "tsum": [
     {
       "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
@@ -38897,882 +38495,78 @@ function setupTrekPhotoGallery() {
   ],
   "manaslu-circuit-trek": [
     {
-      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
-      "type": "video",
-      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-004.webp",
+        "title": "Turquoise Birendra Tal Glacial Lake Beneath Mt Manaslu Peak (8,163m)",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-006.webp",
+        "title": "Ancient Buddhist Mani Wall Trail Beneath Soaring Mt Manaslu",
+        "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-001.webp",
+        "title": "Traditional Mountain Tea at Historic Tibetan Buddhist Monastery Courtyard",
+        "category": "Heritage"
     },
     {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-005.webp",
+        "title": "Trekkers and Sherpa Guide Trekking in Fresh Snow with Himalayan Giants",
+        "category": "Trail"
     },
     {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-002.webp",
+        "title": "Crossing High Alpine Wooden Bridge Over Rushing Glacial Stream",
+        "category": "Trail"
     },
     {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-003.webp",
+        "title": "Warm Cultural Encounter with Local Children in Remote Mountain Village",
+        "category": "Villages"
     },
     {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-001.webp",
-      "title": "Manaslu Expedition 001",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-002.webp",
-      "title": "Manaslu Expedition 002",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-003.webp",
-      "title": "Manaslu Expedition 003",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-004.webp",
-      "title": "Manaslu Expedition 004",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-005.webp",
-      "title": "Manaslu Expedition 005",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-006.webp",
-      "title": "Manaslu Expedition 006",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-007.webp",
-      "title": "Manaslu Expedition 007",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-manaslu-circuit-trek-with-a-altitude-graph.jpg",
-      "title": "A Detailed Map Of The Manaslu Circuit Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-manaslu-circuit-trek-with-a-altitude-graph.webp",
-      "title": "A Detailed Map Of The Manaslu Circuit Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-manaslu-tsum-valley-trek-with-a-altitude-graph.webp",
-      "title": "A Detailed Map Of The Manaslu Tsum Valley Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks-02.jpg",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks-02.webp",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks.jpg",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks.webp",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-vs-manaslu-circuit.jpg",
-      "title": "Annapurna Circuit Vs Manaslu Circuit",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-vs-manaslu-circuit.webp",
-      "title": "Annapurna Circuit Vs Manaslu Circuit",
-      "category": "Peaks"
-    },
-    {
-      "file": "Manaslu Region card image.jpg",
-      "title": "Manaslu region card image",
-      "category": "Peaks"
-    },
-    {
-      "file": "Manaslu Region card image.webp",
-      "title": "Manaslu region card image",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-02.jpg",
-      "title": "Manaslu Circuit Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-02.webp",
-      "title": "Manaslu Circuit Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-02.jpg",
-      "title": "Manaslu Circuit Trek 12 Days 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-02.webp",
-      "title": "Manaslu Circuit Trek 12 Days 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly-02.jpg",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly-02.webp",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly.jpg",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly.webp",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days.jpg",
-      "title": "Manaslu Circuit Trek 12 Days",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days.webp",
-      "title": "Manaslu Circuit Trek 12 Days",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo-02.jpg",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo-02.webp",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo.jpg",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo.webp",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-budhi-gandaki-trail.webp",
-      "title": "Manaslu Circuit Trek Budhi Gandaki Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-02.jpg",
-      "title": "Manaslu Circuit Trek Guide 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-02.webp",
-      "title": "Manaslu Circuit Trek Guide 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-03.jpg",
-      "title": "Manaslu Circuit Trek Guide 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-03.webp",
-      "title": "Manaslu Circuit Trek Guide 03",
-      "category": "Peaks"
+        "file": "gallery/manaslu/manaslu-expedition-007.webp",
+        "title": "Sacred Buddhist Mani Prayer Stones along the High Alpine Route",
+        "category": "Heritage"
     }
-  ],
+],
   "manaslu-circuit-trek-12-days": [
     {
-      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
-      "type": "video",
-      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-004.webp",
+        "title": "Turquoise Birendra Tal Glacial Lake Beneath Mt Manaslu Peak (8,163m)",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-006.webp",
+        "title": "Ancient Buddhist Mani Wall Trail Beneath Soaring Mt Manaslu",
+        "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-001.webp",
+        "title": "Traditional Mountain Tea at Historic Tibetan Buddhist Monastery Courtyard",
+        "category": "Heritage"
     },
     {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-005.webp",
+        "title": "Trekkers and Sherpa Guide Trekking in Fresh Snow with Himalayan Giants",
+        "category": "Trail"
     },
     {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-002.webp",
+        "title": "Crossing High Alpine Wooden Bridge Over Rushing Glacial Stream",
+        "category": "Trail"
     },
     {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-003.webp",
+        "title": "Warm Cultural Encounter with Local Children in Remote Mountain Village",
+        "category": "Villages"
     },
     {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-001.webp",
-      "title": "Manaslu Expedition 001",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-002.webp",
-      "title": "Manaslu Expedition 002",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-003.webp",
-      "title": "Manaslu Expedition 003",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-004.webp",
-      "title": "Manaslu Expedition 004",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-005.webp",
-      "title": "Manaslu Expedition 005",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-006.webp",
-      "title": "Manaslu Expedition 006",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/manaslu/manaslu-expedition-007.webp",
-      "title": "Manaslu Expedition 007",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-manaslu-circuit-trek-with-a-altitude-graph.jpg",
-      "title": "A Detailed Map Of The Manaslu Circuit Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-manaslu-circuit-trek-with-a-altitude-graph.webp",
-      "title": "A Detailed Map Of The Manaslu Circuit Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detailed-map-of-the-manaslu-tsum-valley-trek-with-a-altitude-graph.webp",
-      "title": "A Detailed Map Of The Manaslu Tsum Valley Trek With A Altitude Graph",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks-02.jpg",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks-02.webp",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks.jpg",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-glimpse-of-a-beautiful-monastery-from-the-manaslu-trek-in-nepal-by-igloo-himalay-treks.webp",
-      "title": "A Glimpse Of A Beautiful Monastery From The Manaslu Trek In Nepal By Igloo Himalay Treks",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-vs-manaslu-circuit.jpg",
-      "title": "Annapurna Circuit Vs Manaslu Circuit",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-vs-manaslu-circuit.webp",
-      "title": "Annapurna Circuit Vs Manaslu Circuit",
-      "category": "Peaks"
-    },
-    {
-      "file": "Manaslu Region card image.jpg",
-      "title": "Manaslu region card image",
-      "category": "Peaks"
-    },
-    {
-      "file": "Manaslu Region card image.webp",
-      "title": "Manaslu region card image",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-02.jpg",
-      "title": "Manaslu Circuit Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-02.webp",
-      "title": "Manaslu Circuit Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-02.jpg",
-      "title": "Manaslu Circuit Trek 12 Days 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-02.webp",
-      "title": "Manaslu Circuit Trek 12 Days 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly-02.jpg",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly-02.webp",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly.jpg",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days-budget-friendly.webp",
-      "title": "Manaslu Circuit Trek 12 Days Budget Friendly",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days.jpg",
-      "title": "Manaslu Circuit Trek 12 Days",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-12-days.webp",
-      "title": "Manaslu Circuit Trek 12 Days",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo-02.jpg",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo-02.webp",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo.jpg",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-14-days-itinerary-and-cost-igloo.webp",
-      "title": "Manaslu Circuit Trek 14 Days Itinerary And Cost Igloo",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-budhi-gandaki-trail.webp",
-      "title": "Manaslu Circuit Trek Budhi Gandaki Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-02.jpg",
-      "title": "Manaslu Circuit Trek Guide 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-02.webp",
-      "title": "Manaslu Circuit Trek Guide 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-03.jpg",
-      "title": "Manaslu Circuit Trek Guide 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "manaslu-circuit-trek-guide-03.webp",
-      "title": "Manaslu Circuit Trek Guide 03",
-      "category": "Peaks"
+        "file": "gallery/manaslu/manaslu-expedition-007.webp",
+        "title": "Sacred Buddhist Mani Prayer Stones along the High Alpine Route",
+        "category": "Heritage"
     }
-  ],
+],
   "manaslu-tsum-valley-trek": [
     {
       "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
@@ -56953,258 +55747,41 @@ function setupTrekPhotoGallery() {
   ],
   "manaslu-12": [
     {
-      "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
-      "type": "video",
-      "title": "Manaslu Circuit Trek & Larkya La Pass (5,106m) Wilderness Trail",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-004.webp",
+        "title": "Turquoise Birendra Tal Glacial Lake Beneath Mt Manaslu Peak (8,163m)",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-006.webp",
+        "title": "Ancient Buddhist Mani Wall Trail Beneath Soaring Mt Manaslu",
+        "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-001.webp",
+        "title": "Traditional Mountain Tea at Historic Tibetan Buddhist Monastery Courtyard",
+        "category": "Heritage"
     },
     {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-005.webp",
+        "title": "Trekkers and Sherpa Guide Trekking in Fresh Snow with Himalayan Giants",
+        "category": "Trail"
     },
     {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-002.webp",
+        "title": "Crossing High Alpine Wooden Bridge Over Rushing Glacial Stream",
+        "category": "Trail"
     },
     {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-003.webp",
+        "title": "Warm Cultural Encounter with Local Children in Remote Mountain Village",
+        "category": "Villages"
     },
     {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
+        "file": "gallery/manaslu/manaslu-expedition-007.webp",
+        "title": "Sacred Buddhist Mani Prayer Stones along the High Alpine Route",
+        "category": "Heritage"
     }
-  ],
+],
   "manaslu-tsum": [
     {
       "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
@@ -58522,7 +57099,7 @@ function setupTrekPhotoGallery() {
 
   // 1. First collect all authentic photos directly present on this package's page (Hero collage, itinerary, details)
   const pagePhotos = [];
-  if (matchedKey !== 'annapurna-base-camp-trek-via-poon-hill' && matchedKey !== 'poonhill' && matchedKey !== 'short-annapurna-base-camp-trek' && matchedKey !== 'abc' && matchedKey !== 'annapurna-circuit-trek' && matchedKey !== 'annapurna_circuit' && matchedKey !== 'classic-annapurna-circuit-trek' && matchedKey !== 'classic_annapurna_circuit') {
+  if (matchedKey !== 'annapurna-base-camp-trek-via-poon-hill' && matchedKey !== 'poonhill' && matchedKey !== 'short-annapurna-base-camp-trek' && matchedKey !== 'abc' && matchedKey !== 'annapurna-circuit-trek' && matchedKey !== 'annapurna_circuit' && matchedKey !== 'classic-annapurna-circuit-trek' && matchedKey !== 'classic_annapurna_circuit' && matchedKey !== 'manaslu' && matchedKey !== 'manaslu-circuit-trek' && matchedKey !== 'manaslu-circuit-trek-12-days') {
     const pageDomImgs = document.querySelectorAll('.trek-gallery-collage img, #section-itinerary img, #section-overview img, #section-highlights img, #section-details img');
     pageDomImgs.forEach((img, idx) => {
       const src = img.getAttribute('src');
@@ -58596,7 +57173,7 @@ function setupTrekPhotoGallery() {
   }
 
   // Combine page photos (priority) + full curated expedition photos & videos
-  if (matchedKey === 'annapurna-base-camp-trek-via-poon-hill' || matchedKey === 'poonhill' || matchedKey === 'short-annapurna-base-camp-trek' || matchedKey === 'abc' || matchedKey === 'annapurna-circuit-trek' || matchedKey === 'annapurna_circuit' || matchedKey === 'classic-annapurna-circuit-trek' || matchedKey === 'classic_annapurna_circuit') {
+  if (matchedKey === 'annapurna-base-camp-trek-via-poon-hill' || matchedKey === 'poonhill' || matchedKey === 'short-annapurna-base-camp-trek' || matchedKey === 'abc' || matchedKey === 'annapurna-circuit-trek' || matchedKey === 'annapurna_circuit' || matchedKey === 'classic-annapurna-circuit-trek' || matchedKey === 'classic_annapurna_circuit' || matchedKey === 'manaslu' || matchedKey === 'manaslu-circuit-trek' || matchedKey === 'manaslu-circuit-trek-12-days') {
     activePhotos = registryPhotos;
   } else {
     activePhotos = [...pagePhotos, ...registryPhotos];
