@@ -21115,945 +21115,562 @@ function setupTrekPhotoGallery() {
     }
   ],
   "annapurna-circuit-trek": [
-    {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
-      "type": "video",
-      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-001.webp",
-      "title": "Act 14 Expedition 001",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-002.webp",
-      "title": "Act 14 Expedition 002",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-003.webp",
-      "title": "Act 14 Expedition 003",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-004.webp",
-      "title": "Act 14 Expedition 004",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-005.webp",
-      "title": "Act 14 Expedition 005",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-006.webp",
-      "title": "Act 14 Expedition 006",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-008.webp",
-      "title": "Act 14 Expedition 008",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-009.webp",
-      "title": "Act 14 Expedition 009",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-010.webp",
-      "title": "Act 14 Expedition 010",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-011.webp",
-      "title": "Act 14 Expedition 011",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-012.webp",
-      "title": "Act 14 Expedition 012",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-013.webp",
-      "title": "Act 14 Expedition 013",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-014.webp",
-      "title": "Act 14 Expedition 014",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-015.webp",
-      "title": "Act 14 Expedition 015",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-016.webp",
-      "title": "Act 14 Expedition 016",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-017.webp",
-      "title": "Act 14 Expedition 017",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-018.webp",
-      "title": "Act 14 Expedition 018",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-019.webp",
-      "title": "Act 14 Expedition 019",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-020.webp",
-      "title": "Act 14 Expedition 020",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-021.webp",
-      "title": "Act 14 Expedition 021",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-022.webp",
-      "title": "Act 14 Expedition 022",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-023.webp",
-      "title": "Act 14 Expedition 023",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-024.webp",
-      "title": "Act 14 Expedition 024",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-025.webp",
-      "title": "Act 14 Expedition 025",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-026.webp",
-      "title": "Act 14 Expedition 026",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-027.webp",
-      "title": "Act 14 Expedition 027",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-028.webp",
-      "title": "Act 14 Expedition 028",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-029.webp",
-      "title": "Act 14 Expedition 029",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-030.webp",
-      "title": "Act 14 Expedition 030",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-031.webp",
-      "title": "Act 14 Expedition 031",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-032.webp",
-      "title": "Act 14 Expedition 032",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-033.webp",
-      "title": "Act 14 Expedition 033",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-034.webp",
-      "title": "Act 14 Expedition 034",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-035.webp",
-      "title": "Act 14 Expedition 035",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-036.webp",
-      "title": "Act 14 Expedition 036",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-037.webp",
-      "title": "Act 14 Expedition 037",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-038.webp",
-      "title": "Act 14 Expedition 038",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-039.webp",
-      "title": "Act 14 Expedition 039",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-040.webp",
-      "title": "Act 14 Expedition 040",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-041.webp",
-      "title": "Act 14 Expedition 041",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-042.webp",
-      "title": "Act 14 Expedition 042",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-043.webp",
-      "title": "Act 14 Expedition 043",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-044.webp",
-      "title": "Act 14 Expedition 044",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-045.webp",
-      "title": "Act 14 Expedition 045",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-046.webp",
-      "title": "Act 14 Expedition 046",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-047.webp",
-      "title": "Act 14 Expedition 047",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-048.webp",
-      "title": "Act 14 Expedition 048",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-049.webp",
-      "title": "Act 14 Expedition 049",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-050.webp",
-      "title": "Act 14 Expedition 050",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-051.webp",
-      "title": "Act 14 Expedition 051",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-052.webp",
-      "title": "Act 14 Expedition 052",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-053.webp",
-      "title": "Act 14 Expedition 053",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-054.webp",
-      "title": "Act 14 Expedition 054",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-055.webp",
-      "title": "Act 14 Expedition 055",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-056.webp",
-      "title": "Act 14 Expedition 056",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-057.webp",
-      "title": "Act 14 Expedition 057",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-058.webp",
-      "title": "Act 14 Expedition 058",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-059.webp",
-      "title": "Act 14 Expedition 059",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-060.webp",
-      "title": "Act 14 Expedition 060",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-061.webp",
-      "title": "Act 14 Expedition 061",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-062.webp",
-      "title": "Act 14 Expedition 062",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-063.webp",
-      "title": "Act 14 Expedition 063",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-064.webp",
-      "title": "Act 14 Expedition 064",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-065.webp",
-      "title": "Act 14 Expedition 065",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-066.webp",
-      "title": "Act 14 Expedition 066",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-067.webp",
-      "title": "Act 14 Expedition 067",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-068.webp",
-      "title": "Act 14 Expedition 068",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-069.webp",
-      "title": "Act 14 Expedition 069",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-070.webp",
-      "title": "Act 14 Expedition 070",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-071.webp",
-      "title": "Act 14 Expedition 071",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-072.webp",
-      "title": "Act 14 Expedition 072",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-073.webp",
-      "title": "Act 14 Expedition 073",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-074.webp",
-      "title": "Act 14 Expedition 074",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-075.webp",
-      "title": "Act 14 Expedition 075",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-076.webp",
-      "title": "Act 14 Expedition 076",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-077.webp",
-      "title": "Act 14 Expedition 077",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-078.webp",
-      "title": "Act 14 Expedition 078",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-079.webp",
-      "title": "Act 14 Expedition 079",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-080.webp",
-      "title": "Act 14 Expedition 080",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-081.webp",
-      "title": "Act 14 Expedition 081",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-082.webp",
-      "title": "Act 14 Expedition 082",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-083.webp",
-      "title": "Act 14 Expedition 083",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-084.webp",
-      "title": "Act 14 Expedition 084",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-085.webp",
-      "title": "Act 14 Expedition 085",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-086.webp",
-      "title": "Act 14 Expedition 086",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-087.webp",
-      "title": "Act 14 Expedition 087",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-088.webp",
-      "title": "Act 14 Expedition 088",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-089.webp",
-      "title": "Act 14 Expedition 089",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-090.webp",
-      "title": "Act 14 Expedition 090",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-091.webp",
-      "title": "Act 14 Expedition 091",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-092.webp",
-      "title": "Act 14 Expedition 092",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-093.webp",
-      "title": "Act 14 Expedition 093",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-094.webp",
-      "title": "Act 14 Expedition 094",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-095.webp",
-      "title": "Act 14 Expedition 095",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-096.webp",
-      "title": "Act 14 Expedition 096",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-097.webp",
-      "title": "Act 14 Expedition 097",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-098.webp",
-      "title": "Act 14 Expedition 098",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-099.webp",
-      "title": "Act 14 Expedition 099",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-100.webp",
-      "title": "Act 14 Expedition 100",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-101.webp",
-      "title": "Act 14 Expedition 101",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-102.webp",
-      "title": "Act 14 Expedition 102",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-103.webp",
-      "title": "Act 14 Expedition 103",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-104.webp",
-      "title": "Act 14 Expedition 104",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-105.webp",
-      "title": "Act 14 Expedition 105",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-106.webp",
-      "title": "Act 14 Expedition 106",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-107.webp",
-      "title": "Act 14 Expedition 107",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-108.webp",
-      "title": "Act 14 Expedition 108",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-109.webp",
-      "title": "Act 14 Expedition 109",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-110.webp",
-      "title": "Act 14 Expedition 110",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-111.webp",
-      "title": "Act 14 Expedition 111",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-112.webp",
-      "title": "Act 14 Expedition 112",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detail-map-of-annapurna-circuit-trek-showing-checkpoints-with-landmarks-along-with-a-alt.jpg",
-      "title": "A Detail Map Of Annapurna Circuit Trek Showing Checkpoints With Landmarks Along With A Alt",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detail-map-of-annapurna-circuit-trek-showing-checkpoints-with-landmarks-along-with-a-alt.webp",
-      "title": "A Detail Map Of Annapurna Circuit Trek Showing Checkpoints With Landmarks Along With A Alt",
-      "category": "Peaks"
-    },
-    {
-      "file": "act-14-gallery-braga-ancient-monastery.webp",
-      "title": "Act 14 Gallery Braga Ancient Monastery",
-      "category": "Heritage"
-    },
-    {
-      "file": "act-14-gallery-chame-pine-forests.webp",
-      "title": "Act 14 Gallery Chame Pine Forests",
-      "category": "Trail"
-    },
-    {
-      "file": "act-14-gallery-manang-valley-horses.webp",
-      "title": "Act 14 Gallery Manang Valley Horses",
-      "category": "Trail"
-    },
-    {
-      "file": "act-14-gallery-muktinath-temple-shrines.webp",
-      "title": "Act 14 Gallery Muktinath Temple Shrines",
-      "category": "Heritage"
-    },
-    {
-      "file": "act-14-gallery-tal-waterfall-entrance.webp",
-      "title": "Act 14 Gallery Tal Waterfall Entrance",
-      "category": "Trail"
-    },
-    {
-      "file": "act-14-gallery-thorong-la-summit-sign.webp",
-      "title": "Act 14 Gallery Thorong La Summit Sign",
-      "category": "Peaks"
-    },
-    {
-      "file": "act-14-gallery-thorong-phedi-base.webp",
-      "title": "Act 14 Gallery Thorong Phedi Base",
-      "category": "Trail"
-    },
-    {
-      "file": "act-14-gallery-yak-kharka-alpine-pasture.webp",
-      "title": "Act 14 Gallery Yak Kharka Alpine Pasture",
-      "category": "Wildlife"
-    },
-    {
-      "file": "annapurna-circuit-14-days-manang-chortens.webp",
-      "title": "Annapurna Circuit 14 Days Manang Chortens",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-14-days-marsyangdi-forest.webp",
-      "title": "Annapurna Circuit 14 Days Marsyangdi Forest",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-14-days-thorong-la-pass-crossing.webp",
-      "title": "Annapurna Circuit 14 Days Thorong La Pass Crossing",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-14-days-thorong-phedi-ascent.webp",
-      "title": "Annapurna Circuit 14 Days Thorong Phedi Ascent",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-14-days-upper-pisang-panorama.webp",
-      "title": "Annapurna Circuit 14 Days Upper Pisang Panorama",
-      "category": "Panoramas"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-02.jpg",
-      "title": "Annapurna Circuit Luxury Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-02.webp",
-      "title": "Annapurna Circuit Luxury Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-03.jpg",
-      "title": "Annapurna Circuit Luxury Trek 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-03.webp",
-      "title": "Annapurna Circuit Luxury Trek 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-04.jpg",
-      "title": "Annapurna Circuit Luxury Trek 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-04.webp",
-      "title": "Annapurna Circuit Luxury Trek 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-05.jpg",
-      "title": "Annapurna Circuit Luxury Trek 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-05.webp",
-      "title": "Annapurna Circuit Luxury Trek 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-06.jpg",
-      "title": "Annapurna Circuit Luxury Trek 06",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-06.webp",
-      "title": "Annapurna Circuit Luxury Trek 06",
-      "category": "Peaks"
-    }
-  ],
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-026.webp",
+    "title": "Annapurna Mountain Range Framed by Pines and Prayer Flags",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-029.webp",
+    "title": "Turquoise Waters of Gangapurna Glacial Lake in Manang",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-031.webp",
+    "title": "Thorong La Pass (5,416m) Summit Landmark with Prayer Flags",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-035.webp",
+    "title": "High Alpine Expanse of Manang Valley Under Radiant Sun",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-033.webp",
+    "title": "Muktinath Gateway Guardian Lions and Snow-Capped Peaks",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-036.webp",
+    "title": "Traditional Tibetan White Stupa Beneath Annapurna Summits",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-107.webp",
+    "title": "Spectacular Panorama of Annapurna II and IV from Upper Pisang",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-108.webp",
+    "title": "Wide Angle Mountain View of Manang Valley and Snow Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-052.webp",
+    "title": "Monumental Curved Rock Face of Paungda Danda (Swarga Dwar)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-065.webp",
+    "title": "Glacial Amphitheater and Ice Seracs of Gangapurna Glacier",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-001.webp",
+    "title": "Tal Waterfall Cascading into the Deep Marsyangdi Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-002.webp",
+    "title": "Spectacular Alpine Waterfalls Along the Annapurna Trail",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-003.webp",
+    "title": "Marsyangdi River Valley Wide Pebble Beach and Forest Cliffs",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-004.webp",
+    "title": "River Confluence Along the Winding Marsyangdi Trekking Route",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-005.webp",
+    "title": "Lush Green Himalayan Valley Approach to Dharapani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-006.webp",
+    "title": "Traditional Stone and Timber Teahouses at Bagarchhap",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-008.webp",
+    "title": "Expedition Trekkers Gathered Outside Hotel Shangri-La",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-009.webp",
+    "title": "Trekking Group Preparing for the Ascent to Chame",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-010.webp",
+    "title": "Trekkers Ready for High Altitude Journey in Manang District",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-011.webp",
+    "title": "Scenic Teahouses Framed by High Himalayan Precipices",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-012.webp",
+    "title": "High Trail Crossing Rocky Scree Beneath Towering Cliffs",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-013.webp",
+    "title": "Subalpine Pine Forest Trail Between Chame and Pisang",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-014.webp",
+    "title": "Dense Himalayan Pine Woodlands with Snow Peak Vistas Ahead",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-015.webp",
+    "title": "Deep Marsyangdi River Canyon Carved Through Ancient Rock",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-016.webp",
+    "title": "Trekkers Hiking Open Gravel Path into Upper Manang Valley",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-017.webp",
+    "title": "Steep Rocky Valley Walls Ascending Toward Upper Pisang",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-018.webp",
+    "title": "Ancient Wooden Fences and Trail Borders Near Pisang",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-019.webp",
+    "title": "Paved Trail Flanked by Buddhist Prayer Flags and Cliffs",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-020.webp",
+    "title": "First Glimpse of the Snow-Crowned Annapurna Massif",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-021.webp",
+    "title": "Winding Forest Path Leading to Upper Pisang Viewpoint",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-022.webp",
+    "title": "Trekking Team Celebrating with Tibetan Prayer Flags",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-023.webp",
+    "title": "Trekkers Pausing for Mountain Vistas in Upper Pisang",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-024.webp",
+    "title": "Expedition Group Enjoying Spectacular Annapurna Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-025.webp",
+    "title": "Trekkers Framed by Snow Peaks and Buddhist Prayer Flags",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-027.webp",
+    "title": "Trekkers Admiring 360-Degree Mountain Cirque from High Ridge",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-028.webp",
+    "title": "Buddhist Stone Chorten and Ridge Path Overlooking Valley",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-030.webp",
+    "title": "Trekkers Celebrating at Thorong La Pass Summit (5,416m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-032.webp",
+    "title": "Ancient Pagoda Temple Complex at Sacred Muktinath (3,800m)",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-034.webp",
+    "title": "Trekking Group Celebrating Successful High Pass Crossing",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-037.webp",
+    "title": "Trekkers on High Ridge Viewpoint Overlooking Dhaulagiri Range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-038.webp",
+    "title": "Panoramic Horizon of High Himalayan Giants from Thorong Ridge",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-039.webp",
+    "title": "Trekker Gazing Across the Vast Himalayan High Alpine Terrain",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-040.webp",
+    "title": "Trekkers Sharing Smiles High on the Annapurna Mountain Route",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-041.webp",
+    "title": "Trekking Companions Celebrating at Mountain Viewpoint",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-042.webp",
+    "title": "High Altitude Trekkers Equipped for Thorong La Crossing",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-043.webp",
+    "title": "Guides and Trekkers Resting on Sunny Alpine Path",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-044.webp",
+    "title": "Trekking Team on Alpine Slopes with Snow Peaks Behind",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-045.webp",
+    "title": "Ascending Dry Alpine Switchbacks Toward Yak Kharka",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-046.webp",
+    "title": "Trekkers on Arid High Altitude Trail of Manang District",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-047.webp",
+    "title": "Spectacular High Altitude Mountain Pass Ridge Walk",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-048.webp",
+    "title": "Silhouetted Trekker on Mountain Crest Under Brilliant Sun",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-049.webp",
+    "title": "Whitewashed Tibetan Village of Jharkot Clinging to Cliff",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-050.webp",
+    "title": "Trekkers Enjoying Evening Dinner at Mountain Lodge",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-051.webp",
+    "title": "Trekking Companions in Front of Himalayan Alpine Store",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-053.webp",
+    "title": "Trekker Gazing Through Pines at Annapurna South Face",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-054.webp",
+    "title": "Trekkers on Scenic Viewpoint Above Manang Valley",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-055.webp",
+    "title": "Himalayan Forest Canopy Framing Snowy Alpine Summits",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-056.webp",
+    "title": "Joyful Trekkers Resting in Crisp Himalayan Mountain Air",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-057.webp",
+    "title": "Trekkers Smiling with Towering Mountain Wall Behind",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-058.webp",
+    "title": "Trekking Partners Enjoying Scenic Mountain Panorama",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-059.webp",
+    "title": "Sherpa Guide Leading the Trail Through High Manang Valley",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-060.webp",
+    "title": "Arid Scree Slopes and Moraine Valley of High Altitude Manang",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-061.webp",
+    "title": "Deep Carved Glacial Canyon Leading Toward Thorong Phedi",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-062.webp",
+    "title": "Gangapurna Glacial Lake and Ancient Moraine Ramparts",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-063.webp",
+    "title": "Trekkers Standing by the Shore of Glacial Gangapurna Lake",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-064.webp",
+    "title": "Trekking Team in Front of Towering Glacial Terminal Moraine",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-066.webp",
+    "title": "Vast Glacial Outwash Plain Beneath Snow Peaks in Manang",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-067.webp",
+    "title": "Historic Tibetan Monastery Courtyard in Kagbeni",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-068.webp",
+    "title": "Ancient Multi-Story Monastery Architecture in Lower Mustang",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-069.webp",
+    "title": "Trekkers on High Alpine Ridge with Fluttering Prayer Flags",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-070.webp",
+    "title": "Deep V-Shaped Kali Gandaki River Valley Horizon",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-071.webp",
+    "title": "Steep Scree Slopes and Landslide Bluffs Above River",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-072.webp",
+    "title": "Trekker at Sacred Shrine of Muktinath Pilgrimage Center",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-073.webp",
+    "title": "Sacred Golden Hindu and Buddhist Statues Inside Shrine",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-074.webp",
+    "title": "Approaching Historic Stone Alleyways of Kagbeni Village",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-075.webp",
+    "title": "Trekkers Exploring Ancient Stone Paved Streets in Marpha",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-076.webp",
+    "title": "Traditional Mud-Brick and Stone Himalayan Alleys",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-077.webp",
+    "title": "Tibetan Architecture and Prayer Flags in Marpha Village",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-078.webp",
+    "title": "Hikers Traversing Kali Gandaki River Road Toward Jomsom",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-079.webp",
+    "title": "Golden Pinnacle of Swayambhunath Stupa with Prayer Flags",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-080.webp",
+    "title": "Suspension Footbridge High Above Marsyangdi River Torrent",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-081.webp",
+    "title": "Trekkers Pausing along Narrow Forest Trail in Annapurna",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-082.webp",
+    "title": "Hiking Partners on Scenic Forest Trail near Dharapani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-083.webp",
+    "title": "Traditional Welcome Gate to Annapurna Conservation Area",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-084.webp",
+    "title": "Terraced Hillsides and Cluster of Traditional Farmhouses",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-085.webp",
+    "title": "Mountain River Valley Settlement Surrounded by Green Peaks",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-086.webp",
+    "title": "Trekkers Ascending Stone Stairs in Riverside Settlement",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-087.webp",
+    "title": "Scenic Gorge Trail Crossing Mountain Waterfall Stream",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-088.webp",
+    "title": "Porters and Trekkers on Winding Riverside Footpath",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-089.webp",
+    "title": "Rocky Gorge Pathway Between Jagat and Chamje",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-090.webp",
+    "title": "Trekkers Walking on Suspension Bridge Above River Rapids",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-091.webp",
+    "title": "Local Porters Navigating Steep Rock Trail with Expedition Gear",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-092.webp",
+    "title": "Terraced Fields of Lower Annapurna Valley in Morning Light",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-093.webp",
+    "title": "Cascading Mountain Torrent Flowing Over Giant Boulders",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-094.webp",
+    "title": "Wooden Suspension Bridge Stretching Across Deep River Chasm",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-095.webp",
+    "title": "High Altitude Teahouses Resting on Mountain Shoulder",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-096.webp",
+    "title": "Trekkers Following Scenic River Trail Near Chame",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-097.webp",
+    "title": "Himalayan Forest Path with Glimpse of Distant Snow Peaks",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-098.webp",
+    "title": "Steep Canyon Rock Wall Towering Above Trekkers",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-099.webp",
+    "title": "Mountain Village Terrace Overlooking Marsyangdi River",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-100.webp",
+    "title": "Trekkers Approaching Historic Stone Archway of Village",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-101.webp",
+    "title": "Traditional Hand-Carved Wooden Windows of Mountain Lodge",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-102.webp",
+    "title": "Rocky Pathway Ascending into Subalpine Rhododendron Woods",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-103.webp",
+    "title": "Clear Alpine Creek Crossing via Flat Stepping Stones",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-104.webp",
+    "title": "Trekkers Pausing to Hydrate by Fresh Himalayan Mountain Spring",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-105.webp",
+    "title": "Scenic Viewpoint Overlooking Lower Marsyangdi Valley",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-106.webp",
+    "title": "Mountain Lodge Dining Room Atmosphere with Warm Himalayan Stove",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-109.webp",
+    "title": "Prayer Wheels and Mani Wall Along Ancient Pilgrimage Route",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-110.webp",
+    "title": "Trekkers Navigating the High Switchbacks of Thorong Phedi",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-111.webp",
+    "title": "Golden Hour Glow Over the Rugged Cliffs of Kali Gandaki",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-112.webp",
+    "title": "Celebrating the Completion of the Epic Annapurna Circuit",
+    "category": "Trail"
+  }
+],
   "annapurna-circuit-with-tilicho-lake": [
     {
       "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
@@ -51271,265 +50888,562 @@ function setupTrekPhotoGallery() {
     }
   ],
   "annapurna_circuit": [
-    {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
-      "type": "video",
-      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    }
-  ],
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-026.webp",
+    "title": "Annapurna Mountain Range Framed by Pines and Prayer Flags",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-029.webp",
+    "title": "Turquoise Waters of Gangapurna Glacial Lake in Manang",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-031.webp",
+    "title": "Thorong La Pass (5,416m) Summit Landmark with Prayer Flags",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-035.webp",
+    "title": "High Alpine Expanse of Manang Valley Under Radiant Sun",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-033.webp",
+    "title": "Muktinath Gateway Guardian Lions and Snow-Capped Peaks",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-036.webp",
+    "title": "Traditional Tibetan White Stupa Beneath Annapurna Summits",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-107.webp",
+    "title": "Spectacular Panorama of Annapurna II and IV from Upper Pisang",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-108.webp",
+    "title": "Wide Angle Mountain View of Manang Valley and Snow Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-052.webp",
+    "title": "Monumental Curved Rock Face of Paungda Danda (Swarga Dwar)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-065.webp",
+    "title": "Glacial Amphitheater and Ice Seracs of Gangapurna Glacier",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-001.webp",
+    "title": "Tal Waterfall Cascading into the Deep Marsyangdi Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-002.webp",
+    "title": "Spectacular Alpine Waterfalls Along the Annapurna Trail",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-003.webp",
+    "title": "Marsyangdi River Valley Wide Pebble Beach and Forest Cliffs",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-004.webp",
+    "title": "River Confluence Along the Winding Marsyangdi Trekking Route",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-005.webp",
+    "title": "Lush Green Himalayan Valley Approach to Dharapani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-006.webp",
+    "title": "Traditional Stone and Timber Teahouses at Bagarchhap",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-008.webp",
+    "title": "Expedition Trekkers Gathered Outside Hotel Shangri-La",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-009.webp",
+    "title": "Trekking Group Preparing for the Ascent to Chame",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-010.webp",
+    "title": "Trekkers Ready for High Altitude Journey in Manang District",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-011.webp",
+    "title": "Scenic Teahouses Framed by High Himalayan Precipices",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-012.webp",
+    "title": "High Trail Crossing Rocky Scree Beneath Towering Cliffs",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-013.webp",
+    "title": "Subalpine Pine Forest Trail Between Chame and Pisang",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-014.webp",
+    "title": "Dense Himalayan Pine Woodlands with Snow Peak Vistas Ahead",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-015.webp",
+    "title": "Deep Marsyangdi River Canyon Carved Through Ancient Rock",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-016.webp",
+    "title": "Trekkers Hiking Open Gravel Path into Upper Manang Valley",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-017.webp",
+    "title": "Steep Rocky Valley Walls Ascending Toward Upper Pisang",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-018.webp",
+    "title": "Ancient Wooden Fences and Trail Borders Near Pisang",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-019.webp",
+    "title": "Paved Trail Flanked by Buddhist Prayer Flags and Cliffs",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-020.webp",
+    "title": "First Glimpse of the Snow-Crowned Annapurna Massif",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-021.webp",
+    "title": "Winding Forest Path Leading to Upper Pisang Viewpoint",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-022.webp",
+    "title": "Trekking Team Celebrating with Tibetan Prayer Flags",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-023.webp",
+    "title": "Trekkers Pausing for Mountain Vistas in Upper Pisang",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-024.webp",
+    "title": "Expedition Group Enjoying Spectacular Annapurna Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-025.webp",
+    "title": "Trekkers Framed by Snow Peaks and Buddhist Prayer Flags",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-027.webp",
+    "title": "Trekkers Admiring 360-Degree Mountain Cirque from High Ridge",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-028.webp",
+    "title": "Buddhist Stone Chorten and Ridge Path Overlooking Valley",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-030.webp",
+    "title": "Trekkers Celebrating at Thorong La Pass Summit (5,416m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-032.webp",
+    "title": "Ancient Pagoda Temple Complex at Sacred Muktinath (3,800m)",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-034.webp",
+    "title": "Trekking Group Celebrating Successful High Pass Crossing",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-037.webp",
+    "title": "Trekkers on High Ridge Viewpoint Overlooking Dhaulagiri Range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-038.webp",
+    "title": "Panoramic Horizon of High Himalayan Giants from Thorong Ridge",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-039.webp",
+    "title": "Trekker Gazing Across the Vast Himalayan High Alpine Terrain",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-040.webp",
+    "title": "Trekkers Sharing Smiles High on the Annapurna Mountain Route",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-041.webp",
+    "title": "Trekking Companions Celebrating at Mountain Viewpoint",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-042.webp",
+    "title": "High Altitude Trekkers Equipped for Thorong La Crossing",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-043.webp",
+    "title": "Guides and Trekkers Resting on Sunny Alpine Path",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-044.webp",
+    "title": "Trekking Team on Alpine Slopes with Snow Peaks Behind",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-045.webp",
+    "title": "Ascending Dry Alpine Switchbacks Toward Yak Kharka",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-046.webp",
+    "title": "Trekkers on Arid High Altitude Trail of Manang District",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-047.webp",
+    "title": "Spectacular High Altitude Mountain Pass Ridge Walk",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-048.webp",
+    "title": "Silhouetted Trekker on Mountain Crest Under Brilliant Sun",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-049.webp",
+    "title": "Whitewashed Tibetan Village of Jharkot Clinging to Cliff",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-050.webp",
+    "title": "Trekkers Enjoying Evening Dinner at Mountain Lodge",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-051.webp",
+    "title": "Trekking Companions in Front of Himalayan Alpine Store",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-053.webp",
+    "title": "Trekker Gazing Through Pines at Annapurna South Face",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-054.webp",
+    "title": "Trekkers on Scenic Viewpoint Above Manang Valley",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-055.webp",
+    "title": "Himalayan Forest Canopy Framing Snowy Alpine Summits",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-056.webp",
+    "title": "Joyful Trekkers Resting in Crisp Himalayan Mountain Air",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-057.webp",
+    "title": "Trekkers Smiling with Towering Mountain Wall Behind",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-058.webp",
+    "title": "Trekking Partners Enjoying Scenic Mountain Panorama",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-059.webp",
+    "title": "Sherpa Guide Leading the Trail Through High Manang Valley",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-060.webp",
+    "title": "Arid Scree Slopes and Moraine Valley of High Altitude Manang",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-061.webp",
+    "title": "Deep Carved Glacial Canyon Leading Toward Thorong Phedi",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-062.webp",
+    "title": "Gangapurna Glacial Lake and Ancient Moraine Ramparts",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-063.webp",
+    "title": "Trekkers Standing by the Shore of Glacial Gangapurna Lake",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-064.webp",
+    "title": "Trekking Team in Front of Towering Glacial Terminal Moraine",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-066.webp",
+    "title": "Vast Glacial Outwash Plain Beneath Snow Peaks in Manang",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-067.webp",
+    "title": "Historic Tibetan Monastery Courtyard in Kagbeni",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-068.webp",
+    "title": "Ancient Multi-Story Monastery Architecture in Lower Mustang",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-069.webp",
+    "title": "Trekkers on High Alpine Ridge with Fluttering Prayer Flags",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-070.webp",
+    "title": "Deep V-Shaped Kali Gandaki River Valley Horizon",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-071.webp",
+    "title": "Steep Scree Slopes and Landslide Bluffs Above River",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-072.webp",
+    "title": "Trekker at Sacred Shrine of Muktinath Pilgrimage Center",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-073.webp",
+    "title": "Sacred Golden Hindu and Buddhist Statues Inside Shrine",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-074.webp",
+    "title": "Approaching Historic Stone Alleyways of Kagbeni Village",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-075.webp",
+    "title": "Trekkers Exploring Ancient Stone Paved Streets in Marpha",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-076.webp",
+    "title": "Traditional Mud-Brick and Stone Himalayan Alleys",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-077.webp",
+    "title": "Tibetan Architecture and Prayer Flags in Marpha Village",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-078.webp",
+    "title": "Hikers Traversing Kali Gandaki River Road Toward Jomsom",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-079.webp",
+    "title": "Golden Pinnacle of Swayambhunath Stupa with Prayer Flags",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-080.webp",
+    "title": "Suspension Footbridge High Above Marsyangdi River Torrent",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-081.webp",
+    "title": "Trekkers Pausing along Narrow Forest Trail in Annapurna",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-082.webp",
+    "title": "Hiking Partners on Scenic Forest Trail near Dharapani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-083.webp",
+    "title": "Traditional Welcome Gate to Annapurna Conservation Area",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-084.webp",
+    "title": "Terraced Hillsides and Cluster of Traditional Farmhouses",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-085.webp",
+    "title": "Mountain River Valley Settlement Surrounded by Green Peaks",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-086.webp",
+    "title": "Trekkers Ascending Stone Stairs in Riverside Settlement",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-087.webp",
+    "title": "Scenic Gorge Trail Crossing Mountain Waterfall Stream",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-088.webp",
+    "title": "Porters and Trekkers on Winding Riverside Footpath",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-089.webp",
+    "title": "Rocky Gorge Pathway Between Jagat and Chamje",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-090.webp",
+    "title": "Trekkers Walking on Suspension Bridge Above River Rapids",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-091.webp",
+    "title": "Local Porters Navigating Steep Rock Trail with Expedition Gear",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-092.webp",
+    "title": "Terraced Fields of Lower Annapurna Valley in Morning Light",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-093.webp",
+    "title": "Cascading Mountain Torrent Flowing Over Giant Boulders",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-094.webp",
+    "title": "Wooden Suspension Bridge Stretching Across Deep River Chasm",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-095.webp",
+    "title": "High Altitude Teahouses Resting on Mountain Shoulder",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-096.webp",
+    "title": "Trekkers Following Scenic River Trail Near Chame",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-097.webp",
+    "title": "Himalayan Forest Path with Glimpse of Distant Snow Peaks",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-098.webp",
+    "title": "Steep Canyon Rock Wall Towering Above Trekkers",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-099.webp",
+    "title": "Mountain Village Terrace Overlooking Marsyangdi River",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-100.webp",
+    "title": "Trekkers Approaching Historic Stone Archway of Village",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-101.webp",
+    "title": "Traditional Hand-Carved Wooden Windows of Mountain Lodge",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-102.webp",
+    "title": "Rocky Pathway Ascending into Subalpine Rhododendron Woods",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-103.webp",
+    "title": "Clear Alpine Creek Crossing via Flat Stepping Stones",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-104.webp",
+    "title": "Trekkers Pausing to Hydrate by Fresh Himalayan Mountain Spring",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-105.webp",
+    "title": "Scenic Viewpoint Overlooking Lower Marsyangdi Valley",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-106.webp",
+    "title": "Mountain Lodge Dining Room Atmosphere with Warm Himalayan Stove",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-109.webp",
+    "title": "Prayer Wheels and Mani Wall Along Ancient Pilgrimage Route",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-110.webp",
+    "title": "Trekkers Navigating the High Switchbacks of Thorong Phedi",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-111.webp",
+    "title": "Golden Hour Glow Over the Rugged Cliffs of Kali Gandaki",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-112.webp",
+    "title": "Celebrating the Completion of the Epic Annapurna Circuit",
+    "category": "Trail"
+  }
+],
   "annapurna_view": [
     {
       "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
@@ -58549,7 +58463,7 @@ function setupTrekPhotoGallery() {
 
   // 1. First collect all authentic photos directly present on this package's page (Hero collage, itinerary, details)
   const pagePhotos = [];
-  if (matchedKey !== 'annapurna-base-camp-trek-via-poon-hill' && matchedKey !== 'poonhill' && matchedKey !== 'short-annapurna-base-camp-trek' && matchedKey !== 'abc') {
+  if (matchedKey !== 'annapurna-base-camp-trek-via-poon-hill' && matchedKey !== 'poonhill' && matchedKey !== 'short-annapurna-base-camp-trek' && matchedKey !== 'abc' && matchedKey !== 'annapurna-circuit-trek' && matchedKey !== 'annapurna_circuit') {
     const pageDomImgs = document.querySelectorAll('.trek-gallery-collage img, #section-itinerary img, #section-overview img, #section-highlights img, #section-details img');
     pageDomImgs.forEach((img, idx) => {
       const src = img.getAttribute('src');
@@ -58623,7 +58537,7 @@ function setupTrekPhotoGallery() {
   }
 
   // Combine page photos (priority) + full curated expedition photos & videos
-  if (matchedKey === 'annapurna-base-camp-trek-via-poon-hill' || matchedKey === 'poonhill' || matchedKey === 'short-annapurna-base-camp-trek' || matchedKey === 'abc') {
+  if (matchedKey === 'annapurna-base-camp-trek-via-poon-hill' || matchedKey === 'poonhill' || matchedKey === 'short-annapurna-base-camp-trek' || matchedKey === 'abc' || matchedKey === 'annapurna-circuit-trek' || matchedKey === 'annapurna_circuit') {
     activePhotos = registryPhotos;
   } else {
     activePhotos = [...pagePhotos, ...registryPhotos];
