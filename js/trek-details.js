@@ -60112,8 +60112,32 @@ function setupTrekPhotoGallery() {
           ? rootPrefix + item.file
           : imgPrefix + item.file;
 
+        let poster = item.poster;
+        if (isVideo && !poster) {
+          if (mediaSrc.includes('ghorepani')) {
+            poster = imgPrefix + 'abc-poon-hill-golden-sunrise-panorama.webp';
+          } else if (mediaSrc.includes('annapurna-circuit')) {
+            poster = imgPrefix + 'abc-poon-hill-autumn-morning-peaks.webp';
+          } else if (mediaSrc.includes('mardi-himal')) {
+            poster = imgPrefix + 'abc-poon-hill-viewpoint-ghorepani.webp';
+          } else if (mediaSrc.includes('First')) {
+            poster = imgPrefix + 'abc-poon-hill-golden-sunrise-panorama.webp';
+          } else if (mediaSrc.includes('Second')) {
+            poster = imgPrefix + 'abc-poon-hill-teahouse-vista.webp';
+          } else if (mediaSrc.includes('Third')) {
+            poster = imgPrefix + 'abc-poon-hill-viewpoint-ghorepani.webp';
+          } else if (mediaSrc.includes('Fourth')) {
+            poster = imgPrefix + 'abc-poon-hill-sanctuary-trail.webp';
+          } else {
+            const pNum = (registryPhotos.length % 50) + 1;
+            const pStr = pNum < 10 ? '00' + pNum : (pNum < 100 ? '0' + pNum : '' + pNum);
+            poster = imgPrefix + 'gallery/annapurna-base-camp/abc-expedition-' + pStr + '.webp';
+          }
+        }
+
         registryPhotos.push({
           src: mediaSrc,
+          poster: poster,
           type: isVideo ? 'video' : 'image',
           title: item.title,
           category: isVideo ? 'Videos' : (item.category || detectCategory(item.title + ' ' + item.file))
@@ -60140,21 +60164,23 @@ function setupTrekPhotoGallery() {
           <!-- Modal Top Header -->
           <div class="tg-modal-header">
             <div class="tg-header-left">
-              <h3 id="tg-modal-title" class="tg-modal-title">${modalTrekTitle}</h3>
+              <h3 id="tg-modal-title" class="tg-modal-title tg-title">${modalTrekTitle}</h3>
               <span id="tg-photo-count" class="tg-count-pill">${activePhotos.length} Media</span>
             </div>
             <div class="tg-header-right">
-              <div class="tg-view-switcher">
-                <button type="button" id="tg-btn-grid" class="tg-view-btn active" title="Grid View" aria-label="Grid View">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+              <div class="tg-view-switcher tg-view-toggle">
+                <button type="button" id="tg-btn-grid" class="tg-view-btn tg-toggle-btn active" title="Grid View" aria-label="Grid View">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
                   <span>Grid</span>
                 </button>
-                <button type="button" id="tg-btn-single" class="tg-view-btn" title="Photo Viewer" aria-label="Photo Viewer">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                <button type="button" id="tg-btn-single" class="tg-view-btn tg-toggle-btn" title="Photo Viewer" aria-label="Photo Viewer">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
                   <span>Viewer</span>
                 </button>
               </div>
-              <button type="button" id="tg-modal-close" class="tg-close-btn" aria-label="Close Gallery">&times;</button>
+              <button type="button" id="tg-modal-close" class="tg-close-btn" aria-label="Close Gallery">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </button>
             </div>
           </div>
 
@@ -60169,17 +60195,17 @@ function setupTrekPhotoGallery() {
           <!-- Body View 2: Fullscreen Single Media Viewer -->
           <div id="tg-single-view" class="tg-single-view" style="display: none;">
             <div class="tg-viewer-stage">
-              <button type="button" id="tg-prev-btn" class="tg-nav-arrow tg-prev-arrow" aria-label="Previous Media">&#10094;</button>
-              <div class="tg-viewer-main-image-wrap">
-                <img id="tg-active-image" src="" alt="Active Gallery Media" class="tg-viewer-img" />
+              <button type="button" id="tg-prev-btn" class="tg-nav-arrow tg-prev-btn tg-prev-arrow" aria-label="Previous Media">&#10094;</button>
+              <div class="tg-viewer-main-image-wrap tg-main-image-wrapper">
+                <img id="tg-active-image" src="" alt="Active Gallery Media" class="tg-viewer-img tg-active-image" />
                 <video id="tg-active-video" controls playsinline class="tg-viewer-video" style="display: none;"></video>
               </div>
-              <button type="button" id="tg-next-btn" class="tg-nav-arrow tg-next-arrow" aria-label="Next Media">&#10095;</button>
+              <button type="button" id="tg-next-btn" class="tg-nav-arrow tg-next-btn tg-next-arrow" aria-label="Next Media">&#10095;</button>
             </div>
             <div class="tg-viewer-footer">
-              <div class="tg-caption-box">
+              <div class="tg-caption-box tg-image-caption-bar">
                 <p id="tg-image-caption" class="tg-caption-text"></p>
-                <span id="tg-image-counter" class="tg-viewer-counter"></span>
+                <span id="tg-image-counter" class="tg-viewer-counter tg-counter-text"></span>
               </div>
               <div id="tg-thumb-strip" class="tg-thumb-strip"></div>
             </div>
@@ -60242,12 +60268,13 @@ function setupTrekPhotoGallery() {
     photosGrid.innerHTML = filtered.map(photo => {
       const originalIndex = activePhotos.indexOf(photo);
       if (photo.type === 'video') {
+        const posterSrc = photo.poster || (imgPrefix + 'abc-poon-hill-golden-sunrise-panorama.webp');
         return `
           <div class="tg-card tg-card-video" data-index="${originalIndex}">
             <div class="tg-card-inner">
-              <video src="${photo.src}#t=0.5" preload="metadata" muted playsinline class="tg-card-video-element"></video>
+              <img src="${posterSrc}" alt="${photo.title}" loading="lazy" class="tg-card-video-poster" />
               <div class="tg-card-play-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff" stroke="none"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="#ffffff" stroke="none"><polygon points="6 3 20 12 6 21 6 3"/></svg>
               </div>
               <div class="tg-card-overlay">
                 <span class="tg-card-category" style="background: #DC2626; color: #FFFFFF;">Video</span>
@@ -60284,15 +60311,16 @@ function setupTrekPhotoGallery() {
   function renderThumbStrip() {
     thumbStrip.innerHTML = activePhotos.map((photo, idx) => {
       if (photo.type === 'video') {
+        const posterSrc = photo.poster || (imgPrefix + 'abc-poon-hill-golden-sunrise-panorama.webp');
         return `
-          <button type="button" class="tg-thumb-btn ${idx === currentIndex ? 'active' : ''}" data-index="${idx}" aria-label="Video ${idx + 1}" style="position:relative;">
-            <video src="${photo.src}#t=0.5" preload="metadata" muted style="width:100%; height:100%; object-fit:cover; display:block;"></video>
+          <button type="button" class="tg-thumb-btn tg-thumb-item ${idx === currentIndex ? 'active' : ''}" data-index="${idx}" aria-label="Video ${idx + 1}" style="position:relative;">
+            <img src="${posterSrc}" alt="${photo.title}" loading="lazy" style="width:100%; height:100%; object-fit:cover; display:block;" />
             <span class="tg-thumb-video-badge"><svg width="10" height="10" viewBox="0 0 24 24" fill="#ffffff"><polygon points="6 3 20 12 6 21 6 3"/></svg></span>
           </button>
         `;
       } else {
         return `
-          <button type="button" class="tg-thumb-btn ${idx === currentIndex ? 'active' : ''}" data-index="${idx}" aria-label="Thumbnail ${idx + 1}">
+          <button type="button" class="tg-thumb-btn tg-thumb-item ${idx === currentIndex ? 'active' : ''}" data-index="${idx}" aria-label="Thumbnail ${idx + 1}">
             <img src="${photo.src}" alt="Thumb ${idx + 1}" loading="lazy" />
           </button>
         `;
@@ -60319,6 +60347,7 @@ function setupTrekPhotoGallery() {
       activeImg.style.display = 'none';
       activeImg.src = '';
       activeVideo.style.display = 'block';
+      activeVideo.poster = media.poster || '';
       activeVideo.src = media.src;
       activeVideo.load();
       activeVideo.play().catch(() => {});
