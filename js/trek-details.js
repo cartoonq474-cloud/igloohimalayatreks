@@ -23696,1089 +23696,706 @@ function setupTrekPhotoGallery() {
   ],
   "classic-annapurna-circuit-trek": [
     {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-034.webp",
+        "title": "High Alpine Annapurna Mountain Panorama Framed by Buddhist Prayer Flags",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-057.webp",
+        "title": "High Snowfield Ridge Approaching Thorong La Pass with Morning Alpenglow",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
-      "type": "video",
-      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-093.webp",
+        "title": "Golden Morning Alpenglow Illuminating Snow Summit of Dhaulagiri and Annapurna",
+        "category": "Peaks"
     },
     {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-109.webp",
+        "title": "Turquoise Gangapurna Glacial Lake and Alpine Valley Beneath Soaring Peaks",
+        "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-114.webp",
+        "title": "Lush Himalayan Pine Forest Trail Leading Towards Snow Peaks in Annapurna",
+        "category": "Trail"
     },
     {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-095.webp",
+        "title": "Expansive Panoramic Mountain Viewpoint Terrace in the Annapurna Range",
+        "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-135.webp",
+        "title": "Breathtaking Golden Sunrise Over Himalayan Ridges and Cloud Valley",
+        "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-061.webp",
+        "title": "High Altitude Vista of Trans-Himalayan Tibetan Plateau and Snow Peaks",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-070.webp",
+        "title": "Dramatic Kali Gandaki River Gorge Flanked by Towering Himalayan Giants",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-038.webp",
+        "title": "High Alpine Plateau and Stone Settlements of Manang Valley",
+        "category": "Villages"
     },
     {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-060.webp",
+        "title": "Trekkers Celebrating at Thorong La Pass Summit (5,416m) Marked by Prayer Flags",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-078.webp",
+        "title": "Towering Snow-Capped Himalayan Peak Overlooking Mountain Forest Valley",
+        "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-089.webp",
+        "title": "Poon Hill Sunrise Panorama Watching Annapurna and Machapuchare Peaks",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-091.webp",
+        "title": "Iconic Fishtail (Machapuchare) and Annapurna South Ridge at Twilight",
+        "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-133.webp",
+        "title": "Early Dawn Moonset Over the Glaciated Annapurna Mountain Range",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-001.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#1)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-002.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#2)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-003.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#3)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-004.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#4)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-005.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#5)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-006.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#6)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-007.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#7)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-008.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#8)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-009.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#9)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-010.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#10)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-011.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#11)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-012.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#12)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-013.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#13)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-014.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#14)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-015.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#15)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-016.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#16)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-017.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#17)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-018.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#18)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-019.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#19)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-020.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#20)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-021.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#21)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-022.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#22)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-023.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#23)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-024.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#24)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-025.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#25)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-026.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#26)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-027.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#27)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-028.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#28)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-001.webp",
-      "title": "Classic Act Expedition 001",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-029.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#29)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-002.webp",
-      "title": "Classic Act Expedition 002",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-030.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#30)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-003.webp",
-      "title": "Classic Act Expedition 003",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-031.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#31)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-004.webp",
-      "title": "Classic Act Expedition 004",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-032.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#32)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-005.webp",
-      "title": "Classic Act Expedition 005",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-033.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#33)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-006.webp",
-      "title": "Classic Act Expedition 006",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-035.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#35)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-007.webp",
-      "title": "Classic Act Expedition 007",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-036.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#36)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-008.webp",
-      "title": "Classic Act Expedition 008",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-037.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#37)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-009.webp",
-      "title": "Classic Act Expedition 009",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-039.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#39)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-010.webp",
-      "title": "Classic Act Expedition 010",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-040.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#40)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-011.webp",
-      "title": "Classic Act Expedition 011",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-041.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#41)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-012.webp",
-      "title": "Classic Act Expedition 012",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-042.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#42)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-013.webp",
-      "title": "Classic Act Expedition 013",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-043.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#43)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-014.webp",
-      "title": "Classic Act Expedition 014",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-044.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#44)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-015.webp",
-      "title": "Classic Act Expedition 015",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-045.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#45)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-016.webp",
-      "title": "Classic Act Expedition 016",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-046.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#46)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-017.webp",
-      "title": "Classic Act Expedition 017",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-047.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#47)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-018.webp",
-      "title": "Classic Act Expedition 018",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-048.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#48)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-019.webp",
-      "title": "Classic Act Expedition 019",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-049.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#49)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-020.webp",
-      "title": "Classic Act Expedition 020",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-050.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#50)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-021.webp",
-      "title": "Classic Act Expedition 021",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-051.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#51)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-022.webp",
-      "title": "Classic Act Expedition 022",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-052.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#52)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-023.webp",
-      "title": "Classic Act Expedition 023",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-053.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#53)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-024.webp",
-      "title": "Classic Act Expedition 024",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-054.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#54)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-025.webp",
-      "title": "Classic Act Expedition 025",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-055.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#55)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-026.webp",
-      "title": "Classic Act Expedition 026",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-056.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#56)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-027.webp",
-      "title": "Classic Act Expedition 027",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-058.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#58)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-028.webp",
-      "title": "Classic Act Expedition 028",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-059.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#59)",
+        "category": "Trail"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-029.webp",
-      "title": "Classic Act Expedition 029",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-062.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#62)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-030.webp",
-      "title": "Classic Act Expedition 030",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-063.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#63)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-031.webp",
-      "title": "Classic Act Expedition 031",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-064.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#64)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-032.webp",
-      "title": "Classic Act Expedition 032",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-065.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#65)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-033.webp",
-      "title": "Classic Act Expedition 033",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-066.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#66)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-034.webp",
-      "title": "Classic Act Expedition 034",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-067.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#67)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-035.webp",
-      "title": "Classic Act Expedition 035",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-068.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#68)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-036.webp",
-      "title": "Classic Act Expedition 036",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-069.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#69)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-037.webp",
-      "title": "Classic Act Expedition 037",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-071.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#71)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-038.webp",
-      "title": "Classic Act Expedition 038",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-072.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#72)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-039.webp",
-      "title": "Classic Act Expedition 039",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-073.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#73)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-040.webp",
-      "title": "Classic Act Expedition 040",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-074.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#74)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-041.webp",
-      "title": "Classic Act Expedition 041",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-075.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#75)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-042.webp",
-      "title": "Classic Act Expedition 042",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-076.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#76)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-043.webp",
-      "title": "Classic Act Expedition 043",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-077.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#77)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-044.webp",
-      "title": "Classic Act Expedition 044",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-079.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#79)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-045.webp",
-      "title": "Classic Act Expedition 045",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-080.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#80)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-046.webp",
-      "title": "Classic Act Expedition 046",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-081.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#81)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-047.webp",
-      "title": "Classic Act Expedition 047",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-082.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#82)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-048.webp",
-      "title": "Classic Act Expedition 048",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-083.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#83)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-049.webp",
-      "title": "Classic Act Expedition 049",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-084.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#84)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-050.webp",
-      "title": "Classic Act Expedition 050",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-085.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#85)",
+        "category": "Villages"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-051.webp",
-      "title": "Classic Act Expedition 051",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-086.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#86)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-052.webp",
-      "title": "Classic Act Expedition 052",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-087.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#87)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-053.webp",
-      "title": "Classic Act Expedition 053",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-088.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#88)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-054.webp",
-      "title": "Classic Act Expedition 054",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-090.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#90)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-055.webp",
-      "title": "Classic Act Expedition 055",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-092.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#92)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-056.webp",
-      "title": "Classic Act Expedition 056",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-094.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#94)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-057.webp",
-      "title": "Classic Act Expedition 057",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-096.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#96)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-058.webp",
-      "title": "Classic Act Expedition 058",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-097.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#97)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-059.webp",
-      "title": "Classic Act Expedition 059",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-098.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#98)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-060.webp",
-      "title": "Classic Act Expedition 060",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-099.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#99)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-061.webp",
-      "title": "Classic Act Expedition 061",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-100.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#100)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-062.webp",
-      "title": "Classic Act Expedition 062",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-101.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#101)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-063.webp",
-      "title": "Classic Act Expedition 063",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-102.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#102)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-064.webp",
-      "title": "Classic Act Expedition 064",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-103.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#103)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-065.webp",
-      "title": "Classic Act Expedition 065",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-104.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#104)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-066.webp",
-      "title": "Classic Act Expedition 066",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-105.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#105)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-067.webp",
-      "title": "Classic Act Expedition 067",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-106.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#106)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-068.webp",
-      "title": "Classic Act Expedition 068",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-107.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#107)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-069.webp",
-      "title": "Classic Act Expedition 069",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-108.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#108)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-070.webp",
-      "title": "Classic Act Expedition 070",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-110.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#110)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-071.webp",
-      "title": "Classic Act Expedition 071",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-111.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#111)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-072.webp",
-      "title": "Classic Act Expedition 072",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-112.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#112)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-073.webp",
-      "title": "Classic Act Expedition 073",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-113.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#113)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-074.webp",
-      "title": "Classic Act Expedition 074",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-115.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#115)",
+        "category": "Panoramas"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-075.webp",
-      "title": "Classic Act Expedition 075",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-116.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#116)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-076.webp",
-      "title": "Classic Act Expedition 076",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-117.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#117)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-077.webp",
-      "title": "Classic Act Expedition 077",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-118.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#118)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-078.webp",
-      "title": "Classic Act Expedition 078",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-119.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#119)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-079.webp",
-      "title": "Classic Act Expedition 079",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-120.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#120)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-080.webp",
-      "title": "Classic Act Expedition 080",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-121.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#121)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-081.webp",
-      "title": "Classic Act Expedition 081",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-122.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#122)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-082.webp",
-      "title": "Classic Act Expedition 082",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-123.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#123)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-083.webp",
-      "title": "Classic Act Expedition 083",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-124.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#124)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-084.webp",
-      "title": "Classic Act Expedition 084",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-125.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#125)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-085.webp",
-      "title": "Classic Act Expedition 085",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-126.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#126)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-086.webp",
-      "title": "Classic Act Expedition 086",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-127.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#127)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-087.webp",
-      "title": "Classic Act Expedition 087",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-128.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#128)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-088.webp",
-      "title": "Classic Act Expedition 088",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-129.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#129)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-089.webp",
-      "title": "Classic Act Expedition 089",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-130.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#130)",
+        "category": "Heritage"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-090.webp",
-      "title": "Classic Act Expedition 090",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-131.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#131)",
+        "category": "Peaks"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-091.webp",
-      "title": "Classic Act Expedition 091",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-132.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#132)",
+        "category": "Peaks"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-092.webp",
-      "title": "Classic Act Expedition 092",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-134.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#134)",
+        "category": "Peaks"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-093.webp",
-      "title": "Classic Act Expedition 093",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-136.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#136)",
+        "category": "Peaks"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-094.webp",
-      "title": "Classic Act Expedition 094",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-137.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#137)",
+        "category": "Peaks"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-095.webp",
-      "title": "Classic Act Expedition 095",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-138.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#138)",
+        "category": "Peaks"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-096.webp",
-      "title": "Classic Act Expedition 096",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-139.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#139)",
+        "category": "Peaks"
     },
     {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-097.webp",
-      "title": "Classic Act Expedition 097",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-098.webp",
-      "title": "Classic Act Expedition 098",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-099.webp",
-      "title": "Classic Act Expedition 099",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-100.webp",
-      "title": "Classic Act Expedition 100",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-101.webp",
-      "title": "Classic Act Expedition 101",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-102.webp",
-      "title": "Classic Act Expedition 102",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-103.webp",
-      "title": "Classic Act Expedition 103",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-104.webp",
-      "title": "Classic Act Expedition 104",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-105.webp",
-      "title": "Classic Act Expedition 105",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-106.webp",
-      "title": "Classic Act Expedition 106",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-107.webp",
-      "title": "Classic Act Expedition 107",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-108.webp",
-      "title": "Classic Act Expedition 108",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-109.webp",
-      "title": "Classic Act Expedition 109",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-110.webp",
-      "title": "Classic Act Expedition 110",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-111.webp",
-      "title": "Classic Act Expedition 111",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-112.webp",
-      "title": "Classic Act Expedition 112",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-113.webp",
-      "title": "Classic Act Expedition 113",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-114.webp",
-      "title": "Classic Act Expedition 114",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-115.webp",
-      "title": "Classic Act Expedition 115",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-116.webp",
-      "title": "Classic Act Expedition 116",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-117.webp",
-      "title": "Classic Act Expedition 117",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-118.webp",
-      "title": "Classic Act Expedition 118",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-119.webp",
-      "title": "Classic Act Expedition 119",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-120.webp",
-      "title": "Classic Act Expedition 120",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-121.webp",
-      "title": "Classic Act Expedition 121",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-122.webp",
-      "title": "Classic Act Expedition 122",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-123.webp",
-      "title": "Classic Act Expedition 123",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-124.webp",
-      "title": "Classic Act Expedition 124",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-125.webp",
-      "title": "Classic Act Expedition 125",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-126.webp",
-      "title": "Classic Act Expedition 126",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-127.webp",
-      "title": "Classic Act Expedition 127",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-128.webp",
-      "title": "Classic Act Expedition 128",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-129.webp",
-      "title": "Classic Act Expedition 129",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-130.webp",
-      "title": "Classic Act Expedition 130",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-131.webp",
-      "title": "Classic Act Expedition 131",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-132.webp",
-      "title": "Classic Act Expedition 132",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-133.webp",
-      "title": "Classic Act Expedition 133",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-134.webp",
-      "title": "Classic Act Expedition 134",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-135.webp",
-      "title": "Classic Act Expedition 135",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-136.webp",
-      "title": "Classic Act Expedition 136",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-137.webp",
-      "title": "Classic Act Expedition 137",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-138.webp",
-      "title": "Classic Act Expedition 138",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-139.webp",
-      "title": "Classic Act Expedition 139",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/classic-annapurna-circuit/classic-act-expedition-140.webp",
-      "title": "Classic Act Expedition 140",
-      "category": "Peaks"
-    },
-    {
-      "file": "act-14-gallery-muktinath-temple-shrines.webp",
-      "title": "Act 14 Gallery Muktinath Temple Shrines",
-      "category": "Heritage"
-    },
-    {
-      "file": "classic-act-gallery-dharapani-confluence.webp",
-      "title": "Classic Act Gallery Dharapani Confluence",
-      "category": "Trail"
-    },
-    {
-      "file": "classic-act-gallery-dhaulagiri-icefall-view.webp",
-      "title": "Classic Act Gallery Dhaulagiri Icefall View",
-      "category": "Panoramas"
-    },
-    {
-      "file": "classic-act-gallery-gangapurna-glacial-lake.webp",
-      "title": "Classic Act Gallery Gangapurna Glacial Lake",
-      "category": "Trail"
-    },
-    {
-      "file": "classic-act-gallery-high-camp-snowfield.webp",
-      "title": "Classic Act Gallery High Camp Snowfield",
-      "category": "Villages"
-    },
-    {
-      "file": "classic-act-gallery-kali-gandaki-gorge.webp",
-      "title": "Classic Act Gallery Kali Gandaki Gorge",
-      "category": "Trail"
-    },
-    {
-      "file": "classic-act-gallery-marpha-distillery-alley.webp",
-      "title": "Classic Act Gallery Marpha Distillery Alley",
-      "category": "Trail"
-    },
-    {
-      "file": "classic-act-gallery-tatopani-relax-springs.webp",
-      "title": "Classic Act Gallery Tatopani Relax Springs",
-      "category": "Trail"
-    },
-    {
-      "file": "classic-act-gallery-upper-pisang-view.webp",
-      "title": "Classic Act Gallery Upper Pisang View",
-      "category": "Panoramas"
-    },
-    {
-      "file": "classic-annapurna-circuit-kagbeni-mustang-valley.webp",
-      "title": "Classic Annapurna Circuit Kagbeni Mustang Valley",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-marpha-apple-orchards.webp",
-      "title": "Classic Annapurna Circuit Marpha Apple Orchards",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-muktinath-temple-vista.webp",
-      "title": "Classic Annapurna Circuit Muktinath Temple Vista",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-tatopani-hot-springs-trail.webp",
-      "title": "Classic Annapurna Circuit Tatopani Hot Springs Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-thorong-la-ridge-panorama.webp",
-      "title": "Classic Annapurna Circuit Thorong La Ridge Panorama",
-      "category": "Panoramas"
-    },
-    {
-      "file": "classic-annapurna-circuit-trek-02.jpg",
-      "title": "Classic Annapurna Circuit Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-trek-02.webp",
-      "title": "Classic Annapurna Circuit Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-trek-03.webp",
-      "title": "Classic Annapurna Circuit Trek 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-trek-04.webp",
-      "title": "Classic Annapurna Circuit Trek 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-trek-package-itinerary-2027-02.jpg",
-      "title": "Classic Annapurna Circuit Trek Package Itinerary 2027 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-trek-package-itinerary-2027-02.webp",
-      "title": "Classic Annapurna Circuit Trek Package Itinerary 2027 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-trek-package-itinerary-2027-03.jpg",
-      "title": "Classic Annapurna Circuit Trek Package Itinerary 2027 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-trek-package-itinerary-2027-03.webp",
-      "title": "Classic Annapurna Circuit Trek Package Itinerary 2027 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-trek-package-itinerary-2027-04.jpg",
-      "title": "Classic Annapurna Circuit Trek Package Itinerary 2027 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-trek-package-itinerary-2027-04.webp",
-      "title": "Classic Annapurna Circuit Trek Package Itinerary 2027 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "classic-annapurna-circuit-trek-package-itinerary-2027.jpg",
-      "title": "Classic Annapurna Circuit Trek Package Itinerary 2027",
-      "category": "Peaks"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-140.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#140)",
+        "category": "Peaks"
     }
-  ],
+],
   "dhaulagiri-circuit-trek": [
     {
       "file": "video/gallery/treks/island-peak-climbing.mp4",
@@ -51960,264 +51577,706 @@ function setupTrekPhotoGallery() {
   ],
   "classic_annapurna_circuit": [
     {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-034.webp",
+        "title": "High Alpine Annapurna Mountain Panorama Framed by Buddhist Prayer Flags",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-057.webp",
+        "title": "High Snowfield Ridge Approaching Thorong La Pass with Morning Alpenglow",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
-      "type": "video",
-      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-093.webp",
+        "title": "Golden Morning Alpenglow Illuminating Snow Summit of Dhaulagiri and Annapurna",
+        "category": "Peaks"
     },
     {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-109.webp",
+        "title": "Turquoise Gangapurna Glacial Lake and Alpine Valley Beneath Soaring Peaks",
+        "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-114.webp",
+        "title": "Lush Himalayan Pine Forest Trail Leading Towards Snow Peaks in Annapurna",
+        "category": "Trail"
     },
     {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-095.webp",
+        "title": "Expansive Panoramic Mountain Viewpoint Terrace in the Annapurna Range",
+        "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-135.webp",
+        "title": "Breathtaking Golden Sunrise Over Himalayan Ridges and Cloud Valley",
+        "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-061.webp",
+        "title": "High Altitude Vista of Trans-Himalayan Tibetan Plateau and Snow Peaks",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-070.webp",
+        "title": "Dramatic Kali Gandaki River Gorge Flanked by Towering Himalayan Giants",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-038.webp",
+        "title": "High Alpine Plateau and Stone Settlements of Manang Valley",
+        "category": "Villages"
     },
     {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-060.webp",
+        "title": "Trekkers Celebrating at Thorong La Pass Summit (5,416m) Marked by Prayer Flags",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-078.webp",
+        "title": "Towering Snow-Capped Himalayan Peak Overlooking Mountain Forest Valley",
+        "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-089.webp",
+        "title": "Poon Hill Sunrise Panorama Watching Annapurna and Machapuchare Peaks",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-091.webp",
+        "title": "Iconic Fishtail (Machapuchare) and Annapurna South Ridge at Twilight",
+        "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-133.webp",
+        "title": "Early Dawn Moonset Over the Glaciated Annapurna Mountain Range",
+        "category": "Panoramas"
     },
     {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-001.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#1)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-002.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#2)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-003.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#3)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-004.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#4)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-005.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#5)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-006.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#6)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-007.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#7)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-008.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#8)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-009.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#9)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-010.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#10)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-011.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#11)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-012.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#12)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-013.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#13)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-014.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#14)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-015.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#15)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-016.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#16)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-017.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#17)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-018.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#18)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-019.webp",
+        "title": "Classic Annapurna Circuit Trek Expedition Photo (#19)",
+        "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-020.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#20)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-021.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#21)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-022.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#22)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-023.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#23)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-024.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#24)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-025.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#25)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-026.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#26)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-027.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#27)",
+        "category": "Heritage"
     },
     {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-028.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#28)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-029.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#29)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-030.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#30)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-031.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#31)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-032.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#32)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-033.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#33)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-035.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#35)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-036.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#36)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-037.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#37)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-039.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#39)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-040.webp",
+        "title": "Manang Alpine Valley and Tibetan Buddhist Chortens (#40)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-041.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#41)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-042.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#42)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-043.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#43)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-044.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#44)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-045.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#45)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-046.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#46)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-047.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#47)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-048.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#48)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-049.webp",
+        "title": "Rugged Mountain Trails and High Acclimatization Ridges (#49)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-050.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#50)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-051.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#51)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-052.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#52)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-053.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#53)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-054.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#54)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-055.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#55)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-056.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#56)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-058.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#58)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-059.webp",
+        "title": "Thorong La Pass High Altitude Trail and Alpine Crest (#59)",
+        "category": "Trail"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-062.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#62)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-063.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#63)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-064.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#64)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-065.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#65)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-066.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#66)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-067.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#67)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-068.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#68)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-069.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#69)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-071.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#71)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-072.webp",
+        "title": "Muktinath, Kagbeni and Kali Gandaki Trans-Himalayan Valley (#72)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-073.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#73)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-074.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#74)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-075.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#75)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-076.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#76)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-077.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#77)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-079.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#79)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-080.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#80)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-081.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#81)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-082.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#82)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-083.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#83)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-084.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#84)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-085.webp",
+        "title": "Marpha Stone Alleyways and Apple Orchard Valley (#85)",
+        "category": "Villages"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-086.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#86)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-087.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#87)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-088.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#88)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-090.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#90)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-092.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#92)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-094.webp",
+        "title": "Ghorepani and Poon Hill Himalayan Viewpoint (#94)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-096.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#96)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-097.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#97)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-098.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#98)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-099.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#99)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-100.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#100)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-101.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#101)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-102.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#102)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-103.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#103)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-104.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#104)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-105.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#105)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-106.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#106)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-107.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#107)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-108.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#108)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-110.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#110)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-111.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#111)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-112.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#112)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-113.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#113)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-115.webp",
+        "title": "Alpine Glacial Lakes and High Annapurna Mountain Slopes (#115)",
+        "category": "Panoramas"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-116.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#116)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-117.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#117)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-118.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#118)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-119.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#119)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-120.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#120)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-121.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#121)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-122.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#122)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-123.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#123)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-124.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#124)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-125.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#125)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-126.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#126)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-127.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#127)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-128.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#128)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-129.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#129)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-130.webp",
+        "title": "Traditional Mountain Teahouses and Himalayan Hospitality (#130)",
+        "category": "Heritage"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-131.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#131)",
+        "category": "Peaks"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-132.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#132)",
+        "category": "Peaks"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-134.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#134)",
+        "category": "Peaks"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-136.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#136)",
+        "category": "Peaks"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-137.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#137)",
+        "category": "Peaks"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-138.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#138)",
+        "category": "Peaks"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-139.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#139)",
+        "category": "Peaks"
+    },
+    {
+        "file": "gallery/classic-annapurna-circuit/classic-act-expedition-140.webp",
+        "title": "Dramatic Himalayan Sunrises and High Mountain Skyline (#140)",
+        "category": "Peaks"
     }
-  ],
+],
   "ebc_chola_gokyo": [
     {
       "file": "video/gallery/treks/everest-three-passes-trek.mp4",
@@ -58463,7 +58522,7 @@ function setupTrekPhotoGallery() {
 
   // 1. First collect all authentic photos directly present on this package's page (Hero collage, itinerary, details)
   const pagePhotos = [];
-  if (matchedKey !== 'annapurna-base-camp-trek-via-poon-hill' && matchedKey !== 'poonhill' && matchedKey !== 'short-annapurna-base-camp-trek' && matchedKey !== 'abc' && matchedKey !== 'annapurna-circuit-trek' && matchedKey !== 'annapurna_circuit') {
+  if (matchedKey !== 'annapurna-base-camp-trek-via-poon-hill' && matchedKey !== 'poonhill' && matchedKey !== 'short-annapurna-base-camp-trek' && matchedKey !== 'abc' && matchedKey !== 'annapurna-circuit-trek' && matchedKey !== 'annapurna_circuit' && matchedKey !== 'classic-annapurna-circuit-trek' && matchedKey !== 'classic_annapurna_circuit') {
     const pageDomImgs = document.querySelectorAll('.trek-gallery-collage img, #section-itinerary img, #section-overview img, #section-highlights img, #section-details img');
     pageDomImgs.forEach((img, idx) => {
       const src = img.getAttribute('src');
@@ -58537,7 +58596,7 @@ function setupTrekPhotoGallery() {
   }
 
   // Combine page photos (priority) + full curated expedition photos & videos
-  if (matchedKey === 'annapurna-base-camp-trek-via-poon-hill' || matchedKey === 'poonhill' || matchedKey === 'short-annapurna-base-camp-trek' || matchedKey === 'abc' || matchedKey === 'annapurna-circuit-trek' || matchedKey === 'annapurna_circuit') {
+  if (matchedKey === 'annapurna-base-camp-trek-via-poon-hill' || matchedKey === 'poonhill' || matchedKey === 'short-annapurna-base-camp-trek' || matchedKey === 'abc' || matchedKey === 'annapurna-circuit-trek' || matchedKey === 'annapurna_circuit' || matchedKey === 'classic-annapurna-circuit-trek' || matchedKey === 'classic_annapurna_circuit') {
     activePhotos = registryPhotos;
   } else {
     activePhotos = [...pagePhotos, ...registryPhotos];
