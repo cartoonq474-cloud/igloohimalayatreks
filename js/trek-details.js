@@ -967,7 +967,14 @@ function setupHimalayanReviews() {
       if (player) {
         if (bgImg) player.poster = bgImg.src;
         player.src = videoUrl;
-        player.play().catch(() => {});
+        player.muted = false;
+        const playPromise = player.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {
+            player.muted = true;
+            player.play().catch(() => {});
+          });
+        }
       }
 
       modal.classList.add('active');
@@ -2506,15 +2513,33 @@ function setupTrekPhotoGallery() {
       "category": "Videos"
     },
     {
+      "file": "video/gallery/treks/everest base camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Panoramic Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "video/gallery/treks/everest-three-passes-trek.mp4",
       "type": "video",
       "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
       "category": "Videos"
     },
     {
+      "file": "video/gallery/treks/Everest Three Passes trek.mp4",
+      "type": "video",
+      "title": "Everest Three Passes Alpine Trail Journey",
+      "category": "Videos"
+    },
+    {
       "file": "video/gallery/treks/everest-without-flight.mp4",
       "type": "video",
       "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/Everest without flight.mp4",
+      "type": "video",
+      "title": "Classic Jiri to Everest Base Camp Route",
       "category": "Videos"
     },
     {
@@ -2742,8 +2767,7 @@ function setupTrekPhotoGallery() {
       "title": "Everest base camp trek dingboche to lobuche",
       "category": "Peaks"
     }
-  ],
-  "gokyo": [
+  ],  "gokyo": [
     {
       "file": "video/gallery/treks/everest-three-passes-trek.mp4",
       "type": "video",
@@ -2939,225 +2963,273 @@ function setupTrekPhotoGallery() {
     }
   ],
   "three_passes": [
-    {
-      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-      "type": "video",
-      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-base-camp.mp4",
-      "type": "video",
-      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-without-flight.mp4",
-      "type": "video",
-      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-      "category": "Videos"
-    },
-    {
-      "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-      "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-      "category": "Panoramas"
-    },
-    {
-      "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-      "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-      "category": "Panoramas"
-    },
-    {
-      "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-      "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-      "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-      "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-      "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-      "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-      "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-02.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-2.jpg",
-      "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-2.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-3.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek 3",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.jpg",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.jpg",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.jpg",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-      "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
-      "category": "Panoramas"
-    },
-    {
-      "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-      "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-      "category": "Peaks"
-    },
-    {
-      "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-      "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-      "category": "Peaks"
-    },
-    {
-      "file": "ebc-with-chola-renjola-pass-trek.webp",
-      "title": "Ebc With Chola Renjola Pass Trek",
-      "category": "Trail"
-    },
-    {
-      "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-      "title": "Everest base camp trek arrival kathmandu",
-      "category": "Peaks"
-    },
-    {
-      "file": "Everest Base Camp Trek arrival kathmandu.webp",
-      "title": "Everest base camp trek arrival kathmandu",
-      "category": "Peaks"
-    },
-    {
-      "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-      "title": "Everest base camp trek dingboche to lobuche",
-      "category": "Peaks"
-    }
-  ],
+  {
+    "file": "video/gallery/treks/Everest Three Passes trek.mp4",
+    "type": "video",
+    "title": "Everest Three Passes Alpine Trail Journey",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+    "type": "video",
+    "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-base-camp.mp4",
+    "type": "video",
+    "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest base camp.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Panoramic Mountain Trek",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-without-flight.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Overland Route via Phaplu & Jiri",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Everest without flight.mp4",
+    "type": "video",
+    "title": "Classic Jiri to Everest Base Camp Route",
+    "category": "Videos"
+  },
+  {
+    "file": "everest-three-high-passes-trek.webp",
+    "title": "Everest Three High Passes Alpine Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "everest-three-high-passes-trek-02.webp",
+    "title": "High Himalayan Pass Glacial Ridge Crossing",
+    "category": "Trail"
+  },
+  {
+    "file": "everest-three-passes-trek-route-tips-and-best-itinerary.webp",
+    "title": "Gokyo Lakes and Glacial Moraine",
+    "category": "Panoramas"
+  },
+  {
+    "file": "everest-three-passes-trek-route-tips-and-best-itinerary-02.webp",
+    "title": "Kongma La Pass Rugged Trail & Nuptse Wall",
+    "category": "Peaks"
+  },
+  {
+    "file": "everest-three-passes-trek-route-tips-and-best-itinerary-03.webp",
+    "title": "Renjo La Pass Panoramic Vista of Everest & Gokyo Lakes",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ebc-with-chola-renjola-pass-trek.webp",
+    "title": "Everest Base Camp with Cho La and Renjo La Pass",
+    "category": "Peaks"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days.webp",
+    "title": "Cho La Pass Glacial Crossing & Prayer Flags",
+    "category": "Peaks"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days-02.webp",
+    "title": "Turquoise Gokyo Lake 3rd Lake Shoreline",
+    "category": "Panoramas"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days-03.webp",
+    "title": "Renjo La High Pass Summit Overlook",
+    "category": "Trail"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days-04.webp",
+    "title": "Gokyo Ri Summit Panoramic View of Everest & Makalu",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek.webp",
+    "title": "Cho La High Alpine Pass Glacier Hike",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-02.webp",
+    "title": "Dzongla to Cho La Pass Alpine Terrain",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-03.webp",
+    "title": "Gokyo Valley Glacial Lakes Basin",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gokyo-lake-and-chola-pass-trek.webp",
+    "title": "Emerald Gokyo Lake and Cho Oyu Backdrop",
+    "category": "Panoramas"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek.webp",
+    "title": "Gokyo Lake Scenic Mountain Reflections",
+    "category": "Panoramas"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek-02.webp",
+    "title": "Ngozumpa Glacier Lateral Moraine",
+    "category": "Trail"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek-03.webp",
+    "title": "Pari Lapche Peak above Renjo La Pass",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek-04.webp",
+    "title": "Gokyo Teahouse Settlement Beside the Lake",
+    "category": "Villages"
+  },
+  {
+    "file": "acclimatization-rest-day-dingboche-settlement-himalayas.webp",
+    "title": "Dingboche Settlement Acclimatization Overlook",
+    "category": "Villages"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.jpg",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.webp",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
+    "title": "Everest base camp trek dingboche to lobuche",
+    "category": "Peaks"
+  }
+],
   "everest_view": [
     {
       "file": "video/gallery/treks/everest-base-camp.mp4",
@@ -4734,358 +4806,1020 @@ function setupTrekPhotoGallery() {
     }
   ],
   "abc": [
-  {
-    "file": "abc-poon-hill-golden-sunrise-panorama.webp",
-    "title": "Annapurna Sanctuary Alpine Amphitheater Reflection with Golden Sunrise",
-    "category": "Panoramas"
-  },
-  {
-    "file": "annapurna-base-camp-trek.webp",
-    "title": "Sacred Mt. Machhapuchhre (Fishtail) Rising Above Alpine Clouds with Blossoms",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/abc-poon-hill/abc-poon-hill-029.webp",
-    "title": "Annapurna Base Camp Sanctuary Panoramic Snow Amphitheater (4,130m)",
-    "category": "Panoramas"
-  },
-  {
-    "file": "annapurna-4496175-1920.webp",
-    "title": "Massive South Face Wall and Glaciers of Mt. Annapurna I (8,091m)",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/abc-poon-hill/abc-poon-hill-031.webp",
-    "title": "Tibetan Prayer Flags with Sunrise Alpenglow Across the ABC Amphitheater",
-    "category": "Heritage"
-  },
-  {
-    "file": "annapurna-base-camp-with-panoramic-views-of-the-annapurna-mountain-range-in-nepal.webp",
-    "title": "Panoramic Vistas of the Annapurna Mountain Range Along Sanctuary Trail",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/abc-poon-hill/abc-poon-hill-024.webp",
-    "title": "Trekkers Navigating Pristine Snow Trail Leading into Annapurna Base Camp",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/abc-poon-hill/abc-poon-hill-023.webp",
-    "title": "High Mountain Walls and Fresh Snow Enclosing the Annapurna Sanctuary",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/abc-poon-hill/abc-poon-hill-025.webp",
-    "title": "Deep Alpine Snow Basin Beneath Annapurna South and Hiunchuli",
-    "category": "Trail"
-  },
-  {
-    "file": "annapurna-base-camp-trek-06.webp",
-    "title": "Pristine Lake Mirror Reflection of Mt. Machhapuchhre and Annapurna Range",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/abc-poon-hill/abc-poon-hill-010.webp",
-    "title": "First Light of Dawn Cresting Over the Annapurna Mountain Range",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/abc-poon-hill/abc-poon-hill-012.webp",
-    "title": "Sunrise Golden Horizon over Snow-Capped Himalayan Giants",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/abc-poon-hill/abc-poon-hill-002.webp",
-    "title": "Golden Morning Alpenglow Illuminating Sacred Mt. Machhapuchhre",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/abc-poon-hill/abc-poon-hill-003.webp",
-    "title": "Sunrise Illumination Over Annapurna South Summit (7,219m)",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/abc-poon-hill/abc-poon-hill-004.webp",
-    "title": "Mt. Fishtail Rising Above Himalayan Rhododendron Forests",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-006.webp",
-    "title": "Golden Morning Light over Annapurna South (7,219m)",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-007.webp",
-    "title": "Machhapuchhre Base Camp Gateway (3,700m) Alpine Basin",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-009.webp",
-    "title": "Chhomrong Village Terraced Fields and Himalayan Backdrop",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-010.webp",
-    "title": "Dramatic Glacial Moraine and Snowfields of Annapurna Sanctuary",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-013.webp",
-    "title": "Traditional Prayer Flags Fluttering at Annapurna Base Camp Signboard",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-015.webp",
-    "title": "Dovan Settlement Nestled in the Dense Modi Khola Gorge",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-016.webp",
-    "title": "Expedition Trekkers Celebrating at Annapurna Base Camp (4,130m)",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-017.webp",
-    "title": "Machhapuchhre Pinnacle Dramatic Silhouette at Twilight",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-020.webp",
-    "title": "Cozy Dining Hall and Warmth in Alpine High Camp Lodge",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-023.webp",
-    "title": "Natural Thermal Hot Springs along the Riverbank at Jhinu Danda",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-025.webp",
-    "title": "Crisp High-Altitude Clear Skies over the Annapurna Massif",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-026.webp",
-    "title": "Buddhist Mani Stones and Memorial Chortens in the Sanctuary",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-027.webp",
-    "title": "Spectacular Ice Flutes and Hanging Glaciers on Annapurna South",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-030.webp",
-    "title": "Himalayan Vulture Soaring High Above the Alpine Cliffs",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-031.webp",
-    "title": "Golden Hour Glow on Mt. Annapurna I Summit Ridge",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-033.webp",
-    "title": "Alpine Gateway into the Holy Annapurna Sanctuary Sanctuary Basin",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-035.webp",
-    "title": "Sunset Reflections over the Snow-Capped Annapurna Range",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-042.webp",
-    "title": "Trekkers Enjoying Fresh Tea with Annapurna South Views",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-043.webp",
-    "title": "Cascading Waterfalls of the Modi Khola Gorge",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-044.webp",
-    "title": "Panoramic View of the Sanctuary Ring of 7,000m and 8,000m Peaks",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-045.webp",
-    "title": "High Altitude Sherpa Guide Leading the Way in Snow Trail",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-046.webp",
-    "title": "Iconic Wooden Annapurna Base Camp Welcome Signboard",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-049.webp",
-    "title": "Quaint Gurung Village of Landruk Across the Valley",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-050.webp",
-    "title": "Expedition Trail Cutting Through Narrow Rocky Canyons",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-054.webp",
-    "title": "Rest Stop at Deurali with Warm Ginger Lemon Tea",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-056.webp",
-    "title": "Morning Shadows Receding from the Annapurna Basin Floor",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-059.webp",
-    "title": "Prayer Wheels and Himalayan Buddhist Shrines along the Way",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-060.webp",
-    "title": "Panoramic Ridge Walk Approaching Chhomrong",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-061.webp",
-    "title": "Rugged Mountain Trail Etched into Vertical Canyon Walls",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-062.webp",
-    "title": "Snow Dusted Roofs of High Altitude Lodges at Annapurna Base Camp",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-064.webp",
-    "title": "Suspension Footbridge High Above Rushing Glacier Torrent",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-066.webp",
-    "title": "View of Hiunchuli and Annapurna South Standing Shoulder to Shoulder",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-068.webp",
-    "title": "Trekkers Pausing to Admire the Sheer Scale of Fishtail Peak",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-069.webp",
-    "title": "Peaceful Evening Atmosphere at Machhapuchhre Base Camp",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-073.webp",
-    "title": "Expedition Base Camp with Fluttering Tibetan Prayer Flags",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-074.webp",
-    "title": "Dramatic Amphitheater Walls Rising 4,000m Above Sanctuary Floor",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-075.webp",
-    "title": "Warm Hospitality and Fresh Meals in Himalayan Trekking Lodge",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-076.webp",
-    "title": "Deep Blue Himalayan Sky Framing Fishtail's Iconic Summit",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-077.webp",
-    "title": "Cascading Alpine Streams Flowing from Annapurna Glaciers",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-078.webp",
-    "title": "Magnificent Sunset Colors Bathing Annapurna South in Crimson",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-079.webp",
-    "title": "Trekkers Arriving at Annapurna Base Camp with Joyful Cheers",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-088.webp",
-    "title": "Teahouses of Deurali Framed by Massive Overhanging Cliffs",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-089.webp",
-    "title": "Spectacular Glacial Basin Beneath the South Face of Annapurna I",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-091.webp",
-    "title": "Morning Yoga and Contemplation in Annapurna Base Camp",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-094.webp",
-    "title": "Dramatic Profile of Mt. Machhapuchhre Against Deep Blue Sky",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-095.webp",
-    "title": "Stone Teahouses and Smoke Rising in the Crisp Morning Air",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-096.webp",
-    "title": "Trekkers Navigating the Scenic Switchbacks Leading to Sinuwa",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-102.webp",
-    "title": "Machhapuchhre Peak Flanked by Morning Cloud Inversion",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-103.webp",
-    "title": "Scenic Stone Steps Through the Dense Forest Above Bamboo",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-104.webp",
-    "title": "Base Camp Lodges Resting at the Foot of Annapurna South",
-    "category": "Villages"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-106.webp",
-    "title": "The South Face of Annapurna I in Spectacular Broad Daylight",
-    "category": "Peaks"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-107.webp",
-    "title": "Panoramic Vista Looking Down the Modi Khola Glacial Valley",
-    "category": "Panoramas"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-108.webp",
-    "title": "Prayer Flags Framing Mt. Hiunchuli Under Brilliant Alpine Sun",
-    "category": "Heritage"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-109.webp",
-    "title": "Resting Along the Scenic Trail with Endless Mountain Vistas",
-    "category": "Trail"
-  },
-  {
-    "file": "gallery/annapurna-base-camp/abc-expedition-111.webp",
-    "title": "Iconic Fishtail Mountain Catching the Last Rays of Sunset",
-    "category": "Peaks"
-  }
-],
-  "act": [
+    {
+      "file": "video/gallery/abc/20180209_134420.mp4",
+      "type": "video",
+      "title": "Annapurna Sanctuary Winter Snow Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180209_172407.mp4",
+      "type": "video",
+      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180222_095507.mp4",
+      "type": "video",
+      "title": "Himalayan Morning Glacier Mist",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180402_114934.mp4",
+      "type": "video",
+      "title": "Modi Khola Suspension Bridge Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180427_081147.mp4",
+      "type": "video",
+      "title": "Annapurna Base Camp 4,130m Panoramic Video",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180427_085211.mp4",
+      "type": "video",
+      "title": "Annapurna South Glacier Moraine Expedition Walk",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180427_143738.mp4",
+      "type": "video",
+      "title": "Machhapuchhre Base Camp Trail Descent",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180428_061858.mp4",
+      "type": "video",
+      "title": "Golden Dawn on Annapurna I & Hiunchuli",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180428_111302.mp4",
+      "type": "video",
+      "title": "Bamboo & Dovan Rhododendron Forest Route",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180428_122616.mp4",
+      "type": "video",
+      "title": "Chhomrong Village Stone Steps Ascent",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180428_123442.mp4",
+      "type": "video",
+      "title": "Terraced Hillsides of Modi Valley",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180501_071034.mp4",
+      "type": "video",
+      "title": "Jhinu Danda Natural Hot Springs Trail",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180507_145054.mp4",
+      "type": "video",
+      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180608_155004.mp4",
+      "type": "video",
+      "title": "Alpine Glacial Stream Cascade",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180608_172138.mp4",
+      "type": "video",
+      "title": "Evening Mists Rolling over High Camp",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180610_053433.mp4",
+      "type": "video",
+      "title": "First Light on Hiunchuli Summit",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180612_083704.mp4",
+      "type": "video",
+      "title": "Deurali Canyon Trail Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20180804_112340.mp4",
+      "type": "video",
+      "title": "Monsoon Waterfalls along Modi Khola",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20181027_055342.mp4",
+      "type": "video",
+      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190126_110440.mp4",
+      "type": "video",
+      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190126_110858.mp4",
+      "type": "video",
+      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190127_110336.mp4",
+      "type": "video",
+      "title": "Deep Winter Snowfields at 4,130m Base Camp",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190127_110452.mp4",
+      "type": "video",
+      "title": "360-Degree Mountain Amphitheater Panorama Video",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190127_112704.mp4",
+      "type": "video",
+      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190127_135038.mp4",
+      "type": "video",
+      "title": "Glacial Moraine Ice Walk",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190127_135055_02.mp4",
+      "type": "video",
+      "title": "High Altitude Expedition Team Journey",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190128_082655.mp4",
+      "type": "video",
+      "title": "Morning Alpenglow on Annapurna South Face",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190201_083214.mp4",
+      "type": "video",
+      "title": "Winter Trail descending towards Deurali",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190201_094939.mp4",
+      "type": "video",
+      "title": "Frozen Waterfalls in Mountain Gorge",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190201_132217.mp4",
+      "type": "video",
+      "title": "Snow Covered Teahouses at Bamboo",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190202_063349.mp4",
+      "type": "video",
+      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190202_144533.mp4",
+      "type": "video",
+      "title": "Chhomrong Gurung Village Trail Walk",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190304_124854.mp4",
+      "type": "video",
+      "title": "Spring Rhododendron Blooms in Sanctuary",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190404_091039.mp4",
+      "type": "video",
+      "title": "Crystal Morning View of Annapurna Glacier",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/abc/20190404_091400.mp4",
+      "type": "video",
+      "title": "Expeditions at Base Camp Sanctuary",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+      "type": "video",
+      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+      "type": "video",
+      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/mardi-himal-trek.mp4",
+      "type": "video",
+      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+      "category": "Videos"
+    },
+    {
+      "file": "video/Clip Video First.mp4",
+      "type": "video",
+      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
+      "category": "Videos"
+    },
+    {
+      "file": "video/Clip Video Second.mp4",
+      "type": "video",
+      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
+      "category": "Videos"
+    },
+    {
+      "file": "video/Clip Video Third.mp4",
+      "type": "video",
+      "title": "Himalayan Mountain Passes & Ridge Traversing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/Clip Video Fourth.mp4",
+      "type": "video",
+      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
+      "category": "Videos"
+    },
+    {
+      "file": "video/Clip Video Five.mp4",
+      "type": "video",
+      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
+      "category": "Videos"
+    },
+    {
+      "file": "abc-poon-hill-golden-sunrise-panorama.webp",
+      "title": "Annapurna Sanctuary Alpine Amphitheater Reflection with Golden Sunrise",
+      "category": "Panoramas"
+    },
+    {
+      "file": "annapurna-base-camp-trek.webp",
+      "title": "Sacred Mt. Machhapuchhre (Fishtail) Rising Above Alpine Clouds with Blossoms",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-029.webp",
+      "title": "Annapurna Base Camp Sanctuary Panoramic Snow Amphitheater (4,130m)",
+      "category": "Panoramas"
+    },
+    {
+      "file": "annapurna-4496175-1920.webp",
+      "title": "Massive South Face Wall and Glaciers of Mt. Annapurna I (8,091m)",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-031.webp",
+      "title": "Tibetan Prayer Flags with Sunrise Alpenglow Across the ABC Amphitheater",
+      "category": "Heritage"
+    },
+    {
+      "file": "annapurna-base-camp-with-panoramic-views-of-the-annapurna-mountain-range-in-nepal.webp",
+      "title": "Panoramic Vistas of the Annapurna Mountain Range Along Sanctuary Trail",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-024.webp",
+      "title": "Trekkers Navigating Pristine Snow Trail Leading into Annapurna Base Camp",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-023.webp",
+      "title": "High Mountain Walls and Fresh Snow Enclosing the Annapurna Sanctuary",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-025.webp",
+      "title": "Deep Alpine Snow Basin Beneath Annapurna South and Hiunchuli",
+      "category": "Trail"
+    },
+    {
+      "file": "annapurna-base-camp-trek-06.webp",
+      "title": "Pristine Lake Mirror Reflection of Mt. Machhapuchhre and Annapurna Range",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-010.webp",
+      "title": "First Light of Dawn Cresting Over the Annapurna Mountain Range",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-012.webp",
+      "title": "Sunrise Golden Horizon over Snow-Capped Himalayan Giants",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-002.webp",
+      "title": "Golden Morning Alpenglow Illuminating Sacred Mt. Machhapuchhre",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-003.webp",
+      "title": "Sunrise Illumination Over Annapurna South Summit (7,219m)",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/abc-poon-hill/abc-poon-hill-004.webp",
+      "title": "Mt. Fishtail Rising Above Himalayan Rhododendron Forests",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-006.webp",
+      "title": "Golden Morning Light over Annapurna South (7,219m)",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-007.webp",
+      "title": "Machhapuchhre Base Camp Gateway (3,700m) Alpine Basin",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-009.webp",
+      "title": "Chhomrong Village Terraced Fields and Himalayan Backdrop",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-010.webp",
+      "title": "Dramatic Glacial Moraine and Snowfields of Annapurna Sanctuary",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-013.webp",
+      "title": "Traditional Prayer Flags Fluttering at Annapurna Base Camp Signboard",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-015.webp",
+      "title": "Dovan Settlement Nestled in the Dense Modi Khola Gorge",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-016.webp",
+      "title": "Expedition Trekkers Celebrating at Annapurna Base Camp (4,130m)",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-017.webp",
+      "title": "Machhapuchhre Pinnacle Dramatic Silhouette at Twilight",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-020.webp",
+      "title": "Cozy Dining Hall and Warmth in Alpine High Camp Lodge",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-023.webp",
+      "title": "Natural Thermal Hot Springs along the Riverbank at Jhinu Danda",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-025.webp",
+      "title": "Crisp High-Altitude Clear Skies over the Annapurna Massif",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-026.webp",
+      "title": "Buddhist Mani Stones and Memorial Chortens in the Sanctuary",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-027.webp",
+      "title": "Spectacular Ice Flutes and Hanging Glaciers on Annapurna South",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-030.webp",
+      "title": "Himalayan Vulture Soaring High Above the Alpine Cliffs",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-031.webp",
+      "title": "Golden Hour Glow on Mt. Annapurna I Summit Ridge",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-033.webp",
+      "title": "Alpine Gateway into the Holy Annapurna Sanctuary Sanctuary Basin",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-035.webp",
+      "title": "Sunset Reflections over the Snow-Capped Annapurna Range",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-042.webp",
+      "title": "Trekkers Enjoying Fresh Tea with Annapurna South Views",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-043.webp",
+      "title": "Cascading Waterfalls of the Modi Khola Gorge",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-044.webp",
+      "title": "Panoramic View of the Sanctuary Ring of 7,000m and 8,000m Peaks",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-045.webp",
+      "title": "High Altitude Sherpa Guide Leading the Way in Snow Trail",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-046.webp",
+      "title": "Iconic Wooden Annapurna Base Camp Welcome Signboard",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-049.webp",
+      "title": "Quaint Gurung Village of Landruk Across the Valley",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-050.webp",
+      "title": "Expedition Trail Cutting Through Narrow Rocky Canyons",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-054.webp",
+      "title": "Rest Stop at Deurali with Warm Ginger Lemon Tea",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-056.webp",
+      "title": "Morning Shadows Receding from the Annapurna Basin Floor",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-059.webp",
+      "title": "Prayer Wheels and Himalayan Buddhist Shrines along the Way",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-060.webp",
+      "title": "Panoramic Ridge Walk Approaching Chhomrong",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-061.webp",
+      "title": "Rugged Mountain Trail Etched into Vertical Canyon Walls",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-062.webp",
+      "title": "Snow Dusted Roofs of High Altitude Lodges at Annapurna Base Camp",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-064.webp",
+      "title": "Suspension Footbridge High Above Rushing Glacier Torrent",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-066.webp",
+      "title": "View of Hiunchuli and Annapurna South Standing Shoulder to Shoulder",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-068.webp",
+      "title": "Trekkers Pausing to Admire the Sheer Scale of Fishtail Peak",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-069.webp",
+      "title": "Peaceful Evening Atmosphere at Machhapuchhre Base Camp",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-073.webp",
+      "title": "Expedition Base Camp with Fluttering Tibetan Prayer Flags",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-074.webp",
+      "title": "Dramatic Amphitheater Walls Rising 4,000m Above Sanctuary Floor",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-075.webp",
+      "title": "Warm Hospitality and Fresh Meals in Himalayan Trekking Lodge",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-076.webp",
+      "title": "Deep Blue Himalayan Sky Framing Fishtail's Iconic Summit",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-077.webp",
+      "title": "Cascading Alpine Streams Flowing from Annapurna Glaciers",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-078.webp",
+      "title": "Magnificent Sunset Colors Bathing Annapurna South in Crimson",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-079.webp",
+      "title": "Trekkers Arriving at Annapurna Base Camp with Joyful Cheers",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-088.webp",
+      "title": "Teahouses of Deurali Framed by Massive Overhanging Cliffs",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-089.webp",
+      "title": "Spectacular Glacial Basin Beneath the South Face of Annapurna I",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-091.webp",
+      "title": "Morning Yoga and Contemplation in Annapurna Base Camp",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-094.webp",
+      "title": "Dramatic Profile of Mt. Machhapuchhre Against Deep Blue Sky",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-095.webp",
+      "title": "Stone Teahouses and Smoke Rising in the Crisp Morning Air",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-096.webp",
+      "title": "Trekkers Navigating the Scenic Switchbacks Leading to Sinuwa",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-102.webp",
+      "title": "Machhapuchhre Peak Flanked by Morning Cloud Inversion",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-103.webp",
+      "title": "Scenic Stone Steps Through the Dense Forest Above Bamboo",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-104.webp",
+      "title": "Base Camp Lodges Resting at the Foot of Annapurna South",
+      "category": "Villages"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-106.webp",
+      "title": "The South Face of Annapurna I in Spectacular Broad Daylight",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-107.webp",
+      "title": "Panoramic Vista Looking Down the Modi Khola Glacial Valley",
+      "category": "Panoramas"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-108.webp",
+      "title": "Prayer Flags Framing Mt. Hiunchuli Under Brilliant Alpine Sun",
+      "category": "Heritage"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-109.webp",
+      "title": "Resting Along the Scenic Trail with Endless Mountain Vistas",
+      "category": "Trail"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-111.webp",
+      "title": "Iconic Fishtail Mountain Catching the Last Rays of Sunset",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-001.webp",
+      "title": "Abc Expedition 001",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-002.webp",
+      "title": "Abc Expedition 002",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-003.webp",
+      "title": "Abc Expedition 003",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-004.webp",
+      "title": "Abc Expedition 004",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-005.webp",
+      "title": "Abc Expedition 005",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-008.webp",
+      "title": "Abc Expedition 008",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-011.webp",
+      "title": "Abc Expedition 011",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-012.webp",
+      "title": "Abc Expedition 012",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-014.webp",
+      "title": "Abc Expedition 014",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-018.webp",
+      "title": "Abc Expedition 018",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-019.webp",
+      "title": "Abc Expedition 019",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-021.webp",
+      "title": "Abc Expedition 021",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-022.webp",
+      "title": "Abc Expedition 022",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-024.webp",
+      "title": "Abc Expedition 024",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-028.webp",
+      "title": "Abc Expedition 028",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-029.webp",
+      "title": "Abc Expedition 029",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-032.webp",
+      "title": "Abc Expedition 032",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-034.webp",
+      "title": "Abc Expedition 034",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-036.webp",
+      "title": "Abc Expedition 036",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-037.webp",
+      "title": "Abc Expedition 037",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-038.webp",
+      "title": "Abc Expedition 038",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-039.webp",
+      "title": "Abc Expedition 039",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-040.webp",
+      "title": "Abc Expedition 040",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-041.webp",
+      "title": "Abc Expedition 041",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-047.webp",
+      "title": "Abc Expedition 047",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-048.webp",
+      "title": "Abc Expedition 048",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-051.webp",
+      "title": "Abc Expedition 051",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-052.webp",
+      "title": "Abc Expedition 052",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-053.webp",
+      "title": "Abc Expedition 053",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-055.webp",
+      "title": "Abc Expedition 055",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-057.webp",
+      "title": "Abc Expedition 057",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-058.webp",
+      "title": "Abc Expedition 058",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-063.webp",
+      "title": "Abc Expedition 063",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-065.webp",
+      "title": "Abc Expedition 065",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-067.webp",
+      "title": "Abc Expedition 067",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-070.webp",
+      "title": "Abc Expedition 070",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-071.webp",
+      "title": "Abc Expedition 071",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-072.webp",
+      "title": "Abc Expedition 072",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-080.webp",
+      "title": "Abc Expedition 080",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-081.webp",
+      "title": "Abc Expedition 081",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-082.webp",
+      "title": "Abc Expedition 082",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-083.webp",
+      "title": "Abc Expedition 083",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-084.webp",
+      "title": "Abc Expedition 084",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-085.webp",
+      "title": "Abc Expedition 085",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-086.webp",
+      "title": "Abc Expedition 086",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-087.webp",
+      "title": "Abc Expedition 087",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-090.webp",
+      "title": "Abc Expedition 090",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-092.webp",
+      "title": "Abc Expedition 092",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-093.webp",
+      "title": "Abc Expedition 093",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-097.webp",
+      "title": "Abc Expedition 097",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-098.webp",
+      "title": "Abc Expedition 098",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-099.webp",
+      "title": "Abc Expedition 099",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-100.webp",
+      "title": "Abc Expedition 100",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-101.webp",
+      "title": "Abc Expedition 101",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-105.webp",
+      "title": "Abc Expedition 105",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-110.webp",
+      "title": "Abc Expedition 110",
+      "category": "Peaks"
+    },
+    {
+      "file": "gallery/annapurna-base-camp/abc-expedition-112.webp",
+      "title": "Abc Expedition 112",
+      "category": "Peaks"
+    },
+    {
+      "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.jpg",
+      "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
+      "category": "Peaks"
+    },
+    {
+      "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp",
+      "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
+      "category": "Peaks"
+    },
+    {
+      "file": "abc-gallery-annapurna-glacier-moraine.webp",
+      "title": "Abc Gallery Annapurna Glacier Moraine",
+      "category": "Peaks"
+    },
+    {
+      "file": "abc-gallery-bamboo-dovan-canyon.webp",
+      "title": "Abc Gallery Bamboo Dovan Canyon",
+      "category": "Trail"
+    },
+    {
+      "file": "abc-gallery-jhinu-danda-hot-springs.webp",
+      "title": "Abc Gallery Jhinu Danda Hot Springs",
+      "category": "Trail"
+    },
+    {
+      "file": "abc-gallery-machhapuchhre-base-camp.webp",
+      "title": "Abc Gallery Machhapuchhre Base Camp",
+      "category": "Peaks"
+    },
+    {
+      "file": "abc-gallery-modi-khola-suspension.webp",
+      "title": "Abc Gallery Modi Khola Suspension",
+      "category": "Trail"
+    },
+    {
+      "file": "abc-gallery-prayer-flags-sanctuary.webp",
+      "title": "Abc Gallery Prayer Flags Sanctuary",
+      "category": "Heritage"
+    },
+    {
+      "file": "abc-gallery-rhododendron-forest-trail.webp",
+      "title": "Abc Gallery Rhododendron Forest Trail",
+      "category": "Trail"
+    },
+    {
+      "file": "abc-gallery-teahouse-breakfast-mountain-view.webp",
+      "title": "Abc Gallery Teahouse Breakfast Mountain View",
+      "category": "Panoramas"
+    },
+    {
+      "file": "abc-poon-hill-autumn-morning-peaks.webp",
+      "title": "Abc Poon Hill Autumn Morning Peaks",
+      "category": "Peaks"
+    },
+    {
+      "file": "abc-poon-hill-sanctuary-trail.webp",
+      "title": "Abc Poon Hill Sanctuary Trail",
+      "category": "Trail"
+    },
+    {
+      "file": "abc-poon-hill-teahouse-vista.webp",
+      "title": "Abc Poon Hill Teahouse Vista",
+      "category": "Villages"
+    },
+    {
+      "file": "abc-poon-hill-viewpoint-ghorepani.webp",
+      "title": "Abc Poon Hill Viewpoint Ghorepani",
+      "category": "Panoramas"
+    },
+    {
+      "file": "abc-trekking-in-february.webp",
+      "title": "Abc Trekking In February",
+      "category": "Trail"
+    },
+    {
+      "file": "abc-with-mardi-himal-trek-02.jpg",
+      "title": "Abc With Mardi Himal Trek 02",
+      "category": "Peaks"
+    },
+    {
+      "file": "abc-with-mardi-himal-trek-02.webp",
+      "title": "Abc With Mardi Himal Trek 02",
+      "category": "Peaks"
+    },
+    {
+      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-02.webp",
+      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 02",
+      "category": "Peaks"
+    },
+    {
+      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.jpg",
+      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
+      "category": "Peaks"
+    },
+    {
+      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.webp",
+      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
+      "category": "Peaks"
+    },
+    {
+      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.jpg",
+      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
+      "category": "Peaks"
+    },
+    {
+      "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.webp",
+      "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
+      "category": "Peaks"
+    },
+    {
+      "file": "abc-with-mardi-himal-trek.webp",
+      "title": "Abc With Mardi Himal Trek",
+      "category": "Peaks"
+    },
+    {
+      "file": "annapurna-base-camp-9-days-itinerary-02.jpg",
+      "title": "Annapurna Base Camp 9 Days Itinerary 02",
+      "category": "Peaks"
+    }
+  ],  "act": [
     {
       "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
       "type": "video",
@@ -6619,507 +7353,688 @@ function setupTrekPhotoGallery() {
     }
   ],
   "poonhill": [
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-001.webp",
-      "title": "Modi Khola Alpine Valley with Mountain Shrines",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-002.webp",
-      "title": "Golden Alpenglow on Sacred Mt. Machhapuchhre (Fishtail)",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-003.webp",
-      "title": "Sunrise Illumination over Annapurna South Summit",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-004.webp",
-      "title": "Mt. Fishtail Rising Above Himalayan Rhododendron Forests",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-005.webp",
-      "title": "Relaxing in Natural Riverside Hot Springs at Jhinu Danda",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-006.webp",
-      "title": "Scenic Gateway to the Annapurna Region in Pokhara",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-007.webp",
-      "title": "Hiking Traditional Stone Stairways of Ulleri",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-008.webp",
-      "title": "Spring Rhododendron Trail toward Ghorepani",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-009.webp",
-      "title": "Cozy Teahouse Resting Point on the Ghorepani Route",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-010.webp",
-      "title": "First Light of Dawn from Poon Hill (3,210m)",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-011.webp",
-      "title": "Spectacular Dhaulagiri & Annapurna Sunrise Panorama",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-012.webp",
-      "title": "Trekkers Celebrating Sunrise at Poon Hill View Tower",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-013.webp",
-      "title": "Endless Himalayan Horizons from Poon Hill Summit",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-014.webp",
-      "title": "Golden Mountain Ridges of the Annapurna Massif",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-015.webp",
-      "title": "Hiunchuli and Annapurna South Peak Vista",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-016.webp",
-      "title": "Morning Sun Over the Western Himalaya",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-017.webp",
-      "title": "Scenic Ridge Trail from Ghorepani to Tadapani",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-018.webp",
-      "title": "Ancient Moss-Draped Rhododendron Forest",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-019.webp",
-      "title": "Stone Lodges and Terraced Fields of Chhomrong",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-020.webp",
-      "title": "Steep Modi Khola River Canyon Ascent",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-021.webp",
-      "title": "Winter Snow Trail Approaching Deurali & MBC",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-022.webp",
-      "title": "Trekking beneath Machhapuchhre Base Camp",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-023.webp",
-      "title": "Towering Walls of Mt. Fishtail at MBC (3,700m)",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-024.webp",
-      "title": "High Altitude Mountain Shelters at Machhapuchhre Base Camp",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-025.webp",
-      "title": "Expedition Team Hiking the High Sanctuary Basin",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-026.webp",
-      "title": "Alpine Snow Amphitheater inside Annapurna Sanctuary",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-027.webp",
-      "title": "Glacial Summits of Annapurna South (7,219m)",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-028.webp",
-      "title": "Final Ascent into Annapurna Base Camp (4,130m)",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-029.webp",
-      "title": "Morning Glory at Annapurna Base Camp (4,130m)",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-030.webp",
-      "title": "Annapurna I (8,091m) Golden Summit at Sunrise",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-031.webp",
-      "title": "Vast Annapurna Glacial Basin and Moraines",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-032.webp",
-      "title": "Alpenglow Painting the High Annapurna Amphitheater",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-033.webp",
-      "title": "Majestic Fluted Ridge of Annapurna South",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-034.webp",
-      "title": "Prayer Flags and Memorial Chortens at ABC",
-      "category": "Heritage"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-035.webp",
-      "title": "Trekkers Celebrating Base Camp Achievement",
-      "category": "Heritage"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-036.webp",
-      "title": "Complete 360-Degree Amphitheater Vista of ABC",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-037.webp",
-      "title": "Descending Modi Khola Gorge from Base Camp",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-038.webp",
-      "title": "Crossing Modi Khola River at Birethanti",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-039.webp",
-      "title": "Lush Terraced Green Hillsides of Tikhedhunga",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-040.webp",
-      "title": "Conquering the Famous Stone Steps of Ulleri",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-041.webp",
-      "title": "Sunset Alpenglow from Ulleri Lodge Terraces",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-042.webp",
-      "title": "Early Morning Lantern Walk up to Poon Hill",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-043.webp",
-      "title": "First Rays on Mt. Dhaulagiri (8,167m) from Poon Hill",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-044.webp",
-      "title": "Dawn at Poon Hill Summit Viewing Tower (3,210m)",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-045.webp",
-      "title": "Golden Annapurna Range Alpenglow from Poon Hill",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-046.webp",
-      "title": "Sharp Fishtail Profile Lit by Rising Sun",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-047.webp",
-      "title": "360-Degree Himalayan Sunrise Panorama at Poon Hill",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-048.webp",
-      "title": "Trekkers Watching Sunrise from Poon Hill Ridge",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-049.webp",
-      "title": "Endless Snow-Capped Horizons above Cloud Inversions",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-050.webp",
-      "title": "Celebrating at the Poon Hill Summit Elevation Sign (3,210m)",
-      "category": "Heritage"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-051.webp",
-      "title": "High Alpine Panorama Across the Kali Gandaki Valley",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-052.webp",
-      "title": "Formidable South Face of Annapurna South",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-053.webp",
-      "title": "Hiunchuli Peak in Crisp Morning Autumn Sunlight",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-054.webp",
-      "title": "Poon Hill High Ridge Outlook toward Nilgiri Peaks",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-055.webp",
-      "title": "Buddhist Prayer Flags Streaming at Poon Hill Viewpoint",
-      "category": "Heritage"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-056.webp",
-      "title": "Enjoying Hot Himalayan Tea at Poon Hill Summit",
-      "category": "Heritage"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-057.webp",
-      "title": "Golden Autumn Light over the Annapurna Massif",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-058.webp",
-      "title": "Lush Deep Forest Trail descending from Ghorepani",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-059.webp",
-      "title": "Rushing Alpine Waterfall between Ghorepani and Tadapani",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-060.webp",
-      "title": "Gorge Path Leading toward Kimrong Khola",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-061.webp",
-      "title": "Crossing the Terraced Stone Steps of Chhomrong",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-062.webp",
-      "title": "Spectacular Valley Views from Upper Sinuwa Ridge",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-063.webp",
-      "title": "Dense Bamboo and Fern Trail along Modi Khola",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-064.webp",
-      "title": "Rustic Stone Lodges at Himalaya Settlement",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-065.webp",
-      "title": "Dramatic Canyon Approach into Deurali (3,200m)",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-066.webp",
-      "title": "Towering Granite Cliffs above the Modi Khola Gorge",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-067.webp",
-      "title": "Gateway to Machhapuchhre Base Camp",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-068.webp",
-      "title": "Trekking the Open Valley into Machhapuchhre Sanctuary",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-069.webp",
-      "title": "Arriving at Machhapuchhre Base Camp Signboard (3,700m)",
-      "category": "Heritage"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-070.webp",
-      "title": "Machhapuchhre Base Camp Lodges beneath Mt. Fishtail",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-071.webp",
-      "title": "Sheer Vertical Cliffs of Machhapuchhre from MBC",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-072.webp",
-      "title": "Early Dawn Trek from MBC into Annapurna Base Camp",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-073.webp",
-      "title": "Entering the Holy Annapurna Sanctuary (4,130m)",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-074.webp",
-      "title": "Golden Sunrise on Annapurna I (8,091m) South Face",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-075.webp",
-      "title": "Glacial Flutes of Annapurna South at Sunrise",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-076.webp",
-      "title": "Pristine Alpine Reflection Pool inside Base Camp Sanctuary",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-077.webp",
-      "title": "Mirror Reflection of Annapurna South in Sanctuary Tarn",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-078.webp",
-      "title": "Mt. Machhapuchhre Bathed in Golden Morning Sunlight",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-079.webp",
-      "title": "Annapurna Sanctuary Alpine Lodges beneath Towering Peaks",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-080.webp",
-      "title": "Glacial Reflection Pool and Snow Peaks at ABC",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-081.webp",
-      "title": "Crystal Clear Water Reflection inside Annapurna Sanctuary",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-082.webp",
-      "title": "Double Reflection of Annapurna Massif in Glacial Tarn",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-083.webp",
-      "title": "Himalayan Peaks Mirrored in High Sanctuary Waters",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-084.webp",
-      "title": "High Altitude Reflection Tarn beneath Annapurna Peaks",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-085.webp",
-      "title": "Pristine Glacial Waters at Annapurna Base Camp (4,130m)",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-086.webp",
-      "title": "Panoramic Moraine Ridges of Annapurna Sanctuary",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-087.webp",
-      "title": "Sunburst Star Over Sacred Mt. Machhapuchhre",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-088.webp",
-      "title": "Expedition Signboard at Annapurna Base Camp (4,130m)",
-      "category": "Heritage"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-089.webp",
-      "title": "Trekkers Celebrating Victory at Annapurna Base Camp",
-      "category": "Heritage"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-090.webp",
-      "title": "Soaking in Natural Geothermal Hot Springs at Jhinu Danda",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-091.webp",
-      "title": "Riverside Thermal Springs of Modi Khola at Jhinu Danda",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-092.webp",
-      "title": "Pokhara International Airport with Annapurna Backdrop",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-093.webp",
-      "title": "Traditional Gurung Stone Cottages of Ghandruk",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-094.webp",
-      "title": "Phewa Lake Peaceful Morning Waters with Mountain Reflection",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-095.webp",
-      "title": "Pokhara Valley Green Terraces and Mountain Backdrop",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-096.webp",
-      "title": "Sweeping Sunrise Panorama over Western Himalayan Ranges",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-097.webp",
-      "title": "Ghorepani Village Blue Lodges Overlooking Mt. Dhaulagiri",
-      "category": "Villages"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-098.webp",
-      "title": "Sheer Granite Cliffs of the Modi Khola Gorge",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-099.webp",
-      "title": "Panoramic Lake Phewa with Annapurna Massif",
-      "category": "Panoramas"
-    },
-    {
-      "file": "gallery/abc-poon-hill/abc-poon-hill-100.webp",
-      "title": "Golden Himalayan Vistas on the Annapurna Trail",
-      "category": "Panoramas"
-    }
-  ],
+  {
+    "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+    "type": "video",
+    "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Ghorepani poon hill.mp4",
+    "type": "video",
+    "title": "Poon Hill (3,210m) Golden Himalayan Sunrise Panorama",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/mardi-himal-trek.mp4",
+    "type": "video",
+    "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Mardi Himal Trek.mp4",
+    "type": "video",
+    "title": "Mardi Himal Alpine Ridge Trail Scenery",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+    "type": "video",
+    "title": "Annapurna High Alpine Mountain Panoramas",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit Trek.mp4",
+    "type": "video",
+    "title": "Classic Annapurna Sanctuary Foothills & Ridges",
+    "category": "Videos"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek.webp",
+    "title": "Ghorepani Poon Hill Sunrise Panorama over Annapurna and Dhaulagiri",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-02.webp",
+    "title": "Trekker on the trail to Ghorepani and Poon Hill",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-03.webp",
+    "title": "Poon Hill Viewing Tower Overlook",
+    "category": "Panoramas"
+  },
+  {
+    "file": "poon-hill-viewpoint-on-annapurna-trek.webp",
+    "title": "Poon Hill viewpoint tower overlooking the Annapurna range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "sunrise-view-from-poon-hills-viewing-tower-over-the-annapurna-range.webp",
+    "title": "Golden Sunrise View from Poon Hill Viewing Tower",
+    "category": "Panoramas"
+  },
+  {
+    "file": "this-picture-was-taken-in-the-poon-hill.webp",
+    "title": "Annapurna Mountain Range Seen from Poon Hill",
+    "category": "Peaks"
+  },
+  {
+    "file": "this-picture-was-taken-in-the-poon-hill-02.webp",
+    "title": "Panoramic Sunrise Ridge over Dhaulagiri Range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "abc-poon-hill-autumn-morning-peaks.webp",
+    "title": "Poon Hill Autumn Morning Peaks",
+    "category": "Peaks"
+  },
+  {
+    "file": "abc-poon-hill-golden-sunrise-panorama.webp",
+    "title": "Golden Himalayan Sunrise Panorama from Poon Hill",
+    "category": "Panoramas"
+  },
+  {
+    "file": "abc-poon-hill-viewpoint-ghorepani.webp",
+    "title": "Ghorepani Village and Viewpoint Ridge",
+    "category": "Villages"
+  },
+  {
+    "file": "abc-poon-hill-teahouse-vista.webp",
+    "title": "Traditional Himalayan Teahouse Lodge in Ghorepani",
+    "category": "Villages"
+  },
+  {
+    "file": "abc-poon-hill-sanctuary-trail.webp",
+    "title": "Poon Hill Rhododendron Forest Mountain Trail",
+    "category": "Trail"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.jpg",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.jpg",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-04.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 04",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.jpg",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.webp",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek.jpg",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek.webp",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-02.jpg",
+    "title": "Ghorepani Poon Hill Trek 02",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-03.jpg",
+    "title": "Ghorepani Poon Hill Trek 03",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.jpg",
+    "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.webp",
+    "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek.jpg",
+    "title": "Ghorepani Poon Hill Trek",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.jpg",
+    "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.webp",
+    "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-001.webp",
+    "title": "Modi Khola Alpine Valley with Mountain Shrines",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-002.webp",
+    "title": "Golden Alpenglow on Sacred Mt. Machhapuchhre (Fishtail)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-003.webp",
+    "title": "Sunrise Illumination over Annapurna South Summit",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-004.webp",
+    "title": "Mt. Fishtail Rising Above Himalayan Rhododendron Forests",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-005.webp",
+    "title": "Relaxing in Natural Riverside Hot Springs at Jhinu Danda",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-006.webp",
+    "title": "Scenic Gateway to the Annapurna Region in Pokhara",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-007.webp",
+    "title": "Hiking Traditional Stone Stairways of Ulleri",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-008.webp",
+    "title": "Spring Rhododendron Trail toward Ghorepani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-009.webp",
+    "title": "Cozy Teahouse Resting Point on the Ghorepani Route",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-010.webp",
+    "title": "First Light of Dawn from Poon Hill (3,210m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-011.webp",
+    "title": "Spectacular Dhaulagiri & Annapurna Sunrise Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-012.webp",
+    "title": "Trekkers Celebrating Sunrise at Poon Hill View Tower",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-013.webp",
+    "title": "Endless Himalayan Horizons from Poon Hill Summit",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-014.webp",
+    "title": "Golden Mountain Ridges of the Annapurna Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-015.webp",
+    "title": "Hiunchuli and Annapurna South Peak Vista",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-016.webp",
+    "title": "Morning Sun Over the Western Himalaya",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-017.webp",
+    "title": "Scenic Ridge Trail from Ghorepani to Tadapani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-018.webp",
+    "title": "Ancient Moss-Draped Rhododendron Forest",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-019.webp",
+    "title": "Stone Lodges and Terraced Fields of Chhomrong",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-020.webp",
+    "title": "Steep Modi Khola River Canyon Ascent",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-021.webp",
+    "title": "Winter Snow Trail Approaching Deurali & MBC",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-022.webp",
+    "title": "Trekking beneath Machhapuchhre Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-023.webp",
+    "title": "Towering Walls of Mt. Fishtail at MBC (3,700m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-024.webp",
+    "title": "High Altitude Mountain Shelters at Machhapuchhre Base Camp",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-025.webp",
+    "title": "Expedition Team Hiking the High Sanctuary Basin",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-026.webp",
+    "title": "Alpine Snow Amphitheater inside Annapurna Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-027.webp",
+    "title": "Glacial Summits of Annapurna South (7,219m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-028.webp",
+    "title": "Final Ascent into Annapurna Base Camp (4,130m)",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-029.webp",
+    "title": "Morning Glory at Annapurna Base Camp (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-030.webp",
+    "title": "Annapurna I (8,091m) Golden Summit at Sunrise",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-031.webp",
+    "title": "Vast Annapurna Glacial Basin and Moraines",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-032.webp",
+    "title": "Alpenglow Painting the High Annapurna Amphitheater",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-033.webp",
+    "title": "Majestic Fluted Ridge of Annapurna South",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-034.webp",
+    "title": "Prayer Flags and Memorial Chortens at ABC",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-035.webp",
+    "title": "Trekkers Celebrating Base Camp Achievement",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-036.webp",
+    "title": "Complete 360-Degree Amphitheater Vista of ABC",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-037.webp",
+    "title": "Descending Modi Khola Gorge from Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-038.webp",
+    "title": "Crossing Modi Khola River at Birethanti",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-039.webp",
+    "title": "Lush Terraced Green Hillsides of Tikhedhunga",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-040.webp",
+    "title": "Conquering the Famous Stone Steps of Ulleri",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-041.webp",
+    "title": "Sunset Alpenglow from Ulleri Lodge Terraces",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-042.webp",
+    "title": "Early Morning Lantern Walk up to Poon Hill",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-043.webp",
+    "title": "First Rays on Mt. Dhaulagiri (8,167m) from Poon Hill",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-044.webp",
+    "title": "Dawn at Poon Hill Summit Viewing Tower (3,210m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-045.webp",
+    "title": "Golden Annapurna Range Alpenglow from Poon Hill",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-046.webp",
+    "title": "Sharp Fishtail Profile Lit by Rising Sun",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-047.webp",
+    "title": "360-Degree Himalayan Sunrise Panorama at Poon Hill",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-048.webp",
+    "title": "Trekkers Watching Sunrise from Poon Hill Ridge",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-049.webp",
+    "title": "Endless Snow-Capped Horizons above Cloud Inversions",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-050.webp",
+    "title": "Celebrating at the Poon Hill Summit Elevation Sign (3,210m)",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-051.webp",
+    "title": "High Alpine Panorama Across the Kali Gandaki Valley",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-052.webp",
+    "title": "Formidable South Face of Annapurna South",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-053.webp",
+    "title": "Hiunchuli Peak in Crisp Morning Autumn Sunlight",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-054.webp",
+    "title": "Poon Hill High Ridge Outlook toward Nilgiri Peaks",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-055.webp",
+    "title": "Buddhist Prayer Flags Streaming at Poon Hill Viewpoint",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-056.webp",
+    "title": "Enjoying Hot Himalayan Tea at Poon Hill Summit",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-057.webp",
+    "title": "Golden Autumn Light over the Annapurna Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-058.webp",
+    "title": "Lush Deep Forest Trail descending from Ghorepani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-059.webp",
+    "title": "Rushing Alpine Waterfall between Ghorepani and Tadapani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-060.webp",
+    "title": "Gorge Path Leading toward Kimrong Khola",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-061.webp",
+    "title": "Crossing the Terraced Stone Steps of Chhomrong",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-062.webp",
+    "title": "Spectacular Valley Views from Upper Sinuwa Ridge",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-063.webp",
+    "title": "Dense Bamboo and Fern Trail along Modi Khola",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-064.webp",
+    "title": "Rustic Stone Lodges at Himalaya Settlement",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-065.webp",
+    "title": "Dramatic Canyon Approach into Deurali (3,200m)",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-066.webp",
+    "title": "Towering Granite Cliffs above the Modi Khola Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-067.webp",
+    "title": "Gateway to Machhapuchhre Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-068.webp",
+    "title": "Trekking the Open Valley into Machhapuchhre Sanctuary",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-069.webp",
+    "title": "Arriving at Machhapuchhre Base Camp Signboard (3,700m)",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-070.webp",
+    "title": "Machhapuchhre Base Camp Lodges beneath Mt. Fishtail",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-071.webp",
+    "title": "Sheer Vertical Cliffs of Machhapuchhre from MBC",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-072.webp",
+    "title": "Early Dawn Trek from MBC into Annapurna Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-073.webp",
+    "title": "Entering the Holy Annapurna Sanctuary (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-074.webp",
+    "title": "Golden Sunrise on Annapurna I (8,091m) South Face",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-075.webp",
+    "title": "Glacial Flutes of Annapurna South at Sunrise",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-076.webp",
+    "title": "Pristine Alpine Reflection Pool inside Base Camp Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-077.webp",
+    "title": "Mirror Reflection of Annapurna South in Sanctuary Tarn",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-078.webp",
+    "title": "Mt. Machhapuchhre Bathed in Golden Morning Sunlight",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-079.webp",
+    "title": "Annapurna Sanctuary Alpine Lodges beneath Towering Peaks",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-080.webp",
+    "title": "Glacial Reflection Pool and Snow Peaks at ABC",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-081.webp",
+    "title": "Crystal Clear Water Reflection inside Annapurna Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-082.webp",
+    "title": "Double Reflection of Annapurna Massif in Glacial Tarn",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-083.webp",
+    "title": "Himalayan Peaks Mirrored in High Sanctuary Waters",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-084.webp",
+    "title": "High Altitude Reflection Tarn beneath Annapurna Peaks",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-085.webp",
+    "title": "Pristine Glacial Waters at Annapurna Base Camp (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-086.webp",
+    "title": "Panoramic Moraine Ridges of Annapurna Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-087.webp",
+    "title": "Sunburst Star Over Sacred Mt. Machhapuchhre",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-088.webp",
+    "title": "Expedition Signboard at Annapurna Base Camp (4,130m)",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-089.webp",
+    "title": "Trekkers Celebrating Victory at Annapurna Base Camp",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-090.webp",
+    "title": "Soaking in Natural Geothermal Hot Springs at Jhinu Danda",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-091.webp",
+    "title": "Riverside Thermal Springs of Modi Khola at Jhinu Danda",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-092.webp",
+    "title": "Pokhara International Airport with Annapurna Backdrop",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-093.webp",
+    "title": "Traditional Gurung Stone Cottages of Ghandruk",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-094.webp",
+    "title": "Phewa Lake Peaceful Morning Waters with Mountain Reflection",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-095.webp",
+    "title": "Pokhara Valley Green Terraces and Mountain Backdrop",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-096.webp",
+    "title": "Sweeping Sunrise Panorama over Western Himalayan Ranges",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-097.webp",
+    "title": "Ghorepani Village Blue Lodges Overlooking Mt. Dhaulagiri",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-098.webp",
+    "title": "Sheer Granite Cliffs of the Modi Khola Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-099.webp",
+    "title": "Panoramic Lake Phewa with Annapurna Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-100.webp",
+    "title": "Golden Himalayan Vistas on the Annapurna Trail",
+    "category": "Panoramas"
+  }
+],
   "mardi": [
     {
       "file": "video/gallery/treks/mardi-himal-trek.mp4",
@@ -20714,6 +21629,30 @@ function setupTrekPhotoGallery() {
   ],
   "annapurna-circuit-trek": [
   {
+    "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit Trek.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit Expedition Panorama & Mountain Valleys",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit via Tilicho Lake & High Alpine Thorong La Route",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit via Tilicho lake.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit & Tilicho Lake High Altitude Alpine Route",
+    "category": "Videos"
+  },
+  {
     "file": "gallery/annapurna-circuit/act-14-expedition-026.webp",
     "title": "Annapurna Mountain Range Framed by Pines and Prayer Flags",
     "category": "Panoramas"
@@ -21270,945 +22209,773 @@ function setupTrekPhotoGallery() {
   }
 ],
   "annapurna-circuit-with-tilicho-lake": [
-    {
-      "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit via Tilicho Lake (4,919m) Turquoise Glacial Waters",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
-      "type": "video",
-      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-001.webp",
-      "title": "Act 14 Expedition 001",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-002.webp",
-      "title": "Act 14 Expedition 002",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-003.webp",
-      "title": "Act 14 Expedition 003",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-004.webp",
-      "title": "Act 14 Expedition 004",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-005.webp",
-      "title": "Act 14 Expedition 005",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-006.webp",
-      "title": "Act 14 Expedition 006",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-008.webp",
-      "title": "Act 14 Expedition 008",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-009.webp",
-      "title": "Act 14 Expedition 009",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-010.webp",
-      "title": "Act 14 Expedition 010",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-011.webp",
-      "title": "Act 14 Expedition 011",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-012.webp",
-      "title": "Act 14 Expedition 012",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-013.webp",
-      "title": "Act 14 Expedition 013",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-014.webp",
-      "title": "Act 14 Expedition 014",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-015.webp",
-      "title": "Act 14 Expedition 015",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-016.webp",
-      "title": "Act 14 Expedition 016",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-017.webp",
-      "title": "Act 14 Expedition 017",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-018.webp",
-      "title": "Act 14 Expedition 018",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-019.webp",
-      "title": "Act 14 Expedition 019",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-020.webp",
-      "title": "Act 14 Expedition 020",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-021.webp",
-      "title": "Act 14 Expedition 021",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-022.webp",
-      "title": "Act 14 Expedition 022",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-023.webp",
-      "title": "Act 14 Expedition 023",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-024.webp",
-      "title": "Act 14 Expedition 024",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-025.webp",
-      "title": "Act 14 Expedition 025",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-026.webp",
-      "title": "Act 14 Expedition 026",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-027.webp",
-      "title": "Act 14 Expedition 027",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-028.webp",
-      "title": "Act 14 Expedition 028",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-029.webp",
-      "title": "Act 14 Expedition 029",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-030.webp",
-      "title": "Act 14 Expedition 030",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-031.webp",
-      "title": "Act 14 Expedition 031",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-032.webp",
-      "title": "Act 14 Expedition 032",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-033.webp",
-      "title": "Act 14 Expedition 033",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-034.webp",
-      "title": "Act 14 Expedition 034",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-035.webp",
-      "title": "Act 14 Expedition 035",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-036.webp",
-      "title": "Act 14 Expedition 036",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-037.webp",
-      "title": "Act 14 Expedition 037",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-038.webp",
-      "title": "Act 14 Expedition 038",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-039.webp",
-      "title": "Act 14 Expedition 039",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-040.webp",
-      "title": "Act 14 Expedition 040",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-041.webp",
-      "title": "Act 14 Expedition 041",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-042.webp",
-      "title": "Act 14 Expedition 042",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-043.webp",
-      "title": "Act 14 Expedition 043",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-044.webp",
-      "title": "Act 14 Expedition 044",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-045.webp",
-      "title": "Act 14 Expedition 045",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-046.webp",
-      "title": "Act 14 Expedition 046",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-047.webp",
-      "title": "Act 14 Expedition 047",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-048.webp",
-      "title": "Act 14 Expedition 048",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-049.webp",
-      "title": "Act 14 Expedition 049",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-050.webp",
-      "title": "Act 14 Expedition 050",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-051.webp",
-      "title": "Act 14 Expedition 051",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-052.webp",
-      "title": "Act 14 Expedition 052",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-053.webp",
-      "title": "Act 14 Expedition 053",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-054.webp",
-      "title": "Act 14 Expedition 054",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-055.webp",
-      "title": "Act 14 Expedition 055",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-056.webp",
-      "title": "Act 14 Expedition 056",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-057.webp",
-      "title": "Act 14 Expedition 057",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-058.webp",
-      "title": "Act 14 Expedition 058",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-059.webp",
-      "title": "Act 14 Expedition 059",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-060.webp",
-      "title": "Act 14 Expedition 060",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-061.webp",
-      "title": "Act 14 Expedition 061",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-062.webp",
-      "title": "Act 14 Expedition 062",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-063.webp",
-      "title": "Act 14 Expedition 063",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-064.webp",
-      "title": "Act 14 Expedition 064",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-065.webp",
-      "title": "Act 14 Expedition 065",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-066.webp",
-      "title": "Act 14 Expedition 066",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-067.webp",
-      "title": "Act 14 Expedition 067",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-068.webp",
-      "title": "Act 14 Expedition 068",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-069.webp",
-      "title": "Act 14 Expedition 069",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-070.webp",
-      "title": "Act 14 Expedition 070",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-071.webp",
-      "title": "Act 14 Expedition 071",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-072.webp",
-      "title": "Act 14 Expedition 072",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-073.webp",
-      "title": "Act 14 Expedition 073",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-074.webp",
-      "title": "Act 14 Expedition 074",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-075.webp",
-      "title": "Act 14 Expedition 075",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-076.webp",
-      "title": "Act 14 Expedition 076",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-077.webp",
-      "title": "Act 14 Expedition 077",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-078.webp",
-      "title": "Act 14 Expedition 078",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-079.webp",
-      "title": "Act 14 Expedition 079",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-080.webp",
-      "title": "Act 14 Expedition 080",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-081.webp",
-      "title": "Act 14 Expedition 081",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-082.webp",
-      "title": "Act 14 Expedition 082",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-083.webp",
-      "title": "Act 14 Expedition 083",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-084.webp",
-      "title": "Act 14 Expedition 084",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-085.webp",
-      "title": "Act 14 Expedition 085",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-086.webp",
-      "title": "Act 14 Expedition 086",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-087.webp",
-      "title": "Act 14 Expedition 087",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-088.webp",
-      "title": "Act 14 Expedition 088",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-089.webp",
-      "title": "Act 14 Expedition 089",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-090.webp",
-      "title": "Act 14 Expedition 090",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-091.webp",
-      "title": "Act 14 Expedition 091",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-092.webp",
-      "title": "Act 14 Expedition 092",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-093.webp",
-      "title": "Act 14 Expedition 093",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-094.webp",
-      "title": "Act 14 Expedition 094",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-095.webp",
-      "title": "Act 14 Expedition 095",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-096.webp",
-      "title": "Act 14 Expedition 096",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-097.webp",
-      "title": "Act 14 Expedition 097",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-098.webp",
-      "title": "Act 14 Expedition 098",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-099.webp",
-      "title": "Act 14 Expedition 099",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-100.webp",
-      "title": "Act 14 Expedition 100",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-101.webp",
-      "title": "Act 14 Expedition 101",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-102.webp",
-      "title": "Act 14 Expedition 102",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-103.webp",
-      "title": "Act 14 Expedition 103",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-104.webp",
-      "title": "Act 14 Expedition 104",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-105.webp",
-      "title": "Act 14 Expedition 105",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-106.webp",
-      "title": "Act 14 Expedition 106",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-107.webp",
-      "title": "Act 14 Expedition 107",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-108.webp",
-      "title": "Act 14 Expedition 108",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-109.webp",
-      "title": "Act 14 Expedition 109",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-110.webp",
-      "title": "Act 14 Expedition 110",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-111.webp",
-      "title": "Act 14 Expedition 111",
-      "category": "Peaks"
-    },
-    {
-      "file": "gallery/annapurna-circuit/act-14-expedition-112.webp",
-      "title": "Act 14 Expedition 112",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detail-map-of-annapurna-circuit-trek-showing-checkpoints-with-landmarks-along-with-a-alt.jpg",
-      "title": "A Detail Map Of Annapurna Circuit Trek Showing Checkpoints With Landmarks Along With A Alt",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-detail-map-of-annapurna-circuit-trek-showing-checkpoints-with-landmarks-along-with-a-alt.webp",
-      "title": "A Detail Map Of Annapurna Circuit Trek Showing Checkpoints With Landmarks Along With A Alt",
-      "category": "Peaks"
-    },
-    {
-      "file": "act-14-gallery-braga-ancient-monastery.webp",
-      "title": "Act 14 Gallery Braga Ancient Monastery",
-      "category": "Heritage"
-    },
-    {
-      "file": "act-14-gallery-chame-pine-forests.webp",
-      "title": "Act 14 Gallery Chame Pine Forests",
-      "category": "Trail"
-    },
-    {
-      "file": "act-14-gallery-manang-valley-horses.webp",
-      "title": "Act 14 Gallery Manang Valley Horses",
-      "category": "Trail"
-    },
-    {
-      "file": "act-14-gallery-muktinath-temple-shrines.webp",
-      "title": "Act 14 Gallery Muktinath Temple Shrines",
-      "category": "Heritage"
-    },
-    {
-      "file": "act-14-gallery-tal-waterfall-entrance.webp",
-      "title": "Act 14 Gallery Tal Waterfall Entrance",
-      "category": "Trail"
-    },
-    {
-      "file": "act-14-gallery-thorong-la-summit-sign.webp",
-      "title": "Act 14 Gallery Thorong La Summit Sign",
-      "category": "Peaks"
-    },
-    {
-      "file": "act-14-gallery-thorong-phedi-base.webp",
-      "title": "Act 14 Gallery Thorong Phedi Base",
-      "category": "Trail"
-    },
-    {
-      "file": "act-14-gallery-yak-kharka-alpine-pasture.webp",
-      "title": "Act 14 Gallery Yak Kharka Alpine Pasture",
-      "category": "Wildlife"
-    },
-    {
-      "file": "annapurna-circuit-14-days-manang-chortens.webp",
-      "title": "Annapurna Circuit 14 Days Manang Chortens",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-14-days-marsyangdi-forest.webp",
-      "title": "Annapurna Circuit 14 Days Marsyangdi Forest",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-14-days-thorong-la-pass-crossing.webp",
-      "title": "Annapurna Circuit 14 Days Thorong La Pass Crossing",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-14-days-thorong-phedi-ascent.webp",
-      "title": "Annapurna Circuit 14 Days Thorong Phedi Ascent",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-14-days-upper-pisang-panorama.webp",
-      "title": "Annapurna Circuit 14 Days Upper Pisang Panorama",
-      "category": "Panoramas"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-02.jpg",
-      "title": "Annapurna Circuit Luxury Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-02.webp",
-      "title": "Annapurna Circuit Luxury Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-03.jpg",
-      "title": "Annapurna Circuit Luxury Trek 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-03.webp",
-      "title": "Annapurna Circuit Luxury Trek 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-04.jpg",
-      "title": "Annapurna Circuit Luxury Trek 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-04.webp",
-      "title": "Annapurna Circuit Luxury Trek 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-05.jpg",
-      "title": "Annapurna Circuit Luxury Trek 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-05.webp",
-      "title": "Annapurna Circuit Luxury Trek 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-06.jpg",
-      "title": "Annapurna Circuit Luxury Trek 06",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-luxury-trek-06.webp",
-      "title": "Annapurna Circuit Luxury Trek 06",
-      "category": "Peaks"
-    }
-  ],
+  {
+    "file": "video/gallery/treks/Annapurna Circuit via Tilicho lake.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit via Tilicho Lake (4,919m) Alpine Glacial Trek",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+    "type": "video",
+    "title": "Tilicho Lake & Thorong La Pass High Altitude Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit Trek.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit Trek Panoramic Mountain Views",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+    "type": "video",
+    "title": "Thorong La Pass (5,416m) High Alpine Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+    "type": "video",
+    "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Ghorepani poon hill.mp4",
+    "type": "video",
+    "title": "Poon Hill (3,210m) Golden Himalayan Sunrise Panorama",
+    "category": "Videos"
+  },
+  {
+    "file": "tilicho-lake-3757100-1920.webp",
+    "title": "Glacial Turquoise Waters of Tilicho Lake (4,919m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.webp",
+    "title": "Trekkers on High Ridge Trail towards Tilicho Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "annapurna-circuit-with-tilicho-lake-trek.webp",
+    "title": "Tilicho Lake Mountain Basin & High Alpine Scree Slopes",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-circuit-with-tilicho-lake-trek-02.webp",
+    "title": "High Alpine Lake Moraine and Glacier Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-circuit-with-tilicho-lake-trek-3.webp",
+    "title": "Tilicho High Altitude Scree Trail and Mountain Ridges",
+    "category": "Trail"
+  },
+  {
+    "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.webp",
+    "title": "Tilicho Base Camp Approach with Glacier Views",
+    "category": "Trail"
+  },
+  {
+    "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.webp",
+    "title": "Panoramic High Mountain Scenery along Tilicho Trail",
+    "category": "Panoramas"
+  },
+  {
+    "file": "tilicho-lake-trek-3646059-1920.webp",
+    "title": "Sunlit Reflections on Sacred Tilicho Lake",
+    "category": "Panoramas"
+  },
+  {
+    "file": "tilicho-trekking-3649402-1920.webp",
+    "title": "Expedition Trail Across the Tilicho Landslide Area",
+    "category": "Trail"
+  },
+  {
+    "file": "classic-annapurna-circuit-trek-thorong-la-pass-signpost-prayer-flags.webp",
+    "title": "Thorong La Pass (5,416m) Signpost and Buddhist Prayer Flags",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-001.webp",
+    "title": "Act 14 Expedition 001",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-002.webp",
+    "title": "Act 14 Expedition 002",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-003.webp",
+    "title": "Act 14 Expedition 003",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-004.webp",
+    "title": "Act 14 Expedition 004",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-005.webp",
+    "title": "Act 14 Expedition 005",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-006.webp",
+    "title": "Act 14 Expedition 006",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-008.webp",
+    "title": "Act 14 Expedition 008",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-009.webp",
+    "title": "Act 14 Expedition 009",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-010.webp",
+    "title": "Act 14 Expedition 010",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-011.webp",
+    "title": "Act 14 Expedition 011",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-012.webp",
+    "title": "Act 14 Expedition 012",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-013.webp",
+    "title": "Act 14 Expedition 013",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-014.webp",
+    "title": "Act 14 Expedition 014",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-015.webp",
+    "title": "Act 14 Expedition 015",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-016.webp",
+    "title": "Act 14 Expedition 016",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-017.webp",
+    "title": "Act 14 Expedition 017",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-018.webp",
+    "title": "Act 14 Expedition 018",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-019.webp",
+    "title": "Act 14 Expedition 019",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-020.webp",
+    "title": "Act 14 Expedition 020",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-021.webp",
+    "title": "Act 14 Expedition 021",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-022.webp",
+    "title": "Act 14 Expedition 022",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-023.webp",
+    "title": "Act 14 Expedition 023",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-024.webp",
+    "title": "Act 14 Expedition 024",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-025.webp",
+    "title": "Act 14 Expedition 025",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-026.webp",
+    "title": "Act 14 Expedition 026",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-027.webp",
+    "title": "Act 14 Expedition 027",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-028.webp",
+    "title": "Act 14 Expedition 028",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-029.webp",
+    "title": "Act 14 Expedition 029",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-030.webp",
+    "title": "Act 14 Expedition 030",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-031.webp",
+    "title": "Act 14 Expedition 031",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-032.webp",
+    "title": "Act 14 Expedition 032",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-033.webp",
+    "title": "Act 14 Expedition 033",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-034.webp",
+    "title": "Act 14 Expedition 034",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-035.webp",
+    "title": "Act 14 Expedition 035",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-036.webp",
+    "title": "Act 14 Expedition 036",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-037.webp",
+    "title": "Act 14 Expedition 037",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-038.webp",
+    "title": "Act 14 Expedition 038",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-039.webp",
+    "title": "Act 14 Expedition 039",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-040.webp",
+    "title": "Act 14 Expedition 040",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-041.webp",
+    "title": "Act 14 Expedition 041",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-042.webp",
+    "title": "Act 14 Expedition 042",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-043.webp",
+    "title": "Act 14 Expedition 043",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-044.webp",
+    "title": "Act 14 Expedition 044",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-045.webp",
+    "title": "Act 14 Expedition 045",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-046.webp",
+    "title": "Act 14 Expedition 046",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-047.webp",
+    "title": "Act 14 Expedition 047",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-048.webp",
+    "title": "Act 14 Expedition 048",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-049.webp",
+    "title": "Act 14 Expedition 049",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-050.webp",
+    "title": "Act 14 Expedition 050",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-051.webp",
+    "title": "Act 14 Expedition 051",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-052.webp",
+    "title": "Act 14 Expedition 052",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-053.webp",
+    "title": "Act 14 Expedition 053",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-054.webp",
+    "title": "Act 14 Expedition 054",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-055.webp",
+    "title": "Act 14 Expedition 055",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-056.webp",
+    "title": "Act 14 Expedition 056",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-057.webp",
+    "title": "Act 14 Expedition 057",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-058.webp",
+    "title": "Act 14 Expedition 058",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-059.webp",
+    "title": "Act 14 Expedition 059",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-060.webp",
+    "title": "Act 14 Expedition 060",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-061.webp",
+    "title": "Act 14 Expedition 061",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-062.webp",
+    "title": "Act 14 Expedition 062",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-063.webp",
+    "title": "Act 14 Expedition 063",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-064.webp",
+    "title": "Act 14 Expedition 064",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-065.webp",
+    "title": "Act 14 Expedition 065",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-066.webp",
+    "title": "Act 14 Expedition 066",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-067.webp",
+    "title": "Act 14 Expedition 067",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-068.webp",
+    "title": "Act 14 Expedition 068",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-069.webp",
+    "title": "Act 14 Expedition 069",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-070.webp",
+    "title": "Act 14 Expedition 070",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-071.webp",
+    "title": "Act 14 Expedition 071",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-072.webp",
+    "title": "Act 14 Expedition 072",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-073.webp",
+    "title": "Act 14 Expedition 073",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-074.webp",
+    "title": "Act 14 Expedition 074",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-075.webp",
+    "title": "Act 14 Expedition 075",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-076.webp",
+    "title": "Act 14 Expedition 076",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-077.webp",
+    "title": "Act 14 Expedition 077",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-078.webp",
+    "title": "Act 14 Expedition 078",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-079.webp",
+    "title": "Act 14 Expedition 079",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-080.webp",
+    "title": "Act 14 Expedition 080",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-081.webp",
+    "title": "Act 14 Expedition 081",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-082.webp",
+    "title": "Act 14 Expedition 082",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-083.webp",
+    "title": "Act 14 Expedition 083",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-084.webp",
+    "title": "Act 14 Expedition 084",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-085.webp",
+    "title": "Act 14 Expedition 085",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-086.webp",
+    "title": "Act 14 Expedition 086",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-087.webp",
+    "title": "Act 14 Expedition 087",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-088.webp",
+    "title": "Act 14 Expedition 088",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-089.webp",
+    "title": "Act 14 Expedition 089",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-090.webp",
+    "title": "Act 14 Expedition 090",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-091.webp",
+    "title": "Act 14 Expedition 091",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-092.webp",
+    "title": "Act 14 Expedition 092",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-093.webp",
+    "title": "Act 14 Expedition 093",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-094.webp",
+    "title": "Act 14 Expedition 094",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-095.webp",
+    "title": "Act 14 Expedition 095",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-096.webp",
+    "title": "Act 14 Expedition 096",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-097.webp",
+    "title": "Act 14 Expedition 097",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-098.webp",
+    "title": "Act 14 Expedition 098",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-099.webp",
+    "title": "Act 14 Expedition 099",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-100.webp",
+    "title": "Act 14 Expedition 100",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-101.webp",
+    "title": "Act 14 Expedition 101",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-102.webp",
+    "title": "Act 14 Expedition 102",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-103.webp",
+    "title": "Act 14 Expedition 103",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-104.webp",
+    "title": "Act 14 Expedition 104",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-105.webp",
+    "title": "Act 14 Expedition 105",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-106.webp",
+    "title": "Act 14 Expedition 106",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-107.webp",
+    "title": "Act 14 Expedition 107",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-108.webp",
+    "title": "Act 14 Expedition 108",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-109.webp",
+    "title": "Act 14 Expedition 109",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-110.webp",
+    "title": "Act 14 Expedition 110",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-111.webp",
+    "title": "Act 14 Expedition 111",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/annapurna-circuit/act-14-expedition-112.webp",
+    "title": "Act 14 Expedition 112",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-detail-map-of-annapurna-circuit-trek-showing-checkpoints-with-landmarks-along-with-a-alt.jpg",
+    "title": "A Detail Map Of Annapurna Circuit Trek Showing Checkpoints With Landmarks Along With A Alt",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-detail-map-of-annapurna-circuit-trek-showing-checkpoints-with-landmarks-along-with-a-alt.webp",
+    "title": "A Detail Map Of Annapurna Circuit Trek Showing Checkpoints With Landmarks Along With A Alt",
+    "category": "Peaks"
+  },
+  {
+    "file": "act-14-gallery-braga-ancient-monastery.webp",
+    "title": "Act 14 Gallery Braga Ancient Monastery",
+    "category": "Heritage"
+  },
+  {
+    "file": "act-14-gallery-chame-pine-forests.webp",
+    "title": "Act 14 Gallery Chame Pine Forests",
+    "category": "Trail"
+  },
+  {
+    "file": "act-14-gallery-manang-valley-horses.webp",
+    "title": "Act 14 Gallery Manang Valley Horses",
+    "category": "Trail"
+  },
+  {
+    "file": "act-14-gallery-muktinath-temple-shrines.webp",
+    "title": "Act 14 Gallery Muktinath Temple Shrines",
+    "category": "Heritage"
+  },
+  {
+    "file": "act-14-gallery-tal-waterfall-entrance.webp",
+    "title": "Act 14 Gallery Tal Waterfall Entrance",
+    "category": "Trail"
+  },
+  {
+    "file": "act-14-gallery-thorong-la-summit-sign.webp",
+    "title": "Act 14 Gallery Thorong La Summit Sign",
+    "category": "Peaks"
+  },
+  {
+    "file": "act-14-gallery-thorong-phedi-base.webp",
+    "title": "Act 14 Gallery Thorong Phedi Base",
+    "category": "Trail"
+  },
+  {
+    "file": "act-14-gallery-yak-kharka-alpine-pasture.webp",
+    "title": "Act 14 Gallery Yak Kharka Alpine Pasture",
+    "category": "Wildlife"
+  },
+  {
+    "file": "annapurna-circuit-14-days-manang-chortens.webp",
+    "title": "Annapurna Circuit 14 Days Manang Chortens",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-14-days-marsyangdi-forest.webp",
+    "title": "Annapurna Circuit 14 Days Marsyangdi Forest",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-14-days-thorong-la-pass-crossing.webp",
+    "title": "Annapurna Circuit 14 Days Thorong La Pass Crossing",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-14-days-thorong-phedi-ascent.webp",
+    "title": "Annapurna Circuit 14 Days Thorong Phedi Ascent",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-14-days-upper-pisang-panorama.webp",
+    "title": "Annapurna Circuit 14 Days Upper Pisang Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-circuit-luxury-trek-02.jpg",
+    "title": "Annapurna Circuit Luxury Trek 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-luxury-trek-02.webp",
+    "title": "Annapurna Circuit Luxury Trek 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-luxury-trek-03.jpg",
+    "title": "Annapurna Circuit Luxury Trek 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-luxury-trek-03.webp",
+    "title": "Annapurna Circuit Luxury Trek 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-luxury-trek-04.jpg",
+    "title": "Annapurna Circuit Luxury Trek 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-luxury-trek-04.webp",
+    "title": "Annapurna Circuit Luxury Trek 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-luxury-trek-05.jpg",
+    "title": "Annapurna Circuit Luxury Trek 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-luxury-trek-05.webp",
+    "title": "Annapurna Circuit Luxury Trek 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-luxury-trek-06.jpg",
+    "title": "Annapurna Circuit Luxury Trek 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "annapurna-circuit-luxury-trek-06.webp",
+    "title": "Annapurna Circuit Luxury Trek 06",
+    "category": "Peaks"
+  }
+],
   "annapurna-luxury-trek": [
     {
       "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
@@ -23293,6 +24060,30 @@ function setupTrekPhotoGallery() {
     }
   ],
   "classic-annapurna-circuit-trek": [
+  {
+    "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit Trek.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit Expedition Panorama & Mountain Valleys",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit via Tilicho Lake & High Alpine Thorong La Route",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit via Tilicho lake.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit & Tilicho Lake High Altitude Alpine Route",
+    "category": "Videos"
+  },
     {
         "file": "gallery/classic-annapurna-circuit/classic-act-expedition-034.webp",
         "title": "High Alpine Annapurna Mountain Panorama Framed by Buddhist Prayer Flags",
@@ -25307,9 +26098,21 @@ function setupTrekPhotoGallery() {
       "category": "Videos"
     },
     {
+      "file": "video/gallery/treks/everest base camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Panoramic Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "video/gallery/treks/everest-three-passes-trek.mp4",
       "type": "video",
       "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/Everest Three Passes trek.mp4",
+      "type": "video",
+      "title": "Everest Three Passes Alpine Trail Journey",
       "category": "Videos"
     },
     {
@@ -25319,243 +26122,9 @@ function setupTrekPhotoGallery() {
       "category": "Videos"
     },
     {
-      "file": "video/Clip Video First.mp4",
+      "file": "video/gallery/treks/Everest without flight.mp4",
       "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
+      "title": "Classic Jiri to Everest Base Camp Route",
       "category": "Videos"
     },
     {
@@ -25783,8 +26352,7 @@ function setupTrekPhotoGallery() {
       "title": "Everest base camp trek dingboche to lobuche",
       "category": "Peaks"
     }
-  ],
-  "everest-base-camp-trek-16-days": [
+  ],  "everest-base-camp-trek-16-days": [
     {
       "file": "video/gallery/treks/everest-base-camp.mp4",
       "type": "video",
@@ -27190,490 +27758,303 @@ function setupTrekPhotoGallery() {
     }
   ],
   "everest-base-camp-trek-without-flight": [
-    {
-      "file": "video/gallery/treks/everest-without-flight.mp4",
-      "type": "video",
-      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-base-camp.mp4",
-      "type": "video",
-      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-      "type": "video",
-      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-      "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-      "category": "Panoramas"
-    },
-    {
-      "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-      "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-      "category": "Panoramas"
-    },
-    {
-      "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-      "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-      "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-      "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-      "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-      "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-      "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-      "category": "Peaks"
-    },
-    {
-      "file": "ama-dablam-peak.jpg",
-      "title": "Ama Dablam Peak",
-      "category": "Peaks"
-    },
-    {
-      "file": "ama-dablam-peak.webp",
-      "title": "Ama Dablam Peak",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-      "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
-      "category": "Panoramas"
-    },
-    {
-      "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-      "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-      "category": "Peaks"
-    },
-    {
-      "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-      "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-      "category": "Peaks"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek-02.jpg",
-      "title": "Ebc Chola Pass Gokyo Trek 02",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek-02.webp",
-      "title": "Ebc Chola Pass Gokyo Trek 02",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek-03.jpg",
-      "title": "Ebc Chola Pass Gokyo Trek 03",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek-03.webp",
-      "title": "Ebc Chola Pass Gokyo Trek 03",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
-      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
-      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
-      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
-      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.jpg",
-      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.webp",
-      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek.jpg",
-      "title": "Ebc Chola Pass Gokyo Trek",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-chola-pass-gokyo-trek.webp",
-      "title": "Ebc Chola Pass Gokyo Trek",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-map.png",
-      "title": "Ebc Map",
-      "category": "Trail"
-    },
-    {
-      "file": "ebc-with-chola-renjola-pass-trek.webp",
-      "title": "Ebc With Chola Renjola Pass Trek",
-      "category": "Trail"
-    },
-    {
-      "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-      "title": "Everest base camp trek arrival kathmandu",
-      "category": "Peaks"
-    },
-    {
-      "file": "Everest Base Camp Trek arrival kathmandu.webp",
-      "title": "Everest base camp trek arrival kathmandu",
-      "category": "Peaks"
-    },
-    {
-      "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-      "title": "Everest base camp trek dingboche to lobuche",
-      "category": "Peaks"
-    },
-    {
-      "file": "Everest Base Camp Trek dingboche to lobuche.webp",
-      "title": "Everest base camp trek dingboche to lobuche",
-      "category": "Peaks"
-    }
-  ],
+  {
+    "file": "video/gallery/treks/Everest without flight.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Overland Route via Phaplu & Jiri",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-without-flight.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Overland Trek without Flight (Phaplu / Jiri to EBC)",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-base-camp.mp4",
+    "type": "video",
+    "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest base camp.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Panoramic Mountain Trek",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Everest Three Passes trek.mp4",
+    "type": "video",
+    "title": "Everest Three Passes Alpine Trail Journey",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+    "type": "video",
+    "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "everest-base-camp-trek-without-flight.webp",
+    "title": "Everest Base Camp Trek Without Flight Scenic Foothills",
+    "category": "Panoramas"
+  },
+  {
+    "file": "everest-base-camp-trek-without-flight-02.webp",
+    "title": "Lower Solu Village Trails & Foothills",
+    "category": "Trail"
+  },
+  {
+    "file": "everest-base-camp-trek-without-flight-03.webp",
+    "title": "Tengboche Monastery and Ama Dablam",
+    "category": "Heritage"
+  },
+  {
+    "file": "everest-base-camp-trek-without-flight-04.webp",
+    "title": "High Alpine Khumbu Ridge to Everest Base Camp",
+    "category": "Peaks"
+  },
+  {
+    "file": "everest-base-camp-trek-without-flight-best-itinerary-cost.webp",
+    "title": "Overland Route Trailside Teahouse Settlement",
+    "category": "Villages"
+  },
+  {
+    "file": "what-is-it-like-to-go-on-the-everest-base-camp-trek-without-flight.webp",
+    "title": "Trekking Through Pine Forests of Solukhumbu",
+    "category": "Trail"
+  },
+  {
+    "file": "acclimatization-rest-day-dingboche-settlement-himalayas.webp",
+    "title": "Acclimatization Rest Day Dingboche Settlement",
+    "category": "Villages"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "ama-dablam-peak.jpg",
+    "title": "Ama Dablam Peak",
+    "category": "Peaks"
+  },
+  {
+    "file": "ama-dablam-peak.webp",
+    "title": "Ama Dablam Peak",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
+    "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-02.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek 02",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-02.webp",
+    "title": "Ebc Chola Pass Gokyo Trek 02",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-03.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek 03",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-03.webp",
+    "title": "Ebc Chola Pass Gokyo Trek 03",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.webp",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek.webp",
+    "title": "Ebc Chola Pass Gokyo Trek",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-map.png",
+    "title": "Ebc Map",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-with-chola-renjola-pass-trek.webp",
+    "title": "Ebc With Chola Renjola Pass Trek",
+    "category": "Trail"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.jpg",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.webp",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
+    "title": "Everest base camp trek dingboche to lobuche",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek dingboche to lobuche.webp",
+    "title": "Everest base camp trek dingboche to lobuche",
+    "category": "Peaks"
+  }
+],
   "everest-base-camp-via-gokyo-lakes": [
     {
       "file": "video/gallery/treks/everest-three-passes-trek.mp4",
@@ -28595,465 +28976,273 @@ function setupTrekPhotoGallery() {
     }
   ],
   "everest-three-passes-trek": [
-    {
-      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-      "type": "video",
-      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-base-camp.mp4",
-      "type": "video",
-      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-without-flight.mp4",
-      "type": "video",
-      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-      "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-      "category": "Panoramas"
-    },
-    {
-      "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-      "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-      "category": "Panoramas"
-    },
-    {
-      "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-      "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-      "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-      "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-      "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-      "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-      "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-02.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-2.jpg",
-      "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-2.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-3.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek 3",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.jpg",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.jpg",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.jpg",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-      "category": "Peaks"
-    },
-    {
-      "file": "annapurna-circuit-with-tilicho-lake-trek.webp",
-      "title": "Annapurna Circuit With Tilicho Lake Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-      "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
-      "category": "Panoramas"
-    },
-    {
-      "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-      "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-      "category": "Peaks"
-    },
-    {
-      "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-      "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-      "category": "Peaks"
-    },
-    {
-      "file": "ebc-with-chola-renjola-pass-trek.webp",
-      "title": "Ebc With Chola Renjola Pass Trek",
-      "category": "Trail"
-    },
-    {
-      "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-      "title": "Everest base camp trek arrival kathmandu",
-      "category": "Peaks"
-    },
-    {
-      "file": "Everest Base Camp Trek arrival kathmandu.webp",
-      "title": "Everest base camp trek arrival kathmandu",
-      "category": "Peaks"
-    },
-    {
-      "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-      "title": "Everest base camp trek dingboche to lobuche",
-      "category": "Peaks"
-    }
-  ],
+  {
+    "file": "video/gallery/treks/Everest Three Passes trek.mp4",
+    "type": "video",
+    "title": "Everest Three Passes Alpine Trail Journey",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+    "type": "video",
+    "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-base-camp.mp4",
+    "type": "video",
+    "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest base camp.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Panoramic Mountain Trek",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-without-flight.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Overland Route via Phaplu & Jiri",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Everest without flight.mp4",
+    "type": "video",
+    "title": "Classic Jiri to Everest Base Camp Route",
+    "category": "Videos"
+  },
+  {
+    "file": "everest-three-high-passes-trek.webp",
+    "title": "Everest Three High Passes Alpine Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "everest-three-high-passes-trek-02.webp",
+    "title": "High Himalayan Pass Glacial Ridge Crossing",
+    "category": "Trail"
+  },
+  {
+    "file": "everest-three-passes-trek-route-tips-and-best-itinerary.webp",
+    "title": "Gokyo Lakes and Glacial Moraine",
+    "category": "Panoramas"
+  },
+  {
+    "file": "everest-three-passes-trek-route-tips-and-best-itinerary-02.webp",
+    "title": "Kongma La Pass Rugged Trail & Nuptse Wall",
+    "category": "Peaks"
+  },
+  {
+    "file": "everest-three-passes-trek-route-tips-and-best-itinerary-03.webp",
+    "title": "Renjo La Pass Panoramic Vista of Everest & Gokyo Lakes",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ebc-with-chola-renjola-pass-trek.webp",
+    "title": "Everest Base Camp with Cho La and Renjo La Pass",
+    "category": "Peaks"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days.webp",
+    "title": "Cho La Pass Glacial Crossing & Prayer Flags",
+    "category": "Peaks"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days-02.webp",
+    "title": "Turquoise Gokyo Lake 3rd Lake Shoreline",
+    "category": "Panoramas"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days-03.webp",
+    "title": "Renjo La High Pass Summit Overlook",
+    "category": "Trail"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days-04.webp",
+    "title": "Gokyo Ri Summit Panoramic View of Everest & Makalu",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek.webp",
+    "title": "Cho La High Alpine Pass Glacier Hike",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-02.webp",
+    "title": "Dzongla to Cho La Pass Alpine Terrain",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-03.webp",
+    "title": "Gokyo Valley Glacial Lakes Basin",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gokyo-lake-and-chola-pass-trek.webp",
+    "title": "Emerald Gokyo Lake and Cho Oyu Backdrop",
+    "category": "Panoramas"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek.webp",
+    "title": "Gokyo Lake Scenic Mountain Reflections",
+    "category": "Panoramas"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek-02.webp",
+    "title": "Ngozumpa Glacier Lateral Moraine",
+    "category": "Trail"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek-03.webp",
+    "title": "Pari Lapche Peak above Renjo La Pass",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek-04.webp",
+    "title": "Gokyo Teahouse Settlement Beside the Lake",
+    "category": "Villages"
+  },
+  {
+    "file": "acclimatization-rest-day-dingboche-settlement-himalayas.webp",
+    "title": "Dingboche Settlement Acclimatization Overlook",
+    "category": "Villages"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.jpg",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.webp",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
+    "title": "Everest base camp trek dingboche to lobuche",
+    "category": "Peaks"
+  }
+],
   "everest-view-trek": [
     {
       "file": "video/gallery/treks/everest-base-camp.mp4",
@@ -29465,410 +29654,688 @@ function setupTrekPhotoGallery() {
     }
   ],
   "ghorepani-poon-hill-trek": [
-    {
-      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
-      "type": "video",
-      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/mardi-himal-trek.mp4",
-      "type": "video",
-      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "gallery/abc-poon-hill/poon-hill-expedition-001.webp",
-      "title": "Poon Hill Expedition 001",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/poon-hill-expedition-002.webp",
-      "title": "Poon Hill Expedition 002",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/poon-hill-expedition-003.webp",
-      "title": "Poon Hill Expedition 003",
-      "category": "Trail"
-    },
-    {
-      "file": "gallery/abc-poon-hill/poon-hill-expedition-004.webp",
-      "title": "Poon Hill Expedition 004",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-poon-hill-autumn-morning-peaks.webp",
-      "title": "Abc Poon Hill Autumn Morning Peaks",
-      "category": "Peaks"
-    },
-    {
-      "file": "abc-poon-hill-golden-sunrise-panorama.webp",
-      "title": "Abc Poon Hill Golden Sunrise Panorama",
-      "category": "Panoramas"
-    },
-    {
-      "file": "abc-poon-hill-sanctuary-trail.webp",
-      "title": "Abc Poon Hill Sanctuary Trail",
-      "category": "Trail"
-    },
-    {
-      "file": "abc-poon-hill-teahouse-vista.webp",
-      "title": "Abc Poon Hill Teahouse Vista",
-      "category": "Villages"
-    },
-    {
-      "file": "abc-poon-hill-viewpoint-ghorepani.webp",
-      "title": "Abc Poon Hill Viewpoint Ghorepani",
-      "category": "Panoramas"
-    },
-    {
-      "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.jpg",
-      "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
-      "category": "Panoramas"
-    },
-    {
-      "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.webp",
-      "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
-      "category": "Panoramas"
-    },
-    {
-      "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.jpg",
-      "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
-      "category": "Panoramas"
-    },
-    {
-      "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.webp",
-      "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
-      "category": "Panoramas"
-    },
-    {
-      "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-04.webp",
-      "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 04",
-      "category": "Panoramas"
-    },
-    {
-      "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views.webp",
-      "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views",
-      "category": "Panoramas"
-    },
-    {
-      "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.jpg",
-      "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.webp",
-      "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "ghorepani-poon-hill-and-mardi-himal-trek.jpg",
-      "title": "Ghorepani Poon Hill And Mardi Himal Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "ghorepani-poon-hill-and-mardi-himal-trek.webp",
-      "title": "Ghorepani Poon Hill And Mardi Himal Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "ghorepani-poon-hill-trek-02.jpg",
-      "title": "Ghorepani Poon Hill Trek 02",
-      "category": "Trail"
-    },
-    {
-      "file": "ghorepani-poon-hill-trek-02.webp",
-      "title": "Ghorepani Poon Hill Trek 02",
-      "category": "Trail"
-    },
-    {
-      "file": "ghorepani-poon-hill-trek-03.jpg",
-      "title": "Ghorepani Poon Hill Trek 03",
-      "category": "Trail"
-    },
-    {
-      "file": "ghorepani-poon-hill-trek-03.webp",
-      "title": "Ghorepani Poon Hill Trek 03",
-      "category": "Trail"
-    },
-    {
-      "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.jpg",
-      "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
-      "category": "Panoramas"
-    },
-    {
-      "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.webp",
-      "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
-      "category": "Panoramas"
-    },
-    {
-      "file": "ghorepani-poon-hill-trek.jpg",
-      "title": "Ghorepani Poon Hill Trek",
-      "category": "Trail"
-    },
-    {
-      "file": "ghorepani-poon-hill-trek.webp",
-      "title": "Ghorepani Poon Hill Trek",
-      "category": "Trail"
-    },
-    {
-      "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.jpg",
-      "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
-      "category": "Peaks"
-    },
-    {
-      "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.webp",
-      "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
-      "category": "Peaks"
-    }
-  ],
+  {
+    "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+    "type": "video",
+    "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Ghorepani poon hill.mp4",
+    "type": "video",
+    "title": "Poon Hill (3,210m) Golden Himalayan Sunrise Panorama",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/mardi-himal-trek.mp4",
+    "type": "video",
+    "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Mardi Himal Trek.mp4",
+    "type": "video",
+    "title": "Mardi Himal Alpine Ridge Trail Scenery",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+    "type": "video",
+    "title": "Annapurna High Alpine Mountain Panoramas",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit Trek.mp4",
+    "type": "video",
+    "title": "Classic Annapurna Sanctuary Foothills & Ridges",
+    "category": "Videos"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek.webp",
+    "title": "Ghorepani Poon Hill Sunrise Panorama over Annapurna and Dhaulagiri",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-02.webp",
+    "title": "Trekker on the trail to Ghorepani and Poon Hill",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-03.webp",
+    "title": "Poon Hill Viewing Tower Overlook",
+    "category": "Panoramas"
+  },
+  {
+    "file": "poon-hill-viewpoint-on-annapurna-trek.webp",
+    "title": "Poon Hill viewpoint tower overlooking the Annapurna range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "sunrise-view-from-poon-hills-viewing-tower-over-the-annapurna-range.webp",
+    "title": "Golden Sunrise View from Poon Hill Viewing Tower",
+    "category": "Panoramas"
+  },
+  {
+    "file": "this-picture-was-taken-in-the-poon-hill.webp",
+    "title": "Annapurna Mountain Range Seen from Poon Hill",
+    "category": "Peaks"
+  },
+  {
+    "file": "this-picture-was-taken-in-the-poon-hill-02.webp",
+    "title": "Panoramic Sunrise Ridge over Dhaulagiri Range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "abc-poon-hill-autumn-morning-peaks.webp",
+    "title": "Poon Hill Autumn Morning Peaks",
+    "category": "Peaks"
+  },
+  {
+    "file": "abc-poon-hill-golden-sunrise-panorama.webp",
+    "title": "Golden Himalayan Sunrise Panorama from Poon Hill",
+    "category": "Panoramas"
+  },
+  {
+    "file": "abc-poon-hill-viewpoint-ghorepani.webp",
+    "title": "Ghorepani Village and Viewpoint Ridge",
+    "category": "Villages"
+  },
+  {
+    "file": "abc-poon-hill-teahouse-vista.webp",
+    "title": "Traditional Himalayan Teahouse Lodge in Ghorepani",
+    "category": "Villages"
+  },
+  {
+    "file": "abc-poon-hill-sanctuary-trail.webp",
+    "title": "Poon Hill Rhododendron Forest Mountain Trail",
+    "category": "Trail"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.jpg",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.jpg",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-04.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 04",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.jpg",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.webp",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek.jpg",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek.webp",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-02.jpg",
+    "title": "Ghorepani Poon Hill Trek 02",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-03.jpg",
+    "title": "Ghorepani Poon Hill Trek 03",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.jpg",
+    "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.webp",
+    "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek.jpg",
+    "title": "Ghorepani Poon Hill Trek",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.jpg",
+    "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.webp",
+    "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-001.webp",
+    "title": "Modi Khola Alpine Valley with Mountain Shrines",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-002.webp",
+    "title": "Golden Alpenglow on Sacred Mt. Machhapuchhre (Fishtail)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-003.webp",
+    "title": "Sunrise Illumination over Annapurna South Summit",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-004.webp",
+    "title": "Mt. Fishtail Rising Above Himalayan Rhododendron Forests",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-005.webp",
+    "title": "Relaxing in Natural Riverside Hot Springs at Jhinu Danda",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-006.webp",
+    "title": "Scenic Gateway to the Annapurna Region in Pokhara",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-007.webp",
+    "title": "Hiking Traditional Stone Stairways of Ulleri",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-008.webp",
+    "title": "Spring Rhododendron Trail toward Ghorepani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-009.webp",
+    "title": "Cozy Teahouse Resting Point on the Ghorepani Route",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-010.webp",
+    "title": "First Light of Dawn from Poon Hill (3,210m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-011.webp",
+    "title": "Spectacular Dhaulagiri & Annapurna Sunrise Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-012.webp",
+    "title": "Trekkers Celebrating Sunrise at Poon Hill View Tower",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-013.webp",
+    "title": "Endless Himalayan Horizons from Poon Hill Summit",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-014.webp",
+    "title": "Golden Mountain Ridges of the Annapurna Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-015.webp",
+    "title": "Hiunchuli and Annapurna South Peak Vista",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-016.webp",
+    "title": "Morning Sun Over the Western Himalaya",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-017.webp",
+    "title": "Scenic Ridge Trail from Ghorepani to Tadapani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-018.webp",
+    "title": "Ancient Moss-Draped Rhododendron Forest",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-019.webp",
+    "title": "Stone Lodges and Terraced Fields of Chhomrong",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-020.webp",
+    "title": "Steep Modi Khola River Canyon Ascent",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-021.webp",
+    "title": "Winter Snow Trail Approaching Deurali & MBC",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-022.webp",
+    "title": "Trekking beneath Machhapuchhre Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-023.webp",
+    "title": "Towering Walls of Mt. Fishtail at MBC (3,700m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-024.webp",
+    "title": "High Altitude Mountain Shelters at Machhapuchhre Base Camp",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-025.webp",
+    "title": "Expedition Team Hiking the High Sanctuary Basin",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-026.webp",
+    "title": "Alpine Snow Amphitheater inside Annapurna Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-027.webp",
+    "title": "Glacial Summits of Annapurna South (7,219m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-028.webp",
+    "title": "Final Ascent into Annapurna Base Camp (4,130m)",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-029.webp",
+    "title": "Morning Glory at Annapurna Base Camp (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-030.webp",
+    "title": "Annapurna I (8,091m) Golden Summit at Sunrise",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-031.webp",
+    "title": "Vast Annapurna Glacial Basin and Moraines",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-032.webp",
+    "title": "Alpenglow Painting the High Annapurna Amphitheater",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-033.webp",
+    "title": "Majestic Fluted Ridge of Annapurna South",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-034.webp",
+    "title": "Prayer Flags and Memorial Chortens at ABC",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-035.webp",
+    "title": "Trekkers Celebrating Base Camp Achievement",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-036.webp",
+    "title": "Complete 360-Degree Amphitheater Vista of ABC",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-037.webp",
+    "title": "Descending Modi Khola Gorge from Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-038.webp",
+    "title": "Crossing Modi Khola River at Birethanti",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-039.webp",
+    "title": "Lush Terraced Green Hillsides of Tikhedhunga",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-040.webp",
+    "title": "Conquering the Famous Stone Steps of Ulleri",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-041.webp",
+    "title": "Sunset Alpenglow from Ulleri Lodge Terraces",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-042.webp",
+    "title": "Early Morning Lantern Walk up to Poon Hill",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-043.webp",
+    "title": "First Rays on Mt. Dhaulagiri (8,167m) from Poon Hill",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-044.webp",
+    "title": "Dawn at Poon Hill Summit Viewing Tower (3,210m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-045.webp",
+    "title": "Golden Annapurna Range Alpenglow from Poon Hill",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-046.webp",
+    "title": "Sharp Fishtail Profile Lit by Rising Sun",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-047.webp",
+    "title": "360-Degree Himalayan Sunrise Panorama at Poon Hill",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-048.webp",
+    "title": "Trekkers Watching Sunrise from Poon Hill Ridge",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-049.webp",
+    "title": "Endless Snow-Capped Horizons above Cloud Inversions",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-050.webp",
+    "title": "Celebrating at the Poon Hill Summit Elevation Sign (3,210m)",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-051.webp",
+    "title": "High Alpine Panorama Across the Kali Gandaki Valley",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-052.webp",
+    "title": "Formidable South Face of Annapurna South",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-053.webp",
+    "title": "Hiunchuli Peak in Crisp Morning Autumn Sunlight",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-054.webp",
+    "title": "Poon Hill High Ridge Outlook toward Nilgiri Peaks",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-055.webp",
+    "title": "Buddhist Prayer Flags Streaming at Poon Hill Viewpoint",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-056.webp",
+    "title": "Enjoying Hot Himalayan Tea at Poon Hill Summit",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-057.webp",
+    "title": "Golden Autumn Light over the Annapurna Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-058.webp",
+    "title": "Lush Deep Forest Trail descending from Ghorepani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-059.webp",
+    "title": "Rushing Alpine Waterfall between Ghorepani and Tadapani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-060.webp",
+    "title": "Gorge Path Leading toward Kimrong Khola",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-061.webp",
+    "title": "Crossing the Terraced Stone Steps of Chhomrong",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-062.webp",
+    "title": "Spectacular Valley Views from Upper Sinuwa Ridge",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-063.webp",
+    "title": "Dense Bamboo and Fern Trail along Modi Khola",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-064.webp",
+    "title": "Rustic Stone Lodges at Himalaya Settlement",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-065.webp",
+    "title": "Dramatic Canyon Approach into Deurali (3,200m)",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-066.webp",
+    "title": "Towering Granite Cliffs above the Modi Khola Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-067.webp",
+    "title": "Gateway to Machhapuchhre Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-068.webp",
+    "title": "Trekking the Open Valley into Machhapuchhre Sanctuary",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-069.webp",
+    "title": "Arriving at Machhapuchhre Base Camp Signboard (3,700m)",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-070.webp",
+    "title": "Machhapuchhre Base Camp Lodges beneath Mt. Fishtail",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-071.webp",
+    "title": "Sheer Vertical Cliffs of Machhapuchhre from MBC",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-072.webp",
+    "title": "Early Dawn Trek from MBC into Annapurna Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-073.webp",
+    "title": "Entering the Holy Annapurna Sanctuary (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-074.webp",
+    "title": "Golden Sunrise on Annapurna I (8,091m) South Face",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-075.webp",
+    "title": "Glacial Flutes of Annapurna South at Sunrise",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-076.webp",
+    "title": "Pristine Alpine Reflection Pool inside Base Camp Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-077.webp",
+    "title": "Mirror Reflection of Annapurna South in Sanctuary Tarn",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-078.webp",
+    "title": "Mt. Machhapuchhre Bathed in Golden Morning Sunlight",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-079.webp",
+    "title": "Annapurna Sanctuary Alpine Lodges beneath Towering Peaks",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-080.webp",
+    "title": "Glacial Reflection Pool and Snow Peaks at ABC",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-081.webp",
+    "title": "Crystal Clear Water Reflection inside Annapurna Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-082.webp",
+    "title": "Double Reflection of Annapurna Massif in Glacial Tarn",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-083.webp",
+    "title": "Himalayan Peaks Mirrored in High Sanctuary Waters",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-084.webp",
+    "title": "High Altitude Reflection Tarn beneath Annapurna Peaks",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-085.webp",
+    "title": "Pristine Glacial Waters at Annapurna Base Camp (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-086.webp",
+    "title": "Panoramic Moraine Ridges of Annapurna Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-087.webp",
+    "title": "Sunburst Star Over Sacred Mt. Machhapuchhre",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-088.webp",
+    "title": "Expedition Signboard at Annapurna Base Camp (4,130m)",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-089.webp",
+    "title": "Trekkers Celebrating Victory at Annapurna Base Camp",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-090.webp",
+    "title": "Soaking in Natural Geothermal Hot Springs at Jhinu Danda",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-091.webp",
+    "title": "Riverside Thermal Springs of Modi Khola at Jhinu Danda",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-092.webp",
+    "title": "Pokhara International Airport with Annapurna Backdrop",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-093.webp",
+    "title": "Traditional Gurung Stone Cottages of Ghandruk",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-094.webp",
+    "title": "Phewa Lake Peaceful Morning Waters with Mountain Reflection",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-095.webp",
+    "title": "Pokhara Valley Green Terraces and Mountain Backdrop",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-096.webp",
+    "title": "Sweeping Sunrise Panorama over Western Himalayan Ranges",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-097.webp",
+    "title": "Ghorepani Village Blue Lodges Overlooking Mt. Dhaulagiri",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-098.webp",
+    "title": "Sheer Granite Cliffs of the Modi Khola Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-099.webp",
+    "title": "Panoramic Lake Phewa with Annapurna Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-100.webp",
+    "title": "Golden Himalayan Vistas on the Annapurna Trail",
+    "category": "Panoramas"
+  }
+],
   "ghorepani-poon-hill-with-mardi-himal-trek": [
     {
       "file": "video/gallery/treks/mardi-himal-trek.mp4",
@@ -44016,440 +44483,212 @@ function setupTrekPhotoGallery() {
     }
   ],
   "three-high-passes-with-island-peak-climb": [
-    {
-      "file": "video/gallery/treks/island-peak-climbing.mp4",
-      "type": "video",
-      "title": "Island Peak (Imja Tse 6,189m) Summit & Technical Headwall Ice Climbing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-base-camp.mp4",
-      "type": "video",
-      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-      "type": "video",
-      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-      "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-      "category": "Panoramas"
-    },
-    {
-      "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-      "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-      "category": "Panoramas"
-    },
-    {
-      "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-      "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-      "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-      "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-      "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-      "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-      "category": "Peaks"
-    },
-    {
-      "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-      "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-      "title": "Best Things To Do Along The Everest Base Camp Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-      "title": "Best Things To Do Along The Everest Base Camp Trail",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-time-to-climb-island-peak-season-and-month-guide-02.jpg",
-      "title": "Best Time To Climb Island Peak Season And Month Guide 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-time-to-climb-island-peak-season-and-month-guide-02.webp",
-      "title": "Best Time To Climb Island Peak Season And Month Guide 02",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-time-to-climb-island-peak-season-and-month-guide.jpg",
-      "title": "Best Time To Climb Island Peak Season And Month Guide",
-      "category": "Peaks"
-    },
-    {
-      "file": "best-time-to-climb-island-peak-season-and-month-guide.webp",
-      "title": "Best Time To Climb Island Peak Season And Month Guide",
-      "category": "Peaks"
-    },
-    {
-      "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-      "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
-      "category": "Panoramas"
-    },
-    {
-      "file": "climbers-celebrating-at-the-island-peak-6-189-m-summit-with-snow-covered-himalayan-peaks-i.jpg",
-      "title": "Climbers Celebrating At The Island Peak 6 189 M Summit With Snow Covered Himalayan Peaks I",
-      "category": "Peaks"
-    },
-    {
-      "file": "climbers-celebrating-at-the-island-peak-6-189-m-summit-with-snow-covered-himalayan-peaks-i.webp",
-      "title": "Climbers Celebrating At The Island Peak 6 189 M Summit With Snow Covered Himalayan Peaks I",
-      "category": "Peaks"
-    },
-    {
-      "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-      "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-      "category": "Peaks"
-    },
-    {
-      "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-      "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-      "category": "Peaks"
-    },
-    {
-      "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-      "title": "Everest base camp trek arrival kathmandu",
-      "category": "Peaks"
-    },
-    {
-      "file": "Everest Base Camp Trek arrival kathmandu.webp",
-      "title": "Everest base camp trek arrival kathmandu",
-      "category": "Peaks"
-    },
-    {
-      "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-      "title": "Everest base camp trek dingboche to lobuche",
-      "category": "Peaks"
-    },
-    {
-      "file": "Everest Base Camp Trek dingboche to lobuche.webp",
-      "title": "Everest base camp trek dingboche to lobuche",
-      "category": "Peaks"
-    }
-  ],
+  {
+    "file": "video/gallery/treks/Island peak climbing.mp4",
+    "type": "video",
+    "title": "Island Peak (Imja Tse - 6,189m) Alpine Summit Ascent",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/island-peak-climbing.mp4",
+    "type": "video",
+    "title": "Island Peak High Camp & Headwall Climbing Expedition",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Everest Three Passes trek.mp4",
+    "type": "video",
+    "title": "Everest Three Passes Alpine Trail Journey",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+    "type": "video",
+    "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-base-camp.mp4",
+    "type": "video",
+    "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+    "category": "Videos"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-time-to-climb-island-peak-season-and-month-guide-02.jpg",
+    "title": "Best Time To Climb Island Peak Season And Month Guide 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-time-to-climb-island-peak-season-and-month-guide-02.webp",
+    "title": "Best Time To Climb Island Peak Season And Month Guide 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-time-to-climb-island-peak-season-and-month-guide.jpg",
+    "title": "Best Time To Climb Island Peak Season And Month Guide",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-time-to-climb-island-peak-season-and-month-guide.webp",
+    "title": "Best Time To Climb Island Peak Season And Month Guide",
+    "category": "Peaks"
+  },
+  {
+    "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
+    "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "climbers-celebrating-at-the-island-peak-6-189-m-summit-with-snow-covered-himalayan-peaks-i.jpg",
+    "title": "Climbers Celebrating At The Island Peak 6 189 M Summit With Snow Covered Himalayan Peaks I",
+    "category": "Peaks"
+  },
+  {
+    "file": "climbers-celebrating-at-the-island-peak-6-189-m-summit-with-snow-covered-himalayan-peaks-i.webp",
+    "title": "Climbers Celebrating At The Island Peak 6 189 M Summit With Snow Covered Himalayan Peaks I",
+    "category": "Peaks"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.jpg",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.webp",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
+    "title": "Everest base camp trek dingboche to lobuche",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek dingboche to lobuche.webp",
+    "title": "Everest base camp trek dingboche to lobuche",
+    "category": "Peaks"
+  }
+],
   "tsum-valley-trek": [
     {
       "file": "video/gallery/treks/manaslu-circuit-trek.mp4",
@@ -48402,6 +48641,30 @@ function setupTrekPhotoGallery() {
   ],
   "annapurna_circuit": [
   {
+    "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit Trek.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit Expedition Panorama & Mountain Valleys",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit via Tilicho Lake & High Alpine Thorong La Route",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit via Tilicho lake.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit & Tilicho Lake High Altitude Alpine Route",
+    "category": "Videos"
+  },
+  {
     "file": "gallery/annapurna-circuit/act-14-expedition-026.webp",
     "title": "Annapurna Mountain Range Framed by Pines and Prayer Flags",
     "category": "Panoramas"
@@ -49472,6 +49735,30 @@ function setupTrekPhotoGallery() {
     }
   ],
   "classic_annapurna_circuit": [
+  {
+    "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit Trek.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit Expedition Panorama & Mountain Valleys",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit via Tilicho Lake & High Alpine Thorong La Route",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit via Tilicho lake.mp4",
+    "type": "video",
+    "title": "Annapurna Circuit & Tilicho Lake High Altitude Alpine Route",
+    "category": "Videos"
+  },
     {
         "file": "gallery/classic-annapurna-circuit/classic-act-expedition-034.webp",
         "title": "High Alpine Annapurna Mountain Panorama Framed by Buddhist Prayer Flags",
@@ -50701,9 +50988,21 @@ function setupTrekPhotoGallery() {
       "category": "Videos"
     },
     {
+      "file": "video/gallery/treks/everest base camp.mp4",
+      "type": "video",
+      "title": "Everest Base Camp Panoramic Mountain Trek",
+      "category": "Videos"
+    },
+    {
       "file": "video/gallery/treks/everest-three-passes-trek.mp4",
       "type": "video",
       "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+      "category": "Videos"
+    },
+    {
+      "file": "video/gallery/treks/Everest Three Passes trek.mp4",
+      "type": "video",
+      "title": "Everest Three Passes Alpine Trail Journey",
       "category": "Videos"
     },
     {
@@ -50713,247 +51012,237 @@ function setupTrekPhotoGallery() {
       "category": "Videos"
     },
     {
-      "file": "video/Clip Video First.mp4",
+      "file": "video/gallery/treks/Everest without flight.mp4",
       "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
+      "title": "Classic Jiri to Everest Base Camp Route",
       "category": "Videos"
     },
     {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
+      "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
+      "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+      "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
+      "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
+      "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+      "category": "Panoramas"
     },
     {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
+      "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
+      "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+      "category": "Peaks"
     },
     {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
+      "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
+      "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
+      "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
+      "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
+      "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
+      "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
+      "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
+      "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
+      "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
+      "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
+      "file": "ama-dablam-peak.jpg",
+      "title": "Ama Dablam Peak",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
+      "file": "ama-dablam-peak.webp",
+      "title": "Ama Dablam Peak",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
+      "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
+      "title": "Best Things To Do Along The Everest Base Camp Trail",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
+      "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
+      "title": "Best Things To Do Along The Everest Base Camp Trail",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
+      "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
+      "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
+      "category": "Panoramas"
     },
     {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
+      "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
+      "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
+      "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
+      "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+      "category": "Peaks"
     },
     {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek-02.jpg",
+      "title": "Ebc Chola Pass Gokyo Trek 02",
+      "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek-02.webp",
+      "title": "Ebc Chola Pass Gokyo Trek 02",
+      "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek-03.jpg",
+      "title": "Ebc Chola Pass Gokyo Trek 03",
+      "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek-03.webp",
+      "title": "Ebc Chola Pass Gokyo Trek 03",
+      "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
+      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
+      "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
+      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
+      "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
+      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
+      "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
+      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
+      "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.jpg",
+      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
+      "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.webp",
+      "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
+      "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek.jpg",
+      "title": "Ebc Chola Pass Gokyo Trek",
+      "category": "Trail"
     },
     {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
+      "file": "ebc-chola-pass-gokyo-trek.webp",
+      "title": "Ebc Chola Pass Gokyo Trek",
+      "category": "Trail"
+    },
+    {
+      "file": "ebc-map.png",
+      "title": "Ebc Map",
+      "category": "Trail"
+    },
+    {
+      "file": "ebc-with-chola-renjola-pass-trek.webp",
+      "title": "Ebc With Chola Renjola Pass Trek",
+      "category": "Trail"
+    },
+    {
+      "file": "Everest Base Camp Trek arrival kathmandu.jpg",
+      "title": "Everest base camp trek arrival kathmandu",
+      "category": "Peaks"
+    },
+    {
+      "file": "Everest Base Camp Trek arrival kathmandu.webp",
+      "title": "Everest base camp trek arrival kathmandu",
+      "category": "Peaks"
+    },
+    {
+      "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
+      "title": "Everest base camp trek dingboche to lobuche",
+      "category": "Peaks"
+    },
+    {
+      "file": "Everest Base Camp Trek dingboche to lobuche.webp",
+      "title": "Everest base camp trek dingboche to lobuche",
+      "category": "Peaks"
     }
-  ],
-  "ebc_16": [
+  ],  "ebc_16": [
     {
       "file": "video/gallery/treks/everest-base-camp.mp4",
       "type": "video",
@@ -51734,265 +52023,303 @@ function setupTrekPhotoGallery() {
     }
   ],
   "ebc_without_flight": [
-    {
-      "file": "video/gallery/treks/everest-base-camp.mp4",
-      "type": "video",
-      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-      "type": "video",
-      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-without-flight.mp4",
-      "type": "video",
-      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    }
-  ],
+  {
+    "file": "video/gallery/treks/Everest without flight.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Overland Route via Phaplu & Jiri",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-without-flight.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Overland Trek without Flight (Phaplu / Jiri to EBC)",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-base-camp.mp4",
+    "type": "video",
+    "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest base camp.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Panoramic Mountain Trek",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Everest Three Passes trek.mp4",
+    "type": "video",
+    "title": "Everest Three Passes Alpine Trail Journey",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+    "type": "video",
+    "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "everest-base-camp-trek-without-flight.webp",
+    "title": "Everest Base Camp Trek Without Flight Scenic Foothills",
+    "category": "Panoramas"
+  },
+  {
+    "file": "everest-base-camp-trek-without-flight-02.webp",
+    "title": "Lower Solu Village Trails & Foothills",
+    "category": "Trail"
+  },
+  {
+    "file": "everest-base-camp-trek-without-flight-03.webp",
+    "title": "Tengboche Monastery and Ama Dablam",
+    "category": "Heritage"
+  },
+  {
+    "file": "everest-base-camp-trek-without-flight-04.webp",
+    "title": "High Alpine Khumbu Ridge to Everest Base Camp",
+    "category": "Peaks"
+  },
+  {
+    "file": "everest-base-camp-trek-without-flight-best-itinerary-cost.webp",
+    "title": "Overland Route Trailside Teahouse Settlement",
+    "category": "Villages"
+  },
+  {
+    "file": "what-is-it-like-to-go-on-the-everest-base-camp-trek-without-flight.webp",
+    "title": "Trekking Through Pine Forests of Solukhumbu",
+    "category": "Trail"
+  },
+  {
+    "file": "acclimatization-rest-day-dingboche-settlement-himalayas.webp",
+    "title": "Acclimatization Rest Day Dingboche Settlement",
+    "category": "Villages"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "ama-dablam-peak.jpg",
+    "title": "Ama Dablam Peak",
+    "category": "Peaks"
+  },
+  {
+    "file": "ama-dablam-peak.webp",
+    "title": "Ama Dablam Peak",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
+    "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-02.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek 02",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-02.webp",
+    "title": "Ebc Chola Pass Gokyo Trek 02",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-03.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek 03",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-03.webp",
+    "title": "Ebc Chola Pass Gokyo Trek 03",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.webp",
+    "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek.jpg",
+    "title": "Ebc Chola Pass Gokyo Trek",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek.webp",
+    "title": "Ebc Chola Pass Gokyo Trek",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-map.png",
+    "title": "Ebc Map",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-with-chola-renjola-pass-trek.webp",
+    "title": "Ebc With Chola Renjola Pass Trek",
+    "category": "Trail"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.jpg",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.webp",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
+    "title": "Everest base camp trek dingboche to lobuche",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek dingboche to lobuche.webp",
+    "title": "Everest base camp trek dingboche to lobuche",
+    "category": "Peaks"
+  }
+],
   "ebc_chola_renjola": [
     {
       "file": "video/gallery/treks/everest-three-passes-trek.mp4",
@@ -52254,525 +52581,956 @@ function setupTrekPhotoGallery() {
     }
   ],
   "everest_three_passes": [
-    {
-      "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-      "type": "video",
-      "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-base-camp.mp4",
-      "type": "video",
-      "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/everest-without-flight.mp4",
-      "type": "video",
-      "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    }
-  ],
+  {
+    "file": "video/gallery/treks/Everest Three Passes trek.mp4",
+    "type": "video",
+    "title": "Everest Three Passes Alpine Trail Journey",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-three-passes-trek.mp4",
+    "type": "video",
+    "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-base-camp.mp4",
+    "type": "video",
+    "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest base camp.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Panoramic Mountain Trek",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/everest-without-flight.mp4",
+    "type": "video",
+    "title": "Everest Base Camp Overland Route via Phaplu & Jiri",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Everest without flight.mp4",
+    "type": "video",
+    "title": "Classic Jiri to Everest Base Camp Route",
+    "category": "Videos"
+  },
+  {
+    "file": "everest-three-high-passes-trek.webp",
+    "title": "Everest Three High Passes Alpine Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "everest-three-high-passes-trek-02.webp",
+    "title": "High Himalayan Pass Glacial Ridge Crossing",
+    "category": "Trail"
+  },
+  {
+    "file": "everest-three-passes-trek-route-tips-and-best-itinerary.webp",
+    "title": "Gokyo Lakes and Glacial Moraine",
+    "category": "Panoramas"
+  },
+  {
+    "file": "everest-three-passes-trek-route-tips-and-best-itinerary-02.webp",
+    "title": "Kongma La Pass Rugged Trail & Nuptse Wall",
+    "category": "Peaks"
+  },
+  {
+    "file": "everest-three-passes-trek-route-tips-and-best-itinerary-03.webp",
+    "title": "Renjo La Pass Panoramic Vista of Everest & Gokyo Lakes",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ebc-with-chola-renjola-pass-trek.webp",
+    "title": "Everest Base Camp with Cho La and Renjo La Pass",
+    "category": "Peaks"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days.webp",
+    "title": "Cho La Pass Glacial Crossing & Prayer Flags",
+    "category": "Peaks"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days-02.webp",
+    "title": "Turquoise Gokyo Lake 3rd Lake Shoreline",
+    "category": "Panoramas"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days-03.webp",
+    "title": "Renjo La High Pass Summit Overlook",
+    "category": "Trail"
+  },
+  {
+    "file": "everest-cho-la-and-renjo-la-pass-trek-16-days-04.webp",
+    "title": "Gokyo Ri Summit Panoramic View of Everest & Makalu",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek.webp",
+    "title": "Cho La High Alpine Pass Glacier Hike",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-02.webp",
+    "title": "Dzongla to Cho La Pass Alpine Terrain",
+    "category": "Trail"
+  },
+  {
+    "file": "ebc-chola-pass-gokyo-trek-03.webp",
+    "title": "Gokyo Valley Glacial Lakes Basin",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gokyo-lake-and-chola-pass-trek.webp",
+    "title": "Emerald Gokyo Lake and Cho Oyu Backdrop",
+    "category": "Panoramas"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek.webp",
+    "title": "Gokyo Lake Scenic Mountain Reflections",
+    "category": "Panoramas"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek-02.webp",
+    "title": "Ngozumpa Glacier Lateral Moraine",
+    "category": "Trail"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek-03.webp",
+    "title": "Pari Lapche Peak above Renjo La Pass",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-time-for-gokyo-lakes-trek-04.webp",
+    "title": "Gokyo Teahouse Settlement Beside the Lake",
+    "category": "Villages"
+  },
+  {
+    "file": "acclimatization-rest-day-dingboche-settlement-himalayas.webp",
+    "title": "Dingboche Settlement Acclimatization Overlook",
+    "category": "Villages"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
+    "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+    "category": "Panoramas"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
+    "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
+    "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
+    "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 03",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 04",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 05",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 06",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail 07",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
+    "title": "Best Things To Do Along The Everest Base Camp Trail",
+    "category": "Peaks"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
+    "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.jpg",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek arrival kathmandu.webp",
+    "title": "Everest base camp trek arrival kathmandu",
+    "category": "Peaks"
+  },
+  {
+    "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
+    "title": "Everest base camp trek dingboche to lobuche",
+    "category": "Peaks"
+  }
+],
   "poon_hill_9": [
-    {
-      "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
-      "type": "video",
-      "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
-      "type": "video",
-      "title": "Annapurna Circuit Trek & Thorong La Pass (5,416m) High Alpine Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/treks/mardi-himal-trek.mp4",
-      "type": "video",
-      "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video First.mp4",
-      "type": "video",
-      "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Second.mp4",
-      "type": "video",
-      "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Third.mp4",
-      "type": "video",
-      "title": "Himalayan Mountain Passes & Ridge Traversing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Fourth.mp4",
-      "type": "video",
-      "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-      "category": "Videos"
-    },
-    {
-      "file": "video/Clip Video Five.mp4",
-      "type": "video",
-      "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_134420.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Winter Snow Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180209_172407.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180222_095507.mp4",
-      "type": "video",
-      "title": "Himalayan Morning Glacier Mist",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180402_114934.mp4",
-      "type": "video",
-      "title": "Modi Khola Suspension Bridge Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_081147.mp4",
-      "type": "video",
-      "title": "Annapurna Base Camp 4,130m Panoramic Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_085211.mp4",
-      "type": "video",
-      "title": "Annapurna South Glacier Moraine Expedition Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180427_143738.mp4",
-      "type": "video",
-      "title": "Machhapuchhre Base Camp Trail Descent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_061858.mp4",
-      "type": "video",
-      "title": "Golden Dawn on Annapurna I & Hiunchuli",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_111302.mp4",
-      "type": "video",
-      "title": "Bamboo & Dovan Rhododendron Forest Route",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_122616.mp4",
-      "type": "video",
-      "title": "Chhomrong Village Stone Steps Ascent",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180428_123442.mp4",
-      "type": "video",
-      "title": "Terraced Hillsides of Modi Valley",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180501_071034.mp4",
-      "type": "video",
-      "title": "Jhinu Danda Natural Hot Springs Trail",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180507_145054.mp4",
-      "type": "video",
-      "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_155004.mp4",
-      "type": "video",
-      "title": "Alpine Glacial Stream Cascade",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180608_172138.mp4",
-      "type": "video",
-      "title": "Evening Mists Rolling over High Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180610_053433.mp4",
-      "type": "video",
-      "title": "First Light on Hiunchuli Summit",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180612_083704.mp4",
-      "type": "video",
-      "title": "Deurali Canyon Trail Crossing",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20180804_112340.mp4",
-      "type": "video",
-      "title": "Monsoon Waterfalls along Modi Khola",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20181027_055342.mp4",
-      "type": "video",
-      "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110440.mp4",
-      "type": "video",
-      "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190126_110858.mp4",
-      "type": "video",
-      "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110336.mp4",
-      "type": "video",
-      "title": "Deep Winter Snowfields at 4,130m Base Camp",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_110452.mp4",
-      "type": "video",
-      "title": "360-Degree Mountain Amphitheater Panorama Video",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_112704.mp4",
-      "type": "video",
-      "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135038.mp4",
-      "type": "video",
-      "title": "Glacial Moraine Ice Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190127_135055_02.mp4",
-      "type": "video",
-      "title": "High Altitude Expedition Team Journey",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190128_082655.mp4",
-      "type": "video",
-      "title": "Morning Alpenglow on Annapurna South Face",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_083214.mp4",
-      "type": "video",
-      "title": "Winter Trail descending towards Deurali",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_094939.mp4",
-      "type": "video",
-      "title": "Frozen Waterfalls in Mountain Gorge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190201_132217.mp4",
-      "type": "video",
-      "title": "Snow Covered Teahouses at Bamboo",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_063349.mp4",
-      "type": "video",
-      "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190202_144533.mp4",
-      "type": "video",
-      "title": "Chhomrong Gurung Village Trail Walk",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190304_124854.mp4",
-      "type": "video",
-      "title": "Spring Rhododendron Blooms in Sanctuary",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091039.mp4",
-      "type": "video",
-      "title": "Crystal Morning View of Annapurna Glacier",
-      "category": "Videos"
-    },
-    {
-      "file": "video/gallery/abc/20190404_091400.mp4",
-      "type": "video",
-      "title": "Expeditions at Base Camp Sanctuary",
-      "category": "Videos"
-    }
-  ],
+  {
+    "file": "video/gallery/treks/ghorepani-poon-hill.mp4",
+    "type": "video",
+    "title": "Ghorepani Poon Hill Sunrise & Annapurna South High Panorama",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Ghorepani poon hill.mp4",
+    "type": "video",
+    "title": "Poon Hill (3,210m) Golden Himalayan Sunrise Panorama",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/mardi-himal-trek.mp4",
+    "type": "video",
+    "title": "Mardi Himal High Camp & Machhapuchhre Ridge Mountain Trek",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Mardi Himal Trek.mp4",
+    "type": "video",
+    "title": "Mardi Himal Alpine Ridge Trail Scenery",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
+    "type": "video",
+    "title": "Annapurna High Alpine Mountain Panoramas",
+    "category": "Videos"
+  },
+  {
+    "file": "video/gallery/treks/Annapurna Circuit Trek.mp4",
+    "type": "video",
+    "title": "Classic Annapurna Sanctuary Foothills & Ridges",
+    "category": "Videos"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek.webp",
+    "title": "Ghorepani Poon Hill Sunrise Panorama over Annapurna and Dhaulagiri",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-02.webp",
+    "title": "Trekker on the trail to Ghorepani and Poon Hill",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-03.webp",
+    "title": "Poon Hill Viewing Tower Overlook",
+    "category": "Panoramas"
+  },
+  {
+    "file": "poon-hill-viewpoint-on-annapurna-trek.webp",
+    "title": "Poon Hill viewpoint tower overlooking the Annapurna range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "sunrise-view-from-poon-hills-viewing-tower-over-the-annapurna-range.webp",
+    "title": "Golden Sunrise View from Poon Hill Viewing Tower",
+    "category": "Panoramas"
+  },
+  {
+    "file": "this-picture-was-taken-in-the-poon-hill.webp",
+    "title": "Annapurna Mountain Range Seen from Poon Hill",
+    "category": "Peaks"
+  },
+  {
+    "file": "this-picture-was-taken-in-the-poon-hill-02.webp",
+    "title": "Panoramic Sunrise Ridge over Dhaulagiri Range",
+    "category": "Panoramas"
+  },
+  {
+    "file": "abc-poon-hill-autumn-morning-peaks.webp",
+    "title": "Poon Hill Autumn Morning Peaks",
+    "category": "Peaks"
+  },
+  {
+    "file": "abc-poon-hill-golden-sunrise-panorama.webp",
+    "title": "Golden Himalayan Sunrise Panorama from Poon Hill",
+    "category": "Panoramas"
+  },
+  {
+    "file": "abc-poon-hill-viewpoint-ghorepani.webp",
+    "title": "Ghorepani Village and Viewpoint Ridge",
+    "category": "Villages"
+  },
+  {
+    "file": "abc-poon-hill-teahouse-vista.webp",
+    "title": "Traditional Himalayan Teahouse Lodge in Ghorepani",
+    "category": "Villages"
+  },
+  {
+    "file": "abc-poon-hill-sanctuary-trail.webp",
+    "title": "Poon Hill Rhododendron Forest Mountain Trail",
+    "category": "Trail"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.jpg",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.jpg",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-04.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 04",
+    "category": "Panoramas"
+  },
+  {
+    "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views.webp",
+    "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.jpg",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.webp",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek.jpg",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-and-mardi-himal-trek.webp",
+    "title": "Ghorepani Poon Hill And Mardi Himal Trek",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-02.jpg",
+    "title": "Ghorepani Poon Hill Trek 02",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-03.jpg",
+    "title": "Ghorepani Poon Hill Trek 03",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.jpg",
+    "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.webp",
+    "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
+    "category": "Panoramas"
+  },
+  {
+    "file": "ghorepani-poon-hill-trek.jpg",
+    "title": "Ghorepani Poon Hill Trek",
+    "category": "Trail"
+  },
+  {
+    "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.jpg",
+    "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
+    "category": "Peaks"
+  },
+  {
+    "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.webp",
+    "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-001.webp",
+    "title": "Modi Khola Alpine Valley with Mountain Shrines",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-002.webp",
+    "title": "Golden Alpenglow on Sacred Mt. Machhapuchhre (Fishtail)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-003.webp",
+    "title": "Sunrise Illumination over Annapurna South Summit",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-004.webp",
+    "title": "Mt. Fishtail Rising Above Himalayan Rhododendron Forests",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-005.webp",
+    "title": "Relaxing in Natural Riverside Hot Springs at Jhinu Danda",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-006.webp",
+    "title": "Scenic Gateway to the Annapurna Region in Pokhara",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-007.webp",
+    "title": "Hiking Traditional Stone Stairways of Ulleri",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-008.webp",
+    "title": "Spring Rhododendron Trail toward Ghorepani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-009.webp",
+    "title": "Cozy Teahouse Resting Point on the Ghorepani Route",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-010.webp",
+    "title": "First Light of Dawn from Poon Hill (3,210m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-011.webp",
+    "title": "Spectacular Dhaulagiri & Annapurna Sunrise Panorama",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-012.webp",
+    "title": "Trekkers Celebrating Sunrise at Poon Hill View Tower",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-013.webp",
+    "title": "Endless Himalayan Horizons from Poon Hill Summit",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-014.webp",
+    "title": "Golden Mountain Ridges of the Annapurna Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-015.webp",
+    "title": "Hiunchuli and Annapurna South Peak Vista",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-016.webp",
+    "title": "Morning Sun Over the Western Himalaya",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-017.webp",
+    "title": "Scenic Ridge Trail from Ghorepani to Tadapani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-018.webp",
+    "title": "Ancient Moss-Draped Rhododendron Forest",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-019.webp",
+    "title": "Stone Lodges and Terraced Fields of Chhomrong",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-020.webp",
+    "title": "Steep Modi Khola River Canyon Ascent",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-021.webp",
+    "title": "Winter Snow Trail Approaching Deurali & MBC",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-022.webp",
+    "title": "Trekking beneath Machhapuchhre Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-023.webp",
+    "title": "Towering Walls of Mt. Fishtail at MBC (3,700m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-024.webp",
+    "title": "High Altitude Mountain Shelters at Machhapuchhre Base Camp",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-025.webp",
+    "title": "Expedition Team Hiking the High Sanctuary Basin",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-026.webp",
+    "title": "Alpine Snow Amphitheater inside Annapurna Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-027.webp",
+    "title": "Glacial Summits of Annapurna South (7,219m)",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-028.webp",
+    "title": "Final Ascent into Annapurna Base Camp (4,130m)",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-029.webp",
+    "title": "Morning Glory at Annapurna Base Camp (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-030.webp",
+    "title": "Annapurna I (8,091m) Golden Summit at Sunrise",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-031.webp",
+    "title": "Vast Annapurna Glacial Basin and Moraines",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-032.webp",
+    "title": "Alpenglow Painting the High Annapurna Amphitheater",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-033.webp",
+    "title": "Majestic Fluted Ridge of Annapurna South",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-034.webp",
+    "title": "Prayer Flags and Memorial Chortens at ABC",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-035.webp",
+    "title": "Trekkers Celebrating Base Camp Achievement",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-036.webp",
+    "title": "Complete 360-Degree Amphitheater Vista of ABC",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-037.webp",
+    "title": "Descending Modi Khola Gorge from Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-038.webp",
+    "title": "Crossing Modi Khola River at Birethanti",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-039.webp",
+    "title": "Lush Terraced Green Hillsides of Tikhedhunga",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-040.webp",
+    "title": "Conquering the Famous Stone Steps of Ulleri",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-041.webp",
+    "title": "Sunset Alpenglow from Ulleri Lodge Terraces",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-042.webp",
+    "title": "Early Morning Lantern Walk up to Poon Hill",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-043.webp",
+    "title": "First Rays on Mt. Dhaulagiri (8,167m) from Poon Hill",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-044.webp",
+    "title": "Dawn at Poon Hill Summit Viewing Tower (3,210m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-045.webp",
+    "title": "Golden Annapurna Range Alpenglow from Poon Hill",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-046.webp",
+    "title": "Sharp Fishtail Profile Lit by Rising Sun",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-047.webp",
+    "title": "360-Degree Himalayan Sunrise Panorama at Poon Hill",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-048.webp",
+    "title": "Trekkers Watching Sunrise from Poon Hill Ridge",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-049.webp",
+    "title": "Endless Snow-Capped Horizons above Cloud Inversions",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-050.webp",
+    "title": "Celebrating at the Poon Hill Summit Elevation Sign (3,210m)",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-051.webp",
+    "title": "High Alpine Panorama Across the Kali Gandaki Valley",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-052.webp",
+    "title": "Formidable South Face of Annapurna South",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-053.webp",
+    "title": "Hiunchuli Peak in Crisp Morning Autumn Sunlight",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-054.webp",
+    "title": "Poon Hill High Ridge Outlook toward Nilgiri Peaks",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-055.webp",
+    "title": "Buddhist Prayer Flags Streaming at Poon Hill Viewpoint",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-056.webp",
+    "title": "Enjoying Hot Himalayan Tea at Poon Hill Summit",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-057.webp",
+    "title": "Golden Autumn Light over the Annapurna Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-058.webp",
+    "title": "Lush Deep Forest Trail descending from Ghorepani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-059.webp",
+    "title": "Rushing Alpine Waterfall between Ghorepani and Tadapani",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-060.webp",
+    "title": "Gorge Path Leading toward Kimrong Khola",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-061.webp",
+    "title": "Crossing the Terraced Stone Steps of Chhomrong",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-062.webp",
+    "title": "Spectacular Valley Views from Upper Sinuwa Ridge",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-063.webp",
+    "title": "Dense Bamboo and Fern Trail along Modi Khola",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-064.webp",
+    "title": "Rustic Stone Lodges at Himalaya Settlement",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-065.webp",
+    "title": "Dramatic Canyon Approach into Deurali (3,200m)",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-066.webp",
+    "title": "Towering Granite Cliffs above the Modi Khola Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-067.webp",
+    "title": "Gateway to Machhapuchhre Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-068.webp",
+    "title": "Trekking the Open Valley into Machhapuchhre Sanctuary",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-069.webp",
+    "title": "Arriving at Machhapuchhre Base Camp Signboard (3,700m)",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-070.webp",
+    "title": "Machhapuchhre Base Camp Lodges beneath Mt. Fishtail",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-071.webp",
+    "title": "Sheer Vertical Cliffs of Machhapuchhre from MBC",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-072.webp",
+    "title": "Early Dawn Trek from MBC into Annapurna Base Camp",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-073.webp",
+    "title": "Entering the Holy Annapurna Sanctuary (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-074.webp",
+    "title": "Golden Sunrise on Annapurna I (8,091m) South Face",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-075.webp",
+    "title": "Glacial Flutes of Annapurna South at Sunrise",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-076.webp",
+    "title": "Pristine Alpine Reflection Pool inside Base Camp Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-077.webp",
+    "title": "Mirror Reflection of Annapurna South in Sanctuary Tarn",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-078.webp",
+    "title": "Mt. Machhapuchhre Bathed in Golden Morning Sunlight",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-079.webp",
+    "title": "Annapurna Sanctuary Alpine Lodges beneath Towering Peaks",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-080.webp",
+    "title": "Glacial Reflection Pool and Snow Peaks at ABC",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-081.webp",
+    "title": "Crystal Clear Water Reflection inside Annapurna Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-082.webp",
+    "title": "Double Reflection of Annapurna Massif in Glacial Tarn",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-083.webp",
+    "title": "Himalayan Peaks Mirrored in High Sanctuary Waters",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-084.webp",
+    "title": "High Altitude Reflection Tarn beneath Annapurna Peaks",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-085.webp",
+    "title": "Pristine Glacial Waters at Annapurna Base Camp (4,130m)",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-086.webp",
+    "title": "Panoramic Moraine Ridges of Annapurna Sanctuary",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-087.webp",
+    "title": "Sunburst Star Over Sacred Mt. Machhapuchhre",
+    "category": "Peaks"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-088.webp",
+    "title": "Expedition Signboard at Annapurna Base Camp (4,130m)",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-089.webp",
+    "title": "Trekkers Celebrating Victory at Annapurna Base Camp",
+    "category": "Heritage"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-090.webp",
+    "title": "Soaking in Natural Geothermal Hot Springs at Jhinu Danda",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-091.webp",
+    "title": "Riverside Thermal Springs of Modi Khola at Jhinu Danda",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-092.webp",
+    "title": "Pokhara International Airport with Annapurna Backdrop",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-093.webp",
+    "title": "Traditional Gurung Stone Cottages of Ghandruk",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-094.webp",
+    "title": "Phewa Lake Peaceful Morning Waters with Mountain Reflection",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-095.webp",
+    "title": "Pokhara Valley Green Terraces and Mountain Backdrop",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-096.webp",
+    "title": "Sweeping Sunrise Panorama over Western Himalayan Ranges",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-097.webp",
+    "title": "Ghorepani Village Blue Lodges Overlooking Mt. Dhaulagiri",
+    "category": "Villages"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-098.webp",
+    "title": "Sheer Granite Cliffs of the Modi Khola Gorge",
+    "category": "Trail"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-099.webp",
+    "title": "Panoramic Lake Phewa with Annapurna Massif",
+    "category": "Panoramas"
+  },
+  {
+    "file": "gallery/abc-poon-hill/abc-poon-hill-100.webp",
+    "title": "Golden Himalayan Vistas on the Annapurna Trail",
+    "category": "Panoramas"
+  }
+],
   "gokyo_heli_11": [
     {
       "file": "video/gallery/treks/everest-three-passes-trek.mp4",
@@ -56231,7 +56989,7 @@ function setupTrekPhotoGallery() {
         existingFileNames.add(fileName);
         const isVideo = item.type === 'video' || item.file.endsWith('.mp4');
         const mediaSrc = item.file.startsWith('video/')
-          ? rootPrefix + item.file
+          ? encodeURI(rootPrefix + item.file)
           : imgPrefix + item.file;
 
         let poster = item.poster;
@@ -56480,10 +57238,25 @@ function setupTrekPhotoGallery() {
       activeImg.src = '';
       activeVideo.style.display = 'block';
       activeVideo.poster = media.poster || '';
+      activeVideo.preload = 'auto';
       activeVideo.src = media.src;
       activeVideo.load();
-      activeVideo.play().catch(() => {});
+
+      // Robust playback: try unmuted first, fall back to muted autoplay if browser autoplay policy blocks sound
+      activeVideo.muted = false;
+      const playPromise = activeVideo.play();
+      if (playPromise !== undefined) {
+        playPromise.then(() => {
+          hideUnmutePrompt();
+        }).catch(() => {
+          activeVideo.muted = true;
+          activeVideo.play().then(() => {
+            showUnmutePrompt();
+          }).catch(() => {});
+        });
+      }
     } else {
+      hideUnmutePrompt();
       if (activeVideo) {
         activeVideo.pause();
         activeVideo.src = '';
@@ -56547,9 +57320,68 @@ function setupTrekPhotoGallery() {
     }
   }
 
+  // Unmute notification pill
+  let unmutePrompt = modal.querySelector('#tg-unmute-prompt');
+  if (!unmutePrompt) {
+    unmutePrompt = document.createElement('div');
+    unmutePrompt.id = 'tg-unmute-prompt';
+    unmutePrompt.className = 'tg-unmute-prompt';
+    unmutePrompt.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:6px;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>Click to Unmute';
+    unmutePrompt.style.cssText = 'display:none; position:absolute; bottom:24px; left:50%; transform:translateX(-50%); background:rgba(10,37,64,0.88); color:#ffffff; padding:8px 18px; border-radius:20px; font-size:13px; font-weight:600; cursor:pointer; z-index:20; backdrop-filter:blur(8px); border:1px solid rgba(255,255,255,0.25); box-shadow:0 8px 24px rgba(0,0,0,0.5); align-items:center; transition:opacity 0.25s ease;';
+    const mainWrap = modal.querySelector('.tg-viewer-main-image-wrap');
+    if (mainWrap) {
+      mainWrap.style.position = 'relative';
+      mainWrap.appendChild(unmutePrompt);
+    }
+    unmutePrompt.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (activeVideo) {
+        activeVideo.muted = false;
+        hideUnmutePrompt();
+      }
+    });
+  }
+
+  function showUnmutePrompt() {
+    if (unmutePrompt) {
+      unmutePrompt.style.display = 'flex';
+      unmutePrompt.style.opacity = '1';
+      setTimeout(() => { hideUnmutePrompt(); }, 4000);
+    }
+  }
+
+  function hideUnmutePrompt() {
+    if (unmutePrompt) {
+      unmutePrompt.style.opacity = '0';
+      setTimeout(() => { if (unmutePrompt.style.opacity === '0') unmutePrompt.style.display = 'none'; }, 250);
+    }
+  }
+
+  if (activeVideo) {
+    activeVideo.addEventListener('volumechange', () => {
+      if (!activeVideo.muted) hideUnmutePrompt();
+    });
+    activeVideo.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (activeVideo.paused) {
+        activeVideo.muted = false;
+        hideUnmutePrompt();
+        activeVideo.play().catch(() => {});
+      } else {
+        if (activeVideo.muted) {
+          activeVideo.muted = false;
+          hideUnmutePrompt();
+        } else {
+          activeVideo.pause();
+        }
+      }
+    });
+  }
+
   function closeGalleryModal() {
     modal.classList.remove('active');
     document.body.style.overflow = '';
+    hideUnmutePrompt();
     if (activeVideo) {
       activeVideo.pause();
       activeVideo.src = '';

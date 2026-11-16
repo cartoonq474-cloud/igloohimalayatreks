@@ -150,6 +150,23 @@ function resolveFilePath(reqUrl) {
     return nestedIndexPath;
   }
 
+  // Check in trek/ folder
+  const trekDir = path.join(ROOT, 'trek', reqPath);
+  if (fs.existsSync(trekDir) && fs.statSync(trekDir).isDirectory()) {
+    const indexPath = path.join(trekDir, 'index.html');
+    if (fs.existsSync(indexPath) && fs.statSync(indexPath).isFile()) return indexPath;
+  }
+  if (fs.existsSync(trekDir + '.html') && fs.statSync(trekDir + '.html').isFile()) {
+    return trekDir + '.html';
+  }
+
+  // Check in tour/ folder
+  const tourDir = path.join(ROOT, 'tour', reqPath);
+  if (fs.existsSync(tourDir) && fs.statSync(tourDir).isDirectory()) {
+    const indexPath = path.join(tourDir, 'index.html');
+    if (fs.existsSync(indexPath) && fs.statSync(indexPath).isFile()) return indexPath;
+  }
+
   return null;
 }
 
