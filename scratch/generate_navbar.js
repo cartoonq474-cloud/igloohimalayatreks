@@ -388,8 +388,10 @@ function getNavbarHtml(prefix, activeMenu = '') {
             <div class="nav-dropdown-menu">
               <a href="${prefix}about.html" class="nav-dropdown-link">About Us</a>
               <a href="${prefix}team.html" class="nav-dropdown-link">Meet Our Team</a>
-              <a href="${prefix}careers.html" class="nav-dropdown-link">Careers & Jobs</a>
-              <a href="${prefix}reviews.html" class="nav-dropdown-link">Reviews & Testimonials</a>
+              <a href="${prefix}legal-documents.html" class="nav-dropdown-link">Legal Documents &amp; Licenses</a>
+              <a href="${prefix}terms-and-conditions.html" class="nav-dropdown-link">Terms &amp; Conditions</a>
+              <a href="${prefix}careers.html" class="nav-dropdown-link">Careers &amp; Jobs</a>
+              <a href="${prefix}reviews.html" class="nav-dropdown-link">Reviews &amp; Testimonials</a>
               <a href="${prefix}custom-plan.html" class="nav-dropdown-link">Tailor-Made Trip Planner</a>
             </div>
           </li>

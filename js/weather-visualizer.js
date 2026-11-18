@@ -1,4 +1,124 @@
 const WEATHER_PROFILES = {
+  "short-annapurna-base-camp-trek": {
+    regionTitle: "Annapurna Sanctuary / Modi Khola Regional Climate",
+    monthData: [
+      { name: "January", min: -10, max: 8 },
+      { name: "February", min: -8, max: 10 },
+      { name: "March", min: -4, max: 14 },
+      { name: "April", min: 1, max: 17 },
+      { name: "May", min: 5, max: 19 },
+      { name: "June", min: 9, max: 20 },
+      { name: "July", min: 11, max: 21 },
+      { name: "August", min: 10, max: 20 },
+      { name: "September", min: 7, max: 18 },
+      { name: "October", min: 1, max: 15 },
+      { name: "November", min: -5, max: 11 },
+      { name: "December", min: -8, max: 9 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (850 m / 2,789 ft)", min: 10, max: 24 },
+      { label: "Day 3 (2,340 m / 7,677 ft)", min: 4, max: 17 },
+      { label: "Day 4 (3,200 m / 10,498 ft)", min: -1, max: 12 },
+      { label: "Day 5 (4,130 m / 13,550 ft)", min: -8, max: 6 },
+      { label: "Day 6 (2,310 m / 7,578 ft)", min: 3, max: 16 },
+      { label: "Day 7 (850 m / 2,789 ft)", min: 10, max: 24 },
+      { label: "Day 8 (1,400 m / 4,593 ft)", min: 6, max: 22 },
+      { label: "Day 9 (1,400 m / 4,593 ft)", min: 6, max: 22 }
+    ]
+  },
+  "short_abc": {
+    regionTitle: "Annapurna Sanctuary / Modi Khola Regional Climate",
+    monthData: [
+      { name: "January", min: -10, max: 8 },
+      { name: "February", min: -8, max: 10 },
+      { name: "March", min: -4, max: 14 },
+      { name: "April", min: 1, max: 17 },
+      { name: "May", min: 5, max: 19 },
+      { name: "June", min: 9, max: 20 },
+      { name: "July", min: 11, max: 21 },
+      { name: "August", min: 10, max: 20 },
+      { name: "September", min: 7, max: 18 },
+      { name: "October", min: 1, max: 15 },
+      { name: "November", min: -5, max: 11 },
+      { name: "December", min: -8, max: 9 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (850 m / 2,789 ft)", min: 10, max: 24 },
+      { label: "Day 3 (2,340 m / 7,677 ft)", min: 4, max: 17 },
+      { label: "Day 4 (3,200 m / 10,498 ft)", min: -1, max: 12 },
+      { label: "Day 5 (4,130 m / 13,550 ft)", min: -8, max: 6 },
+      { label: "Day 6 (2,310 m / 7,578 ft)", min: 3, max: 16 },
+      { label: "Day 7 (850 m / 2,789 ft)", min: 10, max: 24 },
+      { label: "Day 8 (1,400 m / 4,593 ft)", min: 6, max: 22 },
+      { label: "Day 9 (1,400 m / 4,593 ft)", min: 6, max: 22 }
+    ]
+  },
+  "annapurna-base-camp-trek-via-poon-hill": {
+    regionTitle: "Annapurna Sanctuary & Poon Hill Regional Climate",
+    monthData: [
+      { name: "January", min: -10, max: 8 },
+      { name: "February", min: -8, max: 10 },
+      { name: "March", min: -4, max: 14 },
+      { name: "April", min: 1, max: 17 },
+      { name: "May", min: 5, max: 19 },
+      { name: "June", min: 9, max: 20 },
+      { name: "July", min: 11, max: 21 },
+      { name: "August", min: 10, max: 20 },
+      { name: "September", min: 7, max: 18 },
+      { name: "October", min: 1, max: 15 },
+      { name: "November", min: -5, max: 11 },
+      { name: "December", min: -8, max: 9 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (850 m / 2,789 ft)", min: 10, max: 24 },
+      { label: "Day 3 (1,980 m / 6,496 ft)", min: 5, max: 19 },
+      { label: "Day 4 (2,885 m / 9,465 ft)", min: 0, max: 13 },
+      { label: "Day 5 (2,660 m / 8,727 ft)", min: 1, max: 14 },
+      { label: "Day 6 (2,170 m / 7,119 ft)", min: 4, max: 17 },
+      { label: "Day 7 (2,800 m / 9,186 ft)", min: 0, max: 13 },
+      { label: "Day 8 (4,130 m / 13,550 ft)", min: -8, max: 6 },
+      { label: "Day 9 (2,315 m / 7,595 ft)", min: 3, max: 16 },
+      { label: "Day 10 (1,775 m / 5,823 ft)", min: 6, max: 20 },
+      { label: "Day 11 (850 m / 2,789 ft)", min: 10, max: 24 },
+      { label: "Day 12 (1,400 m / 4,593 ft)", min: 6, max: 22 },
+      { label: "Day 13 (1,400 m / 4,593 ft)", min: 6, max: 22 }
+    ]
+  },
+  "abc_poon_hill": {
+    regionTitle: "Annapurna Sanctuary & Poon Hill Regional Climate",
+    monthData: [
+      { name: "January", min: -10, max: 8 },
+      { name: "February", min: -8, max: 10 },
+      { name: "March", min: -4, max: 14 },
+      { name: "April", min: 1, max: 17 },
+      { name: "May", min: 5, max: 19 },
+      { name: "June", min: 9, max: 20 },
+      { name: "July", min: 11, max: 21 },
+      { name: "August", min: 10, max: 20 },
+      { name: "September", min: 7, max: 18 },
+      { name: "October", min: 1, max: 15 },
+      { name: "November", min: -5, max: 11 },
+      { name: "December", min: -8, max: 9 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (850 m / 2,789 ft)", min: 10, max: 24 },
+      { label: "Day 3 (1,980 m / 6,496 ft)", min: 5, max: 19 },
+      { label: "Day 4 (2,885 m / 9,465 ft)", min: 0, max: 13 },
+      { label: "Day 5 (2,660 m / 8,727 ft)", min: 1, max: 14 },
+      { label: "Day 6 (2,170 m / 7,119 ft)", min: 4, max: 17 },
+      { label: "Day 7 (2,800 m / 9,186 ft)", min: 0, max: 13 },
+      { label: "Day 8 (4,130 m / 13,550 ft)", min: -8, max: 6 },
+      { label: "Day 9 (2,315 m / 7,595 ft)", min: 3, max: 16 },
+      { label: "Day 10 (1,775 m / 5,823 ft)", min: 6, max: 20 },
+      { label: "Day 11 (850 m / 2,789 ft)", min: 10, max: 24 },
+      { label: "Day 12 (1,400 m / 4,593 ft)", min: 6, max: 22 },
+      { label: "Day 13 (1,400 m / 4,593 ft)", min: 6, max: 22 }
+    ]
+  },
   "chitwan-national-park-safari": {
     regionTitle: "Chitwan National Park & Terai Lowlands Climate",
     monthData: [
@@ -394,6 +514,70 @@ const WEATHER_PROFILES = {
       { label: "Hotel Everest View (3,880 m)", min: -8, max: 8 },
       { label: "Lukla Refuel (2,846 m)", min: -2, max: 14 },
       { label: "Kathmandu Return (1,400 m)", min: 4, max: 22 }
+    ]
+  },
+  "annapurna-circuit-luxury-trek": {
+    regionTitle: "Annapurna Circuit / Thorong La Regional Climate",
+    monthData: [
+      { name: "January", min: -14, max: 5 },
+      { name: "February", min: -12, max: 7 },
+      { name: "March", min: -7, max: 11 },
+      { name: "April", min: -2, max: 14 },
+      { name: "May", min: 3, max: 16 },
+      { name: "June", min: 7, max: 17 },
+      { name: "July", min: 9, max: 18 },
+      { name: "August", min: 8, max: 17 },
+      { name: "September", min: 5, max: 15 },
+      { name: "October", min: -2, max: 12 },
+      { name: "November", min: -8, max: 8 },
+      { name: "December", min: -12, max: 6 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (1860 m / 6102 ft)", min: 6, max: 21 },
+      { label: "Day 3 (2670 m / 8760 ft)", min: 1, max: 16 },
+      { label: "Day 4 (3300 m / 10827 ft)", min: -3, max: 13 },
+      { label: "Day 5 (3660 m / 12008 ft)", min: -6, max: 11 },
+      { label: "Day 6 (3540 m / 11614 ft)", min: -5, max: 11 },
+      { label: "Day 7 (3540 m / 11614 ft)", min: -5, max: 11 },
+      { label: "Day 8 (4050 m / 13287 ft)", min: -9, max: 8 },
+      { label: "Day 9 (4450 m / 14600 ft)", min: -12, max: 5 },
+      { label: "Day 10 (5416 m / 3800 m)", min: -18, max: 2 },
+      { label: "Day 11 (822 m / 2697 ft)", min: 12, max: 26 },
+      { label: "Day 12 (1400 m / 4593 ft)", min: 6, max: 22 },
+      { label: "Day 13 (1400 m / 4593 ft)", min: 6, max: 22 }
+    ]
+  },
+  "annapurna_circuit_luxury": {
+    regionTitle: "Annapurna Circuit / Thorong La Regional Climate",
+    monthData: [
+      { name: "January", min: -14, max: 5 },
+      { name: "February", min: -12, max: 7 },
+      { name: "March", min: -7, max: 11 },
+      { name: "April", min: -2, max: 14 },
+      { name: "May", min: 3, max: 16 },
+      { name: "June", min: 7, max: 17 },
+      { name: "July", min: 9, max: 18 },
+      { name: "August", min: 8, max: 17 },
+      { name: "September", min: 5, max: 15 },
+      { name: "October", min: -2, max: 12 },
+      { name: "November", min: -8, max: 8 },
+      { name: "December", min: -12, max: 6 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1400 m / 4593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (1860 m / 6102 ft)", min: 6, max: 21 },
+      { label: "Day 3 (2670 m / 8760 ft)", min: 1, max: 16 },
+      { label: "Day 4 (3300 m / 10827 ft)", min: -3, max: 13 },
+      { label: "Day 5 (3660 m / 12008 ft)", min: -6, max: 11 },
+      { label: "Day 6 (3540 m / 11614 ft)", min: -5, max: 11 },
+      { label: "Day 7 (3540 m / 11614 ft)", min: -5, max: 11 },
+      { label: "Day 8 (4050 m / 13287 ft)", min: -9, max: 8 },
+      { label: "Day 9 (4450 m / 14600 ft)", min: -12, max: 5 },
+      { label: "Day 10 (5416 m / 3800 m)", min: -18, max: 2 },
+      { label: "Day 11 (822 m / 2697 ft)", min: 12, max: 26 },
+      { label: "Day 12 (1400 m / 4593 ft)", min: 6, max: 22 },
+      { label: "Day 13 (1400 m / 4593 ft)", min: 6, max: 22 }
     ]
   },
   "north-annapurna-base-camp-trek": {
