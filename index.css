@@ -18445,6 +18445,42 @@ textarea {
   box-sizing: border-box !important;
 }
 
+/* 2B. Interactive Select & SVG Flexbox Zero-Overflow Safeguards */
+.control-select,
+select.control-select,
+#altitude-trek-selector,
+#weather-month-selector {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  text-overflow: ellipsis !important;
+}
+
+#section-altitude-profile,
+#section-weather {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
+
+#section-altitude-profile div[style*="display: flex"],
+#section-weather div[style*="display: flex"] {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  min-width: 0 !important;
+}
+
+#section-altitude-profile select,
+#section-weather select {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.altitude-chart-svg,
+.weather-chart-svg {
+  max-width: 100% !important;
+}
+
 /* 3. Regional Hubs Compare Table & Interactive Map Grid Stacking */
 @media (max-width: 992px) {
   .compare-map-grid {
@@ -18494,14 +18530,34 @@ textarea {
   .modal-close {
     width: 44px !important;
     height: 44px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
 
-  .modal-card {
-    width: 94% !important;
-    max-width: 94% !important;
+  .modal-card,
+  .modal-card.inq-modal-card,
+  .inq-modal-card {
+    width: 95% !important;
+    max-width: 95% !important;
+    max-height: calc(100dvh - 32px) !important;
+    max-height: calc(100vh - 32px) !important;
     margin: 16px auto !important;
-    padding: 24px 20px !important;
+    padding: 22px 18px !important;
+    padding-bottom: max(22px, calc(18px + env(safe-area-inset-bottom))) !important;
+    border-radius: 18px !important;
     box-sizing: border-box !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .modal-card input,
+  .modal-card select,
+  .modal-card textarea,
+  .inq-modal-card input,
+  .inq-modal-card select,
+  .inq-modal-card textarea {
+    font-size: 16px !important;
   }
 
   .platform-sub-tab {
@@ -18519,6 +18575,96 @@ textarea {
   .section-heading-responsive {
     font-size: clamp(1.5rem, 5vw, 1.85rem) !important;
     line-height: 1.3 !important;
+  }
+
+  /* Sticky Subnav Bar Pills Touch Targets */
+  .trek-sub-nav-btn,
+  .subnav-tab {
+    padding: 8px 14px !important;
+    min-height: 38px !important;
+    font-size: 0.82rem !important;
+    gap: 6px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  /* Departure Dates Month Tabs */
+  .dates-month-tab {
+    min-width: 44px !important;
+    min-height: 38px !important;
+    padding: 6px 10px !important;
+    font-size: 0.8rem !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Unit Toggle Buttons in Altitude and Weather */
+  .altitude-unit-toggle-btn,
+  .weather-unit-btn {
+    min-height: 38px !important;
+    min-width: 44px !important;
+    padding: 6px 12px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Weather Carousel Scroll Buttons */
+  .weather-scroll-btn {
+    min-width: 38px !important;
+    min-height: 38px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Gear Checklist Checkbox Rows */
+  .gear-item-checkbox {
+    width: 22px !important;
+    height: 22px !important;
+    cursor: pointer !important;
+  }
+
+  .gear-checklist-item,
+  .gear-item-label {
+    min-height: 42px !important;
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer !important;
+  }
+
+  /* Mobile Quick WhatsApp in Header */
+  .mobile-quick-whatsapp {
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  /* Mobile Gallery "See Photos & Videos" Button */
+  .trek-gallery-see-all-mobile-btn {
+    min-height: 38px !important;
+    padding: 8px 16px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  /* Packing action buttons & Expand/Collapse toggles */
+  .itinerary-toggle-all-btn,
+  .details-toggle-all-btn,
+  .packing-action-btn,
+  .faq-expand-all-btn {
+    min-height: 38px !important;
+    padding: 8px 14px !important;
+  }
+
+  /* Floating Mobile Booking CTA */
+  .mobile-book-cta {
+    left: 16px !important;
+    right: 16px !important;
+    max-width: calc(100vw - 32px) !important;
+    margin: 0 auto !important;
+    min-height: 48px !important;
+    box-sizing: border-box !important;
   }
 }
 

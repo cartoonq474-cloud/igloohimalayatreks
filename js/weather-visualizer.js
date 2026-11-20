@@ -988,11 +988,11 @@ export function renderWeatherChart(containerId) {
     </div>
 
     <!-- Interactive Sub-control Row -->
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 16px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 16px; min-width: 0; max-width: 100%;">
       <!-- Month Dropdown (Daily Tab Only) -->
-      <div>
+      <div style="min-width: 0; max-width: 100%;">
         ${isDaily ? `
-          <select id="weather-month-selector" name="weather_month_selector" aria-label="Select Forecast Month" class="control-select" style="background: #ffffff; color: var(--color-primary-navy); border: 1px solid #cbd5e1; border-radius: 8px; padding: 8px 16px; font-size: 0.95rem; font-weight: bold; cursor: pointer; outline: none;">
+          <select id="weather-month-selector" name="weather_month_selector" aria-label="Select Forecast Month" class="control-select" style="background: #ffffff; color: var(--color-primary-navy); border: 1px solid #cbd5e1; border-radius: 8px; padding: 8px 16px; font-size: 0.95rem; font-weight: bold; cursor: pointer; outline: none; max-width: 100%; box-sizing: border-box; text-overflow: ellipsis;">
             ${monthData.map(m => `<option value="${m.name}" ${currentMonth === m.name ? 'selected' : ''}>${m.name}</option>`).join('')}
           </select>
         ` : `

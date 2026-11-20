@@ -16844,881 +16844,86 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "gallery/annapurna-base-camp/abc-expedition-001.webp",
-        "title": "Abc Expedition 001",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-002.webp",
-        "title": "Abc Expedition 002",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-003.webp",
-        "title": "Abc Expedition 003",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-004.webp",
-        "title": "Abc Expedition 004",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-005.webp",
-        "title": "Abc Expedition 005",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-006.webp",
-        "title": "Abc Expedition 006",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-007.webp",
-        "title": "Abc Expedition 007",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-008.webp",
-        "title": "Abc Expedition 008",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-009.webp",
-        "title": "Abc Expedition 009",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-010.webp",
-        "title": "Abc Expedition 010",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-011.webp",
-        "title": "Abc Expedition 011",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-012.webp",
-        "title": "Abc Expedition 012",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-013.webp",
-        "title": "Abc Expedition 013",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-014.webp",
-        "title": "Abc Expedition 014",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-015.webp",
-        "title": "Abc Expedition 015",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-016.webp",
-        "title": "Abc Expedition 016",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-017.webp",
-        "title": "Abc Expedition 017",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-018.webp",
-        "title": "Abc Expedition 018",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-019.webp",
-        "title": "Abc Expedition 019",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-020.webp",
-        "title": "Abc Expedition 020",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-021.webp",
-        "title": "Abc Expedition 021",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-022.webp",
-        "title": "Abc Expedition 022",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-023.webp",
-        "title": "Abc Expedition 023",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-024.webp",
-        "title": "Abc Expedition 024",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-025.webp",
-        "title": "Abc Expedition 025",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-026.webp",
-        "title": "Abc Expedition 026",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-027.webp",
-        "title": "Abc Expedition 027",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-028.webp",
-        "title": "Abc Expedition 028",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-029.webp",
-        "title": "Abc Expedition 029",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-030.webp",
-        "title": "Abc Expedition 030",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-031.webp",
-        "title": "Abc Expedition 031",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-032.webp",
-        "title": "Abc Expedition 032",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-033.webp",
-        "title": "Abc Expedition 033",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-034.webp",
-        "title": "Abc Expedition 034",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-035.webp",
-        "title": "Abc Expedition 035",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-036.webp",
-        "title": "Abc Expedition 036",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-037.webp",
-        "title": "Abc Expedition 037",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-038.webp",
-        "title": "Abc Expedition 038",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-039.webp",
-        "title": "Abc Expedition 039",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-040.webp",
-        "title": "Abc Expedition 040",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-041.webp",
-        "title": "Abc Expedition 041",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-042.webp",
-        "title": "Abc Expedition 042",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-043.webp",
-        "title": "Abc Expedition 043",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-044.webp",
-        "title": "Abc Expedition 044",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-045.webp",
-        "title": "Abc Expedition 045",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-046.webp",
-        "title": "Abc Expedition 046",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-047.webp",
-        "title": "Abc Expedition 047",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-048.webp",
-        "title": "Abc Expedition 048",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-049.webp",
-        "title": "Abc Expedition 049",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-050.webp",
-        "title": "Abc Expedition 050",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-051.webp",
-        "title": "Abc Expedition 051",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-052.webp",
-        "title": "Abc Expedition 052",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-053.webp",
-        "title": "Abc Expedition 053",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-054.webp",
-        "title": "Abc Expedition 054",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-055.webp",
-        "title": "Abc Expedition 055",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-056.webp",
-        "title": "Abc Expedition 056",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-057.webp",
-        "title": "Abc Expedition 057",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-058.webp",
-        "title": "Abc Expedition 058",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-059.webp",
-        "title": "Abc Expedition 059",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-060.webp",
-        "title": "Abc Expedition 060",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-061.webp",
-        "title": "Abc Expedition 061",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-062.webp",
-        "title": "Abc Expedition 062",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-063.webp",
-        "title": "Abc Expedition 063",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-064.webp",
-        "title": "Abc Expedition 064",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-065.webp",
-        "title": "Abc Expedition 065",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-066.webp",
-        "title": "Abc Expedition 066",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-067.webp",
-        "title": "Abc Expedition 067",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-068.webp",
-        "title": "Abc Expedition 068",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-069.webp",
-        "title": "Abc Expedition 069",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-070.webp",
-        "title": "Abc Expedition 070",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-071.webp",
-        "title": "Abc Expedition 071",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-072.webp",
-        "title": "Abc Expedition 072",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-073.webp",
-        "title": "Abc Expedition 073",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-074.webp",
-        "title": "Abc Expedition 074",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-075.webp",
-        "title": "Abc Expedition 075",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-076.webp",
-        "title": "Abc Expedition 076",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-077.webp",
-        "title": "Abc Expedition 077",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-078.webp",
-        "title": "Abc Expedition 078",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-079.webp",
-        "title": "Abc Expedition 079",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-080.webp",
-        "title": "Abc Expedition 080",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-081.webp",
-        "title": "Abc Expedition 081",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-082.webp",
-        "title": "Abc Expedition 082",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-083.webp",
-        "title": "Abc Expedition 083",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-084.webp",
-        "title": "Abc Expedition 084",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-085.webp",
-        "title": "Abc Expedition 085",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-086.webp",
-        "title": "Abc Expedition 086",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-087.webp",
-        "title": "Abc Expedition 087",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-088.webp",
-        "title": "Abc Expedition 088",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-089.webp",
-        "title": "Abc Expedition 089",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-090.webp",
-        "title": "Abc Expedition 090",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-091.webp",
-        "title": "Abc Expedition 091",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-092.webp",
-        "title": "Abc Expedition 092",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-093.webp",
-        "title": "Abc Expedition 093",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-094.webp",
-        "title": "Abc Expedition 094",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-095.webp",
-        "title": "Abc Expedition 095",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-096.webp",
-        "title": "Abc Expedition 096",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-097.webp",
-        "title": "Abc Expedition 097",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-098.webp",
-        "title": "Abc Expedition 098",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-099.webp",
-        "title": "Abc Expedition 099",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-100.webp",
-        "title": "Abc Expedition 100",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-101.webp",
-        "title": "Abc Expedition 101",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-102.webp",
-        "title": "Abc Expedition 102",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-103.webp",
-        "title": "Abc Expedition 103",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-104.webp",
-        "title": "Abc Expedition 104",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-105.webp",
-        "title": "Abc Expedition 105",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-106.webp",
-        "title": "Abc Expedition 106",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-107.webp",
-        "title": "Abc Expedition 107",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-108.webp",
-        "title": "Abc Expedition 108",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-109.webp",
-        "title": "Abc Expedition 109",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-110.webp",
-        "title": "Abc Expedition 110",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-111.webp",
-        "title": "Abc Expedition 111",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-112.webp",
-        "title": "Abc Expedition 112",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.jpg",
-        "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp",
-        "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-gallery-annapurna-glacier-moraine.webp",
-        "title": "Abc Gallery Annapurna Glacier Moraine",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-gallery-bamboo-dovan-canyon.webp",
-        "title": "Abc Gallery Bamboo Dovan Canyon",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-jhinu-danda-hot-springs.webp",
-        "title": "Abc Gallery Jhinu Danda Hot Springs",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-machhapuchhre-base-camp.webp",
-        "title": "Abc Gallery Machhapuchhre Base Camp",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-gallery-modi-khola-suspension.webp",
-        "title": "Abc Gallery Modi Khola Suspension",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-prayer-flags-sanctuary.webp",
-        "title": "Abc Gallery Prayer Flags Sanctuary",
-        "category": "Heritage"
-      },
-      {
-        "file": "abc-gallery-rhododendron-forest-trail.webp",
-        "title": "Abc Gallery Rhododendron Forest Trail",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-teahouse-breakfast-mountain-view.webp",
-        "title": "Abc Gallery Teahouse Breakfast Mountain View",
+        "file": "images/gallery/abc-with-mardi-himal-trek/abc-with-mardi-himal-trek-gallery-01.webp",
+        "type": "image",
+        "title": "ABC with Mardi Himal Trek Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "abc-poon-hill-autumn-morning-peaks.webp",
-        "title": "Abc Poon Hill Autumn Morning Peaks",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-poon-hill-golden-sunrise-panorama.webp",
-        "title": "Abc Poon Hill Golden Sunrise Panorama",
+        "file": "images/gallery/abc-with-mardi-himal-trek/abc-with-mardi-himal-trek-gallery-02.webp",
+        "type": "image",
+        "title": "ABC with Mardi Himal Trek Expedition View 02",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "abc-poon-hill-sanctuary-trail.webp",
-        "title": "Abc Poon Hill Sanctuary Trail",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-poon-hill-teahouse-vista.webp",
-        "title": "Abc Poon Hill Teahouse Vista",
-        "category": "Villages"
-      },
-      {
-        "file": "abc-poon-hill-viewpoint-ghorepani.webp",
-        "title": "Abc Poon Hill Viewpoint Ghorepani",
+        "file": "images/gallery/abc-with-mardi-himal-trek/abc-with-mardi-himal-trek-gallery-03.webp",
+        "type": "image",
+        "title": "ABC with Mardi Himal Trek Expedition View 03",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "abc-trekking-in-february.webp",
-        "title": "Abc Trekking In February",
-        "category": "Trail"
-      },
+        "file": "images/gallery/abc-with-mardi-himal-trek/abc-with-mardi-himal-trek-gallery-04.webp",
+        "type": "image",
+        "title": "ABC with Mardi Himal Trek Expedition View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-02.jpg",
-        "title": "Abc With Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/abc-with-mardi-himal-trek/abc-with-mardi-himal-trek-gallery-05.webp",
+        "type": "image",
+        "title": "ABC with Mardi Himal Trek Expedition View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-02.webp",
-        "title": "Abc With Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-02.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.jpg",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.jpg",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek.webp",
-        "title": "Abc With Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-base-camp-9-days-itinerary-02.jpg",
-        "title": "Annapurna Base Camp 9 Days Itinerary 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-gallery-machhapuchhre-base-camp.webp",
-        "title": "Abc Gallery Machhapuchhre Base Camp",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-02.jpg",
-        "title": "Abc With Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-02.webp",
-        "title": "Abc With Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-02.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.jpg",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.jpg",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek.webp",
-        "title": "Abc With Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-base-camp-machhapuchhre-fishtail.webp",
-        "title": "Annapurna Base Camp Machhapuchhre Fishtail",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.jpg",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.webp",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek.jpg",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek.webp",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.jpg",
-        "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
-        "category": "Peaks"
-      }
+        "file": "images/gallery/abc-with-mardi-himal-trek/abc-with-mardi-himal-trek-gallery-06.webp",
+        "type": "image",
+        "title": "ABC with Mardi Himal Trek Expedition View 06",
+        "category": "Panoramas"
+}
     ],
     "annapurna-base-camp": [
-    {
-        "file": "annapurna-base-camp-machhapuchhre-trail.webp",
-        "title": "Trekkers on the Annapurna Base Camp Trail beneath Soaring Mt. Machhapuchhre Fishtail Peak (6,993m)",
-        "category": "Peaks"
-    },
-    {
-        "file": "annapurna-base-camp-signboard-igloo-team.webp",
-        "title": "Igloo Himalaya Treks Team Reaching Annapurna Base Camp (4,130m) Official Signboard",
+      {
+        "file": "images/gallery/annapurna-base-camp-trek/annapurna-base-camp-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek Expedition View 01",
         "category": "Trail"
-    },
-    {
-        "file": "annapurna-base-camp-alpine-lake-reflection.webp",
-        "title": "High Alpine Lake Mirror Reflection of Snow Peaks in the Annapurna Sanctuary",
-        "category": "Panoramas"
-    },
-    {
-        "file": "annapurna-base-camp-glacier-tarn-reflection.webp",
-        "title": "Pristine Glacial Tarn Mirroring Soaring Annapurna South and Alpine Cirque",
-        "category": "Panoramas"
-    },
-    {
-        "file": "annapurna-base-camp-entry-point-gate.webp",
-        "title": "Official Machhapuchhre Bank Annapurna Base Camp Entry Gate & Suspension Bridge",
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek/annapurna-base-camp-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek Expedition View 02",
         "category": "Trail"
-    },
-    {
-        "file": "annapurna-base-camp-waterfall-bridge.webp",
-        "title": "Scenic Cascading Himalayan Waterfall and Suspension Bridge along Modi Khola",
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek/annapurna-base-camp-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek Expedition View 03",
         "category": "Trail"
-    },
-    {
-        "file": "annapurna-base-camp-overland-jeep-drive.webp",
-        "title": "Expedition Group Journey & Overland Scenic Drive to Annapurna Region",
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek/annapurna-base-camp-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek Expedition View 04",
         "category": "Trail"
-    },
-    {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Alpine River Valley & Wilderness Gorge",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "High Alpine Annapurna Base Camp Trail Ascent",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Glacial Moraine & High Himalayan Amphitheater",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Mountain Ridge Cloud Inversion & Alpine Vista",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Dawn Alpenglow over Annapurna I (8,091m)",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Himalayan Teahouse Settlements & Mountain Culture",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Descending Through Rhododendron Forests",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Modi Khola Canyon Suspension Bridge Crossing",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Morning Sunlight Across Annapurna Mountain Ridge",
-        "category": "Videos"
-    },
-    {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Alpine Foothills & Mountain Terraces",
-        "category": "Videos"
-    }
-],
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek/annapurna-base-camp-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek Expedition View 05",
+        "category": "Trail"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek/annapurna-base-camp-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek Expedition View 06",
+        "category": "Trail"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek/annapurna-base-camp-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek Expedition View 07",
+        "category": "Trail"
+}
+    ],
     "annapurna-base-camp-heli-return": [
       {
         "file": "video/gallery/treks/annapurna-circuit-trek.mp4",
@@ -18924,690 +18129,407 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "gallery/annapurna-base-camp/abc-expedition-001.webp",
-        "title": "Abc Expedition 001",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-002.webp",
-        "title": "Abc Expedition 002",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-003.webp",
-        "title": "Abc Expedition 003",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-004.webp",
-        "title": "Abc Expedition 004",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-005.webp",
-        "title": "Abc Expedition 005",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-006.webp",
-        "title": "Abc Expedition 006",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-007.webp",
-        "title": "Abc Expedition 007",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-008.webp",
-        "title": "Abc Expedition 008",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-009.webp",
-        "title": "Abc Expedition 009",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-010.webp",
-        "title": "Abc Expedition 010",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-011.webp",
-        "title": "Abc Expedition 011",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-012.webp",
-        "title": "Abc Expedition 012",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-013.webp",
-        "title": "Abc Expedition 013",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-014.webp",
-        "title": "Abc Expedition 014",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-015.webp",
-        "title": "Abc Expedition 015",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-016.webp",
-        "title": "Abc Expedition 016",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-017.webp",
-        "title": "Abc Expedition 017",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-018.webp",
-        "title": "Abc Expedition 018",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-019.webp",
-        "title": "Abc Expedition 019",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-020.webp",
-        "title": "Abc Expedition 020",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-021.webp",
-        "title": "Abc Expedition 021",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-022.webp",
-        "title": "Abc Expedition 022",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-023.webp",
-        "title": "Abc Expedition 023",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-024.webp",
-        "title": "Abc Expedition 024",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-025.webp",
-        "title": "Abc Expedition 025",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-026.webp",
-        "title": "Abc Expedition 026",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-027.webp",
-        "title": "Abc Expedition 027",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-028.webp",
-        "title": "Abc Expedition 028",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-029.webp",
-        "title": "Abc Expedition 029",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-030.webp",
-        "title": "Abc Expedition 030",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-031.webp",
-        "title": "Abc Expedition 031",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-032.webp",
-        "title": "Abc Expedition 032",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-033.webp",
-        "title": "Abc Expedition 033",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-034.webp",
-        "title": "Abc Expedition 034",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-035.webp",
-        "title": "Abc Expedition 035",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-036.webp",
-        "title": "Abc Expedition 036",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-037.webp",
-        "title": "Abc Expedition 037",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-038.webp",
-        "title": "Abc Expedition 038",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-039.webp",
-        "title": "Abc Expedition 039",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-040.webp",
-        "title": "Abc Expedition 040",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-041.webp",
-        "title": "Abc Expedition 041",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-042.webp",
-        "title": "Abc Expedition 042",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-043.webp",
-        "title": "Abc Expedition 043",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-044.webp",
-        "title": "Abc Expedition 044",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-045.webp",
-        "title": "Abc Expedition 045",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-046.webp",
-        "title": "Abc Expedition 046",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-047.webp",
-        "title": "Abc Expedition 047",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-048.webp",
-        "title": "Abc Expedition 048",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-049.webp",
-        "title": "Abc Expedition 049",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-050.webp",
-        "title": "Abc Expedition 050",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-051.webp",
-        "title": "Abc Expedition 051",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-052.webp",
-        "title": "Abc Expedition 052",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-053.webp",
-        "title": "Abc Expedition 053",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-054.webp",
-        "title": "Abc Expedition 054",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-055.webp",
-        "title": "Abc Expedition 055",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-056.webp",
-        "title": "Abc Expedition 056",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-057.webp",
-        "title": "Abc Expedition 057",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-058.webp",
-        "title": "Abc Expedition 058",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-059.webp",
-        "title": "Abc Expedition 059",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-060.webp",
-        "title": "Abc Expedition 060",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-061.webp",
-        "title": "Abc Expedition 061",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-062.webp",
-        "title": "Abc Expedition 062",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-063.webp",
-        "title": "Abc Expedition 063",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-064.webp",
-        "title": "Abc Expedition 064",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-065.webp",
-        "title": "Abc Expedition 065",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-066.webp",
-        "title": "Abc Expedition 066",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-067.webp",
-        "title": "Abc Expedition 067",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-068.webp",
-        "title": "Abc Expedition 068",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-069.webp",
-        "title": "Abc Expedition 069",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-070.webp",
-        "title": "Abc Expedition 070",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-071.webp",
-        "title": "Abc Expedition 071",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-072.webp",
-        "title": "Abc Expedition 072",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-073.webp",
-        "title": "Abc Expedition 073",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-074.webp",
-        "title": "Abc Expedition 074",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-075.webp",
-        "title": "Abc Expedition 075",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-076.webp",
-        "title": "Abc Expedition 076",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-077.webp",
-        "title": "Abc Expedition 077",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-078.webp",
-        "title": "Abc Expedition 078",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-079.webp",
-        "title": "Abc Expedition 079",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-080.webp",
-        "title": "Abc Expedition 080",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-081.webp",
-        "title": "Abc Expedition 081",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-082.webp",
-        "title": "Abc Expedition 082",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-083.webp",
-        "title": "Abc Expedition 083",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-084.webp",
-        "title": "Abc Expedition 084",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-085.webp",
-        "title": "Abc Expedition 085",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-086.webp",
-        "title": "Abc Expedition 086",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-087.webp",
-        "title": "Abc Expedition 087",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-088.webp",
-        "title": "Abc Expedition 088",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-089.webp",
-        "title": "Abc Expedition 089",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-090.webp",
-        "title": "Abc Expedition 090",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-091.webp",
-        "title": "Abc Expedition 091",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-092.webp",
-        "title": "Abc Expedition 092",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-093.webp",
-        "title": "Abc Expedition 093",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-094.webp",
-        "title": "Abc Expedition 094",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-095.webp",
-        "title": "Abc Expedition 095",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-096.webp",
-        "title": "Abc Expedition 096",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-097.webp",
-        "title": "Abc Expedition 097",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-098.webp",
-        "title": "Abc Expedition 098",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-099.webp",
-        "title": "Abc Expedition 099",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-100.webp",
-        "title": "Abc Expedition 100",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-101.webp",
-        "title": "Abc Expedition 101",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-102.webp",
-        "title": "Abc Expedition 102",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-103.webp",
-        "title": "Abc Expedition 103",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-104.webp",
-        "title": "Abc Expedition 104",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-105.webp",
-        "title": "Abc Expedition 105",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-106.webp",
-        "title": "Abc Expedition 106",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-107.webp",
-        "title": "Abc Expedition 107",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-108.webp",
-        "title": "Abc Expedition 108",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-109.webp",
-        "title": "Abc Expedition 109",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-110.webp",
-        "title": "Abc Expedition 110",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-111.webp",
-        "title": "Abc Expedition 111",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-112.webp",
-        "title": "Abc Expedition 112",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.jpg",
-        "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp",
-        "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-gallery-annapurna-glacier-moraine.webp",
-        "title": "Abc Gallery Annapurna Glacier Moraine",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-gallery-bamboo-dovan-canyon.webp",
-        "title": "Abc Gallery Bamboo Dovan Canyon",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-jhinu-danda-hot-springs.webp",
-        "title": "Abc Gallery Jhinu Danda Hot Springs",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-machhapuchhre-base-camp.webp",
-        "title": "Abc Gallery Machhapuchhre Base Camp",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-gallery-modi-khola-suspension.webp",
-        "title": "Abc Gallery Modi Khola Suspension",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-prayer-flags-sanctuary.webp",
-        "title": "Abc Gallery Prayer Flags Sanctuary",
-        "category": "Heritage"
-      },
-      {
-        "file": "abc-gallery-rhododendron-forest-trail.webp",
-        "title": "Abc Gallery Rhododendron Forest Trail",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-teahouse-breakfast-mountain-view.webp",
-        "title": "Abc Gallery Teahouse Breakfast Mountain View",
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/annapurna-base-camp-trek-via-poon-hill-gallery-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "abc-poon-hill-autumn-morning-peaks.webp",
-        "title": "Abc Poon Hill Autumn Morning Peaks",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-poon-hill-golden-sunrise-panorama.webp",
-        "title": "Abc Poon Hill Golden Sunrise Panorama",
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/annapurna-base-camp-trek-via-poon-hill-gallery-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill Expedition View 02",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "abc-poon-hill-sanctuary-trail.webp",
-        "title": "Abc Poon Hill Sanctuary Trail",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-poon-hill-teahouse-vista.webp",
-        "title": "Abc Poon Hill Teahouse Vista",
-        "category": "Villages"
-      },
-      {
-        "file": "abc-poon-hill-viewpoint-ghorepani.webp",
-        "title": "Abc Poon Hill Viewpoint Ghorepani",
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/annapurna-base-camp-trek-via-poon-hill-gallery-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill Expedition View 03",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "abc-trekking-in-february.webp",
-        "title": "Abc Trekking In February",
-        "category": "Trail"
-      },
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/annapurna-base-camp-trek-via-poon-hill-gallery-04.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill Expedition View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-02.jpg",
-        "title": "Abc With Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/annapurna-base-camp-trek-via-poon-hill-gallery-05.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill Expedition View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-02.webp",
-        "title": "Abc With Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/annapurna-base-camp-trek-via-poon-hill-gallery-06.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill Expedition View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-02.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/annapurna-base-camp-trek-via-poon-hill-gallery-07.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill Expedition View 07",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.jpg",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/annapurna-base-camp-trek-via-poon-hill-gallery-08.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill Expedition View 08",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-1/annapurna-base-camp-trek-via-poon-hill-day-1-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 1 Trail View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.jpg",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-1/annapurna-base-camp-trek-via-poon-hill-day-1-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 1 Trail View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-1/annapurna-base-camp-trek-via-poon-hill-day-1-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 1 Trail View 03",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek.webp",
-        "title": "Abc With Mardi Himal Trek",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-2/annapurna-base-camp-trek-via-poon-hill-day-2-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 2 Trail View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-base-camp-9-days-itinerary-02.jpg",
-        "title": "Annapurna Base Camp 9 Days Itinerary 02",
-        "category": "Peaks"
-      }
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-3/annapurna-base-camp-trek-via-poon-hill-day-3-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 3 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-3/annapurna-base-camp-trek-via-poon-hill-day-3-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 3 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-3/annapurna-base-camp-trek-via-poon-hill-day-3-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 3 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-4/annapurna-base-camp-trek-via-poon-hill-day-4-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 4 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-4/annapurna-base-camp-trek-via-poon-hill-day-4-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 4 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-4/annapurna-base-camp-trek-via-poon-hill-day-4-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 4 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-4/annapurna-base-camp-trek-via-poon-hill-day-4-04.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 4 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-4/annapurna-base-camp-trek-via-poon-hill-day-4-05.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 4 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-04.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-05.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-06.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-07.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 07",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-08.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 08",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-09.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 09",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-10.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 10",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-11.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 11",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-12.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 12",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-5/annapurna-base-camp-trek-via-poon-hill-day-5-13.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 5 Trail View 13",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-6/annapurna-base-camp-trek-via-poon-hill-day-6-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 6 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-6/annapurna-base-camp-trek-via-poon-hill-day-6-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 6 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-6/annapurna-base-camp-trek-via-poon-hill-day-6-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 6 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-7/annapurna-base-camp-trek-via-poon-hill-day-7-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 7 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-7/annapurna-base-camp-trek-via-poon-hill-day-7-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 7 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-7/annapurna-base-camp-trek-via-poon-hill-day-7-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 7 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-7/annapurna-base-camp-trek-via-poon-hill-day-7-04.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 7 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-8/annapurna-base-camp-trek-via-poon-hill-day-8-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 8 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-8/annapurna-base-camp-trek-via-poon-hill-day-8-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 8 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-8/annapurna-base-camp-trek-via-poon-hill-day-8-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 8 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-9/annapurna-base-camp-trek-via-poon-hill-day-9-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 9 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-9/annapurna-base-camp-trek-via-poon-hill-day-9-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 9 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-9/annapurna-base-camp-trek-via-poon-hill-day-9-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 9 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-9/annapurna-base-camp-trek-via-poon-hill-day-9-04.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 9 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-9/annapurna-base-camp-trek-via-poon-hill-day-9-05.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 9 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-9/annapurna-base-camp-trek-via-poon-hill-day-9-06.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 9 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-9/annapurna-base-camp-trek-via-poon-hill-day-9-07.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 9 Trail View 07",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-10/annapurna-base-camp-trek-via-poon-hill-day-10-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 10 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-10/annapurna-base-camp-trek-via-poon-hill-day-10-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 10 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-10/annapurna-base-camp-trek-via-poon-hill-day-10-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 10 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-10/annapurna-base-camp-trek-via-poon-hill-day-10-04.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 10 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-10/annapurna-base-camp-trek-via-poon-hill-day-10-05.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 10 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-10/annapurna-base-camp-trek-via-poon-hill-day-10-06.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 10 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-10/annapurna-base-camp-trek-via-poon-hill-day-10-07.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 10 Trail View 07",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-10/annapurna-base-camp-trek-via-poon-hill-day-10-08.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 10 Trail View 08",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-10/annapurna-base-camp-trek-via-poon-hill-day-10-09.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 10 Trail View 09",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-11/annapurna-base-camp-trek-via-poon-hill-day-11-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 11 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-11/annapurna-base-camp-trek-via-poon-hill-day-11-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 11 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-11/annapurna-base-camp-trek-via-poon-hill-day-11-03.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 11 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-11/annapurna-base-camp-trek-via-poon-hill-day-11-04.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 11 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-12/annapurna-base-camp-trek-via-poon-hill-day-12-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 12 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-12/annapurna-base-camp-trek-via-poon-hill-day-12-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 12 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-13/annapurna-base-camp-trek-via-poon-hill-day-13-01.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 13 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/annapurna-base-camp-trek-via-poon-hill/day-13/annapurna-base-camp-trek-via-poon-hill-day-13-02.webp",
+        "type": "image",
+        "title": "Annapurna Base Camp Trek via Poon Hill — Day 13 Trail View 02",
+        "category": "Panoramas"
+}
     ],
     "annapurna-circuit-luxury-trek": [
       {
@@ -21749,685 +20671,29 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "gallery/annapurna-circuit/act-14-expedition-001.webp",
-        "title": "Act 14 Expedition 001",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-002.webp",
-        "title": "Act 14 Expedition 002",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-003.webp",
-        "title": "Act 14 Expedition 003",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-004.webp",
-        "title": "Act 14 Expedition 004",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-005.webp",
-        "title": "Act 14 Expedition 005",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-006.webp",
-        "title": "Act 14 Expedition 006",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-008.webp",
-        "title": "Act 14 Expedition 008",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-009.webp",
-        "title": "Act 14 Expedition 009",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-010.webp",
-        "title": "Act 14 Expedition 010",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-011.webp",
-        "title": "Act 14 Expedition 011",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-012.webp",
-        "title": "Act 14 Expedition 012",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-013.webp",
-        "title": "Act 14 Expedition 013",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-014.webp",
-        "title": "Act 14 Expedition 014",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-015.webp",
-        "title": "Act 14 Expedition 015",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-016.webp",
-        "title": "Act 14 Expedition 016",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-017.webp",
-        "title": "Act 14 Expedition 017",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-018.webp",
-        "title": "Act 14 Expedition 018",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-019.webp",
-        "title": "Act 14 Expedition 019",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-020.webp",
-        "title": "Act 14 Expedition 020",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-021.webp",
-        "title": "Act 14 Expedition 021",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-022.webp",
-        "title": "Act 14 Expedition 022",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-023.webp",
-        "title": "Act 14 Expedition 023",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-024.webp",
-        "title": "Act 14 Expedition 024",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-025.webp",
-        "title": "Act 14 Expedition 025",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-026.webp",
-        "title": "Act 14 Expedition 026",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-027.webp",
-        "title": "Act 14 Expedition 027",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-028.webp",
-        "title": "Act 14 Expedition 028",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-029.webp",
-        "title": "Act 14 Expedition 029",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-030.webp",
-        "title": "Act 14 Expedition 030",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-031.webp",
-        "title": "Act 14 Expedition 031",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-032.webp",
-        "title": "Act 14 Expedition 032",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-033.webp",
-        "title": "Act 14 Expedition 033",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-034.webp",
-        "title": "Act 14 Expedition 034",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-035.webp",
-        "title": "Act 14 Expedition 035",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-036.webp",
-        "title": "Act 14 Expedition 036",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-037.webp",
-        "title": "Act 14 Expedition 037",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-038.webp",
-        "title": "Act 14 Expedition 038",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-039.webp",
-        "title": "Act 14 Expedition 039",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-040.webp",
-        "title": "Act 14 Expedition 040",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-041.webp",
-        "title": "Act 14 Expedition 041",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-042.webp",
-        "title": "Act 14 Expedition 042",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-043.webp",
-        "title": "Act 14 Expedition 043",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-044.webp",
-        "title": "Act 14 Expedition 044",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-045.webp",
-        "title": "Act 14 Expedition 045",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-046.webp",
-        "title": "Act 14 Expedition 046",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-047.webp",
-        "title": "Act 14 Expedition 047",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-048.webp",
-        "title": "Act 14 Expedition 048",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-049.webp",
-        "title": "Act 14 Expedition 049",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-050.webp",
-        "title": "Act 14 Expedition 050",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-051.webp",
-        "title": "Act 14 Expedition 051",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-052.webp",
-        "title": "Act 14 Expedition 052",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-053.webp",
-        "title": "Act 14 Expedition 053",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-054.webp",
-        "title": "Act 14 Expedition 054",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-055.webp",
-        "title": "Act 14 Expedition 055",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-056.webp",
-        "title": "Act 14 Expedition 056",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-057.webp",
-        "title": "Act 14 Expedition 057",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-058.webp",
-        "title": "Act 14 Expedition 058",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-059.webp",
-        "title": "Act 14 Expedition 059",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-060.webp",
-        "title": "Act 14 Expedition 060",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-061.webp",
-        "title": "Act 14 Expedition 061",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-062.webp",
-        "title": "Act 14 Expedition 062",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-063.webp",
-        "title": "Act 14 Expedition 063",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-064.webp",
-        "title": "Act 14 Expedition 064",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-065.webp",
-        "title": "Act 14 Expedition 065",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-066.webp",
-        "title": "Act 14 Expedition 066",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-067.webp",
-        "title": "Act 14 Expedition 067",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-068.webp",
-        "title": "Act 14 Expedition 068",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-069.webp",
-        "title": "Act 14 Expedition 069",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-070.webp",
-        "title": "Act 14 Expedition 070",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-071.webp",
-        "title": "Act 14 Expedition 071",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-072.webp",
-        "title": "Act 14 Expedition 072",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-073.webp",
-        "title": "Act 14 Expedition 073",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-074.webp",
-        "title": "Act 14 Expedition 074",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-075.webp",
-        "title": "Act 14 Expedition 075",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-076.webp",
-        "title": "Act 14 Expedition 076",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-077.webp",
-        "title": "Act 14 Expedition 077",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-078.webp",
-        "title": "Act 14 Expedition 078",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-079.webp",
-        "title": "Act 14 Expedition 079",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-080.webp",
-        "title": "Act 14 Expedition 080",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-081.webp",
-        "title": "Act 14 Expedition 081",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-082.webp",
-        "title": "Act 14 Expedition 082",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-083.webp",
-        "title": "Act 14 Expedition 083",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-084.webp",
-        "title": "Act 14 Expedition 084",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-085.webp",
-        "title": "Act 14 Expedition 085",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-086.webp",
-        "title": "Act 14 Expedition 086",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-087.webp",
-        "title": "Act 14 Expedition 087",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-088.webp",
-        "title": "Act 14 Expedition 088",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-089.webp",
-        "title": "Act 14 Expedition 089",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-090.webp",
-        "title": "Act 14 Expedition 090",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-091.webp",
-        "title": "Act 14 Expedition 091",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-092.webp",
-        "title": "Act 14 Expedition 092",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-093.webp",
-        "title": "Act 14 Expedition 093",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-094.webp",
-        "title": "Act 14 Expedition 094",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-095.webp",
-        "title": "Act 14 Expedition 095",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-096.webp",
-        "title": "Act 14 Expedition 096",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-097.webp",
-        "title": "Act 14 Expedition 097",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-098.webp",
-        "title": "Act 14 Expedition 098",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-099.webp",
-        "title": "Act 14 Expedition 099",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-100.webp",
-        "title": "Act 14 Expedition 100",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-101.webp",
-        "title": "Act 14 Expedition 101",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-102.webp",
-        "title": "Act 14 Expedition 102",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-103.webp",
-        "title": "Act 14 Expedition 103",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-104.webp",
-        "title": "Act 14 Expedition 104",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-105.webp",
-        "title": "Act 14 Expedition 105",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-106.webp",
-        "title": "Act 14 Expedition 106",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-107.webp",
-        "title": "Act 14 Expedition 107",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-108.webp",
-        "title": "Act 14 Expedition 108",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-109.webp",
-        "title": "Act 14 Expedition 109",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-110.webp",
-        "title": "Act 14 Expedition 110",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-111.webp",
-        "title": "Act 14 Expedition 111",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-circuit/act-14-expedition-112.webp",
-        "title": "Act 14 Expedition 112",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-detail-map-of-annapurna-circuit-trek-showing-checkpoints-with-landmarks-along-with-a-alt.jpg",
-        "title": "A Detail Map Of Annapurna Circuit Trek Showing Checkpoints With Landmarks Along With A Alt",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-detail-map-of-annapurna-circuit-trek-showing-checkpoints-with-landmarks-along-with-a-alt.webp",
-        "title": "A Detail Map Of Annapurna Circuit Trek Showing Checkpoints With Landmarks Along With A Alt",
-        "category": "Peaks"
-      },
-      {
-        "file": "act-14-gallery-braga-ancient-monastery.webp",
-        "title": "Act 14 Gallery Braga Ancient Monastery",
-        "category": "Heritage"
-      },
-      {
-        "file": "act-14-gallery-chame-pine-forests.webp",
-        "title": "Act 14 Gallery Chame Pine Forests",
-        "category": "Trail"
-      },
-      {
-        "file": "act-14-gallery-manang-valley-horses.webp",
-        "title": "Act 14 Gallery Manang Valley Horses",
-        "category": "Trail"
-      },
-      {
-        "file": "act-14-gallery-muktinath-temple-shrines.webp",
-        "title": "Act 14 Gallery Muktinath Temple Shrines",
-        "category": "Heritage"
-      },
-      {
-        "file": "act-14-gallery-tal-waterfall-entrance.webp",
-        "title": "Act 14 Gallery Tal Waterfall Entrance",
-        "category": "Trail"
-      },
-      {
-        "file": "act-14-gallery-thorong-la-summit-sign.webp",
-        "title": "Act 14 Gallery Thorong La Summit Sign",
-        "category": "Peaks"
-      },
-      {
-        "file": "act-14-gallery-thorong-phedi-base.webp",
-        "title": "Act 14 Gallery Thorong Phedi Base",
-        "category": "Trail"
-      },
-      {
-        "file": "act-14-gallery-yak-kharka-alpine-pasture.webp",
-        "title": "Act 14 Gallery Yak Kharka Alpine Pasture",
-        "category": "Wildlife"
-      },
-      {
-        "file": "annapurna-circuit-14-days-manang-chortens.webp",
-        "title": "Annapurna Circuit 14 Days Manang Chortens",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-14-days-marsyangdi-forest.webp",
-        "title": "Annapurna Circuit 14 Days Marsyangdi Forest",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-14-days-thorong-la-pass-crossing.webp",
-        "title": "Annapurna Circuit 14 Days Thorong La Pass Crossing",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-14-days-thorong-phedi-ascent.webp",
-        "title": "Annapurna Circuit 14 Days Thorong Phedi Ascent",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-14-days-upper-pisang-panorama.webp",
-        "title": "Annapurna Circuit 14 Days Upper Pisang Panorama",
+        "file": "images/gallery/annapurna-circuit-with-tilicho-lake/annapurna-circuit-with-tilicho-lake-gallery-01.webp",
+        "type": "image",
+        "title": "Annapurna Circuit with Tilicho Lake Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "annapurna-circuit-luxury-trek-02.jpg",
-        "title": "Annapurna Circuit Luxury Trek 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/annapurna-circuit-with-tilicho-lake/annapurna-circuit-with-tilicho-lake-gallery-02.webp",
+        "type": "image",
+        "title": "Annapurna Circuit with Tilicho Lake Expedition View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-luxury-trek-02.webp",
-        "title": "Annapurna Circuit Luxury Trek 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/annapurna-circuit-with-tilicho-lake/annapurna-circuit-with-tilicho-lake-gallery-03.webp",
+        "type": "image",
+        "title": "Annapurna Circuit with Tilicho Lake Expedition View 03",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-luxury-trek-03.jpg",
-        "title": "Annapurna Circuit Luxury Trek 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-luxury-trek-03.webp",
-        "title": "Annapurna Circuit Luxury Trek 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-luxury-trek-04.jpg",
-        "title": "Annapurna Circuit Luxury Trek 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-luxury-trek-04.webp",
-        "title": "Annapurna Circuit Luxury Trek 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-luxury-trek-05.jpg",
-        "title": "Annapurna Circuit Luxury Trek 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-luxury-trek-05.webp",
-        "title": "Annapurna Circuit Luxury Trek 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-luxury-trek-06.jpg",
-        "title": "Annapurna Circuit Luxury Trek 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-luxury-trek-06.webp",
-        "title": "Annapurna Circuit Luxury Trek 06",
-        "category": "Peaks"
-      }
+        "file": "images/gallery/annapurna-circuit-with-tilicho-lake/annapurna-circuit-with-tilicho-lake-gallery-04.webp",
+        "type": "image",
+        "title": "Annapurna Circuit with Tilicho Lake Expedition View 04",
+        "category": "Panoramas"
+}
     ],
     "annapurna-luxury-trek": [
       {
@@ -23068,150 +21334,35 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "gallery/abc-poon-hill/poon-hill-expedition-001.webp",
-        "title": "Poon Hill Expedition 001",
-        "category": "Trail"
-      },
-      {
-        "file": "gallery/abc-poon-hill/poon-hill-expedition-002.webp",
-        "title": "Poon Hill Expedition 002",
-        "category": "Trail"
-      },
-      {
-        "file": "gallery/abc-poon-hill/poon-hill-expedition-003.webp",
-        "title": "Poon Hill Expedition 003",
-        "category": "Trail"
-      },
-      {
-        "file": "gallery/abc-poon-hill/poon-hill-expedition-004.webp",
-        "title": "Poon Hill Expedition 004",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-poon-hill-autumn-morning-peaks.webp",
-        "title": "Abc Poon Hill Autumn Morning Peaks",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-poon-hill-golden-sunrise-panorama.webp",
-        "title": "Abc Poon Hill Golden Sunrise Panorama",
+        "file": "images/gallery/annapurna-view-trek/annapurna-view-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Annapurna View Trek Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "abc-poon-hill-sanctuary-trail.webp",
-        "title": "Abc Poon Hill Sanctuary Trail",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-poon-hill-teahouse-vista.webp",
-        "title": "Abc Poon Hill Teahouse Vista",
-        "category": "Villages"
-      },
-      {
-        "file": "abc-poon-hill-viewpoint-ghorepani.webp",
-        "title": "Abc Poon Hill Viewpoint Ghorepani",
+        "file": "images/gallery/annapurna-view-trek/annapurna-view-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Annapurna View Trek Expedition View 02",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.jpg",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
+        "file": "images/gallery/annapurna-view-trek/annapurna-view-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Annapurna View Trek Expedition View 03",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.webp",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
+        "file": "images/gallery/annapurna-view-trek/annapurna-view-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Annapurna View Trek Expedition View 04",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.jpg",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
+        "file": "images/gallery/annapurna-view-trek/annapurna-view-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Annapurna View Trek Expedition View 05",
         "category": "Panoramas"
-      },
-      {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.webp",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
-        "category": "Panoramas"
-      },
-      {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-04.webp",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 04",
-        "category": "Panoramas"
-      },
-      {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views.webp",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views",
-        "category": "Panoramas"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.jpg",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.webp",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek.jpg",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek.webp",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-02.jpg",
-        "title": "Ghorepani Poon Hill Trek 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-02.webp",
-        "title": "Ghorepani Poon Hill Trek 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-03.jpg",
-        "title": "Ghorepani Poon Hill Trek 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-03.webp",
-        "title": "Ghorepani Poon Hill Trek 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.jpg",
-        "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
-        "category": "Panoramas"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.webp",
-        "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
-        "category": "Panoramas"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek.jpg",
-        "title": "Ghorepani Poon Hill Trek",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek.webp",
-        "title": "Ghorepani Poon Hill Trek",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.jpg",
-        "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.webp",
-        "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
-        "category": "Peaks"
-      }
+}
     ],
     "chisapani-nagarkot-trek": [
       {
@@ -25242,180 +23393,587 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "a-detailed-map-of-the-gokyo-lake-with-ranjo-la-pass-trek-with-a-altitude-graph.jpg",
-        "title": "A Detailed Map Of The Gokyo Lake With Ranjo La Pass Trek With A Altitude Graph",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-01.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "a-detailed-map-of-the-gokyo-lake-with-ranjo-la-pass-trek-with-a-altitude-graph.webp",
-        "title": "A Detailed Map Of The Gokyo Lake With Ranjo La Pass Trek With A Altitude Graph",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-02.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-03.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 03",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-04.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-05.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-3.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 3",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-06.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-07.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 07",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-08.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 08",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-09.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 09",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-10.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 10",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-11.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 11",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-12.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 12",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-13.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 13",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-02.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-14.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 14",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-02.webp",
-        "title": "Best Time For Gokyo Lakes Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-15.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 15",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-03.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-16.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 16",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-03.webp",
-        "title": "Best Time For Gokyo Lakes Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-17.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 17",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-04.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 04",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-18.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 18",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-04.webp",
-        "title": "Best Time For Gokyo Lakes Trek 04",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-19.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 19",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-05.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 05",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-20.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 20",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-05.webp",
-        "title": "Best Time For Gokyo Lakes Trek 05",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-21.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 21",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-06.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 06",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-22.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 22",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-06.webp",
-        "title": "Best Time For Gokyo Lakes Trek 06",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-23.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 23",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-07.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 07",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-24.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 24",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-07.webp",
-        "title": "Best Time For Gokyo Lakes Trek 07",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-25.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 25",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek.jpg",
-        "title": "Best Time For Gokyo Lakes Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-26.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 26",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek.webp",
-        "title": "Best Time For Gokyo Lakes Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-27.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 27",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-28.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 28",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-29.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 29",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-30.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 30",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-31.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 31",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-32.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 32",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-33.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 33",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-34.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 34",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      }
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-35.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 35",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-36.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 36",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-37.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 37",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-38.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 38",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-39.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 39",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-40.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 40",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-41.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 41",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-42.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 42",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-43.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 43",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-44.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 44",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-45.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 45",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-46.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 46",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-47.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 47",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-48.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 48",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-49.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 49",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-50.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 50",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-51.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 51",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-52.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 52",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-53.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 53",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-54.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 54",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-55.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 55",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-56.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 56",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-57.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 57",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-58.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 58",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-59.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 59",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-60.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 60",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-61.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 61",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-62.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 62",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-63.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 63",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-64.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 64",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-65.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 65",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-66.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 66",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-67.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 67",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-68.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 68",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-69.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 69",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-70.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 70",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-71.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 71",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-72.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 72",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-73.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 73",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-74.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 74",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-75.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 75",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-76.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 76",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-77.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 77",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-78.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 78",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-79.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 79",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-80.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 80",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-81.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 81",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-82.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 82",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-83.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 83",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-84.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 84",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-85.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 85",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-86.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 86",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-87.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 87",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-88.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 88",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-89.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 89",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-90.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 90",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-91.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 91",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-92.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 92",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-93.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 93",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-94.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 94",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-95.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 95",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-96.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 96",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-97.webp",
+        "type": "image",
+        "title": "EBC Cho La Pass Gokyo Trek Expedition View 97",
+        "category": "Panoramas"
+}
     ],
     "everest-base-camp-luxury-trek": [
       {
@@ -25677,230 +24235,359 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 02",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "ama-dablam-peak.jpg",
-        "title": "Ama Dablam Peak",
-        "category": "Peaks"
-      },
-      {
-        "file": "ama-dablam-peak.webp",
-        "title": "Ama Dablam Peak",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-        "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 03",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 07",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 08",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 09",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 10",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 11",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-12.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 12",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-13.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 13",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-14.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 14",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-15.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 15",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-16.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 16",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek.webp",
-        "title": "Ebc Chola Pass Gokyo Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-17.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 17",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-map.png",
-        "title": "Ebc Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-18.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 18",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-with-chola-renjola-pass-trek.webp",
-        "title": "Ebc With Chola Renjola Pass Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-19.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 19",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-20.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 20",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.webp",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-21.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 21",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-22.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 22",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.webp",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      }
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-23.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 23",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-24.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 24",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-25.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 25",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-26.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 26",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-27.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 27",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-28.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 28",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-29.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 29",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-30.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 30",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-31.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 31",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-32.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 32",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-33.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 33",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-34.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 34",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-35.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 35",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-36.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 36",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-37.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 37",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-38.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 38",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-39.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 39",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-40.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 40",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-41.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 41",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-42.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 42",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-43.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 43",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-44.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 44",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-45.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 45",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-46.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 46",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-47.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 47",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-48.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 48",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-49.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 49",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-50.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 50",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-51.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 51",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-52.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 52",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-53.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 53",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-54.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 54",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-55.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 55",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-56.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 56",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-57.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 57",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-58.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 58",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-59.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition View 59",
+        "category": "Panoramas"
+}
     ],
     "everest-base-camp-trek": [
       {
@@ -26162,230 +24849,533 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 02",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "ama-dablam-peak.jpg",
-        "title": "Ama Dablam Peak",
-        "category": "Peaks"
-      },
-      {
-        "file": "ama-dablam-peak.webp",
-        "title": "Ama Dablam Peak",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-        "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 03",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 07",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 08",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 09",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 10",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 11",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-12.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 12",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-13.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 13",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-14.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 14",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-15.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 15",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-16.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 16",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek.webp",
-        "title": "Ebc Chola Pass Gokyo Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-17.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 17",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-map.png",
-        "title": "Ebc Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-18.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 18",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-with-chola-renjola-pass-trek.webp",
-        "title": "Ebc With Chola Renjola Pass Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-19.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 19",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-20.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 20",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.webp",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-21.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 21",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-22.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 22",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.webp",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      }
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-23.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 23",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-24.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 24",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-25.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 25",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-26.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 26",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-27.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 27",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-28.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 28",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-29.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek Expedition View 29",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 1 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 1 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 1 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 2 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 2 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 2 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 2 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 3 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 3 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 3 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 3 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 3 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 4 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 4 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 4 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 4 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-5/everest-base-camp-trek-day-5-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 5 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-5/everest-base-camp-trek-day-5-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 5 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 6 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 6 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 6 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 6 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 7 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 7 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 7 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 7 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 7 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 8 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 8 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 8 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 8 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 9 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 9 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 9 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 9 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 9 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-06.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 9 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 10 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 10 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 10 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 10 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 10 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-06.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 10 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-07.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 10 Trail View 07",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 11 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 11 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 11 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 11 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 12 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 12 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 12 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 12 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 12 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 13 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 13 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 13 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 14 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 14 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek — Day 14 Trail View 03",
+        "category": "Panoramas"
+}
     ],
     "everest-base-camp-trek-16-days": [
       {
@@ -26647,230 +25637,461 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days Expedition View 02",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "ama-dablam-peak.jpg",
-        "title": "Ama Dablam Peak",
-        "category": "Peaks"
-      },
-      {
-        "file": "ama-dablam-peak.webp",
-        "title": "Ama Dablam Peak",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-        "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
+        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days Expedition View 03",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days Expedition View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days Expedition View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-06.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days Expedition View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-07.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days Expedition View 07",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-08.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days Expedition View 08",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-09.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days Expedition View 09",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-10.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days Expedition View 10",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-11.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days Expedition View 11",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 1 Trail View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 1 Trail View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 1 Trail View 03",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek.webp",
-        "title": "Ebc Chola Pass Gokyo Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 03",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-map.png",
-        "title": "Ebc Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-with-chola-renjola-pass-trek.webp",
-        "title": "Ebc With Chola Renjola Pass Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-06.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.webp",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 3 Trail View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 3 Trail View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.webp",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      }
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 3 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 3 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 4 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 4 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 4 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 4 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 5 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 5 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 5 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 5 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 5 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 6 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 6 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 6 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 7 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 7 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 7 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 7 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-06.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-06.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-06.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-07.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 07",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-06.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 12 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 12 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 12 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 12 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-05.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 12 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 13 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 13 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 13 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-04.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 13 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-14/everest-base-camp-trek-16-days-day-14-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 14 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-base-camp-trek-16-days/day-15/everest-base-camp-trek-16-days-day-15-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Trek 16 Days — Day 15 Trail View 01",
+        "category": "Panoramas"
+}
     ],
     "everest-base-camp-trek-heli-return": [
       {
@@ -28972,230 +28193,347 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 02",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "ama-dablam-peak.jpg",
-        "title": "Ama Dablam Peak",
-        "category": "Peaks"
-      },
-      {
-        "file": "ama-dablam-peak.webp",
-        "title": "Ama Dablam Peak",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-        "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 03",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 07",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 08",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 09",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 10",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 11",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-12.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 12",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-13.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 13",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-14.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 14",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-15.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 15",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-16.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 16",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek.webp",
-        "title": "Ebc Chola Pass Gokyo Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-17.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 17",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-map.png",
-        "title": "Ebc Map",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-18.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 18",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-with-chola-renjola-pass-trek.webp",
-        "title": "Ebc With Chola Renjola Pass Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-19.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 19",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-20.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 20",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.webp",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-21.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 21",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-22.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 22",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.webp",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      }
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-23.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 23",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-24.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 24",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-25.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 25",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-26.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 26",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-27.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 27",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-28.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 28",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-29.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 29",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-30.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 30",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-31.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 31",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-32.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 32",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-33.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 33",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-34.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 34",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-35.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 35",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-36.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 36",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-37.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 37",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-38.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 38",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-39.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 39",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-40.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 40",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-41.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 41",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-42.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 42",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-43.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 43",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-44.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 44",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-45.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 45",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-46.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 46",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-47.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 47",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-48.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 48",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-49.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 49",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-50.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 50",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-51.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 51",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-52.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 52",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-53.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 53",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-54.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 54",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-55.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 55",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-56.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 56",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-57.webp",
+        "type": "image",
+        "title": "Everest Chola and Renjo La Pass Trek Expedition View 57",
+        "category": "Panoramas"
+}
     ],
     "everest-three-passes-trek": [
       {
@@ -29457,205 +28795,827 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 02",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-3.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 3",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-        "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 03",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-with-chola-renjola-pass-trek.webp",
-        "title": "Ebc With Chola Renjola Pass Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 07",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.webp",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 08",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      }
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 09",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 10",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 11",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-12.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 12",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-13.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 13",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-14.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 14",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-15.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 15",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-16.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 16",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-17.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 17",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-18.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 18",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-19.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 19",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-20.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 20",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-21.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 21",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-22.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 22",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-23.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 23",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-24.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 24",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-25.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 25",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-26.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 26",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-27.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 27",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-28.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 28",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-29.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 29",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-30.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 30",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-31.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 31",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-32.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 32",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-33.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 33",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-34.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 34",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-35.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 35",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-36.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 36",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-37.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 37",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-38.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 38",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-39.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 39",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-40.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 40",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-41.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 41",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-42.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 42",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-43.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 43",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-44.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 44",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-45.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 45",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-46.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 46",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-47.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 47",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-48.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 48",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-49.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 49",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-50.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 50",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-51.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 51",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-52.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 52",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-53.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 53",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-54.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 54",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-55.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 55",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-56.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 56",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-57.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 57",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-58.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 58",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-59.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 59",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-60.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 60",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-61.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 61",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-62.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 62",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-63.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 63",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-64.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 64",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-65.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 65",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-66.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 66",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-67.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 67",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-68.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 68",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-69.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 69",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-70.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 70",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-71.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 71",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-72.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 72",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-73.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 73",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-74.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 74",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-75.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 75",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-76.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 76",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-77.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 77",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-78.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 78",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-79.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 79",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-80.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 80",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-81.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 81",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-82.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 82",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-83.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 83",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-84.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 84",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-85.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 85",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-86.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 86",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-87.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 87",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-88.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 88",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-89.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 89",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-90.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 90",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-91.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 91",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-92.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 92",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-93.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 93",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-94.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 94",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-95.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 95",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-96.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 96",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-97.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 97",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-98.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 98",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-99.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 99",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-100.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 100",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-101.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 101",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-102.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 102",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-103.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 103",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-104.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 104",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-105.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 105",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-106.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 106",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-107.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 107",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-108.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 108",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-109.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 109",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-110.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 110",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-111.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 111",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-112.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 112",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-113.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 113",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-114.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 114",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-115.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 115",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-116.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 116",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-117.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 117",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-118.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 118",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-119.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 119",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-120.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 120",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-121.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 121",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-122.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 122",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-123.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 123",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-124.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 124",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-125.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 125",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-126.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 126",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-127.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 127",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-128.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 128",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-129.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 129",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-130.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 130",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-131.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 131",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-132.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 132",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-133.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 133",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-134.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 134",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-135.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 135",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-136.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 136",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-137.webp",
+        "type": "image",
+        "title": "Everest Three Passes Trek Expedition View 137",
+        "category": "Panoramas"
+}
     ],
     "everest-view-trek": [
       {
@@ -30327,150 +30287,59 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "gallery/abc-poon-hill/poon-hill-expedition-001.webp",
-        "title": "Poon Hill Expedition 001",
-        "category": "Trail"
-      },
-      {
-        "file": "gallery/abc-poon-hill/poon-hill-expedition-002.webp",
-        "title": "Poon Hill Expedition 002",
-        "category": "Trail"
-      },
-      {
-        "file": "gallery/abc-poon-hill/poon-hill-expedition-003.webp",
-        "title": "Poon Hill Expedition 003",
-        "category": "Trail"
-      },
-      {
-        "file": "gallery/abc-poon-hill/poon-hill-expedition-004.webp",
-        "title": "Poon Hill Expedition 004",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-poon-hill-autumn-morning-peaks.webp",
-        "title": "Abc Poon Hill Autumn Morning Peaks",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-poon-hill-golden-sunrise-panorama.webp",
-        "title": "Abc Poon Hill Golden Sunrise Panorama",
+        "file": "images/gallery/ghorepani-poon-hill-trek/ghorepani-poon-hill-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Ghorepani Poon Hill Trek Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "abc-poon-hill-sanctuary-trail.webp",
-        "title": "Abc Poon Hill Sanctuary Trail",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-poon-hill-teahouse-vista.webp",
-        "title": "Abc Poon Hill Teahouse Vista",
-        "category": "Villages"
-      },
-      {
-        "file": "abc-poon-hill-viewpoint-ghorepani.webp",
-        "title": "Abc Poon Hill Viewpoint Ghorepani",
+        "file": "images/gallery/ghorepani-poon-hill-trek/ghorepani-poon-hill-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Ghorepani Poon Hill Trek Expedition View 02",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.jpg",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
+        "file": "images/gallery/ghorepani-poon-hill-trek/ghorepani-poon-hill-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Ghorepani Poon Hill Trek Expedition View 03",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-02.webp",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 02",
+        "file": "images/gallery/ghorepani-poon-hill-trek/ghorepani-poon-hill-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Ghorepani Poon Hill Trek Expedition View 04",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.jpg",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
+        "file": "images/gallery/ghorepani-poon-hill-trek/ghorepani-poon-hill-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Ghorepani Poon Hill Trek Expedition View 05",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-03.webp",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 03",
+        "file": "images/gallery/ghorepani-poon-hill-trek/ghorepani-poon-hill-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Ghorepani Poon Hill Trek Expedition View 06",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views-04.webp",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views 04",
+        "file": "images/gallery/ghorepani-poon-hill-trek/ghorepani-poon-hill-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Ghorepani Poon Hill Trek Expedition View 07",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "annapurna-scenic-trek-peaceful-trails-and-annapurna-views.webp",
-        "title": "Annapurna Scenic Trek Peaceful Trails And Annapurna Views",
+        "file": "images/gallery/ghorepani-poon-hill-trek/ghorepani-poon-hill-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Ghorepani Poon Hill Trek Expedition View 08",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.jpg",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.webp",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek.jpg",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek.webp",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-02.jpg",
-        "title": "Ghorepani Poon Hill Trek 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-02.webp",
-        "title": "Ghorepani Poon Hill Trek 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-03.jpg",
-        "title": "Ghorepani Poon Hill Trek 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-03.webp",
-        "title": "Ghorepani Poon Hill Trek 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.jpg",
-        "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
+        "file": "images/gallery/ghorepani-poon-hill-trek/ghorepani-poon-hill-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Ghorepani Poon Hill Trek Expedition View 09",
         "category": "Panoramas"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek-2027-cost-itinerary-and-sunrise.webp",
-        "title": "Ghorepani Poon Hill Trek 2027 Cost Itinerary And Sunrise",
-        "category": "Panoramas"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek.jpg",
-        "title": "Ghorepani Poon Hill Trek",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-trek.webp",
-        "title": "Ghorepani Poon Hill Trek",
-        "category": "Trail"
-      },
-      {
-        "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.jpg",
-        "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.webp",
-        "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
-        "category": "Peaks"
-      }
+}
     ],
     "ghorepani-poon-hill-with-mardi-himal-trek": [
       {
@@ -32517,180 +32386,473 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "a-detailed-map-of-the-gokyo-lake-with-ranjo-la-pass-trek-with-a-altitude-graph.jpg",
-        "title": "A Detailed Map Of The Gokyo Lake With Ranjo La Pass Trek With A Altitude Graph",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Expedition View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "a-detailed-map-of-the-gokyo-lake-with-ranjo-la-pass-trek-with-a-altitude-graph.webp",
-        "title": "A Detailed Map Of The Gokyo Lake With Ranjo La Pass Trek With A Altitude Graph",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Expedition View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Expedition View 03",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Expedition View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Expedition View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-3.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 3",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Expedition View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Expedition View 07",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Expedition View 08",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Expedition View 09",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Expedition View 10",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Expedition View 11",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 1 Trail View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 1 Trail View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-02.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 1 Trail View 03",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-02.webp",
-        "title": "Best Time For Gokyo Lakes Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-03.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-03.webp",
-        "title": "Best Time For Gokyo Lakes Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 03",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-04.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 04",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-04.webp",
-        "title": "Best Time For Gokyo Lakes Trek 04",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-05.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 05",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-05.webp",
-        "title": "Best Time For Gokyo Lakes Trek 05",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-06.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 06",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 03",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-06.webp",
-        "title": "Best Time For Gokyo Lakes Trek 06",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-07.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 07",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek-07.webp",
-        "title": "Best Time For Gokyo Lakes Trek 07",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek.jpg",
-        "title": "Best Time For Gokyo Lakes Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "best-time-for-gokyo-lakes-trek.webp",
-        "title": "Best Time For Gokyo Lakes Trek",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 03",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 07",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 01",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 03",
+        "category": "Panoramas"
+},
       {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      }
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 07",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 08",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 07",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 08",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-09.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 09",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 13 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 13 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 01",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 02",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 04",
+        "category": "Panoramas"
+}
     ],
     "gosaikunda-lake-trek": [
       {
@@ -40748,180 +40910,65 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "abc-gallery-machhapuchhre-base-camp.webp",
-        "title": "Abc Gallery Machhapuchhre Base Camp",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-02.jpg",
-        "title": "Abc With Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-02.webp",
-        "title": "Abc With Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-02.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.jpg",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.jpg",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek.webp",
-        "title": "Abc With Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-base-camp-machhapuchhre-fishtail.webp",
-        "title": "Annapurna Base Camp Machhapuchhre Fishtail",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.jpg",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek-02.webp",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek.jpg",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-and-mardi-himal-trek.webp",
-        "title": "Ghorepani Poon Hill And Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.jpg",
-        "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-vs-mardi-himal-trek-which-is-better.webp",
-        "title": "Ghorepani Poon Hill Vs Mardi Himal Trek Which Is Better",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-vs-mardi-himal-trek.jpg",
-        "title": "Ghorepani Poon Hill Vs Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-vs-mardi-himal-trek.webp",
-        "title": "Ghorepani Poon Hill Vs Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-with-mardi-himal-trek-10-days.webp",
-        "title": "Ghorepani Poon Hill With Mardi Himal Trek 10 Days",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-with-mardi-himal-trek.jpg",
-        "title": "Ghorepani Poon Hill With Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "ghorepani-poon-hill-with-mardi-himal-trek.webp",
-        "title": "Ghorepani Poon Hill With Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "machhapuchhre-fishtail-mountain-towering-above-mardi-himal-high-camp-with-colorful-prayer.jpg",
-        "title": "Machhapuchhre Fishtail Mountain Towering Above Mardi Himal High Camp With Colorful Prayer",
-        "category": "Peaks"
-      },
-      {
-        "file": "machhapuchhre-fishtail-mountain-towering-above-mardi-himal-high-camp-with-colorful-prayer.webp",
-        "title": "Machhapuchhre Fishtail Mountain Towering Above Mardi Himal High Camp With Colorful Prayer",
-        "category": "Peaks"
-      },
-      {
-        "file": "mardi-himal-trek-02.jpg",
-        "title": "Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "mardi-himal-trek-02.webp",
-        "title": "Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "mardi-himal-trek-best-itinerary-cost-2026-2027-02.jpg",
-        "title": "Mardi Himal Trek Best Itinerary Cost 2026 2027 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "mardi-himal-trek-best-itinerary-cost-2026-2027-02.webp",
-        "title": "Mardi Himal Trek Best Itinerary Cost 2026 2027 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "mardi-himal-trek-best-itinerary-cost-2026-2027-03.jpg",
-        "title": "Mardi Himal Trek Best Itinerary Cost 2026 2027 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "mardi-himal-trek-best-itinerary-cost-2026-2027-03.webp",
-        "title": "Mardi Himal Trek Best Itinerary Cost 2026 2027 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "mardi-himal-trek-best-itinerary-cost-2026-2027.webp",
-        "title": "Mardi Himal Trek Best Itinerary Cost 2026 2027",
-        "category": "Peaks"
-      },
-      {
-        "file": "mardi-himal-trek-guide.jpg",
-        "title": "Mardi Himal Trek Guide",
-        "category": "Peaks"
-      },
-      {
-        "file": "mardi-himal-trek-guide.webp",
-        "title": "Mardi Himal Trek Guide",
-        "category": "Peaks"
-      },
-      {
-        "file": "mardi-himal-trek-high-camp-machhapuchhre-fishtail-panoramic-view.webp",
-        "title": "Mardi Himal Trek High Camp Machhapuchhre Fishtail Panoramic View",
+        "file": "images/gallery/mardi-himal-trek/mardi-himal-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Mardi Himal Trek Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "mardi-himal-trek-vs-abc-02.jpg",
-        "title": "Mardi Himal Trek Vs Abc 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/mardi-himal-trek/mardi-himal-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Mardi Himal Trek Expedition View 02",
+        "category": "Panoramas"
+},
       {
-        "file": "mardi-himal-trek-vs-abc-02.webp",
-        "title": "Mardi Himal Trek Vs Abc 02",
-        "category": "Peaks"
-      }
+        "file": "images/gallery/mardi-himal-trek/mardi-himal-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Mardi Himal Trek Expedition View 03",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/mardi-himal-trek/mardi-himal-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Mardi Himal Trek Expedition View 04",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/mardi-himal-trek/mardi-himal-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Mardi Himal Trek Expedition View 05",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/mardi-himal-trek/mardi-himal-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Mardi Himal Trek Expedition View 06",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/mardi-himal-trek/mardi-himal-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Mardi Himal Trek Expedition View 07",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/mardi-himal-trek/mardi-himal-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Mardi Himal Trek Expedition View 08",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/mardi-himal-trek/mardi-himal-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Mardi Himal Trek Expedition View 09",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/mardi-himal-trek/mardi-himal-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Mardi Himal Trek Expedition View 10",
+        "category": "Panoramas"
+}
     ],
     "mera-peak-climbing": [
       {
@@ -42268,690 +42315,59 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "gallery/annapurna-base-camp/abc-expedition-001.webp",
-        "title": "Abc Expedition 001",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-002.webp",
-        "title": "Abc Expedition 002",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-003.webp",
-        "title": "Abc Expedition 003",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-004.webp",
-        "title": "Abc Expedition 004",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-005.webp",
-        "title": "Abc Expedition 005",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-006.webp",
-        "title": "Abc Expedition 006",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-007.webp",
-        "title": "Abc Expedition 007",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-008.webp",
-        "title": "Abc Expedition 008",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-009.webp",
-        "title": "Abc Expedition 009",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-010.webp",
-        "title": "Abc Expedition 010",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-011.webp",
-        "title": "Abc Expedition 011",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-012.webp",
-        "title": "Abc Expedition 012",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-013.webp",
-        "title": "Abc Expedition 013",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-014.webp",
-        "title": "Abc Expedition 014",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-015.webp",
-        "title": "Abc Expedition 015",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-016.webp",
-        "title": "Abc Expedition 016",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-017.webp",
-        "title": "Abc Expedition 017",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-018.webp",
-        "title": "Abc Expedition 018",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-019.webp",
-        "title": "Abc Expedition 019",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-020.webp",
-        "title": "Abc Expedition 020",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-021.webp",
-        "title": "Abc Expedition 021",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-022.webp",
-        "title": "Abc Expedition 022",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-023.webp",
-        "title": "Abc Expedition 023",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-024.webp",
-        "title": "Abc Expedition 024",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-025.webp",
-        "title": "Abc Expedition 025",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-026.webp",
-        "title": "Abc Expedition 026",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-027.webp",
-        "title": "Abc Expedition 027",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-028.webp",
-        "title": "Abc Expedition 028",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-029.webp",
-        "title": "Abc Expedition 029",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-030.webp",
-        "title": "Abc Expedition 030",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-031.webp",
-        "title": "Abc Expedition 031",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-032.webp",
-        "title": "Abc Expedition 032",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-033.webp",
-        "title": "Abc Expedition 033",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-034.webp",
-        "title": "Abc Expedition 034",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-035.webp",
-        "title": "Abc Expedition 035",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-036.webp",
-        "title": "Abc Expedition 036",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-037.webp",
-        "title": "Abc Expedition 037",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-038.webp",
-        "title": "Abc Expedition 038",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-039.webp",
-        "title": "Abc Expedition 039",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-040.webp",
-        "title": "Abc Expedition 040",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-041.webp",
-        "title": "Abc Expedition 041",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-042.webp",
-        "title": "Abc Expedition 042",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-043.webp",
-        "title": "Abc Expedition 043",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-044.webp",
-        "title": "Abc Expedition 044",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-045.webp",
-        "title": "Abc Expedition 045",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-046.webp",
-        "title": "Abc Expedition 046",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-047.webp",
-        "title": "Abc Expedition 047",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-048.webp",
-        "title": "Abc Expedition 048",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-049.webp",
-        "title": "Abc Expedition 049",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-050.webp",
-        "title": "Abc Expedition 050",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-051.webp",
-        "title": "Abc Expedition 051",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-052.webp",
-        "title": "Abc Expedition 052",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-053.webp",
-        "title": "Abc Expedition 053",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-054.webp",
-        "title": "Abc Expedition 054",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-055.webp",
-        "title": "Abc Expedition 055",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-056.webp",
-        "title": "Abc Expedition 056",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-057.webp",
-        "title": "Abc Expedition 057",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-058.webp",
-        "title": "Abc Expedition 058",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-059.webp",
-        "title": "Abc Expedition 059",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-060.webp",
-        "title": "Abc Expedition 060",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-061.webp",
-        "title": "Abc Expedition 061",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-062.webp",
-        "title": "Abc Expedition 062",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-063.webp",
-        "title": "Abc Expedition 063",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-064.webp",
-        "title": "Abc Expedition 064",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-065.webp",
-        "title": "Abc Expedition 065",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-066.webp",
-        "title": "Abc Expedition 066",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-067.webp",
-        "title": "Abc Expedition 067",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-068.webp",
-        "title": "Abc Expedition 068",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-069.webp",
-        "title": "Abc Expedition 069",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-070.webp",
-        "title": "Abc Expedition 070",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-071.webp",
-        "title": "Abc Expedition 071",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-072.webp",
-        "title": "Abc Expedition 072",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-073.webp",
-        "title": "Abc Expedition 073",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-074.webp",
-        "title": "Abc Expedition 074",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-075.webp",
-        "title": "Abc Expedition 075",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-076.webp",
-        "title": "Abc Expedition 076",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-077.webp",
-        "title": "Abc Expedition 077",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-078.webp",
-        "title": "Abc Expedition 078",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-079.webp",
-        "title": "Abc Expedition 079",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-080.webp",
-        "title": "Abc Expedition 080",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-081.webp",
-        "title": "Abc Expedition 081",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-082.webp",
-        "title": "Abc Expedition 082",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-083.webp",
-        "title": "Abc Expedition 083",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-084.webp",
-        "title": "Abc Expedition 084",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-085.webp",
-        "title": "Abc Expedition 085",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-086.webp",
-        "title": "Abc Expedition 086",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-087.webp",
-        "title": "Abc Expedition 087",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-088.webp",
-        "title": "Abc Expedition 088",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-089.webp",
-        "title": "Abc Expedition 089",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-090.webp",
-        "title": "Abc Expedition 090",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-091.webp",
-        "title": "Abc Expedition 091",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-092.webp",
-        "title": "Abc Expedition 092",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-093.webp",
-        "title": "Abc Expedition 093",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-094.webp",
-        "title": "Abc Expedition 094",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-095.webp",
-        "title": "Abc Expedition 095",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-096.webp",
-        "title": "Abc Expedition 096",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-097.webp",
-        "title": "Abc Expedition 097",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-098.webp",
-        "title": "Abc Expedition 098",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-099.webp",
-        "title": "Abc Expedition 099",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-100.webp",
-        "title": "Abc Expedition 100",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-101.webp",
-        "title": "Abc Expedition 101",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-102.webp",
-        "title": "Abc Expedition 102",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-103.webp",
-        "title": "Abc Expedition 103",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-104.webp",
-        "title": "Abc Expedition 104",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-105.webp",
-        "title": "Abc Expedition 105",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-106.webp",
-        "title": "Abc Expedition 106",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-107.webp",
-        "title": "Abc Expedition 107",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-108.webp",
-        "title": "Abc Expedition 108",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-109.webp",
-        "title": "Abc Expedition 109",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-110.webp",
-        "title": "Abc Expedition 110",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-111.webp",
-        "title": "Abc Expedition 111",
-        "category": "Peaks"
-      },
-      {
-        "file": "gallery/annapurna-base-camp/abc-expedition-112.webp",
-        "title": "Abc Expedition 112",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.jpg",
-        "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp",
-        "title": "A Detailed Map Of The Annapurna Base Camp Trek With A Altitude Graph",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-gallery-annapurna-glacier-moraine.webp",
-        "title": "Abc Gallery Annapurna Glacier Moraine",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-gallery-bamboo-dovan-canyon.webp",
-        "title": "Abc Gallery Bamboo Dovan Canyon",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-jhinu-danda-hot-springs.webp",
-        "title": "Abc Gallery Jhinu Danda Hot Springs",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-machhapuchhre-base-camp.webp",
-        "title": "Abc Gallery Machhapuchhre Base Camp",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-gallery-modi-khola-suspension.webp",
-        "title": "Abc Gallery Modi Khola Suspension",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-prayer-flags-sanctuary.webp",
-        "title": "Abc Gallery Prayer Flags Sanctuary",
-        "category": "Heritage"
-      },
-      {
-        "file": "abc-gallery-rhododendron-forest-trail.webp",
-        "title": "Abc Gallery Rhododendron Forest Trail",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-gallery-teahouse-breakfast-mountain-view.webp",
-        "title": "Abc Gallery Teahouse Breakfast Mountain View",
+        "file": "images/gallery/north-annapurna-base-camp-trek/north-annapurna-base-camp-trek-gallery-01.webp",
+        "type": "image",
+        "title": "North Annapurna Base Camp Trek Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "abc-poon-hill-autumn-morning-peaks.webp",
-        "title": "Abc Poon Hill Autumn Morning Peaks",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-poon-hill-golden-sunrise-panorama.webp",
-        "title": "Abc Poon Hill Golden Sunrise Panorama",
+        "file": "images/gallery/north-annapurna-base-camp-trek/north-annapurna-base-camp-trek-gallery-02.webp",
+        "type": "image",
+        "title": "North Annapurna Base Camp Trek Expedition View 02",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "abc-poon-hill-sanctuary-trail.webp",
-        "title": "Abc Poon Hill Sanctuary Trail",
-        "category": "Trail"
-      },
-      {
-        "file": "abc-poon-hill-teahouse-vista.webp",
-        "title": "Abc Poon Hill Teahouse Vista",
-        "category": "Villages"
-      },
-      {
-        "file": "abc-poon-hill-viewpoint-ghorepani.webp",
-        "title": "Abc Poon Hill Viewpoint Ghorepani",
+        "file": "images/gallery/north-annapurna-base-camp-trek/north-annapurna-base-camp-trek-gallery-03.webp",
+        "type": "image",
+        "title": "North Annapurna Base Camp Trek Expedition View 03",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "abc-trekking-in-february.webp",
-        "title": "Abc Trekking In February",
-        "category": "Trail"
-      },
+        "file": "images/gallery/north-annapurna-base-camp-trek/north-annapurna-base-camp-trek-gallery-04.webp",
+        "type": "image",
+        "title": "North Annapurna Base Camp Trek Expedition View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-02.jpg",
-        "title": "Abc With Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/north-annapurna-base-camp-trek/north-annapurna-base-camp-trek-gallery-05.webp",
+        "type": "image",
+        "title": "North Annapurna Base Camp Trek Expedition View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-02.webp",
-        "title": "Abc With Mardi Himal Trek 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/north-annapurna-base-camp-trek/north-annapurna-base-camp-trek-gallery-06.webp",
+        "type": "image",
+        "title": "North Annapurna Base Camp Trek Expedition View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-02.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 02",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/north-annapurna-base-camp-trek/north-annapurna-base-camp-trek-gallery-07.webp",
+        "type": "image",
+        "title": "North Annapurna Base Camp Trek Expedition View 07",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.jpg",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/north-annapurna-base-camp-trek/north-annapurna-base-camp-trek-gallery-08.webp",
+        "type": "image",
+        "title": "North Annapurna Base Camp Trek Expedition View 08",
+        "category": "Panoramas"
+},
       {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026-03.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.jpg",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek-cost-package-itinerary-2026.webp",
-        "title": "Abc With Mardi Himal Trek Cost Package Itinerary 2026",
-        "category": "Peaks"
-      },
-      {
-        "file": "abc-with-mardi-himal-trek.webp",
-        "title": "Abc With Mardi Himal Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-base-camp-9-days-itinerary-02.jpg",
-        "title": "Annapurna Base Camp 9 Days Itinerary 02",
-        "category": "Peaks"
-      }
+        "file": "images/gallery/north-annapurna-base-camp-trek/north-annapurna-base-camp-trek-gallery-09.webp",
+        "type": "image",
+        "title": "North Annapurna Base Camp Trek Expedition View 09",
+        "category": "Panoramas"
+}
     ],
     "panchase-trek": [
       {
@@ -47173,180 +46589,77 @@ function setupTrekPhotoGallery() {
         "category": "Videos"
       },
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-01.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 01",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-02.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 02",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-time-to-climb-island-peak-season-and-month-guide-02.jpg",
-        "title": "Best Time To Climb Island Peak Season And Month Guide 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-time-to-climb-island-peak-season-and-month-guide-02.webp",
-        "title": "Best Time To Climb Island Peak Season And Month Guide 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-time-to-climb-island-peak-season-and-month-guide.jpg",
-        "title": "Best Time To Climb Island Peak Season And Month Guide",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-time-to-climb-island-peak-season-and-month-guide.webp",
-        "title": "Best Time To Climb Island Peak Season And Month Guide",
-        "category": "Peaks"
-      },
-      {
-        "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-        "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-03.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 03",
         "category": "Panoramas"
-      },
+},
       {
-        "file": "climbers-celebrating-at-the-island-peak-6-189-m-summit-with-snow-covered-himalayan-peaks-i.jpg",
-        "title": "Climbers Celebrating At The Island Peak 6 189 M Summit With Snow Covered Himalayan Peaks I",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-04.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 04",
+        "category": "Panoramas"
+},
       {
-        "file": "climbers-celebrating-at-the-island-peak-6-189-m-summit-with-snow-covered-himalayan-peaks-i.webp",
-        "title": "Climbers Celebrating At The Island Peak 6 189 M Summit With Snow Covered Himalayan Peaks I",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-05.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 05",
+        "category": "Panoramas"
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-06.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 06",
+        "category": "Panoramas"
+},
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-07.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 07",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-08.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 08",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.webp",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-09.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 09",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      },
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-10.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 10",
+        "category": "Panoramas"
+},
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.webp",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      }
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-11.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 11",
+        "category": "Panoramas"
+},
+      {
+        "file": "images/gallery/three-high-passes-with-island-peak-climb/three-high-passes-with-island-peak-climb-gallery-12.webp",
+        "type": "image",
+        "title": "Three High Passes with Island Peak Climb Expedition View 12",
+        "category": "Panoramas"
+}
     ],
     "tsum-valley-trek": [
       {
@@ -58589,7 +57902,7 @@ function setupTrekPhotoGallery() {
     const alt = (img.getAttribute('alt') || '').trim();
     const title = alt && alt.length > 5 ? alt : formatTitle(fileName);
     pagePhotos.push({
-      src: src.startsWith('http') || src.startsWith('/') ? src : (imgPrefix + fileName),
+      src: src.startsWith('http') || src.startsWith('/') || src.includes('images/') ? src : (imgPrefix + fileName),
       type: 'image',
       title: title,
       category: detectCategory(title + ' ' + fileName)
@@ -58604,7 +57917,7 @@ function setupTrekPhotoGallery() {
       if (!existingFileNames.has(fileName)) {
         existingFileNames.add(fileName);
         const isVideo = item.type === 'video' || item.file.endsWith('.mp4');
-        const mediaSrc = item.file.startsWith('video/')
+        const mediaSrc = (item.file.startsWith('video/') || item.file.startsWith('images/'))
           ? rootPrefix + item.file
           : imgPrefix + item.file;
 
