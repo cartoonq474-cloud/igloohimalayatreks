@@ -7,10 +7,10 @@
 export const articleData = {
   id: "ebc-vs-annapurna-circuit",
   slug: "everest-base-camp-vs-annapurna-circuit",
-  url: "https://www.igloohimalayatreks.com/blog/everest-base-camp-vs-annapurna-circuit/",
+  url: "https://www.igloohimalayatreks.com/blog/everest-base-camp-vs-annapurna-circuit",
   title: "Everest Base Camp vs. Annapurna Circuit: Which Trek Should You Choose?",
   category: "Trekking Guides",
-  categoryUrl: "https://www.igloohimalayatreks.com/blogs.html",
+  categoryUrl: "https://www.igloohimalayatreks.com/blogs",
   subCategory: "Trek Comparison",
   excerpt: "Two of Nepal's most iconic treks offer completely different experiences. Compare Everest Base Camp and the Annapurna Circuit by difficulty, altitude, scenery, cost, duration, culture, and trekking style to find the route that fits you best.",
   heroImage: {

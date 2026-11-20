@@ -98,22 +98,40 @@ document.addEventListener('DOMContentLoaded', () => {
   const resourceData = {
     webinars: [
       {
-        title: "Everest Base Camp High Altitude Ranking & Gear Webinar - By Igloo Himalaya",
-        img: "images/gallery-1-1.webp",
-        videoSrc: "video/Clip%20Video%20First.mp4",
-        sub: "Igloo Himalaya Sherpa Masterclass"
+        title: "Everest Base Camp High Altitude Expedition & Khumbu Glacier Webinar",
+        img: "images/everest-base-camp-trek.webp",
+        videoSrc: "video/gallery/treks/everest-base-camp.mp4",
+        sub: "By Igloo Himalaya Sherpa Experts"
       },
       {
         title: "Revealing Altitude Tactics You Already Know To Pass Thorong La In Annapurna Circuit",
-        img: "images/gallery-1-2.webp",
-        videoSrc: "video/Clip%20Video%20Fourth.mp4",
+        img: "images/annapurna-circuit-trek.webp",
+        videoSrc: "video/gallery/treks/annapurna-circuit-trek.mp4",
         sub: "Annapurna Circuit Technical Preparation"
       },
       {
-        title: "Nepal Trekking Playbook: Exact Steps We Followed to Keep Our Trekkers Safe & Hydrated",
-        img: "images/gallery-1-3.webp",
-        videoSrc: "video/Clip%20Video%20Second.mp4",
-        sub: "Himalayan Medical & Safety Protocol"
+        title: "Manaslu Circuit Wilderness Trek & Larkya La Pass Masterclass",
+        img: "images/manaslu-circuit-trek.webp",
+        videoSrc: "video/gallery/treks/manaslu-circuit-trek.mp4",
+        sub: "Manaslu Alpine Safety Protocol"
+      },
+      {
+        title: "Mardi Himal High Camp Ridge Trek: Trail Highlights & Acclimatization",
+        img: "images/mardi-himal-trek.webp",
+        videoSrc: "video/gallery/treks/mardi-himal-trek.mp4",
+        sub: "Annapurna Sanctuary Panorama Planning"
+      },
+      {
+        title: "Crossing Kongma La, Cho La & Renjo La: High Pass Route Strategy",
+        img: "images/everest-three-passes-trek-route-tips-and-best-itinerary.webp",
+        videoSrc: "video/gallery/treks/everest-three-passes-trek.mp4",
+        sub: "Everest High Passes Expedition Guide"
+      },
+      {
+        title: "Annapurna Circuit via Tilicho Lake (4,919m): Glacial Lake Route Guide",
+        img: "images/annapurna-circuit-with-tilicho-lake-trek.webp",
+        videoSrc: "video/gallery/treks/annapurna-circuit-via-tilicho-lake.mp4",
+        sub: "High Alpine Acclimatization Webinar"
       }
     ],
     blogs: [
@@ -142,20 +160,6 @@ document.addEventListener('DOMContentLoaded', () => {
       {
         title: "Kathmandu Rental Guide: What Sleeping Bags & Down Jackets to Rent in Thamel",
         img: "images/gallery-2-2.webp"
-      }
-    ],
-    ebooks: [
-      {
-        title: "Complete Himalayan Travel Guide E-Book: Permits, TIMS, Insurance & Helicopter Safety",
-        img: "images/gallery-2-3.webp"
-      },
-      {
-        title: "Sherpa Cultural Heritage & Monasteries Guide: Understanding Solukhumbu Traditions",
-        img: "images/gallery-3-1.webp"
-      },
-      {
-        title: "Tailor-Made Himalayan Itinerary Handbook: Designing Private & Group Trips to Nepal",
-        img: "images/gallery-3-2.webp"
       }
     ]
   };
