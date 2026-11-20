@@ -12,11 +12,11 @@ export function injectStructuredData() {
     "@graph": [
       {
         "@type": "TravelAgency",
-        "@id": "https://igloohimalayatreks.com/#agency",
+        "@id": "https://www.igloohimalayatreks.com/#agency",
         "name": "Igloo Himalaya Treks Pvt. Ltd.",
         "alternateName": "Local Trusted Trekking Agency in Nepal",
-        "url": "https://igloohimalayatreks.com",
-        "logo": "https://igloohimalayatreks.com/images/logo.png",
+        "url": "https://www.igloohimalayatreks.com",
+        "logo": "https://www.igloohimalayatreks.com/images/logo.png",
         "description": "Local trusted trekking agency in Nepal specializing in Everest, Annapurna, Langtang, Manaslu, Kanchenjunga, Upper Mustang, Dolpo, and peak climbing expeditions.",
         "telephone": "+977 9860843980",
         "email": "info@igloohimalayatreks.com",
@@ -42,7 +42,7 @@ export function injectStructuredData() {
       },
       {
         "@type": "TouristTrip",
-        "@id": "https://igloohimalayatreks.com/trek/everest-base-camp-trek/#trip",
+        "@id": "https://www.igloohimalayatreks.com/trek/everest-base-camp-trek/#trip",
         "name": "Everest Base Camp Trek",
         "description": "14-day iconic teahouse trek through Sagarmatha National Park to Everest Base Camp (5,364m) and Kala Patthar (5,545m).",
         "touristType": ["Hikers", "Trekking Enthusiasts"],
@@ -64,7 +64,7 @@ export function injectStructuredData() {
       },
       {
         "@type": "FAQPage",
-        "@id": "https://igloohimalayatreks.com/#faq",
+        "@id": "https://www.igloohimalayatreks.com/#faq",
         "mainEntity": [
           {
             "@type": "Question",
