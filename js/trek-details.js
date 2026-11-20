@@ -3,6 +3,23 @@
  * Handles: Scroll-Spy navigation, Smooth anchor scrolling, Collapsible itinerary, Gear checklist, Booking calculator
  */
 
+// Universal media URL resolver for trek details and gallery lightboxes
+function resolveTrekMediaUrl(url) {
+  if (!url) return '';
+  if (url.startsWith('http://') || url.startsWith('https://')) return url;
+  const clean = url.replace(/^(\.\.\/)+/, '').replace(/^\.\//, '').replace(/^\//, '');
+  let safePath = clean;
+  try {
+    safePath = encodeURI(decodeURI(clean));
+  } catch (e) {
+    safePath = clean;
+  }
+  if (window.location.protocol.startsWith('http')) {
+    return window.location.origin + '/' + safePath;
+  }
+  return safePath;
+}
+
 // Setup Anchor Scroll & Zero-Jank Scroll Spy (IntersectionObserver)
 function setupSubNavScrollSpy() {
   const subNavButtons = document.querySelectorAll('.trek-sub-nav-btn, .subnav-tab');
@@ -954,20 +971,154 @@ function setupHimalayanReviews() {
   const modalTitle = document.getElementById('video-modal-title');
   const modalSub = document.getElementById('video-modal-sub');
   const player = document.getElementById('video-modal-player');
+  const playerWrapper = modal ? modal.querySelector('.video-modal-player-wrapper') : null;
+
+  function resolveTrekMediaUrl(url) {
+    if (!url) return '';
+    if (url.startsWith('http://') || url.startsWith('https://')) return url;
+    const clean = url.replace(/^(\.\.\/)+/, '').replace(/^\.\//, '').replace(/^\//, '');
+    let safePath = clean;
+    try {
+      safePath = encodeURI(decodeURI(clean));
+    } catch (e) {
+      safePath = clean;
+    }
+    if (window.location.protocol.startsWith('http')) {
+      return window.location.origin + '/' + safePath;
+    }
+    return safePath;
+  }
+
+  let reviewUnmuteBadge = null;
+  let reviewPlayOverlay = null;
+
+  function removeReviewOverlays() {
+    if (reviewUnmuteBadge && reviewUnmuteBadge.parentNode) {
+      reviewUnmuteBadge.parentNode.removeChild(reviewUnmuteBadge);
+      reviewUnmuteBadge = null;
+    }
+    if (reviewPlayOverlay && reviewPlayOverlay.parentNode) {
+      reviewPlayOverlay.parentNode.removeChild(reviewPlayOverlay);
+      reviewPlayOverlay = null;
+    }
+  }
+
+  function showReviewUnmuteBadge() {
+    if (!playerWrapper || reviewUnmuteBadge) return;
+    reviewUnmuteBadge = document.createElement('button');
+    reviewUnmuteBadge.type = 'button';
+    reviewUnmuteBadge.className = 'video-unmute-badge';
+    reviewUnmuteBadge.setAttribute('aria-label', 'Tap for sound');
+    reviewUnmuteBadge.innerHTML = `
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle;">
+        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+        <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+      </svg>
+      <span>Tap for Sound</span>
+    `;
+    reviewUnmuteBadge.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (player) player.muted = false;
+      removeReviewOverlays();
+    });
+    playerWrapper.appendChild(reviewUnmuteBadge);
+  }
+
+  function showReviewPlayOverlay() {
+    if (!playerWrapper || reviewPlayOverlay) return;
+    reviewPlayOverlay = document.createElement('button');
+    reviewPlayOverlay.type = 'button';
+    reviewPlayOverlay.className = 'video-center-play-overlay';
+    reviewPlayOverlay.setAttribute('aria-label', 'Play Video');
+    reviewPlayOverlay.innerHTML = `
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="#ffffff" stroke="none">
+        <polygon points="8 5 19 12 8 19 8 5"></polygon>
+      </svg>
+    `;
+    reviewPlayOverlay.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (player) {
+        player.muted = false;
+        player.play().catch(() => {
+          player.muted = true;
+          player.play().catch(() => {});
+        });
+      }
+      removeReviewOverlays();
+    });
+    playerWrapper.appendChild(reviewPlayOverlay);
+  }
 
   if (modal) {
     const openVideoModal = (card) => {
       const trekker = card.getAttribute('data-trekker') || 'Trekker';
       const trek = card.getAttribute('data-trek') || 'Himalayan Trek';
-      const videoUrl = card.getAttribute('data-video-url') || '../../video/Clip%20Video%20Third.mp4';
+      const rawVideoUrl = card.getAttribute('data-video-url') || card.getAttribute('data-video-src') || '../../video/Clip%20Video%20Third.mp4';
+      const finalVideoUrl = resolveTrekMediaUrl(rawVideoUrl);
       const bgImg = card.querySelector('.video-card-bg');
 
       if (modalTitle) modalTitle.textContent = `${trekker}'s Experience`;
       if (modalSub) modalSub.textContent = trek;
+
       if (player) {
-        if (bgImg) player.poster = bgImg.src;
-        player.src = videoUrl;
-        player.play().catch(() => { });
+        removeReviewOverlays();
+
+        // Clear any hardcoded child <source> tags
+        while (player.firstChild) {
+          player.removeChild(player.firstChild);
+        }
+
+        player.pause();
+        player.controls = true;
+        player.playsInline = true;
+        player.setAttribute('playsinline', '');
+        player.setAttribute('webkit-playsinline', '');
+        player.preload = 'auto';
+
+        if (bgImg && bgImg.src) player.poster = bgImg.src;
+
+        player.src = finalVideoUrl;
+        player.currentTime = 0;
+        player.load();
+
+        player.muted = false;
+        const playPromise = player.play();
+        if (playPromise !== undefined) {
+          playPromise.then(() => {
+            removeReviewOverlays();
+          }).catch((err) => {
+            console.warn('Unmuted playback blocked by browser policy; trying muted:', err);
+            player.muted = true;
+            player.play().then(() => {
+              showReviewUnmuteBadge();
+            }).catch((err2) => {
+              console.warn('Muted playback also blocked:', err2);
+              showReviewPlayOverlay();
+            });
+          });
+        }
+
+        const handleWrapperClick = (e) => {
+          if (e.target.closest('.video-unmute-badge') || e.target.closest('.video-center-play-overlay')) return;
+          if (player.muted && reviewUnmuteBadge) {
+            player.muted = false;
+            removeReviewOverlays();
+          }
+        };
+        if (playerWrapper) {
+          playerWrapper.removeEventListener('click', handleWrapperClick);
+          playerWrapper.addEventListener('click', handleWrapperClick);
+        }
+
+        const handleVolume = () => {
+          if (!player.muted && reviewUnmuteBadge) {
+            removeReviewOverlays();
+          }
+        };
+        player.removeEventListener('volumechange', handleVolume);
+        player.addEventListener('volumechange', handleVolume);
       }
 
       modal.classList.add('active');
@@ -976,9 +1127,14 @@ function setupHimalayanReviews() {
 
     const closeVideoModal = () => {
       modal.classList.remove('active');
+      removeReviewOverlays();
       if (player) {
         player.pause();
         player.currentTime = 0;
+        while (player.firstChild) {
+          player.removeChild(player.firstChild);
+        }
+        player.src = '';
         player.style.display = 'block';
       }
       const imgPreview = modal.querySelector('#photo-modal-img');
@@ -58694,12 +58850,37 @@ function setupTrekPhotoGallery() {
       activeImg.src = '';
       activeVideo.style.display = 'block';
       activeVideo.poster = media.poster || '';
-      activeVideo.src = media.src;
+
+      const finalVideoSrc = resolveTrekMediaUrl(media.src);
+
+      while (activeVideo.firstChild) {
+        activeVideo.removeChild(activeVideo.firstChild);
+      }
+      activeVideo.pause();
+      activeVideo.controls = true;
+      activeVideo.playsInline = true;
+      activeVideo.setAttribute('playsinline', '');
+      activeVideo.setAttribute('webkit-playsinline', '');
+      activeVideo.preload = 'auto';
+      activeVideo.src = finalVideoSrc;
+      activeVideo.currentTime = 0;
       activeVideo.load();
-      activeVideo.play().catch(() => { });
+
+      activeVideo.muted = false;
+      const playPromise = activeVideo.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+          activeVideo.muted = true;
+          activeVideo.play().catch(() => { });
+        });
+      }
     } else {
       if (activeVideo) {
         activeVideo.pause();
+        activeVideo.currentTime = 0;
+        while (activeVideo.firstChild) {
+          activeVideo.removeChild(activeVideo.firstChild);
+        }
         activeVideo.src = '';
         activeVideo.style.display = 'none';
       }
@@ -58730,6 +58911,10 @@ function setupTrekPhotoGallery() {
     currentView = 'grid';
     if (activeVideo) {
       activeVideo.pause();
+      activeVideo.currentTime = 0;
+      while (activeVideo.firstChild) {
+        activeVideo.removeChild(activeVideo.firstChild);
+      }
       activeVideo.src = '';
     }
     gridView.style.display = 'block';
@@ -58766,6 +58951,10 @@ function setupTrekPhotoGallery() {
     document.body.style.overflow = '';
     if (activeVideo) {
       activeVideo.pause();
+      activeVideo.currentTime = 0;
+      while (activeVideo.firstChild) {
+        activeVideo.removeChild(activeVideo.firstChild);
+      }
       activeVideo.src = '';
     }
   }

@@ -16,13 +16,20 @@
 
     if (!video1 || !video2) return;
 
-    const playlist = [
+    const rawPlaylist = [
       'video/Clip%20Video%20First.mp4',
       'video/Clip%20Video%20Second.mp4',
       'video/Clip%20Video%20Third.mp4',
       'video/Clip%20Video%20Fourth.mp4',
       'video/Clip%20Video%20Fifth.mp4'
     ];
+
+    const playlist = rawPlaylist.map(p => {
+      if (window.location.protocol.startsWith('http')) {
+        return window.location.origin + '/' + p;
+      }
+      return p;
+    });
 
     let currentIndex = 0;
     let activeVideo = video1;
@@ -167,16 +174,18 @@
     }, 2000);
   }
 
-  // Defer initialization until page window load or idle time
-  if (document.readyState === 'complete') {
+  let initialized = false;
+  function safeInitHero() {
+    if (initialized) return;
+    initialized = true;
     initHeroVideo();
+  }
+
+  // Defer initialization until page DOM interactive or complete
+  if (document.readyState === 'interactive' || document.readyState === 'complete') {
+    safeInitHero();
   } else {
-    window.addEventListener('load', () => {
-      if ('requestIdleCallback' in window) {
-        requestIdleCallback(initHeroVideo, { timeout: 2000 });
-      } else {
-        setTimeout(initHeroVideo, 500);
-      }
-    });
+    document.addEventListener('DOMContentLoaded', safeInitHero);
+    window.addEventListener('load', safeInitHero);
   }
 })();

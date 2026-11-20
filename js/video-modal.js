@@ -1,39 +1,36 @@
 /**
- * Himalayan Video Player Modal Lightbox
+/**
+ * Himalayan Video Player Modal Lightbox (Production Engine)
  * Handles video playback for hero thumbnail, "How Booking Works",
  * video review cards, testimonial story cards, and webinars.
+ * Features smart autoplay with browser policy detection, unmuted fallback,
+ * and high-visibility sound/play controls.
  */
 
 (function () {
   'use strict';
 
-  const modalScriptUrl = document.currentScript && document.currentScript.src;
-
-  function getRootRelativePath(relativePath) {
+  function resolveMediaUrl(relativePath) {
     if (!relativePath) return '';
     if (relativePath.startsWith('http://') || relativePath.startsWith('https://')) {
       return relativePath;
     }
-    // Resolve from this script so project-site prefixes (e.g. GitHub Pages) are preserved.
+    // Clean relative prefixes (../../, ./, /)
+    const clean = relativePath.replace(/^(\.\.\/)+/, '').replace(/^\.\//, '').replace(/^\//, '');
+    
+    // Normalize URI encoding (decode first if already partially encoded, then re-encode safely)
+    let safePath = clean;
+    try {
+      safePath = encodeURI(decodeURI(clean));
+    } catch (e) {
+      safePath = clean;
+    }
+
     if (window.location.protocol.startsWith('http')) {
-      const clean = relativePath.replace(/^(\.\.\/)+/, '').replace(/^\//, '');
-      const scriptUrl = modalScriptUrl
-        ? new URL(modalScriptUrl, window.location.href)
-        : new URL('/', window.location.origin);
-      const baseUrl = scriptUrl.origin === window.location.origin
-        ? new URL('../', scriptUrl)
-        : new URL('/', window.location.origin);
-      return new URL(clean, baseUrl).href;
+      return window.location.origin + '/' + safePath;
     }
-    // If running under file:///, compute relative depth
-    const path = window.location.pathname.replace(/\\/g, '/');
-    const segments = path.split('/').filter(Boolean);
-    let depth = 0;
-    if (segments.length > 1 && segments[segments.length - 1].endsWith('.html')) {
-      depth = segments.length - 2; // relative to root
-    }
-    const prefix = depth > 0 ? '../'.repeat(depth) : './';
-    return prefix + relativePath.replace(/^(\.\.\/)+/, '').replace(/^\//, '');
+    // Fallback for file:/// protocol
+    return safePath;
   }
 
   function ensureModalDOM() {
@@ -53,7 +50,7 @@
             <span id="video-modal-sub" style="color: #1A96C8; font-weight: 600; font-size: 0.92rem;">Igloo Himalaya Treks Experience</span>
           </div>
           <div class="video-modal-player-wrapper">
-            <video id="video-modal-player" controls playsinline preload="auto" style="width: 100%; height: 100%; border-radius: 12px; object-fit: contain; background: #000000;">
+            <video id="video-modal-player" controls playsinline webkit-playsinline preload="auto">
               Your browser does not support HTML5 video.
             </video>
           </div>
@@ -67,9 +64,78 @@
   function initVideoModal() {
     const modal = ensureModalDOM();
     const player = modal.querySelector('#video-modal-player');
+    const wrapper = modal.querySelector('.video-modal-player-wrapper');
     const titleEl = modal.querySelector('#video-modal-title');
     const subEl = modal.querySelector('#video-modal-sub');
     const closeBtn = modal.querySelector('#video-modal-close');
+
+    let unmuteBadge = null;
+    let playOverlay = null;
+
+    function removeOverlays() {
+      if (unmuteBadge && unmuteBadge.parentNode) {
+        unmuteBadge.parentNode.removeChild(unmuteBadge);
+        unmuteBadge = null;
+      }
+      if (playOverlay && playOverlay.parentNode) {
+        playOverlay.parentNode.removeChild(playOverlay);
+        playOverlay = null;
+      }
+    }
+
+    function showUnmuteBadge() {
+      if (!wrapper || unmuteBadge) return;
+      unmuteBadge = document.createElement('button');
+      unmuteBadge.type = 'button';
+      unmuteBadge.className = 'video-unmute-badge';
+      unmuteBadge.setAttribute('aria-label', 'Tap for sound');
+      unmuteBadge.innerHTML = `
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle;">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+        </svg>
+        <span>Tap for Sound</span>
+      `;
+
+      unmuteBadge.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (player) {
+          player.muted = false;
+        }
+        removeOverlays();
+      });
+
+      wrapper.appendChild(unmuteBadge);
+    }
+
+    function showPlayOverlay() {
+      if (!wrapper || playOverlay) return;
+      playOverlay = document.createElement('button');
+      playOverlay.type = 'button';
+      playOverlay.className = 'video-center-play-overlay';
+      playOverlay.setAttribute('aria-label', 'Play Video');
+      playOverlay.innerHTML = `
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="#ffffff" stroke="none">
+          <polygon points="8 5 19 12 8 19 8 5"></polygon>
+        </svg>
+      `;
+
+      playOverlay.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (player) {
+          player.muted = false;
+          player.play().catch(() => {
+            player.muted = true;
+            player.play().catch(() => {});
+          });
+        }
+        removeOverlays();
+      });
+
+      wrapper.appendChild(playOverlay);
+    }
 
     function openModalWithVideo(trigger) {
       // 1. Determine Video Source
@@ -91,7 +157,7 @@
         }
       }
 
-      const finalSrc = getRootRelativePath(rawSrc);
+      const finalSrc = resolveMediaUrl(rawSrc);
 
       // 2. Determine Title & Subtitle
       let title = trigger.getAttribute('data-video-title') || trigger.getAttribute('data-trekker');
@@ -126,19 +192,67 @@
       if (subEl) subEl.textContent = sub;
 
       if (player) {
-        if (poster) player.poster = poster;
-        // Pause any existing playback
+        removeOverlays();
+
+        // Clear any previous child <source> elements to prevent media ambiguity
+        while (player.firstChild) {
+          player.removeChild(player.firstChild);
+        }
+
         player.pause();
+        player.controls = true;
+        player.playsInline = true;
+        player.setAttribute('playsinline', '');
+        player.setAttribute('webkit-playsinline', '');
+        player.preload = 'auto';
+
+        if (poster) player.poster = poster;
+
         player.src = finalSrc;
         player.currentTime = 0;
         player.load();
 
+        // Attempt playback with sound first
+        player.muted = false;
         const playPromise = player.play();
         if (playPromise !== undefined) {
-          playPromise.catch((err) => {
-            console.log('Video autoplay interrupted or restricted:', err);
+          playPromise.then(() => {
+            // Succeeded with audio
+            removeOverlays();
+          }).catch((err) => {
+            console.warn('Unmuted autoplay restricted by browser policy; trying muted playback:', err);
+            // Fall back to muted playback so user sees the video moving immediately
+            player.muted = true;
+            player.play().then(() => {
+              // Video is actively playing muted -> display floating unmute button
+              showUnmuteBadge();
+            }).catch((err2) => {
+              console.warn('Muted playback also blocked:', err2);
+              // Video couldn't start automatically -> display central Play button
+              showPlayOverlay();
+            });
           });
         }
+
+        // Tap player wrapper to unmute or remove badge
+        const handlePlayerClick = (e) => {
+          if (e.target.closest('.video-unmute-badge') || e.target.closest('.video-center-play-overlay')) return;
+          if (player.muted && unmuteBadge) {
+            player.muted = false;
+            removeOverlays();
+          }
+        };
+        wrapper.removeEventListener('click', handlePlayerClick);
+        wrapper.addEventListener('click', handlePlayerClick);
+
+        // Remove unmute badge automatically if user unmutes via native controls
+        const handleVolumeChange = () => {
+          if (!player.muted && unmuteBadge) {
+            removeOverlays();
+          }
+        };
+        player.removeEventListener('volumechange', handleVolumeChange);
+        player.addEventListener('volumechange', handleVolumeChange);
       }
 
       // 5. Open Modal Display
@@ -150,9 +264,13 @@
     function closeModal() {
       modal.classList.remove('active');
       modal.setAttribute('aria-hidden', 'true');
+      removeOverlays();
       if (player) {
         player.pause();
         player.currentTime = 0;
+        while (player.firstChild) {
+          player.removeChild(player.firstChild);
+        }
         player.src = '';
       }
       document.body.style.overflow = '';
