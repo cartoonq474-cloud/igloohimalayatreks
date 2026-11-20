@@ -170,24 +170,39 @@ document.addEventListener('DOMContentLoaded', () => {
       resTabBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
-      const isWebinar = (catKey === 'webinars');
-      const items = resourceData[catKey] || resourceData.webinars;
       const grid = document.querySelector('.resources-grid');
       if (grid) {
-        grid.innerHTML = items.map(item => `
-          <div class="resource-card ${isWebinar ? 'play-video-trigger' : 'open-inquiry-btn'}" 
-               data-res-type="${catKey}" 
-               ${isWebinar ? `data-video-src="${item.videoSrc}" data-video-title="${item.title}" data-video-sub="${item.sub}"` : ''}>
-            <div class="resource-thumb-wrapper" style="background-image: url('${item.img}');">
-              <div class="yt-play-button">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="#FFFFFF"><polygon points="9.5,7.5 16.5,12 9.5,16.5"/></svg>
-              </div>
-            </div>
-            <div class="resource-card-content">
-              <h3 class="resource-card-title">${item.title}</h3>
-            </div>
-          </div>
-        `).join('');
+        const existingCards = grid.querySelectorAll('.resource-card[data-res-type]');
+        if (existingCards.length > 0) {
+          existingCards.forEach(card => {
+            if (card.getAttribute('data-res-type') === catKey) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        }
+      }
+
+      // Update footer button if present
+      const ctaBtn = document.getElementById('resources-view-all-btn');
+      if (ctaBtn) {
+        if (catKey === 'blogs') {
+          ctaBtn.href = 'blogs';
+          ctaBtn.className = 'btn btn-secondary';
+          ctaBtn.removeAttribute('data-trek-title');
+          ctaBtn.innerHTML = `<span>Explore All 76 Himalayan Trekking Guides</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>`;
+        } else if (catKey === 'checklists') {
+          ctaBtn.href = 'equipment-checklist';
+          ctaBtn.className = 'btn btn-secondary';
+          ctaBtn.removeAttribute('data-trek-title');
+          ctaBtn.innerHTML = `<span>View Complete Equipment & Packing Checklist</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>`;
+        } else {
+          ctaBtn.href = '#inquiry-modal';
+          ctaBtn.className = 'btn btn-secondary open-inquiry-btn';
+          ctaBtn.setAttribute('data-trek-title', 'Expedition Webinars & Custom Preparation');
+          ctaBtn.innerHTML = `<span>Request Custom Expedition Webinar</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>`;
+        }
       }
     });
   });

@@ -1883,7 +1883,7 @@ const articles = [
     ],
     "relatedArticles": [
       {
-        "url": "../trek/annapurna-base-camp/",
+        "url": "../trek/annapurna-base-camp-trek/",
         "img": "../images/a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp",
         "category": "Classic Sanctuary Trek",
         "title": "Annapurna Base Camp Trek — 9 Days",
@@ -2496,7 +2496,7 @@ const articles = [
     ],
     "relatedArticles": [
       {
-        "url": "../trek/annapurna-base-camp/",
+        "url": "../trek/annapurna-base-camp-trek/",
         "img": "../images/a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp",
         "category": "Classic Sanctuary Trek",
         "title": "Annapurna Base Camp Trek — 9 Days",
@@ -2659,7 +2659,7 @@ const articles = [
     ],
     "relatedArticles": [
       {
-        "url": "../trek/annapurna-base-camp/",
+        "url": "../trek/annapurna-base-camp-trek/",
         "img": "../images/a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp",
         "category": "Classic Sanctuary Trek",
         "title": "Annapurna Base Camp Trek — 9 Days",
@@ -3939,7 +3939,7 @@ const articles = [
     ],
     "relatedArticles": [
       {
-        "url": "../trek/annapurna-base-camp/",
+        "url": "../trek/annapurna-base-camp-trek/",
         "img": "../images/a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp",
         "category": "Classic Sanctuary Trek",
         "title": "Annapurna Base Camp Trek — 9 Days",
@@ -4102,7 +4102,7 @@ const articles = [
     ],
     "relatedArticles": [
       {
-        "url": "../trek/annapurna-base-camp/",
+        "url": "../trek/annapurna-base-camp-trek/",
         "img": "../images/a-detailed-map-of-the-annapurna-base-camp-trek-with-a-altitude-graph.webp",
         "category": "Classic Sanctuary Trek",
         "title": "Annapurna Base Camp Trek — 9 Days",

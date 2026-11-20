@@ -21,7 +21,7 @@ export const sampleTreks = [
   },
   {
     id: "abc-trek",
-    slug: "annapurna-base-camp",
+    slug: "annapurna-base-camp-trek",
     title: "Annapurna Base Camp Trek",
     region: "annapurna",
     subregion: "Gandaki, Annapurna Region",
