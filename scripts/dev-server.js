@@ -131,9 +131,10 @@ function resolveFilePath(reqUrl) {
     return fullPath;
   }
 
-  // Try appending .html
-  if (fs.existsSync(fullPath + '.html') && fs.statSync(fullPath + '.html').isFile()) {
-    return fullPath + '.html';
+  // Try appending .html (with or without trailing slash)
+  const cleanPath = fullPath.replace(/[/\\]+$/, '');
+  if (fs.existsSync(cleanPath + '.html') && fs.statSync(cleanPath + '.html').isFile()) {
+    return cleanPath + '.html';
   }
 
   // Directory with index.html
