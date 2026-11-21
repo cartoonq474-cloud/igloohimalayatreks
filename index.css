@@ -4475,172 +4475,182 @@ textarea {
   }
 }
 
-/* ==================== Himalayan Skyline Peaks Widget ==================== */
-.skyline-widget-section {
+/* ==================== Real Client Expedition Milestones (Menu Gallery) ==================== */
+.summit-milestones-section {
+  padding: 55px 0 65px 0;
   background: #FFFFFF;
-  padding: 24px 24px 16px;
-  border-radius: 20px;
-  box-shadow: 0 20px 50px rgba(14, 52, 88, 0.1);
-  margin-top: -65px;
+  border-top: 1px solid #E2E8F0;
+  border-bottom: 1px solid #E2E8F0;
   position: relative;
-  z-index: 25;
-  border: 1px solid rgba(14, 52, 88, 0.08);
+  z-index: 10;
+}
+
+.milestones-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+  margin-top: 36px;
+}
+
+.milestone-card {
+  position: relative;
+  border-radius: 18px;
   overflow: hidden;
+  aspect-ratio: 4 / 5;
+  background: #0E3458;
+  box-shadow: 0 10px 25px rgba(14, 52, 88, 0.08);
+  transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(14, 52, 88, 0.08);
 }
 
-.skyline-scroll-wrap {
+.milestone-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(14, 52, 88, 0.16);
+  border-color: #1A96C8;
+}
+
+.milestone-img {
+  position: absolute;
+  inset: 0;
   width: 100%;
-  overflow: visible;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  display: block;
 }
 
-.skyline-mobile-hint {
-  display: none;
+.milestone-card:hover .milestone-img {
+  transform: scale(1.08);
+}
+
+.milestone-top-bar {
+  position: relative;
+  z-index: 2;
+  padding: 14px 14px 0 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.milestone-alt-pill {
+  background: rgba(14, 52, 88, 0.88);
+  color: #FFFFFF;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.milestone-badge-verified {
+  background: #10B981;
+  color: #FFFFFF;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+}
+
+.milestone-overlay {
+  position: relative;
+  z-index: 2;
+  padding: 22px 16px 16px;
+  background: linear-gradient(180deg, rgba(14, 52, 88, 0) 0%, rgba(14, 52, 88, 0.72) 40%, rgba(14, 52, 88, 0.94) 100%);
+  color: #FFFFFF;
+}
+
+.milestone-tag {
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #38BDF8;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.milestone-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0 0 4px 0;
+  line-height: 1.3;
+}
+
+.milestone-sub {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.82);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.milestone-link-arrow {
+  color: #F6851F;
+  font-weight: 800;
+  font-size: 0.95rem;
+  transition: transform 0.25s ease;
+}
+
+.milestone-card:hover .milestone-link-arrow {
+  transform: translateX(4px);
+}
+
+@media (max-width: 1024px) {
+  .milestones-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
 }
 
 @media (max-width: 768px) {
-  .skyline-widget-section {
-    padding: 16px 12px 14px;
-    margin-top: -35px;
-    border-radius: 14px;
+  .summit-milestones-section {
+    padding: 35px 0 45px 0;
   }
 
-  .skyline-scroll-wrap {
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    border-radius: 10px;
-  }
-
-  .skyline-scroll-wrap::-webkit-scrollbar {
-    display: none;
-  }
-
-  .skyline-scroll-wrap .skyline-container {
-    min-width: 650px;
-  }
-
-  .skyline-mobile-hint {
+  .milestones-grid {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #64748B;
-    margin-top: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
+    overflow-x: auto;
+    gap: 14px;
+    padding: 6px 16px 16px;
+    margin: 20px -16px 0 -16px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
   }
-}
 
-/* Wrapper holding both the img and SVG overlay */
-.skyline-container {
-  position: relative;
-  width: 100%;
-  line-height: 0;
-  /* removes gap under inline img */
-}
+  .milestones-grid::-webkit-scrollbar {
+    height: 6px;
+  }
 
-/* The exact mountain sketch PNG */
-.skyline-mountain-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
+  .milestones-grid::-webkit-scrollbar-track {
+    background: #E2E8F0;
+    border-radius: 9999px;
+  }
 
-/* SVG labels sit exactly on top of the img */
-.skyline-label-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-}
+  .milestones-grid::-webkit-scrollbar-thumb {
+    background: #1A96C8;
+    border-radius: 9999px;
+  }
 
-.skyline-header {
-  margin-bottom: 25px;
-}
-
-.skyline-subtitle {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: #475569;
-  margin-top: 8px;
-}
-
-.skyline-interactive-wrapper {
-  width: 100%;
-  overflow-x: auto;
-  padding-bottom: 10px;
-  -webkit-overflow-scrolling: touch;
-}
-
-.skyline-scroll-container {
-  min-width: 1200px;
-  margin: 0 auto;
-}
-
-.skyline-svg {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.peak-label-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #FFFFFF;
-  border: 1px solid #0E3458;
-  border-radius: 4px;
-  padding: 3px 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-  font-family: inherit;
-  transition: all 0.25s ease;
-  cursor: pointer;
-}
-
-.peak-label-box.featured {
-  background: #FFF7ED;
-  border-color: #E05600;
-  box-shadow: 0 4px 12px rgba(224, 86, 0, 0.2);
-}
-
-.peak-group:hover .peak-label-box {
-  transform: translateY(-3px) scale(1.05);
-  border-color: #E05600;
-  box-shadow: 0 6px 16px rgba(224, 86, 0, 0.25);
-}
-
-.peak-group:hover circle {
-  fill: #E05600;
-  r: 5.5;
-}
-
-.peak-name {
-  font-size: 0.62rem;
-  font-weight: 800;
-  color: #0E3458;
-  letter-spacing: 0.03em;
-  white-space: nowrap;
-  line-height: 1.1;
-}
-
-.peak-label-box.featured .peak-name {
-  color: #C85A17;
-}
-
-.peak-alt {
-  font-size: 0.56rem;
-  font-weight: 600;
-  color: #64748B;
-  white-space: nowrap;
-  line-height: 1.1;
-  margin-top: 1px;
+  .milestone-card {
+    flex: 0 0 240px;
+    aspect-ratio: 4 / 5;
+    scroll-snap-align: start;
+  }
 }
 
 /* ==================== Best Himalayan Expedition & Trekking Specialists ==================== */
@@ -5549,11 +5559,26 @@ textarea {
   }
 }
 
+/* Destination Regions Normal Structured Grid */
+.dest-regions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 36px;
+}
+
+@media (max-width: 640px) {
+  .dest-regions-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 24px;
+  }
+}
+
 /* Clean Destination Package Cards (Matching Activity Packages Card Design) */
 .dest-package-card {
-  width: 360px;
-  height: 380px;
-  flex-shrink: 0;
+  width: 100%;
+  min-height: 380px;
   background: #FFFFFF;
   border-radius: 28px;
   padding: 16px;
@@ -5574,9 +5599,9 @@ textarea {
 
 @media (max-width: 640px) {
   .dest-package-card {
-    width: 290px;
-    height: 350px;
-    padding: 12px;
+    width: 100%;
+    min-height: 350px;
+    padding: 14px;
     border-radius: 20px;
   }
 
@@ -7336,6 +7361,14 @@ textarea {
   box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
 }
 
+.gear-progress-bar-fill {
+  width: 0;
+  height: 100%;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #1A96C8 0%, #10B981 100%);
+  transition: width 0.3s ease;
+}
+
 @media (max-width: 640px) {
   .packing-controls-bar {
     flex-direction: column;
@@ -8971,7 +9004,8 @@ textarea {
   margin: 0;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-container {
+[data-trek-key="everest"] #section-includes .inc-exc-container,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-container {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: start;
@@ -8979,7 +9013,8 @@ textarea {
   margin-top: 10px;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper {
+[data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-section-title-wrapper {
   min-width: 0;
   margin: 0;
   padding: 0 0 12px;
@@ -8987,17 +9022,20 @@ textarea {
   border-bottom: 1px solid #A7F3D0;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper:nth-child(3) {
+[data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper:nth-child(3),
+[data-trek-key="ebc_16"] #section-includes .inc-exc-section-title-wrapper:nth-child(3) {
   border-bottom-color: #FECACA;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-section-title {
+[data-trek-key="everest"] #section-includes .inc-exc-section-title,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-section-title {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.35;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-grid {
+[data-trek-key="everest"] #section-includes .inc-exc-grid,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-grid {
   grid-template-columns: minmax(0, 1fr);
   gap: 12px;
   margin: 0;
@@ -9007,19 +9045,22 @@ textarea {
   background: #F0FDF4;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(2) {
+[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(2),
+[data-trek-key="ebc_16"] #section-includes .inc-exc-grid:nth-child(2) {
   grid-column: 1;
   grid-row: 2;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4) {
+[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4),
+[data-trek-key="ebc_16"] #section-includes .inc-exc-grid:nth-child(4) {
   grid-column: 2;
   grid-row: 2;
   border-color: #FECACA;
   background: #FFF7F7;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-card {
+[data-trek-key="everest"] #section-includes .inc-exc-card,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-card {
   min-width: 0;
   align-items: flex-start;
   gap: 12px;
@@ -9029,16 +9070,19 @@ textarea {
   box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(2) .inc-exc-card:hover {
+[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(2) .inc-exc-card:hover,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-grid:nth-child(2) .inc-exc-card:hover {
   border-color: #10B981;
   box-shadow: 0 6px 16px rgba(16, 185, 129, 0.1);
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4) .inc-exc-card:hover {
+[data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4) .inc-exc-card:hover,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-grid:nth-child(4) .inc-exc-card:hover {
   border-color: #EF4444;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-icon-box {
+[data-trek-key="everest"] #section-includes .inc-exc-icon-box,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-icon-box {
   display: grid;
   width: 32px;
   height: 32px;
@@ -9049,36 +9093,43 @@ textarea {
   color: #059669;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-icon-box svg {
+[data-trek-key="everest"] #section-includes .inc-exc-icon-box svg,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-icon-box svg {
   width: 17px;
   height: 17px;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-card:not(.exclude-card) .inc-exc-icon-box svg {
+[data-trek-key="everest"] #section-includes .inc-exc-card:not(.exclude-card) .inc-exc-icon-box svg,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-card:not(.exclude-card) .inc-exc-icon-box svg {
   stroke: #059669 !important;
 }
 
-[data-trek-key="everest"] #section-includes .exclude-card .inc-exc-icon-box {
+[data-trek-key="everest"] #section-includes .exclude-card .inc-exc-icon-box,
+[data-trek-key="ebc_16"] #section-includes .exclude-card .inc-exc-icon-box {
   background: #FEF2F2;
   color: #DC2626;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-card-content {
+[data-trek-key="everest"] #section-includes .inc-exc-card-content,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-card-content {
   min-width: 0;
   gap: 4px;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-card-title {
+[data-trek-key="everest"] #section-includes .inc-exc-card-title,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-card-title {
   font-size: 0.96rem;
   line-height: 1.4;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-card-text {
+[data-trek-key="everest"] #section-includes .inc-exc-card-text,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-card-text {
   font-size: 0.87rem;
   line-height: 1.55;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-pricing-jump {
+[data-trek-key="everest"] #section-includes .inc-exc-pricing-jump,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-pricing-jump {
   grid-column: 1 / -1;
   display: flex;
   align-items: center;
@@ -9094,7 +9145,8 @@ textarea {
   font-size: 0.92rem;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-pricing-jump a {
+[data-trek-key="everest"] #section-includes .inc-exc-pricing-jump a,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-pricing-jump a {
   display: inline-flex;
   align-items: center;
   gap: 7px;
@@ -9103,7 +9155,8 @@ textarea {
   text-decoration: none;
 }
 
-[data-trek-key="everest"] #section-includes .inc-exc-pricing-jump a:hover {
+[data-trek-key="everest"] #section-includes .inc-exc-pricing-jump a:hover,
+[data-trek-key="ebc_16"] #section-includes .inc-exc-pricing-jump a:hover {
   text-decoration: underline;
 }
 
@@ -9179,17 +9232,21 @@ textarea {
     gap: 16px;
   }
 
-  [data-trek-key="everest"] #section-includes .inc-exc-container {
+  [data-trek-key="everest"] #section-includes .inc-exc-container,
+  [data-trek-key="ebc_16"] #section-includes .inc-exc-container {
     grid-template-columns: minmax(0, 1fr);
   }
 
   [data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(2),
-  [data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4) {
+  [data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4),
+  [data-trek-key="ebc_16"] #section-includes .inc-exc-grid:nth-child(2),
+  [data-trek-key="ebc_16"] #section-includes .inc-exc-grid:nth-child(4) {
     grid-column: 1;
     grid-row: auto;
   }
 
-  [data-trek-key="everest"] #section-includes .inc-exc-pricing-jump {
+  [data-trek-key="everest"] #section-includes .inc-exc-pricing-jump,
+  [data-trek-key="ebc_16"] #section-includes .inc-exc-pricing-jump {
     grid-column: 1;
   }
 
@@ -9199,31 +9256,37 @@ textarea {
 }
 
 @media (max-width: 1100px) {
-  [data-trek-key="everest"] #section-includes .inc-exc-container {
+  [data-trek-key="everest"] #section-includes .inc-exc-container,
+  [data-trek-key="ebc_16"] #section-includes .inc-exc-container {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  [data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper:nth-child(1) {
+  [data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper:nth-child(1),
+  [data-trek-key="ebc_16"] #section-includes .inc-exc-section-title-wrapper:nth-child(1) {
     grid-column: 1;
     grid-row: 1;
   }
 
-  [data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(2) {
+  [data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(2),
+  [data-trek-key="ebc_16"] #section-includes .inc-exc-grid:nth-child(2) {
     grid-column: 1;
     grid-row: 2;
   }
 
-  [data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper:nth-child(3) {
+  [data-trek-key="everest"] #section-includes .inc-exc-section-title-wrapper:nth-child(3),
+  [data-trek-key="ebc_16"] #section-includes .inc-exc-section-title-wrapper:nth-child(3) {
     grid-column: 1;
     grid-row: 3;
   }
 
-  [data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4) {
+  [data-trek-key="everest"] #section-includes .inc-exc-grid:nth-child(4),
+  [data-trek-key="ebc_16"] #section-includes .inc-exc-grid:nth-child(4) {
     grid-column: 1;
     grid-row: 4;
   }
 
-  [data-trek-key="everest"] #section-includes .inc-exc-pricing-jump {
+  [data-trek-key="everest"] #section-includes .inc-exc-pricing-jump,
+  [data-trek-key="ebc_16"] #section-includes .inc-exc-pricing-jump {
     grid-column: 1;
   }
 }
@@ -9632,6 +9695,20 @@ textarea {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+}
+
+.detail-header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.detail-header-right .detail-check-bubble {
+  position: relative;
+  bottom: auto;
+  right: auto;
 }
 
 .detail-accordion-card.read .detail-check-bubble {
@@ -16342,30 +16419,54 @@ textarea {
   align-items: start;
 }
 
+.guide-layout-split > aside,
+.guide-sidebar-col {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  align-self: start;
+  height: fit-content;
+  z-index: 30;
+}
+
 @media (max-width: 1024px) {
   .guide-layout-split {
     grid-template-columns: 100% !important;
     display: block !important;
   }
 
-  .guide-layout-split>* {
+  .guide-layout-split > * {
     min-width: 0 !important;
     max-width: 100% !important;
     width: 100% !important;
     box-sizing: border-box !important;
   }
+
+  .guide-layout-split > aside,
+  .guide-sidebar-col {
+    position: static !important;
+    top: auto !important;
+    margin-top: 40px;
+  }
 }
 
 /* Sticky Quick Navigation Sidebar */
 .guide-sidebar-nav {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 110px;
+  position: relative;
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
   border-radius: 18px;
   padding: 24px;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.guide-body-content > [id],
+.guide-layout-split > .guide-body-content > [id],
+.visa-bento-grid {
+  scroll-margin-top: 100px;
 }
 
 .guide-sidebar-title {
@@ -16615,6 +16716,852 @@ textarea {
   }
 }
 
+/* =======================================================
+   NEPAL TOURIST VISA GUIDE (2026) LUXURY DESIGN SYSTEM
+   ======================================================= */
+.visa-hero-section {
+  position: relative;
+  background: linear-gradient(135deg, rgba(7, 24, 41, 0.93) 0%, rgba(14, 52, 88, 0.90) 55%, rgba(20, 74, 117, 0.88) 100%),
+    url('images/hero-himalayas.webp') center/cover no-repeat;
+  color: #FFFFFF;
+  padding: 84px 0 76px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.visa-hero-section::before {
+  content: '';
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(0, 217, 242, 0.18) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.visa-hero-section::after {
+  content: '';
+  position: absolute;
+  bottom: -120px;
+  left: -80px;
+  width: 360px;
+  height: 360px;
+  background: radial-gradient(circle, rgba(246, 133, 31, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.visa-hero-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: #00D9F2;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 7px 18px;
+  border-radius: 9999px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.visa-hero-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 3.25rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  line-height: 1.15;
+  margin: 0 auto 16px auto;
+  max-width: 920px;
+  letter-spacing: -0.025em;
+}
+
+.visa-hero-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.12rem;
+  color: #E2E8F0;
+  max-width: 820px;
+  margin: 0 auto 28px auto;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.visa-hero-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.visa-hero-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: #F8FAFC;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.visa-hero-chip svg {
+  color: #00D9F2;
+  flex-shrink: 0;
+}
+
+.visa-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.btn-visa-portal {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #F6851F 0%, #D97706 100%);
+  color: #FFFFFF;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 0.96rem;
+  padding: 13px 26px;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 4px 18px rgba(246, 133, 31, 0.35);
+  transition: all 0.25s ease;
+}
+
+.btn-visa-portal:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(246, 133, 31, 0.5);
+  color: #FFFFFF;
+}
+
+.btn-visa-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #FFFFFF;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 0.96rem;
+  padding: 13px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.btn-visa-ghost:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #00D9F2;
+  color: #00D9F2;
+  transform: translateY(-2px);
+}
+
+/* Quick Glance Bento Grid */
+.visa-bento-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: -34px;
+  margin-bottom: 46px;
+  position: relative;
+  z-index: 10;
+}
+
+.visa-bento-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  padding: 20px 22px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.visa-bento-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.1);
+  border-color: #CBD5E1;
+}
+
+.visa-bento-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.visa-bento-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #F0F9FF;
+  color: #1A96C8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.visa-bento-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748B;
+}
+
+.visa-bento-val {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #0E3458;
+  line-height: 1.3;
+}
+
+.visa-bento-sub {
+  font-size: 0.84rem;
+  color: #64748B;
+  line-height: 1.45;
+  margin: 0;
+}
+
+/* 3-Tier Visa Pricing Cards */
+.visa-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-bottom: 28px;
+}
+
+.visa-tier-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 20px;
+  padding: 28px 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.04);
+  transition: all 0.3s ease;
+}
+
+.visa-tier-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.09);
+  border-color: #CBD5E1;
+}
+
+.visa-tier-card.featured {
+  border: 2px solid #F6851F;
+  box-shadow: 0 12px 34px rgba(246, 133, 31, 0.14);
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFFBF7 100%);
+}
+
+.visa-tier-badge {
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #F6851F 0%, #D97706 100%);
+  color: #FFFFFF;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding: 4px 14px;
+  border-radius: 9999px;
+  box-shadow: 0 4px 10px rgba(246, 133, 31, 0.35);
+  white-space: nowrap;
+}
+
+.visa-tier-duration {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #0E3458;
+  margin-bottom: 4px;
+}
+
+.visa-tier-tagline {
+  font-size: 0.85rem;
+  color: #64748B;
+  margin-bottom: 16px;
+  min-height: 38px;
+  line-height: 1.4;
+}
+
+.visa-tier-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.visa-tier-currency {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0E3458;
+}
+
+.visa-tier-amount {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #1A96C8;
+  line-height: 1;
+}
+
+.visa-tier-card.featured .visa-tier-amount {
+  color: #F6851F;
+}
+
+.visa-tier-perday {
+  font-size: 0.82rem;
+  color: #94A3B8;
+  margin-bottom: 18px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #F1F5F9;
+}
+
+.visa-tier-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 22px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.visa-tier-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #334155;
+  line-height: 1.45;
+}
+
+.visa-tier-features li svg {
+  color: #10B981;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.visa-tier-routes {
+  background: #F8FAFC;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 0.82rem;
+  color: #475569;
+  line-height: 1.45;
+  margin-bottom: 18px;
+}
+
+.visa-tier-routes strong {
+  color: #0E3458;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.btn-visa-tier {
+  display: block;
+  text-align: center;
+  background: #F1F5F9;
+  color: #0E3458;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-visa-tier:hover {
+  background: #1A96C8;
+  color: #FFFFFF;
+}
+
+.visa-tier-card.featured .btn-visa-tier {
+  background: linear-gradient(135deg, #F6851F 0%, #D97706 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(246, 133, 31, 0.25);
+}
+
+.visa-tier-card.featured .btn-visa-tier:hover {
+  box-shadow: 0 6px 18px rgba(246, 133, 31, 0.4);
+}
+
+/* Station Arrival Pipeline */
+.visa-flow-pipeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  margin: 24px 0 36px 0;
+}
+
+.visa-flow-station {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 18px;
+  padding: 24px 26px;
+  display: flex;
+  gap: 20px;
+  position: relative;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+  transition: all 0.25s ease;
+}
+
+.visa-flow-station:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 8px 26px rgba(15, 23, 42, 0.08);
+}
+
+.visa-station-num-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.visa-station-num {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0E3458 0%, #1A96C8 100%);
+  color: #FFFFFF;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(26, 150, 200, 0.3);
+}
+
+.visa-station-content {
+  flex-grow: 1;
+}
+
+.visa-station-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #0E3458;
+  margin: 0 0 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.visa-station-badge {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  background: #EFF6FF;
+  color: #1D4ED8;
+}
+
+.visa-station-desc {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.65;
+  margin: 0 0 14px 0;
+}
+
+.visa-station-protip {
+  background: #F8FAFC;
+  border-left: 3px solid #F6851F;
+  border-radius: 0 10px 10px 0;
+  padding: 10px 14px;
+  font-size: 0.88rem;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.visa-station-protip strong {
+  color: #D97706;
+}
+
+/* Mandatory Documents Checklist Grid */
+.visa-docs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 22px 0 36px 0;
+}
+
+.visa-doc-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 14px;
+  padding: 18px 20px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  transition: all 0.2s ease;
+}
+
+.visa-doc-card:hover {
+  border-color: #1A96C8;
+  box-shadow: 0 6px 18px rgba(26, 150, 200, 0.08);
+}
+
+.visa-doc-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #F0F9FF;
+  color: #1A96C8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.visa-doc-name {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: #0E3458;
+  margin: 0 0 4px 0;
+}
+
+.visa-doc-detail {
+  font-size: 0.88rem;
+  color: #64748B;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Nationality Categories Bento */
+.visa-nat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin: 22px 0 36px 0;
+}
+
+.visa-nat-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  padding: 22px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.visa-nat-card.status-green {
+  border-top: 4px solid #10B981;
+}
+
+.visa-nat-card.status-blue {
+  border-top: 4px solid #1A96C8;
+}
+
+.visa-nat-card.status-amber {
+  border-top: 4px solid #F59E0B;
+}
+
+.visa-nat-card.status-rose {
+  border-top: 4px solid #EF4444;
+}
+
+.visa-nat-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  width: fit-content;
+}
+
+.status-green .visa-nat-tag {
+  background: #ECFDF5;
+  color: #059669;
+}
+
+.status-blue .visa-nat-tag {
+  background: #EFF6FF;
+  color: #2563EB;
+}
+
+.status-amber .visa-nat-tag {
+  background: #FFFBEB;
+  color: #D97706;
+}
+
+.status-rose .visa-nat-tag {
+  background: #FEF2F2;
+  color: #DC2626;
+}
+
+.visa-nat-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #0E3458;
+  margin: 0;
+}
+
+.visa-nat-desc {
+  font-size: 0.9rem;
+  color: #475569;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.visa-nat-nations {
+  font-size: 0.82rem;
+  color: #64748B;
+  background: #F8FAFC;
+  padding: 8px 12px;
+  border-radius: 8px;
+  line-height: 1.45;
+}
+
+/* Land Borders Grid */
+.visa-borders-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 22px 0 36px 0;
+}
+
+.visa-border-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 14px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.visa-border-card:hover {
+  border-color: #1A96C8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.06);
+}
+
+.visa-border-name {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #0E3458;
+  margin: 0;
+}
+
+.visa-border-side {
+  font-size: 0.82rem;
+  color: #1A96C8;
+  font-weight: 600;
+}
+
+.visa-border-info {
+  font-size: 0.86rem;
+  color: #64748B;
+  line-height: 1.45;
+  margin: 0;
+}
+
+/* Extension Calculator Box */
+.visa-ext-box {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 18px;
+  padding: 26px 28px;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.04);
+  margin: 22px 0 36px 0;
+}
+
+.visa-ext-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin: 18px 0;
+}
+
+.visa-ext-metric {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
+
+.visa-ext-metric-val {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #0E3458;
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+
+.visa-ext-metric-lbl {
+  font-size: 0.8rem;
+  color: #64748B;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* Video Showcase Box */
+.visa-video-wrap {
+  background: #0B1E33;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 36px rgba(14, 52, 88, 0.2);
+  margin: 22px 0 40px 0;
+}
+
+.visa-video-header {
+  padding: 18px 24px;
+  background: rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.visa-video-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.visa-video-timestamps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.visa-timestamp-badge {
+  font-size: 0.76rem;
+  color: #CBD5E1;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.visa-video-player {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  background: #000000;
+}
+
+.visa-video-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Responsive Rules for Nepal Visa */
+@media (max-width: 1024px) {
+  .visa-bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .visa-pricing-grid {
+    grid-template-columns: 1fr;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .visa-borders-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .visa-hero-title {
+    font-size: 2.2rem;
+  }
+
+  .visa-hero-desc {
+    font-size: 1rem;
+  }
+
+  .visa-bento-grid {
+    grid-template-columns: 1fr;
+    margin-top: -20px;
+  }
+
+  .visa-docs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .visa-nat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .visa-borders-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .visa-ext-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .visa-flow-station {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
 /* ==================== Nepal Trekking Packages & Catalog Design System ==================== */
 .catalog-filter-section {
   padding: 40px 0 30px 0;
@@ -16622,24 +17569,36 @@ textarea {
   border-bottom: 1px solid #E2E8F0;
 }
 
-/* Quick Region Pills Bar */
+/* Quick Region Pills Bar (Ultra-Interactive Gold Standard) */
 .region-pills-wrap {
   background: #FFFFFF;
-  border-radius: 16px;
-  padding: 20px 24px;
-  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.06);
+  border-radius: 18px;
+  padding: 22px 26px;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.06), 0 1px 3px rgba(15, 23, 42, 0.04);
   border: 1px solid #E2E8F0;
   margin-bottom: 24px;
-  transition: all 0.25s ease;
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.region-pills-wrap:hover {
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
 }
 
 .region-pills-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 12px;
+}
+
+.region-pills-header-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .region-pills-title {
@@ -16647,9 +17606,9 @@ textarea {
   align-items: center;
   gap: 8px;
   font-family: 'Outfit', sans-serif;
-  font-size: 0.98rem;
+  font-size: 1rem;
   font-weight: 700;
-  color: #071D36;
+  color: #0E3458;
   letter-spacing: -0.01em;
   margin: 0;
 }
@@ -16658,18 +17617,106 @@ textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 26px;
-  height: 26px;
+  width: 28px;
+  height: 28px;
   border-radius: 8px;
   background: #EEF6FF;
   color: #1A96C8;
   font-size: 14px;
+  box-shadow: 0 2px 6px rgba(26, 150, 200, 0.15);
 }
 
 .region-pills-hint {
-  font-size: 0.8rem;
+  font-size: 0.84rem;
   color: #64748B;
   font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s ease;
+}
+
+.region-pills-hint strong {
+  color: #0E3458;
+  font-weight: 700;
+}
+
+.region-pills-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.region-clear-chip {
+  background: #FEF2F2;
+  color: #DC2626;
+  border: 1px solid #FECACA;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 5px 12px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 1px 3px rgba(220, 38, 38, 0.08);
+}
+
+.region-clear-chip:hover {
+  background: #FEE2E2;
+  border-color: #F87171;
+  color: #B91C1C;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(220, 38, 38, 0.18);
+}
+
+/* Scroll Track for Responsive Horizontal Sliding */
+.region-pills-scroll-track {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.region-scroll-arrow {
+  position: absolute;
+  z-index: 8;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  color: #0E3458;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(14, 52, 88, 0.16);
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+  outline: none;
+}
+
+.region-scroll-arrow:hover:not(.is-disabled) {
+  background: #0E3458;
+  color: #FFFFFF;
+  border-color: #0E3458;
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(14, 52, 88, 0.25);
+}
+
+.region-scroll-arrow.is-disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.region-scroll-prev {
+  left: -14px;
+}
+
+.region-scroll-next {
+  right: -14px;
 }
 
 .region-pills-container {
@@ -16677,12 +17724,14 @@ textarea {
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
+  width: 100%;
+  scroll-behavior: smooth;
 }
 
 .region-quick-pill {
   background: #F8FAFC;
   color: #1E293B;
-  padding: 8px 18px;
+  padding: 8px 14px 8px 13px;
   border-radius: 9999px;
   text-decoration: none;
   font-size: 0.86rem;
@@ -16695,42 +17744,124 @@ textarea {
   gap: 7px;
   user-select: none;
   white-space: nowrap;
+  outline: none;
+}
+
+.region-quick-pill .icon-svg {
+  width: 15px;
+  height: 15px;
+  color: #1A96C8;
+  flex-shrink: 0;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.region-pill-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 9999px;
+  background: rgba(14, 52, 88, 0.08);
+  color: #0E3458;
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin-left: 2px;
+  transition: all 0.2s ease;
 }
 
 .region-quick-pill:hover {
   background: #FFFFFF;
-  color: #071D36;
+  color: #0E3458;
   border-color: #1A96C8;
-  box-shadow: 0 3px 10px rgba(26, 150, 200, 0.15);
+  box-shadow: 0 4px 12px rgba(26, 150, 200, 0.18);
   transform: translateY(-2px);
+}
+
+.region-quick-pill:hover .icon-svg {
+  transform: scale(1.18);
+}
+
+.region-quick-pill:hover .region-pill-badge {
+  background: #E0F2FE;
+  color: #0369A1;
 }
 
 .region-quick-pill:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(26, 150, 200, 0.35);
+  box-shadow: 0 0 0 3px rgba(26, 150, 200, 0.4);
 }
 
 .region-quick-pill.active {
-  background: #071D36 !important;
+  background: #0E3458 !important;
   color: #FFFFFF !important;
-  border-color: #071D36 !important;
-  box-shadow: 0 4px 14px rgba(7, 29, 54, 0.28) !important;
+  border-color: #0E3458 !important;
+  box-shadow: 0 4px 16px rgba(14, 52, 88, 0.32), 0 0 0 2px rgba(26, 150, 200, 0.45) !important;
   transform: translateY(-1px);
 }
 
+.region-quick-pill.active .icon-svg {
+  color: #38BDF8 !important;
+  transform: scale(1.12);
+}
+
+.region-quick-pill.active .region-pill-badge {
+  background: rgba(255, 255, 255, 0.22) !important;
+  color: #FFFFFF !important;
+}
+
 .region-quick-pill.active:hover {
-  background: #0D2847 !important;
-  border-color: #0D2847 !important;
+  background: #092540 !important;
+  border-color: #092540 !important;
+  box-shadow: 0 6px 20px rgba(14, 52, 88, 0.42) !important;
+}
+
+/* Card Filter Fade In Transition */
+.card.trek-item {
+  transition: opacity 0.28s cubic-bezier(0.16, 1, 0.3, 1), transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card.trek-item.filter-animating {
+  animation: trekCardFadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes trekCardFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 992px) {
+  .region-scroll-arrow {
+    display: flex;
+  }
 }
 
 @media (max-width: 768px) {
   .region-pills-wrap {
     padding: 16px;
     border-radius: 14px;
+    margin-bottom: 20px;
   }
 
   .region-pills-header {
     margin-bottom: 12px;
+  }
+
+  .region-pills-header-left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .region-pills-hint {
+    font-size: 0.78rem;
   }
 
   .region-pills-container {
@@ -16739,8 +17870,7 @@ textarea {
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
-    padding-bottom: 6px;
-    margin-bottom: -2px;
+    padding: 6px 2px;
     scrollbar-width: none;
     -ms-overflow-style: none;
   }
@@ -16752,8 +17882,16 @@ textarea {
   .region-quick-pill {
     flex-shrink: 0;
     scroll-snap-align: start;
-    padding: 7px 15px;
+    padding: 7px 12px 7px 10px;
     font-size: 0.82rem;
+  }
+
+  .region-scroll-prev {
+    left: -8px;
+  }
+
+  .region-scroll-next {
+    right: -8px;
   }
 }
 

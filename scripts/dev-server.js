@@ -131,12 +131,6 @@ function resolveFilePath(reqUrl) {
     return fullPath;
   }
 
-  // Try appending .html (with or without trailing slash)
-  const cleanPath = fullPath.replace(/[/\\]+$/, '');
-  if (fs.existsSync(cleanPath + '.html') && fs.statSync(cleanPath + '.html').isFile()) {
-    return cleanPath + '.html';
-  }
-
   // Directory with index.html
   if (fs.existsSync(fullPath) && fs.statSync(fullPath).isDirectory()) {
     const indexPath = path.join(fullPath, 'index.html');
@@ -149,6 +143,12 @@ function resolveFilePath(reqUrl) {
   const nestedIndexPath = path.join(fullPath, 'index.html');
   if (fs.existsSync(nestedIndexPath) && fs.statSync(nestedIndexPath).isFile()) {
     return nestedIndexPath;
+  }
+
+  // Try appending .html (with or without trailing slash)
+  const cleanPath = fullPath.replace(/[/\\]+$/, '');
+  if (fs.existsSync(cleanPath + '.html') && fs.statSync(cleanPath + '.html').isFile()) {
+    return cleanPath + '.html';
   }
 
   // Check in trek/ folder

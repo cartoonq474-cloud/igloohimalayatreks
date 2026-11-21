@@ -1,4 +1,75 @@
 const WEATHER_PROFILES = {
+
+  "everest-base-camp-trek-16-days": {
+    regionTitle: "Khumbu / Everest Base Camp Regional Climate",
+    monthData: [
+      { name: "January", min: -17, max: 4 },
+      { name: "February", min: -15, max: 5 },
+      { name: "March", min: -10, max: 8 },
+      { name: "April", min: -5, max: 11 },
+      { name: "May", min: -1, max: 13 },
+      { name: "June", min: 3, max: 14 },
+      { name: "July", min: 5, max: 14 },
+      { name: "August", min: 5, max: 14 },
+      { name: "September", min: 2, max: 13 },
+      { name: "October", min: -4, max: 10 },
+      { name: "November", min: -10, max: 7 },
+      { name: "December", min: -15, max: 5 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,350 m / 4,429 ft)", min: 4, max: 20 },
+      { label: "Day 2 (1,350 m / 4,429 ft)", min: 4, max: 20 },
+      { label: "Day 3 (2,610 m / 8,563 ft)", min: -3, max: 14 },
+      { label: "Day 4 (3,440 m / 11,286 ft)", min: -7, max: 11 },
+      { label: "Day 5 (3,880 m / 12,730 ft)", min: -9, max: 9 },
+      { label: "Day 6 (3,867 m / 12,687 ft)", min: -9, max: 9 },
+      { label: "Day 7 (4,410 m / 14,468 ft)", min: -12, max: 7 },
+      { label: "Day 8 (5,083 m / 16,676 ft)", min: -14, max: 5 },
+      { label: "Day 9 (4,940 m / 16,207 ft)", min: -13, max: 6 },
+      { label: "Day 10 (5,364 m / 17,598 ft)", min: -16, max: 3 },
+      { label: "Day 11 (5,545 m / 18,192 ft)", min: -18, max: 2 },
+      { label: "Day 12 (3,867 m / 12,687 ft)", min: -9, max: 9 },
+      { label: "Day 13 (2,835 m / 9,301 ft)", min: -4, max: 13 },
+      { label: "Day 14 (2,860 m / 9,383 ft)", min: -4, max: 13 },
+      { label: "Day 15 (1,350 m / 4,429 ft)", min: 4, max: 20 },
+      { label: "Day 16 (Departure)", min: 4, max: 20 }
+    ]
+  },
+  "ebc_16": {
+    regionTitle: "Khumbu / Everest Base Camp Regional Climate",
+    monthData: [
+      { name: "January", min: -17, max: 4 },
+      { name: "February", min: -15, max: 5 },
+      { name: "March", min: -10, max: 8 },
+      { name: "April", min: -5, max: 11 },
+      { name: "May", min: -1, max: 13 },
+      { name: "June", min: 3, max: 14 },
+      { name: "July", min: 5, max: 14 },
+      { name: "August", min: 5, max: 14 },
+      { name: "September", min: 2, max: 13 },
+      { name: "October", min: -4, max: 10 },
+      { name: "November", min: -10, max: 7 },
+      { name: "December", min: -15, max: 5 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,350 m / 4,429 ft)", min: 4, max: 20 },
+      { label: "Day 2 (1,350 m / 4,429 ft)", min: 4, max: 20 },
+      { label: "Day 3 (2,610 m / 8,563 ft)", min: -3, max: 14 },
+      { label: "Day 4 (3,440 m / 11,286 ft)", min: -7, max: 11 },
+      { label: "Day 5 (3,880 m / 12,730 ft)", min: -9, max: 9 },
+      { label: "Day 6 (3,867 m / 12,687 ft)", min: -9, max: 9 },
+      { label: "Day 7 (4,410 m / 14,468 ft)", min: -12, max: 7 },
+      { label: "Day 8 (5,083 m / 16,676 ft)", min: -14, max: 5 },
+      { label: "Day 9 (4,940 m / 16,207 ft)", min: -13, max: 6 },
+      { label: "Day 10 (5,364 m / 17,598 ft)", min: -16, max: 3 },
+      { label: "Day 11 (5,545 m / 18,192 ft)", min: -18, max: 2 },
+      { label: "Day 12 (3,867 m / 12,687 ft)", min: -9, max: 9 },
+      { label: "Day 13 (2,835 m / 9,301 ft)", min: -4, max: 13 },
+      { label: "Day 14 (2,860 m / 9,383 ft)", min: -4, max: 13 },
+      { label: "Day 15 (1,350 m / 4,429 ft)", min: 4, max: 20 },
+      { label: "Day 16 (Departure)", min: 4, max: 20 }
+    ]
+  },
   "short-annapurna-base-camp-trek": {
     regionTitle: "Annapurna Sanctuary / Modi Khola Regional Climate",
     monthData: [

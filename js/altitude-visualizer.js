@@ -1,4 +1,61 @@
 const trekAltitudeProfiles = {
+  "kailash-mansarovar-yatra": {
+    name: "Kailash Mansarovar Yatra (14 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu Arrival", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Kathmandu Sightseeing", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 3", spot: "Timure", altitudeM: 1750, altitudeFt: 5741 },
+      { day: "Day 4", spot: "Kyirong", altitudeM: 2700, altitudeFt: 8858 },
+      { day: "Day 5", spot: "Saga", altitudeM: 4600, altitudeFt: 15092 },
+      { day: "Day 6", spot: "Saga Acclimatisation", altitudeM: 4600, altitudeFt: 15092 },
+      { day: "Day 7", spot: "Lake Mansarovar", altitudeM: 4590, altitudeFt: 15059 },
+      { day: "Day 8", spot: "Darchen", altitudeM: 4575, altitudeFt: 15010 },
+      { day: "Day 9", spot: "Diraphuk", altitudeM: 4900, altitudeFt: 16076 },
+      { day: "Day 10", spot: "Dolma La Pass / Zuthulphuk", altitudeM: 5630, altitudeFt: 18471 },
+      { day: "Day 11", spot: "Saga", altitudeM: 4600, altitudeFt: 15092 },
+      { day: "Day 12", spot: "Kyirong", altitudeM: 2700, altitudeFt: 8858 },
+      { day: "Day 13", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 14", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "kailash_14": {
+    name: "Kailash Mansarovar Yatra (14 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu Arrival", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Kathmandu Sightseeing", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 3", spot: "Timure", altitudeM: 1750, altitudeFt: 5741 },
+      { day: "Day 4", spot: "Kyirong", altitudeM: 2700, altitudeFt: 8858 },
+      { day: "Day 5", spot: "Saga", altitudeM: 4600, altitudeFt: 15092 },
+      { day: "Day 6", spot: "Saga Acclimatisation", altitudeM: 4600, altitudeFt: 15092 },
+      { day: "Day 7", spot: "Lake Mansarovar", altitudeM: 4590, altitudeFt: 15059 },
+      { day: "Day 8", spot: "Darchen", altitudeM: 4575, altitudeFt: 15010 },
+      { day: "Day 9", spot: "Diraphuk", altitudeM: 4900, altitudeFt: 16076 },
+      { day: "Day 10", spot: "Dolma La Pass / Zuthulphuk", altitudeM: 5630, altitudeFt: 18471 },
+      { day: "Day 11", spot: "Saga", altitudeM: 4600, altitudeFt: 15092 },
+      { day: "Day 12", spot: "Kyirong", altitudeM: 2700, altitudeFt: 8858 },
+      { day: "Day 13", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 14", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
+  "kailash-mansarovar-yatra-14-days": {
+    name: "Kailash Mansarovar Yatra (14 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu Arrival", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 2", spot: "Kathmandu Sightseeing", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 3", spot: "Timure", altitudeM: 1750, altitudeFt: 5741 },
+      { day: "Day 4", spot: "Kyirong", altitudeM: 2700, altitudeFt: 8858 },
+      { day: "Day 5", spot: "Saga", altitudeM: 4600, altitudeFt: 15092 },
+      { day: "Day 6", spot: "Saga Acclimatisation", altitudeM: 4600, altitudeFt: 15092 },
+      { day: "Day 7", spot: "Lake Mansarovar", altitudeM: 4590, altitudeFt: 15059 },
+      { day: "Day 8", spot: "Darchen", altitudeM: 4575, altitudeFt: 15010 },
+      { day: "Day 9", spot: "Diraphuk", altitudeM: 4900, altitudeFt: 16076 },
+      { day: "Day 10", spot: "Dolma La Pass / Zuthulphuk", altitudeM: 5630, altitudeFt: 18471 },
+      { day: "Day 11", spot: "Saga", altitudeM: 4600, altitudeFt: 15092 },
+      { day: "Day 12", spot: "Kyirong", altitudeM: 2700, altitudeFt: 8858 },
+      { day: "Day 13", spot: "Kathmandu", altitudeM: 1400, altitudeFt: 4593 },
+      { day: "Day 14", spot: "Kathmandu Departure", altitudeM: 1400, altitudeFt: 4593 }
+    ]
+  },
   "chitwan-national-park-safari": {
     name: "Chitwan Jungle Safari Tour (5 Days)",
     points: [
@@ -1897,6 +1954,42 @@ function getSplinePath(points, includeM = true) {
   return d;
 }
 
+let currentAltUnit = 'm';
+try {
+  const saved = localStorage.getItem("igloo-alt-unit");
+  if (saved === 'ft' || saved === 'm') {
+    currentAltUnit = saved;
+  }
+} catch (e) {
+  currentAltUnit = 'm';
+}
+
+export function getCurrentUnit() {
+  return currentAltUnit;
+}
+
+export function setUnit(unit) {
+  if (unit !== 'm' && unit !== 'ft') return;
+  currentAltUnit = unit;
+  try {
+    localStorage.setItem("igloo-alt-unit", unit);
+  } catch (e) {}
+
+  const globalUnitSelect = document.getElementById('unit-select');
+  if (globalUnitSelect) {
+    globalUnitSelect.value = unit;
+  }
+
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('unitchange', { detail: { unit } }));
+  }
+}
+
+if (typeof window !== 'undefined') {
+  window.getCurrentUnit = getCurrentUnit;
+  window.setUnit = setUnit;
+}
+
 export function renderAltitudeChart(containerId, trekKey = "ebc") {
   const container = document.getElementById(containerId);
   if (!container) return;
@@ -1904,7 +1997,7 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
   const data = trekAltitudeProfiles[trekKey] || trekAltitudeProfiles["ebc"];
   const points = data.points;
   
-  const unit = typeof getCurrentUnit === 'function' ? getCurrentUnit() : 'm';
+  const unit = getCurrentUnit();
   const isFeet = unit === 'ft';
   const unitLabel = isFeet ? 'ft' : 'm';
 
@@ -1934,8 +2027,20 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
   const pathCoords = getSplinePath(coords, true);
   const areaCoords = `${pathCoords} L ${getX(convertedPoints.length - 1)},${height - paddingBottom} L ${getX(0)},${height - paddingBottom} Z`;
 
-  const gridLine1Val = isFeet ? 6000 : 2000;
-  const gridLine2Val = isFeet ? 12000 : 4000;
+  // Dynamic grid lines that fit nicely inside chart bounds
+  const gridStep = isFeet ? 4000 : 1000;
+  const startGrid = Math.ceil(minPoint / gridStep) * gridStep;
+  const gridLines = [];
+  for (let g = startGrid; g < maxPoint; g += gridStep) {
+    const y = getY(g);
+    if (y >= paddingTop && y <= height - paddingBottom - 10) {
+      gridLines.push(g);
+    }
+  }
+  if (gridLines.length === 0) {
+    const midVal = Math.round((minPoint + (maxPoint - minPoint) * 0.5) / (isFeet ? 1000 : 500)) * (isFeet ? 1000 : 500);
+    gridLines.push(midVal);
+  }
 
   const chartHTML = `
     <!-- Card Header Row -->
@@ -1978,12 +2083,10 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
         </defs>
         
         <!-- Background Grid Lines -->
-        <line x1="${paddingLeft}" y1="${getY(gridLine1Val)}" x2="${width - paddingRight}" y2="${getY(gridLine1Val)}" stroke="#E2E8F0" stroke-dasharray="4" stroke-width="1"/>
-        <line x1="${paddingLeft}" y1="${getY(gridLine2Val)}" x2="${width - paddingRight}" y2="${getY(gridLine2Val)}" stroke="#E2E8F0" stroke-dasharray="4" stroke-width="1"/>
-        
-        <!-- Grid Labels -->
-        <text x="${paddingLeft - 8}" y="${getY(gridLine1Val) + 4}" font-size="10.5" font-weight="600" text-anchor="end" fill="#94A3B8">${gridLine1Val.toLocaleString()} ${unitLabel}</text>
-        <text x="${paddingLeft - 8}" y="${getY(gridLine2Val) + 4}" font-size="10.5" font-weight="600" text-anchor="end" fill="#94A3B8">${gridLine2Val.toLocaleString()} ${unitLabel}</text>
+        ${gridLines.map(gVal => `
+          <line x1="${paddingLeft}" y1="${getY(gVal)}" x2="${width - paddingRight}" y2="${getY(gVal)}" stroke="#E2E8F0" stroke-dasharray="4" stroke-width="1"/>
+          <text x="${paddingLeft - 8}" y="${getY(gVal) + 4}" font-size="10.5" font-weight="600" text-anchor="end" fill="#94A3B8">${gVal.toLocaleString()} ${unitLabel}</text>
+        `).join('')}
 
         <!-- Area & Peak Line -->
         <path d="${areaCoords}" fill="url(#altitudeGradient-${trekKey})" />
@@ -2001,7 +2104,7 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
           <circle cx="${getX(i)}" cy="${getY(p.displayAlt)}" r="5.5" fill="#FFFFFF" stroke="#10B981" stroke-width="2.5"/>
           
           <!-- Altitude values above nodes -->
-          <text x="${getX(i)}" y="${getY(p.displayAlt) - 12}" font-size="10.5" font-weight="700" text-anchor="middle" fill="#334155">${p.displayAlt.toLocaleString()}${unitLabel}</text>
+          <text x="${getX(i)}" y="${getY(p.displayAlt) - 12}" font-size="10.5" font-weight="700" text-anchor="middle" fill="#334155">${p.displayAlt.toLocaleString()} ${unitLabel}</text>
           
           <!-- Slanted Spot Names on X-axis -->
           <g transform="translate(${getX(i)}, ${height - paddingBottom + 20})">
@@ -2015,30 +2118,28 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
   container.innerHTML = chartHTML;
 
   // Re-bind selector event listener
-  const selector = document.getElementById('altitude-trek-selector');
+  const selector = container.querySelector('#altitude-trek-selector');
   if (selector) {
-    selector.addEventListener('change', (e) => renderAltitudeChart(containerId, e.target.value));
+    selector.addEventListener('change', (e) => {
+      container.setAttribute('data-trek-key', e.target.value);
+      renderAltitudeChart(containerId, e.target.value);
+    });
   }
 
   // Bind unit switcher toggle buttons
   const unitButtons = container.querySelectorAll('.altitude-unit-toggle-btn');
   unitButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {
-      const selectedUnit = e.target.getAttribute('data-unit');
-      if (typeof setUnit === 'function') {
+      e.preventDefault();
+      const selectedUnit = btn.getAttribute('data-unit');
+      if (selectedUnit) {
         setUnit(selectedUnit);
-        
-        // Also update unit selector value in header to match
-        const globalUnitSelect = document.getElementById('unit-select');
-        if (globalUnitSelect) {
-          globalUnitSelect.value = selectedUnit;
-        }
       }
     });
   });
 
   // Bind download button click
-  const downloadBtn = document.getElementById('altitude-download-btn');
+  const downloadBtn = container.querySelector('#altitude-download-btn');
   if (downloadBtn) {
     downloadBtn.addEventListener('click', () => {
       const svg = container.querySelector('.altitude-chart-svg');
@@ -2079,10 +2180,18 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
 }
 
 function initAltitudeChart() {
-  const wrapper = document.getElementById('altitude-chart-wrapper');
-  if (wrapper) {
-    const key = wrapper.getAttribute('data-trek-key') || 'ebc';
-    renderAltitudeChart('altitude-chart-wrapper', key);
+  const wrappers = document.querySelectorAll('#altitude-chart-wrapper, [data-altitude-chart]');
+  if (wrappers.length > 0) {
+    wrappers.forEach(wrapper => {
+      const key = wrapper.getAttribute('data-trek-key') || 'ebc';
+      renderAltitudeChart(wrapper.id, key);
+    });
+  } else {
+    const defaultWrapper = document.getElementById('altitude-chart-wrapper');
+    if (defaultWrapper) {
+      const key = defaultWrapper.getAttribute('data-trek-key') || 'ebc';
+      renderAltitudeChart('altitude-chart-wrapper', key);
+    }
   }
 }
 
@@ -2093,9 +2202,19 @@ if (document.readyState === 'loading') {
 }
 
 window.addEventListener('unitchange', () => {
-  const wrapper = document.getElementById('altitude-chart-wrapper');
-  if (wrapper) {
-    const key = wrapper.getAttribute('data-trek-key') || 'ebc';
-    renderAltitudeChart('altitude-chart-wrapper', key);
+  const wrappers = document.querySelectorAll('#altitude-chart-wrapper, [data-altitude-chart]');
+  if (wrappers.length > 0) {
+    wrappers.forEach(wrapper => {
+      const selector = wrapper.querySelector('#altitude-trek-selector');
+      const key = selector ? selector.value : (wrapper.getAttribute('data-trek-key') || 'ebc');
+      renderAltitudeChart(wrapper.id, key);
+    });
+  } else {
+    const defaultWrapper = document.getElementById('altitude-chart-wrapper');
+    if (defaultWrapper) {
+      const selector = defaultWrapper.querySelector('#altitude-trek-selector');
+      const key = selector ? selector.value : (defaultWrapper.getAttribute('data-trek-key') || 'ebc');
+      renderAltitudeChart('altitude-chart-wrapper', key);
+    }
   }
 });

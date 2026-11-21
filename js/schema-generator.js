@@ -34,6 +34,7 @@ export function injectStructuredData() {
         "sameAs": [
           "https://www.facebook.com/profile.php?id=61572406411146",
           "https://www.instagram.com/igloohimalayatreks/",
+          "https://www.youtube.com/@IglooHimalayaTreks",
           "https://www.tiktok.com/@igloohimalayatreks.com",
           "https://www.linkedin.com/in/igloo-himalaya-treks-268269433/",
           "https://www.tripadvisor.in/Attraction_Review-g293890-d33042443-Reviews-Igloo_Himalaya_Treks-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",

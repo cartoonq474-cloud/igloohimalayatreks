@@ -1,6 +1,8 @@
 /**
  * Nepal Trekking Packages - Interactive Filter, Search & Sort Controller
  * Igloo Himalaya Treks
+ * Features dynamic count syncing, interactive destination quick pills,
+ * smooth animation transitions, mobile scroll controls, and deep-link sync.
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -21,17 +23,113 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const categoryPills = document.querySelectorAll('.category-quick-pill');
   const regionPills = document.querySelectorAll('.region-quick-pill');
+  const regionStatusHint = document.getElementById('region-pills-status');
+  const clearRegionBtn = document.getElementById('clear-region-filter-btn');
+
+  const regionScrollContainer = document.getElementById('region-pills-container');
+  const regionScrollPrev = document.getElementById('region-scroll-prev');
+  const regionScrollNext = document.getElementById('region-scroll-next');
+
+  // Human-readable labels for regions
+  const regionLabels = {
+    'all': 'All Regions',
+    'everest': 'Everest Region',
+    'annapurna': 'Annapurna Region',
+    'langtang': 'Langtang Region',
+    'manaslu': 'Manaslu Region',
+    'mustang': 'Upper Mustang',
+    'dolpo': 'Dolpo Region',
+    'kanchenjunga': 'Kanchenjunga Region',
+    'remote': 'Remote Wilderness',
+    'kathmandu': 'Kathmandu Rim'
+  };
 
   // Keep original order of cards for default sort
   const originalCardsOrder = [...cards];
 
-  function applyFilters() {
+  // Dynamic Count Calculation
+  function updatePillCounts() {
+    const counts = { all: cards.length };
+    cards.forEach(card => {
+      const reg = card.getAttribute('data-region') || '';
+      if (reg) {
+        counts[reg] = (counts[reg] || 0) + 1;
+      }
+    });
+
+    for (const [key, num] of Object.entries(counts)) {
+      const badge = document.getElementById('badge-count-' + key);
+      if (badge) badge.textContent = num;
+    }
+  }
+  updatePillCounts();
+
+  // Scroll Arrow State Management
+  function updateScrollArrows() {
+    if (!regionScrollContainer || !regionScrollPrev || !regionScrollNext) return;
+    const maxScroll = regionScrollContainer.scrollWidth - regionScrollContainer.clientWidth;
+    if (maxScroll <= 5) {
+      regionScrollPrev.classList.add('is-disabled');
+      regionScrollNext.classList.add('is-disabled');
+      return;
+    }
+    const current = regionScrollContainer.scrollLeft;
+    if (current <= 10) {
+      regionScrollPrev.classList.add('is-disabled');
+    } else {
+      regionScrollPrev.classList.remove('is-disabled');
+    }
+    if (current >= maxScroll - 10) {
+      regionScrollNext.classList.add('is-disabled');
+    } else {
+      regionScrollNext.classList.remove('is-disabled');
+    }
+  }
+
+  if (regionScrollContainer) {
+    regionScrollContainer.addEventListener('scroll', updateScrollArrows, { passive: true });
+    window.addEventListener('resize', updateScrollArrows, { passive: true });
+    setTimeout(updateScrollArrows, 300);
+  }
+
+  if (regionScrollPrev && regionScrollContainer) {
+    regionScrollPrev.addEventListener('click', () => {
+      regionScrollContainer.scrollBy({ left: -220, behavior: 'smooth' });
+    });
+  }
+
+  if (regionScrollNext && regionScrollContainer) {
+    regionScrollNext.addEventListener('click', () => {
+      regionScrollContainer.scrollBy({ left: 220, behavior: 'smooth' });
+    });
+  }
+
+  function applyFilters(triggeredByRegionPill = false) {
     const searchVal = filterSearch ? filterSearch.value.trim().toLowerCase() : '';
-    const categoryVal = filterCategory ? filterCategory.value : 'all';
+    let categoryVal = filterCategory ? filterCategory.value : 'all';
     const regionVal = filterRegion ? filterRegion.value : 'all';
     const durationVal = filterDuration ? filterDuration.value : 'all';
     const difficultyVal = filterDifficulty ? filterDifficulty.value : 'all';
     const sortVal = filterSort ? filterSort.value : 'default';
+
+    // Intelligent conflict resolution: if triggered by regional quick pill and
+    // current category produces 0 matches for this region, reset category to 'all'
+    if (triggeredByRegionPill && regionVal !== 'all' && categoryVal !== 'all') {
+      const wouldMatch = cards.some(card => {
+        const cReg = card.getAttribute('data-region') || '';
+        const cCat = card.getAttribute('data-category') || '';
+        const cTitle = (card.getAttribute('data-title') || '').toLowerCase();
+        const matchesReg = (regionVal === 'remote')
+          ? (cReg === 'remote' || cReg === 'dolpo' || cReg === 'kanchenjunga' || cTitle.includes('rara') || cTitle.includes('makalu') || cTitle.includes('rolwaling') || cTitle.includes('ruby') || cTitle.includes('dhaulagiri'))
+          : (cReg === regionVal);
+        return matchesReg && (cCat === categoryVal);
+      });
+
+      if (!wouldMatch && filterCategory) {
+        filterCategory.value = 'all';
+        categoryVal = 'all';
+      }
+    }
 
     let visibleCount = 0;
 
@@ -91,12 +189,19 @@ document.addEventListener('DOMContentLoaded', () => {
       if (matchesSearch && matchesCategory && matchesRegion && matchesDuration && matchesDifficulty) {
         card.classList.remove('is-hidden');
         card.style.setProperty('display', 'flex', 'important');
+        card.classList.add('filter-animating');
         visibleCount++;
       } else {
         card.classList.add('is-hidden');
         card.style.setProperty('display', 'none', 'important');
+        card.classList.remove('filter-animating');
       }
     });
+
+    // Remove animation class after transition completes
+    setTimeout(() => {
+      cards.forEach(c => c.classList.remove('filter-animating'));
+    }, 380);
 
     // Sorting
     let sortedCards = [...cards];
@@ -120,7 +225,12 @@ document.addEventListener('DOMContentLoaded', () => {
       if (visibleCount === cards.length) {
         countDisplay.textContent = `Showing All ${cards.length} Available Treks`;
       } else {
-        countDisplay.textContent = `Showing ${visibleCount} of ${cards.length} Available Treks`;
+        const regionName = regionLabels[regionVal] || '';
+        if (regionVal !== 'all') {
+          countDisplay.textContent = `Showing ${visibleCount} of ${cards.length} Available Treks (${regionName})`;
+        } else {
+          countDisplay.textContent = `Showing ${visibleCount} of ${cards.length} Available Treks`;
+        }
       }
     }
 
@@ -134,8 +244,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const pCat = pill.getAttribute('data-category');
       if (pCat === categoryVal) {
         pill.classList.add('active');
+        pill.setAttribute('aria-pressed', 'true');
       } else {
         pill.classList.remove('active');
+        pill.setAttribute('aria-pressed', 'false');
       }
     });
 
@@ -144,19 +256,42 @@ document.addEventListener('DOMContentLoaded', () => {
       const pRegion = pill.getAttribute('data-region');
       if (pRegion === regionVal) {
         pill.classList.add('active');
+        pill.setAttribute('aria-pressed', 'true');
       } else {
         pill.classList.remove('active');
+        pill.setAttribute('aria-pressed', 'false');
       }
     });
+
+    // Update Region Live Status Text & Reset Chip
+    if (regionStatusHint) {
+      if (regionVal === 'all') {
+        regionStatusHint.innerHTML = `Showing all <strong>${cards.length} packages</strong> across 7 Himalayan regions`;
+      } else {
+        const rLabel = regionLabels[regionVal] || regionVal;
+        regionStatusHint.innerHTML = `Filtered: <strong>${visibleCount} packages</strong> in <strong>${rLabel}</strong>`;
+      }
+    }
+
+    if (clearRegionBtn) {
+      clearRegionBtn.style.display = (regionVal !== 'all') ? 'inline-flex' : 'none';
+    }
+
+    // Update URL hash without jumping
+    if (window.history && window.history.replaceState) {
+      const newHash = (regionVal !== 'all') ? '#' + regionVal : '';
+      const newUrl = window.location.pathname + window.location.search + newHash;
+      window.history.replaceState(null, '', newUrl);
+    }
   }
 
   // Event Listeners for Filters
-  if (filterSearch) filterSearch.addEventListener('input', applyFilters);
-  if (filterCategory) filterCategory.addEventListener('change', applyFilters);
-  if (filterRegion) filterRegion.addEventListener('change', applyFilters);
-  if (filterDuration) filterDuration.addEventListener('change', applyFilters);
-  if (filterDifficulty) filterDifficulty.addEventListener('change', applyFilters);
-  if (filterSort) filterSort.addEventListener('change', applyFilters);
+  if (filterSearch) filterSearch.addEventListener('input', () => applyFilters(false));
+  if (filterCategory) filterCategory.addEventListener('change', () => applyFilters(false));
+  if (filterRegion) filterRegion.addEventListener('change', () => applyFilters(false));
+  if (filterDuration) filterDuration.addEventListener('change', () => applyFilters(false));
+  if (filterDifficulty) filterDifficulty.addEventListener('change', () => applyFilters(false));
+  if (filterSort) filterSort.addEventListener('change', () => applyFilters(false));
 
   // Quick Category Pills
   categoryPills.forEach(pill => {
@@ -164,25 +299,62 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const cat = pill.getAttribute('data-category') || 'all';
       if (filterCategory) {
-        filterCategory.value = cat;
+        // Toggle behavior: if already active, toggle back to 'all'
+        if (filterCategory.value === cat && cat !== 'all') {
+          filterCategory.value = 'all';
+        } else {
+          filterCategory.value = cat;
+        }
       }
-      applyFilters();
+      applyFilters(false);
     });
   });
 
-  // Quick Region Pills
+  // Quick Region Pills (Ultra-Interactive with toggle and auto-centering)
   regionPills.forEach(pill => {
     pill.addEventListener('click', (e) => {
       e.preventDefault();
       const region = pill.getAttribute('data-region') || 'all';
       if (filterRegion) {
-        filterRegion.value = region;
+        // Toggle behavior: if clicking already active region, toggle back to 'all'
+        if (filterRegion.value === region && region !== 'all') {
+          filterRegion.value = 'all';
+        } else {
+          filterRegion.value = region;
+        }
       }
-      applyFilters();
+
+      applyFilters(true);
+
+      // Mobile auto-center active pill
+      if (regionScrollContainer) {
+        const pillRect = pill.getBoundingClientRect();
+        const containerRect = regionScrollContainer.getBoundingClientRect();
+        const offset = (pillRect.left + pillRect.width / 2) - (containerRect.left + containerRect.width / 2);
+        regionScrollContainer.scrollBy({ left: offset, behavior: 'smooth' });
+      }
+
+      // Smooth scroll if user is scrolled far down
+      const filterBar = document.getElementById('region-quick-filter-bar');
+      if (filterBar) {
+        const barRect = filterBar.getBoundingClientRect();
+        if (barRect.top < 60) {
+          filterBar.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
     });
   });
 
-  // Reset Button
+  // Clear Region Reset Chip
+  if (clearRegionBtn) {
+    clearRegionBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (filterRegion) filterRegion.value = 'all';
+      applyFilters(false);
+    });
+  }
+
+  // Full Reset Button
   if (resetBtn) {
     resetBtn.addEventListener('click', (e) => {
       e.preventDefault();
@@ -192,11 +364,11 @@ document.addEventListener('DOMContentLoaded', () => {
       if (filterDuration) filterDuration.value = 'all';
       if (filterDifficulty) filterDifficulty.value = 'all';
       if (filterSort) filterSort.value = 'default';
-      applyFilters();
+      applyFilters(false);
     });
   }
 
-  // Check URL Hash for Deep Linking on Page Load (e.g. #peak-climbing, #everest)
+  // Check URL Hash for Deep Linking on Page Load
   if (window.location.hash) {
     const rawHash = window.location.hash.replace('#', '').toLowerCase();
     const validCats = ['base-camp', 'peak-climbing', 'circuits', 'luxury-heli', 'short-treks', 'restricted'];
@@ -210,5 +382,5 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Initial Run
-  applyFilters();
+  applyFilters(false);
 });
