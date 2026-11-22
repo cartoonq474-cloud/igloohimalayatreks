@@ -2655,663 +2655,2128 @@ function setupTrekPhotoGallery() {
       }
     ],
     "ebc": [
-      {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
-      },
-      {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-        "category": "Panoramas"
-      },
-      {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-        "category": "Panoramas"
-      },
-      {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
-      },
-      {
-        "file": "ama-dablam-peak.jpg",
-        "title": "Ama Dablam Peak",
-        "category": "Peaks"
-      },
-      {
-        "file": "ama-dablam-peak.webp",
-        "title": "Ama Dablam Peak",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
-      },
-      {
-        "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-        "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
-        "category": "Panoramas"
-      },
-      {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
-      {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek.webp",
-        "title": "Ebc Chola Pass Gokyo Trek",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-map.png",
-        "title": "Ebc Map",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-with-chola-renjola-pass-trek.webp",
-        "title": "Ebc With Chola Renjola Pass Trek",
-        "category": "Trail"
-      },
-      {
-        "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
-      {
-        "file": "Everest Base Camp Trek arrival kathmandu.webp",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
-      },
-      {
-        "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      },
-      {
-        "file": "Everest Base Camp Trek dingboche to lobuche.webp",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
-      }
-    ],
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-01.webp",
+                "type": "image",
+                "title": "Everest Base Camp High Altitude Expedition Trail View",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-02.webp",
+                "type": "image",
+                "title": "Khumbu Valley Alpine Trail & Himalayan Ridge Panorama",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-03.webp",
+                "type": "image",
+                "title": "Dramatic View of Everest and Surrounding Glacial Peaks",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-04.webp",
+                "type": "image",
+                "title": "Suspension Bridge Crossing over Raging Glacial River",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-05.webp",
+                "type": "image",
+                "title": "Sherpa Village Teahouse and Stone Cottages along the Trail",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-06.webp",
+                "type": "image",
+                "title": "Scenic Approach Trail to Namche Bazaar across Dudh Koshi Valley",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-07.webp",
+                "type": "image",
+                "title": "Namche Bazaar Amphitheater and Snowcapped Kongde Ri",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-08.webp",
+                "type": "image",
+                "title": "Prayer Flags Fluttering over Sagarmatha National Park Trail",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-09.webp",
+                "type": "image",
+                "title": "Himalayan Yaks Transporting Expedition Gear to High Camp",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-10.webp",
+                "type": "image",
+                "title": "High Altitude Sherpa Trail with Views of Mount Ama Dablam",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-11.webp",
+                "type": "image",
+                "title": "Panoramic Vistas of Mount Everest, Lhotse and Nuptse from Hotel Everest View",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-12.webp",
+                "type": "image",
+                "title": "Ancient Mani Stones and Chorten Shrines along Khumbu Valley",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-13.webp",
+                "type": "image",
+                "title": "Rhododendron and Pine Forest Trails in Lower Solu-Khumbu",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-14.webp",
+                "type": "image",
+                "title": "Iconic View of Ama Dablam Rising above Alpine Forests",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-15.webp",
+                "type": "image",
+                "title": "Historic Tengboche Monastery Courtyard beneath Himalayan Summits",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-16.webp",
+                "type": "image",
+                "title": "High Alpine Imja Khola River Valley toward Dingboche",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-17.webp",
+                "type": "image",
+                "title": "Expansive Moraine Landscapes along the Khumbu Glacier",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-18.webp",
+                "type": "image",
+                "title": "Acclimatization Ascent toward Nangkartshang Ridge",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-19.webp",
+                "type": "image",
+                "title": "Panoramic View of Cholatse, Taboche and Ama Dablam",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-20.webp",
+                "type": "image",
+                "title": "Thokla Pass Memorial Cairns Dedicated to Fallen Mountaineers",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-21.webp",
+                "type": "image",
+                "title": "Glacial Lateral Moraine Trail approaching Lobuche Settlement",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-22.webp",
+                "type": "image",
+                "title": "Trekkers Arriving at Gorak Shep beneath Pumori",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-23.webp",
+                "type": "image",
+                "title": "Final Push along Rugged Khumbu Glacial Ice Formations",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-24.webp",
+                "type": "image",
+                "title": "Everest Base Camp (5,364 m) Landmark Rock with Prayer Flags",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-25.webp",
+                "type": "image",
+                "title": "Panoramic Himalayan Vista from Kala Patthar overlooking Mount Everest",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-26.webp",
+                "type": "image",
+                "title": "Khumbu Icefall Towering Glacial Seracs and Crevasses",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-27.webp",
+                "type": "image",
+                "title": "Nangkartshang Peak 360-Degree Panoramic View of the Khumbu Range",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-28.webp",
+                "type": "image",
+                "title": "Golden Hour Glow on Lhotse and Nuptse High Mountain Ridge",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-29.webp",
+                "type": "image",
+                "title": "Trek Team Celebration and Triumphant Moments at Base Camp",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-01.webp",
+                "type": "image",
+                "title": "Welcome Greeting at Tribhuvan International Airport in Kathmandu",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-02.webp",
+                "type": "image",
+                "title": "Everest Expedition Equipment Check and Comprehensive Briefing",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-03.webp",
+                "type": "image",
+                "title": "Exploring Kathmandu Historic Courtyards and Thamel Streets",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-01.webp",
+                "type": "image",
+                "title": "Thrilling Flight Landing at Tenzing-Hillary Airport in Lukla",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-02.webp",
+                "type": "image",
+                "title": "Meeting the Sherpa Guides and Porter Team in Lukla",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-03.webp",
+                "type": "image",
+                "title": "Trekking alongside the Roaring Dudh Koshi River toward Phakding",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-04.webp",
+                "type": "image",
+                "title": "Traditional Sherpa Teahouse Lodge Rest in Phakding",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-01.webp",
+                "type": "image",
+                "title": "Crossing the Iconic High Hillary Suspension Bridge",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-02.webp",
+                "type": "image",
+                "title": "Entering Sagarmatha National Park Checkpoint at Monjo",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-03.webp",
+                "type": "image",
+                "title": "Steep Pine Forest Ascent with First Glimpse of Mount Everest",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-04.webp",
+                "type": "image",
+                "title": "Arrival at Vibrant Sherpa Capital of Namche Bazaar",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-05.webp",
+                "type": "image",
+                "title": "Evening Lights over Namche Bazaar Mountain Amphitheater",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-01.webp",
+                "type": "image",
+                "title": "Acclimatization Hike to Syangboche Airstrip and Panoramic Ridge",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-02.webp",
+                "type": "image",
+                "title": "Spectacular Terrace Views of Everest from Hotel Everest View",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-03.webp",
+                "type": "image",
+                "title": "Visiting Traditional Sherpa Settlements of Khumjung and Kunde",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-04.webp",
+                "type": "image",
+                "title": "Khumjung Monastery and Historic Hillary School Grounds",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-5/everest-base-camp-trek-day-5-01.webp",
+                "type": "image",
+                "title": "Scenic High Trail descending to Phunki Tenga River Crossing",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-5/everest-base-camp-trek-day-5-02.webp",
+                "type": "image",
+                "title": "Arrival at Sacred Tengboche Monastery beneath Mount Ama Dablam",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-01.webp",
+                "type": "image",
+                "title": "Morning Chorten Trail Walk from Tengboche through Birch Woods",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-02.webp",
+                "type": "image",
+                "title": "Pangboche Village Ancient Monastery and Mani Walls",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-03.webp",
+                "type": "image",
+                "title": "Crossing Imja Khola into Alpine Shrub and Yak Pastures",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-04.webp",
+                "type": "image",
+                "title": "Arriving at Stone-Walled Fields of Dingboche Village",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-01.webp",
+                "type": "image",
+                "title": "Acclimatization Ridge Hike up Nangkartshang Peak (5,083 m)",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-02.webp",
+                "type": "image",
+                "title": "Breathtaking 360-Degree Panorama of Makalu and Lhotse",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-03.webp",
+                "type": "image",
+                "title": "Close-up Ridge Perspective of Mount Ama Dablam",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-04.webp",
+                "type": "image",
+                "title": "High Altitude Cairn and Prayer Flags at Nangkartshang Summit",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-05.webp",
+                "type": "image",
+                "title": "Afternoon Rest and Warm Teahouse Dining in Dingboche",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-01.webp",
+                "type": "image",
+                "title": "Trekking past Dughla toward the Steep Moraine Incline",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-02.webp",
+                "type": "image",
+                "title": "Ascending the Challenging Zigzag Trail of Thokla Pass",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-03.webp",
+                "type": "image",
+                "title": "Mountaineers Memorial Chortens at the Crest of Thokla Pass",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-04.webp",
+                "type": "image",
+                "title": "Following the Khumbu Glacier Lateral Moraine to Lobuche",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-01.webp",
+                "type": "image",
+                "title": "Traversing Rocky Glacial Moraine from Lobuche to Gorak Shep",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-02.webp",
+                "type": "image",
+                "title": "First View of Gorak Shep Sandbed and Mount Pumori",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-03.webp",
+                "type": "image",
+                "title": "Expedition Trail along Khumbu Glacier Moraine towards Base Camp",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-04.webp",
+                "type": "image",
+                "title": "Standing at Everest Base Camp (5,364 m) Landmark Rock",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-05.webp",
+                "type": "image",
+                "title": "Khumbu Icefall Massive Glacial Seracs and Mountaineering Tents",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-06.webp",
+                "type": "image",
+                "title": "Triumphant Team Celebration at Everest Base Camp",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-01.webp",
+                "type": "image",
+                "title": "Pre-Dawn Flashlight Climb up Kala Patthar (5,545 m)",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-02.webp",
+                "type": "image",
+                "title": "Sunrise Golden Alpenglow Illuminating Mount Everest Summit",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-03.webp",
+                "type": "image",
+                "title": "Prayer Flags Flying at Kala Patthar Viewpoint Crest",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-04.webp",
+                "type": "image",
+                "title": "Dramatic Nuptse and Khumbu Glacier Vista from Kala Patthar",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-05.webp",
+                "type": "image",
+                "title": "Breakfast at Gorak Shep before Descending the Valley",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-06.webp",
+                "type": "image",
+                "title": "Descent past Lobuche down the Wide Glacial Valley",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-07.webp",
+                "type": "image",
+                "title": "Arrival at Pheriche Himalayan Rescue Association Settlement",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-01.webp",
+                "type": "image",
+                "title": "Descending through Tsuro Og toward Pangboche and Tengboche",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-02.webp",
+                "type": "image",
+                "title": "Lush Rhododendron Forests and Gentle Downhill Paths",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-03.webp",
+                "type": "image",
+                "title": "High Mountain Balcony Trail Contouring around Kyangjuma",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-04.webp",
+                "type": "image",
+                "title": "Returning to Namche Bazaar Bakery Cafes and Warm Showers",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-01.webp",
+                "type": "image",
+                "title": "Steep Pine Forest Descent from Namche to Hillary Bridge",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-02.webp",
+                "type": "image",
+                "title": "Exiting Sagarmatha National Park Gate at Jorsalle",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-03.webp",
+                "type": "image",
+                "title": "Pleasant Riverside Walking through Monjo and Phakding",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-04.webp",
+                "type": "image",
+                "title": "Final Gentle Uphill Trail through Chheplung to Lukla",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-05.webp",
+                "type": "image",
+                "title": "Passing the Lukla Pasang Lhamu Memorial Gate",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-01.webp",
+                "type": "image",
+                "title": "Morning Takeoff from Lukla Airport Runway into Alpine Skies",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-02.webp",
+                "type": "image",
+                "title": "Breathtaking Mountain Aerial Panoramas en route to Kathmandu",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-03.webp",
+                "type": "image",
+                "title": "Farewell Dinner Celebration with Igloo Himalaya Treks Team",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-01.webp",
+                "type": "image",
+                "title": "Final Morning Walks and Souvenir Shopping in Thamel",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-02.webp",
+                "type": "image",
+                "title": "Presentation of Official Everest Base Camp Trek Certificate",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-03.webp",
+                "type": "image",
+                "title": "Airport Departure Transfer for International Flight Home",
+                "category": "Heritage"
+        }
+],
     "gokyo": [
       {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 1 Trail View 01",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 1 Trail View 02",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 1 Trail View 03",
+        "category": "Villages"
       },
       {
-        "file": "a-detailed-map-of-the-gokyo-lake-with-ranjo-la-pass-trek-with-a-altitude-graph.jpg",
-        "title": "A Detailed Map Of The Gokyo Lake With Ranjo La Pass Trek With A Altitude Graph",
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 01",
         "category": "Trail"
       },
       {
-        "file": "a-detailed-map-of-the-gokyo-lake-with-ranjo-la-pass-trek-with-a-altitude-graph.webp",
-        "title": "A Detailed Map Of The Gokyo Lake With Ranjo La Pass Trek With A Altitude Graph",
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 02",
         "category": "Trail"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 02",
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 03",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 04",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 05",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 01",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 02",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 03",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 04",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 05",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 13 Trail View 01",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 13 Trail View 02",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 01",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 02",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 03",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 04",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 01",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 02",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 03",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 04",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 05",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 01",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 02",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 03",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 04",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 05",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 01",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 02",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 03",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 04",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 05",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 06",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 07",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 01",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 02",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 03",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 04",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 01",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 02",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 03",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 04",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 05",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 06",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 01",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 02",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 03",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 04",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 05",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 06",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 07",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 08",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 01",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 02",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 03",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-3.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 3",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 04",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 05",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 06",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 07",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 08",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-09.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 09",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 01",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 02",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 03",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 04",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 01",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 02",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 03",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 04",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 05",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 06",
         "category": "Peaks"
       },
       {
-        "file": "best-time-for-gokyo-lakes-trek-02.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 02",
-        "category": "Trail"
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 07",
+        "category": "Peaks"
       },
       {
-        "file": "best-time-for-gokyo-lakes-trek-02.webp",
-        "title": "Best Time For Gokyo Lakes Trek 02",
-        "category": "Trail"
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 08",
+        "category": "High Altitude & Passes"
       },
       {
-        "file": "best-time-for-gokyo-lakes-trek-03.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 03",
-        "category": "Trail"
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 09",
+        "category": "High Altitude & Passes"
       },
       {
-        "file": "best-time-for-gokyo-lakes-trek-03.webp",
-        "title": "Best Time For Gokyo Lakes Trek 03",
-        "category": "Trail"
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 10",
+        "category": "Panoramas"
       },
       {
-        "file": "best-time-for-gokyo-lakes-trek-04.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 04",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-04.webp",
-        "title": "Best Time For Gokyo Lakes Trek 04",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-05.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 05",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-05.webp",
-        "title": "Best Time For Gokyo Lakes Trek 05",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-06.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 06",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-06.webp",
-        "title": "Best Time For Gokyo Lakes Trek 06",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-07.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 07",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-07.webp",
-        "title": "Best Time For Gokyo Lakes Trek 07",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek.jpg",
-        "title": "Best Time For Gokyo Lakes Trek",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek.webp",
-        "title": "Best Time For Gokyo Lakes Trek",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 11",
+        "category": "Panoramas"
       }
     ],
     "three_passes": [
       {
         "file": "video/gallery/treks/everest-three-passes-trek.mp4",
         "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
+        "poster": "images/gallery/everest-three-passes-trek/everest-three-passes-video-thumb-03.webp",
+        "title": "Everest Three Passes Trek Cinematic Route Overview",
+        "caption": "Cross Renjo La, Cho La, and Kongma La with Sagarmatha vistas",
+        "category": "Videos",
+        "duration": "0:45"
       },
       {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
+        "file": "video/gallery/treks/everest-three-passes-high-mountain-panorama.mp4",
         "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
+        "poster": "images/gallery/everest-three-passes-trek/everest-three-passes-video-thumb-01.webp",
+        "title": "High Altitude Pass Crossing & 360 Himalayan Panoramas",
+        "caption": "Authentic mountain footage captured crossing the high passes",
+        "category": "Videos",
+        "duration": "0:30"
       },
       {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
+        "file": "video/gallery/treks/everest-three-passes-khumbu-heritage-stupa.mp4",
         "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
+        "poster": "images/gallery/everest-three-passes-trek/everest-three-passes-video-thumb-02.webp",
+        "title": "Khumbu Valley Sherpa Heritage & Sacred Stupas",
+        "caption": "Cultural prayer flags, ancient monasteries, and Sherpa settlements",
+        "category": "Videos",
+        "duration": "0:25"
       },
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.jpg",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-        "category": "Panoramas"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Mount Everest & Nuptse Alpenglow Sunrise Panorama",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 783
       },
       {
-        "file": "a-breathtaking-view-of-mount-everest-along-the-iconic-everest-base-camp-trek.webp",
-        "title": "A Breathtaking View Of Mount Everest Along The Iconic Everest Base Camp Trek",
-        "category": "Panoramas"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Turquoise Gokyo Lake with Mount Everest & Cho Oyu Backdrop",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1920
       },
       {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.jpg",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp (5,364m) Historic Glacier Landmark",
+        "category": "Peaks",
+        "width": 1440,
+        "height": 810
       },
       {
-        "file": "a-confident-female-trekker-on-to-the-everest-base-camp-trek.webp",
-        "title": "A Confident Female Trekker On To The Everest Base Camp Trek",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Namche Bazaar Sherpa Capital & High Altitude Stupa",
+        "category": "Villages",
+        "width": 1440,
+        "height": 690
       },
       {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.jpg",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Hillary Suspension Bridge Crossing over Dudh Koshi River",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "a-memorable-moment-captured-at-everest-base-camp-after-completing-the-challenging-trek.webp",
-        "title": "A Memorable Moment Captured At Everest Base Camp After Completing The Challenging Trek",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
       },
       {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.jpg",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "a-trekker-and-a-porter-walking-along-the-everest-base-camp-trekking-trail-with-panoramic-v.webp",
-        "title": "A Trekker And A Porter Walking Along The Everest Base Camp Trekking Trail With Panoramic V",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 02",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-100.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-3.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 3",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-101.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-102.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-103.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-104.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-105.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 608
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-106.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 607
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-107.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 726
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-108.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1108,
+        "height": 1477
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-109.webp",
+        "type": "image",
+        "title": "Fdsfds(1)",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1913
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-02.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 02",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-110.webp",
+        "type": "image",
+        "title": "Fvfevgfregree",
+        "category": "Trail",
+        "width": 1440,
+        "height": 986
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-03.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 03",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-111.webp",
+        "type": "image",
+        "title": "Gfhfghgfhgf",
+        "category": "Trail",
+        "width": 1440,
+        "height": 628
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-112.webp",
+        "type": "image",
+        "title": "Glacial Turquoise Gokyo Alpine Lake",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1346
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-04.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 04",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-113.webp",
+        "type": "image",
+        "title": "Gokyo Ri Summit High Altitude Panorama",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-114.webp",
+        "type": "image",
+        "title": "Trekking along the Gokyo Valley & Glacial Ridge",
+        "category": "Trail",
+        "width": 1080,
+        "height": 810
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-05.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 05",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-115.webp",
+        "type": "image",
+        "title": "Trekking along the Gokyo Valley & Glacial Ridge",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-116.webp",
+        "type": "image",
+        "title": "Grregrfgregre",
+        "category": "Trail",
+        "width": 960,
+        "height": 1280
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-06.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 06",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-117.webp",
+        "type": "image",
+        "title": "Igloo Himalaya Treks Pvt.jpghjtyjyt",
+        "category": "Trail",
+        "width": 1077,
+        "height": 627
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-118.webp",
+        "type": "image",
+        "title": "Madb4112",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1913
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail-07.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail 07",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-119.webp",
+        "type": "image",
+        "title": "Mwtj3313",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.jpg",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-12.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "best-things-to-do-along-the-everest-base-camp-trail.webp",
-        "title": "Best Things To Do Along The Everest Base Camp Trail",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-120.webp",
+        "type": "image",
+        "title": "Picture1.jpghggfhgf",
+        "category": "Trail",
+        "width": 921,
+        "height": 632
       },
       {
-        "file": "chisapani-nagarkot-trek-sunrise-over-langtang-everest-panorama.webp",
-        "title": "Chisapani Nagarkot Trek Sunrise Over Langtang Everest Panorama",
-        "category": "Panoramas"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-121.webp",
+        "type": "image",
+        "title": "Received 690123049867770",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
       },
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.jpg",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-122.webp",
+        "type": "image",
+        "title": "Rfgerfgreger",
+        "category": "Trail",
+        "width": 1440,
+        "height": 750
       },
       {
-        "file": "collage-featuring-trekkers-climbing-rocks-hiking-the-everest-base-camp-trail-and-posing-at.webp",
-        "title": "Collage Featuring Trekkers Climbing Rocks Hiking The Everest Base Camp Trail And Posing At",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-123.webp",
+        "type": "image",
+        "title": "Rgregre",
+        "category": "Trail",
+        "width": 1024,
+        "height": 768
       },
       {
-        "file": "ebc-with-chola-renjola-pass-trek.webp",
-        "title": "Ebc With Chola Renjola Pass Trek",
-        "category": "Trail"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-124.webp",
+        "type": "image",
+        "title": "Sdndjkldsk",
+        "category": "Trail",
+        "width": 1024,
+        "height": 768
       },
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.jpg",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-125.webp",
+        "type": "image",
+        "title": "Sdsadsa",
+        "category": "Trail",
+        "width": 672,
+        "height": 396
       },
       {
-        "file": "Everest Base Camp Trek arrival kathmandu.webp",
-        "title": "Everest base camp trek arrival kathmandu",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-126.webp",
+        "type": "image",
+        "title": "Tpoh1680",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "Everest Base Camp Trek dingboche to lobuche.jpg",
-        "title": "Everest base camp trek dingboche to lobuche",
-        "category": "Peaks"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-127.webp",
+        "type": "image",
+        "title": "Vfdvfdvf",
+        "category": "Trail",
+        "width": 700,
+        "height": 525
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-128.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 2031
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-129.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-13.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-130.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-131.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-132.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-133.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-134.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 608
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-135.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-136.webp",
+        "type": "image",
+        "title": "Yhjytrhty",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-137.webp",
+        "type": "image",
+        "title": "Yhyththyt",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-14.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-15.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-16.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-17.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-18.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-19.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-20.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 2402
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-21.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-22.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-23.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-24.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-25.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-26.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-27.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-28.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-29.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-30.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-31.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-32.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-33.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-34.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-35.webp",
+        "type": "image",
+        "title": "High Himalayan Mountain Passes & Alpine Ridge Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-36.webp",
+        "type": "image",
+        "title": "High Himalayan Mountain Passes & Alpine Ridge Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-37.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-38.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-39.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-40.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-41.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-42.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-43.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-44.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-45.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-46.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-47.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-48.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-49.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-50.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-51.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-52.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-53.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-54.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-55.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 615
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-56.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-57.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-58.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-59.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-60.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-61.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-62.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-63.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-64.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-65.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-66.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-67.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-68.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-69.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-70.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-71.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-72.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-73.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-74.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-75.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-76.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-77.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-78.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-79.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-80.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-81.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-82.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-83.webp",
+        "type": "image",
+        "title": "382715001 2265822110284903 241556308802986790 N",
+        "category": "Trail",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-84.webp",
+        "type": "image",
+        "title": "435724810 2390013377865775 7686682787743530464 N",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-85.webp",
+        "type": "image",
+        "title": "43fregfre",
+        "category": "Trail",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-86.webp",
+        "type": "image",
+        "title": "475303986 122102641868746880 655371408688521844 N",
+        "category": "Trail",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-87.webp",
+        "type": "image",
+        "title": "504427753 4168837146771585 1375624989550384284 N",
+        "category": "Trail",
+        "width": 1152,
+        "height": 2048
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-88.webp",
+        "type": "image",
+        "title": "518318006 1156781536465481 884872711828658685 N",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-89.webp",
+        "type": "image",
+        "title": "Dsfdsfdgv",
+        "category": "Trail",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-90.webp",
+        "type": "image",
+        "title": "Dsvfdsfdsdsds",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1084
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-91.webp",
+        "type": "image",
+        "title": "Dvsvdsvds",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-92.webp",
+        "type": "image",
+        "title": "Khumbu Glacier & Everest Base Camp Vista",
+        "category": "Panoramas",
+        "width": 1021,
+        "height": 766
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-93.webp",
+        "type": "image",
+        "title": "Ecbg",
+        "category": "Trail",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-94.webp",
+        "type": "image",
+        "title": "Everest Trekking Map",
+        "category": "Peaks",
+        "width": 700,
+        "height": 497
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-95.webp",
+        "type": "image",
+        "title": "Everest Expeditions 2",
+        "category": "Peaks",
+        "width": 896,
+        "height": 782
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-96.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-97.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-98.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-99.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
       }
     ],
     "everest_view": [
@@ -23135,2964 +24600,2236 @@ function setupTrekPhotoGallery() {
     ],
     "ebc-chola-pass-gokyo-trek": [
       {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
-      },
-      {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-01.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 01",
+        "title": "Mount Everest & Himalayan Panoramic Vista from High Ridge",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-02.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 02",
-        "category": "Panoramas"
-},
+        "title": "Everest Base Camp & Gokyo Valley Trail Crossing",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-03.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 03",
-        "category": "Panoramas"
-},
+        "title": "Ama Dablam Majestic Summit & Alpine Glacier",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-04.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 04",
-        "category": "Panoramas"
-},
+        "title": "Cho La Pass Glacial Moraine Rocky Trail",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-05.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 05",
-        "category": "Panoramas"
-},
+        "title": "Sherpa Teahouse Lodge & Alpine Hospitality",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-06.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 06",
-        "category": "Panoramas"
-},
+        "title": "Nuptse & Lhotse South Face Mountain Wall",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-07.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 07",
+        "title": "Khumbu Glacier & Everest Base Camp Amphitheater",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-08.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 08",
+        "title": "Gokyo Ri Summit 360-Degree Mountain Panorama",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-09.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 09",
-        "category": "Panoramas"
-},
+        "title": "High Alpine Expedition Trail through Himalayan Valley",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-10.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 10",
-        "category": "Panoramas"
-},
+        "title": "Namche Bazaar Horseshoe Amphitheater & Sherpa Capital",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-11.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 11",
-        "category": "Panoramas"
-},
+        "title": "Tengboche Monastery Courtyard & Ancient Buddhist Stupa",
+        "category": "Heritage"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-12.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 12",
-        "category": "Panoramas"
-},
+        "title": "Pumori & Lingtren Glacial Summits near Kala Patthar",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-13.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 13",
-        "category": "Panoramas"
-},
+        "title": "Cho La Pass Snowy Ascent & High Ridge Traversal",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-14.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 14",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Third Lake Dudh Pokhari Turquoise Glacial Water",
+        "category": "Lakes"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-15.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 15",
-        "category": "Panoramas"
-},
+        "title": "Dingboche Stone-Walled Fields & High Teahouse Settlement",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-16.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 16",
+        "title": "Sunrise Alpenglow over Mount Everest & Nuptse Ridge",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-17.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 17",
-        "category": "Panoramas"
-},
+        "title": "Cholatse & Taboche Towers above Dzongla Alpine Basin",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-18.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 18",
-        "category": "Panoramas"
-},
+        "title": "Suspension Bridge Crossing over Raging Dudh Koshi River",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-19.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 19",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Fourth Lake Thonak Tsho Pristine Alpine Waters",
+        "category": "Lakes"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-20.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 20",
-        "category": "Panoramas"
-},
+        "title": "Gorak Shep Sandy Basin beneath Kala Patthar",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-21.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 21",
-        "category": "Panoramas"
-},
+        "title": "Everest Base Camp Memorial Chortens at Thokla Pass",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-22.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 22",
+        "title": "Ngozumpa Glacier Longest Himalayan Ice Body View",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-23.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 23",
-        "category": "Panoramas"
-},
+        "title": "Cho Oyu Sixth Highest Mountain Summit on Tibetan Border",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-24.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 24",
-        "category": "Panoramas"
-},
+        "title": "Mani Stones & Sacred Buddhist Prayer Wheels along Trail",
+        "category": "Heritage"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-25.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 25",
-        "category": "Panoramas"
-},
+        "title": "Dzongla to Cho La Pass Alpine Moraine Route",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-26.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 26",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Fifth Lake Ngozumpa Tsho with Everest in Background",
+        "category": "Lakes"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-27.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 27",
-        "category": "Panoramas"
-},
+        "title": "Thagnak Mountain Hamlet beneath Cho La Pass",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-28.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 28",
+        "title": "Kala Patthar 5,545m Summit Panoramic View of Everest",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-29.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 29",
-        "category": "Panoramas"
-},
+        "title": "Thamserku & Kangtega Dramatic Twin Summits",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-30.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 30",
-        "category": "Panoramas"
-},
+        "title": "Khumbu Icefall Massive Seracs and Glacial Crevasses",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-31.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 31",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Teahouse Lodges along Sacred Glacial Lake Shore",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-32.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 32",
-        "category": "Panoramas"
-},
+        "title": "Colorful Prayer Flags Fluttering on High Himalayan Pass",
+        "category": "Heritage"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-33.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 33",
-        "category": "Panoramas"
-},
+        "title": "Trekker Crossing Cho La Glacial Ice Field with Microspikes",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-34.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 34",
-        "category": "Panoramas"
-},
+        "title": "Island Peak & Makalu Distant Himalayan Giants",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-35.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 35",
+        "title": "Golden Sunset Lighting up the Everest Himalayan Range",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-36.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 36",
-        "category": "Panoramas"
-},
+        "title": "High Alpine Yak Caravan Carrying Expedition Supplies",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-37.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 37",
-        "category": "Panoramas"
-},
+        "title": "Phakding Riverside Teahouses & Pine Forest Valley",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-38.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 38",
-        "category": "Panoramas"
-},
+        "title": "Rocky Scramble over Cho La Pass Boulder Field",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-39.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 39",
+        "title": "Gokyo Valley Dramatic Glacial Gorge and Lakes",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-40.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 40",
-        "category": "Panoramas"
-},
+        "title": "Everest Base Camp Signboard and Iconic Rock Marker",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-41.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 41",
-        "category": "Panoramas"
-},
+        "title": "Pine & Rhododendron Forest Path in Sagarmatha National Park",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-42.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 42",
+        "title": "Dramatic Cloud Inversion over Dudh Koshi Valley",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-43.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 43",
-        "category": "Panoramas"
-},
+        "title": "Lobuche Alpine Settlement beneath Nuptse Glacier",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-44.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 44",
-        "category": "Panoramas"
-},
+        "title": "Taboche Peak Golden Morning Light Reflection",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-45.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 45",
-        "category": "Panoramas"
-},
+        "title": "Turquoise Gokyo Lake with Snowy Mountain Backdrop",
+        "category": "Lakes"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-46.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 46",
-        "category": "Panoramas"
-},
+        "title": "High Altitude Trail Leading toward Dzongla Basin",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-47.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 47",
-        "category": "Panoramas"
-},
+        "title": "Pangboche Ancient Monastery Sherpa Cultural Heritage",
+        "category": "Heritage"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-48.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 48",
+        "title": "View from Everest View Hotel overlooking Ama Dablam",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-49.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 49",
-        "category": "Panoramas"
-},
+        "title": "Cho La Glacier Snowfield Walking Track",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-50.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 50",
-        "category": "Panoramas"
-},
+        "title": "Dole Mountain Settlement nestled on Gokyo Valley Ridge",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-51.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 51",
-        "category": "Panoramas"
-},
+        "title": "Mount Everest Crown Peak above Khumbu Nuptse Ridge",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-52.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 52",
-        "category": "Panoramas"
-},
+        "title": "Ascending Stone Staircases through Namche Bazaar",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-53.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 53",
-        "category": "Panoramas"
-},
+        "title": "Mirror Reflection in Sacred Gokyo Alpine Lake",
+        "category": "Lakes"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-54.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 54",
+        "title": "Panoramic Vista of Gokyo Ri and Cho Oyu Glacier",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-55.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 55",
-        "category": "Panoramas"
-},
+        "title": "Trekkers Navigating Ngozumpa Glacial Moraine Path",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-56.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 56",
-        "category": "Panoramas"
-},
+        "title": "Machhermo Alpine Teahouse Stop with Mountain Views",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-57.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 57",
-        "category": "Panoramas"
-},
+        "title": "Baruntse & Makalu Emerging over High Himalayan Skyline",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-58.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 58",
-        "category": "Panoramas"
-},
+        "title": "Buddhist Stupa with Buddha Eyes overlooking Khumbu Valley",
+        "category": "Heritage"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-59.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 59",
-        "category": "Panoramas"
-},
+        "title": "Alpine Creek Crossing via Wooden Mountain Bridge",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-60.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 60",
+        "title": "Clear Blue Himalayan Skies over Cho La Pass Summit",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-61.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 61",
-        "category": "Panoramas"
-},
+        "title": "Misty Alpine Trail through Juniper and Rhododendron Scrub",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-62.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 62",
-        "category": "Panoramas"
-},
+        "title": "Khumjung Sherpa Village and Hillary School",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-63.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 63",
-        "category": "Panoramas"
-},
+        "title": "Kala Patthar Trail Ascending with Everest in Full View",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-64.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 64",
-        "category": "Panoramas"
-},
+        "title": "Sunlight Glinting across Emerald Waters of Gokyo Lake",
+        "category": "Lakes"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-65.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 65",
-        "category": "Panoramas"
-},
+        "title": "Cho La Pass Prayer Flags Flapping at 5,420m Elevation",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-66.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 66",
+        "title": "Breathtaking 4 Eight-Thousander Panorama from Gokyo Ri",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-67.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 67",
-        "category": "Panoramas"
-},
+        "title": "Tengboche Ridge Teahouses surrounded by Peaks",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-68.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 68",
-        "category": "Panoramas"
-},
+        "title": "Expedition Porters and Trekkers on Historic Trade Route",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-69.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 69",
-        "category": "Panoramas"
-},
+        "title": "Sharp Crest of Ama Dablam against Deep Azure Skies",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-70.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 70",
-        "category": "Panoramas"
-},
+        "title": "Traditional Sherpa Prayer Wheels Spinning at Trail Junction",
+        "category": "Heritage"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-71.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 71",
-        "category": "Panoramas"
-},
+        "title": "Descent from Cho La Pass into Thagnak Valley Basin",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-72.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 72",
+        "title": "Wide Angle View of Gokyo Lake Chain & Ngozumpa Glacier",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-73.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 73",
-        "category": "Panoramas"
-},
+        "title": "Pumori Pyramid Peak rising over Gorak Shep",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-74.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 74",
-        "category": "Panoramas"
-},
+        "title": "Somare Alpine Teahouse Stop before Dingboche",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-75.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 75",
-        "category": "Panoramas"
-},
+        "title": "High Ridge Path from Gokyo toward Dole & Namche",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-76.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 76",
-        "category": "Panoramas"
-},
+        "title": "Glacial Ice Blocks Floating on Gokyo Lake Shore",
+        "category": "Lakes"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-77.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 77",
+        "title": "Sunrise Alpenglow on Nuptse and Everest Summit Pyramid",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-78.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 78",
-        "category": "Panoramas"
-},
+        "title": "Alpine Meadow Walk beneath Lofty Snow-Capped Crags",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-79.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 79",
-        "category": "Panoramas"
-},
+        "title": "Nangkartshang Peak Viewpoint looking toward Makalu",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-80.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 80",
-        "category": "Panoramas"
-},
+        "title": "Lukla Airstrip and Historic Gateway Teahouses",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-81.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 81",
-        "category": "Panoramas"
-},
+        "title": "Trekking along Glacial Meltwater Streams in Gokyo Valley",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-82.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 82",
-        "category": "Panoramas"
-},
+        "title": "Buddhist Chorten blessing Travelers at Sagarmatha National Park",
+        "category": "Heritage"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-83.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 83",
+        "title": "Sweeping Panorama of Khumbu Glacier Lateral Moraine",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-84.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 84",
-        "category": "Panoramas"
-},
+        "title": "Mount Everest & Lhotse South Col seen from Kala Patthar",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-85.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 85",
-        "category": "Panoramas"
-},
+        "title": "Steep Rocky Incline toward Cho La High Pass Summit",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-86.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 86",
-        "category": "Panoramas"
-},
+        "title": "Traditional Stone Teahouses in Khumjung Valley",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-87.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 87",
-        "category": "Panoramas"
-},
+        "title": "Deep Turquoise Hue of Second Gokyo Lake (Taboche Tsho)",
+        "category": "Lakes"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-88.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 88",
+        "title": "Vast Glacial Expanse of the High Everest Region",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-89.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 89",
-        "category": "Panoramas"
-},
+        "title": "Trekkers Approaching Everest Base Camp Expedition Tents",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-90.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 90",
-        "category": "Panoramas"
-},
+        "title": "Ama Dablam Iconic Silhouette in Afternoon Golden Sun",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-91.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 91",
-        "category": "Panoramas"
-},
+        "title": "Crossing the Glacial Moraine into Gokyo Lakes Basin",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-92.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 92",
+        "title": "Himalayan Ridge Traversal with Distant Snow Peaks",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-93.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 93",
-        "category": "Panoramas"
-},
+        "title": "Monjo Village and Sagarmatha National Park Entrance",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-94.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 94",
-        "category": "Panoramas"
-},
+        "title": "Ancient Buddhist Prayer Flags on Cho La Summit Marker",
+        "category": "Heritage"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-95.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 95",
-        "category": "Panoramas"
-},
+        "title": "Nuptse Knife-Edge Ridge Rising above Khumbu Glacier",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-96.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 96",
-        "category": "Panoramas"
-},
+        "title": "Final Trail Descent Returning toward Namche Bazaar",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-97.webp",
         "type": "image",
-        "title": "EBC Cho La Pass Gokyo Trek Expedition View 97",
+        "title": "Majestic Sunset over EBC Cho La Pass and Gokyo Valley",
         "category": "Panoramas"
-}
+      }
     ],
     "everest-base-camp-luxury-trek": [
       {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
-      },
-      {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-01.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 01",
+        "title": "Everest Base Camp Luxury Trek Expedition Panorama",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-02.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 02",
-        "category": "Panoramas"
-},
+        "title": "High Altitude Khumbu Trail & Peaks",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-03.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 03",
-        "category": "Panoramas"
-},
+        "title": "Luxury Mountain Teahouse & Panoramic Landscape",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-04.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 04",
-        "category": "Panoramas"
-},
+        "title": "Alpine Valley Trail Scenic View",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-05.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 05",
+        "title": "Khumbu Himalayan Mountain Range",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-06.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 06",
+        "title": "Majestic Khumbu Mountain Vista",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-07.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 07",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Peaks Panorama",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-08.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 08",
-        "category": "Panoramas"
-},
+        "title": "Khumbu Alpine Trail Scenery",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-09.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 09",
+        "title": "High Mountain Valley Landscape",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-10.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 10",
-        "category": "Panoramas"
-},
+        "title": "Khumbu Glacier & Surrounding Summits",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-11.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 11",
-        "category": "Panoramas"
-},
+        "title": "Luxury Lodge Himalayan Views",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-12.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 12",
-        "category": "Panoramas"
-},
+        "title": "Comfort Mountain Lodge Panorama",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-13.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 13",
+        "title": "Morning Alpenglow on Everest Range",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-14.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 14",
-        "category": "Panoramas"
-},
+        "title": "Dingboche Village & Valley View",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-15.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 15",
+        "title": "Dingboche Himalayan Mountain Panorama",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-16.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 16",
-        "category": "Panoramas"
-},
+        "title": "Trekkers on the Khumbu Expedition Trail",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-17.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 17",
-        "category": "Panoramas"
-},
+        "title": "Everest Route High Mountain Views",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-18.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 18",
+        "title": "Himalayan Alpine Ridge Landscapes",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-19.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 19",
-        "category": "Panoramas"
-},
+        "title": "High Mountain Pass Crossing",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-20.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 20",
+        "title": "Glacial Valley Panorama & Moraine",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-21.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 21",
-        "category": "Panoramas"
-},
+        "title": "High Himalayan Mountain Vista",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-22.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 22",
-        "category": "Panoramas"
-},
+        "title": "Luxury Trek Trail Expedition Walk",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-23.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 23",
-        "category": "Panoramas"
-},
+        "title": "Lukla Flight & Mountain Airstrip View",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-24.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 24",
-        "category": "Panoramas"
-},
+        "title": "Khumbu Valley Mountain Lodge Settlement",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-25.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 25",
-        "category": "Panoramas"
-},
+        "title": "Dramatic Himalayan Peak & Blue Sky",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-26.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 26",
-        "category": "Panoramas"
-},
+        "title": "Alpine Trail Through Rhododendron Forest",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-27.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 27",
-        "category": "Panoramas"
-},
+        "title": "Himalayan Glacier & Moraine Path",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-28.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 28",
-        "category": "Panoramas"
-},
+        "title": "Mountain Vistas from Khumbu Lodge",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-29.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 29",
-        "category": "Panoramas"
-},
+        "title": "Everest Base Camp Approach Trail",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-30.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 30",
+        "title": "Spectacular Ridge Trail Panorama",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-31.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 31",
+        "title": "High Altitude Khumbu Valley Vistas",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-32.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 32",
-        "category": "Panoramas"
-},
+        "title": "Mount Everest & Lhotse High Panorama",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-33.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 33",
-        "category": "Panoramas"
-},
+        "title": "Ama Dablam Close-up Mountain View",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-34.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 34",
-        "category": "Panoramas"
-},
+        "title": "Sherpa Settlement along Khumbu Route",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-35.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 35",
-        "category": "Panoramas"
-},
+        "title": "Sacred Prayer Flags on Mountain Pass",
+        "category": "Heritage"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-36.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 36",
-        "category": "Panoramas"
-},
+        "title": "Kala Patthar Summit & Everest Vista",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-37.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 37",
+        "title": "Khumbu Glacier Towering Ice Formations",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-38.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 38",
-        "category": "Panoramas"
-},
+        "title": "Everest Base Camp (5,364m) Expedition View",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-39.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 39",
-        "category": "Panoramas"
-},
+        "title": "Luxury Teahouse Dining Experience",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-40.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 40",
-        "category": "Panoramas"
-},
+        "title": "Namche Bazaar Mountain Amphitheater",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-41.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 41",
-        "category": "Panoramas"
-},
+        "title": "Suspension Bridge Crossing Dudh Koshi River",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-42.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 42",
-        "category": "Panoramas"
-},
+        "title": "Trekkers Arriving at Luxury Mountain Lodge",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-43.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 43",
+        "title": "Golden Sunrise over Nuptse and Everest",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-44.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 44",
-        "category": "Panoramas"
-},
+        "title": "Tengboche Monastery & Everest Backdrop",
+        "category": "Heritage"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-45.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 45",
-        "category": "Panoramas"
-},
+        "title": "High Alpine Pasture with Grazing Yaks",
+        "category": "Wildlife"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-46.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 46",
-        "category": "Panoramas"
-},
+        "title": "Dramatic Mountain Gorge Cliffside Trail",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-47.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 47",
-        "category": "Panoramas"
-},
+        "title": "Khumbu Icefall & Western Cwm View",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-48.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 48",
+        "title": "Crystal Clear Morning over Himalayan Peaks",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-49.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 49",
-        "category": "Panoramas"
-},
+        "title": "Steep Stone Stairway Ascent to Namche",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-50.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 50",
+        "title": "Morning Mist Clearing Over Alpine Valley",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-51.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 51",
-        "category": "Panoramas"
-},
+        "title": "Traditional Sherpa Chorten along Trail",
+        "category": "Heritage"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-52.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 52",
+        "title": "High Altitude Glacial Ridge Trail",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-53.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 53",
+        "title": "Mountain Panorama from Gorak Shep",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-54.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 54",
-        "category": "Panoramas"
-},
+        "title": "Luxury Mountain Lodge Bedroom with Heated Comfort",
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-55.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 55",
-        "category": "Panoramas"
-},
+        "title": "Alpine Glacial Stream Crossing in Khumbu",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-56.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 56",
-        "category": "Panoramas"
-},
+        "title": "Himalayan Foothills & Pine Forest Trails",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-57.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 57",
+        "title": "Panoramic Mountain Valley Expedition Route",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-58.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 58",
-        "category": "Panoramas"
-},
+        "title": "Luxury Trek Team Celebration at Base Camp",
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-59.webp",
         "type": "image",
-        "title": "Everest Base Camp Luxury Trek Expedition View 59",
+        "title": "Sunset Alpenglow Over Khumbu Valley",
         "category": "Panoramas"
-}
+      }
     ],
     "everest-base-camp-trek": [
-      {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-06.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 06",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-07.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 07",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-08.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 08",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-09.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 09",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-10.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 10",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-11.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 11",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-12.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 12",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-13.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 13",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-14.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 14",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-15.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 15",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-16.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 16",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-17.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 17",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-18.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 18",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-19.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 19",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-20.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 20",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-21.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 21",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-22.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 22",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-23.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 23",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-24.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 24",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-25.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 25",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-26.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 26",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-27.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 27",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-28.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 28",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-29.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek Expedition View 29",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 1 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 1 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 1 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 2 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 2 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 2 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 2 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 3 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 3 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 3 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 3 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 3 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 4 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 4 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 4 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 4 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-5/everest-base-camp-trek-day-5-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 5 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-5/everest-base-camp-trek-day-5-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 5 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 6 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 6 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 6 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 6 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 7 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 7 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 7 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 7 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 7 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 8 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 8 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 8 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 8 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 9 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 9 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 9 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 9 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 9 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-06.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 9 Trail View 06",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 10 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 10 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 10 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 10 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 10 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-06.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 10 Trail View 06",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-07.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 10 Trail View 07",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 11 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 11 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 11 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 11 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 12 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 12 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 12 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 12 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 12 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 13 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 13 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 13 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 14 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 14 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek — Day 14 Trail View 03",
-        "category": "Panoramas"
-}
-    ],
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-01.webp",
+                "type": "image",
+                "title": "Everest Base Camp High Altitude Expedition Trail View",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-02.webp",
+                "type": "image",
+                "title": "Khumbu Valley Alpine Trail & Himalayan Ridge Panorama",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-03.webp",
+                "type": "image",
+                "title": "Dramatic View of Everest and Surrounding Glacial Peaks",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-04.webp",
+                "type": "image",
+                "title": "Suspension Bridge Crossing over Raging Glacial River",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-05.webp",
+                "type": "image",
+                "title": "Sherpa Village Teahouse and Stone Cottages along the Trail",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-06.webp",
+                "type": "image",
+                "title": "Scenic Approach Trail to Namche Bazaar across Dudh Koshi Valley",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-07.webp",
+                "type": "image",
+                "title": "Namche Bazaar Amphitheater and Snowcapped Kongde Ri",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-08.webp",
+                "type": "image",
+                "title": "Prayer Flags Fluttering over Sagarmatha National Park Trail",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-09.webp",
+                "type": "image",
+                "title": "Himalayan Yaks Transporting Expedition Gear to High Camp",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-10.webp",
+                "type": "image",
+                "title": "High Altitude Sherpa Trail with Views of Mount Ama Dablam",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-11.webp",
+                "type": "image",
+                "title": "Panoramic Vistas of Mount Everest, Lhotse and Nuptse from Hotel Everest View",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-12.webp",
+                "type": "image",
+                "title": "Ancient Mani Stones and Chorten Shrines along Khumbu Valley",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-13.webp",
+                "type": "image",
+                "title": "Rhododendron and Pine Forest Trails in Lower Solu-Khumbu",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-14.webp",
+                "type": "image",
+                "title": "Iconic View of Ama Dablam Rising above Alpine Forests",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-15.webp",
+                "type": "image",
+                "title": "Historic Tengboche Monastery Courtyard beneath Himalayan Summits",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-16.webp",
+                "type": "image",
+                "title": "High Alpine Imja Khola River Valley toward Dingboche",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-17.webp",
+                "type": "image",
+                "title": "Expansive Moraine Landscapes along the Khumbu Glacier",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-18.webp",
+                "type": "image",
+                "title": "Acclimatization Ascent toward Nangkartshang Ridge",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-19.webp",
+                "type": "image",
+                "title": "Panoramic View of Cholatse, Taboche and Ama Dablam",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-20.webp",
+                "type": "image",
+                "title": "Thokla Pass Memorial Cairns Dedicated to Fallen Mountaineers",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-21.webp",
+                "type": "image",
+                "title": "Glacial Lateral Moraine Trail approaching Lobuche Settlement",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-22.webp",
+                "type": "image",
+                "title": "Trekkers Arriving at Gorak Shep beneath Pumori",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-23.webp",
+                "type": "image",
+                "title": "Final Push along Rugged Khumbu Glacial Ice Formations",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-24.webp",
+                "type": "image",
+                "title": "Everest Base Camp (5,364 m) Landmark Rock with Prayer Flags",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-25.webp",
+                "type": "image",
+                "title": "Panoramic Himalayan Vista from Kala Patthar overlooking Mount Everest",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-26.webp",
+                "type": "image",
+                "title": "Khumbu Icefall Towering Glacial Seracs and Crevasses",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-27.webp",
+                "type": "image",
+                "title": "Nangkartshang Peak 360-Degree Panoramic View of the Khumbu Range",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-28.webp",
+                "type": "image",
+                "title": "Golden Hour Glow on Lhotse and Nuptse High Mountain Ridge",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/everest-base-camp-trek-gallery-29.webp",
+                "type": "image",
+                "title": "Trek Team Celebration and Triumphant Moments at Base Camp",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-01.webp",
+                "type": "image",
+                "title": "Welcome Greeting at Tribhuvan International Airport in Kathmandu",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-02.webp",
+                "type": "image",
+                "title": "Everest Expedition Equipment Check and Comprehensive Briefing",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-1/everest-base-camp-trek-day-1-03.webp",
+                "type": "image",
+                "title": "Exploring Kathmandu Historic Courtyards and Thamel Streets",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-01.webp",
+                "type": "image",
+                "title": "Thrilling Flight Landing at Tenzing-Hillary Airport in Lukla",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-02.webp",
+                "type": "image",
+                "title": "Meeting the Sherpa Guides and Porter Team in Lukla",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-03.webp",
+                "type": "image",
+                "title": "Trekking alongside the Roaring Dudh Koshi River toward Phakding",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-2/everest-base-camp-trek-day-2-04.webp",
+                "type": "image",
+                "title": "Traditional Sherpa Teahouse Lodge Rest in Phakding",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-01.webp",
+                "type": "image",
+                "title": "Crossing the Iconic High Hillary Suspension Bridge",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-02.webp",
+                "type": "image",
+                "title": "Entering Sagarmatha National Park Checkpoint at Monjo",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-03.webp",
+                "type": "image",
+                "title": "Steep Pine Forest Ascent with First Glimpse of Mount Everest",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-04.webp",
+                "type": "image",
+                "title": "Arrival at Vibrant Sherpa Capital of Namche Bazaar",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-3/everest-base-camp-trek-day-3-05.webp",
+                "type": "image",
+                "title": "Evening Lights over Namche Bazaar Mountain Amphitheater",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-01.webp",
+                "type": "image",
+                "title": "Acclimatization Hike to Syangboche Airstrip and Panoramic Ridge",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-02.webp",
+                "type": "image",
+                "title": "Spectacular Terrace Views of Everest from Hotel Everest View",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-03.webp",
+                "type": "image",
+                "title": "Visiting Traditional Sherpa Settlements of Khumjung and Kunde",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-4/everest-base-camp-trek-day-4-04.webp",
+                "type": "image",
+                "title": "Khumjung Monastery and Historic Hillary School Grounds",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-5/everest-base-camp-trek-day-5-01.webp",
+                "type": "image",
+                "title": "Scenic High Trail descending to Phunki Tenga River Crossing",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-5/everest-base-camp-trek-day-5-02.webp",
+                "type": "image",
+                "title": "Arrival at Sacred Tengboche Monastery beneath Mount Ama Dablam",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-01.webp",
+                "type": "image",
+                "title": "Morning Chorten Trail Walk from Tengboche through Birch Woods",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-02.webp",
+                "type": "image",
+                "title": "Pangboche Village Ancient Monastery and Mani Walls",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-03.webp",
+                "type": "image",
+                "title": "Crossing Imja Khola into Alpine Shrub and Yak Pastures",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-6/everest-base-camp-trek-day-6-04.webp",
+                "type": "image",
+                "title": "Arriving at Stone-Walled Fields of Dingboche Village",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-01.webp",
+                "type": "image",
+                "title": "Acclimatization Ridge Hike up Nangkartshang Peak (5,083 m)",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-02.webp",
+                "type": "image",
+                "title": "Breathtaking 360-Degree Panorama of Makalu and Lhotse",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-03.webp",
+                "type": "image",
+                "title": "Close-up Ridge Perspective of Mount Ama Dablam",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-04.webp",
+                "type": "image",
+                "title": "High Altitude Cairn and Prayer Flags at Nangkartshang Summit",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-7/everest-base-camp-trek-day-7-05.webp",
+                "type": "image",
+                "title": "Afternoon Rest and Warm Teahouse Dining in Dingboche",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-01.webp",
+                "type": "image",
+                "title": "Trekking past Dughla toward the Steep Moraine Incline",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-02.webp",
+                "type": "image",
+                "title": "Ascending the Challenging Zigzag Trail of Thokla Pass",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-03.webp",
+                "type": "image",
+                "title": "Mountaineers Memorial Chortens at the Crest of Thokla Pass",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-8/everest-base-camp-trek-day-8-04.webp",
+                "type": "image",
+                "title": "Following the Khumbu Glacier Lateral Moraine to Lobuche",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-01.webp",
+                "type": "image",
+                "title": "Traversing Rocky Glacial Moraine from Lobuche to Gorak Shep",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-02.webp",
+                "type": "image",
+                "title": "First View of Gorak Shep Sandbed and Mount Pumori",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-03.webp",
+                "type": "image",
+                "title": "Expedition Trail along Khumbu Glacier Moraine towards Base Camp",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-04.webp",
+                "type": "image",
+                "title": "Standing at Everest Base Camp (5,364 m) Landmark Rock",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-05.webp",
+                "type": "image",
+                "title": "Khumbu Icefall Massive Glacial Seracs and Mountaineering Tents",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-9/everest-base-camp-trek-day-9-06.webp",
+                "type": "image",
+                "title": "Triumphant Team Celebration at Everest Base Camp",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-01.webp",
+                "type": "image",
+                "title": "Pre-Dawn Flashlight Climb up Kala Patthar (5,545 m)",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-02.webp",
+                "type": "image",
+                "title": "Sunrise Golden Alpenglow Illuminating Mount Everest Summit",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-03.webp",
+                "type": "image",
+                "title": "Prayer Flags Flying at Kala Patthar Viewpoint Crest",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-04.webp",
+                "type": "image",
+                "title": "Dramatic Nuptse and Khumbu Glacier Vista from Kala Patthar",
+                "category": "Peaks"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-05.webp",
+                "type": "image",
+                "title": "Breakfast at Gorak Shep before Descending the Valley",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-06.webp",
+                "type": "image",
+                "title": "Descent past Lobuche down the Wide Glacial Valley",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-10/everest-base-camp-trek-day-10-07.webp",
+                "type": "image",
+                "title": "Arrival at Pheriche Himalayan Rescue Association Settlement",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-01.webp",
+                "type": "image",
+                "title": "Descending through Tsuro Og toward Pangboche and Tengboche",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-02.webp",
+                "type": "image",
+                "title": "Lush Rhododendron Forests and Gentle Downhill Paths",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-03.webp",
+                "type": "image",
+                "title": "High Mountain Balcony Trail Contouring around Kyangjuma",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-11/everest-base-camp-trek-day-11-04.webp",
+                "type": "image",
+                "title": "Returning to Namche Bazaar Bakery Cafes and Warm Showers",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-01.webp",
+                "type": "image",
+                "title": "Steep Pine Forest Descent from Namche to Hillary Bridge",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-02.webp",
+                "type": "image",
+                "title": "Exiting Sagarmatha National Park Gate at Jorsalle",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-03.webp",
+                "type": "image",
+                "title": "Pleasant Riverside Walking through Monjo and Phakding",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-04.webp",
+                "type": "image",
+                "title": "Final Gentle Uphill Trail through Chheplung to Lukla",
+                "category": "Trail"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-12/everest-base-camp-trek-day-12-05.webp",
+                "type": "image",
+                "title": "Passing the Lukla Pasang Lhamu Memorial Gate",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-01.webp",
+                "type": "image",
+                "title": "Morning Takeoff from Lukla Airport Runway into Alpine Skies",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-02.webp",
+                "type": "image",
+                "title": "Breathtaking Mountain Aerial Panoramas en route to Kathmandu",
+                "category": "Panoramas"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-13/everest-base-camp-trek-day-13-03.webp",
+                "type": "image",
+                "title": "Farewell Dinner Celebration with Igloo Himalaya Treks Team",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-01.webp",
+                "type": "image",
+                "title": "Final Morning Walks and Souvenir Shopping in Thamel",
+                "category": "Villages"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-02.webp",
+                "type": "image",
+                "title": "Presentation of Official Everest Base Camp Trek Certificate",
+                "category": "Heritage"
+        },
+        {
+                "file": "images/gallery/everest-base-camp-trek/day-14/everest-base-camp-trek-day-14-03.webp",
+                "type": "image",
+                "title": "Airport Departure Transfer for International Flight Home",
+                "category": "Heritage"
+        }
+],
     "everest-base-camp-trek-16-days": [
-      {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days Expedition View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days Expedition View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days Expedition View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days Expedition View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days Expedition View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-06.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days Expedition View 06",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-07.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days Expedition View 07",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-08.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days Expedition View 08",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-09.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days Expedition View 09",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-10.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days Expedition View 10",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-11.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days Expedition View 11",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 1 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 1 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 1 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-06.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 2 Trail View 06",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 3 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 3 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 3 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 3 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 4 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 4 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 4 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 4 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 5 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 5 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 5 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 5 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 5 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 6 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 6 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 6 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 7 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 7 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 7 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 7 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-06.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 8 Trail View 06",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-06.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 9 Trail View 06",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-06.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 06",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-07.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 10 Trail View 07",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-06.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 11 Trail View 06",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 12 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 12 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 12 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 12 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-05.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 12 Trail View 05",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 13 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-02.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 13 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-03.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 13 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-04.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 13 Trail View 04",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-14/everest-base-camp-trek-16-days-day-14-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 14 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-base-camp-trek-16-days/day-15/everest-base-camp-trek-16-days-day-15-01.webp",
-        "type": "image",
-        "title": "Everest Base Camp Trek 16 Days — Day 15 Trail View 01",
-        "category": "Panoramas"
-}
-    ],
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-01.webp",
+    "type": "image",
+    "title": "Trekkers Celebrating Arrival at Everest Base Camp (5,364m)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-01.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-02.webp",
+    "type": "image",
+    "title": "Suspension Bridge Crossing over the Glacial Dudh Koshi Gorge",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.50",
+    "fileName": "everest-base-camp-trek-16-days-gallery-02.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-03.webp",
+    "type": "image",
+    "title": "Dudh Koshi River Valley Trail Towards Phakding and Monjo",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.56",
+    "fileName": "everest-base-camp-trek-16-days-gallery-03.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-04.webp",
+    "type": "image",
+    "title": "Lobuche Alpine Glacial Moraine and Nuptse Ridge Lookout",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-04.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-05.webp",
+    "type": "image",
+    "title": "Golden Sunrise Alpenglow Over Mount Everest and Nuptse from Kala Patthar (5,545m)",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-gallery-05.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-06.webp",
+    "type": "image",
+    "title": "Kala Patthar Summit Ridge Trail Facing Pumori and Mount Everest",
+    "category": "Peaks",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-06.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-07.webp",
+    "type": "image",
+    "title": "Khumbu Icefall Towering Seracs and Glacial Pinnacles near Base Camp",
+    "category": "Peaks",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-07.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-08.webp",
+    "type": "image",
+    "title": "Steep Forest Switchbacks on the Ascent to Namche Bazaar",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-08.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-09.webp",
+    "type": "image",
+    "title": "Hillary Double Suspension Bridge Spanning Dudh Koshi River Gorge",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-09.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-10.webp",
+    "type": "image",
+    "title": "Tengboche Monastery Courtyard and Himalayan Mountain Vista",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-gallery-10.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-11.webp",
+    "type": "image",
+    "title": "Ama Dablam Soaring Above Imja Valley Alpine Teahouse Route",
+    "category": "Peaks",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-11.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 1: Kathmandu Arrival & Briefing (Photo 01)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.56",
+    "fileName": "everest-base-camp-trek-16-days-day-1-01.webp",
+    "day": 1
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 1: Kathmandu Arrival & Briefing (Photo 02)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "1.06",
+    "fileName": "everest-base-camp-trek-16-days-day-1-02.webp",
+    "day": 1
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-03.webp",
+    "type": "image",
+    "title": "Arrival Welcome in Kathmandu & Expedition Briefing",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.28",
+    "fileName": "everest-base-camp-trek-16-days-day-1-03.webp",
+    "day": 1
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 01)",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.50",
+    "fileName": "everest-base-camp-trek-16-days-day-2-01.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 02)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-2-02.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 03)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-2-03.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 04)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-2-04.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-05.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 05)",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "2.22",
+    "fileName": "everest-base-camp-trek-16-days-day-2-05.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-06.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 06)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-2-06.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 3: Lukla Flight & Trek to Phakding (Photo 01)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-3-01.webp",
+    "day": 3
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 3: Lukla Flight & Trek to Phakding (Photo 02)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.56",
+    "fileName": "everest-base-camp-trek-16-days-day-3-02.webp",
+    "day": 3
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 3: Lukla Flight & Trek to Phakding (Photo 03)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.78",
+    "fileName": "everest-base-camp-trek-16-days-day-3-03.webp",
+    "day": 3
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 3: Lukla Flight & Trek to Phakding (Photo 04)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-3-04.webp",
+    "day": 3
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 4: Phakding to Namche Bazaar Ascent (Photo 01)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-4-01.webp",
+    "day": 4
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 4: Phakding to Namche Bazaar Ascent (Photo 02)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-4-02.webp",
+    "day": 4
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 4: Phakding to Namche Bazaar Ascent (Photo 03)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-4-03.webp",
+    "day": 4
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 4: Phakding to Namche Bazaar Ascent (Photo 04)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.91",
+    "fileName": "everest-base-camp-trek-16-days-day-4-04.webp",
+    "day": 4
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-01.webp",
+    "type": "image",
+    "title": "Namche Bazaar Acclimatisation Hike Overlooking Everest & Ama Dablam — View 01",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-5-01.webp",
+    "day": 5
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-02.webp",
+    "type": "image",
+    "title": "Namche Bazaar Acclimatisation Hike Overlooking Everest & Ama Dablam — View 02",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-5-02.webp",
+    "day": 5
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-03.webp",
+    "type": "image",
+    "title": "Namche Bazaar Acclimatisation Hike Overlooking Everest & Ama Dablam — View 03",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-5-03.webp",
+    "day": 5
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-04.webp",
+    "type": "image",
+    "title": "Namche Bazaar Acclimatisation Hike Overlooking Everest & Ama Dablam — View 04",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.50",
+    "fileName": "everest-base-camp-trek-16-days-day-5-04.webp",
+    "day": 5
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-05.webp",
+    "type": "image",
+    "title": "Namche Bazaar Acclimatisation Hike Overlooking Everest & Ama Dablam — View 05",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.87",
+    "fileName": "everest-base-camp-trek-16-days-day-5-05.webp",
+    "day": 5
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 6: Namche Bazaar to Tengboche Monastery (Photo 01)",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-6-01.webp",
+    "day": 6
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 6: Namche Bazaar to Tengboche Monastery (Photo 02)",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-6-02.webp",
+    "day": 6
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 6: Namche Bazaar to Tengboche Monastery (Photo 03)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.71",
+    "fileName": "everest-base-camp-trek-16-days-day-6-03.webp",
+    "day": 6
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 7: Tengboche to Dingboche Alpine Valley (Photo 01)",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-7-01.webp",
+    "day": 7
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 7: Tengboche to Dingboche Alpine Valley (Photo 02)",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.34",
+    "fileName": "everest-base-camp-trek-16-days-day-7-02.webp",
+    "day": 7
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 7: Tengboche to Dingboche Alpine Valley (Photo 03)",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-7-03.webp",
+    "day": 7
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 7: Tengboche to Dingboche Alpine Valley (Photo 04)",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-7-04.webp",
+    "day": 7
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-01.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 01",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-01.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-02.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 02",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-02.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-03.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 03",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-03.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-04.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 04",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-04.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-05.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 05",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-05.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-06.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 06",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-06.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 01)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-9-01.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 02)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-9-02.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 03)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-9-03.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 04)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-9-04.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-05.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 05)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-9-05.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-06.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 06)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-9-06.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 01",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-10-01.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 02",
+    "category": "Peaks",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-10-02.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 03",
+    "category": "Peaks",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-10-03.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 04",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-10-04.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-05.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 05",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.78",
+    "fileName": "everest-base-camp-trek-16-days-day-10-05.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-06.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 06",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-10-06.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-07.webp",
+    "type": "image",
+    "title": "Gorakshep Alpine Teahouse Settlement (5,164m) Beneath Pumori & Kala Patthar",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.78",
+    "fileName": "everest-base-camp-trek-16-days-day-10-07.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-01.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 01",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-11-01.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-02.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 02",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-11-02.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-03.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 03",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-11-03.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-04.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 04",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-11-04.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-05.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 05",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-11-05.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-06.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 06",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-11-06.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 12: Pheriche to Namche Bazaar Return (Photo 01)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-12-01.webp",
+    "day": 12
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 12: Pheriche to Namche Bazaar Return (Photo 02)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-12-02.webp",
+    "day": 12
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 12: Pheriche to Namche Bazaar Return (Photo 03)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-12-03.webp",
+    "day": 12
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 12: Pheriche to Namche Bazaar Return (Photo 04)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-12-04.webp",
+    "day": 12
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-05.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 12: Pheriche to Namche Bazaar Return (Photo 05)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.89",
+    "fileName": "everest-base-camp-trek-16-days-day-12-05.webp",
+    "day": 12
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 13: Namche Bazaar to Monjo Descent (Photo 01)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-13-01.webp",
+    "day": 13
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 13: Namche Bazaar to Monjo Descent (Photo 02)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.50",
+    "fileName": "everest-base-camp-trek-16-days-day-13-02.webp",
+    "day": 13
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 13: Namche Bazaar to Monjo Descent (Photo 03)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-13-03.webp",
+    "day": 13
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 13: Namche Bazaar to Monjo Descent (Photo 04)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-13-04.webp",
+    "day": 13
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-14/everest-base-camp-trek-16-days-day-14-01.webp",
+    "type": "image",
+    "title": "Farewell Celebration Dinner with Sherpa Expedition Team in Kathmandu",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-14-01.webp",
+    "day": 14
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-15/everest-base-camp-trek-16-days-day-15-01.webp",
+    "type": "image",
+    "title": "Farewell Celebration Dinner with Sherpa Expedition Team in Kathmandu",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-15-01.webp",
+    "day": 15
+  }
+],
     "everest-base-camp-trek-heli-return": [
       {
         "file": "video/gallery/treks/everest-base-camp.mp4",
@@ -27935,1687 +28672,1586 @@ function setupTrekPhotoGallery() {
     ],
     "everest-chola-and-renjo-la-pass-trek": [
       {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
-      },
-      {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-01.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 01",
-        "category": "Panoramas"
-},
+        "title": "Everest Cho La and Renjo La Pass High Himalayan Panorama",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-02.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 02",
-        "category": "Panoramas"
-},
+        "title": "Everest Base Camp Landmark Boulder with Prayer Flags (5,364 m)",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 810
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-03.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 03",
-        "category": "Panoramas"
-},
+        "title": "Trekkers Celebrating at Everest Base Camp Memorial Landmark",
+        "category": "Trail",
+        "width": 720,
+        "height": 540
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-04.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 04",
-        "category": "Panoramas"
-},
+        "title": "Expedition Tents on Khumbu Glacier at Everest Base Camp",
+        "category": "Peaks",
+        "width": 960,
+        "height": 541
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-05.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 05",
-        "category": "Panoramas"
-},
+        "title": "Alpine Valley Trail towards Khumbu High Passes",
+        "category": "Trail",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-06.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 06",
-        "category": "Panoramas"
-},
+        "title": "Panoramic Himalayan Ridge View over High Mountain Valley",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 608
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-07.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 07",
-        "category": "Panoramas"
-},
+        "title": "Glacial Moraine Trail on Approach to Cho La Pass",
+        "category": "Trail",
+        "width": 1080,
+        "height": 608
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-08.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 08",
-        "category": "Panoramas"
-},
+        "title": "High-Altitude Rocky Ridge Path through Sagarmatha National Park",
+        "category": "Trail",
+        "width": 1080,
+        "height": 608
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-09.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 09",
-        "category": "Panoramas"
-},
+        "title": "Ama Dablam (6,812 m) Towering Majestic Peak Portrait",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 1620
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-10.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 10",
-        "category": "Panoramas"
-},
+        "title": "Traditional Sherpa Teahouse Lodge with Mountain Backdrop",
+        "category": "Villages",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-11.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 11",
-        "category": "Panoramas"
-},
+        "title": "Sacred Turquoise Gokyo Lake Shoreline and Buddhist Chorten",
+        "category": "Heritage",
+        "width": 1080,
+        "height": 722
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-12.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 12",
-        "category": "Panoramas"
-},
+        "title": "Four 8,000-Meter Giants Panorama from Gokyo Ri (5,357 m)",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-13.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 13",
-        "category": "Panoramas"
-},
+        "title": "Traditional Tibetan Buddhist Prayer Wheels in Khumbu Village",
+        "category": "Heritage",
+        "width": 1080,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-14.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 14",
-        "category": "Panoramas"
-},
+        "title": "Wide Panorama of Ngozumpa Glacier and Himalayan Peaks",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 486
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-15.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 15",
-        "category": "Panoramas"
-},
+        "title": "Panoramic Glacial Valley Route towards Renjo La Pass",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 486
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-16.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 16",
-        "category": "Panoramas"
-},
+        "title": "Trekkers Ascending High Stone Steps on Renjo La Pass Trail",
+        "category": "Trail",
+        "width": 1080,
+        "height": 609
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-17.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 17",
-        "category": "Panoramas"
-},
+        "title": "Renjo La High Pass Summit Crest Draped in Prayer Flags (5,360 m)",
+        "category": "Heritage",
+        "width": 960,
+        "height": 541
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-18.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 18",
-        "category": "Panoramas"
-},
+        "title": "Mount Everest and Nuptse Summit Vista from High Alpine Balcony",
+        "category": "Peaks",
+        "width": 960,
+        "height": 541
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-19.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 19",
-        "category": "Panoramas"
-},
+        "title": "Glacial Lake Reflections under Clear Himalayan Sky",
+        "category": "Panoramas",
+        "width": 960,
+        "height": 541
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-20.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 20",
-        "category": "Panoramas"
-},
+        "title": "High Pass Summit Crossing Viewpoint with Rolling Alpine Clouds",
+        "category": "Panoramas",
+        "width": 960,
+        "height": 541
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-21.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 21",
-        "category": "Panoramas"
-},
+        "title": "Namche Bazaar (3,440 m) Amphitheater and Pine Forests",
+        "category": "Villages",
+        "width": 1080,
+        "height": 810
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-22.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 22",
-        "category": "Panoramas"
-},
+        "title": "Historic Tengboche Monastery with Ama Dablam in Background",
+        "category": "Heritage",
+        "width": 1080,
+        "height": 1440
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-23.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 23",
-        "category": "Panoramas"
-},
+        "title": "Expedition Porter Traversing Dudh Koshi River Suspension Bridge",
+        "category": "Trail",
+        "width": 1080,
+        "height": 1350
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-24.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 24",
-        "category": "Panoramas"
-},
+        "title": "Dingboche Stone-Walled Agricultural Village & Lodges (4,410 m)",
+        "category": "Villages",
+        "width": 960,
+        "height": 698
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-25.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 25",
-        "category": "Panoramas"
-},
+        "title": "Acclimatization Ascent towards Nangkartshang Peak (5,083 m)",
+        "category": "Trail",
+        "width": 960,
+        "height": 928
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-26.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 26",
-        "category": "Panoramas"
-},
+        "title": "Lobuche Teahouses beneath Nuptse and Everest Glacier",
+        "category": "Villages",
+        "width": 1080,
+        "height": 587
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-27.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 27",
-        "category": "Panoramas"
-},
+        "title": "Gorak Shep (5,164 m) Final Outpost before Base Camp",
+        "category": "Villages",
+        "width": 1080,
+        "height": 590
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-28.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 28",
-        "category": "Panoramas"
-},
+        "title": "Khumbu Icefall Séracs and Massive Ice Formations",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 586
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-29.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 29",
-        "category": "Panoramas"
-},
+        "title": "Kala Patthar Summit Viewpoint (5,545 m) of Mount Everest",
+        "category": "Peaks",
+        "width": 720,
+        "height": 540
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-30.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 30",
-        "category": "Panoramas"
-},
+        "title": "Dzongla Settlement Sheltered beneath Dramatic Cholatse Peak",
+        "category": "Villages",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-31.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 31",
-        "category": "Panoramas"
-},
+        "title": "Morning Departure across Alpine Scree towards Cho La Pass",
+        "category": "Trail",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-32.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 32",
-        "category": "Panoramas"
-},
+        "title": "Steep Rocky Scramble of Cho La Pass (5,420 m)",
+        "category": "Trail",
+        "width": 1080,
+        "height": 1440
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-33.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 33",
-        "category": "Panoramas"
-},
+        "title": "Crossing the Cho La Glacial Snowfield and Ice Saddle",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-34.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 34",
-        "category": "Panoramas"
-},
+        "title": "Cho La Pass Summit Landmark with Colorful Prayer Flags",
+        "category": "Heritage",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-35.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 35",
-        "category": "Panoramas"
-},
+        "title": "Descending Cho La Pass toward Thagnak Valley Basin",
+        "category": "Trail",
+        "width": 1080,
+        "height": 810
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-36.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 36",
-        "category": "Panoramas"
-},
+        "title": "Thagnak Teahouse Village nestled beneath Moraine Slopes",
+        "category": "Villages",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-37.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 37",
-        "category": "Panoramas"
-},
+        "title": "Navigating the Rocky Lateral Moraine of Ngozumpa Glacier",
+        "category": "Trail",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-38.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 38",
-        "category": "Panoramas"
-},
+        "title": "Turquoise Waters of Gokyo Third Lake (Dudh Pokhari)",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-39.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 39",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakeside Village with Mount Cho Oyu (8,188 m) Horizon",
+        "category": "Villages",
+        "width": 1080,
+        "height": 810
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-40.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 40",
-        "category": "Panoramas"
-},
+        "title": "Sunlit Reflections on the Pristine Surface of Gokyo Lake",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 810
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-41.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 41",
-        "category": "Panoramas"
-},
+        "title": "Early Dawn Ascent to Gokyo Ri (5,357 m)",
+        "category": "Trail",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-42.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 42",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Ri Summit Panoramas of Everest, Lhotse and Makalu",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-43.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 43",
-        "category": "Panoramas"
-},
+        "title": "Upper Sacred Gokyo Lakes and Ngozumpa Glacier Expanse",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 810
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-44.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 44",
-        "category": "Panoramas"
-},
+        "title": "Western Ridge Ascent from Gokyo towards Renjo La Pass",
+        "category": "Trail",
+        "width": 1080,
+        "height": 1440
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-45.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 45",
-        "category": "Panoramas"
-},
+        "title": "Renjo La Pass (5,360 m) Overlook of Gokyo Lakes and Mount Everest",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-46.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 46",
-        "category": "Panoramas"
-},
+        "title": "Majestic Khumbu Mountain Giants from Renjo La Pass",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-47.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 47",
-        "category": "Panoramas"
-},
+        "title": "Descent from Renjo La along Stone Staircases to Lungden",
+        "category": "Trail",
+        "width": 1080,
+        "height": 1440
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-48.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 48",
-        "category": "Panoramas"
-},
+        "title": "Remote High Pastures and Yak Grazing Grounds in Bhote Koshi Valley",
+        "category": "Trail",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-49.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 49",
-        "category": "Panoramas"
-},
+        "title": "Quiet Teahouses in Peaceful Lungden Village (4,380 m)",
+        "category": "Villages",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-50.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 50",
-        "category": "Panoramas"
-},
+        "title": "Historic Thame Village on Ancient Trans-Himalayan Salt Route",
+        "category": "Villages",
+        "width": 1280,
+        "height": 683
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-51.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 51",
-        "category": "Panoramas"
-},
+        "title": "Ancient Thame Gompa Cliffside Monastery",
+        "category": "Heritage",
+        "width": 1440,
+        "height": 1913
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-52.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 52",
-        "category": "Panoramas"
-},
+        "title": "High Balcony Cliffside Trail between Thame and Namche Bazaar",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-53.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 53",
-        "category": "Panoramas"
-},
+        "title": "Hillary Suspension Bridge Crossing high above Dudh Koshi River",
+        "category": "Trail",
+        "width": 1440,
+        "height": 622
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-54.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 54",
-        "category": "Panoramas"
-},
+        "title": "Lush Pine and Rhododendron Trail towards Lukla",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1913
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-55.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 55",
-        "category": "Panoramas"
-},
+        "title": "Tenzing-Hillary Airport Runway at Lukla (2,840 m)",
+        "category": "Villages",
+        "width": 1440,
+        "height": 1059
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-56.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 56",
-        "category": "Panoramas"
-},
+        "title": "Trekkers Celebrating Double High Pass Crossing Expedition",
+        "category": "Heritage",
+        "width": 1440,
+        "height": 2031
+      },
       {
         "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-57.webp",
         "type": "image",
-        "title": "Everest Chola and Renjo La Pass Trek Expedition View 57",
-        "category": "Panoramas"
-}
+        "title": "Igloo Himalaya Treks High Altitude Team and Guides Summit Moment",
+        "category": "Heritage",
+        "width": 1440,
+        "height": 1920
+      }
     ],
     "everest-three-passes-trek": [
       {
         "file": "video/gallery/treks/everest-three-passes-trek.mp4",
         "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
+        "poster": "images/gallery/everest-three-passes-trek/everest-three-passes-video-thumb-03.webp",
+        "title": "Everest Three Passes Trek Cinematic Route Overview",
+        "caption": "Cross Renjo La, Cho La, and Kongma La with Sagarmatha vistas",
+        "category": "Videos",
+        "duration": "0:45"
       },
       {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
+        "file": "video/gallery/treks/everest-three-passes-high-mountain-panorama.mp4",
         "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
+        "poster": "images/gallery/everest-three-passes-trek/everest-three-passes-video-thumb-01.webp",
+        "title": "High Altitude Pass Crossing & 360 Himalayan Panoramas",
+        "caption": "Authentic mountain footage captured crossing the high passes",
+        "category": "Videos",
+        "duration": "0:30"
       },
       {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
+        "file": "video/gallery/treks/everest-three-passes-khumbu-heritage-stupa.mp4",
         "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
+        "poster": "images/gallery/everest-three-passes-trek/everest-three-passes-video-thumb-02.webp",
+        "title": "Khumbu Valley Sherpa Heritage & Sacred Stupas",
+        "caption": "Cultural prayer flags, ancient monasteries, and Sherpa settlements",
+        "category": "Videos",
+        "duration": "0:25"
       },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-01.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 01",
-        "category": "Panoramas"
-},
+        "title": "Mount Everest & Nuptse Alpenglow Sunrise Panorama",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 783
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-02.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 02",
-        "category": "Panoramas"
-},
+        "title": "Turquoise Gokyo Lake with Mount Everest & Cho Oyu Backdrop",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1920
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-03.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 03",
-        "category": "Panoramas"
-},
+        "title": "Everest Base Camp (5,364m) Historic Glacier Landmark",
+        "category": "Peaks",
+        "width": 1440,
+        "height": 810
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-04.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 04",
-        "category": "Panoramas"
-},
+        "title": "Namche Bazaar Sherpa Capital & High Altitude Stupa",
+        "category": "Villages",
+        "width": 1440,
+        "height": 690
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-05.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 05",
-        "category": "Panoramas"
-},
+        "title": "Hillary Suspension Bridge Crossing over Dudh Koshi River",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-06.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 06",
-        "category": "Panoramas"
-},
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-07.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 07",
-        "category": "Panoramas"
-},
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-08.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 08",
-        "category": "Panoramas"
-},
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-09.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 09",
-        "category": "Panoramas"
-},
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-10.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 10",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-11.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 11",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-12.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 12",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-13.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 13",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-14.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 14",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-15.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 15",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-16.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 16",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-17.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 17",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-18.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 18",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-19.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 19",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-20.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 20",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-21.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 21",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-22.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 22",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-23.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 23",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-24.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 24",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-25.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 25",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-26.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 26",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-27.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 27",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-28.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 28",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-29.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 29",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-30.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 30",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-31.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 31",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-32.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 32",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-33.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 33",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-34.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 34",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-35.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 35",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-36.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 36",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-37.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 37",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-38.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 38",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-39.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 39",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-40.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 40",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-41.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 41",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-42.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 42",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-43.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 43",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-44.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 44",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-45.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 45",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-46.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 46",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-47.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 47",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-48.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 48",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-49.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 49",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-50.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 50",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-51.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 51",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-52.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 52",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-53.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 53",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-54.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 54",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-55.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 55",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-56.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 56",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-57.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 57",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-58.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 58",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-59.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 59",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-60.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 60",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-61.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 61",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-62.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 62",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-63.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 63",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-64.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 64",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-65.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 65",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-66.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 66",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-67.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 67",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-68.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 68",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-69.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 69",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-70.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 70",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-71.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 71",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-72.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 72",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-73.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 73",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-74.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 74",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-75.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 75",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-76.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 76",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-77.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 77",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-78.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 78",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-79.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 79",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-80.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 80",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-81.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 81",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-82.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 82",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-83.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 83",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-84.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 84",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-85.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 85",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-86.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 86",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-87.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 87",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-88.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 88",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-89.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 89",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-90.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 90",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-91.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 91",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-92.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 92",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-93.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 93",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-94.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 94",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-95.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 95",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-96.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 96",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-97.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 97",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-98.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 98",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-99.webp",
-        "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 99",
-        "category": "Panoramas"
-},
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-100.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 100",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-101.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 101",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-102.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 102",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-103.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 103",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-104.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 104",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-105.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 105",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 608
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-106.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 106",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 607
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-107.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 107",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 726
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-108.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 108",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1108,
+        "height": 1477
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-109.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 109",
-        "category": "Panoramas"
-},
+        "title": "Fdsfds(1)",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1913
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-110.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 110",
-        "category": "Panoramas"
-},
+        "title": "Fvfevgfregree",
+        "category": "Trail",
+        "width": 1440,
+        "height": 986
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-111.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 111",
-        "category": "Panoramas"
-},
+        "title": "Gfhfghgfhgf",
+        "category": "Trail",
+        "width": 1440,
+        "height": 628
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-112.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 112",
-        "category": "Panoramas"
-},
+        "title": "Glacial Turquoise Gokyo Alpine Lake",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1346
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-113.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 113",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Ri Summit High Altitude Panorama",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-114.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 114",
-        "category": "Panoramas"
-},
+        "title": "Trekking along the Gokyo Valley & Glacial Ridge",
+        "category": "Trail",
+        "width": 1080,
+        "height": 810
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-115.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 115",
-        "category": "Panoramas"
-},
+        "title": "Trekking along the Gokyo Valley & Glacial Ridge",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-116.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 116",
-        "category": "Panoramas"
-},
+        "title": "Grregrfgregre",
+        "category": "Trail",
+        "width": 960,
+        "height": 1280
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-117.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 117",
-        "category": "Panoramas"
-},
+        "title": "Igloo Himalaya Treks Pvt.jpghjtyjyt",
+        "category": "Trail",
+        "width": 1077,
+        "height": 627
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-118.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 118",
-        "category": "Panoramas"
-},
+        "title": "Madb4112",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1913
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-119.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 119",
-        "category": "Panoramas"
-},
+        "title": "Mwtj3313",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-12.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-120.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 120",
-        "category": "Panoramas"
-},
+        "title": "Picture1.jpghggfhgf",
+        "category": "Trail",
+        "width": 921,
+        "height": 632
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-121.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 121",
-        "category": "Panoramas"
-},
+        "title": "Received 690123049867770",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-122.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 122",
-        "category": "Panoramas"
-},
+        "title": "Rfgerfgreger",
+        "category": "Trail",
+        "width": 1440,
+        "height": 750
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-123.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 123",
-        "category": "Panoramas"
-},
+        "title": "Rgregre",
+        "category": "Trail",
+        "width": 1024,
+        "height": 768
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-124.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 124",
-        "category": "Panoramas"
-},
+        "title": "Sdndjkldsk",
+        "category": "Trail",
+        "width": 1024,
+        "height": 768
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-125.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 125",
-        "category": "Panoramas"
-},
+        "title": "Sdsadsa",
+        "category": "Trail",
+        "width": 672,
+        "height": 396
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-126.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 126",
-        "category": "Panoramas"
-},
+        "title": "Tpoh1680",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-127.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 127",
-        "category": "Panoramas"
-},
+        "title": "Vfdvfdvf",
+        "category": "Trail",
+        "width": 700,
+        "height": 525
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-128.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 128",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 2031
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-129.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 129",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-13.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-130.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 130",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-131.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 131",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1200,
+        "height": 1600
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-132.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 132",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-133.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 133",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-134.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 134",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 608
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-135.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 135",
-        "category": "Panoramas"
-},
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1920
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-136.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 136",
-        "category": "Panoramas"
-},
+        "title": "Yhjytrhty",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
       {
         "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-137.webp",
         "type": "image",
-        "title": "Everest Three Passes Trek Expedition View 137",
-        "category": "Panoramas"
-}
+        "title": "Yhyththyt",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-14.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-15.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-16.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-17.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-18.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-19.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-20.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 2402
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-21.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-22.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-23.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-24.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-25.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-26.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-27.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-28.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-29.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-30.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-31.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-32.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-33.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-34.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-35.webp",
+        "type": "image",
+        "title": "High Himalayan Mountain Passes & Alpine Ridge Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-36.webp",
+        "type": "image",
+        "title": "High Himalayan Mountain Passes & Alpine Ridge Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-37.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-38.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-39.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-40.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-41.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-42.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-43.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-44.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-45.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-46.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-47.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-48.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-49.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-50.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-51.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-52.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-53.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-54.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-55.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 615
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-56.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-57.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-58.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-59.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-60.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-61.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-62.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-63.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-64.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-65.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-66.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-67.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-68.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-69.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-70.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-71.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-72.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-73.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-74.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-75.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-76.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-77.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-78.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-79.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-80.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-81.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-82.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-83.webp",
+        "type": "image",
+        "title": "382715001 2265822110284903 241556308802986790 N",
+        "category": "Trail",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-84.webp",
+        "type": "image",
+        "title": "435724810 2390013377865775 7686682787743530464 N",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-85.webp",
+        "type": "image",
+        "title": "43fregfre",
+        "category": "Trail",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-86.webp",
+        "type": "image",
+        "title": "475303986 122102641868746880 655371408688521844 N",
+        "category": "Trail",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-87.webp",
+        "type": "image",
+        "title": "504427753 4168837146771585 1375624989550384284 N",
+        "category": "Trail",
+        "width": 1152,
+        "height": 2048
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-88.webp",
+        "type": "image",
+        "title": "518318006 1156781536465481 884872711828658685 N",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-89.webp",
+        "type": "image",
+        "title": "Dsfdsfdgv",
+        "category": "Trail",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-90.webp",
+        "type": "image",
+        "title": "Dsvfdsfdsdsds",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1084
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-91.webp",
+        "type": "image",
+        "title": "Dvsvdsvds",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-92.webp",
+        "type": "image",
+        "title": "Khumbu Glacier & Everest Base Camp Vista",
+        "category": "Panoramas",
+        "width": 1021,
+        "height": 766
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-93.webp",
+        "type": "image",
+        "title": "Ecbg",
+        "category": "Trail",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-94.webp",
+        "type": "image",
+        "title": "Everest Trekking Map",
+        "category": "Peaks",
+        "width": 700,
+        "height": 497
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-95.webp",
+        "type": "image",
+        "title": "Everest Expeditions 2",
+        "category": "Peaks",
+        "width": 896,
+        "height": 782
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-96.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-97.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-98.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-99.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
+      }
     ],
     "everest-view-trek": [
       {
@@ -31693,1166 +32329,943 @@ function setupTrekPhotoGallery() {
     ],
     "gokyo-lakes-luxury-trek": [
       {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 1 Trail View 01",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 1 Trail View 02",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 1 Trail View 03",
+        "category": "Villages"
       },
       {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "a-detailed-map-of-the-gokyo-lake-with-ranjo-la-pass-trek-with-a-altitude-graph.jpg",
-        "title": "A Detailed Map Of The Gokyo Lake With Ranjo La Pass Trek With A Altitude Graph",
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 10 Trail View 01",
         "category": "Trail"
       },
       {
-        "file": "a-detailed-map-of-the-gokyo-lake-with-ranjo-la-pass-trek-with-a-altitude-graph.webp",
-        "title": "A Detailed Map Of The Gokyo Lake With Ranjo La Pass Trek With A Altitude Graph",
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 10 Trail View 02",
         "category": "Trail"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 02",
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 10 Trail View 03",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 10 Trail View 04",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 10 Trail View 05",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 11 Trail View 01",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 11 Trail View 02",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 11 Trail View 03",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 11 Trail View 04",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 11 Trail View 05",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 13 Trail View 01",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 13 Trail View 02",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 14 Trail View 01",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 14 Trail View 02",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 14 Trail View 03",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 14 Trail View 04",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 2 Trail View 01",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 2 Trail View 02",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 2 Trail View 03",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 2 Trail View 04",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 2 Trail View 05",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 3 Trail View 01",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 3 Trail View 02",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 3 Trail View 03",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 3 Trail View 04",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 3 Trail View 05",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 01",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 02",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 03",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 04",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 05",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 06",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 07",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 5 Trail View 01",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 5 Trail View 02",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 5 Trail View 03",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 5 Trail View 04",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 01",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 02",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 03",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 04",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 05",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 06",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 01",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 02",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 03",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 04",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 05",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 06",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 07",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 08",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 01",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 02",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-2.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 2",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 03",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-3.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek 3",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 04",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 05",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-02.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 02",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 06",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 07",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks-03.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks 03",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 08",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.jpg",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-09.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 09",
         "category": "Peaks"
       },
       {
-        "file": "annapurna-circuit-with-tilicho-lake-trek-igloo-himalaya-treks.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek Igloo Himalaya Treks",
-        "category": "Peaks"
-      },
-      {
-        "file": "annapurna-circuit-with-tilicho-lake-trek.webp",
-        "title": "Annapurna Circuit With Tilicho Lake Trek",
-        "category": "Peaks"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-02.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 02",
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 9 Trail View 01",
         "category": "Trail"
       },
       {
-        "file": "best-time-for-gokyo-lakes-trek-02.webp",
-        "title": "Best Time For Gokyo Lakes Trek 02",
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 9 Trail View 02",
         "category": "Trail"
       },
       {
-        "file": "best-time-for-gokyo-lakes-trek-03.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 03",
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 9 Trail View 03",
         "category": "Trail"
       },
       {
-        "file": "best-time-for-gokyo-lakes-trek-03.webp",
-        "title": "Best Time For Gokyo Lakes Trek 03",
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 9 Trail View 04",
         "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-04.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 04",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-04.webp",
-        "title": "Best Time For Gokyo Lakes Trek 04",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-05.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 05",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-05.webp",
-        "title": "Best Time For Gokyo Lakes Trek 05",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-06.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 06",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-06.webp",
-        "title": "Best Time For Gokyo Lakes Trek 06",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-07.jpg",
-        "title": "Best Time For Gokyo Lakes Trek 07",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek-07.webp",
-        "title": "Best Time For Gokyo Lakes Trek 07",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek.jpg",
-        "title": "Best Time For Gokyo Lakes Trek",
-        "category": "Trail"
-      },
-      {
-        "file": "best-time-for-gokyo-lakes-trek.webp",
-        "title": "Best Time For Gokyo Lakes Trek",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-02.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 02",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.jpg",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      },
-      {
-        "file": "ebc-chola-pass-gokyo-trek-17-day-epic-itinerary-cost-and-map-03.webp",
-        "title": "Ebc Chola Pass Gokyo Trek 17 Day Epic Itinerary Cost And Map 03",
-        "category": "Trail"
-      }
-    ],
-    "gokyo-lakes-trek": [
-      {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
       },
       {
         "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-01.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek Expedition View 01",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 01",
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-02.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek Expedition View 02",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 02",
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-03.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek Expedition View 03",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 03",
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-04.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek Expedition View 04",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 04",
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-05.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek Expedition View 05",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 05",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-06.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek Expedition View 06",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 06",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-07.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek Expedition View 07",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 07",
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-08.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek Expedition View 08",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 08",
+        "category": "High Altitude & Passes"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-09.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek Expedition View 09",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 09",
+        "category": "High Altitude & Passes"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-10.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek Expedition View 10",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 10",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-11.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek Expedition View 11",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 11",
         "category": "Panoramas"
-},
+      }
+    ],
+    "gokyo-lakes-trek": [
       {
         "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-01.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 1 Trail View 01",
-        "category": "Panoramas"
-},
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-02.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 1 Trail View 02",
-        "category": "Panoramas"
-},
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-03.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 1 Trail View 03",
-        "category": "Panoramas"
-},
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 01",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 02",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 03",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 04",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 05",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 01",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 02",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 03",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 04",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 05",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 13 Trail View 01",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 13 Trail View 02",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 01",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 02",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 03",
+        "category": "Activities"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 04",
+        "category": "Activities"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-01.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 2 Trail View 01",
-        "category": "Panoramas"
-},
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-02.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 2 Trail View 02",
-        "category": "Panoramas"
-},
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-03.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 2 Trail View 03",
-        "category": "Panoramas"
-},
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-04.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 2 Trail View 04",
-        "category": "Panoramas"
-},
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-05.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 2 Trail View 05",
-        "category": "Panoramas"
-},
+        "category": "Villages"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-01.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 3 Trail View 01",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-02.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 3 Trail View 02",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-03.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 3 Trail View 03",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-04.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 3 Trail View 04",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-05.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 3 Trail View 05",
         "category": "Panoramas"
-},
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-01.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 4 Trail View 01",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-02.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 4 Trail View 02",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-03.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 4 Trail View 03",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-04.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 4 Trail View 04",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-05.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 4 Trail View 05",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-06.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 4 Trail View 06",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-07.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 4 Trail View 07",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-01.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 5 Trail View 01",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-02.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 5 Trail View 02",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-03.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 5 Trail View 03",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-04.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 5 Trail View 04",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-01.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 6 Trail View 01",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-02.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 6 Trail View 02",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-03.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 6 Trail View 03",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-04.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 6 Trail View 04",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-05.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 6 Trail View 05",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-06.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 6 Trail View 06",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-01.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 7 Trail View 01",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-02.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 7 Trail View 02",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-03.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 7 Trail View 03",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-04.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 7 Trail View 04",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-05.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 7 Trail View 05",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-06.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 7 Trail View 06",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-07.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 7 Trail View 07",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-08.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 7 Trail View 08",
-        "category": "Panoramas"
-},
+        "category": "Lakes & Glaciers"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-01.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 8 Trail View 01",
-        "category": "Panoramas"
-},
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-02.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 8 Trail View 02",
-        "category": "Panoramas"
-},
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-03.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 8 Trail View 03",
-        "category": "Panoramas"
-},
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-04.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 8 Trail View 04",
-        "category": "Panoramas"
-},
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-05.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 8 Trail View 05",
-        "category": "Panoramas"
-},
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-06.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 8 Trail View 06",
-        "category": "Panoramas"
-},
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-07.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 8 Trail View 07",
-        "category": "Panoramas"
-},
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-08.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 8 Trail View 08",
-        "category": "Panoramas"
-},
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-09.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 8 Trail View 09",
-        "category": "Panoramas"
-},
+        "category": "Peaks"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-01.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 9 Trail View 01",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-02.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 9 Trail View 02",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-03.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 9 Trail View 03",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
         "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-04.webp",
         "type": "image",
         "title": "Gokyo Lakes Trek — Day 9 Trail View 04",
-        "category": "Panoramas"
-},
+        "category": "Trail"
+      },
       {
-        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-01.webp",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-01.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek — Day 10 Trail View 01",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Trek Panoramic Lake View 01",
+        "category": "Lakes & Glaciers"
+      },
       {
-        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-02.webp",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-02.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek — Day 10 Trail View 02",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Trek Panoramic Lake View 02",
+        "category": "Lakes & Glaciers"
+      },
       {
-        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-03.webp",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-03.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek — Day 10 Trail View 03",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Trek Panoramic Lake View 03",
+        "category": "Lakes & Glaciers"
+      },
       {
-        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-04.webp",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-04.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek — Day 10 Trail View 04",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Trek Panoramic Lake View 04",
+        "category": "Lakes & Glaciers"
+      },
       {
-        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-05.webp",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-05.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek — Day 10 Trail View 05",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Trek Panoramic Lake View 05",
+        "category": "Peaks"
+      },
       {
-        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-01.webp",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-06.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek — Day 11 Trail View 01",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Trek Panoramic Lake View 06",
+        "category": "Peaks"
+      },
       {
-        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-02.webp",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-07.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek — Day 11 Trail View 02",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Trek Panoramic Lake View 07",
+        "category": "Peaks"
+      },
       {
-        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-03.webp",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-08.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek — Day 11 Trail View 03",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Trek Panoramic Lake View 08",
+        "category": "High Altitude & Passes"
+      },
       {
-        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-04.webp",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-09.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek — Day 11 Trail View 04",
-        "category": "Panoramas"
-},
+        "title": "Gokyo Lakes Trek Panoramic Lake View 09",
+        "category": "High Altitude & Passes"
+      },
       {
-        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-05.webp",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-10.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek — Day 11 Trail View 05",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 10",
         "category": "Panoramas"
-},
+      },
       {
-        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-01.webp",
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-11.webp",
         "type": "image",
-        "title": "Gokyo Lakes Trek — Day 13 Trail View 01",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 11",
         "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-02.webp",
-        "type": "image",
-        "title": "Gokyo Lakes Trek — Day 13 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-01.webp",
-        "type": "image",
-        "title": "Gokyo Lakes Trek — Day 14 Trail View 01",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-02.webp",
-        "type": "image",
-        "title": "Gokyo Lakes Trek — Day 14 Trail View 02",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-03.webp",
-        "type": "image",
-        "title": "Gokyo Lakes Trek — Day 14 Trail View 03",
-        "category": "Panoramas"
-},
-      {
-        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-04.webp",
-        "type": "image",
-        "title": "Gokyo Lakes Trek — Day 14 Trail View 04",
-        "category": "Panoramas"
-}
+      }
     ],
     "gosaikunda-lake-trek": [
       {
@@ -51647,1044 +52060,1706 @@ function setupTrekPhotoGallery() {
     ],
     "ebc_chola_gokyo": [
       {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Mount Everest & Himalayan Panoramic Vista from High Ridge",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp & Gokyo Valley Trail Crossing",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Ama Dablam Majestic Summit & Alpine Glacier",
+        "category": "Peaks"
       },
       {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Cho La Pass Glacial Moraine Rocky Trail",
+        "category": "Trail"
       },
       {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Sherpa Teahouse Lodge & Alpine Hospitality",
+        "category": "Villages"
       },
       {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Nuptse & Lhotse South Face Mountain Wall",
+        "category": "Peaks"
       },
       {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Khumbu Glacier & Everest Base Camp Amphitheater",
+        "category": "Panoramas"
       },
       {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Gokyo Ri Summit 360-Degree Mountain Panorama",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-09.webp",
+        "type": "image",
+        "title": "High Alpine Expedition Trail through Himalayan Valley",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Namche Bazaar Horseshoe Amphitheater & Sherpa Capital",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Tengboche Monastery Courtyard & Ancient Buddhist Stupa",
+        "category": "Heritage"
       },
       {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-12.webp",
+        "type": "image",
+        "title": "Pumori & Lingtren Glacial Summits near Kala Patthar",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-13.webp",
+        "type": "image",
+        "title": "Cho La Pass Snowy Ascent & High Ridge Traversal",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-14.webp",
+        "type": "image",
+        "title": "Gokyo Third Lake Dudh Pokhari Turquoise Glacial Water",
+        "category": "Lakes"
       },
       {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-15.webp",
+        "type": "image",
+        "title": "Dingboche Stone-Walled Fields & High Teahouse Settlement",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-16.webp",
+        "type": "image",
+        "title": "Sunrise Alpenglow over Mount Everest & Nuptse Ridge",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-17.webp",
+        "type": "image",
+        "title": "Cholatse & Taboche Towers above Dzongla Alpine Basin",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-18.webp",
+        "type": "image",
+        "title": "Suspension Bridge Crossing over Raging Dudh Koshi River",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-19.webp",
+        "type": "image",
+        "title": "Gokyo Fourth Lake Thonak Tsho Pristine Alpine Waters",
+        "category": "Lakes"
       },
       {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-20.webp",
+        "type": "image",
+        "title": "Gorak Shep Sandy Basin beneath Kala Patthar",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-21.webp",
+        "type": "image",
+        "title": "Everest Base Camp Memorial Chortens at Thokla Pass",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-22.webp",
+        "type": "image",
+        "title": "Ngozumpa Glacier Longest Himalayan Ice Body View",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-23.webp",
+        "type": "image",
+        "title": "Cho Oyu Sixth Highest Mountain Summit on Tibetan Border",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-24.webp",
+        "type": "image",
+        "title": "Mani Stones & Sacred Buddhist Prayer Wheels along Trail",
+        "category": "Heritage"
       },
       {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-25.webp",
+        "type": "image",
+        "title": "Dzongla to Cho La Pass Alpine Moraine Route",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-26.webp",
+        "type": "image",
+        "title": "Gokyo Fifth Lake Ngozumpa Tsho with Everest in Background",
+        "category": "Lakes"
       },
       {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-27.webp",
+        "type": "image",
+        "title": "Thagnak Mountain Hamlet beneath Cho La Pass",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-28.webp",
+        "type": "image",
+        "title": "Kala Patthar 5,545m Summit Panoramic View of Everest",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-29.webp",
+        "type": "image",
+        "title": "Thamserku & Kangtega Dramatic Twin Summits",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-30.webp",
+        "type": "image",
+        "title": "Khumbu Icefall Massive Seracs and Glacial Crevasses",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-31.webp",
+        "type": "image",
+        "title": "Gokyo Teahouse Lodges along Sacred Glacial Lake Shore",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-32.webp",
+        "type": "image",
+        "title": "Colorful Prayer Flags Fluttering on High Himalayan Pass",
+        "category": "Heritage"
       },
       {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-33.webp",
+        "type": "image",
+        "title": "Trekker Crossing Cho La Glacial Ice Field with Microspikes",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-34.webp",
+        "type": "image",
+        "title": "Island Peak & Makalu Distant Himalayan Giants",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-35.webp",
+        "type": "image",
+        "title": "Golden Sunset Lighting up the Everest Himalayan Range",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-36.webp",
+        "type": "image",
+        "title": "High Alpine Yak Caravan Carrying Expedition Supplies",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-37.webp",
+        "type": "image",
+        "title": "Phakding Riverside Teahouses & Pine Forest Valley",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-38.webp",
+        "type": "image",
+        "title": "Rocky Scramble over Cho La Pass Boulder Field",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-39.webp",
+        "type": "image",
+        "title": "Gokyo Valley Dramatic Glacial Gorge and Lakes",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-40.webp",
+        "type": "image",
+        "title": "Everest Base Camp Signboard and Iconic Rock Marker",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-41.webp",
+        "type": "image",
+        "title": "Pine & Rhododendron Forest Path in Sagarmatha National Park",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-42.webp",
+        "type": "image",
+        "title": "Dramatic Cloud Inversion over Dudh Koshi Valley",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-43.webp",
+        "type": "image",
+        "title": "Lobuche Alpine Settlement beneath Nuptse Glacier",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-44.webp",
+        "type": "image",
+        "title": "Taboche Peak Golden Morning Light Reflection",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-45.webp",
+        "type": "image",
+        "title": "Turquoise Gokyo Lake with Snowy Mountain Backdrop",
+        "category": "Lakes"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-46.webp",
+        "type": "image",
+        "title": "High Altitude Trail Leading toward Dzongla Basin",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-47.webp",
+        "type": "image",
+        "title": "Pangboche Ancient Monastery Sherpa Cultural Heritage",
+        "category": "Heritage"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-48.webp",
+        "type": "image",
+        "title": "View from Everest View Hotel overlooking Ama Dablam",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-49.webp",
+        "type": "image",
+        "title": "Cho La Glacier Snowfield Walking Track",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-50.webp",
+        "type": "image",
+        "title": "Dole Mountain Settlement nestled on Gokyo Valley Ridge",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-51.webp",
+        "type": "image",
+        "title": "Mount Everest Crown Peak above Khumbu Nuptse Ridge",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-52.webp",
+        "type": "image",
+        "title": "Ascending Stone Staircases through Namche Bazaar",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-53.webp",
+        "type": "image",
+        "title": "Mirror Reflection in Sacred Gokyo Alpine Lake",
+        "category": "Lakes"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-54.webp",
+        "type": "image",
+        "title": "Panoramic Vista of Gokyo Ri and Cho Oyu Glacier",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-55.webp",
+        "type": "image",
+        "title": "Trekkers Navigating Ngozumpa Glacial Moraine Path",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-56.webp",
+        "type": "image",
+        "title": "Machhermo Alpine Teahouse Stop with Mountain Views",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-57.webp",
+        "type": "image",
+        "title": "Baruntse & Makalu Emerging over High Himalayan Skyline",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-58.webp",
+        "type": "image",
+        "title": "Buddhist Stupa with Buddha Eyes overlooking Khumbu Valley",
+        "category": "Heritage"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-59.webp",
+        "type": "image",
+        "title": "Alpine Creek Crossing via Wooden Mountain Bridge",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-60.webp",
+        "type": "image",
+        "title": "Clear Blue Himalayan Skies over Cho La Pass Summit",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-61.webp",
+        "type": "image",
+        "title": "Misty Alpine Trail through Juniper and Rhododendron Scrub",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-62.webp",
+        "type": "image",
+        "title": "Khumjung Sherpa Village and Hillary School",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-63.webp",
+        "type": "image",
+        "title": "Kala Patthar Trail Ascending with Everest in Full View",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-64.webp",
+        "type": "image",
+        "title": "Sunlight Glinting across Emerald Waters of Gokyo Lake",
+        "category": "Lakes"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-65.webp",
+        "type": "image",
+        "title": "Cho La Pass Prayer Flags Flapping at 5,420m Elevation",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-66.webp",
+        "type": "image",
+        "title": "Breathtaking 4 Eight-Thousander Panorama from Gokyo Ri",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-67.webp",
+        "type": "image",
+        "title": "Tengboche Ridge Teahouses surrounded by Peaks",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-68.webp",
+        "type": "image",
+        "title": "Expedition Porters and Trekkers on Historic Trade Route",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-69.webp",
+        "type": "image",
+        "title": "Sharp Crest of Ama Dablam against Deep Azure Skies",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-70.webp",
+        "type": "image",
+        "title": "Traditional Sherpa Prayer Wheels Spinning at Trail Junction",
+        "category": "Heritage"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-71.webp",
+        "type": "image",
+        "title": "Descent from Cho La Pass into Thagnak Valley Basin",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-72.webp",
+        "type": "image",
+        "title": "Wide Angle View of Gokyo Lake Chain & Ngozumpa Glacier",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-73.webp",
+        "type": "image",
+        "title": "Pumori Pyramid Peak rising over Gorak Shep",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-74.webp",
+        "type": "image",
+        "title": "Somare Alpine Teahouse Stop before Dingboche",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-75.webp",
+        "type": "image",
+        "title": "High Ridge Path from Gokyo toward Dole & Namche",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-76.webp",
+        "type": "image",
+        "title": "Glacial Ice Blocks Floating on Gokyo Lake Shore",
+        "category": "Lakes"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-77.webp",
+        "type": "image",
+        "title": "Sunrise Alpenglow on Nuptse and Everest Summit Pyramid",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-78.webp",
+        "type": "image",
+        "title": "Alpine Meadow Walk beneath Lofty Snow-Capped Crags",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-79.webp",
+        "type": "image",
+        "title": "Nangkartshang Peak Viewpoint looking toward Makalu",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-80.webp",
+        "type": "image",
+        "title": "Lukla Airstrip and Historic Gateway Teahouses",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-81.webp",
+        "type": "image",
+        "title": "Trekking along Glacial Meltwater Streams in Gokyo Valley",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-82.webp",
+        "type": "image",
+        "title": "Buddhist Chorten blessing Travelers at Sagarmatha National Park",
+        "category": "Heritage"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-83.webp",
+        "type": "image",
+        "title": "Sweeping Panorama of Khumbu Glacier Lateral Moraine",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-84.webp",
+        "type": "image",
+        "title": "Mount Everest & Lhotse South Col seen from Kala Patthar",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-85.webp",
+        "type": "image",
+        "title": "Steep Rocky Incline toward Cho La High Pass Summit",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-86.webp",
+        "type": "image",
+        "title": "Traditional Stone Teahouses in Khumjung Valley",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-87.webp",
+        "type": "image",
+        "title": "Deep Turquoise Hue of Second Gokyo Lake (Taboche Tsho)",
+        "category": "Lakes"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-88.webp",
+        "type": "image",
+        "title": "Vast Glacial Expanse of the High Everest Region",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-89.webp",
+        "type": "image",
+        "title": "Trekkers Approaching Everest Base Camp Expedition Tents",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-90.webp",
+        "type": "image",
+        "title": "Ama Dablam Iconic Silhouette in Afternoon Golden Sun",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-91.webp",
+        "type": "image",
+        "title": "Crossing the Glacial Moraine into Gokyo Lakes Basin",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-92.webp",
+        "type": "image",
+        "title": "Himalayan Ridge Traversal with Distant Snow Peaks",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-93.webp",
+        "type": "image",
+        "title": "Monjo Village and Sagarmatha National Park Entrance",
+        "category": "Villages"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-94.webp",
+        "type": "image",
+        "title": "Ancient Buddhist Prayer Flags on Cho La Summit Marker",
+        "category": "Heritage"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-95.webp",
+        "type": "image",
+        "title": "Nuptse Knife-Edge Ridge Rising above Khumbu Glacier",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-96.webp",
+        "type": "image",
+        "title": "Final Trail Descent Returning toward Namche Bazaar",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/ebc-chola-pass-gokyo-trek/ebc-chola-pass-gokyo-trek-gallery-97.webp",
+        "type": "image",
+        "title": "Majestic Sunset over EBC Cho La Pass and Gokyo Valley",
+        "category": "Panoramas"
       }
     ],
     "ebc_luxury": [
       {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Everest Base Camp Luxury Trek Expedition Panorama",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-02.webp",
+        "type": "image",
+        "title": "High Altitude Khumbu Trail & Peaks",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Luxury Mountain Teahouse & Panoramic Landscape",
+        "category": "Villages"
       },
       {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Alpine Valley Trail Scenic View",
+        "category": "Trail"
       },
       {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Khumbu Himalayan Mountain Range",
+        "category": "Panoramas"
       },
       {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Majestic Khumbu Mountain Vista",
+        "category": "Panoramas"
       },
       {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Himalayan High Peaks Panorama",
+        "category": "Peaks"
       },
       {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Khumbu Alpine Trail Scenery",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-09.webp",
+        "type": "image",
+        "title": "High Mountain Valley Landscape",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Khumbu Glacier & Surrounding Summits",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Luxury Lodge Himalayan Views",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-12.webp",
+        "type": "image",
+        "title": "Comfort Mountain Lodge Panorama",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-13.webp",
+        "type": "image",
+        "title": "Morning Alpenglow on Everest Range",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-14.webp",
+        "type": "image",
+        "title": "Dingboche Village & Valley View",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-15.webp",
+        "type": "image",
+        "title": "Dingboche Himalayan Mountain Panorama",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-16.webp",
+        "type": "image",
+        "title": "Trekkers on the Khumbu Expedition Trail",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-17.webp",
+        "type": "image",
+        "title": "Everest Route High Mountain Views",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-18.webp",
+        "type": "image",
+        "title": "Himalayan Alpine Ridge Landscapes",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-19.webp",
+        "type": "image",
+        "title": "High Mountain Pass Crossing",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-20.webp",
+        "type": "image",
+        "title": "Glacial Valley Panorama & Moraine",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-21.webp",
+        "type": "image",
+        "title": "High Himalayan Mountain Vista",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-22.webp",
+        "type": "image",
+        "title": "Luxury Trek Trail Expedition Walk",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-23.webp",
+        "type": "image",
+        "title": "Lukla Flight & Mountain Airstrip View",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-24.webp",
+        "type": "image",
+        "title": "Khumbu Valley Mountain Lodge Settlement",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-25.webp",
+        "type": "image",
+        "title": "Dramatic Himalayan Peak & Blue Sky",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-26.webp",
+        "type": "image",
+        "title": "Alpine Trail Through Rhododendron Forest",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-27.webp",
+        "type": "image",
+        "title": "Himalayan Glacier & Moraine Path",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-28.webp",
+        "type": "image",
+        "title": "Mountain Vistas from Khumbu Lodge",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-29.webp",
+        "type": "image",
+        "title": "Everest Base Camp Approach Trail",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-30.webp",
+        "type": "image",
+        "title": "Spectacular Ridge Trail Panorama",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-31.webp",
+        "type": "image",
+        "title": "High Altitude Khumbu Valley Vistas",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-32.webp",
+        "type": "image",
+        "title": "Mount Everest & Lhotse High Panorama",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-33.webp",
+        "type": "image",
+        "title": "Ama Dablam Close-up Mountain View",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-34.webp",
+        "type": "image",
+        "title": "Sherpa Settlement along Khumbu Route",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-35.webp",
+        "type": "image",
+        "title": "Sacred Prayer Flags on Mountain Pass",
+        "category": "Heritage"
       },
       {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-36.webp",
+        "type": "image",
+        "title": "Kala Patthar Summit & Everest Vista",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-37.webp",
+        "type": "image",
+        "title": "Khumbu Glacier Towering Ice Formations",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-38.webp",
+        "type": "image",
+        "title": "Everest Base Camp (5,364m) Expedition View",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-39.webp",
+        "type": "image",
+        "title": "Luxury Teahouse Dining Experience",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-40.webp",
+        "type": "image",
+        "title": "Namche Bazaar Mountain Amphitheater",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-41.webp",
+        "type": "image",
+        "title": "Suspension Bridge Crossing Dudh Koshi River",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-42.webp",
+        "type": "image",
+        "title": "Trekkers Arriving at Luxury Mountain Lodge",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
-      }
-    ],
-    "everest": [
-      {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-43.webp",
+        "type": "image",
+        "title": "Golden Sunrise over Nuptse and Everest",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-44.webp",
+        "type": "image",
+        "title": "Tengboche Monastery & Everest Backdrop",
+        "category": "Heritage"
       },
       {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-45.webp",
+        "type": "image",
+        "title": "High Alpine Pasture with Grazing Yaks",
+        "category": "Wildlife"
       },
       {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-46.webp",
+        "type": "image",
+        "title": "Dramatic Mountain Gorge Cliffside Trail",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-47.webp",
+        "type": "image",
+        "title": "Khumbu Icefall & Western Cwm View",
+        "category": "Peaks"
       },
       {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-48.webp",
+        "type": "image",
+        "title": "Crystal Clear Morning over Himalayan Peaks",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-49.webp",
+        "type": "image",
+        "title": "Steep Stone Stairway Ascent to Namche",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-50.webp",
+        "type": "image",
+        "title": "Morning Mist Clearing Over Alpine Valley",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-51.webp",
+        "type": "image",
+        "title": "Traditional Sherpa Chorten along Trail",
+        "category": "Heritage"
       },
       {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-52.webp",
+        "type": "image",
+        "title": "High Altitude Glacial Ridge Trail",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-53.webp",
+        "type": "image",
+        "title": "Mountain Panorama from Gorak Shep",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-54.webp",
+        "type": "image",
+        "title": "Luxury Mountain Lodge Bedroom with Heated Comfort",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-55.webp",
+        "type": "image",
+        "title": "Alpine Glacial Stream Crossing in Khumbu",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-56.webp",
+        "type": "image",
+        "title": "Himalayan Foothills & Pine Forest Trails",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-57.webp",
+        "type": "image",
+        "title": "Panoramic Mountain Valley Expedition Route",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-58.webp",
+        "type": "image",
+        "title": "Luxury Trek Team Celebration at Base Camp",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/everest-base-camp-luxury-trek/everest-base-camp-luxury-trek-gallery-59.webp",
+        "type": "image",
+        "title": "Sunset Alpenglow Over Khumbu Valley",
+        "category": "Panoramas"
       }
     ],
     "ebc_16": [
-      {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
-      },
-      {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
-      },
-      {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
-      }
-    ],
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-01.webp",
+    "type": "image",
+    "title": "Trekkers Celebrating Arrival at Everest Base Camp (5,364m)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-01.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-02.webp",
+    "type": "image",
+    "title": "Suspension Bridge Crossing over the Glacial Dudh Koshi Gorge",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.50",
+    "fileName": "everest-base-camp-trek-16-days-gallery-02.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-03.webp",
+    "type": "image",
+    "title": "Dudh Koshi River Valley Trail Towards Phakding and Monjo",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.56",
+    "fileName": "everest-base-camp-trek-16-days-gallery-03.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-04.webp",
+    "type": "image",
+    "title": "Lobuche Alpine Glacial Moraine and Nuptse Ridge Lookout",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-04.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-05.webp",
+    "type": "image",
+    "title": "Golden Sunrise Alpenglow Over Mount Everest and Nuptse from Kala Patthar (5,545m)",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-gallery-05.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-06.webp",
+    "type": "image",
+    "title": "Kala Patthar Summit Ridge Trail Facing Pumori and Mount Everest",
+    "category": "Peaks",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-06.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-07.webp",
+    "type": "image",
+    "title": "Khumbu Icefall Towering Seracs and Glacial Pinnacles near Base Camp",
+    "category": "Peaks",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-07.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-08.webp",
+    "type": "image",
+    "title": "Steep Forest Switchbacks on the Ascent to Namche Bazaar",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-08.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-09.webp",
+    "type": "image",
+    "title": "Hillary Double Suspension Bridge Spanning Dudh Koshi River Gorge",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-09.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-10.webp",
+    "type": "image",
+    "title": "Tengboche Monastery Courtyard and Himalayan Mountain Vista",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-gallery-10.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/everest-base-camp-trek-16-days-gallery-11.webp",
+    "type": "image",
+    "title": "Ama Dablam Soaring Above Imja Valley Alpine Teahouse Route",
+    "category": "Peaks",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-gallery-11.webp",
+    "day": null
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 1: Kathmandu Arrival & Briefing (Photo 01)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.56",
+    "fileName": "everest-base-camp-trek-16-days-day-1-01.webp",
+    "day": 1
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 1: Kathmandu Arrival & Briefing (Photo 02)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "1.06",
+    "fileName": "everest-base-camp-trek-16-days-day-1-02.webp",
+    "day": 1
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-1/everest-base-camp-trek-16-days-day-1-03.webp",
+    "type": "image",
+    "title": "Arrival Welcome in Kathmandu & Expedition Briefing",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.28",
+    "fileName": "everest-base-camp-trek-16-days-day-1-03.webp",
+    "day": 1
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 01)",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.50",
+    "fileName": "everest-base-camp-trek-16-days-day-2-01.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 02)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-2-02.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 03)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-2-03.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 04)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-2-04.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-05.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 05)",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "2.22",
+    "fileName": "everest-base-camp-trek-16-days-day-2-05.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-2/everest-base-camp-trek-16-days-day-2-06.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 2: Kathmandu UNESCO Heritage Sightseeing (Photo 06)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-2-06.webp",
+    "day": 2
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 3: Lukla Flight & Trek to Phakding (Photo 01)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-3-01.webp",
+    "day": 3
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 3: Lukla Flight & Trek to Phakding (Photo 02)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.56",
+    "fileName": "everest-base-camp-trek-16-days-day-3-02.webp",
+    "day": 3
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 3: Lukla Flight & Trek to Phakding (Photo 03)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.78",
+    "fileName": "everest-base-camp-trek-16-days-day-3-03.webp",
+    "day": 3
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-3/everest-base-camp-trek-16-days-day-3-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 3: Lukla Flight & Trek to Phakding (Photo 04)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-3-04.webp",
+    "day": 3
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 4: Phakding to Namche Bazaar Ascent (Photo 01)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-4-01.webp",
+    "day": 4
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 4: Phakding to Namche Bazaar Ascent (Photo 02)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-4-02.webp",
+    "day": 4
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 4: Phakding to Namche Bazaar Ascent (Photo 03)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-4-03.webp",
+    "day": 4
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-4/everest-base-camp-trek-16-days-day-4-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 4: Phakding to Namche Bazaar Ascent (Photo 04)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.91",
+    "fileName": "everest-base-camp-trek-16-days-day-4-04.webp",
+    "day": 4
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-01.webp",
+    "type": "image",
+    "title": "Namche Bazaar Acclimatisation Hike Overlooking Everest & Ama Dablam — View 01",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-5-01.webp",
+    "day": 5
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-02.webp",
+    "type": "image",
+    "title": "Namche Bazaar Acclimatisation Hike Overlooking Everest & Ama Dablam — View 02",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-5-02.webp",
+    "day": 5
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-03.webp",
+    "type": "image",
+    "title": "Namche Bazaar Acclimatisation Hike Overlooking Everest & Ama Dablam — View 03",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-5-03.webp",
+    "day": 5
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-04.webp",
+    "type": "image",
+    "title": "Namche Bazaar Acclimatisation Hike Overlooking Everest & Ama Dablam — View 04",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.50",
+    "fileName": "everest-base-camp-trek-16-days-day-5-04.webp",
+    "day": 5
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-5/everest-base-camp-trek-16-days-day-5-05.webp",
+    "type": "image",
+    "title": "Namche Bazaar Acclimatisation Hike Overlooking Everest & Ama Dablam — View 05",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.87",
+    "fileName": "everest-base-camp-trek-16-days-day-5-05.webp",
+    "day": 5
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 6: Namche Bazaar to Tengboche Monastery (Photo 01)",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-6-01.webp",
+    "day": 6
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 6: Namche Bazaar to Tengboche Monastery (Photo 02)",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-6-02.webp",
+    "day": 6
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-6/everest-base-camp-trek-16-days-day-6-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 6: Namche Bazaar to Tengboche Monastery (Photo 03)",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.71",
+    "fileName": "everest-base-camp-trek-16-days-day-6-03.webp",
+    "day": 6
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 7: Tengboche to Dingboche Alpine Valley (Photo 01)",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-7-01.webp",
+    "day": 7
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 7: Tengboche to Dingboche Alpine Valley (Photo 02)",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.34",
+    "fileName": "everest-base-camp-trek-16-days-day-7-02.webp",
+    "day": 7
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 7: Tengboche to Dingboche Alpine Valley (Photo 03)",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-7-03.webp",
+    "day": 7
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-7/everest-base-camp-trek-16-days-day-7-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 7: Tengboche to Dingboche Alpine Valley (Photo 04)",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-7-04.webp",
+    "day": 7
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-01.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 01",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-01.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-02.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 02",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-02.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-03.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 03",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-03.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-04.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 04",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-04.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-05.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 05",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-05.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-8/everest-base-camp-trek-16-days-day-8-06.webp",
+    "type": "image",
+    "title": "Dingboche Valley & Ama Dablam Mountain Vistas — View 06",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-8-06.webp",
+    "day": 8
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 01)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-9-01.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 02)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-9-02.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 03)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-9-03.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 04)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-9-04.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-05.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 05)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-9-05.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-9/everest-base-camp-trek-16-days-day-9-06.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 9: Dingboche to Lobuche via Thokla Pass (Photo 06)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-9-06.webp",
+    "day": 9
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 01",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-10-01.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 02",
+    "category": "Peaks",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-10-02.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 03",
+    "category": "Peaks",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-10-03.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 04",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-10-04.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-05.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 05",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.78",
+    "fileName": "everest-base-camp-trek-16-days-day-10-05.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-06.webp",
+    "type": "image",
+    "title": "Everest Base Camp (5,364m) Expedition Trail & Khumbu Glacier — View 06",
+    "category": "Peaks",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-10-06.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-10/everest-base-camp-trek-16-days-day-10-07.webp",
+    "type": "image",
+    "title": "Gorakshep Alpine Teahouse Settlement (5,164m) Beneath Pumori & Kala Patthar",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.78",
+    "fileName": "everest-base-camp-trek-16-days-day-10-07.webp",
+    "day": 10
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-01.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 01",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-11-01.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-02.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 02",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-11-02.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-03.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 03",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-11-03.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-04.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 04",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-11-04.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-05.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 05",
+    "category": "Panoramas",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-11-05.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-11/everest-base-camp-trek-16-days-day-11-06.webp",
+    "type": "image",
+    "title": "Kala Patthar (5,545m) & Pheriche Glacial Valley — View 06",
+    "category": "Panoramas",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-11-06.webp",
+    "day": 11
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 12: Pheriche to Namche Bazaar Return (Photo 01)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-12-01.webp",
+    "day": 12
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 12: Pheriche to Namche Bazaar Return (Photo 02)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-12-02.webp",
+    "day": 12
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 12: Pheriche to Namche Bazaar Return (Photo 03)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-12-03.webp",
+    "day": 12
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 12: Pheriche to Namche Bazaar Return (Photo 04)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-12-04.webp",
+    "day": 12
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-12/everest-base-camp-trek-16-days-day-12-05.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 12: Pheriche to Namche Bazaar Return (Photo 05)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.89",
+    "fileName": "everest-base-camp-trek-16-days-day-12-05.webp",
+    "day": 12
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-01.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 13: Namche Bazaar to Monjo Descent (Photo 01)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-13-01.webp",
+    "day": 13
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-02.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 13: Namche Bazaar to Monjo Descent (Photo 02)",
+    "category": "Trail",
+    "isLandscape": true,
+    "aspect": "1.50",
+    "fileName": "everest-base-camp-trek-16-days-day-13-02.webp",
+    "day": 13
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-03.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 13: Namche Bazaar to Monjo Descent (Photo 03)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-13-03.webp",
+    "day": 13
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-13/everest-base-camp-trek-16-days-day-13-04.webp",
+    "type": "image",
+    "title": "Everest Base Camp 16 Days — Day 13: Namche Bazaar to Monjo Descent (Photo 04)",
+    "category": "Trail",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-13-04.webp",
+    "day": 13
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-14/everest-base-camp-trek-16-days-day-14-01.webp",
+    "type": "image",
+    "title": "Farewell Celebration Dinner with Sherpa Expedition Team in Kathmandu",
+    "category": "Villages",
+    "isLandscape": false,
+    "aspect": "0.75",
+    "fileName": "everest-base-camp-trek-16-days-day-14-01.webp",
+    "day": 14
+  },
+  {
+    "file": "images/gallery/everest-base-camp-trek-16-days/day-15/everest-base-camp-trek-16-days-day-15-01.webp",
+    "type": "image",
+    "title": "Farewell Celebration Dinner with Sherpa Expedition Team in Kathmandu",
+    "category": "Villages",
+    "isLandscape": true,
+    "aspect": "1.33",
+    "fileName": "everest-base-camp-trek-16-days-day-15-01.webp",
+    "day": 15
+  }
+],
     "ebc_heli": [
       {
         "file": "video/gallery/treks/everest-base-camp.mp4",
@@ -53467,522 +54542,1585 @@ function setupTrekPhotoGallery() {
     ],
     "ebc_chola_renjola": [
       {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Everest Cho La and Renjo La Pass High Himalayan Panorama",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Everest Base Camp Landmark Boulder with Prayer Flags (5,364 m)",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 810
       },
       {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Trekkers Celebrating at Everest Base Camp Memorial Landmark",
+        "category": "Trail",
+        "width": 720,
+        "height": 540
       },
       {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Expedition Tents on Khumbu Glacier at Everest Base Camp",
+        "category": "Peaks",
+        "width": 960,
+        "height": 541
       },
       {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Alpine Valley Trail towards Khumbu High Passes",
+        "category": "Trail",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Panoramic Himalayan Ridge View over High Mountain Valley",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 608
       },
       {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Glacial Moraine Trail on Approach to Cho La Pass",
+        "category": "Trail",
+        "width": 1080,
+        "height": 608
       },
       {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-08.webp",
+        "type": "image",
+        "title": "High-Altitude Rocky Ridge Path through Sagarmatha National Park",
+        "category": "Trail",
+        "width": 1080,
+        "height": 608
       },
       {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Ama Dablam (6,812 m) Towering Majestic Peak Portrait",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 1620
       },
       {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Traditional Sherpa Teahouse Lodge with Mountain Backdrop",
+        "category": "Villages",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Sacred Turquoise Gokyo Lake Shoreline and Buddhist Chorten",
+        "category": "Heritage",
+        "width": 1080,
+        "height": 722
       },
       {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-12.webp",
+        "type": "image",
+        "title": "Four 8,000-Meter Giants Panorama from Gokyo Ri (5,357 m)",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-13.webp",
+        "type": "image",
+        "title": "Traditional Tibetan Buddhist Prayer Wheels in Khumbu Village",
+        "category": "Heritage",
+        "width": 1080,
+        "height": 1080
       },
       {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-14.webp",
+        "type": "image",
+        "title": "Wide Panorama of Ngozumpa Glacier and Himalayan Peaks",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 486
       },
       {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-15.webp",
+        "type": "image",
+        "title": "Panoramic Glacial Valley Route towards Renjo La Pass",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 486
       },
       {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-16.webp",
+        "type": "image",
+        "title": "Trekkers Ascending High Stone Steps on Renjo La Pass Trail",
+        "category": "Trail",
+        "width": 1080,
+        "height": 609
       },
       {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-17.webp",
+        "type": "image",
+        "title": "Renjo La High Pass Summit Crest Draped in Prayer Flags (5,360 m)",
+        "category": "Heritage",
+        "width": 960,
+        "height": 541
       },
       {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-18.webp",
+        "type": "image",
+        "title": "Mount Everest and Nuptse Summit Vista from High Alpine Balcony",
+        "category": "Peaks",
+        "width": 960,
+        "height": 541
       },
       {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-19.webp",
+        "type": "image",
+        "title": "Glacial Lake Reflections under Clear Himalayan Sky",
+        "category": "Panoramas",
+        "width": 960,
+        "height": 541
       },
       {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-20.webp",
+        "type": "image",
+        "title": "High Pass Summit Crossing Viewpoint with Rolling Alpine Clouds",
+        "category": "Panoramas",
+        "width": 960,
+        "height": 541
       },
       {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-21.webp",
+        "type": "image",
+        "title": "Namche Bazaar (3,440 m) Amphitheater and Pine Forests",
+        "category": "Villages",
+        "width": 1080,
+        "height": 810
       },
       {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-22.webp",
+        "type": "image",
+        "title": "Historic Tengboche Monastery with Ama Dablam in Background",
+        "category": "Heritage",
+        "width": 1080,
+        "height": 1440
       },
       {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-23.webp",
+        "type": "image",
+        "title": "Expedition Porter Traversing Dudh Koshi River Suspension Bridge",
+        "category": "Trail",
+        "width": 1080,
+        "height": 1350
       },
       {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-24.webp",
+        "type": "image",
+        "title": "Dingboche Stone-Walled Agricultural Village & Lodges (4,410 m)",
+        "category": "Villages",
+        "width": 960,
+        "height": 698
       },
       {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-25.webp",
+        "type": "image",
+        "title": "Acclimatization Ascent towards Nangkartshang Peak (5,083 m)",
+        "category": "Trail",
+        "width": 960,
+        "height": 928
       },
       {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-26.webp",
+        "type": "image",
+        "title": "Lobuche Teahouses beneath Nuptse and Everest Glacier",
+        "category": "Villages",
+        "width": 1080,
+        "height": 587
       },
       {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-27.webp",
+        "type": "image",
+        "title": "Gorak Shep (5,164 m) Final Outpost before Base Camp",
+        "category": "Villages",
+        "width": 1080,
+        "height": 590
       },
       {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-28.webp",
+        "type": "image",
+        "title": "Khumbu Icefall Séracs and Massive Ice Formations",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 586
       },
       {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-29.webp",
+        "type": "image",
+        "title": "Kala Patthar Summit Viewpoint (5,545 m) of Mount Everest",
+        "category": "Peaks",
+        "width": 720,
+        "height": 540
       },
       {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-30.webp",
+        "type": "image",
+        "title": "Dzongla Settlement Sheltered beneath Dramatic Cholatse Peak",
+        "category": "Villages",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-31.webp",
+        "type": "image",
+        "title": "Morning Departure across Alpine Scree towards Cho La Pass",
+        "category": "Trail",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-32.webp",
+        "type": "image",
+        "title": "Steep Rocky Scramble of Cho La Pass (5,420 m)",
+        "category": "Trail",
+        "width": 1080,
+        "height": 1440
       },
       {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-33.webp",
+        "type": "image",
+        "title": "Crossing the Cho La Glacial Snowfield and Ice Saddle",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-34.webp",
+        "type": "image",
+        "title": "Cho La Pass Summit Landmark with Colorful Prayer Flags",
+        "category": "Heritage",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-35.webp",
+        "type": "image",
+        "title": "Descending Cho La Pass toward Thagnak Valley Basin",
+        "category": "Trail",
+        "width": 1080,
+        "height": 810
       },
       {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-36.webp",
+        "type": "image",
+        "title": "Thagnak Teahouse Village nestled beneath Moraine Slopes",
+        "category": "Villages",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-37.webp",
+        "type": "image",
+        "title": "Navigating the Rocky Lateral Moraine of Ngozumpa Glacier",
+        "category": "Trail",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-38.webp",
+        "type": "image",
+        "title": "Turquoise Waters of Gokyo Third Lake (Dudh Pokhari)",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-39.webp",
+        "type": "image",
+        "title": "Gokyo Lakeside Village with Mount Cho Oyu (8,188 m) Horizon",
+        "category": "Villages",
+        "width": 1080,
+        "height": 810
       },
       {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-40.webp",
+        "type": "image",
+        "title": "Sunlit Reflections on the Pristine Surface of Gokyo Lake",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 810
       },
       {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-41.webp",
+        "type": "image",
+        "title": "Early Dawn Ascent to Gokyo Ri (5,357 m)",
+        "category": "Trail",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-42.webp",
+        "type": "image",
+        "title": "Gokyo Ri Summit Panoramas of Everest, Lhotse and Makalu",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-43.webp",
+        "type": "image",
+        "title": "Upper Sacred Gokyo Lakes and Ngozumpa Glacier Expanse",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 810
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-44.webp",
+        "type": "image",
+        "title": "Western Ridge Ascent from Gokyo towards Renjo La Pass",
+        "category": "Trail",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-45.webp",
+        "type": "image",
+        "title": "Renjo La Pass (5,360 m) Overlook of Gokyo Lakes and Mount Everest",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-46.webp",
+        "type": "image",
+        "title": "Majestic Khumbu Mountain Giants from Renjo La Pass",
+        "category": "Peaks",
+        "width": 1080,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-47.webp",
+        "type": "image",
+        "title": "Descent from Renjo La along Stone Staircases to Lungden",
+        "category": "Trail",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-48.webp",
+        "type": "image",
+        "title": "Remote High Pastures and Yak Grazing Grounds in Bhote Koshi Valley",
+        "category": "Trail",
+        "width": 1080,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-49.webp",
+        "type": "image",
+        "title": "Quiet Teahouses in Peaceful Lungden Village (4,380 m)",
+        "category": "Villages",
+        "width": 1080,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-50.webp",
+        "type": "image",
+        "title": "Historic Thame Village on Ancient Trans-Himalayan Salt Route",
+        "category": "Villages",
+        "width": 1280,
+        "height": 683
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-51.webp",
+        "type": "image",
+        "title": "Ancient Thame Gompa Cliffside Monastery",
+        "category": "Heritage",
+        "width": 1440,
+        "height": 1913
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-52.webp",
+        "type": "image",
+        "title": "High Balcony Cliffside Trail between Thame and Namche Bazaar",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-53.webp",
+        "type": "image",
+        "title": "Hillary Suspension Bridge Crossing high above Dudh Koshi River",
+        "category": "Trail",
+        "width": 1440,
+        "height": 622
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-54.webp",
+        "type": "image",
+        "title": "Lush Pine and Rhododendron Trail towards Lukla",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1913
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-55.webp",
+        "type": "image",
+        "title": "Tenzing-Hillary Airport Runway at Lukla (2,840 m)",
+        "category": "Villages",
+        "width": 1440,
+        "height": 1059
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-56.webp",
+        "type": "image",
+        "title": "Trekkers Celebrating Double High Pass Crossing Expedition",
+        "category": "Heritage",
+        "width": 1440,
+        "height": 2031
+      },
+      {
+        "file": "images/gallery/everest-chola-and-renjo-la-pass-trek/everest-chola-and-renjo-la-pass-trek-gallery-57.webp",
+        "type": "image",
+        "title": "Igloo Himalaya Treks High Altitude Team and Guides Summit Moment",
+        "category": "Heritage",
+        "width": 1440,
+        "height": 1920
       }
     ],
     "everest_three_passes": [
       {
         "file": "video/gallery/treks/everest-three-passes-trek.mp4",
         "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
+        "poster": "images/gallery/everest-three-passes-trek/everest-three-passes-video-thumb-03.webp",
+        "title": "Everest Three Passes Trek Cinematic Route Overview",
+        "caption": "Cross Renjo La, Cho La, and Kongma La with Sagarmatha vistas",
+        "category": "Videos",
+        "duration": "0:45"
       },
       {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
+        "file": "video/gallery/treks/everest-three-passes-high-mountain-panorama.mp4",
         "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
+        "poster": "images/gallery/everest-three-passes-trek/everest-three-passes-video-thumb-01.webp",
+        "title": "High Altitude Pass Crossing & 360 Himalayan Panoramas",
+        "caption": "Authentic mountain footage captured crossing the high passes",
+        "category": "Videos",
+        "duration": "0:30"
       },
       {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
+        "file": "video/gallery/treks/everest-three-passes-khumbu-heritage-stupa.mp4",
         "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
+        "poster": "images/gallery/everest-three-passes-trek/everest-three-passes-video-thumb-02.webp",
+        "title": "Khumbu Valley Sherpa Heritage & Sacred Stupas",
+        "caption": "Cultural prayer flags, ancient monasteries, and Sherpa settlements",
+        "category": "Videos",
+        "duration": "0:25"
       },
       {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Mount Everest & Nuptse Alpenglow Sunrise Panorama",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 783
       },
       {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Turquoise Gokyo Lake with Mount Everest & Cho Oyu Backdrop",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1920
       },
       {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Everest Base Camp (5,364m) Historic Glacier Landmark",
+        "category": "Peaks",
+        "width": 1440,
+        "height": 810
       },
       {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Namche Bazaar Sherpa Capital & High Altitude Stupa",
+        "category": "Villages",
+        "width": 1440,
+        "height": 690
       },
       {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Hillary Suspension Bridge Crossing over Dudh Koshi River",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
       },
       {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
       },
       {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-100.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
       },
       {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-101.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
       },
       {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-102.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
       },
       {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-103.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
       },
       {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-104.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
       },
       {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-105.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 608
       },
       {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-106.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 607
       },
       {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-107.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 726
       },
       {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-108.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1108,
+        "height": 1477
       },
       {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-109.webp",
+        "type": "image",
+        "title": "Fdsfds(1)",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1913
       },
       {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-110.webp",
+        "type": "image",
+        "title": "Fvfevgfregree",
+        "category": "Trail",
+        "width": 1440,
+        "height": 986
       },
       {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-111.webp",
+        "type": "image",
+        "title": "Gfhfghgfhgf",
+        "category": "Trail",
+        "width": 1440,
+        "height": 628
       },
       {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-112.webp",
+        "type": "image",
+        "title": "Glacial Turquoise Gokyo Alpine Lake",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1346
       },
       {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-113.webp",
+        "type": "image",
+        "title": "Gokyo Ri Summit High Altitude Panorama",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-114.webp",
+        "type": "image",
+        "title": "Trekking along the Gokyo Valley & Glacial Ridge",
+        "category": "Trail",
+        "width": 1080,
+        "height": 810
       },
       {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-115.webp",
+        "type": "image",
+        "title": "Trekking along the Gokyo Valley & Glacial Ridge",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-116.webp",
+        "type": "image",
+        "title": "Grregrfgregre",
+        "category": "Trail",
+        "width": 960,
+        "height": 1280
       },
       {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-117.webp",
+        "type": "image",
+        "title": "Igloo Himalaya Treks Pvt.jpghjtyjyt",
+        "category": "Trail",
+        "width": 1077,
+        "height": 627
       },
       {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-118.webp",
+        "type": "image",
+        "title": "Madb4112",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1913
       },
       {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-119.webp",
+        "type": "image",
+        "title": "Mwtj3313",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
       },
       {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-12.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-120.webp",
+        "type": "image",
+        "title": "Picture1.jpghggfhgf",
+        "category": "Trail",
+        "width": 921,
+        "height": 632
       },
       {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-121.webp",
+        "type": "image",
+        "title": "Received 690123049867770",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
       },
       {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-122.webp",
+        "type": "image",
+        "title": "Rfgerfgreger",
+        "category": "Trail",
+        "width": 1440,
+        "height": 750
       },
       {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-123.webp",
+        "type": "image",
+        "title": "Rgregre",
+        "category": "Trail",
+        "width": 1024,
+        "height": 768
       },
       {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-124.webp",
+        "type": "image",
+        "title": "Sdndjkldsk",
+        "category": "Trail",
+        "width": 1024,
+        "height": 768
       },
       {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-125.webp",
+        "type": "image",
+        "title": "Sdsadsa",
+        "category": "Trail",
+        "width": 672,
+        "height": 396
       },
       {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-126.webp",
+        "type": "image",
+        "title": "Tpoh1680",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
       },
       {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-127.webp",
+        "type": "image",
+        "title": "Vfdvfdvf",
+        "category": "Trail",
+        "width": 700,
+        "height": 525
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-128.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 2031
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-129.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-13.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-130.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-131.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-132.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-133.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-134.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 608
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-135.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-136.webp",
+        "type": "image",
+        "title": "Yhjytrhty",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-137.webp",
+        "type": "image",
+        "title": "Yhyththyt",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-14.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-15.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-16.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-17.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-18.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-19.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-20.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 2402
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-21.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-22.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-23.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-24.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-25.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-26.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-27.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-28.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-29.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-30.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-31.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-32.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-33.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-34.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-35.webp",
+        "type": "image",
+        "title": "High Himalayan Mountain Passes & Alpine Ridge Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-36.webp",
+        "type": "image",
+        "title": "High Himalayan Mountain Passes & Alpine Ridge Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-37.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-38.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-39.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-40.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-41.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-42.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-43.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-44.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-45.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-46.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-47.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-48.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-49.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-50.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-51.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-52.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-53.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-54.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-55.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 615
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-56.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-57.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-58.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-59.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-60.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-61.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-62.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-63.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-64.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-65.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-66.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-67.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-68.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-69.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-70.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-71.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-72.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-73.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-74.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-75.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-76.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-77.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-78.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-79.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-80.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-81.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-82.webp",
+        "type": "image",
+        "title": "Three High Passes Alpine Expedition Scenery",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-83.webp",
+        "type": "image",
+        "title": "382715001 2265822110284903 241556308802986790 N",
+        "category": "Trail",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-84.webp",
+        "type": "image",
+        "title": "435724810 2390013377865775 7686682787743530464 N",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-85.webp",
+        "type": "image",
+        "title": "43fregfre",
+        "category": "Trail",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-86.webp",
+        "type": "image",
+        "title": "475303986 122102641868746880 655371408688521844 N",
+        "category": "Trail",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-87.webp",
+        "type": "image",
+        "title": "504427753 4168837146771585 1375624989550384284 N",
+        "category": "Trail",
+        "width": 1152,
+        "height": 2048
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-88.webp",
+        "type": "image",
+        "title": "518318006 1156781536465481 884872711828658685 N",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-89.webp",
+        "type": "image",
+        "title": "Dsfdsfdgv",
+        "category": "Trail",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-90.webp",
+        "type": "image",
+        "title": "Dsvfdsfdsdsds",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1084
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-91.webp",
+        "type": "image",
+        "title": "Dvsvdsvds",
+        "category": "Trail",
+        "width": 1440,
+        "height": 1080
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-92.webp",
+        "type": "image",
+        "title": "Khumbu Glacier & Everest Base Camp Vista",
+        "category": "Panoramas",
+        "width": 1021,
+        "height": 766
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-93.webp",
+        "type": "image",
+        "title": "Ecbg",
+        "category": "Trail",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-94.webp",
+        "type": "image",
+        "title": "Everest Trekking Map",
+        "category": "Peaks",
+        "width": 700,
+        "height": 497
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-95.webp",
+        "type": "image",
+        "title": "Everest Expeditions 2",
+        "category": "Peaks",
+        "width": 896,
+        "height": 782
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-96.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-97.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-98.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 720
+      },
+      {
+        "file": "images/gallery/everest-three-passes-trek/everest-three-passes-trek-gallery-99.webp",
+        "type": "image",
+        "title": "Himalayan High Altitude Trekking Trail View",
+        "category": "Panoramas",
+        "width": 1080,
+        "height": 1440
       }
     ],
     "poon_hill_9": [
@@ -54767,522 +56905,942 @@ function setupTrekPhotoGallery() {
     ],
     "gokyo_luxury": [
       {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 1 Trail View 01",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 1 Trail View 02",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 1 Trail View 03",
+        "category": "Villages"
       },
       {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 10 Trail View 01",
+        "category": "Trail"
       },
       {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 10 Trail View 02",
+        "category": "Trail"
       },
       {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 10 Trail View 03",
+        "category": "Trail"
       },
       {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 10 Trail View 04",
+        "category": "Trail"
       },
       {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 10 Trail View 05",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 11 Trail View 01",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 11 Trail View 02",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 11 Trail View 03",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 11 Trail View 04",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 11 Trail View 05",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 13 Trail View 01",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 13 Trail View 02",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 14 Trail View 01",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 14 Trail View 02",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 14 Trail View 03",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 14 Trail View 04",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 2 Trail View 01",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 2 Trail View 02",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 2 Trail View 03",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 2 Trail View 04",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 2 Trail View 05",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 3 Trail View 01",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 3 Trail View 02",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 3 Trail View 03",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 3 Trail View 04",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 3 Trail View 05",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 01",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 02",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 03",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 04",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 05",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 06",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 4 Trail View 07",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 5 Trail View 01",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 5 Trail View 02",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 5 Trail View 03",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 5 Trail View 04",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 01",
+        "category": "Lakes & Glaciers"
       },
       {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 02",
+        "category": "Lakes & Glaciers"
       },
       {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 03",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 04",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 05",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 6 Trail View 06",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 01",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 02",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 03",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 04",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 05",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 06",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 07",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 7 Trail View 08",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 01",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 02",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 03",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 04",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 05",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 06",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 07",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 08",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-09.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 8 Trail View 09",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 9 Trail View 01",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 9 Trail View 02",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 9 Trail View 03",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek — Day 9 Trail View 04",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 01",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 02",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 03",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 04",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 05",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 06",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 07",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 08",
+        "category": "High Altitude & Passes"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 09",
+        "category": "High Altitude & Passes"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 10",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Luxury Trek Panoramic Lake View 11",
+        "category": "Panoramas"
       }
     ],
     "gokyo_lakes": [
       {
-        "file": "video/gallery/treks/everest-three-passes-trek.mp4",
-        "type": "video",
-        "title": "Everest Three High Passes (Kongma La, Cho La, Renjo La) Crossing",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 1 Trail View 01",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/treks/everest-base-camp.mp4",
-        "type": "video",
-        "title": "Everest Base Camp & Khumbu Glacier High Altitude Expedition",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 1 Trail View 02",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/treks/everest-without-flight.mp4",
-        "type": "video",
-        "title": "Everest Base Camp Overland Trek without Flight via Phaplu & Jiri",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-1/gokyo-lakes-trek-day-1-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 1 Trail View 03",
+        "category": "Villages"
       },
       {
-        "file": "video/Clip Video First.mp4",
-        "type": "video",
-        "title": "Majestic Himalayan Morning Sunrise over Mountain Peaks",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 01",
+        "category": "Trail"
       },
       {
-        "file": "video/Clip Video Second.mp4",
-        "type": "video",
-        "title": "Alpine Valleys, Glacial Rivers & Dramatic Mountain Gorges",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 02",
+        "category": "Trail"
       },
       {
-        "file": "video/Clip Video Third.mp4",
-        "type": "video",
-        "title": "Himalayan Mountain Passes & Ridge Traversing",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 03",
+        "category": "Trail"
       },
       {
-        "file": "video/Clip Video Fourth.mp4",
-        "type": "video",
-        "title": "Alpine Trail Rhododendron Forests & Mountain Meadows",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 04",
+        "category": "Trail"
       },
       {
-        "file": "video/Clip Video Five.mp4",
-        "type": "video",
-        "title": "Himalayan Sunset Alpenglow & High Camp Panoramas",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-10/gokyo-lakes-trek-day-10-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 10 Trail View 05",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20180209_134420.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Winter Snow Trail",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 01",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180209_172407.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Fishtail Sunset Alpenglow",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 02",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180222_095507.mp4",
-        "type": "video",
-        "title": "Himalayan Morning Glacier Mist",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 03",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180402_114934.mp4",
-        "type": "video",
-        "title": "Modi Khola Suspension Bridge Crossing",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 04",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180427_081147.mp4",
-        "type": "video",
-        "title": "Annapurna Base Camp 4,130m Panoramic Video",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-11/gokyo-lakes-trek-day-11-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 11 Trail View 05",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180427_085211.mp4",
-        "type": "video",
-        "title": "Annapurna South Glacier Moraine Expedition Walk",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 13 Trail View 01",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180427_143738.mp4",
-        "type": "video",
-        "title": "Machhapuchhre Base Camp Trail Descent",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-13/gokyo-lakes-trek-day-13-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 13 Trail View 02",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180428_061858.mp4",
-        "type": "video",
-        "title": "Golden Dawn on Annapurna I & Hiunchuli",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 01",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180428_111302.mp4",
-        "type": "video",
-        "title": "Bamboo & Dovan Rhododendron Forest Route",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 02",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180428_122616.mp4",
-        "type": "video",
-        "title": "Chhomrong Village Stone Steps Ascent",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 03",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180428_123442.mp4",
-        "type": "video",
-        "title": "Terraced Hillsides of Modi Valley",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-14/gokyo-lakes-trek-day-14-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 14 Trail View 04",
+        "category": "Activities"
       },
       {
-        "file": "video/gallery/abc/20180501_071034.mp4",
-        "type": "video",
-        "title": "Jhinu Danda Natural Hot Springs Trail",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 01",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180507_145054.mp4",
-        "type": "video",
-        "title": "Annapurna Sanctuary Mountain Weather & Clouds",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 02",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180608_155004.mp4",
-        "type": "video",
-        "title": "Alpine Glacial Stream Cascade",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 03",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180608_172138.mp4",
-        "type": "video",
-        "title": "Evening Mists Rolling over High Camp",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 04",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180610_053433.mp4",
-        "type": "video",
-        "title": "First Light on Hiunchuli Summit",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-2/gokyo-lakes-trek-day-2-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 2 Trail View 05",
+        "category": "Villages"
       },
       {
-        "file": "video/gallery/abc/20180612_083704.mp4",
-        "type": "video",
-        "title": "Deurali Canyon Trail Crossing",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 01",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20180804_112340.mp4",
-        "type": "video",
-        "title": "Monsoon Waterfalls along Modi Khola",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 02",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20181027_055342.mp4",
-        "type": "video",
-        "title": "Autumn Crystal Clear Sunrise at ABC Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 03",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190126_110440.mp4",
-        "type": "video",
-        "title": "Winter Snow Trekking into Machhapuchhre Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 04",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190126_110858.mp4",
-        "type": "video",
-        "title": "Prayer Flags Fluttering in Sanctuary Breeze",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-3/gokyo-lakes-trek-day-3-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 3 Trail View 05",
+        "category": "Panoramas"
       },
       {
-        "file": "video/gallery/abc/20190127_110336.mp4",
-        "type": "video",
-        "title": "Deep Winter Snowfields at 4,130m Base Camp",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 01",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_110452.mp4",
-        "type": "video",
-        "title": "360-Degree Mountain Amphitheater Panorama Video",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 02",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_112704.mp4",
-        "type": "video",
-        "title": "Trekkers Celebrating at Annapurna Base Camp Signboard",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 03",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_135038.mp4",
-        "type": "video",
-        "title": "Glacial Moraine Ice Walk",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 04",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190127_135055_02.mp4",
-        "type": "video",
-        "title": "High Altitude Expedition Team Journey",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 05",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190128_082655.mp4",
-        "type": "video",
-        "title": "Morning Alpenglow on Annapurna South Face",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 06",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190201_083214.mp4",
-        "type": "video",
-        "title": "Winter Trail descending towards Deurali",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-4/gokyo-lakes-trek-day-4-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 4 Trail View 07",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190201_094939.mp4",
-        "type": "video",
-        "title": "Frozen Waterfalls in Mountain Gorge",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 01",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190201_132217.mp4",
-        "type": "video",
-        "title": "Snow Covered Teahouses at Bamboo",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 02",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190202_063349.mp4",
-        "type": "video",
-        "title": "Sunrise over Machhapuchhre from Sinuwa Ridge",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 03",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190202_144533.mp4",
-        "type": "video",
-        "title": "Chhomrong Gurung Village Trail Walk",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-5/gokyo-lakes-trek-day-5-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 5 Trail View 04",
+        "category": "Trail"
       },
       {
-        "file": "video/gallery/abc/20190304_124854.mp4",
-        "type": "video",
-        "title": "Spring Rhododendron Blooms in Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 01",
+        "category": "Lakes & Glaciers"
       },
       {
-        "file": "video/gallery/abc/20190404_091039.mp4",
-        "type": "video",
-        "title": "Crystal Morning View of Annapurna Glacier",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 02",
+        "category": "Lakes & Glaciers"
       },
       {
-        "file": "video/gallery/abc/20190404_091400.mp4",
-        "type": "video",
-        "title": "Expeditions at Base Camp Sanctuary",
-        "category": "Videos"
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 03",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 04",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 05",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-6/gokyo-lakes-trek-day-6-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 6 Trail View 06",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 01",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 02",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 03",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 04",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 05",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 06",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 07",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-7/gokyo-lakes-trek-day-7-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 7 Trail View 08",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 01",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 02",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 03",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 04",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 05",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 06",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 07",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 08",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-8/gokyo-lakes-trek-day-8-09.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 8 Trail View 09",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 01",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 02",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 03",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/day-9/gokyo-lakes-trek-day-9-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek — Day 9 Trail View 04",
+        "category": "Trail"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-01.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 01",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-02.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 02",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-03.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 03",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-04.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 04",
+        "category": "Lakes & Glaciers"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-05.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 05",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-06.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 06",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-07.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 07",
+        "category": "Peaks"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-08.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 08",
+        "category": "High Altitude & Passes"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-09.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 09",
+        "category": "High Altitude & Passes"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-10.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 10",
+        "category": "Panoramas"
+      },
+      {
+        "file": "images/gallery/gokyo-lakes-trek/gokyo-lakes-trek-gallery-11.webp",
+        "type": "image",
+        "title": "Gokyo Lakes Trek Panoramic Lake View 11",
+        "category": "Panoramas"
       }
     ],
     "island_peak_climbing": [
@@ -57922,6 +60480,9 @@ function setupTrekPhotoGallery() {
           : imgPrefix + item.file;
 
         let poster = item.poster;
+        if (poster && !poster.startsWith('http') && !poster.startsWith('/') && !poster.startsWith(rootPrefix)) {
+          poster = rootPrefix + poster;
+        }
         if (isVideo && !poster) {
           const lowerFile = mediaSrc.toLowerCase();
           if (lowerFile.includes('everest') || lowerFile.includes('ebc')) {
@@ -57962,7 +60523,10 @@ function setupTrekPhotoGallery() {
   }
 
   // Combine page photos (priority) + full curated expedition photos & videos
-  activePhotos = [...pagePhotos, ...registryPhotos];
+  // Combine videos (top priority) + page photos + full curated expedition photos
+  const videoItems = registryPhotos.filter(p => p.type === 'video');
+  const imageItems = [...pagePhotos, ...registryPhotos.filter(p => p.type !== 'video')];
+  activePhotos = [...videoItems, ...imageItems];
 
   if (activePhotos.length === 0) return;
 
@@ -57980,7 +60544,7 @@ function setupTrekPhotoGallery() {
           <div class="tg-modal-header">
             <div class="tg-header-left">
               <h3 id="tg-modal-title" class="tg-modal-title tg-title">${modalTrekTitle}</h3>
-              <span id="tg-photo-count" class="tg-count-pill">${activePhotos.length} Media</span>
+              <span id="tg-photo-count" class="tg-count-pill">${activePhotos.length} Photos</span>
             </div>
             <div class="tg-header-right">
               <div class="tg-view-switcher tg-view-toggle">
@@ -58037,7 +60601,7 @@ function setupTrekPhotoGallery() {
   if (titleEl) titleEl.textContent = modalTrekTitle;
   const countEl = modal.querySelector('#tg-photo-count');
   const videoCount = activePhotos.filter(p => p.type === 'video').length;
-  if (countEl) countEl.textContent = activePhotos.length + ' Media' + (videoCount > 0 ? ' (' + videoCount + ' Videos)' : '');
+  if (countEl) countEl.textContent = videoCount > 0 ? (activePhotos.length + ' Media Items') : (activePhotos.length + ' Photos');
 
   let currentView = 'grid'; // 'grid' | 'single'
   let currentIndex = 0;
@@ -58068,7 +60632,7 @@ function setupTrekPhotoGallery() {
 
   filterBar.innerHTML = categories.map(cat => {
     let label = cat;
-    if (cat === 'All') label = 'All Media (' + activePhotos.length + ')';
+    if (cat === 'All') label = videoCount > 0 ? ('All Media (' + activePhotos.length + ')') : ('All Photos (' + activePhotos.length + ')');
     else if (cat === 'Videos') label = 'Videos (' + activePhotos.filter(p => p.type === 'video').length + ')';
     return `
       <button type="button" class="tg-filter-pill ${cat === 'All' ? 'active' : ''}" data-cat="${cat}">
@@ -58349,6 +60913,17 @@ function setupTrekPhotoGallery() {
       });
     });
   }
+
+  // Hook Up In-Page Expedition Gallery Thumbnails to Open Viewer Directly
+  const expeditionGalleryItems = document.querySelectorAll('.expedition-gallery-item');
+  expeditionGalleryItems.forEach(item => {
+    item.addEventListener('click', (e) => {
+      e.preventDefault();
+      const indexAttr = item.getAttribute('data-gallery-index');
+      const startIdx = indexAttr !== null ? parseInt(indexAttr, 10) : 0;
+      openGalleryModal('single', startIdx);
+    });
+  });
 }
 
 

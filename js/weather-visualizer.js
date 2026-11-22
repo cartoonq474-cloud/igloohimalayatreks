@@ -1,4 +1,71 @@
 const WEATHER_PROFILES = {
+  "gokyo_luxury": {
+    regionTitle: "Gokyo Valley / Khumbu Regional Climate",
+    monthData: [
+      { name: "January", min: -17, max: 4 },
+      { name: "February", min: -15, max: 5 },
+      { name: "March", min: -10, max: 8 },
+      { name: "April", min: -5, max: 11 },
+      { name: "May", min: -1, max: 13 },
+      { name: "June", min: 3, max: 14 },
+      { name: "July", min: 5, max: 14 },
+      { name: "August", min: 5, max: 14 },
+      { name: "September", min: 2, max: 13 },
+      { name: "October", min: -4, max: 10 },
+      { name: "November", min: -10, max: 7 },
+      { name: "December", min: -15, max: 5 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 3 (2,610 m / 8,563 ft)", min: -3, max: 14 },
+      { label: "Day 4 (3,440 m / 11,286 ft)", min: -7, max: 11 },
+      { label: "Day 5 (3,880 m / 12,730 ft)", min: -9, max: 9 },
+      { label: "Day 6 (4,000 m / 13,123 ft)", min: -10, max: 8 },
+      { label: "Day 7 (4,470 m / 14,665 ft)", min: -13, max: 6 },
+      { label: "Day 8 (4,790 m / 15,715 ft)", min: -15, max: 4 },
+      { label: "Day 9 (5,357 m / 17,575 ft)", min: -17, max: 2 },
+      { label: "Day 10 (4,000 m / 13,123 ft)", min: -10, max: 8 },
+      { label: "Day 11 (3,440 m / 11,286 ft)", min: -7, max: 11 },
+      { label: "Day 12 (2,860 m / 9,383 ft)", min: -4, max: 13 },
+      { label: "Day 13 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 14 (Departure)", min: 4, max: 20 }
+    ]
+  },
+  "gokyo-lakes-luxury-trek": {
+    regionTitle: "Gokyo Valley / Khumbu Regional Climate",
+    monthData: [
+      { name: "January", min: -17, max: 4 },
+      { name: "February", min: -15, max: 5 },
+      { name: "March", min: -10, max: 8 },
+      { name: "April", min: -5, max: 11 },
+      { name: "May", min: -1, max: 13 },
+      { name: "June", min: 3, max: 14 },
+      { name: "July", min: 5, max: 14 },
+      { name: "August", min: 5, max: 14 },
+      { name: "September", min: 2, max: 13 },
+      { name: "October", min: -4, max: 10 },
+      { name: "November", min: -10, max: 7 },
+      { name: "December", min: -15, max: 5 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 3 (2,610 m / 8,563 ft)", min: -3, max: 14 },
+      { label: "Day 4 (3,440 m / 11,286 ft)", min: -7, max: 11 },
+      { label: "Day 5 (3,880 m / 12,730 ft)", min: -9, max: 9 },
+      { label: "Day 6 (4,000 m / 13,123 ft)", min: -10, max: 8 },
+      { label: "Day 7 (4,470 m / 14,665 ft)", min: -13, max: 6 },
+      { label: "Day 8 (4,790 m / 15,715 ft)", min: -15, max: 4 },
+      { label: "Day 9 (5,357 m / 17,575 ft)", min: -17, max: 2 },
+      { label: "Day 10 (4,000 m / 13,123 ft)", min: -10, max: 8 },
+      { label: "Day 11 (3,440 m / 11,286 ft)", min: -7, max: 11 },
+      { label: "Day 12 (2,860 m / 9,383 ft)", min: -4, max: 13 },
+      { label: "Day 13 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 14 (Departure)", min: 4, max: 20 }
+    ]
+  },
+
 
   "everest-base-camp-trek-16-days": {
     regionTitle: "Khumbu / Everest Base Camp Regional Climate",
