@@ -1,99 +1,27 @@
-const http = require('http');
+const { execSync } = require('child_process');
 const fs = require('fs');
-const { spawn } = require('child_process');
-const WebSocket = globalThis.WebSocket;
+const os = require('os');
+const path = require('path');
 
-function request(options, data) {
-  return new Promise((resolve, reject) => {
-    const req = http.request(options, res => {
-      let body = '';
-      res.on('data', chunk => body += chunk);
-      res.on('end', () => resolve(body));
-    });
-    req.on('error', reject);
-    if (data) req.write(data);
-    req.end();
-  });
+const chrome = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const tempDir = path.join(os.tmpdir(), 'chrome_headless_' + Date.now());
+const destDesktop = path.resolve('scratch/tilicho_desktop.png');
+const destMobile = path.resolve('scratch/tilicho_mobile.png');
+const url = 'http://localhost:3000/trek/annapurna-circuit-with-tilicho-lake/';
+
+try {
+  console.log('Taking desktop screenshot to', destDesktop);
+  execSync(`"${chrome}" --headless=new --user-data-dir="${tempDir}" --screenshot="${destDesktop}" --window-size=1440,1080 --hide-scrollbars "${url}"`, { stdio: 'inherit', timeout: 15000 });
+
+  console.log('Taking mobile screenshot to', destMobile);
+  execSync(`"${chrome}" --headless=new --user-data-dir="${tempDir}" --screenshot="${destMobile}" --window-size=390,844 --hide-scrollbars "${url}"`, { stdio: 'inherit', timeout: 15000 });
+} catch (e) {
+  console.error('Error or timeout:', e.message);
 }
 
-class CDPClient {
-  constructor(wsUrl) {
-    this.ws = new WebSocket(wsUrl);
-    this.id = 1;
-    this.pending = new Map();
-    this.ws.onmessage = (event) => {
-      const msg = JSON.parse(event.data);
-      if (msg.id && this.pending.has(msg.id)) {
-        const { resolve, reject } = this.pending.get(msg.id);
-        this.pending.delete(msg.id);
-        if (msg.error) reject(msg.error);
-        else resolve(msg.result);
-      }
-    };
-  }
-  async connect() {
-    if (this.ws.readyState === WebSocket.OPEN) return;
-    return new Promise((resolve, reject) => {
-      this.ws.onopen = () => resolve();
-      this.ws.onerror = (err) => reject(err);
-    });
-  }
-  send(method, params = {}) {
-    return new Promise((resolve, reject) => {
-      const msgId = this.id++;
-      this.pending.set(msgId, { resolve, reject });
-      this.ws.send(JSON.stringify({ id: msgId, method, params }));
-    });
-  }
-  close() {
-    try { this.ws.close(); } catch (e) {}
-  }
-}
+console.log('Desktop exists:', fs.existsSync(destDesktop), fs.existsSync(destDesktop) ? fs.statSync(destDesktop).size : 0);
+console.log('Mobile exists:', fs.existsSync(destMobile), fs.existsSync(destMobile) ? fs.statSync(destMobile).size : 0);
 
-async function main() {
-  const chromePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
-  const chromeProcess = spawn(chromePath, [
-    '--headless=new',
-    '--remote-debugging-port=9224',
-    '--disable-gpu',
-    '--no-first-run',
-    '--no-default-browser-check',
-    '--window-size=1440,1200'
-  ]);
-
-  await new Promise(r => setTimeout(r, 2000));
-
-  try {
-    const targetsBody = await request({ host: '127.0.0.1', port: 9224, path: '/json', method: 'GET' });
-    const targets = JSON.parse(targetsBody);
-    const pageTarget = targets.find(t => t.type === 'page');
-    const client = new CDPClient(pageTarget.webSocketDebuggerUrl);
-    await client.connect();
-    await client.send('Page.enable');
-    await client.send('Runtime.enable');
-
-    await client.send('Page.navigate', { url: 'http://localhost:3000/tour/everest-base-camp-helicopter-tour/index.html' });
-    await new Promise(r => setTimeout(r, 2500));
-
-    // Scroll to #section-reviews
-    await client.send('Runtime.evaluate', {
-      expression: `(() => {
-        const el = document.getElementById('section-reviews');
-        if (el) el.scrollIntoView({ behavior: 'instant', block: 'center' });
-      })()`
-    });
-    await new Promise(r => setTimeout(r, 1000));
-
-    const shotRes = await client.send('Page.captureScreenshot', { format: 'png' });
-    fs.writeFileSync('scratch/ebc_heli_removed_sec9_shot.png', Buffer.from(shotRes.data, 'base64'));
-    console.log('Saved screenshot: scratch/ebc_heli_removed_sec9_shot.png');
-
-    client.close();
-  } catch (e) {
-    console.error(e);
-  } finally {
-    chromeProcess.kill();
-  }
-}
-
-main();
+try {
+  fs.rmSync(tempDir, { recursive: true, force: true });
+} catch (e) {}

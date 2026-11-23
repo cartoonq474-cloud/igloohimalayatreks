@@ -1652,6 +1652,22 @@ const trekAltitudeProfiles = {
       { day: "Day 16", spot: "Departure", altitudeM: 1400, altitudeFt: 4593 }
     ]
   },
+  "khopra_ridge": {
+    name: "Khopra Ridge Trek (11 Days)",
+    points: [
+      { day: "Day 1", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 2", spot: "Pokhara", altitudeM: 827 },
+      { day: "Day 3", spot: "Tadapani", altitudeM: 2630 },
+      { day: "Day 4", spot: "Dobato", altitudeM: 3350 },
+      { day: "Day 5", spot: "Khopra Ridge", altitudeM: 3660 },
+      { day: "Day 6", spot: "Khayar Lake", altitudeM: 4660 },
+      { day: "Day 7", spot: "Swanta", altitudeM: 2214 },
+      { day: "Day 8", spot: "Ghorepani", altitudeM: 2850 },
+      { day: "Day 9", spot: "Poon Hill / Pokhara", altitudeM: 827 },
+      { day: "Day 10", spot: "Kathmandu", altitudeM: 1400 },
+      { day: "Day 11", spot: "Departure", altitudeM: 1400 }
+    ]
+  },
   "mohare_danda": {
     name: "Mohare Danda Trek (9 Days)",
     points: [

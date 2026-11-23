@@ -1069,13 +1069,75 @@ const WEATHER_PROFILES = {
       { label: "Day 3: Changunarayan (1540 m)", min: 13, max: 23 },
       { label: "Day 3: Kathmandu Return (1350 m)", min: 14, max: 24 }
     ]
+  },
+  "khopra_ridge": {
+    regionTitle: "Khopra Ridge & Annapurna South Regional Climate",
+    monthData: [
+      { name: "January", min: -10, max: 4 },
+      { name: "February", min: -8, max: 6 },
+      { name: "March", min: -4, max: 10 },
+      { name: "April", min: 0, max: 14 },
+      { name: "May", min: 4, max: 16 },
+      { name: "June", min: 8, max: 17 },
+      { name: "July", min: 10, max: 18 },
+      { name: "August", min: 9, max: 17 },
+      { name: "September", min: 6, max: 15 },
+      { name: "October", min: 0, max: 12 },
+      { name: "November", min: -5, max: 8 },
+      { name: "December", min: -9, max: 5 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 2 (827 m / 2,713 ft)", min: 12, max: 25 },
+      { label: "Day 3 (2,630 m / 8,629 ft)", min: 2, max: 16 },
+      { label: "Day 4 (3,350 m / 10,991 ft)", min: -3, max: 12 },
+      { label: "Day 5 (3,660 m / 12,008 ft)", min: -6, max: 9 },
+      { label: "Day 6 (4,660 m / 15,289 ft)", min: -11, max: 4 },
+      { label: "Day 7 (2,214 m / 7,264 ft)", min: 4, max: 18 },
+      { label: "Day 8 (2,850 m / 9,350 ft)", min: 1, max: 15 },
+      { label: "Day 9 (827 m / 2,713 ft)", min: 12, max: 25 },
+      { label: "Day 10 (1,400 m / 4,593 ft)", min: 4, max: 20 },
+      { label: "Day 11 (1,400 m / 4,593 ft)", min: 4, max: 20 }
+    ]
   }
 };
 
 // Aliases
+WEATHER_PROFILES["annapurna-base-camp-heli-return"] = {
+    regionTitle: "Annapurna Sanctuary & Poon Hill Regional Climate",
+    monthData: [
+      { name: "January", min: -10, max: 8 },
+      { name: "February", min: -8, max: 10 },
+      { name: "March", min: -4, max: 14 },
+      { name: "April", min: 1, max: 17 },
+      { name: "May", min: 5, max: 19 },
+      { name: "June", min: 9, max: 20 },
+      { name: "July", min: 11, max: 21 },
+      { name: "August", min: 10, max: 20 },
+      { name: "September", min: 7, max: 18 },
+      { name: "October", min: 1, max: 15 },
+      { name: "November", min: -5, max: 11 },
+      { name: "December", min: -8, max: 9 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,350 m / 4,429 ft)", min: 4, max: 20 },
+      { label: "Day 2 (827 m / 2,713 ft)", min: 10, max: 24 },
+      { label: "Day 3 (2,050 m / 6,725 ft)", min: 5, max: 19 },
+      { label: "Day 4 (2,860 m / 9,383 ft)", min: 0, max: 13 },
+      { label: "Day 5 (2,310 m / 7,578 ft)", min: 3, max: 16 },
+      { label: "Day 6 (2,200 m / 7,217 ft)", min: 4, max: 17 },
+      { label: "Day 7 (3,230 m / 10,597 ft)", min: -2, max: 10 },
+      { label: "Day 8 (4,130 m / 13,550 ft)", min: -8, max: 6 },
+      { label: "Day 9 (827 m / 2,713 ft)", min: 10, max: 24 },
+      { label: "Day 10 (1,350 m / 4,429 ft)", min: 4, max: 20 },
+      { label: "Day 11 (1,350 m / 4,429 ft)", min: 4, max: 20 }
+    ]
+  };
+WEATHER_PROFILES["abc_heli"] = WEATHER_PROFILES["annapurna-base-camp-trek-via-poon-hill"];
 WEATHER_PROFILES["one-day-kathmandu-city-tour"] = WEATHER_PROFILES["kathmandu_day_tour"];
 WEATHER_PROFILES["honeymoon-tour-in-nepal"] = WEATHER_PROFILES["honeymoon_tour"];
 WEATHER_PROFILES["chisapani-nagarkot-trek"] = WEATHER_PROFILES["chisapani_nagarkot"];
+WEATHER_PROFILES["khopra-ridge-trek"] = WEATHER_PROFILES["khopra_ridge"];
 
 const monthOffsets = {
   "January": 0,
