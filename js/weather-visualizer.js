@@ -686,6 +686,105 @@ const WEATHER_PROFILES = {
       { label: "Day 13 (1400 m / 4593 ft)", min: 6, max: 22 }
     ]
   },
+  "annapurna-circuit-trek": {
+    regionTitle: "Annapurna Circuit / Thorong La Regional Climate",
+    monthData: [
+      { name: "January", min: -14, max: 5 },
+      { name: "February", min: -12, max: 7 },
+      { name: "March", min: -7, max: 11 },
+      { name: "April", min: -2, max: 14 },
+      { name: "May", min: 3, max: 16 },
+      { name: "June", min: 7, max: 17 },
+      { name: "July", min: 9, max: 18 },
+      { name: "August", min: 8, max: 17 },
+      { name: "September", min: 5, max: 15 },
+      { name: "October", min: -2, max: 12 },
+      { name: "November", min: -8, max: 8 },
+      { name: "December", min: -12, max: 6 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,350 m / 4,429 ft)", min: 4, max: 20 },
+      { label: "Day 2 (1,300 m / 4,265 ft)", min: 6, max: 22 },
+      { label: "Day 3 (1,960 m / 6,430 ft)", min: 3, max: 18 },
+      { label: "Day 4 (2,650 m / 8,694 ft)", min: 1, max: 16 },
+      { label: "Day 5 (3,300 m / 10,827 ft)", min: -3, max: 13 },
+      { label: "Day 6 (3,540 m / 11,614 ft)", min: -5, max: 11 },
+      { label: "Day 7 (3,540 m / 11,614 ft)", min: -5, max: 11 },
+      { label: "Day 8 (4,050 m / 13,287 ft)", min: -9, max: 8 },
+      { label: "Day 9 (4,540 m / 14,895 ft)", min: -13, max: 4 },
+      { label: "Day 10 (5,416 m / 3,800 m)", min: -18, max: 2 },
+      { label: "Day 11 (2,750 m / 9,022 ft)", min: 1, max: 16 },
+      { label: "Day 12 (850 m / 2,789 ft)", min: 12, max: 26 },
+      { label: "Day 13 (1,350 m / 4,429 ft)", min: 6, max: 22 },
+      { label: "Day 14 (1,350 m / 4,429 ft)", min: 6, max: 22 }
+    ]
+  },
+  "annapurna_circuit_trek": {
+    regionTitle: "Annapurna Circuit / Thorong La Regional Climate",
+    monthData: [
+      { name: "January", min: -14, max: 5 },
+      { name: "February", min: -12, max: 7 },
+      { name: "March", min: -7, max: 11 },
+      { name: "April", min: -2, max: 14 },
+      { name: "May", min: 3, max: 16 },
+      { name: "June", min: 7, max: 17 },
+      { name: "July", min: 9, max: 18 },
+      { name: "August", min: 8, max: 17 },
+      { name: "September", min: 5, max: 15 },
+      { name: "October", min: -2, max: 12 },
+      { name: "November", min: -8, max: 8 },
+      { name: "December", min: -12, max: 6 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,350 m / 4,429 ft)", min: 4, max: 20 },
+      { label: "Day 2 (1,300 m / 4,265 ft)", min: 6, max: 22 },
+      { label: "Day 3 (1,960 m / 6,430 ft)", min: 3, max: 18 },
+      { label: "Day 4 (2,650 m / 8,694 ft)", min: 1, max: 16 },
+      { label: "Day 5 (3,300 m / 10,827 ft)", min: -3, max: 13 },
+      { label: "Day 6 (3,540 m / 11,614 ft)", min: -5, max: 11 },
+      { label: "Day 7 (3,540 m / 11,614 ft)", min: -5, max: 11 },
+      { label: "Day 8 (4,050 m / 13,287 ft)", min: -9, max: 8 },
+      { label: "Day 9 (4,540 m / 14,895 ft)", min: -13, max: 4 },
+      { label: "Day 10 (5,416 m / 3,800 m)", min: -18, max: 2 },
+      { label: "Day 11 (2,750 m / 9,022 ft)", min: 1, max: 16 },
+      { label: "Day 12 (850 m / 2,789 ft)", min: 12, max: 26 },
+      { label: "Day 13 (1,350 m / 4,429 ft)", min: 6, max: 22 },
+      { label: "Day 14 (1,350 m / 4,429 ft)", min: 6, max: 22 }
+    ]
+  },
+  "classic-annapurna-circuit-trek": {
+    regionTitle: "Annapurna Circuit / Thorong La Regional Climate",
+    monthData: [
+      { name: "January", min: -14, max: 5 },
+      { name: "February", min: -12, max: 7 },
+      { name: "March", min: -7, max: 11 },
+      { name: "April", min: -2, max: 14 },
+      { name: "May", min: 3, max: 16 },
+      { name: "June", min: 7, max: 17 },
+      { name: "July", min: 9, max: 18 },
+      { name: "August", min: 8, max: 17 },
+      { name: "September", min: 5, max: 15 },
+      { name: "October", min: -2, max: 12 },
+      { name: "November", min: -8, max: 8 },
+      { name: "December", min: -12, max: 6 }
+    ],
+    baseDailyData: [
+      { label: "Day 1 (1,350 m / 4,429 ft)", min: 4, max: 20 },
+      { label: "Day 2 (1,300 m / 4,265 ft)", min: 6, max: 22 },
+      { label: "Day 3 (1,960 m / 6,430 ft)", min: 3, max: 18 },
+      { label: "Day 4 (2,650 m / 8,694 ft)", min: 1, max: 16 },
+      { label: "Day 5 (3,300 m / 10,827 ft)", min: -3, max: 13 },
+      { label: "Day 6 (3,540 m / 11,614 ft)", min: -5, max: 11 },
+      { label: "Day 7 (3,540 m / 11,614 ft)", min: -5, max: 11 },
+      { label: "Day 8 (4,050 m / 13,287 ft)", min: -9, max: 8 },
+      { label: "Day 9 (4,540 m / 14,895 ft)", min: -13, max: 4 },
+      { label: "Day 10 (5,416 m / 3,800 m)", min: -18, max: 2 },
+      { label: "Day 11 (2,750 m / 9,022 ft)", min: 1, max: 16 },
+      { label: "Day 12 (850 m / 2,789 ft)", min: 12, max: 26 },
+      { label: "Day 13 (1,350 m / 4,429 ft)", min: 6, max: 22 },
+      { label: "Day 14 (1,350 m / 4,429 ft)", min: 6, max: 22 }
+    ]
+  },
   "annapurna_circuit_luxury": {
     regionTitle: "Annapurna Circuit / Thorong La Regional Climate",
     monthData: [

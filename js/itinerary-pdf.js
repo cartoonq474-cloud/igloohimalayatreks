@@ -89,14 +89,25 @@
     let bestSeason = '';
     let groupSize = '';
 
+    function formatFact(val, sub) {
+      if (!val) return '';
+      if (!sub) return val;
+      const cleanV = val.trim();
+      const cleanS = sub.trim();
+      if (cleanV.toLowerCase().includes(cleanS.toLowerCase()) || cleanS.toLowerCase().includes(cleanV.toLowerCase())) {
+        return cleanV;
+      }
+      return `${cleanV} (${cleanS})`;
+    }
+
     facts.forEach(f => {
       const cat = f.cat.toUpperCase();
-      if (cat.includes('ALTITUDE') || cat.includes('ELEVATION')) maxAltitude = `${f.val} ${f.sub ? '(' + f.sub + ')' : ''}`.trim();
+      if (cat.includes('ALTITUDE') || cat.includes('ELEVATION')) maxAltitude = formatFact(f.val, f.sub);
       if (cat.includes('GRADE') || cat.includes('DIFFICULTY')) tripGrade = f.val;
-      if (cat.includes('START') || cat.includes('FINISH') || cat.includes('TRANSPORT')) startFinish = `${f.val} ${f.sub ? '(' + f.sub + ')' : ''}`.trim();
+      if (cat.includes('START') || cat.includes('FINISH') || cat.includes('TRANSPORT')) startFinish = formatFact(f.val, f.sub);
       if (cat.includes('ACCOMMODATION') || cat.includes('LODGE')) accommodation = f.val;
       if (cat.includes('MEAL')) meals = f.val;
-      if (cat.includes('SEASON') || cat.includes('MONTH')) bestSeason = `${f.val} ${f.sub ? '(' + f.sub + ')' : ''}`.trim();
+      if (cat.includes('SEASON') || cat.includes('MONTH')) bestSeason = formatFact(f.val, f.sub);
       if (cat.includes('GROUP') || cat.includes('TEAM')) groupSize = f.val;
     });
 
@@ -125,7 +136,14 @@
       } else {
         t = cleanText(h.textContent);
       }
-      if (t.length > 12 && !highlights.includes(t)) highlights.push(t);
+      if (t.length > 12 &&
+          !t.toLowerCase().includes('plan your') &&
+          !t.toLowerCase().includes('book now') &&
+          !t.toLowerCase().includes('enquire now') &&
+          !t.toLowerCase().includes('travelers') &&
+          !highlights.includes(t)) {
+        highlights.push(t);
+      }
     });
 
     if (highlights.length === 0) {
@@ -368,7 +386,7 @@
     // 2. Key Trip Facts Specification Grid (2 rows x 4 cols = 8 facts)
     doc.setFillColor(cardBg[0], cardBg[1], cardBg[2]);
     doc.setDrawColor(borderCol[0], borderCol[1], borderCol[2]);
-    doc.roundedRect(margin, currentY, contentWidth, 29, 2, 2, 'FD');
+    doc.roundedRect(margin, currentY, contentWidth, 32, 2, 2, 'FD');
 
     const factItems = [
       { label: 'DURATION', val: data.duration },
@@ -386,7 +404,7 @@
       const row = Math.floor(idx / 4);
       const col = idx % 4;
       const fx = margin + (col * colW) + 3.5;
-      const fy = currentY + (row * 14) + 4;
+      const fy = currentY + (row * 15.5) + 4;
 
       doc.setFont('helvetica', 'bold');
       doc.setFontSize(6.2);
@@ -394,26 +412,26 @@
       doc.text(f.label, fx, fy);
 
       doc.setFont('helvetica', 'bold');
-      doc.setFontSize(7.6);
+      doc.setFontSize(7.5);
       doc.setTextColor(navy[0], navy[1], navy[2]);
       const valLines = doc.splitTextToSize(f.val, colW - 6);
       doc.text(valLines[0] || f.val, fx, fy + 4.5);
       if (valLines.length > 1) {
-        doc.setFontSize(6.8);
+        doc.setFontSize(6.6);
         doc.setFont('helvetica', 'normal');
-        doc.text(valLines[1], fx, fy + 8);
+        doc.text(valLines[1], fx, fy + 8.5);
       }
 
       if (col < 3) {
         doc.setDrawColor(borderCol[0], borderCol[1], borderCol[2]);
-        doc.line(margin + ((col + 1) * colW), fy - 1, margin + ((col + 1) * colW), fy + 9);
+        doc.line(margin + ((col + 1) * colW), fy - 1, margin + ((col + 1) * colW), fy + 10.5);
       }
     });
 
     // Horizontal divider between row 1 and row 2
     doc.setDrawColor(borderCol[0], borderCol[1], borderCol[2]);
-    doc.line(margin + 2, currentY + 14.5, pageWidth - margin - 2, currentY + 14.5);
-    currentY += 34;
+    doc.line(margin + 2, currentY + 16, pageWidth - margin - 2, currentY + 16);
+    currentY += 37;
 
     // 3. Route Overview Section
     doc.setFont('helvetica', 'bold');
@@ -574,13 +592,17 @@
           doc.setFont('helvetica', 'bold');
           doc.setFontSize(6);
           doc.setTextColor(slateMuted[0], slateMuted[1], slateMuted[2]);
-          doc.text(`${mi.label}:`, margin + 4.5, my1);
+          const lbl = `${mi.label}:`;
+          doc.text(lbl, margin + 4.5, my1);
+          const lblW = doc.getTextWidth(lbl) + 1.5;
 
           doc.setFont('helvetica', 'bold');
           doc.setFontSize(6.8);
           doc.setTextColor(navy[0], navy[1], navy[2]);
-          const valL = doc.splitTextToSize(mi.value, mColW - 24);
-          doc.text(valL[0] || mi.value, margin + 24, my1);
+          const valX = margin + 4.5 + lblW;
+          const maxValW = mColW - lblW - 6;
+          const valL = doc.splitTextToSize(mi.value, maxValW);
+          doc.text(valL[0] || mi.value, valX, my1);
           my1 += 4.5;
         });
 
@@ -591,13 +613,17 @@
           doc.setFont('helvetica', 'bold');
           doc.setFontSize(6);
           doc.setTextColor(slateMuted[0], slateMuted[1], slateMuted[2]);
-          doc.text(`${mi.label}:`, mx + 2, my2);
+          const lbl = `${mi.label}:`;
+          doc.text(lbl, mx + 2, my2);
+          const lblW = doc.getTextWidth(lbl) + 1.5;
 
           doc.setFont('helvetica', 'bold');
           doc.setFontSize(6.8);
           doc.setTextColor(navy[0], navy[1], navy[2]);
-          const valL = doc.splitTextToSize(mi.value, mColW - 24);
-          doc.text(valL[0] || mi.value, mx + 22, my2);
+          const valX = mx + 2 + lblW;
+          const maxValW = mColW - lblW - 4;
+          const valL = doc.splitTextToSize(mi.value, maxValW);
+          doc.text(valL[0] || mi.value, valX, my2);
           my2 += 4.5;
         });
 

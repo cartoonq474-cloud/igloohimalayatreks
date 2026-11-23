@@ -5985,7 +5985,7 @@ textarea {
   font-size: 1.05rem;
   color: #64748B;
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .how-works-link {
