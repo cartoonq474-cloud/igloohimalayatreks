@@ -1559,12 +1559,13 @@ textarea {
    ========================================================================== */
 .modal-card.inq-modal-card {
   background: #FFFFFF;
-  border-radius: 20px;
-  max-width: 660px;
-  width: 100%;
-  max-height: 90vh;
+  border-radius: 18px;
+  max-width: 580px;
+  width: 94%;
+  max-height: 92vh;
   overflow-y: auto;
-  padding: 28px 32px 24px 32px;
+  overflow-x: hidden;
+  padding: 22px 28px 20px 28px;
   position: relative;
   box-shadow: 0 25px 60px -15px rgba(10, 37, 64, 0.4), 0 0 0 1px rgba(226, 232, 240, 0.9);
   box-sizing: border-box;
@@ -1583,38 +1584,38 @@ textarea {
 }
 
 .inq-modal-header {
-  margin-bottom: 12px;
-  padding-right: 36px;
+  margin-bottom: 8px;
+  padding-right: 32px;
 }
 
 .inq-brand-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   background: rgba(26, 150, 200, 0.1);
   color: #0284C7;
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 800;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 4px 10px;
+  padding: 3px 8px;
   border-radius: 50px;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .inq-modal-title {
-  font-size: clamp(1.28rem, 2.6vw, 1.55rem);
+  font-size: clamp(1.2rem, 2.2vw, 1.4rem);
   font-weight: 800;
   color: #0A2540;
-  margin: 0 0 4px 0;
+  margin: 0 0 2px 0;
   line-height: 1.25;
 }
 
 .inq-modal-subtitle {
-  font-size: 0.86rem;
+  font-size: 0.82rem;
   color: #64748B;
-  margin: 0 0 10px 0;
-  line-height: 1.45;
+  margin: 0 0 6px 0;
+  line-height: 1.35;
 }
 
 .inq-selected-trip-wrap {
@@ -1624,16 +1625,17 @@ textarea {
   flex-wrap: wrap;
   background: linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 100%);
   border: 1px solid #E2E8F0;
-  border-radius: 10px;
-  padding: 8px 12px;
-  margin-top: 6px;
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin-top: 4px;
+  margin-bottom: 8px;
 }
 
 .inq-trip-chip {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  font-size: 0.85rem;
+  gap: 6px;
+  font-size: 0.82rem;
   font-weight: 700;
   color: #0E3458;
 }
@@ -1645,9 +1647,9 @@ textarea {
   background: #FEF3C7;
   border: 1px solid #FDE68A;
   color: #92400E;
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   font-weight: 800;
-  padding: 3px 8px;
+  padding: 2px 7px;
   border-radius: 6px;
 }
 
@@ -1688,16 +1690,16 @@ textarea {
 .inq-form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-bottom: 10px;
+  gap: 10px;
+  margin-bottom: 8px;
 }
 
 .inq-field-group {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 3px;
   min-width: 0;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .inq-form-grid .inq-field-group {
@@ -1712,10 +1714,10 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 700;
   color: #1E293B;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 
 .inq-field-label .required {
@@ -1724,7 +1726,7 @@ textarea {
 }
 
 .inq-field-label .hint {
-  font-size: 0.72rem;
+  font-size: 0.70rem;
   font-weight: 500;
   color: #64748B;
 }
@@ -1738,7 +1740,7 @@ textarea {
 
 .inq-input-icon {
   position: absolute;
-  left: 12px;
+  left: 11px;
   color: #94A3B8;
   pointer-events: none;
   flex-shrink: 0;
@@ -1752,10 +1754,10 @@ textarea {
 .inq-input,
 .inq-select {
   width: 100%;
-  padding: 10px 14px 10px 38px;
+  padding: 8px 12px 8px 36px;
   border: 1.5px solid #CBD5E1;
-  border-radius: 10px;
-  font-size: 0.9rem;
+  border-radius: 9px;
+  font-size: 0.88rem;
   color: #0F172A;
   background-color: #FFFFFF;
   outline: none;
@@ -1771,9 +1773,9 @@ textarea {
   -webkit-appearance: none;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748B' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
   background-repeat: no-repeat;
-  background-position: right 12px center;
-  background-size: 15px;
-  padding-right: 34px;
+  background-position: right 11px center;
+  background-size: 14px;
+  padding-right: 32px;
 }
 
 .inq-input:hover,
@@ -1787,7 +1789,7 @@ textarea {
 .inq-textarea:focus {
   border-color: #1A96C8;
   background-color: #FFFFFF;
-  box-shadow: 0 0 0 3.5px rgba(26, 150, 200, 0.15);
+  box-shadow: 0 0 0 3px rgba(26, 150, 200, 0.15);
 }
 
 .inq-input.has-error,
@@ -1800,52 +1802,53 @@ textarea {
 .inq-error-msg {
   display: none;
   color: #DC2626;
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 
 .inq-textarea {
   width: 100%;
-  padding: 10px 14px;
+  padding: 8px 12px;
   border: 1.5px solid #CBD5E1;
-  border-radius: 10px;
-  font-size: 0.88rem;
+  border-radius: 9px;
+  font-size: 0.86rem;
   color: #0F172A;
   background-color: #FFFFFF;
   outline: none;
   resize: vertical;
-  min-height: 64px;
+  min-height: 52px;
+  height: 52px;
   transition: all 0.2s ease;
   box-sizing: border-box;
   font-family: inherit;
 }
 
 .inq-actions-wrap {
-  margin-top: 10px;
+  margin-top: 6px;
 }
 
 .inq-submit-btn {
   width: 100%;
-  padding: 13px 24px;
+  padding: 11px 20px;
   border: none;
   border-radius: 50px;
   background: linear-gradient(135deg, #F6851F 0%, #EA580C 100%);
   color: #FFFFFF;
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 800;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  box-shadow: 0 4px 16px rgba(246, 133, 31, 0.38);
+  box-shadow: 0 4px 14px rgba(246, 133, 31, 0.35);
   transition: all 0.25s ease;
 }
 
 .inq-submit-btn:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 22px rgba(246, 133, 31, 0.48);
+  box-shadow: 0 6px 18px rgba(246, 133, 31, 0.45);
   background: linear-gradient(135deg, #FF8F29 0%, #F56A15 100%);
 }
 
@@ -1860,15 +1863,15 @@ textarea {
 }
 
 .inq-btn-subtext {
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 600;
   color: #64748B;
   text-align: center;
-  margin-top: 6px;
+  margin-top: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 4px;
 }
 
 .inq-whatsapp-alt {
@@ -1877,13 +1880,13 @@ textarea {
   justify-content: center;
   gap: 8px;
   width: 100%;
-  padding: 10px 16px;
-  margin-top: 8px;
+  padding: 8px 14px;
+  margin-top: 6px;
   border-radius: 50px;
   border: 1.5px solid #22C55E;
   background: #F0FDF4;
   color: #15803D;
-  font-size: 0.84rem;
+  font-size: 0.80rem;
   font-weight: 700;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -1900,9 +1903,9 @@ textarea {
 .inq-trust-strip {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 8px;
-  margin-top: 14px;
-  padding-top: 14px;
+  gap: 6px;
+  margin-top: 10px;
+  padding-top: 10px;
   border-top: 1px solid #E2E8F0;
   text-align: center;
 }
@@ -1911,13 +1914,140 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3px;
+  gap: 2px;
 }
 
 .inq-trust-item span {
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 700;
   color: #475569;
+}
+
+/* Custom Searchable Subject Picker Dropdown */
+.inq-custom-select-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.inq-select-trigger {
+  cursor: pointer;
+  background-color: #FFFFFF !important;
+  padding-right: 36px !important;
+}
+
+.inq-select-chevron {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #64748B;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.inq-custom-select-wrap.open .inq-select-chevron {
+  transform: translateY(-50%) rotate(180deg);
+  color: #1A96C8;
+}
+
+.inq-options-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #FFFFFF;
+  border: 1.5px solid #1A96C8;
+  border-radius: 12px;
+  box-shadow: 0 16px 36px -4px rgba(10, 37, 64, 0.25), 0 0 0 1px rgba(226, 232, 240, 0.9);
+  z-index: 100;
+  overflow: hidden;
+  animation: inqDropdownFade 0.18s ease-out;
+}
+
+@keyframes inqDropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.inq-search-wrap {
+  padding: 8px 10px;
+  background: #F8FAFC;
+  border-bottom: 1px solid #E2E8F0;
+  display: flex;
+  align-items: center;
+}
+
+.inq-search-input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #CBD5E1;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-family: inherit;
+  color: #0F172A;
+  background: #FFFFFF;
+  outline: none;
+}
+
+.inq-search-input:focus {
+  border-color: #1A96C8;
+  box-shadow: 0 0 0 2px rgba(26, 150, 200, 0.15);
+}
+
+.inq-options-list {
+  max-height: 180px;
+  overflow-y: auto;
+  padding: 4px 0;
+  scrollbar-width: thin;
+  scrollbar-color: #CBD5E1 transparent;
+}
+
+.inq-options-list::-webkit-scrollbar {
+  width: 6px;
+}
+.inq-options-list::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 10px;
+}
+
+.inq-opt-group {
+  padding: 6px 12px 3px 12px;
+  font-size: 0.70rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748B;
+  background: #F8FAFC;
+}
+
+.inq-opt-item {
+  padding: 7px 14px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: #0E3458;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inq-opt-item:hover,
+.inq-opt-item.active {
+  background-color: #F0F9FF;
+  color: #0284C7;
+}
+
+.inq-opt-item.selected {
+  background-color: #E0F2FE;
+  color: #0369A1;
+  font-weight: 700;
 }
 
 @media (max-width: 640px) {
@@ -21604,5 +21734,112 @@ select.control-select,
     width: 100% !important;
     max-width: 320px !important;
     justify-content: center !important;
+  }
+}
+
+
+/* ==========================================================================
+   ITINERARY PDF EXPORT & SHARE STYLES
+   ========================================================================== */
+.itinerary-actions-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.itinerary-header-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-size: 0.86rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  user-select: none;
+  text-decoration: none;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.itinerary-header-action-btn.itinerary-pdf-trigger {
+  background: #0A2540;
+  color: #FFFFFF;
+  border: 1.5px solid #0A2540;
+}
+
+.itinerary-header-action-btn.itinerary-pdf-trigger:hover {
+  background: #1A96C8;
+  color: #FFFFFF;
+  border-color: #1A96C8;
+  box-shadow: 0 4px 14px rgba(26, 150, 200, 0.35);
+  transform: translateY(-1px);
+}
+
+.itinerary-header-action-btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+/* Spinner Animation */
+@keyframes itinerary-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-icon {
+  animation: itinerary-spin 1s linear infinite;
+  display: inline-block;
+}
+
+/* Toast Notification */
+.itinerary-toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: #0A2540;
+  color: #FFFFFF;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgba(10, 37, 64, 0.4);
+  z-index: 100000;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.35s ease;
+  opacity: 0;
+  pointer-events: none;
+  border-left: 4px solid #10B981;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 90vw;
+  text-align: center;
+}
+
+.itinerary-toast.error {
+  border-left-color: #EF4444;
+}
+
+.itinerary-toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (max-width: 768px) {
+  .itinerary-actions-wrapper {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  
+  .itinerary-header-action-btn {
+    font-size: 0.8rem;
+    padding: 7px 14px;
   }
 }

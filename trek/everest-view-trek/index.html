@@ -31,7 +31,7 @@
         "touristType": ["Hikers", "Trekking Enthusiasts", "Alpine Trekkers"],
         "offers": {
           "@type": "Offer",
-          "price": "895",
+          "price": "1175",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "url": "https://www.igloohimalayatreks.com/trek/everest-view-trek"
@@ -102,7 +102,7 @@
                 "name": "Can I book as a solo traveller?",
                 "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Yes. The starting price for one person is USD 995. Send us your dates to check availability and confirm the final quotation, accommodation, porter arrangements and any private or group options for your seven-day trek."
+                        "text": "Yes. The starting price for one person is USD 1,175. Send us your dates to check availability and confirm the final quotation, accommodation, porter arrangements and any private or group options for your seven-day trek."
                 }
         },
         {
@@ -1094,10 +1094,22 @@
                 <p style="font-size: 1.05rem; color: var(--color-neutral-600); line-height: 1.6; margin: 0; max-width: 820px;">Our seven-day itinerary includes arrival in Kathmandu, four walking days with the Namche hike, and return travel from Lukla. Walking times and distances are approximate; pace, weather and trail conditions affect each day’s schedule.</p>
               </div>
               <div>
-                <button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button" aria-expanded="false">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                <div class="itinerary-actions-wrapper">
+                <button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
                   <span>Expand All Days</span>
                 </button>
+                <button id="itinerary-download-pdf-btn" class="itinerary-header-action-btn itinerary-pdf-trigger" type="button" onclick="window.handleItineraryPDFAction &amp;&amp; window.handleItineraryPDFAction(this, event);" title="Download or share comprehensive expedition itinerary in PDF format">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span>Share / Download PDF</span>
+                </button>
+              </div>
               </div>
             </div>
 
@@ -1726,42 +1738,32 @@
                 <p style="color: var(--color-neutral-600); font-size: 0.94rem; margin: 6px 0 0; line-height: 1.5;">Prices are in US dollars and represent starting rates. Contact us with your travel dates and group size to confirm availability and your final quotation.</p>
               </div>
               <div style="overflow-x: auto;">
-                <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
-                  <thead>
-                    <tr style="background: #F8FAFC; border-bottom: 2px solid #E2E8F0; color: #475569; font-weight: 700; text-transform: uppercase; font-size: 0.78rem; letter-spacing: 0.05em;">
-                      <th style="padding: 14px 20px;">Number of travellers</th>
-                      <th style="padding: 14px 20px;">Starting price per person</th>
-                      <th style="padding: 14px 20px; text-align: right;">Action</th>
-                    </tr>
-                  </thead>
-                  <tbody style="color: #334155;">
-                    <tr style="border-bottom: 1px solid #F1F5F9; background: rgba(26, 150, 200, 0.04);">
-                      <td style="padding: 14px 20px; font-weight: 600; color: var(--color-primary-navy);">1 person</td>
-                      <td style="padding: 14px 20px; font-weight: 800; color: var(--color-copper-orange); font-size: 1.05rem;">From USD 995</td>
-                      <td style="padding: 14px 20px; text-align: right;"><button type="button" class="btn btn-sm btn-primary open-inquiry-btn" data-trek-title="Everest View Trek — 7 Days" style="background: var(--color-copper-orange); border-color: var(--color-copper-orange); color: #ffffff; padding: 6px 16px; font-size: 0.85rem; font-weight: 700; border-radius: 6px; cursor: pointer;">Enquire</button></td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid #F1F5F9;">
-                      <td style="padding: 14px 20px; font-weight: 600; color: var(--color-primary-navy);">2&ndash;4 people</td>
-                      <td style="padding: 14px 20px; font-weight: 800; color: var(--color-copper-orange);">From USD 925</td>
-                      <td style="padding: 14px 20px; text-align: right;"><button type="button" class="btn btn-sm btn-outline-primary open-inquiry-btn" data-trek-title="Everest View Trek — 7 Days" style="border: 1.5px solid var(--color-copper-orange); color: var(--color-copper-orange); background: transparent; padding: 5px 14px; font-size: 0.85rem; font-weight: 600; border-radius: 6px; cursor: pointer;">Enquire</button></td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid #F1F5F9; background: #F8FAFC;">
-                      <td style="padding: 14px 20px; font-weight: 600; color: var(--color-primary-navy);">5&ndash;9 people</td>
-                      <td style="padding: 14px 20px; font-weight: 800; color: var(--color-copper-orange);">From USD 895</td>
-                      <td style="padding: 14px 20px; text-align: right;"><button type="button" class="btn btn-sm btn-outline-primary open-inquiry-btn" data-trek-title="Everest View Trek — 7 Days" style="border: 1.5px solid var(--color-copper-orange); color: var(--color-copper-orange); background: transparent; padding: 5px 14px; font-size: 0.85rem; font-weight: 600; border-radius: 6px; cursor: pointer;">Enquire</button></td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid #F1F5F9;">
-                      <td style="padding: 14px 20px; font-weight: 600; color: var(--color-primary-navy);">10&ndash;20 people</td>
-                      <td style="padding: 14px 20px; font-weight: 600; color: #64748B;">Request a quote</td>
-                      <td style="padding: 14px 20px; text-align: right;"><button type="button" class="btn btn-sm btn-outline-primary open-inquiry-btn" data-trek-title="Everest View Trek — 7 Days" style="border: 1.5px solid var(--color-copper-orange); color: var(--color-copper-orange); background: transparent; padding: 5px 14px; font-size: 0.85rem; font-weight: 600; border-radius: 6px; cursor: pointer;">Enquire</button></td>
-                    </tr>
-                    <tr>
-                      <td style="padding: 14px 20px; font-weight: 600; color: var(--color-primary-navy);">Other group sizes</td>
-                      <td style="padding: 14px 20px; font-weight: 600; color: #64748B;">Request a quote</td>
-                      <td style="padding: 14px 20px; text-align: right;"><button type="button" class="btn btn-sm btn-outline-primary open-inquiry-btn" data-trek-title="Everest View Trek — 7 Days" style="border: 1.5px solid var(--color-copper-orange); color: var(--color-copper-orange); background: transparent; padding: 5px 14px; font-size: 0.85rem; font-weight: 600; border-radius: 6px; cursor: pointer;">Enquire</button></td>
-                    </tr>
-                  </tbody>
-                </table>
+                <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; text-align: left;">
+                    <thead style="background: #F8FAFC; color: #0E3458; border-bottom: 2px solid #E2E8F0; font-weight: 700;">
+                      <tr>
+                        <th style="padding: 14px 20px;">Number of travellers</th>
+                        <th style="padding: 14px 20px;">Starting price per person</th>
+                        <th style="padding: 14px 20px; text-align: right;">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody style="color: #334155;">
+                      <tr style="border-bottom: 1px solid #F1F5F9; background: rgba(26, 150, 200, 0.04);">
+                        <td style="padding: 14px 20px; font-weight: 600; color: var(--color-primary-navy);">1 person</td>
+                        <td style="padding: 14px 20px; font-weight: 800; color: var(--color-copper-orange); font-size: 1.05rem;">From USD 1,175</td>
+                        <td style="padding: 14px 20px; text-align: right;"><button type="button" class="btn btn-sm btn-primary open-inquiry-btn" data-trek-title="Everest View Trek — 7 Days" style="background: var(--color-copper-orange); border-color: var(--color-copper-orange); color: #ffffff; padding: 6px 16px; border-radius: 20px; font-weight: 600;">Inquire</button></td>
+                      </tr>
+                      <tr style="border-bottom: 1px solid #F1F5F9;">
+                        <td style="padding: 14px 20px; font-weight: 600; color: var(--color-primary-navy);">2–4 people</td>
+                        <td style="padding: 14px 20px; font-weight: 700; color: var(--color-primary-navy);">From USD 1,125</td>
+                        <td style="padding: 14px 20px; text-align: right;"><button type="button" class="btn btn-sm btn-outline-primary open-inquiry-btn" data-trek-title="Everest View Trek — 7 Days" style="border: 1px solid #CBD5E1; background: transparent; color: #0E3458; padding: 6px 16px; border-radius: 20px; font-weight: 600;">Inquire</button></td>
+                      </tr>
+                      <tr style="border-bottom: 1px solid #F1F5F9; background: rgba(16, 185, 129, 0.04);">
+                        <td style="padding: 14px 20px; font-weight: 600; color: var(--color-primary-navy);">5–8 people</td>
+                        <td style="padding: 14px 20px; font-weight: 800; color: #059669; font-size: 1.05rem;">From USD 1,065 <span style="font-size: 0.75rem; background: #10B981; color: #fff; padding: 2px 6px; border-radius: 4px; margin-left: 4px;">Best Value</span></td>
+                        <td style="padding: 14px 20px; text-align: right;"><button type="button" class="btn btn-sm btn-primary open-inquiry-btn" data-trek-title="Everest View Trek — 7 Days" style="background: #059669; border-color: #059669; color: #ffffff; padding: 6px 16px; border-radius: 20px; font-weight: 600;">Inquire</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
               </div>
               <div style="padding: 14px 24px; background: #F8FAFC; border-top: 1px solid #E2E8F0; font-size: 0.88rem; color: #64748B; line-height: 1.6;">Ask us about group departures or private dates for your preferred travel window.</div>
             </div>
@@ -3376,7 +3378,7 @@
                             </span>
                           </div>
                           <div class="faq-item-answer">
-                            <p style="margin: 0;">Yes. The starting price for one person is USD 995. Send us your dates to check availability and confirm the final quotation, accommodation, porter arrangements and any private or group options for your seven-day trek.</p>
+                            <p style="margin: 0;">Yes. The starting price for one person is USD 1,175. Send us your dates to check availability and confirm the final quotation, accommodation, porter arrangements and any private or group options for your seven-day trek.</p>
                           </div>
                         </div>
         <div class="faq-item">
@@ -3447,7 +3449,7 @@
             <!-- Pricing Header -->
             <span style="font-size: 0.75rem; font-weight: 800; color: #475569; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 4px;">FROM</span>
             <div style="display: flex; align-items: baseline; gap: 6px; margin-bottom: 16px; flex-wrap: wrap;">
-              <span style="font-size: 2.5rem; font-weight: 800; color: #0E3458; line-height: 1;">$895</span>
+              <span style="font-size: 2.5rem; font-weight: 800; color: #0E3458; line-height: 1;">$1,175</span>
               <span style="font-size: 0.92rem; color: #64748B; font-weight: 500;">/ person</span>
               <a href="#section-itinerary" style="font-size: 0.92rem; color: #475569; font-weight: 600; text-decoration: underline; margin-left: 4px;">7 days trip</a>
             </div>
@@ -3463,29 +3465,25 @@
 
             <!-- Group Discount Table -->
             <div class="group-discount-content" style="display: none; margin-bottom: 18px; background: #F8FAFC; border-radius: 10px; padding: 12px; font-size: 0.85rem; border: 1px solid #E2E8F0;">
-              <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
-                <span style="color: #64748B;">1 person (Solo Trekker)</span>
-                <strong style="color: #0E3458;">USD 995 / person</strong>
+                <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
+                  <span style="color: #64748B;">1 Person</span>
+                  <strong style="color: #0E3458;">USD 1,175 / person</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
+                  <span style="color: #64748B;">2–4 Persons</span>
+                  <strong style="color: #0E3458;">USD 1,125 / person</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
+                  <span style="color: #64748B;">5–8 Persons</span>
+                  <strong style="color: #F6851F;">USD 1,065 / person (Best Rate)</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 6px 0;">
+                  <span style="color: #64748B;">9+ Persons</span>
+                  <strong style="color: #0E3458;">On Request</strong>
+                </div>
               </div>
-              <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
-                <span style="color: #64748B;">2–4 people</span>
-                <strong style="color: #0E3458;">USD 925 / person</strong>
-              </div>
-              <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
-                <span style="color: #64748B;">5–9 people</span>
-                <strong style="color: #F6851F;">USD 895 / person (Best Rate)</strong>
-              </div>
-              <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
-                <span style="color: #64748B;">10–20 people</span>
-                <strong style="color: #0E3458;">Request a quote</strong>
-              </div>
-              <div style="display: flex; justify-content: space-between; padding: 6px 0;">
-                <span style="color: #64748B;">Other group sizes</span>
-                <strong style="color: #0E3458;">Request a quote</strong>
-              </div>
-            </div>
 
-            <!-- Action Buttons -->
+              <!-- Action Buttons -->
             <button type="button" class="btn open-inquiry-btn" data-trek-title="Everest View Trek — 7 Days" style="width: 100%; padding: 14px; background: #F6851F; color: #FFFFFF; border: none; border-radius: 50px; font-size: 1.05rem; font-weight: 800; cursor: pointer; margin-bottom: 12px; box-shadow: 0 4px 14px rgba(246, 133, 31, 0.35); transition: background 0.2s;">
               Book Now
             </button>
@@ -3629,7 +3627,7 @@
             <div class="yml-card-footer">
               <div class="yml-card-price">
                 <span class="yml-price-label">Starting from</span>
-                <span class="yml-price-value">USD <strong>1,175</strong></span>
+                <span class="yml-price-value">USD <strong>1,445</strong></span>
               </div>
               <span class="yml-view-trip-btn">View Trip
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -3673,7 +3671,7 @@
             <div class="yml-card-footer">
               <div class="yml-card-price">
                 <span class="yml-price-label">Starting from</span>
-                <span class="yml-price-value">USD <strong>1,165</strong></span>
+                <span class="yml-price-value">USD <strong>1,475</strong></span>
               </div>
               <span class="yml-view-trip-btn">View Trip
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -3717,7 +3715,7 @@
             <div class="yml-card-footer">
               <div class="yml-card-price">
                 <span class="yml-price-label">Starting from</span>
-                <span class="yml-price-value">USD <strong>955</strong></span>
+                <span class="yml-price-value">USD <strong>1,085</strong></span>
               </div>
               <span class="yml-view-trip-btn">View Trip
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -3761,7 +3759,7 @@
             <div class="yml-card-footer">
               <div class="yml-card-price">
                 <span class="yml-price-label">Starting from</span>
-                <span class="yml-price-value">USD <strong>1,750</strong></span>
+                <span class="yml-price-value">USD <strong>2,145</strong></span>
               </div>
               <span class="yml-view-trip-btn">View Trip
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -4343,6 +4341,8 @@
   <script type="module" src="../../js/altitude-visualizer.js"></script>
   <script type="module" src="../../js/weather-visualizer.js"></script>
   <script type="module" src="../../js/inquiry-modal.js"></script>
+    <script src="../../js/jspdf.umd.min.js"></script>
+  <script src="../../js/itinerary-pdf.js"></script>
   <script src="../../js/trek-details.js?v=11"></script>
   <script src="../../js/header-scroll.js?v=37"></script>
       <!-- High-Conversion Mobile Sticky Booking Bar — hidden on desktop via CSS -->
@@ -4350,7 +4350,7 @@
     <div class="mobile-sticky-price-wrap">
       <span class="mobile-sticky-price-label">Starting From</span>
       <div class="mobile-sticky-price-val">
-        $945 <span class="mobile-sticky-price-unit">/ person</span>
+        $1,175 <span class="mobile-sticky-price-unit">/ person</span>
       </div>
       <span class="mobile-sticky-duration-pill">9 Days &bull; All-Inclusive</span>
     </div>

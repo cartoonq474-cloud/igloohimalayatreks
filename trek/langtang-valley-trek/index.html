@@ -1223,12 +1223,22 @@
               </p>
             </div>
             <div>
-              <button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button" aria-expanded="false">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-                <span>Expand All Days</span>
-              </button>
+              <div class="itinerary-actions-wrapper">
+                <button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                  <span>Expand All Days</span>
+                </button>
+                <button id="itinerary-download-pdf-btn" class="itinerary-header-action-btn itinerary-pdf-trigger" type="button" onclick="window.handleItineraryPDFAction &amp;&amp; window.handleItineraryPDFAction(this, event);" title="Download or share comprehensive expedition itinerary in PDF format">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span>Share / Download PDF</span>
+                </button>
+              </div>
             </div>
           </div>
 
@@ -5723,6 +5733,8 @@
   <script type="module" src="../../js/altitude-visualizer.js"></script>
   <script type="module" src="../../js/weather-visualizer.js"></script>
   <script type="module" src="../../js/inquiry-modal.js"></script>
+    <script src="../../js/jspdf.umd.min.js"></script>
+  <script src="../../js/itinerary-pdf.js"></script>
   <script src="../../js/trek-details.js?v=11"></script>
   <script src="../../js/header-scroll.js?v=37"></script>
       <!-- High-Conversion Mobile Sticky Booking Bar — hidden on desktop via CSS -->

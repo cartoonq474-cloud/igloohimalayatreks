@@ -60,7 +60,7 @@
       ],
       "offers": {
         "@type": "Offer",
-        "price": "1,355",
+        "price": "1785",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "validFrom": "2024-01-01",
@@ -1286,12 +1286,22 @@
                   Our 17-day itinerary includes Everest Base Camp, Cho La, Gokyo and two acclimatisation days. Walking times and distances are approximate; your pace, weather, altitude and glacier or trail conditions can affect each day’s schedule.
                 </p>
               </div>
-              <button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-                <span>Expand All Days</span>
-              </button>
+              <div class="itinerary-actions-wrapper">
+                <button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                  <span>Expand All Days</span>
+                </button>
+                <button id="itinerary-download-pdf-btn" class="itinerary-header-action-btn itinerary-pdf-trigger" type="button" onclick="window.handleItineraryPDFAction &amp;&amp; window.handleItineraryPDFAction(this, event);" title="Download or share comprehensive expedition itinerary in PDF format">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span>Share / Download PDF</span>
+                </button>
+              </div>
             </div>
             
             <div class="itinerary-timeline">
@@ -2844,15 +2854,15 @@
                     <tbody>
                       <tr style="border-bottom: 1px solid #E2E8F0; background: #FFFFFF;">
                         <td style="padding: 12px 18px; font-weight: 600; color: #1E293B;">1 person</td>
-                        <td style="padding: 12px 18px; font-weight: 700; color: #1A96C8;">From USD 1,635</td>
+                        <td style="padding: 12px 18px; font-weight: 700; color: #1A96C8;">From USD 1,785</td>
                       </tr>
                       <tr style="border-bottom: 1px solid #E2E8F0; background: #F8FAFC;">
                         <td style="padding: 12px 18px; font-weight: 600; color: #1E293B;">2–4 people</td>
-                        <td style="padding: 12px 18px; font-weight: 700; color: #1A96C8;">From USD 1,465</td>
+                        <td style="padding: 12px 18px; font-weight: 700; color: #1A96C8;">From USD 1,635</td>
                       </tr>
                       <tr style="border-bottom: 1px solid #E2E8F0; background: #FFFFFF;">
                         <td style="padding: 12px 18px; font-weight: 600; color: #1E293B;">5–9 people</td>
-                        <td style="padding: 12px 18px; font-weight: 700; color: #1A96C8;">From USD 1,355</td>
+                        <td style="padding: 12px 18px; font-weight: 700; color: #1A96C8;">From USD 1,565</td>
                       </tr>
                       <tr style="border-bottom: 1px solid #E2E8F0; background: #F8FAFC;">
                         <td style="padding: 12px 18px; font-weight: 600; color: #1E293B;">10–20 people</td>
@@ -4667,7 +4677,7 @@
               <!-- Pricing Header -->
               <span style="font-size: 0.75rem; font-weight: 800; color: #475569; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 4px;">FROM</span>
               <div style="display: flex; align-items: baseline; gap: 6px; margin-bottom: 16px; flex-wrap: wrap;">
-                <span style="font-size: 2.5rem; font-weight: 800; color: #0E3458; line-height: 1;">$1,355</span>
+                <span style="font-size: 2.5rem; font-weight: 800; color: #0E3458; line-height: 1;">$1,785</span>
                 <span style="font-size: 0.92rem; color: #64748B; font-weight: 500;">/ person</span>
                 <a href="#section-itinerary" style="font-size: 0.92rem; color: #475569; font-weight: 600; text-decoration: underline; margin-left: 4px;">17 days trip</a>
               </div>
@@ -4682,15 +4692,15 @@
               <div class="group-discount-content" style="display: none; margin-bottom: 18px; background: #F8FAFC; border-radius: 10px; padding: 12px; font-size: 0.85rem; border: 1px solid #E2E8F0;">
                 <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
                   <span style="color: #64748B;">1 Person (Solo)</span>
-                  <strong style="color: #0E3458;">$1,635 / person</strong>
+                  <strong style="color: #0E3458;">$1,785 / person</strong>
                 </div>
                 <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
                   <span style="color: #64748B;">2–4 Persons</span>
-                  <strong style="color: #0E3458;">$1,465 / person</strong>
+                  <strong style="color: #0E3458;">$1,635 / person</strong>
                 </div>
                 <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
                   <span style="color: #64748B;">5–9 Persons</span>
-                  <strong style="color: #F6851F;">$1,355 / person (Best Value)</strong>
+                  <strong style="color: #F6851F;">$1,565 / person (Best Value)</strong>
                 </div>
                 <div style="display: flex; justify-content: space-between; padding: 6px 0;">
                   <span style="color: #64748B;">10+ Persons</span>
@@ -4846,7 +4856,7 @@
             <div class="yml-card-footer">
               <div class="yml-card-price">
                 <span class="yml-price-label">Starting from</span>
-                <span class="yml-price-value">USD <strong>1,325</strong></span>
+                <span class="yml-price-value">USD <strong>1,445</strong></span>
               </div>
               <span class="yml-view-trip-btn">View Trip →</span>
             </div>
@@ -4869,7 +4879,7 @@
             <div class="yml-card-footer">
               <div class="yml-card-price">
                 <span class="yml-price-label">Starting from</span>
-                <span class="yml-price-value">USD <strong>1,195</strong></span>
+                <span class="yml-price-value">USD <strong>1,475</strong></span>
               </div>
               <span class="yml-view-trip-btn">View Trip →</span>
             </div>
@@ -4915,7 +4925,7 @@
             <div class="yml-card-footer">
               <div class="yml-card-price">
                 <span class="yml-price-label">Starting from</span>
-                <span class="yml-price-value">USD <strong>1,750</strong></span>
+                <span class="yml-price-value">USD <strong>2,145</strong></span>
               </div>
               <span class="yml-view-trip-btn">View Trip →</span>
             </div>
@@ -5398,6 +5408,8 @@
   <script type="module" src="../../js/altitude-visualizer.js"></script>
   <script type="module" src="../../js/weather-visualizer.js"></script>
   <script type="module" src="../../js/inquiry-modal.js"></script>
+    <script src="../../js/jspdf.umd.min.js"></script>
+  <script src="../../js/itinerary-pdf.js"></script>
   <script src="../../js/trek-details.js?v=25"></script>
   <script src="../../js/header-scroll.js?v=37"></script>
       <!-- High-Conversion Mobile Sticky Booking Bar — hidden on desktop via CSS -->
@@ -5405,7 +5417,7 @@
     <div class="mobile-sticky-price-wrap">
       <span class="mobile-sticky-price-label">Starting From</span>
       <div class="mobile-sticky-price-val">
-        $1,495 <span class="mobile-sticky-price-unit">/ person</span>
+        $1,785 <span class="mobile-sticky-price-unit">/ person</span>
       </div>
       <span class="mobile-sticky-duration-pill">17 Days &bull; All-Inclusive</span>
     </div>

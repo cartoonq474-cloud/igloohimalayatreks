@@ -111,7 +111,7 @@
       ],
       "offers": {
         "@type": "Offer",
-        "price": "1750",
+        "price": "3775",
         "priceCurrency": "USD",
         "description": "Starting from USD 1,750 or Request a Quote based on customized lodge selection and group size",
         "availability": "https://schema.org/InStock",
@@ -1519,13 +1519,22 @@
                     health and flight operations can affect the schedule.
                   </p>
                 </div>
+                <div class="itinerary-actions-wrapper">
                 <button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                    stroke-linecap="round" stroke-linejoin="round">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                     <polyline points="6 9 12 15 18 9"></polyline>
                   </svg>
                   <span>Expand All Days</span>
                 </button>
+                <button id="itinerary-download-pdf-btn" class="itinerary-header-action-btn itinerary-pdf-trigger" type="button" onclick="window.handleItineraryPDFAction &amp;&amp; window.handleItineraryPDFAction(this, event);" title="Download or share comprehensive expedition itinerary in PDF format">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span>Share / Download PDF</span>
+                </button>
+              </div>
               </div>
 
               <div class="itinerary-timeline">
@@ -3331,26 +3340,16 @@
               <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px;">
                 <div style="background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: 10px; padding: 16px; text-align: center;">
                   <span style="font-size: 0.85rem; color: #64748B; font-weight: 600; display: block; margin-bottom: 6px;">1 Person (Solo)</span>
-                  <strong style="font-size: 1.45rem; color: var(--color-primary-navy); display: block;">USD 2,190</strong>
+                  <strong style="font-size: 1.45rem; color: var(--color-primary-navy); display: block;">USD 3,775</strong>
                   <span style="font-size: 0.75rem; color: #10B981; font-weight: 700; text-transform: uppercase;">Private Luxury</span>
                 </div>
                 <div style="background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: 10px; padding: 16px; text-align: center; border-color: #1A96C8;">
                   <span style="font-size: 0.85rem; color: #64748B; font-weight: 600; display: block; margin-bottom: 6px;">2–4 People</span>
-                  <strong style="font-size: 1.45rem; color: #1A96C8; display: block;">USD 1,890</strong>
-                  <span style="font-size: 0.75rem; color: #10B981; font-weight: 700; text-transform: uppercase;">Small Group</span>
+                  <strong style="font-size: 1.45rem; color: #1A96C8; display: block;">USD 3,005</strong>
+                  <span style="font-size: 0.75rem; color: #10B981; font-weight: 700; text-transform: uppercase;">Best Deal</span>
                 </div>
                 <div style="background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: 10px; padding: 16px; text-align: center;">
-                  <span style="font-size: 0.85rem; color: #64748B; font-weight: 600; display: block; margin-bottom: 6px;">5–9 People</span>
-                  <strong style="font-size: 1.45rem; color: var(--color-primary-navy); display: block;">USD 1,750</strong>
-                  <span style="font-size: 0.75rem; color: #10B981; font-weight: 700; text-transform: uppercase;">Group Savings</span>
-                </div>
-                <div style="background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: 10px; padding: 16px; text-align: center;">
-                  <span style="font-size: 0.85rem; color: #64748B; font-weight: 600; display: block; margin-bottom: 6px;">10–20 People</span>
-                  <strong style="font-size: 1.45rem; color: var(--color-primary-navy); display: block;">Quote</strong>
-                  <span style="font-size: 0.75rem; color: #10B981; font-weight: 700; text-transform: uppercase;">Best Value</span>
-                </div>
-                <div style="background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: 10px; padding: 16px; text-align: center;">
-                  <span style="font-size: 0.85rem; color: #64748B; font-weight: 600; display: block; margin-bottom: 6px;">Other Group Sizes</span>
+                  <span style="font-size: 0.85rem; color: #64748B; font-weight: 600; display: block; margin-bottom: 6px;">5+ People</span>
                   <strong style="font-size: 1.45rem; color: var(--color-primary-navy); display: block;">Quote</strong>
                   <span style="font-size: 0.75rem; color: #1A96C8; font-weight: 700; text-transform: uppercase;">Request Quote</span>
                 </div>
@@ -6922,7 +6921,7 @@
               <!-- Pricing Header -->
               <span style="font-size: 0.75rem; font-weight: 800; color: #475569; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 4px;">FROM</span>
               <div style="display: flex; align-items: baseline; gap: 6px; margin-bottom: 16px; flex-wrap: wrap;">
-                <span style="font-size: 2.5rem; font-weight: 800; color: #0E3458; line-height: 1;">$1,750</span>
+                <span style="font-size: 2.5rem; font-weight: 800; color: #0E3458; line-height: 1;">$3,775</span>
                 <span style="font-size: 0.92rem; color: #64748B; font-weight: 500;">/ person</span>
                 <a href="#section-itinerary" style="font-size: 0.92rem; color: #475569; font-weight: 600; text-decoration: underline; margin-left: 4px;">14 days trip</a>
               </div>
@@ -6936,24 +6935,16 @@
               <!-- Group Discount Table -->
               <div class="group-discount-content" style="display: none; margin-bottom: 18px; background: #F8FAFC; border-radius: 10px; padding: 12px; font-size: 0.85rem; border: 1px solid #E2E8F0;">
                 <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
-                  <span style="color: #64748B;">1 person (Solo Trekker)</span>
-                  <strong style="color: #0E3458;">USD 2,190 / person</strong>
+                  <span style="color: #64748B;">1 Person (Solo)</span>
+                  <strong style="color: #0E3458;">USD 3,775 / person</strong>
                 </div>
                 <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
-                  <span style="color: #64748B;">2–4 people</span>
-                  <strong style="color: #0E3458;">USD 1,890 / person</strong>
-                </div>
-                <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
-                  <span style="color: #64748B;">5–9 people</span>
-                  <strong style="color: #F6851F;">USD 1,750 / person (Best Rate)</strong>
-                </div>
-                <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
-                  <span style="color: #64748B;">10–20 people</span>
-                  <strong style="color: #0E3458;">Request a quote</strong>
+                  <span style="color: #64748B;">2–4 People</span>
+                  <strong style="color: #F6851F;">USD 3,005 / person (Best Deal)</strong>
                 </div>
                 <div style="display: flex; justify-content: space-between; padding: 6px 0;">
-                  <span style="color: #64748B;">Other group sizes</span>
-                  <strong style="color: #0E3458;">Request a quote</strong>
+                  <span style="color: #64748B;">5+ People</span>
+                  <strong style="color: #0E3458;">Custom Quote</strong>
                 </div>
               </div>
 
@@ -7057,7 +7048,7 @@
                 <div class="yml-card-footer">
                   <div class="yml-card-price">
                     <span class="yml-price-label">Starting from</span>
-                    <span class="yml-price-value">USD <strong>$1,099</strong></span>
+                    <span class="yml-price-value">USD <strong>$1,475</strong></span>
                   </div>
                   <span class="yml-view-trip-btn">View Trip →</span>
                 </div>
@@ -7087,7 +7078,7 @@
                 <div class="yml-card-footer">
                   <div class="yml-card-price">
                     <span class="yml-price-label">Starting from</span>
-                    <span class="yml-price-value">USD <strong>$2,450</strong></span>
+                    <span class="yml-price-value">USD <strong>$4,555</strong></span>
                   </div>
                   <span class="yml-view-trip-btn">View Trip →</span>
                 </div>
@@ -7147,7 +7138,7 @@
                 <div class="yml-card-footer">
                   <div class="yml-card-price">
                     <span class="yml-price-label">Starting from</span>
-                    <span class="yml-price-value">USD <strong>$1,890</strong></span>
+                    <span class="yml-price-value">USD <strong>$2,895</strong></span>
                   </div>
                   <span class="yml-view-trip-btn">View Trip →</span>
                 </div>
@@ -7772,6 +7763,8 @@
   <script type="module" src="../../js/altitude-visualizer.js"></script>
   <script type="module" src="../../js/weather-visualizer.js"></script>
   <script type="module" src="../../js/inquiry-modal.js"></script>
+    <script src="../../js/jspdf.umd.min.js"></script>
+  <script src="../../js/itinerary-pdf.js"></script>
   <script src="../../js/trek-details.js?v=11"></script>
   <script src="../../js/header-scroll.js?v=37"></script>
       <!-- High-Conversion Mobile Sticky Booking Bar — hidden on desktop via CSS -->
@@ -7779,7 +7772,7 @@
     <div class="mobile-sticky-price-wrap">
       <span class="mobile-sticky-price-label">Starting From</span>
       <div class="mobile-sticky-price-val">
-        $2,690 <span class="mobile-sticky-price-unit">/ person</span>
+        $3,775 <span class="mobile-sticky-price-unit">/ person</span>
       </div>
       <span class="mobile-sticky-duration-pill">13 Days &bull; All-Inclusive</span>
     </div>

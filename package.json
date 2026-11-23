@@ -18,5 +18,8 @@
     "annapurna"
   ],
   "author": "Igloo Himalaya Treks",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jspdf": "^4.2.1"
+  }
 }

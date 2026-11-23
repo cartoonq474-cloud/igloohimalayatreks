@@ -107,7 +107,7 @@
       ],
       "offers": {
         "@type": "Offer",
-        "price": "2225",
+        "price": "4555",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "url": "https://www.igloohimalayatreks.com/trek/everest-base-camp-luxury-trek"
@@ -132,7 +132,7 @@
       },
       "offers": {
         "@type": "Offer",
-        "price": "2225",
+        "price": "4555",
         "priceCurrency": "USD",
         "priceValidUntil": "2027-12-31",
         "url": "https://www.igloohimalayatreks.com/trek/everest-base-camp-luxury-trek",
@@ -1707,13 +1707,22 @@
                     can affect each day’s schedule.
                   </p>
                 </div>
+                <div class="itinerary-actions-wrapper">
                 <button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                    stroke-linecap="round" stroke-linejoin="round">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                     <polyline points="6 9 12 15 18 9"></polyline>
                   </svg>
                   <span>Expand All Days</span>
                 </button>
+                <button id="itinerary-download-pdf-btn" class="itinerary-header-action-btn itinerary-pdf-trigger" type="button" onclick="window.handleItineraryPDFAction &amp;&amp; window.handleItineraryPDFAction(this, event);" title="Download or share comprehensive expedition itinerary in PDF format">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span>Share / Download PDF</span>
+                </button>
+              </div>
               </div>
 
               <!-- Connected Vertical Timeline -->
@@ -3928,144 +3937,29 @@
                   <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.93rem;">
                     <thead>
                       <tr style="background: #F8FAFC; border-bottom: 2px solid #E2E8F0;">
-                        <th
-                          style="padding: 14px 18px; font-weight: 700; color: #1E293B; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;">
+                        <th style="padding: 14px 18px; font-weight: 700; color: #1E293B; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;">
                           Number of travellers</th>
-                        <th
-                          style="padding: 14px 18px; font-weight: 700; color: #1E293B; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;">
+                        <th style="padding: 14px 18px; font-weight: 700; color: #1E293B; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;">
                           Starting price per person</th>
-                        <th
-                          style="padding: 14px 18px; font-weight: 700; color: #1E293B; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; text-align: right;">
+                        <th style="padding: 14px 18px; font-weight: 700; color: #1E293B; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; text-align: right;">
                           Savings &amp; Package Tier</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <!-- 1 person -->
                       <tr style="border-bottom: 1px solid #F1F5F9;">
-                        <td style="padding: 14px 18px; font-weight: 600; color: #334155;">
-                          <div style="display: flex; align-items: center; gap: 10px;">
-                            <div
-                              style="width: 28px; height: 28px; background: #F1F5F9; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #64748B;">
-                              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                                <circle cx="12" cy="7" r="4" />
-                              </svg>
-                            </div>
-                            <span>1 person</span>
-                          </div>
-                        </td>
-                        <td style="padding: 14px 18px; font-weight: 700; color: #0E3458; font-size: 1.05rem;">From USD
-                          3,505</td>
-                        <td style="padding: 14px 18px; text-align: right;">
-                          <span
-                            style="background: #F8FAFC; border: 1px solid #E2E8F0; color: #475569; font-size: 0.74rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; display: inline-block;">Solo
-                            Traveler Rate</span>
-                        </td>
+                        <td style="padding: 14px 18px; font-weight: 600; color: #334155;">1 person (Solo)</td>
+                        <td style="padding: 14px 18px; font-weight: 700; color: #0E3458;">USD 4,555</td>
+                        <td style="padding: 14px 18px; text-align: right;"><span style="background: #EFF6FF; color: #1D4ED8; font-size: 0.76rem; font-weight: 700; padding: 4px 10px; border-radius: 50px;">Private Luxury Tier</span></td>
                       </tr>
-
-                      <!-- 2-4 people -->
-                      <tr style="border-bottom: 1px solid #F1F5F9; background: #FAFAFA;">
-                        <td style="padding: 14px 18px; font-weight: 600; color: #334155;">
-                          <div style="display: flex; align-items: center; gap: 10px;">
-                            <div
-                              style="width: 28px; height: 28px; background: #F1F5F9; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #64748B;">
-                              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                                <circle cx="9" cy="7" r="4" />
-                                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                              </svg>
-                            </div>
-                            <span>2–4 people</span>
-                          </div>
-                        </td>
-                        <td style="padding: 14px 18px; font-weight: 700; color: #0E3458; font-size: 1.05rem;">From USD
-                          2,495</td>
-                        <td style="padding: 14px 18px; text-align: right;">
-                          <span
-                            style="background: #ECFDF5; border: 1px solid #A7F3D0; color: #059669; font-size: 0.74rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; display: inline-block;">Save
-                            ~29% per person</span>
-                        </td>
+                      <tr style="border-bottom: 1px solid #F1F5F9; background: #F0FDF4;">
+                        <td style="padding: 14px 18px; font-weight: 700; color: #166534;">2–5 people</td>
+                        <td style="padding: 14px 18px; font-weight: 800; color: #166534;">USD 3,005</td>
+                        <td style="padding: 14px 18px; text-align: right;"><span style="background: #DCFCE7; color: #15803D; font-size: 0.76rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">Best Value Rate</span></td>
                       </tr>
-
-                      <!-- 5-9 people Best Value -->
-                      <tr
-                        style="border-bottom: 1px solid #F1F5F9; background: #F0FDF4; border-left: 3px solid #10B981;">
-                        <td style="padding: 14px 18px; font-weight: 700; color: #065F46;">
-                          <div style="display: flex; align-items: center; gap: 10px;">
-                            <div
-                              style="width: 28px; height: 28px; background: #DCFCE7; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #10B981;">
-                              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                                <circle cx="9" cy="7" r="4" />
-                                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                              </svg>
-                            </div>
-                            <span>5–9 people</span>
-                          </div>
-                        </td>
-                        <td style="padding: 14px 18px; font-weight: 800; color: #065F46; font-size: 1.15rem;">From USD
-                          2,225</td>
-                        <td style="padding: 14px 18px; text-align: right;">
-                          <span
-                            style="background: #10B981; color: #FFFFFF; font-size: 0.74rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; display: inline-block; box-shadow: 0 2px 6px rgba(16, 185, 129, 0.3);">★
-                            Best Value — Save ~37%</span>
-                        </td>
-                      </tr>
-
-                      <!-- 10-20 people -->
-                      <tr style="border-bottom: 1px solid #F1F5F9;">
-                        <td style="padding: 14px 18px; font-weight: 600; color: #334155;">
-                          <div style="display: flex; align-items: center; gap: 10px;">
-                            <div
-                              style="width: 28px; height: 28px; background: #F1F5F9; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #64748B;">
-                              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                                <circle cx="9" cy="7" r="4" />
-                                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                              </svg>
-                            </div>
-                            <span>10–20 people</span>
-                          </div>
-                        </td>
-                        <td style="padding: 14px 18px; font-weight: 700; color: #0E3458; font-size: 1.05rem;">Request a
-                          quote</td>
-                        <td style="padding: 14px 18px; text-align: right;">
-                          <span
-                            style="background: #EFF6FF; border: 1px solid #BFDBFE; color: #2563EB; font-size: 0.74rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; display: inline-block;">Custom
-                            Group Discount</span>
-                        </td>
-                      </tr>
-
-                      <!-- Other group sizes -->
-                      <tr style="border-bottom: none; background: #FAFAFA;">
-                        <td style="padding: 14px 18px; font-weight: 600; color: #334155;">
-                          <div style="display: flex; align-items: center; gap: 10px;">
-                            <div
-                              style="width: 28px; height: 28px; background: #F1F5F9; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #64748B;">
-                              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="10" />
-                                <path d="M12 8v4" />
-                                <path d="M12 16h.01" />
-                              </svg>
-                            </div>
-                            <span>Other group sizes</span>
-                          </div>
-                        </td>
-                        <td style="padding: 14px 18px; font-weight: 700; color: #0E3458; font-size: 1.05rem;">Request a
-                          quote</td>
-                        <td style="padding: 14px 18px; text-align: right;">
-                          <span
-                            style="background: #F1F5F9; border: 1px solid #E2E8F0; color: #64748B; font-size: 0.74rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; display: inline-block;">Tailored
-                            Group Quotation</span>
-                        </td>
+                      <tr>
+                        <td style="padding: 14px 18px; font-weight: 600; color: #334155;">6+ people</td>
+                        <td style="padding: 14px 18px; font-weight: 700; color: #64748B;">Custom quote</td>
+                        <td style="padding: 14px 18px; text-align: right;"><span style="background: #F1F5F9; color: #475569; font-size: 0.76rem; font-weight: 700; padding: 4px 10px; border-radius: 50px;">Bespoke pricing</span></td>
                       </tr>
                     </tbody>
                   </table>
@@ -7263,7 +7157,7 @@
 
               <span style="font-size: 0.75rem; font-weight: 800; color: #475569; text-transform: uppercase;">FROM</span>
               <div style="display: flex; align-items: baseline; gap: 6px; margin-bottom: 16px; flex-wrap: wrap;">
-                <span style="font-size: 2.5rem; font-weight: 800; color: #0E3458; line-height: 1;">$2,225</span>
+                <span style="font-size: 2.5rem; font-weight: 800; color: #0E3458; line-height: 1;">$4,555</span>
                 <span style="font-size: 0.92rem; color: #64748B; font-weight: 500;">/ person</span>
                 <a href="#section-itinerary"
                   style="font-size: 0.92rem; color: #475569; font-weight: 600; text-decoration: underline;">14 days
@@ -7286,21 +7180,16 @@
                 <table style="width: 100%; font-size: 0.82rem; border-collapse: collapse;">
                   <tbody>
                     <tr style="border-bottom: 1px solid #E2E8F0;">
-                      <td style="padding: 6px 8px; color: #475569;">1 person</td>
-                      <td style="padding: 6px 8px; font-weight: 700; text-align: right; color: #0E3458;">$3,505</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid #E2E8F0;">
-                      <td style="padding: 6px 8px; color: #475569;">2–4 people</td>
-                      <td style="padding: 6px 8px; font-weight: 700; text-align: right; color: #0E3458;">$2,495</td>
+                      <td style="padding: 6px 8px; color: #475569;">1 person (Solo)</td>
+                      <td style="padding: 6px 8px; font-weight: 700; text-align: right; color: #0E3458;">$4,555</td>
                     </tr>
                     <tr style="border-bottom: 1px solid #E2E8F0; background: #ECFDF5;">
-                      <td style="padding: 6px 8px; color: #065F46; font-weight: 700;">5–9 people (Best Value)</td>
-                      <td style="padding: 6px 8px; font-weight: 800; text-align: right; color: #059669;">$2,225</td>
+                      <td style="padding: 6px 8px; color: #065F46; font-weight: 700;">2–5 people (Best Value)</td>
+                      <td style="padding: 6px 8px; font-weight: 800; text-align: right; color: #059669;">$3,005</td>
                     </tr>
                     <tr>
-                      <td style="padding: 6px 8px; color: #475569;">10+ people</td>
-                      <td style="padding: 6px 8px; font-weight: 700; text-align: right; color: #1A96C8;">Custom Quote
-                      </td>
+                      <td style="padding: 6px 8px; color: #475569;">6+ people</td>
+                      <td style="padding: 6px 8px; font-weight: 700; text-align: right; color: #1A96C8;">Custom Quote</td>
                     </tr>
                   </tbody>
                 </table>
@@ -7447,7 +7336,7 @@
                 <div class="yml-card-footer">
                   <div class="yml-card-price">
                     <span class="yml-price-label">Starting from</span>
-                    <span class="yml-price-value">USD <strong>$1,175</strong></span>
+                    <span class="yml-price-value">USD <strong>$1,445</strong></span>
                   </div>
                   <span class="yml-view-trip-btn">View Trip →</span>
                 </div>
@@ -7476,7 +7365,7 @@
                 <div class="yml-card-footer">
                   <div class="yml-card-price">
                     <span class="yml-price-label">Starting from</span>
-                    <span class="yml-price-value">USD <strong>$1,890</strong></span>
+                    <span class="yml-price-value">USD <strong>$3,775</strong></span>
                   </div>
                   <span class="yml-view-trip-btn">View Trip →</span>
                 </div>
@@ -7534,7 +7423,7 @@
                 <div class="yml-card-footer">
                   <div class="yml-card-price">
                     <span class="yml-price-label">Starting from</span>
-                    <span class="yml-price-value">USD <strong>$990</strong></span>
+                    <span class="yml-price-value">USD <strong>$1,175</strong></span>
                   </div>
                   <span class="yml-view-trip-btn">View Trip →</span>
                 </div>
@@ -8155,7 +8044,7 @@
     <div class="mobile-sticky-price-wrap">
       <span class="mobile-sticky-price-label">Starting From</span>
       <div class="mobile-sticky-price-val">
-        $2,890 <span class="mobile-sticky-price-unit">/ person</span>
+        $4,555 <span class="mobile-sticky-price-unit">/ person</span>
       </div>
       <span class="mobile-sticky-duration-pill">14 Days &bull; All-Inclusive</span>
     </div>
@@ -8173,6 +8062,8 @@
   <script type="module" src="../../js/altitude-visualizer.js"></script>
   <script type="module" src="../../js/weather-visualizer.js"></script>
   <script type="module" src="../../js/inquiry-modal.js"></script>
+    <script src="../../js/jspdf.umd.min.js"></script>
+  <script src="../../js/itinerary-pdf.js"></script>
   <script src="../../js/trek-details.js?v=13"></script>
   <script src="../../js/header-scroll.js?v=37"></script>
   <script src="../../js/mega-menu.js"></script>

@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         altitude: "5545 m",
         difficulty: "challenging",
         summary: "Trek to the foot of Mt. Everest through Sherpa villages, Tengboche Monastery, and Kala Patthar viewpoint.",
-        price: "$1399",
+        price: "$1,445",
         reviews: 142
       },
       {
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         altitude: "6476 m",
         difficulty: "challenging",
         summary: "Nepal's highest non-technical trekking peak offering panoramic summit views of 5 of the world's 14 8,000m peaks.",
-        price: "$1999",
+        price: "$2,855",
         reviews: 74
       },
       {

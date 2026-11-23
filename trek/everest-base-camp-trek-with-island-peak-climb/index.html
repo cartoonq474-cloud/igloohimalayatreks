@@ -1465,12 +1465,22 @@
                   Our 19-day itinerary includes Kathmandu sightseeing, Everest Base Camp, Kala Patthar and an Island Peak attempt, with two acclimatisation days. Walking and climbing times are approximate; weather, route conditions, health and pace affect timings.
                 </p>
               </div>
-              <button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-                <span>Expand All Days</span>
-              </button>
+              <div class="itinerary-actions-wrapper">
+                <button id="toggle-all-itinerary" class="itinerary-toggle-all-btn" type="button">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                  <span>Expand All Days</span>
+                </button>
+                <button id="itinerary-download-pdf-btn" class="itinerary-header-action-btn itinerary-pdf-trigger" type="button" onclick="window.handleItineraryPDFAction &amp;&amp; window.handleItineraryPDFAction(this, event);" title="Download or share comprehensive expedition itinerary in PDF format">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span>Share / Download PDF</span>
+                </button>
+              </div>
             </div>
 
             <!-- Connected Vertical Timeline (19 Days) -->
@@ -5895,7 +5905,7 @@
             <div class="yml-card-footer" style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #F1F5F9; padding-top: 12px;">
               <div class="yml-card-price">
                 <span class="yml-price-label" style="font-size: 0.72rem; color: #64748B; display: block;">Starting from</span>
-                <span class="yml-price-value" style="font-size: 1.05rem; font-weight: 800; color: #0E3458;">USD $1,349</span>
+                <span class="yml-price-value" style="font-size: 1.05rem; font-weight: 800; color: #0E3458;">USD $1,445</span>
               </div>
               <span class="yml-view-trip-btn" style="font-size: 0.85rem; font-weight: 700; color: #1A96C8;">View Trip →</span>
             </div>
@@ -5958,7 +5968,7 @@
             <div class="yml-card-footer" style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #F1F5F9; padding-top: 12px;">
               <div class="yml-card-price">
                 <span class="yml-price-label" style="font-size: 0.72rem; color: #64748B; display: block;">Starting from</span>
-                <span class="yml-price-value" style="font-size: 1.05rem; font-weight: 800; color: #0E3458;">USD $2,250</span>
+                <span class="yml-price-value" style="font-size: 1.05rem; font-weight: 800; color: #0E3458;">USD $2,855</span>
               </div>
               <span class="yml-view-trip-btn" style="font-size: 0.85rem; font-weight: 700; color: #1A96C8;">View Trip →</span>
             </div>
@@ -6455,6 +6465,8 @@
   <script type="module" src="../../js/altitude-visualizer.js"></script>
   <script type="module" src="../../js/weather-visualizer.js"></script>
   <script type="module" src="../../js/inquiry-modal.js"></script>
+    <script src="../../js/jspdf.umd.min.js"></script>
+  <script src="../../js/itinerary-pdf.js"></script>
   <script src="../../js/trek-details.js?v=12"></script>
   <script src="../../js/header-scroll.js?v=37"></script>
   <script src="../../js/mega-menu.js"></script>

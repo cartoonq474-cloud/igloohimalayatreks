@@ -58,7 +58,7 @@ export function injectStructuredData() {
         },
         "offers": {
           "@type": "Offer",
-          "price": "1399",
+          "price": "1445",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock"
         }
