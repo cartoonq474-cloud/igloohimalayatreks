@@ -72,6 +72,8 @@ for (const folder of folders) {
   if (!fs.existsSync(indexPath)) continue;
 
   const html = fs.readFileSync(indexPath, 'utf8');
+  if (html.includes('http-equiv="refresh"')) continue; // Skip all redirect stubs!
+
   let data = articlesBySlug.get(folder);
 
   let title, desc, heroImg, readingTime, originalCategory;
@@ -97,7 +99,7 @@ for (const folder of folders) {
       if (pMatch) desc = pMatch[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().slice(0, 160) + '...';
     }
     const standaloneHeroOverrides = {
-      'ultimate-everest-packing-checklist-2026': 'images/everest-base-camp-packing-checklist-2026-gear-flat-lay.webp',
+      'ultimate-everest-packing-checklist': 'images/everest-base-camp-packing-checklist-2026-gear-flat-lay.webp',
       'how-to-prevent-altitude-sickness': 'images/how-to-prevent-altitude-sickness-ams-nepal-hero.webp',
       'teahouse-food-lodging-nepal-trails': 'images/traditional-nepal-teahouse-dal-bhat-thali.webp',
       'everest-base-camp-vs-annapurna-circuit': 'images/everest-base-camp-vs-annapurna-circuit-hero.webp'
@@ -146,16 +148,16 @@ for (const folder of folders) {
 // 1. Cornerstone guides (packing, altitude sickness, teahouse food, everest guide, etc.)
 // 2. Alphabetical by title
 const cornerstoneSlugs = [
-  'ultimate-everest-packing-checklist-2026',
+  'ultimate-everest-packing-checklist',
   'how-to-prevent-altitude-sickness',
   'teahouse-food-lodging-nepal-trails',
   'everest-base-camp-vs-annapurna-circuit',
   'everest-base-camp-trek-guide',
   'best-hiking-places-near-kathmandu',
   'best-treks-in-nepal-for-beginners',
-  'best-treks-in-nepal-2027',
+  'best-treks-in-nepal',
   'how-to-train-for-high-altitude-hiking',
-  'do-you-need-a-guide-to-trek-in-nepal-2026',
+  'do-you-need-a-guide-to-trek-in-nepal',
   'how-to-choose-the-best-trekking-company-in-nepal'
 ];
 
@@ -224,10 +226,12 @@ const blogsHtmlPath = path.join(ROOT, 'blogs.html');
 let blogsHtml = fs.readFileSync(blogsHtmlPath, 'utf8');
 
 // Ensure canonical tag exists
+blogsHtml = blogsHtml.replace(/<link\s+rel=["']canonical["']\s+href=["'][^"']+["']\s*\/?>/gi, '<link rel="canonical" href="https://www.igloohimalayatreks.com/blog" />');
+blogsHtml = blogsHtml.replace(/<meta\s+property=["']og:url["']\s+content=["'][^"']+["']\s*\/?>/gi, '<meta property="og:url" content="https://www.igloohimalayatreks.com/blog">');
 if (!blogsHtml.includes('<link rel="canonical"')) {
   blogsHtml = blogsHtml.replace(
     '<meta name="description"',
-    '<link rel="canonical" href="https://igloohimalayatreks.com/blogs.html">\n  <meta name="description"'
+    '<link rel="canonical" href="https://www.igloohimalayatreks.com/blog">\n  <meta name="description"'
   );
 }
 
@@ -416,4 +420,27 @@ if (endIdx === -1) {
 blogsHtml = blogsHtml.slice(0, startIdx + gridStartMarker.length) + '\n\n' + cardsHtml + '\n\n        ' + blogsHtml.slice(endIdx);
 
 fs.writeFileSync(blogsHtmlPath, blogsHtml, 'utf8');
-console.log('Successfully updated blogs.html with all 76 cards!');
+
+const blogHtmlPath = path.join(ROOT, 'blog.html');
+fs.writeFileSync(blogHtmlPath, blogsHtml, 'utf8');
+
+// For blog/index.html, adjust depth to 1 level
+let blogIndexHtml = blogsHtml;
+blogIndexHtml = blogIndexHtml.replace(/<meta\s+http-equiv=["']refresh["'][^>]*>\s*/gi, '');
+blogIndexHtml = blogIndexHtml.replace(/(href|src)=["'](images\/[^"']+)["']/g, '$1="../$2"');
+blogIndexHtml = blogIndexHtml.replace(/(href|src)=["'](js\/[^"']+)["']/g, '$1="../$2"');
+blogIndexHtml = blogIndexHtml.replace(/href=["'](index\.css[^"']*)["']/g, 'href="../$1"');
+blogIndexHtml = blogIndexHtml.replace(/href=["'](footer\.css[^"']*)["']/g, 'href="../$1"');
+blogIndexHtml = blogIndexHtml.replace(/href=["']index\.html["']/g, 'href="../index.html"');
+blogIndexHtml = blogIndexHtml.replace(/href=["']about-us\/?["']/g, 'href="../about-us/"');
+blogIndexHtml = blogIndexHtml.replace(/href=["']contact-us\/?["']/g, 'href="../contact-us/"');
+blogIndexHtml = blogIndexHtml.replace(/href=["']blog\/?["']/g, 'href="../blog/"');
+blogIndexHtml = blogIndexHtml.replace(/href=["'](trek\/[^"']+)["']/g, 'href="../$1"');
+blogIndexHtml = blogIndexHtml.replace(/href=["'](tour\/[^"']+)["']/g, 'href="../$1"');
+blogIndexHtml = blogIndexHtml.replace(/href=["'](nepal-[^"']+)["']/g, 'href="../$1"');
+blogIndexHtml = blogIndexHtml.replace(/href=["'](everest-region-treks\/?|annapurna-region-treks\/?|manaslu-region-treks\/?|langtang-region-treks\/?|peak-climbing-nepal\/?|mustang-region-treks\/?|dolpo-region-treks\/?|kanchenjunga-region-treks\/?|restricted-area-treks-nepal\/?)["']/g, 'href="../$1"');
+blogIndexHtml = blogIndexHtml.replace(/href=["']blog\/([^"']+)["']/g, 'href="../blog/$1"');
+
+const blogIndexPath = path.join(ROOT, 'blog', 'index.html');
+fs.writeFileSync(blogIndexPath, blogIndexHtml, 'utf8');
+console.log('Successfully updated blogs.html, blog.html, and blog/index.html with all cards!');

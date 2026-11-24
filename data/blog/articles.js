@@ -753,7 +753,7 @@ const articles = [
     ]
   },
   {
-    "slug": "best-treks-in-nepal-2027",
+    "slug": "best-treks-in-nepal",
     "title": "Best Treks in Nepal 2027: Top 10 Routes, Costs & Expert Rankings | Igloo Himalaya Treks",
     "h1": "Best Treks in Nepal for 2027: The Definitive Ranking & Selection Guide",
     "breadcrumbTitle": "Best Treks in Nepal 2027",
@@ -1649,7 +1649,7 @@ const articles = [
     }
   },
   {
-    "slug": "gokyo-lakes-trek-cost-2027",
+    "slug": "gokyo-lakes-trek-cost",
     "title": "Gokyo Lakes Trek Cost 2027: Complete Price Breakdown, Permits & Budget Guide | Igloo Himalaya Treks",
     "h1": "Gokyo Lakes Trek Cost 2027: Complete Budget Breakdown, Permits & Expenses",
     "breadcrumbTitle": "Gokyo Lakes Trek Cost 2027",
@@ -2858,7 +2858,7 @@ const articles = [
     ]
   },
   {
-    "slug": "everest-base-camp-trek-in-winter-2026",
+    "slug": "everest-base-camp-trek-in-winter",
     "title": "Everest Base Camp Trek in Winter 2026: December, January & February Guide | Igloo Himalaya Treks",
     "h1": "Everest Base Camp Trek in Winter 2026: Complete Weather, Packing & Route Guide",
     "breadcrumbTitle": "Everest Base Camp Trek in Winter 2026",
@@ -3314,7 +3314,7 @@ const articles = [
     }
   },
   {
-    "slug": "top-trekking-routes-in-nepal-for-2026",
+    "slug": "top-trekking-routes-in-nepal",
     "title": "Top Trekking Routes in Nepal for 2026: The Definitive Trail Guide | Igloo Himalaya Treks",
     "h1": "Top Trekking Routes in Nepal for 2026: Complete Trail Guide",
     "breadcrumbTitle": "Top Trekking Routes in Nepal 2026",

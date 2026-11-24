@@ -313,7 +313,7 @@ function renderBlogArticle(article, relPath = '../../', prevArticle = null, next
       return `<img${newAttrs}>`;
     });
     if (relPath === '../../') {
-      content = content.replace(/\.\.\/(images|trek|tour|blog|team|js|index\.css|index\.html|blogs\.html|nepal-)/g, '../../$1');
+      content = content.replace(/\.\.\/(images|trek|tour|blog|team|js|index\.css|index\.html|blogs\.html|about-us|contact-us|nepal-)/g, '../../$1');
       const slugs = getBlogSlugsSet();
       content = content.replace(/\.\.\/([a-z0-9\-]+)\/([#"'>\s])/g, (match, targetSlug, suffix) => {
         if (slugs.has(targetSlug)) {
@@ -442,7 +442,7 @@ function renderBlogArticle(article, relPath = '../../', prevArticle = null, next
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://igloohimalayatreks.com/blogs.html"
+          "item": "https://igloohimalayatreks.com/blog"
         },
         {
           "@type": "ListItem",
@@ -543,7 +543,7 @@ function renderBlogArticle(article, relPath = '../../', prevArticle = null, next
         <ol class="blog-breadcrumb-list">
           <li><a href="${relPath}index.html">Home</a></li>
           <li class="blog-breadcrumb-separator" aria-hidden="true">/</li>
-          <li><a href="${relPath}blogs.html">Blog</a></li>
+          <li><a href="${relPath}blog/">Blog</a></li>
           <li class="blog-breadcrumb-separator" aria-hidden="true">/</li>
           <li class="blog-breadcrumb-current" aria-current="page">${breadcrumbTitle}</li>
         </ol>
@@ -762,7 +762,7 @@ function renderBlogArticle(article, relPath = '../../', prevArticle = null, next
             <span class="pill pill-copper" style="margin-bottom: 8px;">Explore Related Guides</span>
             <h2 id="related-articles-heading" class="section-title" style="margin: 0; font-size: 1.8rem;">Related Articles</h2>
           </div>
-          <a href="${relPath}blogs.html" style="color: var(--color-primary); font-weight: 700; text-decoration: none; font-size: 0.95rem;">View All Articles →</a>
+          <a href="${relPath}blog/" style="color: var(--color-primary); font-weight: 700; text-decoration: none; font-size: 0.95rem;">View All Articles →</a>
         </div>
 
         <div class="related-articles-grid">

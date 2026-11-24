@@ -2,13 +2,13 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT_DIR = path.resolve(__dirname, '..');
-const BASE_URL = 'https://igloohimalayatreks.com';
+const BASE_URL = 'https://www.igloohimalayatreks.com';
 
 function walk(dir) {
   let files = [];
   const entries = fs.readdirSync(dir);
   for (const entry of entries) {
-    if (entry === 'node_modules' || entry === '.git' || entry === 'dist' || entry === 'scratch' || entry === '.gemini' || entry === '.tempmediaStorage') continue;
+    if (entry.startsWith('.') || entry === 'node_modules' || entry === 'dist' || entry === 'scratch' || entry === 'images' || entry === 'Gallery' || entry === 'video') continue;
     const fullPath = path.join(dir, entry);
     const stat = fs.statSync(fullPath);
     if (stat.isDirectory()) {
@@ -27,14 +27,32 @@ for (const file of htmlFiles) {
   const content = fs.readFileSync(file, 'utf8');
   const relPath = path.relative(ROOT_DIR, file).replace(/\\/g, '/');
 
+  // Skip redirect stubs
+  if (content.includes('http-equiv="refresh"')) {
+    continue;
+  }
+
   // Skip duplicate legacy root redirect/duplicate pages if any (e.g. equipment-checklist.html vs equipment-checklist/index.html)
   if (relPath === 'equipment-checklist.html' && fs.existsSync(path.join(ROOT_DIR, 'equipment-checklist', 'index.html'))) {
+    continue;
+  }
+  if ((relPath === 'about.html' || relPath === 'about-us.html') && fs.existsSync(path.join(ROOT_DIR, 'about-us', 'index.html'))) {
+    continue;
+  }
+  if ((relPath === 'contact.html' || relPath === 'contact-us.html') && fs.existsSync(path.join(ROOT_DIR, 'contact-us', 'index.html'))) {
+    continue;
+  }
+  if ((relPath === 'blogs.html' || relPath === 'blog.html') && fs.existsSync(path.join(ROOT_DIR, 'blog', 'index.html'))) {
     continue;
   }
 
   // Extract canonical if present
   const canonicalMatch = content.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i);
   let canonicalUrl = canonicalMatch ? canonicalMatch[1].trim() : '';
+
+  if (canonicalUrl.startsWith('https://igloohimalayatreks.com')) {
+    canonicalUrl = canonicalUrl.replace('https://igloohimalayatreks.com', 'https://www.igloohimalayatreks.com');
+  }
 
   if (!canonicalUrl) {
     if (relPath === 'index.html') {
@@ -59,7 +77,7 @@ for (const file of htmlFiles) {
   } else if (canonicalUrl.includes('/trek/') || canonicalUrl.includes('/tour/')) {
     priority = '0.9';
     changefreq = 'weekly';
-  } else if (canonicalUrl.includes('nepal-trekking-packages') || canonicalUrl.includes('blogs.html') || canonicalUrl.includes('regions.html')) {
+  } else if (canonicalUrl.includes('nepal-trekking-packages') || canonicalUrl.endsWith('/blog') || canonicalUrl.includes('regions.html')) {
     priority = '0.9';
     changefreq = 'weekly';
   } else if (canonicalUrl.includes('privacy-policy') || canonicalUrl.includes('terms-and-conditions')) {

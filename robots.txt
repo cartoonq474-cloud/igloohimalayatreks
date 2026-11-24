@@ -3,4 +3,4 @@ Allow: /
 Disallow: /scratch/
 Disallow: /node_modules/
 
-Sitemap: https://igloohimalayatreks.com/sitemap.xml
+Sitemap: https://www.igloohimalayatreks.com/sitemap.xml

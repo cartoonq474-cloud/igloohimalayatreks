@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const ctaBtn = document.getElementById('resources-view-all-btn');
       if (ctaBtn) {
         if (catKey === 'blogs') {
-          ctaBtn.href = 'blogs';
+          ctaBtn.href = 'blog/';
           ctaBtn.className = 'btn btn-secondary';
           ctaBtn.removeAttribute('data-trek-title');
           ctaBtn.innerHTML = `<span>Explore All 76 Himalayan Trekking Guides</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>`;
