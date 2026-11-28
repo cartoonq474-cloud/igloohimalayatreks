@@ -32,7 +32,7 @@ function getImageCache() {
 
 // Extract Header & Footer from canonical gold-standard template
 const headerMatch = canonicalHtml.match(/<header class="main-header">[\s\S]*?<\/header>/);
-const footerMatch = canonicalHtml.match(/<footer class="site-footer">[\s\S]*?<\/footer>/);
+const footerMatch = canonicalHtml.match(/<footer class="(?:himalayan-ref-footer|site-footer)"[^>]*>[\s\S]*?<\/footer>/);
 
 // Standardized FAQ Categories matching EBC vs ACT gold standard
 const CATEGORY_DEFS = [
@@ -517,6 +517,7 @@ function renderBlogArticle(article, relPath = '../../', prevArticle = null, next
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap">
   <link rel="stylesheet" href="${relPath}index.css?v=37">
+  <link rel="stylesheet" href="${relPath}footer.css?v=1">
 
   <!-- JSON-LD Structured Data: BlogPosting, BreadcrumbList & FAQPage -->
   <script type="application/ld+json">
@@ -845,6 +846,7 @@ function renderBlogArticle(article, relPath = '../../', prevArticle = null, next
   <script src="${relPath}js/header-scroll.js"></script>
   <script src="${relPath}js/mega-menu.js"></script>
   <script src="${relPath}js/blog-article.js?v=7"></script>
+  <script defer src="${relPath}js/footer-interactions.js"></script>
 </body>
 </html>`;
 }

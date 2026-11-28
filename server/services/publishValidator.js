@@ -97,6 +97,9 @@ function validateBlogHtml(html) {
   if (!/<link\s+rel="canonical"/i.test(html)) {
     errors.push('Missing canonical link tag');
   }
+  if (!/<footer\b/i.test(html)) {
+    errors.push('Missing footer section');
+  }
   return {
     valid: errors.length === 0,
     errors
