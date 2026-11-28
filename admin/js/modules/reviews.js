@@ -1,4 +1,4 @@
-import { apiRequest } from '../api.js';
+import { apiRequest, parseJsonResponse } from '../api.js';
 
 function escapeHtml(str) {
   if (str === null || str === undefined) return '';
@@ -22,7 +22,7 @@ export async function renderReviewsModule(container, { hasPerm }) {
     if (state.platform) params.set('platform', state.platform);
     if (state.q) params.set('q', state.q);
     const res = await fetch(`/api/v1/admin/reviews?${params.toString()}`, { credentials: 'same-origin' });
-    const json = await res.json();
+    const json = await parseJsonResponse(res, 'Failed to load reviews.');
     if (!res.ok || !json.success) throw new Error((json.error && json.error.message) || 'Failed to load reviews.');
     return json;
   }

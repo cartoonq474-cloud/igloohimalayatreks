@@ -1,4 +1,4 @@
-import { apiRequest } from '../api.js';
+import { apiRequest, parseJsonResponse } from '../api.js';
 
 function escapeHtml(str) {
   if (str === null || str === undefined) return '';
@@ -36,7 +36,7 @@ export async function renderMediaModule(container, { hasPerm }) {
     if (state.q) params.set('q', state.q);
 
     const res = await fetch(`/api/v1/admin/media?${params.toString()}`, { credentials: 'same-origin' });
-    const json = await res.json();
+    const json = await parseJsonResponse(res, 'Failed to load media library.');
     if (!res.ok || !json.success) {
       throw new Error((json.error && json.error.message) || 'Failed to load media library.');
     }
@@ -127,7 +127,7 @@ export async function renderMediaModule(container, { hasPerm }) {
           formData.append('folder', signed.folder);
 
           const cloudRes = await fetch(signed.uploadUrl, { method: 'POST', body: formData });
-          const cloudData = await cloudRes.json();
+          const cloudData = await parseJsonResponse(cloudRes, 'Cloudinary upload failed.');
           if (!cloudRes.ok) {
             throw new Error((cloudData.error && cloudData.error.message) || 'Cloudinary upload failed.');
           }

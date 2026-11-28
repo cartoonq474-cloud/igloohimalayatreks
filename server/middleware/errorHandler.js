@@ -11,6 +11,10 @@ function notFoundHandler(req, res, next) {
 }
 
 function errorHandler(err, req, res, _next) {
+  if (res.headersSent) {
+    return _next(err);
+  }
+
   if (err instanceof AppError) {
     return sendError(res, err.statusCode, err.code, err.message, err.details);
   }
@@ -24,8 +28,21 @@ function errorHandler(err, req, res, _next) {
     return sendError(res, 404, 'NOT_FOUND', 'Requested record was not found.');
   }
 
+  if (err && err.type === 'entity.too.large') {
+    return sendError(
+      res,
+      413,
+      'PAYLOAD_TOO_LARGE',
+      'Request payload is too large (max 15MB). Upload images via Media Library instead of pasting raw image files.'
+    );
+  }
+
   if (err && err.type === 'entity.parse.failed') {
     return sendError(res, 400, 'INVALID_JSON', 'Malformed JSON request body.');
+  }
+
+  if (err instanceof URIError) {
+    return sendError(res, 400, 'INVALID_URI', 'Malformed request URL.');
   }
 
   if (!env.isTest) {

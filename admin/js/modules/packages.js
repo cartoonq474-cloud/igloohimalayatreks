@@ -1,4 +1,4 @@
-import { apiRequest, showToast } from '../api.js';
+import { apiRequest, parseJsonResponse, showToast } from '../api.js';
 import { mountRichEditor, getRichEditorHtml } from '../components/richEditor.js';
 
 function escapeHtml(str) {
@@ -138,7 +138,7 @@ export async function renderPackagesModule(container, { hasPerm }) {
     if (state.q) params.set('q', state.q);
 
     const res = await fetch(`/api/v1/admin/packages?${params.toString()}`, { credentials: 'same-origin' });
-    const json = await res.json();
+    const json = await parseJsonResponse(res, 'Failed to load packages.');
     if (!res.ok || !json.success) throw new Error((json.error && json.error.message) || 'Failed to load packages.');
     return json;
   }

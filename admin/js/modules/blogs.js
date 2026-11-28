@@ -1,4 +1,4 @@
-import { apiRequest, showToast } from '../api.js';
+import { apiRequest, parseJsonResponse, showToast } from '../api.js';
 import { mountRichEditor, getRichEditorHtml } from '../components/richEditor.js';
 
 function escapeHtml(str) {
@@ -28,7 +28,7 @@ export async function renderBlogsModule(container, { hasPerm }) {
     if (state.status) params.set('status', state.status);
     if (state.q) params.set('q', state.q);
     const res = await fetch(`/api/v1/admin/blogs?${params.toString()}`, { credentials: 'same-origin' });
-    const json = await res.json();
+    const json = await parseJsonResponse(res, 'Failed to load blogs.');
     if (!res.ok || !json.success) throw new Error((json.error && json.error.message) || 'Failed to load blogs.');
     return json;
   }

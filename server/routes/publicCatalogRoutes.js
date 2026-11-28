@@ -15,7 +15,14 @@ const reviewSubmitLimiter = rateLimit({
   windowMs: 60 * 60 * 1000,
   max: env.isTest ? 50 : 5,
   standardHeaders: true,
-  legacyHeaders: false
+  legacyHeaders: false,
+  message: {
+    success: false,
+    error: {
+      code: 'RATE_LIMITED',
+      message: 'Too many review submissions. Please wait an hour and try again.'
+    }
+  }
 });
 
 router.get(

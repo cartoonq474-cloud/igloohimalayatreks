@@ -18,6 +18,13 @@ const pgPool =
     connectionString: env.databaseUrl
   });
 
+if (!globalForDb.__iglooPgPoolErrorBound) {
+  pgPool.on('error', (err) => {
+    console.error('[PgPoolError]', err.message);
+  });
+  globalForDb.__iglooPgPoolErrorBound = true;
+}
+
 if (!env.isProd) {
   globalForDb.__iglooPrisma = prisma;
   globalForDb.__iglooPgPool = pgPool;
