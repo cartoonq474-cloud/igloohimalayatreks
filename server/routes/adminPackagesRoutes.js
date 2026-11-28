@@ -1,7 +1,11 @@
 'use strict';
 
+const fs = require('fs');
+const path = require('path');
 const express = require('express');
 const { z } = require('zod');
+
+const ROOT_DIR = path.resolve(__dirname, '..', '..');
 
 const { prisma } = require('../db/prisma');
 const { AppError, asyncHandler, sendSuccess } = require('../utils/http');
@@ -345,7 +349,19 @@ router.post(
       req
     });
 
-    return sendSuccess(res, { package: created }, 201);
+    let publishedRoute = null;
+    let publishWarning = null;
+    if (created.status === 'PUBLISHED' && req.currentUser.hasPermission('packages:publish')) {
+      try {
+        const pub = await publishPackageToStatic(created.id);
+        publishedRoute = pub.route;
+        await rebuildSitemapXml().catch(() => {});
+      } catch (err) {
+        publishWarning = err.message;
+      }
+    }
+
+    return sendSuccess(res, { package: created, publishedRoute, publishWarning }, 201);
   })
 );
 
@@ -552,6 +568,13 @@ router.delete(
     }
 
     await prisma.package.delete({ where: { id: existing.id } });
+
+    const folder = existing.type === 'TOUR' ? 'tour' : 'trek';
+    const targetDir = path.join(ROOT_DIR, folder, existing.slug);
+    if (fs.existsSync(targetDir)) {
+      fs.rmSync(targetDir, { recursive: true, force: true });
+    }
+    await rebuildSitemapXml().catch(() => {});
 
     await recordAuditLog({
       userId: req.currentUser.id,

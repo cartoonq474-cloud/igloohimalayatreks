@@ -277,13 +277,23 @@ function extractDatesAndPrices($, sidebarData) {
   sec.find('.departure-item-row').each((_i, el) => {
     const $row = $(el);
     const title = cleanText($row.find('.departure-title, h4').first().text());
-    const day = cleanText($row.find('.departure-date-badge span, .departure-day').eq(0).text());
-    const month = cleanText($row.find('.departure-date-badge span, .departure-month').eq(1).text());
-    const status = cleanText($row.find('.departure-status-badge, span[class*="status"]').first().text()) || 'AVAILABLE';
+    let day = cleanText($row.find('.calendar-day-num, .departure-day').first().text())
+      || cleanText($row.find('.departure-date-badge > div:not(.calendar-ring-dots), .departure-date-badge > span').eq(0).text());
+    let month = cleanText($row.find('.calendar-month-txt, .departure-month').first().text())
+      || cleanText($row.find('.departure-date-badge > div:not(.calendar-ring-dots), .departure-date-badge > span').eq(1).text())
+      || cleanText($row.attr('data-month') || '');
+    if ((!day || !month) && title) {
+      const mMatch = title.match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+(\d{1,2})\b/i);
+      if (mMatch) {
+        if (!month) month = mMatch[1].toUpperCase().slice(0, 3);
+        if (!day) day = mMatch[2].padStart(2, '0');
+      }
+    }
+    const status = cleanText($row.find('.departure-status-pill, .departure-status-badge, span[class*="status"]').first().text()) || 'AVAILABLE';
     const priceMatch = cleanText($row.text()).match(/\$[\d,]+(?:\s*pp)?/i);
     if (title) {
       departures.push({
-        month,
+        month: month.toUpperCase().slice(0, 3),
         day,
         title,
         status,

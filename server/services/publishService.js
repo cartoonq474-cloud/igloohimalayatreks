@@ -264,6 +264,10 @@ function syncOverviewSection($, pkg) {
     const whyHeading = overview.find('h2, h3').filter((_i, el) => /why\s+book/i.test($(el).text())).first();
     if (whyHeading.length) {
       if (tagsMeta.whyBookTitle) whyHeading.text(tagsMeta.whyBookTitle);
+      if (tagsMeta.whyBookIntro) {
+        const whyIntroP = whyHeading.closest('div').next('p');
+        if (whyIntroP.length) whyIntroP.text(tagsMeta.whyBookIntro);
+      }
       const grid = whyHeading.closest('div').find('div[style*="grid-template-columns"]').first();
       const cards = grid.children('div');
       tagsMeta.whyBookCards.forEach((c, idx) => {
@@ -279,9 +283,14 @@ function syncOverviewSection($, pkg) {
 }
 
 function syncItinerarySection($, pkg) {
+  const container = $('#section-itinerary');
+  const tagsMeta = pkg.tagsJson && typeof pkg.tagsJson === 'object' && !Array.isArray(pkg.tagsJson) ? pkg.tagsJson : null;
+  if (tagsMeta && tagsMeta.itineraryIntro) {
+    const introEl = container.find('.itinerary-header-bar p').first();
+    if (introEl.length) introEl.text(tagsMeta.itineraryIntro);
+  }
   if (!Array.isArray(pkg.itineraryDays) || pkg.itineraryDays.length === 0) return;
 
-  const container = $('#section-itinerary');
   const cards = container.find('.itinerary-card');
   if (!cards.length) return;
 
@@ -445,13 +454,25 @@ function syncDatesAndPricesSection($, pkg) {
       pkg.departureDatesJson.forEach((dep) => {
         const $r = cheerio.load(`<div class="_wrap">${tmplHtml}</div>`)('.departure-item-row').first();
         $r.removeClass('extra-date');
-        const badgeSpans = $r.find('.departure-date-badge span');
-        if (badgeSpans.eq(0).length && dep.day) badgeSpans.eq(0).text(dep.day);
-        if (badgeSpans.eq(1).length && dep.month) badgeSpans.eq(1).text(dep.month);
+        const dayEl = $r.find('.calendar-day-num, .departure-day').first();
+        const monthEl = $r.find('.calendar-month-txt, .departure-month').first();
+        if (dayEl.length && dep.day) dayEl.text(dep.day);
+        if (monthEl.length && dep.month) monthEl.text(dep.month);
+        if (!dayEl.length || !monthEl.length) {
+          const badgeSpans = $r.find('.departure-date-badge > span');
+          if (badgeSpans.eq(0).length && dep.day) badgeSpans.eq(0).text(dep.day);
+          if (badgeSpans.eq(1).length && dep.month) badgeSpans.eq(1).text(dep.month);
+        }
+        if (dep.month) $r.attr('data-month', String(dep.month).toUpperCase().slice(0, 3));
         $r.find('.departure-title, h4').first().text(dep.title || '');
-        if (dep.status) $r.find('.departure-status-badge').first().text(dep.status);
+        if (dep.status) $r.find('.departure-status-pill, .departure-status-badge').first().text(dep.status);
         if (dep.price) {
-          $r.find('strong, span').filter((_i, el) => /\$\d/.test($(el).text())).first().text(dep.price);
+          const priceVal = $r.find('.price-val').first();
+          if (priceVal.length) {
+            priceVal.text(String(dep.price).replace(/\s*pp$/i, '').trim());
+          } else {
+            $r.find('strong, span').filter((_i, el) => /\$\d/.test($(el).text())).first().text(dep.price);
+          }
         }
         list.append('\n' + $.html($r));
       });
@@ -897,6 +918,35 @@ async function publishPackageToStatic(packageId) {
   if (!pkg) throw new AppError(404, 'PACKAGE_NOT_FOUND', 'Package not found.');
 
   const siteSetting = await prisma.siteSetting.findUnique({ where: { id: 1 } });
+
+  // Always ensure at least 4 published packages are available for the "You Might Also Like" grid
+  const existingRecIds = new Set([
+    pkg.id,
+    ...(pkg.recommendations || []).map((r) => r.recommendedPackageId)
+  ]);
+  if ((pkg.recommendations || []).length < 4) {
+    const fallbackCandidates = await prisma.package.findMany({
+      where: {
+        status: 'PUBLISHED',
+        id: { notIn: Array.from(existingRecIds) }
+      },
+      orderBy: [{ isFeatured: 'desc' }, { updatedAt: 'desc' }],
+      take: 4 - (pkg.recommendations || []).length,
+      select: {
+        slug: true,
+        type: true,
+        title: true,
+        durationDays: true,
+        heroSummary: true,
+        galleries: { orderBy: { sortOrder: 'asc' }, include: { media: true }, take: 1 }
+      }
+    });
+    pkg._fallbackRecommendations = [
+      ...(pkg.recommendations || []).map((r) => r.recommendedPackage).filter(Boolean),
+      ...fallbackCandidates
+    ].slice(0, 4);
+  }
+
   const folder = pkg.type === 'TOUR' ? 'tour' : 'trek';
   const targetDir = path.join(ROOT_DIR, folder, pkg.slug);
   const targetFile = path.join(targetDir, 'index.html');
@@ -904,9 +954,13 @@ async function publishPackageToStatic(packageId) {
   let html;
   if (fs.existsSync(targetFile)) {
     const existingRaw = fs.readFileSync(targetFile, 'utf8');
-    // Upgrade legacy minimal CMS-rendered stubs automatically, while preserving hand-crafted pages via DOM sync
-    const isMinimalStub = existingRaw.includes('<footer class="site-footer">') || !existingRaw.includes('class="faq-layout-container"');
-    html = isMinimalStub
+    // Upgrade CMS-rendered stubs & v1/v2 canonical pages directly from DB while preserving hand-crafted pages via DOM sync
+    const isCmsCanonical =
+      existingRaw.includes('<!-- cms-template: gold-standard') ||
+      existingRaw.includes('<!-- Section 10: Reviews (Rule 17 Gold Standard 3-Tab Structure) -->') ||
+      existingRaw.includes('<footer class="site-footer">') ||
+      !existingRaw.includes('class="faq-layout-container"');
+    html = isCmsCanonical
       ? renderCanonicalPackageHtml(pkg, siteSetting)
       : syncExistingPackageDom(existingRaw, pkg);
   } else {

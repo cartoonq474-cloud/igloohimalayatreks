@@ -795,14 +795,35 @@ function setupDatesAndAvailability() {
     });
   });
 
-  // 2. Group Joining Month Tabs Filter
+  // 2. Group Joining Month Tabs Filter & Load More Visibility
   const monthTabs = document.querySelectorAll('.dates-month-tab');
   const departureRows = document.querySelectorAll('.departure-item-row');
+  const loadMoreBtn = document.getElementById('btn-load-more-dates');
+  let expanded = false;
+
+  function syncLoadMoreVisibility(activeMonth) {
+    if (!loadMoreBtn) return;
+    const extraRows = document.querySelectorAll(`.departure-item-row.extra-date[data-month="${activeMonth}"]`);
+    const wrapper = loadMoreBtn.closest('.dates-load-more-wrapper');
+    const hasExtra = extraRows.length > 0;
+    if (wrapper) {
+      wrapper.style.display = hasExtra ? '' : 'none';
+    } else {
+      loadMoreBtn.style.display = hasExtra ? '' : 'none';
+    }
+    loadMoreBtn.textContent = expanded ? 'Show fewer dates' : 'Load more dates';
+  }
+
+  const initialTab = document.querySelector('.dates-month-tab.active');
+  if (initialTab) {
+    syncLoadMoreVisibility(initialTab.getAttribute('data-month') || 'AUG');
+  }
 
   monthTabs.forEach(tab => {
     tab.addEventListener('click', () => {
       monthTabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
+      expanded = false;
 
       const targetMonth = tab.getAttribute('data-month');
       departureRows.forEach(row => {
@@ -817,13 +838,13 @@ function setupDatesAndAvailability() {
           row.style.display = 'none';
         }
       });
+
+      syncLoadMoreVisibility(targetMonth);
     });
   });
 
   // 3. Load More Dates Expander
-  const loadMoreBtn = document.getElementById('btn-load-more-dates');
   if (loadMoreBtn) {
-    let expanded = false;
     loadMoreBtn.addEventListener('click', () => {
       expanded = !expanded;
       const activeMonthTab = document.querySelector('.dates-month-tab.active');
@@ -879,14 +900,18 @@ function setupDatesAndAvailability() {
       const daysInMonth = new Date(year, month + 1, 0).getDate();
 
       const prevNavBtn = (i === 0) ? `
-        <button type="button" class="calendar-nav-btn prev-month-btn">
+        <button type="button" class="calendar-nav-btn prev-month-btn" aria-label="Previous month">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-        </button>` : '<span></span>';
+        </button>` : '<span class="calendar-nav-desktop-only"></span>';
 
-      const nextNavBtn = (i === 1) ? `
-        <button type="button" class="calendar-nav-btn next-month-btn">
+      const nextNavBtn = (i === 0) ? `
+        <button type="button" class="calendar-nav-btn next-month-btn calendar-nav-mobile-only" aria-label="Next month">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-        </button>` : '<span></span>';
+        </button>
+        <span class="calendar-nav-desktop-only"></span>` : `
+        <button type="button" class="calendar-nav-btn next-month-btn calendar-nav-desktop-only" aria-label="Next month">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>`;
 
       html += `
         <div class="calendar-month-block">
@@ -948,22 +973,22 @@ function setupDatesAndAvailability() {
     calendarMount.innerHTML = html;
 
     // Attach month navigation event listeners
-    const prevBtn = calendarMount.querySelector('.prev-month-btn');
-    const nextBtn = calendarMount.querySelector('.next-month-btn');
+    const prevBtns = calendarMount.querySelectorAll('.prev-month-btn');
+    const nextBtns = calendarMount.querySelectorAll('.next-month-btn');
 
-    if (prevBtn) {
+    prevBtns.forEach(prevBtn => {
       prevBtn.addEventListener('click', () => {
         currentMonth--;
         renderCalendar();
       });
-    }
+    });
 
-    if (nextBtn) {
+    nextBtns.forEach(nextBtn => {
       nextBtn.addEventListener('click', () => {
         currentMonth++;
         renderCalendar();
       });
-    }
+    });
 
     // Attach day cell click listeners
     const dayCells = calendarMount.querySelectorAll('.cal-day-cell:not(.disabled):not(.empty)');

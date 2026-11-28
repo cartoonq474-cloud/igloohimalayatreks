@@ -10943,6 +10943,49 @@ textarea {
   gap: 16px;
 }
 
+.dates-section-header .trek-section-title {
+  flex: 1 1 280px;
+  margin-bottom: 0;
+  font-size: clamp(1.38rem, 2.1vw, 1.68rem);
+  line-height: 1.25;
+}
+
+.dates-section-header .trek-section-title::after {
+  display: none;
+}
+
+.dates-tier-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.dates-tier-cards-grid > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .dates-tier-cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .dates-tier-cards-grid > div strong {
+    font-size: clamp(1.05rem, 4.4vw, 1.35rem) !important;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 380px) {
+  .dates-tier-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 [data-trek-key="everest"] #section-dates .dates-section-header {
   align-items: flex-end;
   margin-bottom: 22px;
@@ -11454,8 +11497,8 @@ textarea {
   align-items: center;
   gap: 20px;
   border-bottom: 1px solid #e2e8f0;
-  padding-bottom: 16px;
-  margin-bottom: 24px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .dates-year-badge {
@@ -11466,13 +11509,24 @@ textarea {
   padding: 6px 14px;
   border-radius: 8px;
   letter-spacing: 0.5px;
+  margin: 8px 0;
+  flex-shrink: 0;
 }
 
 .dates-month-tabs {
   display: flex;
+  align-items: stretch;
   gap: 24px;
   overflow-x: auto;
-  padding-bottom: 4px;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-bottom: 0;
+  min-width: 0;
+}
+
+.dates-month-tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .dates-month-tab {
@@ -11482,9 +11536,10 @@ textarea {
   font-size: 0.9rem;
   color: var(--color-neutral-600);
   cursor: pointer;
-  padding: 6px 0;
+  padding: 12px 0;
   position: relative;
   transition: color 0.2s ease;
+  flex-shrink: 0;
 }
 
 .dates-month-tab.active {
@@ -11494,7 +11549,7 @@ textarea {
 .dates-month-tab.active::after {
   content: '';
   position: absolute;
-  bottom: -17px;
+  bottom: 0;
   left: 0;
   right: 0;
   height: 3px;
@@ -11506,10 +11561,9 @@ textarea {
 .dates-departure-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  max-height: 480px;
-  overflow-y: auto;
-  padding-right: 8px;
+  gap: 12px;
+  overflow: visible;
+  padding-right: 0;
 }
 
 .dates-departure-list::-webkit-scrollbar {
@@ -11696,17 +11750,21 @@ textarea {
   border-radius: 16px;
   padding: 24px;
   background: #ffffff;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .dual-calendar-mount {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 32px;
 }
 
 .calendar-month-block {
   display: flex;
   flex-direction: column;
+  min-width: 0;
+  width: 100%;
 }
 
 .calendar-header-nav {
@@ -11737,6 +11795,16 @@ textarea {
   cursor: pointer;
   color: var(--color-neutral-700);
   transition: all 0.2s ease;
+}
+
+.calendar-nav-btn.calendar-nav-mobile-only,
+.calendar-nav-mobile-only {
+  display: none;
+}
+
+.calendar-nav-btn.calendar-nav-desktop-only,
+.calendar-nav-desktop-only {
+  display: flex;
 }
 
 .calendar-nav-btn:hover {
@@ -11877,22 +11945,128 @@ textarea {
 }
 
 @media (max-width: 768px) {
+  .dates-section-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+
+  .dates-section-header .trek-section-title {
+    flex: none;
+  }
+
+  .dates-mode-toggle {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .dates-mode-btn {
+    justify-content: center;
+    white-space: nowrap;
+    padding: 9px 10px;
+    font-size: 0.84rem;
+    gap: 6px;
+  }
+
+  .dates-group-topbar {
+    gap: 12px;
+  }
+
+  .dates-month-tabs {
+    gap: 10px;
+  }
+
   .dual-calendar-mount {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+  }
+
+  .calendar-nav-btn.calendar-nav-mobile-only,
+  .calendar-nav-mobile-only {
+    display: flex;
+  }
+
+  .calendar-nav-btn.calendar-nav-desktop-only,
+  .calendar-nav-desktop-only {
+    display: none;
   }
 
   .dates-card-container {
-    padding: 20px 16px;
+    padding: 18px 14px;
+    border-radius: 16px;
   }
 
-  .departure-item-row {
-    flex-direction: column;
+  .dual-calendar-card {
+    padding: 14px 12px;
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .calendar-weekdays-grid {
+    margin-bottom: 8px;
+  }
+
+  .calendar-weekdays-grid > div {
+    font-size: 0.78rem;
+    min-width: 0;
+  }
+
+  .calendar-days-grid {
+    gap: 4px 2px;
+  }
+
+  .cal-day-cell {
+    min-width: 0;
+    width: 100%;
+    max-width: 38px;
+    margin: 0 auto;
+    font-size: 0.84rem;
+  }
+
+  .calendar-footer-meta {
+    flex-wrap: wrap;
+    gap: 8px 14px;
     align-items: flex-start;
   }
 
+  .calendar-footer-meta .legend-item {
+    white-space: nowrap;
+  }
+
+  .private-dates-action-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .btn-select-dates {
+    width: 100%;
+    text-align: center;
+  }
+
+  .departure-item-row {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 14px;
+    padding: 14px;
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+  }
+
+  .departure-info {
+    flex: 1 1 180px;
+    min-width: 0;
+    gap: 6px 10px;
+  }
+
   .departure-action {
+    flex: 1 1 100%;
     width: 100%;
     justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px dashed #e2e8f0;
   }
 }
 
@@ -13894,6 +14068,8 @@ textarea {
     gap: 20px;
     width: 100% !important;
     max-width: 100% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
     box-sizing: border-box !important;
   }
 
@@ -21457,7 +21633,7 @@ select.control-select,
   .dates-month-tab {
     min-width: 44px !important;
     min-height: 38px !important;
-    padding: 6px 10px !important;
+    padding: 12px 10px !important;
     font-size: 0.8rem !important;
     display: inline-flex !important;
     align-items: center !important;
