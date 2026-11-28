@@ -86,7 +86,7 @@ function createApp() {
       store: new PgStore({
         pool: pgPool,
         tableName: 'session',
-        createTableIfMissing: false
+        createTableIfMissing: env.isVercel || env.isProd
       }),
       secret: env.sessionSecret,
       resave: false,

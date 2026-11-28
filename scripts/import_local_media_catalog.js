@@ -5,7 +5,7 @@
  * enriching image dimensions from data/image_cache.json.
  * Optional flag: --cloudinary uploads files to Cloudinary if credentials are set.
  */
-require('dotenv').config({ override: true });
+require('dotenv').config({ override: false });
 const fs = require('fs');
 const path = require('path');
 const { PrismaClient } = require('@prisma/client');
@@ -55,6 +55,48 @@ async function run() {
   ];
 
   console.log(`Found ${imageFiles.length} images and ${videoFiles.length} videos to index...`);
+
+  if (!cloudinaryClient) {
+    const existingRows = await prisma.mediaAsset.findMany({ select: { cloudinaryPublicId: true } });
+    const existingSet = new Set(existingRows.map((r) => r.cloudinaryPublicId));
+    const toCreate = [];
+
+    for (const item of allFiles) {
+      const relFromRoot = path.relative(ROOT_DIR, item.full).replace(/\\/g, '/');
+      const relFromType = path.relative(item.baseRoot, item.full).replace(/\\/g, '/');
+      const dirPart = path.dirname(relFromType);
+      const folder = dirPart === '.' ? item.folderPrefix : `${item.folderPrefix}/${dirPart}`.slice(0, 120);
+      const ext = path.extname(item.full).toLowerCase().replace('.', '');
+      const baseName = path.basename(item.full);
+      const cachedDims = imageCache[baseName] || null;
+      const cloudinaryPublicId = `local:${relFromRoot}`;
+
+      if (existingSet.has(cloudinaryPublicId)) continue;
+      existingSet.add(cloudinaryPublicId);
+
+      const label = path.basename(item.full, path.extname(item.full)).replace(/[-_]+/g, ' ');
+      toCreate.push({
+        cloudinaryPublicId,
+        resourceType: item.resourceType,
+        secureUrl: `/${relFromRoot}`,
+        legacyLocalPath: relFromRoot,
+        format: ext,
+        width: cachedDims ? cachedDims.width : null,
+        height: cachedDims ? cachedDims.height : null,
+        bytes: item.stat.size,
+        folder,
+        title: label,
+        altText: label
+      });
+    }
+
+    const CHUNK = 200;
+    for (let i = 0; i < toCreate.length; i += CHUNK) {
+      await prisma.mediaAsset.createMany({ data: toCreate.slice(i, i + CHUNK), skipDuplicates: true });
+    }
+    console.log(`Synced ${allFiles.length} media assets (${toCreate.length} new) into PostgreSQL.`);
+    return;
+  }
 
   let synced = 0;
   for (const item of allFiles) {

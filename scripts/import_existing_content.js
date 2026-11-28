@@ -6,7 +6,7 @@
  * and JS data modules (altitude-visualizer, weather-visualizer, data/blog/articles.js)
  * into PostgreSQL via Prisma.
  */
-require('dotenv').config({ override: true });
+require('dotenv').config({ override: false });
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
@@ -149,10 +149,31 @@ async function importDestinations() {
   return mapByRegion;
 }
 
+const mediaCache = new Map();
+
+async function warmMediaCache() {
+  const rows = await prisma.mediaAsset.findMany({
+    select: { id: true, legacyLocalPath: true, secureUrl: true, cloudinaryPublicId: true }
+  });
+  for (const row of rows) {
+    if (row.legacyLocalPath) {
+      mediaCache.set(row.legacyLocalPath.replace(/^\/+/, ''), row);
+      mediaCache.set(row.legacyLocalPath, row);
+    }
+    if (row.secureUrl) {
+      mediaCache.set(row.secureUrl, row);
+      mediaCache.set(row.secureUrl.replace(/^\/+/, ''), row);
+    }
+  }
+}
+
 async function resolveOrCreateMedia(localOrUrl, altText) {
   if (!localOrUrl) return null;
   const normalized = mapper.normalizeLocalPath(localOrUrl);
   if (!normalized) return null;
+
+  const cached = mediaCache.get(normalized) || mediaCache.get(`/${normalized}`);
+  if (cached) return cached;
 
   let media = await prisma.mediaAsset.findFirst({
     where: {
@@ -179,6 +200,8 @@ async function resolveOrCreateMedia(localOrUrl, altText) {
       }
     });
   }
+  mediaCache.set(normalized, media);
+  if (media.secureUrl) mediaCache.set(media.secureUrl, media);
   return media;
 }
 
@@ -612,7 +635,10 @@ async function importPagesTeamAndRedirects() {
   const redirectsPath = path.join(ROOT_DIR, '_redirects');
   let redirectCount = 0;
   if (fs.existsSync(redirectsPath)) {
+    const existingRedirects = await prisma.redirectRule.findMany({ select: { fromPath: true } });
+    const existingFromSet = new Set(existingRedirects.map((r) => r.fromPath));
     const lines = fs.readFileSync(redirectsPath, 'utf8').split(/\r?\n/);
+    const pendingRedirects = [];
     for (const line of lines) {
       const trimmed = line.trim();
       if (!trimmed || trimmed.startsWith('#')) continue;
@@ -621,13 +647,16 @@ async function importPagesTeamAndRedirects() {
         const fromPath = parts[0];
         const toPath = parts[1];
         const statusCode = parts[2] && parts[2].includes('302') ? 302 : 301;
-        await prisma.redirectRule.upsert({
-          where: { fromPath },
-          update: { toPath, statusCode },
-          create: { fromPath, toPath, statusCode, isActive: true }
-        });
         redirectCount++;
+        if (!existingFromSet.has(fromPath)) {
+          existingFromSet.add(fromPath);
+          pendingRedirects.push({ fromPath, toPath, statusCode, isActive: true });
+        }
       }
+    }
+    const CHUNK = 200;
+    for (let i = 0; i < pendingRedirects.length; i += CHUNK) {
+      await prisma.redirectRule.createMany({ data: pendingRedirects.slice(i, i + CHUNK), skipDuplicates: true });
     }
   }
 
@@ -636,6 +665,7 @@ async function importPagesTeamAndRedirects() {
 
 async function main() {
   console.log('Starting existing website content ingestion...');
+  await warmMediaCache();
   const { altitudeProfiles, weatherProfiles } = loadVisualizerMaps();
   const destinationsByKey = await importDestinations();
   await importPackages(destinationsByKey, altitudeProfiles, weatherProfiles);

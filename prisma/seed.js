@@ -1,6 +1,6 @@
 'use strict';
 
-require('dotenv').config({ override: true });
+require('dotenv').config({ override: false });
 const bcrypt = require('bcryptjs');
 const { PrismaClient } = require('@prisma/client');
 
