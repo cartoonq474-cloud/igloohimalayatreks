@@ -60,11 +60,15 @@ export async function parseJsonResponse(res, fallbackMessage = 'Request failed')
     if (res.ok) {
       return { success: true, data: {} };
     }
+    const emptyHint =
+      res.status === 405
+        ? 'The backend API endpoint rejected POST/write requests (HTTP 405 Method Not Allowed) — verify the Vercel /api deployment or run "npm run cms:start".'
+        : `${fallbackMessage} (HTTP ${res.status}${res.statusText ? ` ${res.statusText}` : ''})`;
     return {
       success: false,
       error: {
-        code: 'EMPTY_RESPONSE',
-        message: `${fallbackMessage} (HTTP ${res.status}${res.statusText ? ` ${res.statusText}` : ''})`
+        code: res.status === 405 ? 'METHOD_NOT_ALLOWED' : 'EMPTY_RESPONSE',
+        message: emptyHint
       }
     };
   }

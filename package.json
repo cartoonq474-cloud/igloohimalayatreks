@@ -9,6 +9,7 @@
     "serve": "node scripts/dev-server.js",
     "open": "node scripts/dev-server.js --open",
     "build": "node scripts/build.js",
+    "vercel-build": "npx prisma generate && npm run build",
     "cms:dev": "node --watch-path=server server/index.js",
     "cms:start": "node server/index.js",
     "prisma:generate": "node scripts/run_with_env.js npx prisma generate",

@@ -38,7 +38,7 @@ const ADMIN_DIR = path.join(ROOT_DIR, 'admin');
 function createApp() {
   const app = express();
 
-  if (env.isProd) {
+  if (env.isProd || env.isVercel) {
     app.set('trust proxy', 1);
   }
 

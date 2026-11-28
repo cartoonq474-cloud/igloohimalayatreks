@@ -20,9 +20,14 @@ function walk(dir) {
   const files = fs.readdirSync(dir);
   for (const file of files) {
     const fullPath = path.join(dir, file);
-    if (file === 'node_modules' || file === '.git' || file === 'scratch' || file === '.gemini') continue;
+    if (file.startsWith('.') || file === 'node_modules' || file === 'scratch') continue;
 
-    const stat = fs.statSync(fullPath);
+    let stat;
+    try {
+      stat = fs.statSync(fullPath);
+    } catch (_err) {
+      continue;
+    }
     if (stat.isDirectory()) {
       walk(fullPath);
     } else {
