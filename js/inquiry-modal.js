@@ -103,7 +103,7 @@ export function getModalTemplate(trekTitle = "Custom Himalayan Trip", departureI
             </label>
             <div class="inq-input-wrap">
               <svg class="inq-input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-              <select id="inq-trekkers" name="trekkers" class="inq-select">
+              <select id="inq-trekkers" name="trekkers" class="inq-select" style="-webkit-appearance: none; -moz-appearance: none; appearance: none;">
                 <option value="1">1 Person (Solo Trekker)</option>
                 <option value="2" selected>2 Persons (Most Popular)</option>
                 <option value="3-4">3–4 Persons (Small Group)</option>
@@ -832,25 +832,31 @@ export function setupInquiryModal() {
         "_autoresponse": `Namaste from Igloo Himalaya Treks! Thank you for inquiring about ${cleanTrekTitle}. Our senior trekking specialists in Kathmandu have received your details and are preparing your personalized route proposal, permit checklist, and quotation. We will respond within 2–4 hours.`
       };
 
-      try {
-        fetch('https://formsubmit.co/ajax/info@igloohimalayatreks.com', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-          },
-          body: JSON.stringify(emailPayload)
-        }).then(res => res.json()).then(data => {
-          console.log('Inquiry dispatched to info@igloohimalayatreks.com:', data);
-        }).catch(err => {
-          console.warn('FormSubmit background notification:', err);
-        });
-      } catch (err) {
-        console.warn('Email dispatch notice:', err);
-      }
+      // Detect selected package slug from picker or trek URL
+      const selectedOpt = document.querySelector('#inq-options-list .inq-opt-item.selected');
+      const pathMatch = window.location.pathname.match(/^\/(?:trek|tour)\/([^/]+)/);
+      const packageSlug = (selectedOpt && selectedOpt.getAttribute('data-slug')) || (pathMatch ? pathMatch[1] : undefined);
 
-      // Smooth submission response
-      setTimeout(() => {
+      // Submit to CMS PostgreSQL backend first, with FormSubmit fallback for static-only hosting
+      const apiPayload = {
+        name: nameVal,
+        email: emailVal,
+        phone: phoneVal,
+        travelersLabel: trekkers,
+        preferredDate: departureDate || undefined,
+        subject: subjectVal,
+        message: messageVal,
+        packageSlug,
+        packageTitle: cleanTrekTitle,
+        source: 'MODAL',
+        sourceUrl: window.location.href
+      };
+
+      const renderSuccess = (referenceCode = '', serverWaUrl = '') => {
+        const finalWaUrl = serverWaUrl || waUrl;
+        const refBadgeHtml = referenceCode
+          ? `<div style="display: inline-block; background: #EEF6FF; color: #0E3458; border: 1px solid #BFDBFE; border-radius: 999px; padding: 4px 12px; font-size: 0.82rem; font-weight: 700; margin-bottom: 12px;">Reference: ${escapeHtml(referenceCode)}</div>`
+          : '';
         const card = inquiryForm.closest('.modal-card');
         if (!card) {
           alert('Thank you! Your inquiry has been submitted. Our team will contact you shortly.');
@@ -868,6 +874,7 @@ export function setupInquiryModal() {
                 <polyline points="20 6 9 17 4 12"/>
               </svg>
             </div>
+            ${refBadgeHtml}
             <h3 class="inq-success-title">Inquiry Received! Namaste, ${escapeHtml(nameVal)}</h3>
             <p class="inq-success-desc">
               Thank you for trusting <strong>Igloo Himalaya Treks</strong>! Our Senior Expedition Planner has received your inquiry for <strong>${escapeHtml(subjectVal)}</strong> (${escapeHtml(trekkers)}).
@@ -875,7 +882,7 @@ export function setupInquiryModal() {
               We are preparing your personalized day-by-day route, gear checklist, and best price quotation. You will hear from us within <strong>2–4 hours</strong> on WhatsApp and Email.
             </p>
             <div class="inq-success-actions">
-              <a href="${waUrl}" target="_blank" rel="noopener" class="inq-submit-btn" style="width: auto; padding: 12px 28px; text-decoration: none;">
+              <a href="${finalWaUrl}" target="_blank" rel="noopener" class="inq-submit-btn" style="width: auto; padding: 12px 28px; text-decoration: none;">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
                 <span>Connect on WhatsApp for Instant Reply</span>
               </a>
@@ -899,7 +906,35 @@ export function setupInquiryModal() {
             }, 300);
           });
         }
-      }, 600);
+      };
+
+      fetch('/api/v1/public/inquiries', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(apiPayload)
+      })
+        .then(async (res) => {
+          const data = await res.json().catch(() => null);
+          if (!res.ok || !data || !data.success) {
+            throw new Error('Backend API unavailable');
+          }
+          renderSuccess(data.data.referenceCode, data.data.whatsappUrl);
+        })
+        .catch(() => {
+          // Static-host fallback via FormSubmit
+          fetch('https://formsubmit.co/ajax/info@igloohimalayatreks.com', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            },
+            body: JSON.stringify(emailPayload)
+          }).catch(() => {});
+          setTimeout(() => renderSuccess('', ''), 450);
+        });
     });
   };
 

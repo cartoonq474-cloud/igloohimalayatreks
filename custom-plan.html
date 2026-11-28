@@ -1257,22 +1257,30 @@
             "_autoresponse": `Namaste from Igloo Himalaya Treks! Thank you for requesting a custom Himalayan itinerary for ${region} (${duration}). Our lead Sherpa planner will prepare a detailed day-by-day itinerary and pricing proposal for you within 2–4 hours.`
           };
 
-          try {
+          fetch('/api/v1/public/inquiries', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify({
+              name: name || 'Traveler',
+              email,
+              phone: 'Not provided',
+              travelersLabel: travelers ? travelers + ' Traveler(s)' : undefined,
+              subject: '[Custom Trip Request] ' + region,
+              message: notes || ('Custom trip request for ' + region + ' (' + duration + '), Accommodation: ' + accommodation + ', Helicopter: ' + helicopter + ', Pace: ' + pace + '.'),
+              source: 'CUSTOM_PLAN',
+              sourceUrl: window.location.href,
+              customPlanJson: { region, duration, accommodation, helicopter, pace, travelers }
+            })
+          }).then(res => {
+            if (!res.ok) throw new Error('API unavailable');
+            return res.json();
+          }).catch(() => {
             fetch('https://formsubmit.co/ajax/info@igloohimalayatreks.com', {
               method: 'POST',
-              headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-              },
+              headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
               body: JSON.stringify(emailPayload)
-            }).then(res => res.json()).then(data => {
-              console.log('Custom trip inquiry dispatched to info@igloohimalayatreks.com:', data);
-            }).catch(err => {
-              console.warn('FormSubmit background notification:', err);
-            });
-          } catch (err) {
-            console.warn('Direct email dispatch notice:', err);
-          }
+            }).catch(() => {});
+          });
 
           setTimeout(() => {
             customForm.innerHTML = `

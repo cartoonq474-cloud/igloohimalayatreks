@@ -1839,11 +1839,14 @@ The sticky sidebar card on the right column:
     </div>
 
     <!-- Tiered Group Pricing Toggle -->
-    <div class="group-discount-toggle" onclick="const table = this.nextElementSibling; const arrow = this.querySelector('.gd-arrow'); if (table.style.display === 'none') { table.style.display = 'block'; arrow.style.transform = 'rotate(180deg)'; } else { table.style.display = 'none'; arrow.style.transform = 'rotate(0deg)'; }" style="border-top: 1px dashed #CBD5E1; border-bottom: 1px dashed #CBD5E1; padding: 10px 0; margin-bottom: 18px; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+    <button type="button" class="group-discount-toggle" id="booking-discount-toggle" aria-expanded="false" aria-controls="booking-discount-content" style="border-top: 1px dashed #CBD5E1; border-bottom: 1px dashed #CBD5E1; padding: 10px 0; margin-bottom: 18px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; width: 100%; background: transparent; font-family: inherit;">
       <span style="font-size: 0.78rem; font-weight: 800; color: #0E3458; text-transform: uppercase;">TIERED GROUP PRICING</span>
-      <span class="gd-arrow" style="font-size: 0.85rem; color: #0E3458; transition: transform 0.2s ease;">▼</span>
-    </div>
+      <span class="gd-arrow booking-discount-chevron" id="booking-discount-chevron" style="font-size: 0.85rem; color: #0E3458; transition: transform 0.2s ease;">▼</span>
+    </button>
     <!-- Tiered pricing table... -->
+    <div class="group-discount-content booking-discount-content" id="booking-discount-content" style="display: none; margin-bottom: 18px; background: #F8FAFC; border-radius: 10px; padding: 12px; font-size: 0.85rem; border: 1px solid #E2E8F0;">
+      <!-- Rows... -->
+    </div>
 
     <!-- Action Buttons -->
     <button class="btn open-inquiry-btn" data-trek-title="{Trek Title}" style="width: 100%; padding: 14px; background: #F6851F; color: #FFFFFF; border: none; border-radius: 50px; font-size: 1.05rem; font-weight: 800; cursor: pointer; margin-bottom: 12px; box-shadow: 0 4px 14px rgba(246, 133, 31, 0.35);">

@@ -4225,13 +4225,13 @@
               </div>
 
               <!-- Group Discount Accordion Toggle -->
-              <div class="group-discount-toggle" onclick="const table = this.nextElementSibling; const arrow = this.querySelector('.gd-arrow'); if (table.style.display === 'none') { table.style.display = 'block'; arrow.style.transform = 'rotate(180deg)'; } else { table.style.display = 'none'; arrow.style.transform = 'rotate(0deg)'; }" style="border-top: 1px dashed #CBD5E1; border-bottom: 1px dashed #CBD5E1; padding: 10px 0; margin-bottom: 18px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <button type="button" class="group-discount-toggle" id="booking-discount-toggle" aria-expanded="false" aria-controls="booking-discount-content" style="border-top: 1px dashed #CBD5E1; border-bottom: 1px dashed #CBD5E1; padding: 10px 0; margin-bottom: 18px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; width: 100%; background: transparent; font-family: inherit;">
                 <span style="font-size: 0.78rem; font-weight: 800; color: #0E3458; text-transform: uppercase; letter-spacing: 0.04em;">TIERED GROUP PRICING</span>
-                <span class="gd-arrow" style="font-size: 0.85rem; color: #0E3458; transition: transform 0.2s ease;">▼</span>
-              </div>
+                <span class="gd-arrow booking-discount-chevron" id="booking-discount-chevron" style="font-size: 0.85rem; color: #0E3458; transition: transform 0.2s ease;">▼</span>
+              </button>
 
               <!-- Group Discount Table -->
-              <div class="group-discount-content" style="display: none; margin-bottom: 18px; background: #F8FAFC; border-radius: 10px; padding: 12px; font-size: 0.85rem; border: 1px solid #E2E8F0;">
+              <div class="group-discount-content booking-discount-content" id="booking-discount-content" style="display: none; margin-bottom: 18px; background: #F8FAFC; border-radius: 10px; padding: 12px; font-size: 0.85rem; border: 1px solid #E2E8F0;">
                 <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #E2E8F0;">
                   <span style="color: #64748B;">1 person (Solo Traveller)</span>
                   <strong style="color: #0E3458;">USD 124 / person</strong>

@@ -8,7 +8,7 @@ function walk(dir) {
   let files = [];
   const entries = fs.readdirSync(dir);
   for (const entry of entries) {
-    if (entry.startsWith('.') || entry === 'node_modules' || entry === 'dist' || entry === 'scratch' || entry === 'images' || entry === 'Gallery' || entry === 'video') continue;
+    if (entry.startsWith('.') || entry === 'node_modules' || entry === 'dist' || entry === 'scratch' || entry === 'images' || entry === 'Gallery' || entry === 'video' || entry === 'admin' || entry === 'server' || entry === 'prisma') continue;
     const fullPath = path.join(dir, entry);
     const stat = fs.statSync(fullPath);
     if (stat.isDirectory()) {

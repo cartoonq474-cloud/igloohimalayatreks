@@ -710,16 +710,64 @@ function setupReadTracker(trekKey) {
 
 // Setup Collapsible Group Discount Accordion
 function setupDiscountAccordion() {
-  const toggleBtn = document.getElementById('booking-discount-toggle');
-  const content = document.getElementById('booking-discount-content');
-  const chevron = document.getElementById('booking-discount-chevron');
+  const toggles = document.querySelectorAll('.group-discount-toggle, #booking-discount-toggle');
+  toggles.forEach(toggleBtn => {
+    if (toggleBtn.dataset.accordionBound === 'true') return;
+    toggleBtn.dataset.accordionBound = 'true';
 
-  if (toggleBtn && content && chevron) {
-    toggleBtn.addEventListener('click', () => {
-      const isOpen = content.classList.toggle('open');
-      chevron.classList.toggle('open', isOpen);
+    // Ensure accessibility semantics
+    if (toggleBtn.tagName !== 'BUTTON' && !toggleBtn.hasAttribute('role')) {
+      toggleBtn.setAttribute('role', 'button');
+      toggleBtn.setAttribute('tabindex', '0');
+    }
+    if (!toggleBtn.hasAttribute('aria-expanded')) {
+      toggleBtn.setAttribute('aria-expanded', 'false');
+    }
+
+    function toggleDiscount(e) {
+      if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+      const card = toggleBtn.closest('.sidebar-booking-card') || toggleBtn.parentElement;
+      const content = (card && card.querySelector('.group-discount-content, #booking-discount-content, .booking-discount-content'))
+                   || document.getElementById('booking-discount-content')
+                   || toggleBtn.nextElementSibling;
+      const chevron = toggleBtn.querySelector('.gd-arrow, .booking-discount-chevron, #booking-discount-chevron')
+                   || document.getElementById('booking-discount-chevron')
+                   || (card && card.querySelector('.booking-discount-chevron, .gd-arrow'));
+
+      if (!content) return;
+
+      const isHidden = window.getComputedStyle(content).display === 'none' || content.style.display === 'none' || !content.classList.contains('open');
+
+      if (isHidden) {
+        content.style.display = 'block';
+        content.classList.add('open');
+        toggleBtn.setAttribute('aria-expanded', 'true');
+        if (chevron) {
+          chevron.style.transform = 'rotate(180deg)';
+          chevron.classList.add('open');
+        }
+      } else {
+        content.style.display = 'none';
+        content.classList.remove('open');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+        if (chevron) {
+          chevron.style.transform = 'rotate(0deg)';
+          chevron.classList.remove('open');
+        }
+      }
+    }
+
+    toggleBtn.addEventListener('click', toggleDiscount);
+    toggleBtn.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggleDiscount(e);
+      }
     });
-  }
+  });
 }
 
 // Setup Interactive Booking Dates & Availability Section

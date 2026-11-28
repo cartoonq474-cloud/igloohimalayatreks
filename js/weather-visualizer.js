@@ -1194,8 +1194,11 @@ export function renderWeatherChart(containerId) {
   if (!container) return;
 
   const rawKey = container.getAttribute('data-trek-key') || 'default';
+  const cmsProfile = (typeof window !== 'undefined' && window.__CMS_WEATHER_PROFILE__ && Array.isArray(window.__CMS_WEATHER_PROFILE__.baseDailyData) && window.__CMS_WEATHER_PROFILE__.baseDailyData.length > 0)
+    ? window.__CMS_WEATHER_PROFILE__
+    : null;
   const profileKey = WEATHER_PROFILES[rawKey] ? rawKey : (rawKey.replace(/-/g, '_') in WEATHER_PROFILES ? rawKey.replace(/-/g, '_') : 'default');
-  const profile = WEATHER_PROFILES[profileKey] || WEATHER_PROFILES['default'];
+  const profile = WEATHER_PROFILES[profileKey] || cmsProfile || WEATHER_PROFILES['default'];
   const baseDailyData = profile.baseDailyData;
   const monthData = profile.monthData;
   const regionTitle = profile.regionTitle || 'Regional Averages';

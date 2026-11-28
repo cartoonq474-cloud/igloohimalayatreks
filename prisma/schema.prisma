@@ -1,0 +1,701 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// =============================================================================
+// Enums
+// =============================================================================
+
+enum ContentStatus {
+  DRAFT
+  REVIEW
+  PUBLISHED
+  ARCHIVED
+}
+
+enum PackageType {
+  TREK
+  TOUR
+  PEAK_CLIMB
+}
+
+enum DifficultyLevel {
+  EASY
+  MODERATE
+  CHALLENGING
+  STRENUOUS
+}
+
+enum MediaResourceType {
+  IMAGE
+  VIDEO
+}
+
+enum GallerySlot {
+  HERO_MAIN
+  HERO_TILE_1
+  HERO_TILE_2
+  HERO_TILE_3
+  HERO_TILE_4
+  GALLERY
+}
+
+enum FaqCategory {
+  GENERAL
+  GEAR
+  HEALTH
+  BOOKING
+}
+
+enum InquirySource {
+  MODAL
+  CONTACT_PAGE
+  CUSTOM_PLAN
+  WHATSAPP_CALLBACK
+}
+
+enum InquiryStatus {
+  NEW
+  CONTACTED
+  QUOTED
+  NEGOTIATING
+  BOOKED
+  ARCHIVED
+  SPAM
+}
+
+enum InquiryPriority {
+  LOW
+  NORMAL
+  HIGH
+  URGENT
+}
+
+enum ReviewType {
+  CUSTOMER
+  VIDEO
+  PLATFORM
+}
+
+enum ReviewPlatform {
+  INTERNAL
+  TRIPADVISOR
+  GOOGLE
+  TRUSTPILOT
+  FACEBOOK
+}
+
+enum ReviewModerationStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum MenuLocation {
+  HEADER_MEGA_MENU
+  HEADER_MOBILE
+  FOOTER_COL_1
+  FOOTER_COL_2
+  FOOTER_COL_3
+  FOOTER_COL_4
+  FOOTER_LEGAL
+}
+
+// =============================================================================
+// 1. Session Store (connect-pg-simple)
+// =============================================================================
+
+model UserSession {
+  sid    String   @id @db.VarChar
+  sess   Json     @db.Json
+  expire DateTime @db.Timestamp(6)
+
+  @@index([expire], map: "IDX_session_expire")
+  @@map("session")
+}
+
+// =============================================================================
+// 2. Admin, Roles, Permissions & Audit Logs (Module 10)
+// =============================================================================
+
+model Role {
+  id          Int              @id @default(autoincrement())
+  name        String           @unique @db.VarChar(64)
+  displayName String           @db.VarChar(100)
+  description String?          @db.Text
+  isSystem    Boolean          @default(false)
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  users       User[]
+  permissions RolePermission[]
+
+  @@map("roles")
+}
+
+model Permission {
+  id          Int              @id @default(autoincrement())
+  key         String           @unique @db.VarChar(100)
+  module      String           @db.VarChar(64)
+  description String?          @db.Text
+  createdAt   DateTime         @default(now())
+
+  roles       RolePermission[]
+
+  @@index([module])
+  @@map("permissions")
+}
+
+model RolePermission {
+  roleId       Int
+  permissionId Int
+
+  role       Role       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@id([roleId, permissionId])
+  @@map("role_permissions")
+}
+
+model User {
+  id            Int       @id @default(autoincrement())
+  email         String    @unique @db.VarChar(255)
+  passwordHash  String    @db.VarChar(255)
+  fullName      String    @db.VarChar(150)
+  title         String?   @db.VarChar(120)
+  phone         String?   @db.VarChar(50)
+  isActive      Boolean   @default(true)
+  roleId        Int
+  avatarMediaId Int?
+  lastLoginAt   DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  role              Role          @relation(fields: [roleId], references: [id])
+  avatarMedia       MediaAsset?   @relation("UserAvatar", fields: [avatarMediaId], references: [id], onDelete: SetNull)
+  uploadedMedia     MediaAsset[]  @relation("MediaUploader")
+  assignedInquiries Inquiry[]     @relation("InquiryAssignee")
+  inquiryNotes      InquiryNote[]
+  updatedPages      Page[]
+  auditLogs         AuditLog[]
+
+  @@index([roleId])
+  @@map("users")
+}
+
+model AuditLog {
+  id         Int      @id @default(autoincrement())
+  userId     Int?
+  action     String   @db.VarChar(64)
+  entityType String   @db.VarChar(64)
+  entityId   String?  @db.VarChar(100)
+  summary    String?  @db.VarChar(255)
+  diffJson   Json?
+  ipAddress  String?  @db.VarChar(64)
+  userAgent  String?  @db.VarChar(255)
+  createdAt  DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([entityType, entityId])
+  @@index([userId, createdAt])
+  @@map("audit_logs")
+}
+
+// =============================================================================
+// 3. Media Library — Cloudinary-Backed (Module 5)
+// =============================================================================
+
+model MediaAsset {
+  id                 Int               @id @default(autoincrement())
+  cloudinaryPublicId String            @unique @db.VarChar(255)
+  resourceType       MediaResourceType @default(IMAGE)
+  secureUrl          String            @db.Text
+  legacyLocalPath    String?           @db.VarChar(255)
+  format             String?           @db.VarChar(32)
+  width              Int?
+  height             Int?
+  bytes              Int?
+  folder             String            @default("general") @db.VarChar(120)
+  title              String?           @db.VarChar(200)
+  altText            String?           @db.VarChar(255)
+  caption            String?           @db.Text
+  tagsJson           Json?
+  uploadedById       Int?
+  createdAt          DateTime          @default(now())
+  updatedAt          DateTime          @updatedAt
+
+  uploadedBy          User?            @relation("MediaUploader", fields: [uploadedById], references: [id], onDelete: SetNull)
+  userAvatars         User[]           @relation("UserAvatar")
+  destinationHeroes   Destination[]    @relation("DestinationHero")
+  packageRouteMaps    Package[]        @relation("PackageRouteMap")
+  packageGalleries    PackageGallery[]
+  packageDayMedia     PackageItineraryDay[]
+  blogHeroes          BlogPost[]       @relation("BlogHero")
+  authorAvatars       AuthorProfile[]  @relation("AuthorAvatar")
+  teamAvatars         TeamMember[]     @relation("TeamAvatar")
+  reviewAuthorAvatars Review[]         @relation("ReviewAuthorAvatar")
+  reviewThumbnails    Review[]         @relation("ReviewThumbnail")
+  seoOgImages         SeoMeta[]        @relation("SeoOgImage")
+
+  @@index([folder, resourceType])
+  @@index([legacyLocalPath])
+  @@map("media_assets")
+}
+
+// =============================================================================
+// 4. SEO & Redirects (Module 8)
+// =============================================================================
+
+model SeoMeta {
+  id                 Int         @id @default(autoincrement())
+  entityType         String      @db.VarChar(64)
+  metaTitle          String      @db.VarChar(255)
+  metaDescription    String?     @db.Text
+  keywords           String?     @db.Text
+  canonicalUrl       String?     @db.VarChar(500)
+  robotsDirective    String      @default("index,follow") @db.VarChar(64)
+  ogTitle            String?     @db.VarChar(255)
+  ogDescription      String?     @db.Text
+  ogImageMediaId     Int?
+  twitterCard        String      @default("summary_large_image") @db.VarChar(64)
+  schemaType         String?     @db.VarChar(64)
+  schemaOverrideJson Json?
+  createdAt          DateTime    @default(now())
+  updatedAt          DateTime    @updatedAt
+
+  ogImageMedia MediaAsset?  @relation("SeoOgImage", fields: [ogImageMediaId], references: [id], onDelete: SetNull)
+  destinations Destination[]
+  packages     Package[]
+  blogPosts    BlogPost[]
+  pages        Page[]
+
+  @@index([entityType])
+  @@map("seo_meta")
+}
+
+model RedirectRule {
+  id         Int      @id @default(autoincrement())
+  fromPath   String   @unique @db.VarChar(500)
+  toPath     String   @db.VarChar(500)
+  statusCode Int      @default(301)
+  isActive   Boolean  @default(true)
+  note       String?  @db.VarChar(255)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@map("redirect_rules")
+}
+
+// =============================================================================
+// 5. Destinations & Categories (Module 2)
+// =============================================================================
+
+model Destination {
+  id                Int           @id @default(autoincrement())
+  slug              String        @unique @db.VarChar(150)
+  name              String        @db.VarChar(150)
+  regionKey         String        @unique @db.VarChar(64)
+  tagline           String?       @db.VarChar(255)
+  summary           String?       @db.Text
+  overviewHtml      String?       @db.Text
+  permitInfoJson    Json?
+  bestSeasonSummary String?       @db.VarChar(255)
+  faqJson           Json?
+  heroMediaId       Int?
+  seoId             Int?
+  displayOrder      Int           @default(0)
+  status            ContentStatus @default(DRAFT)
+  publishedAt       DateTime?
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+
+  heroMedia MediaAsset? @relation("DestinationHero", fields: [heroMediaId], references: [id], onDelete: SetNull)
+  seo       SeoMeta?    @relation(fields: [seoId], references: [id], onDelete: SetNull)
+  packages  Package[]
+  reviews   Review[]
+
+  @@index([status, displayOrder])
+  @@map("destinations")
+}
+
+model PackageCategory {
+  id          Int       @id @default(autoincrement())
+  slug        String    @unique @db.VarChar(100)
+  name        String    @db.VarChar(120)
+  description String?   @db.Text
+  sortOrder   Int       @default(0)
+  packages    Package[]
+
+  @@map("package_categories")
+}
+
+// =============================================================================
+// 6. Trekking & Tour Packages (Module 1)
+// =============================================================================
+
+model Package {
+  id                   Int             @id @default(autoincrement())
+  slug                 String          @unique @db.VarChar(180)
+  trekKey              String          @unique @db.VarChar(120)
+  type                 PackageType     @default(TREK)
+  title                String          @db.VarChar(255)
+  subtitle             String?         @db.VarChar(255)
+  durationDays         Int
+  maxAltitudeM         Int?
+  maxAltitudeFt        Int?
+  difficulty           DifficultyLevel @default(MODERATE)
+  startingPriceUsd     Decimal         @db.Decimal(10, 2)
+  discountPriceUsd     Decimal?        @db.Decimal(10, 2)
+  bestSeasonsJson      Json?
+  tagsJson             Json?
+  heroSummary          String?         @db.Text
+  overviewHtml         String?         @db.Text
+  highlightsJson       Json?
+  tripFactsJson        Json?
+  inclusionsJson       Json?
+  exclusionsJson       Json?
+  groupPricingJson     Json?
+  departureDatesJson   Json?
+  packingListJson      Json?
+  readBeforeBookJson   Json?
+  altitudeProfileJson  Json?
+  weatherProfileJson   Json?
+  destinationId        Int?
+  categoryId           Int?
+  routeMapMediaId      Int?
+  seoId                Int?
+  isFeatured           Boolean         @default(false)
+  sortOrder            Int             @default(0)
+  status               ContentStatus   @default(DRAFT)
+  publishedAt          DateTime?
+  createdAt            DateTime        @default(now())
+  updatedAt            DateTime        @updatedAt
+
+  destination    Destination?          @relation(fields: [destinationId], references: [id], onDelete: SetNull)
+  category       PackageCategory?      @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  routeMapMedia  MediaAsset?           @relation("PackageRouteMap", fields: [routeMapMediaId], references: [id], onDelete: SetNull)
+  seo            SeoMeta?              @relation(fields: [seoId], references: [id], onDelete: SetNull)
+  itineraryDays  PackageItineraryDay[]
+  galleries      PackageGallery[]
+  faqs           PackageFaq[]
+  recommendations   PackageRecommendation[] @relation("SourcePackage")
+  recommendedBy     PackageRecommendation[] @relation("TargetPackage")
+  inquiries      Inquiry[]
+  reviews        Review[]
+
+  @@index([status, type, destinationId])
+  @@index([isFeatured, sortOrder])
+  @@map("packages")
+}
+
+model PackageItineraryDay {
+  id              Int      @id @default(autoincrement())
+  packageId       Int
+  dayNumber       Int
+  title           String   @db.VarChar(255)
+  subtitle        String?  @db.VarChar(255)
+  altitudeM       Int?
+  locationName    String?  @db.VarChar(150)
+  durationHours   String?  @db.VarChar(80)
+  distanceKm      String?  @db.VarChar(80)
+  accommodation   String?  @db.VarChar(180)
+  meals           String?  @db.VarChar(180)
+  activityType    String?  @db.VarChar(180)
+  routeSummary    String?  @db.VarChar(255)
+  descriptionHtml String?  @db.Text
+  mediaId         Int?
+
+  package Package     @relation(fields: [packageId], references: [id], onDelete: Cascade)
+  media   MediaAsset? @relation(fields: [mediaId], references: [id], onDelete: SetNull)
+
+  @@unique([packageId, dayNumber])
+  @@map("package_itinerary_days")
+}
+
+model PackageGallery {
+  id        Int         @id @default(autoincrement())
+  packageId Int
+  mediaId   Int
+  slot      GallerySlot @default(GALLERY)
+  sortOrder Int         @default(0)
+  caption   String?     @db.VarChar(255)
+
+  package Package    @relation(fields: [packageId], references: [id], onDelete: Cascade)
+  media   MediaAsset @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+
+  @@index([packageId, slot, sortOrder])
+  @@map("package_galleries")
+}
+
+model PackageRecommendation {
+  packageId            Int
+  recommendedPackageId Int
+  sortOrder            Int @default(0)
+
+  package            Package @relation("SourcePackage", fields: [packageId], references: [id], onDelete: Cascade)
+  recommendedPackage Package @relation("TargetPackage", fields: [recommendedPackageId], references: [id], onDelete: Cascade)
+
+  @@id([packageId, recommendedPackageId])
+  @@map("package_recommendations")
+}
+
+model PackageFaq {
+  id         Int         @id @default(autoincrement())
+  packageId  Int?
+  category   FaqCategory @default(GENERAL)
+  question   String      @db.Text
+  answerHtml String      @db.Text
+  sortOrder  Int         @default(0)
+
+  package Package? @relation(fields: [packageId], references: [id], onDelete: Cascade)
+
+  @@index([packageId, category, sortOrder])
+  @@map("package_faqs")
+}
+
+// =============================================================================
+// 7. Blog Management (Module 3)
+// =============================================================================
+
+model BlogCategory {
+  id        Int        @id @default(autoincrement())
+  slug      String     @unique @db.VarChar(120)
+  name      String     @db.VarChar(150)
+  sortOrder Int        @default(0)
+  posts     BlogPost[]
+
+  @@map("blog_categories")
+}
+
+model AuthorProfile {
+  id            Int        @id @default(autoincrement())
+  slug          String     @unique @db.VarChar(120)
+  name          String     @db.VarChar(150)
+  roleTitle     String?    @db.VarChar(180)
+  experience    String?    @db.VarChar(100)
+  summits       String?    @db.VarChar(100)
+  bio           String?    @db.Text
+  avatarMediaId Int?
+  teamMemberId  Int?
+
+  avatarMedia MediaAsset? @relation("AuthorAvatar", fields: [avatarMediaId], references: [id], onDelete: SetNull)
+  teamMember  TeamMember? @relation(fields: [teamMemberId], references: [id], onDelete: SetNull)
+  posts       BlogPost[]
+
+  @@map("author_profiles")
+}
+
+model BlogPost {
+  id                  Int           @id @default(autoincrement())
+  slug                String        @unique @db.VarChar(200)
+  title               String        @db.VarChar(255)
+  h1                  String        @db.VarChar(255)
+  breadcrumbTitle     String?       @db.VarChar(150)
+  subCategory         String?       @db.VarChar(120)
+  excerpt             String?       @db.Text
+  lead                String?       @db.Text
+  quickAnswerJson     Json?
+  tocJson             Json?
+  sectionsJson        Json?
+  comparisonTableJson Json?
+  faqJson             Json?
+  readingMinutes      Int           @default(5)
+  wordCount           Int           @default(0)
+  categoryId          Int?
+  authorId            Int?
+  heroMediaId         Int?
+  heroCaption         String?       @db.Text
+  seoId               Int?
+  isFeatured          Boolean       @default(false)
+  status              ContentStatus @default(DRAFT)
+  publishedAt         DateTime?
+  createdAt           DateTime      @default(now())
+  updatedAt           DateTime      @updatedAt
+
+  category  BlogCategory?  @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  author    AuthorProfile? @relation(fields: [authorId], references: [id], onDelete: SetNull)
+  heroMedia MediaAsset?    @relation("BlogHero", fields: [heroMediaId], references: [id], onDelete: SetNull)
+  seo       SeoMeta?       @relation(fields: [seoId], references: [id], onDelete: SetNull)
+
+  @@index([status, publishedAt])
+  @@index([categoryId])
+  @@map("blog_posts")
+}
+
+// =============================================================================
+// 8. Page Management & Team Profiles (Module 4)
+// =============================================================================
+
+model Page {
+  id           Int           @id @default(autoincrement())
+  slug         String        @unique @db.VarChar(150)
+  title        String        @db.VarChar(255)
+  templateKey  String        @db.VarChar(80)
+  sectionsJson Json
+  status       ContentStatus @default(PUBLISHED)
+  seoId        Int?
+  updatedById  Int?
+  publishedAt  DateTime?
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  seo       SeoMeta? @relation(fields: [seoId], references: [id], onDelete: SetNull)
+  updatedBy User?    @relation(fields: [updatedById], references: [id], onDelete: SetNull)
+
+  @@map("pages")
+}
+
+model TeamMember {
+  id            Int             @id @default(autoincrement())
+  slug          String          @unique @db.VarChar(150)
+  name          String          @db.VarChar(150)
+  role          String          @db.VarChar(150)
+  countryBadge  String          @default("NEPAL") @db.VarChar(60)
+  phone         String?         @db.VarChar(50)
+  whatsappUrl   String?         @db.VarChar(500)
+  bioHtml       String?         @db.Text
+  avatarMediaId Int?
+  isFooterRep   Boolean         @default(false)
+  sortOrder     Int             @default(0)
+  isActive      Boolean         @default(true)
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+
+  avatarMedia    MediaAsset?     @relation("TeamAvatar", fields: [avatarMediaId], references: [id], onDelete: SetNull)
+  authorProfiles AuthorProfile[]
+
+  @@index([isActive, isFooterRep, sortOrder])
+  @@map("team_members")
+}
+
+// =============================================================================
+// 9. Inquiry & Lead Management (Module 6)
+// =============================================================================
+
+model Inquiry {
+  id                   Int             @id @default(autoincrement())
+  referenceCode        String          @unique @db.VarChar(32)
+  source               InquirySource   @default(MODAL)
+  sourceUrl            String?         @db.VarChar(500)
+  packageId            Int?
+  packageTitleSnapshot String?         @db.VarChar(255)
+  name                 String          @db.VarChar(150)
+  email                String          @db.VarChar(255)
+  phone                String          @db.VarChar(80)
+  travelersLabel       String?         @db.VarChar(80)
+  preferredDate        String?         @db.VarChar(120)
+  subject              String          @db.VarChar(255)
+  message              String          @db.Text
+  customPlanJson       Json?
+  status               InquiryStatus   @default(NEW)
+  priority             InquiryPriority @default(NORMAL)
+  assignedToId         Int?
+  ipAddress            String?         @db.VarChar(64)
+  createdAt            DateTime        @default(now())
+  updatedAt            DateTime        @updatedAt
+
+  package    Package?      @relation(fields: [packageId], references: [id], onDelete: SetNull)
+  assignedTo User?         @relation("InquiryAssignee", fields: [assignedToId], references: [id], onDelete: SetNull)
+  notes      InquiryNote[]
+
+  @@index([status, priority, createdAt])
+  @@index([assignedToId, status])
+  @@index([email])
+  @@map("inquiries")
+}
+
+model InquiryNote {
+  id             Int       @id @default(autoincrement())
+  inquiryId      Int
+  authorId       Int?
+  noteText       String    @db.Text
+  nextFollowUpAt DateTime?
+  createdAt      DateTime  @default(now())
+
+  inquiry Inquiry @relation(fields: [inquiryId], references: [id], onDelete: Cascade)
+  author  User?   @relation(fields: [authorId], references: [id], onDelete: SetNull)
+
+  @@index([inquiryId, createdAt])
+  @@map("inquiry_notes")
+}
+
+// =============================================================================
+// 10. Reviews & Testimonials (Module 7)
+// =============================================================================
+
+model Review {
+  id                     Int                    @id @default(autoincrement())
+  packageId              Int?
+  destinationId          Int?
+  reviewType             ReviewType             @default(CUSTOMER)
+  platform               ReviewPlatform         @default(INTERNAL)
+  authorName             String                 @db.VarChar(150)
+  authorCountry          String?                @db.VarChar(80)
+  authorAvatarMediaId    Int?
+  rating                 Int                    @default(5)
+  title                  String?                @db.VarChar(255)
+  body                   String                 @db.Text
+  travelDateLabel        String?                @db.VarChar(80)
+  guideName              String?                @db.VarChar(120)
+  videoUrl               String?                @db.VarChar(500)
+  thumbnailMediaId       Int?
+  photoMediaIdsJson      Json?
+  helpfulCount           Int                    @default(0)
+  isVerified             Boolean                @default(true)
+  isFeaturedHome         Boolean                @default(false)
+  status                 ReviewModerationStatus @default(PENDING)
+  createdAt              DateTime               @default(now())
+  updatedAt              DateTime               @updatedAt
+
+  package           Package?     @relation(fields: [packageId], references: [id], onDelete: SetNull)
+  destination       Destination? @relation(fields: [destinationId], references: [id], onDelete: SetNull)
+  authorAvatarMedia MediaAsset?  @relation("ReviewAuthorAvatar", fields: [authorAvatarMediaId], references: [id], onDelete: SetNull)
+  thumbnailMedia    MediaAsset?  @relation("ReviewThumbnail", fields: [thumbnailMediaId], references: [id], onDelete: SetNull)
+
+  @@index([status, reviewType, platform])
+  @@index([packageId, status])
+  @@map("reviews")
+}
+
+// =============================================================================
+// 11. Website Settings & Navigation Menus (Module 9)
+// =============================================================================
+
+model SiteSetting {
+  id                     Int      @id @default(1)
+  companyName            String   @db.VarChar(200)
+  legalName              String   @db.VarChar(200)
+  tagline                String?  @db.VarChar(255)
+  phonePrimary           String   @db.VarChar(50)
+  whatsappNumber         String   @db.VarChar(50)
+  emailPrimary           String   @db.VarChar(255)
+  emailSecondary         String?  @db.VarChar(255)
+  officeAddress          String   @db.Text
+  officeHours            String?  @db.VarChar(255)
+  geoLat                 Float?
+  geoLng                 Float?
+  socialLinksJson        Json
+  tripadvisorAwardJson   Json?
+  copyrightText          String   @db.VarChar(255)
+  googleSiteVerification String?  @db.VarChar(255)
+  analyticsId            String?  @db.VarChar(100)
+  updatedAt              DateTime @updatedAt
+
+  @@map("site_settings")
+}
+
+model NavigationMenu {
+  id        Int          @id @default(autoincrement())
+  location  MenuLocation @unique
+  title     String       @db.VarChar(120)
+  itemsJson Json
+  updatedAt DateTime     @updatedAt
+
+  @@map("navigation_menus")
+}

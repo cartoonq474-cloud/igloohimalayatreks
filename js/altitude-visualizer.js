@@ -2029,7 +2029,13 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
   const container = document.getElementById(containerId);
   if (!container) return;
 
-  const data = trekAltitudeProfiles[trekKey] || trekAltitudeProfiles["ebc"];
+  const cmsAlt = (typeof window !== 'undefined' && window.__CMS_ALTITUDE_PROFILE__ && Array.isArray(window.__CMS_ALTITUDE_PROFILE__.points) && window.__CMS_ALTITUDE_PROFILE__.points.length > 0)
+    ? window.__CMS_ALTITUDE_PROFILE__
+    : null;
+  if (cmsAlt && !trekAltitudeProfiles[trekKey] && trekKey !== 'ebc') {
+    trekAltitudeProfiles[trekKey] = cmsAlt;
+  }
+  const data = trekAltitudeProfiles[trekKey] || cmsAlt || trekAltitudeProfiles["ebc"];
   const points = data.points;
   
   const unit = getCurrentUnit();
@@ -2055,7 +2061,7 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
   const maxAlt = maxPoint + (isFeet ? 1500 : 500);
   const minAlt = Math.max(0, minPoint - (isFeet ? 1500 : 500));
 
-  const getX = (index) => paddingLeft + (index / (convertedPoints.length - 1)) * (width - paddingLeft - paddingRight);
+  const getX = (index) => paddingLeft + (index / Math.max(1, convertedPoints.length - 1)) * (width - paddingLeft - paddingRight);
   const getY = (alt) => height - paddingBottom - ((alt - minAlt) / (maxAlt - minAlt)) * (height - paddingTop - paddingBottom);
 
   const coords = convertedPoints.map((p, i) => ({ x: getX(i), y: getY(p.displayAlt) }));

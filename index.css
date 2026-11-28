@@ -14806,19 +14806,29 @@ textarea {
   transition: color 0.25s ease;
 }
 
-.faq-accordion-header span:last-child {
+.faq-accordion-header > span:last-child,
+.faq-accordion-header .faq-chevron {
   font-size: 1.1rem;
   transition: transform 0.3s ease, color 0.3s ease;
-  display: inline-block;
+  display: inline-flex;
 }
 
-.faq-accordion-item.open .faq-accordion-header span:first-child,
-.faq-accordion-item.active .faq-accordion-header span:first-child {
+.faq-accordion-header .faq-header-left,
+.faq-accordion-header .faq-question-title {
+  transform: none !important;
+}
+
+.faq-accordion-item.open .faq-accordion-header .faq-question-title,
+.faq-accordion-item.active .faq-accordion-header .faq-question-title,
+.faq-accordion-item.open .faq-accordion-header > span:first-child,
+.faq-accordion-item.active .faq-accordion-header > span:first-child {
   color: #1A96C8;
 }
 
-.faq-accordion-item.open .faq-accordion-header span:last-child,
-.faq-accordion-item.active .faq-accordion-header span:last-child {
+.faq-accordion-item.open .faq-accordion-header > span:last-child,
+.faq-accordion-item.active .faq-accordion-header > span:last-child,
+.faq-accordion-item.open .faq-accordion-header .faq-chevron,
+.faq-accordion-item.active .faq-accordion-header .faq-chevron {
   transform: rotate(180deg);
   color: #1A96C8;
 }
@@ -15672,6 +15682,13 @@ textarea {
   color: #475569;
   cursor: pointer;
   transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.faq-pill-btn svg {
+  flex-shrink: 0;
 }
 
 .faq-pill-btn:hover {
@@ -17255,12 +17272,19 @@ textarea {
 }
 
 .group-discount-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   min-height: 42px;
   margin-bottom: 12px !important;
   padding: 10px 12px !important;
   border: 1px solid #DCE7EF !important;
   border-radius: 10px;
   background: #F8FAFC;
+  cursor: pointer;
+  user-select: none;
+  font-family: inherit;
   transition: background 0.2s ease, border-color 0.2s ease;
 }
 
@@ -23132,4 +23156,114 @@ select.control-select,
     font-size: 0.8rem;
     padding: 7px 14px;
   }
+}
+
+/* Rich Text CMS Output Formatting */
+.main-header.header-solid {
+  background-color: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.trek-detail-section,
+.trek-detail-section p,
+p[itemprop="description"] {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.itinerary-description img {
+  max-width: 100%;
+  height: auto;
+  max-height: 360px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 12px 0;
+  display: block;
+}
+
+select.inq-select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-image: none !important;
+  padding-right: 12px !important;
+}
+
+.inq-modal-header {
+  padding-right: 48px;
+}
+
+.inq-field-label {
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.inq-btn-subtext svg {
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .inq-selected-trip-wrap,
+  .inq-trip-chip {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .you-might-like-section .yml-header {
+    margin-bottom: 24px;
+  }
+}
+
+.rte-overview-content h2,
+.rte-overview-content h3,
+.rte-overview-content h4 {
+  color: var(--color-primary-navy, #0E3458);
+  font-weight: 700;
+  margin: 18px 0 10px;
+  line-height: 1.3;
+}
+
+.rte-overview-content p {
+  margin: 0 0 14px;
+  line-height: 1.75;
+  color: var(--color-neutral-700, #334155);
+}
+
+.trek-detail-section blockquote,
+.rte-overview-content blockquote,
+blockquote.rte-callout {
+  border-left: 4px solid #10B981;
+  background: #ECFDF5;
+  border-radius: 0 8px 8px 0;
+  padding: 16px 20px;
+  margin: 16px 0;
+  color: #0F172A;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.trek-detail-section blockquote p:last-child,
+blockquote.rte-callout p:last-child {
+  margin-bottom: 0;
+}
+
+table.rte-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  border: 1px solid #E2E8F0;
+}
+
+table.rte-table th,
+table.rte-table td {
+  border: 1px solid #E2E8F0;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+table.rte-table th {
+  background: #F8FAFC;
+  color: #0E3458;
+  font-weight: 700;
 }
