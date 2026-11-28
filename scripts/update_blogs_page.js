@@ -422,7 +422,8 @@ blogsHtml = blogsHtml.slice(0, startIdx + gridStartMarker.length) + '\n\n' + car
 fs.writeFileSync(blogsHtmlPath, blogsHtml, 'utf8');
 
 const blogHtmlPath = path.join(ROOT, 'blog.html');
-fs.writeFileSync(blogHtmlPath, blogsHtml, 'utf8');
+const cleanBlogHtml = blogsHtml.replace(/<meta\s+http-equiv=["']refresh["'][^>]*>\s*/gi, '');
+fs.writeFileSync(blogHtmlPath, cleanBlogHtml, 'utf8');
 
 // For blog/index.html, adjust depth to 1 level
 let blogIndexHtml = blogsHtml;
